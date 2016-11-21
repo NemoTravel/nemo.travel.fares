@@ -23,8 +23,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен.",
-                    "en": "Non refundable."
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -35,8 +35,8 @@
                     "en": "Exchangeable"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами.",
-                    "en": "Exchangeable: Any-time change fees are per direction, plus taxes and any fare difference (as a higher fare may apply in addition to the change fee). A same-day confirmed change is a flight change requested at check-in or at the airport prior to departure, on the day of departure.  Same-day confirmed changes are subject to availability. Change fees are per direction, plus taxes. No additional charges for fare difference apply for changes made on the day of travel when flights are operated by Air Canada. Same-day confirmed changes can be completed upon at time of check-in."
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Exchangeable: Any-time change fees are per direction, plus taxes and any fare difference (as a higher fare may apply in addition to the change fee). A same-day confirmed change is a flight change requested at check-in or at the airport prior to departure, on the day of departure.  Same-day confirmed changes are subject to availability. Change fees are per direction, plus taxes. No additional charges for fare difference apply for changes made on the day of travel when flights are operated by Air Canada. Same-day confirmed changes can be completed upon at time of check-in"
                 },
                 "needToPay": "charge"
             },
@@ -55,11 +55,11 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места ",
+                    "ru": "Выбор места",
                     "en": "Advance Seat Selection"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный выбор места.",
+                    "ru": "Бесплатный выбор места",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -102,8 +102,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен.",
-                    "en": "Non refundable."
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -114,8 +114,8 @@
                     "en": "Exchangeable"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами.",
-                    "en": "Exchangeable: Any-time change fees are per direction, plus taxes and any fare difference (as a higher fare may apply in addition to the change fee). A same-day confirmed change is a flight change requested at check-in or at the airport prior to departure, on the day of departure.  Same-day confirmed changes are subject to availability. Change fees are per direction, plus taxes. No additional charges for fare difference apply for changes made on the day of travel when flights are operated by Air Canada. Same-day confirmed changes can be completed upon at time of check-in."
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Exchangeable: Any-time change fees are per direction, plus taxes and any fare difference (as a higher fare may apply in addition to the change fee). A same-day confirmed change is a flight change requested at check-in or at the airport prior to departure, on the day of departure.  Same-day confirmed changes are subject to availability. Change fees are per direction, plus taxes. No additional charges for fare difference apply for changes made on the day of travel when flights are operated by Air Canada. Same-day confirmed changes can be completed upon at time of check-in"
                 },
                 "needToPay": "charge"
             },
@@ -134,11 +134,11 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места ",
+                    "ru": "Выбор места",
                     "en": "Advance Seat Selection"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный выбор места.",
+                    "ru": "Бесплатный выбор места",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -150,8 +150,8 @@
                     "en": "Access to Maple Leaf Lounges"
                 },
                 "fullDescription": {
-                    "ru": "Платный доступ в зал ожидания.",
-                    "en": "No free access to Maple Leaf Lounges."
+                    "ru": "Платный доступ в зал ожидания",
+                    "en": "No free access to Maple Leaf Lounges"
                 },
                 "needToPay": "charge"
             },
@@ -162,7 +162,7 @@
                     "en": "Complimentary Meal"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное питание.",
+                    "ru": "Бесплатное питание",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -193,8 +193,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов.",
-                    "en": "Fully refundable."
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Fully refundable"
                 },
                 "needToPay": "free"
             },
@@ -205,8 +205,8 @@
                     "en": "Exchangeable"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами.",
-                    "en": "Exchangeable: Any-time change fees are per direction, plus taxes and any fare difference (as a higher fare may apply in addition to the change fee). A same-day confirmed change is a flight change requested at check-in or at the airport prior to departure, on the day of departure.  Same-day confirmed changes are subject to availability. No additional charges for fare difference apply for changes made on the day of travel when flights are operated by Air Canada. Same-day confirmed changes can be completed upon at time of check-in."
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Exchangeable: Any-time change fees are per direction, plus taxes and any fare difference (as a higher fare may apply in addition to the change fee). A same-day confirmed change is a flight change requested at check-in or at the airport prior to departure, on the day of departure.  Same-day confirmed changes are subject to availability. No additional charges for fare difference apply for changes made on the day of travel when flights are operated by Air Canada. Same-day confirmed changes can be completed upon at time of check-in"
                 },
                 "needToPay": "charge"
             },
@@ -241,8 +241,8 @@
                     "en": "Access to Maple Leaf Lounges"
                 },
                 "fullDescription": {
-                    "ru": "Платный доступ в зал ожидания.",
-                    "en": "No free access to Maple Leaf Lounges."
+                    "ru": "Платный доступ в зал ожидания",
+                    "en": "No free access to Maple Leaf Lounges"
                 },
                 "needToPay": "charge"
             },
@@ -253,7 +253,7 @@
                     "en": "Complimentary Meal"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное питание.",
+                    "ru": "Бесплатное питание",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -265,7 +265,7 @@
                     "en": "Advance Seat Selection"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный выбор места.",
+                    "ru": "Бесплатный выбор места",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -308,8 +308,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен.",
-                    "en": "Non refundable."
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -320,8 +320,8 @@
                     "en": "Exchangeable"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами.",
-                    "en": "Exchangeable: Any-time change fees are per direction, plus taxes and any fare difference (as a higher fare may apply in addition to the change fee). A same-day confirmed change is a flight change requested at check-in or at the airport prior to departure, on the day of departure.  Same-day confirmed changes are subject to availability. No additional charges for fare difference apply for changes made on the day of travel when flights are operated by Air Canada. Same-day confirmed changes can be completed upon at time of check-in."
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Exchangeable: Any-time change fees are per direction, plus taxes and any fare difference (as a higher fare may apply in addition to the change fee). A same-day confirmed change is a flight change requested at check-in or at the airport prior to departure, on the day of departure.  Same-day confirmed changes are subject to availability. No additional charges for fare difference apply for changes made on the day of travel when flights are operated by Air Canada. Same-day confirmed changes can be completed upon at time of check-in"
                 },
                 "needToPay": "charge"
             },
@@ -356,8 +356,8 @@
                     "en": "Access to Maple Leaf Lounges"
                 },
                 "fullDescription": {
-                    "ru": "Платный доступ в зал ожидания.",
-                    "en": "No free access to Maple Leaf Lounges."
+                    "ru": "Платный доступ в зал ожидания",
+                    "en": "No free access to Maple Leaf Lounges"
                 },
                 "needToPay": "charge"
             },
@@ -368,7 +368,7 @@
                     "en": "Complimentary Meal"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное питание.",
+                    "ru": "Бесплатное питание",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -380,7 +380,7 @@
                     "en": "Advance Seat Selection"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный выбор места.",
+                    "ru": "Бесплатный выбор места",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -411,8 +411,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов.",
-                    "en": "Free refund."
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Free refund"
                 },
                 "needToPay": "free"
             },
@@ -423,8 +423,8 @@
                     "en": "Exchangeable"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен без сборов.",
-                    "en": "Free change. "
+                    "ru": "Обмен билета разрешен без сборов",
+                    "en": "Free change"
                 },
                 "needToPay": "free"
             },
@@ -459,8 +459,8 @@
                     "en": "Access to Maple Leaf Lounges"
                 },
                 "fullDescription": {
-                    "ru": "Платный доступ в зал ожидания.",
-                    "en": "No free access to Maple Leaf Lounges."
+                    "ru": "Платный доступ в зал ожидания",
+                    "en": "No free access to Maple Leaf Lounges"
                 },
                 "needToPay": "charge"
             },
@@ -471,7 +471,7 @@
                     "en": "Complimentary Meal"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное питание.",
+                    "ru": "Бесплатное питание",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -483,7 +483,7 @@
                     "en": "Advance Seat Selection"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный выбор места.",
+                    "ru": "Бесплатный выбор места",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -514,8 +514,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен.",
-                    "en": "Non refundable."
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -526,8 +526,8 @@
                     "en": "Exchangeable"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами.",
-                    "en": "Exchangeable: Any-time change fees are per direction, plus taxes and any fare difference (as a higher fare may apply in addition to the change fee). A same-day confirmed change is a flight change requested at check-in or at the airport prior to departure, on the day of departure.  Same-day confirmed changes are subject to availability. Change fees are per direction, plus taxes. No additional charges for fare difference apply for changes made on the day of travel when flights are operated by Air Canada. Same-day confirmed changes can be completed upon at time of check-in."
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Exchangeable: Any-time change fees are per direction, plus taxes and any fare difference (as a higher fare may apply in addition to the change fee). A same-day confirmed change is a flight change requested at check-in or at the airport prior to departure, on the day of departure.  Same-day confirmed changes are subject to availability. Change fees are per direction, plus taxes. No additional charges for fare difference apply for changes made on the day of travel when flights are operated by Air Canada. Same-day confirmed changes can be completed upon at time of check-in"
                 },
                 "needToPay": "charge"
             },
@@ -562,7 +562,7 @@
                     "en": "Complimentary Meal"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное питание.",
+                    "ru": "Бесплатное питание",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -586,7 +586,7 @@
                     "en": "Advance Seat Selection"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный выбор места.",
+                    "ru": "Бесплатный выбор места",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -598,7 +598,7 @@
                     "en": "Access to Maple Leaf Lounges and London-Heathrow Arrivals Lounge"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный доступ в зал ожидания.",
+                    "ru": "Бесплатный доступ в зал ожидания",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -629,8 +629,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов.",
-                    "en": "Fully refundable."
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Fully refundable"
                 },
                 "needToPay": "free"
             },
@@ -641,8 +641,8 @@
                     "en": "Exchangeable"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен без сборов.",
-                    "en": "Free change. "
+                    "ru": "Обмен билета разрешен без сборов",
+                    "en": "Free change"
                 },
                 "needToPay": "free"
             },
@@ -677,7 +677,7 @@
                     "en": "Access to Maple Leaf Lounges and London-Heathrow Arrivals Lounge"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный доступ в зал ожидания.",
+                    "ru": "Бесплатный доступ в зал ожидания",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -689,7 +689,7 @@
                     "en": "Complimentary Meal"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное питание.",
+                    "ru": "Бесплатное питание",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -701,7 +701,7 @@
                     "en": "Advance Seat Selection"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный выбор места.",
+                    "ru": "Бесплатный выбор места",
                     "en": ""
                 },
                 "needToPay": "free"

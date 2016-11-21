@@ -47,8 +47,8 @@
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование не разрешено.",
-                    "en": "No rebooking allowed."
+                    "ru": "Перебронирование не разрешено",
+                    "en": "No rebooking allowed"
                 },
                 "needToPay": "notAvailable"
             },
@@ -59,8 +59,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен.",
-                    "en": "Non refundable."
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -138,7 +138,7 @@
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено со сборами.",
+                    "ru": "Перебронирование разрешено со сборами",
                     "en": ""
                 },
                 "needToPay": "charge"
@@ -150,8 +150,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен.",
-                    "en": "Non refundable."
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -229,7 +229,7 @@
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено со сборами.",
+                    "ru": "Перебронирование разрешено со сборами",
                     "en": ""
                 },
                 "needToPay": "charge"
@@ -241,8 +241,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен.",
-                    "en": "Non refundable."
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -320,7 +320,7 @@
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено без сборов.",
+                    "ru": "Перебронирование разрешено без сборов",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -332,8 +332,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами.",
-                    "en": "Refundable - penalties applies."
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable - penalties applies"
                 },
                 "needToPay": "charge"
             },
@@ -423,7 +423,7 @@
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено со сборами.",
+                    "ru": "Перебронирование разрешено со сборами",
                     "en": ""
                 },
                 "needToPay": "charge"
@@ -435,8 +435,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами.",
-                    "en": "Refundable - penalties applies."
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable - penalties applies"
                 },
                 "needToPay": "charge"
             },
@@ -538,7 +538,7 @@
                     "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено со сборами.",
+                    "ru": "Перебронирование разрешено со сборами",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -550,8 +550,8 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов.",
-                    "en": "Refundable."
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Refundable"
                 },
                 "needToPay": "free"
             },
