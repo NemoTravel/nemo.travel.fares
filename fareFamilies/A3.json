@@ -1,0 +1,136 @@
+[
+    {
+        "owner": "A3",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(NOBAG))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Go-Light",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 8 кг ",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "платный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Багаж платный.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сбором только в рамках выбранного семейства.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "A3",
+        "baseClass": "economy",
+        "tariffCodePattern": "^((?!NOBAG).)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Flex",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 8 кг ",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возможность менять билет бесплатно неограниченное количество раз в рамках семейств тарифов «Гибкий» и «Бизнес».",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета в случае отмены рейса",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "В случае внутренних рейсов допустимая не подлежащая возврату сумма тарифа равна 45 евро. Короткие международные рейсы: 50 евро. Дальние международные рейсы: 60 евро.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    }
+]

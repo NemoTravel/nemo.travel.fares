@@ -1,0 +1,541 @@
+[
+    {
+        "owner": "5N",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([EHLNPA])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Дисконт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета до вылета разрешен со сборами.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета после вылета не разрешен.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Габариты менее 115 см.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "75% миль",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "5N",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([IYSM])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Стандарт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета до вылета разрешен без сборов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета после вылета разрешен со сборами.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "125% миль",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Габариты 1 сумки до 10 кг — менее 115 см.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "5N",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([KQVTW])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Оптимум",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета до вылета разрешен со сборами.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета после вылета не разрешен.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сборами.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета не разрешен.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "100% миль",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Габариты 1 сумки до 10 кг — менее 115 см.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "5N",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([RO])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Лайт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Добровольный обмен разрешен со сборами только при снятии мест до вылета рейса. Обмен по инициативе пассажира разрешен при условии обязательного уведомления перевозчика до окончания регистрации.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "50% миль",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Габариты 1 сумки до 10 кг — менее 115 см.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "платный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возможна оплата 1 места багажа до 23 кг, габариты не более 203 см по сумме трех измерений. ",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "5N",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([X])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Габариты 1 сумки до 10 кг — менее 115 см.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

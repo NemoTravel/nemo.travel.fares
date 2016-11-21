@@ -1,0 +1,258 @@
+[
+    {
+        "owner": "BT",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(BAS))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Базовый",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение имени не разрешено. Изменение даты/времени полета невозможно, если заранее не приобретена услуга Гарантия изменения рейса.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 8 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "1 сумка ручной клади (55х40х20 см) и 1 личная вещь (30х40х10 см) — в сумме до 8 кг.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "платный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Оплата производится за сумку багажа (до 20 кг) в каждую сторону.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "BT",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(PRM))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 8 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "1 сумка ручной клади (55х40х20 см) и 1 личная вещь (30х40х10 см) — в сумме до 8 кг.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 20 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "1 сумка до 20 кг (100х50х80 см)",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение имени разрешено со сбором. Изменение даты/времени полета разрешено со сбором в любое время, но не позже времени вылета более раннего из желаемого или запланированного рейсов. Если замена даты влечет за собой повышение класса бронирования* (тот же класс бронирования* недоступен на выбранные вами даты), вам также будет необходимо оплатить разницу тарифов.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "BT",
+        "baseClass": "business",
+        "tariffCodePattern": "^(\\w*\\d*(BIZ))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки до 8 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "2 сумки ручной клади (55х40х20 см) и 1 личная вещь (30х40х10 см) — в сумме до 16 кг.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 20 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "2 сумки (100х50х80 см каждая) общим весом до 40 кг.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение имени разрешено без сборов. Изменение даты/времени полета разрешено без сборов в любое время.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "BT",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(SALE))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 8 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "1 сумка ручной клади (55х40х20 см) и 1 личная вещь (30х40х10 см) — в сумме до 8 кг.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "платный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Информацию о предоставляемых по тарифу услугах необходимо уточнять в условиях применения тарифа.",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

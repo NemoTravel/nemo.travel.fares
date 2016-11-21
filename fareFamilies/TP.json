@@ -1,0 +1,608 @@
+[
+    {
+        "owner": "TP",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(DSC))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Дисконт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 8 кг",
+                    "en": "1PC 8kg"
+                },
+                "fullDescription": {
+                    "ru": "1 сумка до 8 кг, до 55x40x20 см + 1 личная вещь до 40x30x15 см",
+                    "en": "1PC 8kg 55x40x20cm + 1 personal item 40x30x15cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "платный",
+                    "en": "no free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование не разрешено.",
+                    "en": "No rebooking allowed."
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refundability"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета не разрешен.",
+                    "en": "Non refundable."
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Закуски и напитки",
+                    "en": "Snacks or Meals & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "10% миль",
+                    "en": "10% miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "TP",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(BSC))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Базовый",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 8 кг",
+                    "en": "1PC 8kg"
+                },
+                "fullDescription": {
+                    "ru": "1 сумка до 8 кг, до 55x40x20 см + 1 личная вещь до 40x30x15 см",
+                    "en": "1PC 8kg 55x40x20cm + 1 personal item 40x30x15cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1PC 23kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено со сборами.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refundability"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета не разрешен.",
+                    "en": "Non refundable."
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Закуски и напитки",
+                    "en": "Snacks or Meals & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "40% миль",
+                    "en": "40% miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "TP",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(CLC))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Классический",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 8 кг",
+                    "en": "1PC 8kg"
+                },
+                "fullDescription": {
+                    "ru": "1 сумка до 8 кг, до 55x40x20 см + 1 личная вещь до 40x30x15 см",
+                    "en": "1PC 8kg 55x40x20cm + 1 personal item 40x30x15cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1PC 23kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено со сборами.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refundability"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета не разрешен.",
+                    "en": "Non refundable."
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Закуски и напитки",
+                    "en": "Snacks or Meals & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "70% миль",
+                    "en": "70% miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "TP",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(PLU))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Плюс",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 8 кг",
+                    "en": "1PC 8kg"
+                },
+                "fullDescription": {
+                    "ru": "1 сумка до 8 кг, до 55x40x20 см + 1 личная вещь до 40x30x15 см",
+                    "en": "1PC 8kg 55x40x20cm + 1 personal item 40x30x15cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1PC 23kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено без сборов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refundability"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами.",
+                    "en": "Refundable - penalties applies."
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Закуски и напитки",
+                    "en": "Snacks or Meals & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "100% миль",
+                    "en": "100% miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority Check-in, Baggage Handling and Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "TP",
+        "baseClass": "business",
+        "tariffCodePattern": "^(\\w*\\d*(EXE))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эксклюзивный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки до 8 кг каждая",
+                    "en": "2PC 8kg"
+                },
+                "fullDescription": {
+                    "ru": "2 сумки до 8 кг, до 55x40x20 см + 1 личная вещь до 40x30x15 см",
+                    "en": "2PC 8kg 55x40x20cm + 1 personal item 40x30x15cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": "2PC 32kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено со сборами.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refundability"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами.",
+                    "en": "Refundable - penalties applies."
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Горячее питание и напитки",
+                    "en": "Meals & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "150% миль",
+                    "en": "150% miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority Check-in, Baggage Handling and Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "TP",
+        "baseClass": "business",
+        "tariffCodePattern": "^(\\w*\\d*(TOP))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Лучший",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки до 8 кг каждая",
+                    "en": "2PC 8kg"
+                },
+                "fullDescription": {
+                    "ru": "2 сумки до 8 кг, до 55x40x20 см + 1 личная вещь до 40x30x15 см",
+                    "en": "2PC 8kg 55x40x20cm + 1 personal item 40x30x15cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": "2PC 32kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено со сборами.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refundability"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов.",
+                    "en": "Refundable."
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Горячее питание и напитки",
+                    "en": "Meals & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "200% миль",
+                    "en": "200% miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority Check-in, Baggage Handling and Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

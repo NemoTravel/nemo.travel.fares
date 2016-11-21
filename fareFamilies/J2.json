@@ -1,0 +1,1087 @@
+[
+    {
+        "owner": "J2",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([PEO])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Бюджет",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг).",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "платный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Бесплатная норма провоза багажа не предоставляется.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета не разрешен.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета не разрешен.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета не разрешено.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета не разрешено.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "business",
+        "tariffCodePattern": "^([J])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "ВИП",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки до 10 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (2 сумки до 10 кг каждая).",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "3 сумки до 32 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен без штрафов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено без штрафов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Выписка «с открытой датой»",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Выписка «с открытой датой» разрешается.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания  Бизнес Класса",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "business",
+        "tariffCodePattern": "^([WC])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфорт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки до 10 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (2 сумки до 10 кг каждая).",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен без штрафов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено без штрафов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Выписка «с открытой датой»",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Выписка «с открытой датой» разрешается.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания  Бизнес Класса",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "business",
+        "tariffCodePattern": "^([D])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес стандарт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки до 10 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (2 сумки до 10 кг каждая).",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Выписка «с открытой датой»",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Выписка «с открытой датой» разрешается.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания  Бизнес Класса",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([Y])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом классик",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг).",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 23 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен без штрафов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено без штрафов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Выписка «с открытой датой»",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Выписка «с открытой датой» разрешается.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([B])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Cтандарт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг).",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([TL])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Специальный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг).",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен без штрафов.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета не разрешен.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([N])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Комфорт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг).",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "платный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Бесплатная норма провоза багажа не предоставляется.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен без штрафов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено без штрафов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([MK])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Скидочный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг).",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "платный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Бесплатная норма провоза багажа не предоставляется.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета не разрешен.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета не разрешено.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "business",
+        "tariffCodePattern": "^([Z])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Прорейт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки до 10 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (2 сумки до 10 кг каждая).",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Выписка «с открытой датой»",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Выписка «с открытой датой» разрешается.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Стоповер",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Остановка в пути (stopover) разрешается.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания  Бизнес Класса",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([H])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Прорейт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг).",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено со штрафом.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Стоповер",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Остановка в пути (stopover) разрешается.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

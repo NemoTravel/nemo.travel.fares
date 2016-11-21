@@ -1,0 +1,323 @@
+[
+    {
+        "owner": "6R",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([HKMNVBLTC])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг —  не более 55*40*20 см.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "1 место весом до 23 кг включительно, размером до 203 см по сумме 3-х измерений длина-ширина-высота.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты, номера рейса, маршрута за исключением NO-SHOW",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты, номера рейса, маршрута за исключением NO-SHOW разрешаются без сборов. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты, номера рейса, маршрута в случае NO-SHOW",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты, номера рейса, маршрута в случае NO-SHOW разрешаются со сбором. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат за исключением NO-SHOW",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Тариф на неиспользованных участках подлежит возврату. Взимается сбор за возврат за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Закуска/горячее питание",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат в случае NO-SHOW",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Тариф на неиспользованных участках подлежит возврату. Взимается сбор за возврат за каждый возвращаемый участок, на котором была неявка, и сбор за возврат за каждый возвращаемый участок, на котором не было неявки. Сбор за оформление авиабилета возврату не подлежит.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выбор места при регистрации",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "6R",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([WOEU])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Невозвратный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг — не более 55*40*20 см.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "платный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Закуска/горячее питание",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты, номера рейса, маршрута",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты, номера рейса, маршрута разрешаются со сборами. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью не возвратный. Сбор за оформление авиабилета возврату не подлежит.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выбор места при регистрации",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "6R",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([Y])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Стандартный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты, номера рейса, маршрута в случае NO-SHOW",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты, номера рейса, маршрута в случае NO-SHOW разрешаются со сбором. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты, номера рейса, маршрута за исключением NO-SHOW",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Разрешается без сборов. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг — не более 55*40*20 см.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 или 2 места в сумме весом до 23 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "1 или 2 места в сумме весом до 23 кг включительно, размером до 203 см по сумме 3-х измерений длина-ширина-высота.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат за исключением NO-SHOW",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Тариф на неиспользованных участках подлежит возврату. Взимается сбор за возврат за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат в случае NO-SHOW",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Тариф на неиспользованных участках подлежит возврату. Взимается сбор за возврат за каждый возвращаемый участок, на котором была неявка, и сбор за возврат за каждый возвращаемый участок, на котором не было неявки. Сбор за оформление авиабилета возврату не подлежит.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Закуска/горячее питание",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выбор места при регистрации",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

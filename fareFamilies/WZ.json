@@ -1,0 +1,354 @@
+[
+    {
+        "owner": "WZ",
+        "baseClass": "business",
+        "tariffCodePattern": "^([CDI])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "не более 30кг, включая ручную кладь",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Габариты не более 203 см по сумме трех измерений. ",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Габариты 1 сумки до 10 кг — не более 55x40x20 см.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета за 24 часа до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета за 24 часа до вылета разрешен без сборов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета менее чем за 24 часа до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета менее чем за 24 часа до вылета разрешен со сбором.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета разрешено без сборов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "WZ",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([TQNMLKBUF])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Легкий",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Габариты 1 сумки до 10 кг — не более 55x40x20 см. В случае превышения нормы бесплатного провоза ручной клади пассажир имеет возможность оформить к перевозке в качестве зарегистрированного багажа часть ручной клади, превышающей норму бесплатного провоза, с оплатой каждого килограмма перевеса, либо всю ручную кладь с оплатой её полного веса.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "не более 20 кг, включая ручную кладь",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Вес не более 20 кг, включая ручную кладь, габариты не более 203 см по сумме трех измерений. Возможность оформить провоз одного комплекта лыжного снаряжения (1 пара лыж, 1 пара лыжных палок, 1 пара лыжных ботинок) весом до 20 кг.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета разрешено со сбором.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Холодное или горячее питание, напитки.",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Места повышенной комфортности",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возможность за дополнительную плату оформить \"Места повышенной комфортности\".",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "WZ",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([OZEV])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Промо",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Габариты 1 сумки до 10 кг — не более 55x40x20 см.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета запрещено.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Холодное или горячее питание, напитки.",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Места повышенной комфортности",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возможность за дополнительную плату оформить \"Места повышенной комфортности\".",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "WZ",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([RWY])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Стандарт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Габариты 1 сумки до 10 кг — не более 55x40x20 см. В случае превышения нормы бесплатного провоза ручной клади пассажир имеет возможность оформить к перевозке в качестве зарегистрированного багажа часть ручной клади, превышающей норму бесплатного провоза, с оплатой каждого килограмма перевеса, либо всю ручную кладь с оплатой её полного веса.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "не более 20 кг, включая ручную кладь",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Вес не более 20 кг, включая ручную кладь, габариты не более 203 см по сумме трех измерений. Возможность оформить провоз одного комплекта лыжного снаряжения (1 пара лыж, 1 пара лыжных палок, 1 пара лыжных ботинок) весом до 20 кг.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета за 24 часа до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета за 24 часа до вылета разрешен без сборов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета менее чем за 24 часа до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета менее чем за 24 часа до вылета разрешен со сбором.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета разрешено без сборов.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Холодное или горячее питание, напитки.",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Места повышенной комфортности",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возможность за дополнительную плату оформить \"Места повышенной комфортности\".",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    }
+]

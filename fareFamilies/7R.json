@@ -1,0 +1,381 @@
+[
+    {
+        "owner": "7R",
+        "baseClass": "economy",
+        "perSegmentExchangePenalty": "1000RUB",
+        "tariffCodePattern": "^([NMQKSBH])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Тариф 2",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 или 2 места в сумме весом до 20 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменения более чем за 24 часа до вылета производятся за дополнительную плату.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменения менее чем за 24 часа до вылета производятся за дополнительную плату.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат более чем за 24 часа до вылета производятся за дополнительную плату.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после вылета недоступен",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат после вылета в данном тарифе недоступен.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "7R",
+        "baseClass": "economy",
+        "perSegmentExchangePenalty": "1000RUB",
+        "tariffCodePattern": "^[AOUELGXVT]\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Тариф 1",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг ",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменения более чем за 24 часа до вылета производятся за дополнительную плату.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменения менее чем за 24 часа до вылета недоступны.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета не разрешен",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "7R",
+        "baseClass": "economy",
+        "perSegmentExchangePenalty": "1000RUB",
+        "tariffCodePattern": "^([Y])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Тариф 3",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 или 2 места в сумме весом до 20 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменения более чем за 24 часа до вылета производятся бесплатно.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменения менее чем за 24 часа до вылета производятся за дополнительную плату.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат более чем за 24 часа до вылета производятся бесплатно.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат менее чем за 24 часа до вылета и после вылета производятся за дополнительную плату.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "7R",
+        "baseClass": "business",
+        "tariffCodePattern": "^([Z])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Тариф 4",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 или 2 места в сумме весом до 20 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения и возврат до вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменения и возврат более чем за 24 часа до вылета производятся бесплатно.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение и возврат после вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменения и возврат менее чем за 24 часа до вылета и после вылета производятся за дополнительную плату.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес-зал",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Доступ к бизнес-залу.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Бесплатное питание.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Отдельный транспорт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

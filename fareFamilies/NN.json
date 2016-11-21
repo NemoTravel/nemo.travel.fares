@@ -1,0 +1,505 @@
+[
+    {
+        "owner": "NN",
+        "baseClass": "business",
+        "tariffCodePattern": "^([C])\\w*\\d*",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время).",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешается со сбором. При этом возвращается тариф неиспользованного участка маршрута перевозки. Тариф для расчета сбора - тариф участка. Сбор рассчитывается для всего билета.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация на рейс",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места в самолете",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Улучшенное питание",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "NN",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(COMFORT|D))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфорт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время).",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешается со сбором. При этом возвращается тариф неиспользованного участка маршрута перевозки. Тариф для расчета сбора - тариф участка. Сбор рассчитывается для всего билета.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация на рейс",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места в самолете",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Улучшенное питание",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "NN",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(EC))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возможно приобретение дополнительных мест багажа за плату.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешается со сбором. При этом возвращается тариф неиспользованного участка маршрута перевозки. Тариф для расчета сбора - тариф участка. Сбор рассчитывается для всего билета.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время).",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места в самолете",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Стандартное питание",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Пассажирам экономического класса в полете предлагается чайный набор (при продолжительности полета до 3,5 часов) или горячее (при продолжительности полета более 3,5 часов) питание и безалкогольные напитки. Помимо основного рациона питания, авиакомпания предлагает пассажирам всех классов обслуживания бесплатное вегетарианское, мусульманское, детское меню и питание из морепродуктов. Данное питание предоставляется только на рейсах протяженностью более 3,5 часов, вылетающих из аэропорта Домодедово.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "NN",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(PL))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом плюс",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 23 кг каждая",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возможно приобретение дополнительных мест багажа за плату.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешается со сбором. При этом возвращается тариф неиспользованного участка маршрута перевозки. Тариф для расчета сбора - тариф участка. Сбор рассчитывается для всего билета.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время).",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места в самолете",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Стандартное питание",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Пассажирам экономического класса в полете предлагается чайный набор (при продолжительности полета до 3,5 часов) или горячее (при продолжительности полета более 3,5 часов) питание и безалкогольные напитки. Помимо основного рациона питания, авиакомпания предлагает пассажирам всех классов обслуживания бесплатное вегетарианское, мусульманское, детское меню и питание из морепродуктов. Данное питание предоставляется только на рейсах протяженностью более 3,5 часов, вылетающих из аэропорта Домодедово.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "NN",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(PR))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Промо",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "платный",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета до отправления",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время) до отправления воздушного судна.",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета после отправления",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки запрещается после отправления воздушного судна с полной или неполной коммерческой загрузкой.",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места в самолете",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Стандартное питание",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Пассажирам экономического класса в полете предлагается чайный набор (при продолжительности полета до 3,5 часов) или горячее (при продолжительности полета более 3,5 часов) питание и безалкогольные напитки. Помимо основного рациона питания, авиакомпания предлагает пассажирам всех классов обслуживания бесплатное вегетарианское, мусульманское, детское меню и питание из морепродуктов. Данное питание предоставляется только на рейсах протяженностью более 3,5 часов, вылетающих из аэропорта Домодедово.",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]
