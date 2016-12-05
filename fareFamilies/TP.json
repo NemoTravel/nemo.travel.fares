@@ -59,7 +59,7 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен",
+                    "ru": "Тариф полностью невозвратный",
                     "en": "Non refundable"
                 },
                 "needToPay": "notAvailable"
@@ -150,7 +150,7 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен",
+                    "ru": "Тариф полностью невозвратный",
                     "en": "Non refundable"
                 },
                 "needToPay": "notAvailable"
@@ -241,7 +241,7 @@
                     "en": "Refundability"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен",
+                    "ru": "Тариф полностью невозвратный",
                     "en": "Non refundable"
                 },
                 "needToPay": "notAvailable"

@@ -671,7 +671,7 @@
                 "needToPay": "free"
             },
             {
-                "code": "exchangeable",
+                "code": "refundable",
                 "shortDescription": {
                     "ru": "Возмещение стоимости",
                     "en": ""

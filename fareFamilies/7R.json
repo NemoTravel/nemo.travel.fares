@@ -263,7 +263,7 @@
     {
         "owner": "7R",
         "baseClass": "business",
-        "tariffCodePattern": "^([Z])\\w*\\d*$",
+        "tariffCodePattern": "^([ZJ])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",

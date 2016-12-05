@@ -162,7 +162,7 @@
                     "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен",
+                    "ru": "Тариф полностью невозвратный",
                     "en": ""
                 },
                 "needToPay": "notAvailable"
@@ -332,7 +332,7 @@
                     "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен",
+                    "ru": "Тариф полностью невозвратный",
                     "en": ""
                 },
                 "needToPay": "notAvailable"
