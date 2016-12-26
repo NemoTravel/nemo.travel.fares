@@ -8,7 +8,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Промо",
-                    "en": ""
+                    "en": "JustFly"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -20,11 +20,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 8 кг",
-                    "en": ""
+                    "en": "1 item up to 8 kg"
                 },
                 "fullDescription": {
                     "ru": "Вес сумки не должен превышать 8 кг, с ноутбуком – 10 кг",
-                    "en": ""
+                    "en": "1 item up to 8 kg (with a laptop — up to 10 kg)"
                 },
                 "needToPay": "free"
             },
@@ -32,7 +32,7 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Закуски и напитки",
-                    "en": ""
+                    "en": "Snacks & Beverages"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -44,11 +44,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование",
-                    "en": ""
+                    "en": "Rebooking"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование не разрешено",
-                    "en": ""
+                    "en": "Rebooking — not available"
                 },
                 "needToPay": "notAvailable"
             },
@@ -56,19 +56,19 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "Платный багаж",
-                    "en": ""
+                    "ru": "платный",
+                    "en": "no free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -87,7 +87,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Деловой",
-                    "en": ""
+                    "en": "FlyDeal"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -99,11 +99,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 8 кг",
-                    "en": ""
+                    "en": "1 item up to 8 kg"
                 },
                 "fullDescription": {
                     "ru": "Вес сумки не должен превышать 8 кг, с ноутбуком – 10 кг",
-                    "en": ""
+                    "en": "1 item up to 8 kg (with a laptop — up to 10 kg)"
                 },
                 "needToPay": "free"
             },
@@ -111,7 +111,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -123,7 +123,7 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Закуски и напитки",
-                    "en": ""
+                    "en": "Snacks & Beverages"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -135,11 +135,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование",
-                    "en": ""
+                    "en": "Rebooking"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование не разрешено",
-                    "en": ""
+                    "en": "Rebooking — not available"
                 },
                 "needToPay": "notAvailable"
             },
@@ -147,11 +147,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             }
@@ -166,7 +166,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Классический",
-                    "en": ""
+                    "en": "FlyClassic"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -178,7 +178,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -190,11 +190,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 8 кг",
-                    "en": ""
+                    "en": "1 item up to 8 kg"
                 },
                 "fullDescription": {
                     "ru": "Вес сумки не должен превышать 8 кг, с ноутбуком – 10 кг",
-                    "en": ""
+                    "en": "1 item up to 8 kg (with a laptop — up to 10 kg)"
                 },
                 "needToPay": "free"
             },
@@ -202,11 +202,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -214,7 +214,7 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Закуски и напитки",
-                    "en": ""
+                    "en": "Snacks & Beverages"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -226,11 +226,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Резервирование мест",
-                    "en": ""
+                    "en": "Seat Reservation"
                 },
                 "fullDescription": {
                     "ru": "К бесплатному резервированию обычные и XL места",
-                    "en": ""
+                    "en": "Standard and XL seat reservation — available"
                 },
                 "needToPay": "free"
             },
@@ -238,11 +238,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование",
-                    "en": ""
+                    "en": "Rebooking"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование разрешено со сборами",
-                    "en": ""
+                    "en": "Rebooking — available. A fee applies"
                 },
                 "needToPay": "charge"
             }
@@ -257,7 +257,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Гибкий",
-                    "en": ""
+                    "en": "FlyFlex+"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -269,7 +269,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Пакет приоритетного обслуживания",
-                    "en": ""
+                    "en": "Priority Services"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -281,11 +281,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 8 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 8 kg each"
                 },
                 "fullDescription": {
                     "ru": "2 сумки. Вес сумки не должен превышать 8 кг, с ноутбуком – 10 кг",
-                    "en": ""
+                    "en": "2 items up to 8 kg each (with a laptop — up to 10 kg)"
                 },
                 "needToPay": "free"
             },
@@ -293,7 +293,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 23 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 23 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -305,7 +305,7 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Закуски и напитки",
-                    "en": ""
+                    "en": "Snacks & Beverages"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -317,11 +317,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Резервирование мест",
-                    "en": ""
+                    "en": "Seat Reservation"
                 },
                 "fullDescription": {
                     "ru": "Бесплатное резервирование мест",
-                    "en": ""
+                    "en": "Seat reservation — available"
                 },
                 "needToPay": "free"
             },
@@ -329,11 +329,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": ""
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -341,11 +341,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование",
-                    "en": ""
+                    "en": "Rebooking"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование разрешено без сборов",
-                    "en": ""
+                    "en": "Rebooking — available. No fee applies"
                 },
                 "needToPay": "free"
             }

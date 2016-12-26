@@ -9,8 +9,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Гибкий эконом",
-                    "en": ""
+                    "ru": "Гибкий Эконом",
+                    "en": "Flexible Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -22,11 +22,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": ""
+                    "en": "Refundable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -34,7 +34,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "100% миль",
-                    "en": ""
+                    "en": "100% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -46,7 +46,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": ""
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -58,7 +58,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -70,11 +70,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": ""
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
-                    "en": ""
+                    "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
             }
@@ -89,7 +89,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Лайт",
-                    "en": ""
+                    "en": "Light"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -100,8 +100,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "Багаж платный",
-                    "en": ""
+                    "ru": "платный",
+                    "en": "no free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -113,7 +113,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": ""
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -125,11 +125,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -137,11 +137,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": ""
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета не разрешен",
-                    "en": ""
+                    "en": "Non-exchangeable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -149,7 +149,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "25% миль",
-                    "en": ""
+                    "en": "25% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -168,8 +168,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Стандарт эконом",
-                    "en": ""
+                    "ru": "Стандарт Эконом",
+                    "en": "Standard Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -181,11 +181,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -193,7 +193,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "75% миль",
-                    "en": ""
+                    "en": "75% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -205,7 +205,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": ""
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -217,7 +217,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -229,11 +229,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": ""
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
-                    "en": ""
+                    "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
             }
@@ -250,7 +250,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Бизнес",
-                    "en": ""
+                    "en": "Business"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -262,7 +262,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 10 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 10 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -274,7 +274,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -286,7 +286,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "200% миль",
-                    "en": ""
+                    "en": "200% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -298,11 +298,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": ""
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
-                    "en": ""
+                    "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -310,11 +310,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": ""
+                    "en": "Refundable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -322,7 +322,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Бизнес-зал",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "С доступом в зал ожидания бизнес-класса",
@@ -343,7 +343,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Комфорт",
-                    "en": ""
+                    "en": "Comfort Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -354,8 +354,8 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 сумки до 10 кг",
-                    "en": ""
+                    "ru": "2 сумки до 10 кг каждая",
+                    "en": "2 items up to 10 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -367,7 +367,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -379,11 +379,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": ""
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
-                    "en": ""
+                    "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -391,11 +391,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": ""
+                    "en": "Refundable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -403,7 +403,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "200% миль",
-                    "en": ""
+                    "en": "200% Miles"
                 },
                 "fullDescription": {
                     "ru": "",

@@ -1,0 +1,203 @@
+[
+    {
+        "owner": "IK",
+        "baseClass": "economy",
+        "tariffCodePattern": "^[IJ]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфорт",
+                    "en": "Comfort"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "На рейсах Санкт-Петербург — Канкун норма провозова багажа — 15 кг. Провоз сверхнормативного багажа по данному направлению запрещен! На остальных направлениях норма провоза багажа — 1 сумка до 20 кг",
+                    "en": "1 item up to 15 kg — in case of St. Petersbug — Cancun route. Excess baggage on this route — prohibited! 1 item up to 20 kg — in other cases"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается до отправления воздушного судна (детские скидки сохраняются). При этом производится доплата разницы между старым и новым уровнями при увеличении тарифа. Сбор не взимается. Изменения условий договора перевозки разрешается в случае изменения ФИО в пункте отправления по полностью неиспользованному билету до отправления воздушного судна. Взимается сбор",
+                    "en": "Exchangeable before departure. No fee applies. Name changes — available at extra charge"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "IK",
+        "baseClass": "economy",
+        "tariffCodePattern": "^[WXOE]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом",
+                    "en": "Economy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "На рейсах Санкт-Петербург — Канкун норма провозова багажа — 15 кг. Провоз сверхнормативного багажа по данному направлению запрещен! На остальных направлениях норма провоза багажа — 1 сумка до 20 кг",
+                    "en": "1 item up to 15 kg — in case of St. Petersbug — Cancun route. Excess baggage on this route — prohibited! 1 item up to 20 kg — in other cases"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается за 7 суток и более до отправления воздушного судна (детские скидки сохраняются). При этом производится доплата разницы между старым и новым уровнями при увеличении тарифа. Взимается сбор. Сбор рассчитывается для каждого возвращаемого участка. Сбор не взимается в случае доплаты до тарифа более высокого уровня",
+                    "en": "Exchangeable for 7 days or upwards before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "IK",
+        "baseClass": "economy",
+        "tariffCodePattern": "^[^IJWXOE]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Гибкий",
+                    "en": "Economy Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "На рейсах Санкт-Петербург — Канкун норма провозова багажа — 15 кг. Провоз сверхнормативного багажа по данному направлению запрещен! На остальных направлениях норма провоза багажа — 1 сумка до 20 кг",
+                    "en": "1 item up to 15 kg — in case of St. Petersbug — Cancun route. Excess baggage on this route — prohibited! 1 item up to 20 kg — in other cases"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается до отправления воздушного судна (детские скидки сохраняются). При этом производится доплата разницы между старым и новым уровнями при увеличении тарифа. Взимается сбор. Тариф для расчета сбора — тариф участка. Сбор не взимается в случае доплаты до тарифа более высокого уровня",
+                    "en": "Exchangeable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    }
+]

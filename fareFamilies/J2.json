@@ -8,7 +8,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Эконом Бюджет",
-                    "en": ""
+                    "en": "Economy Budget"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -20,11 +20,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": ""
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг)",
-                    "en": ""
+                    "en": "1 item up to 10 kg. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
                 },
                 "needToPay": "free"
             },
@@ -32,10 +32,10 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "платный",
-                    "en": ""
+                    "en": "no free baggage allowance"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатная норма провоза багажа не предоставляется",
+                    "ru": "",
                     "en": ""
                 },
                 "needToPay": "charge"
@@ -44,11 +44,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": ""
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета не разрешен",
-                    "en": ""
+                    "en": "Non-refundable before departure"
                 },
                 "needToPay": "notAvailable"
             },
@@ -56,11 +56,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета после вылета",
-                    "en": ""
+                    "en": "Refund After Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета после вылета не разрешен",
-                    "en": ""
+                    "en": "Non-refundable after departure"
                 },
                 "needToPay": "notAvailable"
             },
@@ -68,11 +68,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование до вылета",
-                    "en": ""
+                    "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование до вылета не разрешено",
-                    "en": ""
+                    "en": "Rebooking before departure — not available"
                 },
                 "needToPay": "notAvailable"
             },
@@ -80,11 +80,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование после вылета",
-                    "en": ""
+                    "en": "Rebooking After Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование после вылета не разрешено",
-                    "en": ""
+                    "en": "Rebooking after departure — not available"
                 },
                 "needToPay": "notAvailable"
             }
@@ -99,7 +99,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "ВИП",
-                    "en": ""
+                    "en": "VIP"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -111,11 +111,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 10 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 10 kg each"
                 },
                 "fullDescription": {
                     "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (2 сумки до 10 кг каждая)",
-                    "en": ""
+                    "en": "2 items up to 10 kg each. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
                 },
                 "needToPay": "free"
             },
@@ -123,7 +123,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "3 сумки до 32 кг каждая",
-                    "en": ""
+                    "en": "3 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -135,11 +135,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": ""
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета разрешен без штрафов",
-                    "en": ""
+                    "en": "Refundable before departure. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -147,11 +147,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета после вылета",
-                    "en": ""
+                    "en": "Refund After Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета после вылета разрешен со штрафом",
-                    "en": ""
+                    "en": "Refundable after departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -159,11 +159,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование до вылета",
-                    "en": ""
+                    "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование до вылета разрешено без штрафов",
-                    "en": ""
+                    "en": "Rebooking before departure — available. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -171,11 +171,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование после вылета",
-                    "en": ""
+                    "en": "Rebooking After Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование после вылета разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking after departure — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -183,19 +183,19 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Выписка «с открытой датой»",
-                    "en": ""
+                    "en": "«Open Date» Ticket"
                 },
                 "fullDescription": {
                     "ru": "Выписка «с открытой датой» разрешается",
-                    "en": ""
+                    "en": "«Open date» ticket — allowed"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "vipService",
                 "shortDescription": {
-                    "ru": "Доступ в зал ожидания  Бизнес Класса",
-                    "en": ""
+                    "ru": "Доступ в зал ожидания Бизнес Класса",
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -214,7 +214,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Комфорт",
-                    "en": ""
+                    "en": "Comfort"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -226,11 +226,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 10 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 10 kg each"
                 },
                 "fullDescription": {
                     "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (2 сумки до 10 кг каждая)",
-                    "en": ""
+                    "en": "2 items up to 10 kg each. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
                 },
                 "needToPay": "free"
             },
@@ -238,7 +238,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -250,11 +250,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": ""
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета разрешен без штрафов",
-                    "en": ""
+                    "en": "Refundable before departure. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -262,11 +262,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета после вылета",
-                    "en": ""
+                    "en": "Refund After Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета после вылета разрешен со штрафом",
-                    "en": ""
+                    "en": "Refundable after departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -274,11 +274,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование до вылета",
-                    "en": ""
+                    "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование до вылета разрешено без штрафов",
-                    "en": ""
+                    "en": "Rebooking before departure — available. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -286,11 +286,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование после вылета",
-                    "en": ""
+                    "en": "Rebooking After Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование после вылета разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking after departure — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -298,19 +298,19 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Выписка «с открытой датой»",
-                    "en": ""
+                    "en": "«Open Date» Ticket"
                 },
                 "fullDescription": {
                     "ru": "Выписка «с открытой датой» разрешается",
-                    "en": ""
+                    "en": "«Open date» ticket — allowed"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "vipService",
                 "shortDescription": {
-                    "ru": "Доступ в зал ожидания  Бизнес Класса",
-                    "en": ""
+                    "ru": "Доступ в зал ожидания Бизнес Класса",
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -328,8 +328,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Бизнес стандарт",
-                    "en": ""
+                    "ru": "Бизнес Стандарт",
+                    "en": "Business Standart"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -341,11 +341,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 10 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 10 kg each"
                 },
                 "fullDescription": {
                     "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (2 сумки до 10 кг каждая)",
-                    "en": ""
+                    "en": "2 items up to 10 kg each. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
                 },
                 "needToPay": "free"
             },
@@ -353,7 +353,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -365,11 +365,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": ""
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета разрешен со штрафом",
-                    "en": ""
+                    "en": "Refundable before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -377,11 +377,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета после вылета",
-                    "en": ""
+                    "en": "Refund After Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета после вылета разрешен со штрафом",
-                    "en": ""
+                    "en": "Refundable after departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -389,11 +389,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование до вылета",
-                    "en": ""
+                    "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование до вылета разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking before departure — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -401,11 +401,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование после вылета",
-                    "en": ""
+                    "en": "Rebooking After Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование после вылета разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking after departure — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -413,11 +413,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Выписка «с открытой датой»",
-                    "en": ""
+                    "en": "«Open Date» Ticket"
                 },
                 "fullDescription": {
                     "ru": "Выписка «с открытой датой» разрешается",
-                    "en": ""
+                    "en": "«Open date» ticket — allowed"
                 },
                 "needToPay": "free"
             },
@@ -425,7 +425,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в зал ожидания  Бизнес Класса",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -443,8 +443,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Эконом классик",
-                    "en": ""
+                    "ru": "Эконом Классик",
+                    "en": "Economy Classic"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -456,11 +456,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": ""
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг)",
-                    "en": ""
+                    "en": "1 item up to 10 kg. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
                 },
                 "needToPay": "free"
             },
@@ -468,7 +468,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 23 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 23 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -480,11 +480,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": ""
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета разрешен без штрафов",
-                    "en": ""
+                    "en": "Refundable before departure. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -492,11 +492,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета после вылета",
-                    "en": ""
+                    "en": "Refund After Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета после вылета разрешен со штрафом",
-                    "en": ""
+                    "en": "Refundable after departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -504,11 +504,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование до вылета",
-                    "en": ""
+                    "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование до вылета разрешено без штрафов",
-                    "en": ""
+                    "en": "Rebooking before departure — available. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -516,11 +516,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование после вылета",
-                    "en": ""
+                    "en": "Rebooking After Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование после вылета разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking after departure — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -528,11 +528,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Выписка «с открытой датой»",
-                    "en": ""
+                    "en": "«Open Date» Ticket"
                 },
                 "fullDescription": {
                     "ru": "Выписка «с открытой датой» разрешается",
-                    "en": ""
+                    "en": "«Open date» ticket — allowed"
                 },
                 "needToPay": "free"
             }
@@ -547,7 +547,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Эконом Cтандарт",
-                    "en": ""
+                    "en": "Economy Standart"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -559,11 +559,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": ""
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг)",
-                    "en": ""
+                    "en": "1 item up to 10 kg. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
                 },
                 "needToPay": "free"
             },
@@ -571,7 +571,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -583,11 +583,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": ""
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета разрешен со штрафом",
-                    "en": ""
+                    "en": "Refundable before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -595,11 +595,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета после вылета",
-                    "en": ""
+                    "en": "Refund After Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета после вылета разрешен со штрафом",
-                    "en": ""
+                    "en": "Refundable after departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -607,11 +607,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование до вылета",
-                    "en": ""
+                    "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование до вылета разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking before departure — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -619,11 +619,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование после вылета",
-                    "en": ""
+                    "en": "Rebooking After Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование после вылета разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking after departure — available. A fee applies"
                 },
                 "needToPay": "charge"
             }
@@ -638,7 +638,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Эконом Специальный",
-                    "en": ""
+                    "en": "Economy Special"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -650,11 +650,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": ""
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг)",
-                    "en": ""
+                    "en": "1 item up to 10 kg. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
                 },
                 "needToPay": "free"
             },
@@ -662,7 +662,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -674,11 +674,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": ""
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен без штрафов",
-                    "en": ""
+                    "ru": "Возврат билета до вылета разрешен со штрафом",
+                    "en": "Refundable before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -686,11 +686,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета после вылета",
-                    "en": ""
+                    "en": "Refund After Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета после вылета не разрешен",
-                    "en": ""
+                    "en": "Non-refundable after departure"
                 },
                 "needToPay": "notAvailable"
             },
@@ -698,11 +698,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование до вылета",
-                    "en": ""
+                    "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование до вылета разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking before departure — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -710,11 +710,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование после вылета",
-                    "en": ""
+                    "en": "Rebooking After Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование после вылета разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking before departure — available. A fee applies"
                 },
                 "needToPay": "charge"
             }
@@ -729,7 +729,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Эконом Комфорт",
-                    "en": ""
+                    "en": "Economy Comfort"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -741,11 +741,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": ""
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг)",
-                    "en": ""
+                    "en": "1 item up to 10 kg. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
                 },
                 "needToPay": "free"
             },
@@ -753,7 +753,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "платный",
-                    "en": ""
+                    "en": "no free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "Бесплатная норма провоза багажа не предоставляется",
@@ -765,11 +765,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": ""
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета разрешен без штрафов",
-                    "en": ""
+                    "en": "Refundable before departure. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -777,11 +777,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета после вылета",
-                    "en": ""
+                    "en": "Refund After Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета после вылета разрешен со штрафом",
-                    "en": ""
+                    "en": "Refundable after departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -789,11 +789,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование до вылета",
-                    "en": ""
+                    "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование до вылета разрешено без штрафов",
-                    "en": ""
+                    "en": "Rebooking before departure — available. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -801,11 +801,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование после вылета",
-                    "en": ""
+                    "en": "Rebooking After Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование после вылета разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking after departure — available. A fee applies"
                 },
                 "needToPay": "charge"
             }
@@ -820,7 +820,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Эконом Скидочный",
-                    "en": ""
+                    "en": "Economy Discount"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -832,11 +832,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": ""
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг)",
-                    "en": ""
+                    "en": "1 item up to 10 kg. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
                 },
                 "needToPay": "free"
             },
@@ -844,7 +844,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "платный",
-                    "en": ""
+                    "en": "no free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "Бесплатная норма провоза багажа не предоставляется",
@@ -856,11 +856,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": ""
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета разрешен со штрафом",
-                    "en": ""
+                    "en": "Refundable before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -868,11 +868,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета после вылета",
-                    "en": ""
+                    "en": "Refund After Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета после вылета не разрешен",
-                    "en": ""
+                    "en": "Non-refundable after departure"
                 },
                 "needToPay": "notAvailable"
             },
@@ -880,11 +880,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование до вылета",
-                    "en": ""
+                    "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование до вылета разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking before departure — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -892,11 +892,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование после вылета",
-                    "en": ""
+                    "en": "Rebooking After Departure"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование после вылета не разрешено",
-                    "en": ""
+                    "en": "Rebooking after departure — not available"
                 },
                 "needToPay": "notAvailable"
             }
@@ -911,7 +911,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Бизнес Прорейт",
-                    "en": ""
+                    "en": "Business Prorate"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -923,11 +923,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 10 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 10 kg each"
                 },
                 "fullDescription": {
                     "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (2 сумки до 10 кг каждая)",
-                    "en": ""
+                    "en": "2 items up to 10 kg each. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
                 },
                 "needToPay": "free"
             },
@@ -935,7 +935,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -947,11 +947,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со штрафом",
-                    "en": ""
+                    "en": "Refundable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -959,11 +959,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование",
-                    "en": ""
+                    "en": "Rebooking"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -971,11 +971,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Выписка «с открытой датой»",
-                    "en": ""
+                    "en": "«Open Date» Ticket"
                 },
                 "fullDescription": {
                     "ru": "Выписка «с открытой датой» разрешается",
-                    "en": ""
+                    "en": "«Open date» ticket — allowed"
                 },
                 "needToPay": "free"
             },
@@ -983,11 +983,11 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Стоповер",
-                    "en": ""
+                    "en": "Stopover"
                 },
                 "fullDescription": {
                     "ru": "Остановка в пути (stopover) разрешается",
-                    "en": ""
+                    "en": "Stopover on the route — available"
                 },
                 "needToPay": "free"
             },
@@ -995,7 +995,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в зал ожидания  Бизнес Класса",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1014,7 +1014,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Эконом Прорейт",
-                    "en": ""
+                    "en": "Economy Prorate"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1026,11 +1026,11 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": ""
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг)",
-                    "en": ""
+                    "en": "1 item up to 10 kg. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
                 },
                 "needToPay": "free"
             },
@@ -1038,7 +1038,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1050,11 +1050,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со штрафом",
-                    "en": ""
+                    "en": "Refundable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -1062,11 +1062,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование",
-                    "en": ""
+                    "en": "Rebooking"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование разрешено со штрафом",
-                    "en": ""
+                    "en": "Rebooking — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -1074,11 +1074,11 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Стоповер",
-                    "en": ""
+                    "en": "Stopover"
                 },
                 "fullDescription": {
                     "ru": "Остановка в пути (stopover) разрешается",
-                    "en": ""
+                    "en": "Stopover on the route — available"
                 },
                 "needToPay": "free"
             }

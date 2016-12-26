@@ -20,11 +20,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refundability"
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета не разрешен",
-                    "en": "Non refundable"
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -32,7 +32,7 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения билета",
-                    "en": "Exchangeable"
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
@@ -44,7 +44,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "50% миль",
-                    "en": "Up to 50% miles"
+                    "en": "Up to 50% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -71,7 +71,7 @@
                     "en": "Complimentary Meal"
                 },
                 "fullDescription": {
-                    "ru": "",
+                    "ru": "Бесплатное питание",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -99,11 +99,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refundability"
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета не разрешен",
-                    "en": "Non refundable"
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -111,7 +111,7 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения билета",
-                    "en": "Exchangeable"
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
@@ -123,7 +123,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "100% миль",
-                    "en": "100% miles"
+                    "en": "100% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -150,7 +150,7 @@
                     "en": "Access to Maple Leaf Lounges"
                 },
                 "fullDescription": {
-                    "ru": "Платный доступ в зал ожидания",
+                    "ru": "Без доступа в зал ожидания",
                     "en": "No free access to Maple Leaf Lounges"
                 },
                 "needToPay": "charge"
@@ -190,11 +190,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refundability"
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": "Fully refundable"
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -202,7 +202,7 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения билета",
-                    "en": "Exchangeable"
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
@@ -214,7 +214,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "125% миль",
-                    "en": "125% miles"
+                    "en": "125% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -241,7 +241,7 @@
                     "en": "Access to Maple Leaf Lounges"
                 },
                 "fullDescription": {
-                    "ru": "Платный доступ в зал ожидания",
+                    "ru": "Без доступа в зал ожидания",
                     "en": "No free access to Maple Leaf Lounges"
                 },
                 "needToPay": "charge"
@@ -305,11 +305,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refundability"
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета не разрешен",
-                    "en": "Non refundable"
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -317,7 +317,7 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения билета",
-                    "en": "Exchangeable"
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
@@ -329,7 +329,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "125% миль",
-                    "en": "125% miles"
+                    "en": "125% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -356,7 +356,7 @@
                     "en": "Access to Maple Leaf Lounges"
                 },
                 "fullDescription": {
-                    "ru": "Платный доступ в зал ожидания",
+                    "ru": "Без доступа в зал ожидания",
                     "en": "No free access to Maple Leaf Lounges"
                 },
                 "needToPay": "charge"
@@ -408,11 +408,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refundability"
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": "Free refund"
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -420,11 +420,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchangeable"
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен без сборов",
-                    "en": "Free change"
+                    "en": "Exchangeable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -432,7 +432,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "125% миль",
-                    "en": "125% miles"
+                    "en": "125% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -459,7 +459,7 @@
                     "en": "Access to Maple Leaf Lounges"
                 },
                 "fullDescription": {
-                    "ru": "Платный доступ в зал ожидания",
+                    "ru": "Без доступа в зал ожидания",
                     "en": "No free access to Maple Leaf Lounges"
                 },
                 "needToPay": "charge"
@@ -511,11 +511,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refundability"
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета не разрешен",
-                    "en": "Non refundable"
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -523,7 +523,7 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchangeable"
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
@@ -535,7 +535,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "150% миль",
-                    "en": "150% miles"
+                    "en": "150% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -598,7 +598,7 @@
                     "en": "Access to Maple Leaf Lounges and London-Heathrow Arrivals Lounge"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный доступ в зал ожидания",
+                    "ru": "",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -626,11 +626,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refundability"
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": "Fully refundable"
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -638,11 +638,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchangeable"
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен без сборов",
-                    "en": "Free change"
+                    "en": "Exchangeable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -650,7 +650,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "150% миль",
-                    "en": "150% miles"
+                    "en": "150% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -677,7 +677,7 @@
                     "en": "Access to Maple Leaf Lounges and London-Heathrow Arrivals Lounge"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный доступ в зал ожидания",
+                    "ru": "",
                     "en": ""
                 },
                 "needToPay": "free"

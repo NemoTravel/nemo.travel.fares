@@ -8,7 +8,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Тариф 2",
-                    "en": ""
+                    "en": "Fare 2"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -20,7 +20,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 5 кг",
-                    "en": ""
+                    "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -32,7 +32,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 или 2 места в сумме весом до 20 кг",
-                    "en": ""
+                    "en": "1 or 2 items up to 20 kg in total"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -44,11 +44,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения до вылета",
-                    "en": ""
+                    "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения более чем за 24 часа до вылета производятся за дополнительную плату",
-                    "en": ""
+                    "en": "Exchangeable for 24 hours or upwards before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -56,11 +56,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения после вылета",
-                    "en": ""
+                    "en": "Exchange After Departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения менее чем за 24 часа до вылета производятся за дополнительную плату",
-                    "en": ""
+                    "en": "Exchangeable less than 24 hours before the departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -68,11 +68,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат до вылета",
-                    "en": ""
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат более чем за 24 часа до вылета производятся за дополнительную плату",
-                    "en": ""
+                    "en": "Refundable for 24 hours or upwards before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -80,11 +80,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат после вылета недоступен",
-                    "en": ""
+                    "en": "Refund After Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат после вылета в данном тарифе недоступен",
-                    "en": ""
+                    "en": "Non-refundable less than 24 hours before the departure"
                 },
                 "needToPay": "notAvailable"
             }
@@ -93,13 +93,13 @@
     {
         "owner": "7R",
         "baseClass": "economy",
-        "tariffCodePattern": "^[AOUELGXVT]\\w*\\d*$",
+        "tariffCodePattern": "^[AOGUELXVT]\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
                     "ru": "Тариф 1",
-                    "en": ""
+                    "en": "Fare 1"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -111,7 +111,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 5 кг",
-                    "en": ""
+                    "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -123,7 +123,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 10 кг",
-                    "en": ""
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -135,11 +135,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения до вылета",
-                    "en": ""
+                    "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения более чем за 24 часа до вылета производятся за дополнительную плату",
-                    "en": ""
+                    "en": "Exchangeable for 24 hours or upwards before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -147,11 +147,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения после вылета",
-                    "en": ""
+                    "en": "Exchange After Departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения менее чем за 24 часа до вылета недоступны",
-                    "en": ""
+                    "en": "Non-exchangeable less than 24 hours before the departure"
                 },
                 "needToPay": "notAvailable"
             },
@@ -159,11 +159,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета не разрешен",
-                    "en": ""
+                    "en": "Non-Refundable"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             }
@@ -178,7 +178,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Тариф 3",
-                    "en": ""
+                    "en": "Fare 3"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -190,7 +190,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 5 кг",
-                    "en": ""
+                    "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -202,7 +202,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 или 2 места в сумме весом до 20 кг",
-                    "en": ""
+                    "en": "1 or 2 items up to 20 kg in total"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -214,11 +214,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения до вылета",
-                    "en": ""
+                    "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения более чем за 24 часа до вылета производятся бесплатно",
-                    "en": ""
+                    "en": "Exchangeable for 24 hours or upwards before departure. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -226,11 +226,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения после вылета",
-                    "en": ""
+                    "en": "Exchange After Departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения менее чем за 24 часа до вылета производятся за дополнительную плату",
-                    "en": ""
+                    "en": "Exchangeable less than 24 hours before the departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -238,11 +238,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат до вылета",
-                    "en": ""
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат более чем за 24 часа до вылета производятся бесплатно",
-                    "en": ""
+                    "en": "Refundable for 24 hours or upwards before departure. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -250,11 +250,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат после вылета",
-                    "en": ""
+                    "en": "Refund After Departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат менее чем за 24 часа до вылета и после вылета производятся за дополнительную плату",
-                    "en": ""
+                    "en": "Refundable less than 24 hours before departure. A fee applies"
                 },
                 "needToPay": "charge"
             }
@@ -263,13 +263,13 @@
     {
         "owner": "7R",
         "baseClass": "business",
-        "tariffCodePattern": "^([ZJ])\\w*\\d*$",
+        "tariffCodePattern": "^([Z])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
                     "ru": "Тариф 4",
-                    "en": ""
+                    "en": "Fare 4"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -281,7 +281,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 5 кг",
-                    "en": ""
+                    "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -293,7 +293,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 или 2 места в сумме весом до 20 кг",
-                    "en": ""
+                    "en": "1 or 2 items up to 20 kg in total"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -305,11 +305,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения и возврат до вылета",
-                    "en": ""
+                    "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения и возврат более чем за 24 часа до вылета производятся бесплатно",
-                    "en": ""
+                    "en": "Exchangeable for 24 hours or upwards before departure. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -317,11 +317,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение и возврат после вылета",
-                    "en": ""
+                    "en": "Exchange After Departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения и возврат менее чем за 24 часа до вылета и после вылета производятся за дополнительную плату",
-                    "en": ""
+                    "en": "Exchangeable less than 24 hours before the departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -329,7 +329,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Бизнес-зал",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "Доступ к бизнес-залу",
@@ -338,10 +338,10 @@
                 "needToPay": "free"
             },
             {
-                "code": "seatsRegistration",
+                "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация",
-                    "en": ""
+                    "en": "Priority Check-in"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -353,7 +353,7 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Питание",
-                    "en": ""
+                    "en": "Complimentary Meals"
                 },
                 "fullDescription": {
                     "ru": "Бесплатное питание",
@@ -362,10 +362,10 @@
                 "needToPay": "free"
             },
             {
-                "code": "seatsRegistration",
+                "code": "vipService",
                 "shortDescription": {
                     "ru": "Отдельный транспорт",
-                    "en": ""
+                    "en": "Individual Transport"
                 },
                 "fullDescription": {
                     "ru": "",

@@ -7,8 +7,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Go-Light",
-                    "en": ""
+                    "ru": "Лайт",
+                    "en": "Go-Light"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -20,7 +20,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 8 кг",
-                    "en": ""
+                    "en": "1 item up to 8 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -32,7 +32,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "платный",
-                    "en": ""
+                    "en": "no free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "Багаж платный",
@@ -44,11 +44,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": ""
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сбором только в рамках выбранного семейства",
-                    "en": ""
+                    "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -56,11 +56,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             }
@@ -74,8 +74,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Flex",
-                    "en": ""
+                    "ru": "Гибкий",
+                    "en": "Flex"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -87,7 +87,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 8 кг",
-                    "en": ""
+                    "en": "1 item up to 8 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -99,7 +99,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -111,11 +111,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": ""
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Возможность менять билет бесплатно неограниченное количество раз в рамках семейств тарифов «Гибкий» и «Бизнес»",
-                    "en": ""
+                    "en": "Exchangeable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -123,11 +123,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета в случае отмены рейса",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "В случае внутренних рейсов допустимая не подлежащая возврату сумма тарифа равна 45 евро. Короткие международные рейсы: 50 евро. Дальние международные рейсы: 60 евро",
-                    "en": ""
+                    "en": "Refundable in case of cancellation. A fee applies. Non-refundable short international flights — €50, longer international flights — €60"
                 },
                 "needToPay": "charge"
             }

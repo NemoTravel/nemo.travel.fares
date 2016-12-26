@@ -8,7 +8,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Промо",
-                    "en": ""
+                    "en": "Promo"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -20,7 +20,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 5 кг",
-                    "en": ""
+                    "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -32,7 +32,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 10 кг",
-                    "en": ""
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -44,11 +44,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": ""
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент",
-                    "en": ""
+                    "en": "Exchangeable before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -56,11 +56,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             }
@@ -75,7 +75,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Эконом",
-                    "en": ""
+                    "en": "Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -87,7 +87,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 5 кг",
-                    "en": ""
+                    "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -99,7 +99,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -111,11 +111,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": ""
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент. Повышение класса разрешено с добором разницы между тарифами",
-                    "en": ""
+                    "en": "Exchangeable before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -123,11 +123,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": ""
+                    "en": "Refundable. A fee applies"
                 },
                 "needToPay": "charge"
             }
@@ -142,7 +142,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Премиум Эконом",
-                    "en": ""
+                    "en": "Premium Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -154,7 +154,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 5 кг",
-                    "en": ""
+                    "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -166,7 +166,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -178,11 +178,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": ""
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены без оплаты. Повышение класса разрешено с добором разницы между тарифами. При неявке на рейс (после окончания регистрации) разрешен со сбором за каждый сегмент",
-                    "en": ""
+                    "en": "Exchangeable before departure. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -190,11 +190,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета (более чем за 40 мин до окончания регистрации) разрешен без оплаты. При неявке на рейс (после окончания регистрации) по полностью неиспользованному билету возврат разрешен со сбором",
-                    "en": ""
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             }
@@ -209,7 +209,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Бизнес Лайт",
-                    "en": ""
+                    "en": "Business Light"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -221,7 +221,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 места общим весом до 15 кг",
-                    "en": ""
+                    "en": "2 items up to 15 kg in total"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -233,7 +233,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 32 кг",
-                    "en": ""
+                    "en": "1 item up to 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -245,11 +245,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": ""
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент",
-                    "en": ""
+                    "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -257,11 +257,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью не возвратный",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -269,11 +269,11 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Бизнес-зал",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания бизнес-класса",
-                    "en": ""
+                    "en": "No free lounge access"
                 },
                 "needToPay": "notAvailable"
             }
@@ -288,7 +288,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Бизнес Комфорт",
-                    "en": ""
+                    "en": "Business Comfort"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -300,7 +300,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 места общим весом до 15 кг",
-                    "en": ""
+                    "en": "2 items up to 15 kg in total"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -312,7 +312,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 места до 32 кг каждое",
-                    "en": ""
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -324,11 +324,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": ""
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -336,11 +336,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": ""
+                    "en": "Exchange"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен без сборов",
-                    "en": ""
+                    "en": "Exchangeable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -348,7 +348,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Бизнес-зал",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "Доступ в зал ожидания бизнес-класса",

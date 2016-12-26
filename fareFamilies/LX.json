@@ -8,7 +8,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Классический",
-                    "en": ""
+                    "en": "Classic"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -20,7 +20,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "до 8 кг",
-                    "en": ""
+                    "en": "up to 8 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -32,7 +32,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -44,11 +44,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование",
-                    "en": ""
+                    "en": "Rebooking"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование разрешено со сборами",
-                    "en": ""
+                    "en": "Rebooking — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -56,11 +56,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -68,11 +68,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Предварительное бронирование места",
-                    "en": ""
+                    "en": "Seat Reservation"
                 },
                 "fullDescription": {
                     "ru": "Бесплатное резервирование мест",
-                    "en": ""
+                    "en": "Seat reservation — available"
                 },
                 "needToPay": "free"
             },
@@ -80,7 +80,7 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Закуски и напитки",
-                    "en": ""
+                    "en": "Snacks & Beverages"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -92,7 +92,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "100% миль",
-                    "en": ""
+                    "en": "100% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -104,11 +104,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Бронирование места с 1 по 4 ряд",
-                    "en": ""
+                    "en": "Seat Reservation (1-4 Rows)"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Seat reservation (1-4 rows) — available at extra charge"
                 },
                 "needToPay": "charge"
             },
@@ -116,11 +116,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания до бизнес-класса",
-                    "en": ""
+                    "en": "Upgrading to Business Class"
                 },
                 "fullDescription": {
                     "ru": "Возможна доплата для повышение класса обслуживания до бизнес-класса",
-                    "en": ""
+                    "en": "Upgrading to business class — available at extra charge"
                 },
                 "needToPay": "charge"
             },
@@ -128,11 +128,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Выбор места при регистрации на рейс",
-                    "en": ""
+                    "en": "Seat Selection"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Seat selection permitted during the check-in"
                 },
                 "needToPay": "free"
             }
@@ -147,7 +147,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Легкий",
-                    "en": ""
+                    "en": "Light"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -159,7 +159,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "до 8 кг",
-                    "en": ""
+                    "en": "up to 8 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -171,10 +171,10 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "платный",
-                    "en": ""
+                    "en": "no free baggage allowance"
                 },
                 "fullDescription": {
-                    "ru": "Возможно приобретение мест багажа (1 место — до 23 кг) за дополнительную плату",
+                    "ru": "",
                     "en": ""
                 },
                 "needToPay": "charge"
@@ -183,11 +183,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -195,7 +195,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "100% миль",
-                    "en": ""
+                    "en": "100% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -207,11 +207,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование",
-                    "en": ""
+                    "en": "Rebooking"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование не разрешено",
-                    "en": ""
+                    "en": "Rebooking — not available"
                 },
                 "needToPay": "notAvailable"
             },
@@ -219,11 +219,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания до бизнес-класса",
-                    "en": ""
+                    "en": "Upgrading to Business Class"
                 },
                 "fullDescription": {
                     "ru": "Возможна доплата для повышение класса обслуживания до бизнес-класса",
-                    "en": ""
+                    "en": "Upgrading to business class — available at extra charge"
                 },
                 "needToPay": "charge"
             },
@@ -231,7 +231,7 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Закуски и напитки",
-                    "en": ""
+                    "en": "Snacks & Beverages"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -243,11 +243,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Выбор места при регистрации на рейс",
-                    "en": ""
+                    "en": "Seat Selection"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Seat selection permitted during the check-in"
                 },
                 "needToPay": "free"
             },
@@ -255,11 +255,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Предварительное бронирование места",
-                    "en": ""
+                    "en": "Seat Reservation"
                 },
                 "fullDescription": {
                     "ru": "Платное резервирование обычных мест",
-                    "en": ""
+                    "en": "Seat reservation — available at extra charge"
                 },
                 "needToPay": "charge"
             },
@@ -267,11 +267,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Бронирование места с 1 по 4 ряд",
-                    "en": ""
+                    "en": "Seat Reservation (1-4 Rows)"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Seat reservation (1-4 rows) — available at extra charge"
                 },
                 "needToPay": "charge"
             }
@@ -286,7 +286,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Гибкий",
-                    "en": ""
+                    "en": "Flex"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -298,7 +298,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "до 8 кг",
-                    "en": ""
+                    "en": "up to 8 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -310,7 +310,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -322,11 +322,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Предварительное бронирование места",
-                    "en": ""
+                    "en": "Seat Reservation"
                 },
                 "fullDescription": {
                     "ru": "Бесплатное резервирование мест",
-                    "en": ""
+                    "en": "Seat reservation — available"
                 },
                 "needToPay": "free"
             },
@@ -334,11 +334,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Бронирование места с 1 по 4 ряд",
-                    "en": ""
+                    "en": "Seat Reservation (1-4 Rows)"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Seat reservation (1-4 rows) — available"
                 },
                 "needToPay": "free"
             },
@@ -346,11 +346,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование",
-                    "en": ""
+                    "en": "Rebooking"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование разрешено без сборов",
-                    "en": ""
+                    "en": "Rebooking — available"
                 },
                 "needToPay": "free"
             },
@@ -358,11 +358,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания до бизнес-класса",
-                    "en": ""
+                    "en": "Upgrading to Business Class"
                 },
                 "fullDescription": {
                     "ru": "Возможна доплата для повышение класса обслуживания до бизнес-класса",
-                    "en": ""
+                    "en": "Upgrading to business class — available at extra charge"
                 },
                 "needToPay": "charge"
             },
@@ -370,11 +370,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": ""
+                    "en": "Refundable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -382,7 +382,7 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Закуски и напитки",
-                    "en": ""
+                    "en": "Snacks & Beverages"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -394,7 +394,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "150% миль",
-                    "en": ""
+                    "en": "150% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -406,11 +406,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Выбор места при регистрации на рейс",
-                    "en": ""
+                    "en": "Seat Selection"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Seat selection permitted during the check-in"
                 },
                 "needToPay": "free"
             }
@@ -425,7 +425,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Бизнес",
-                    "en": ""
+                    "en": "Business"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -437,7 +437,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "до 8 кг",
-                    "en": ""
+                    "en": "up to 8 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -448,11 +448,11 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "Дополнительный багаж",
-                    "en": ""
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
+                    "ru": "",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -461,11 +461,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Предварительное бронирование места",
-                    "en": ""
+                    "en": "Seat Reservation"
                 },
                 "fullDescription": {
                     "ru": "Бесплатное резервирование мест",
-                    "en": ""
+                    "en": "Seat reservation — available"
                 },
                 "needToPay": "free"
             },
@@ -473,11 +473,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Свободное место рядом",
-                    "en": ""
+                    "en": "Empty Middle Seat"
                 },
                 "fullDescription": {
                     "ru": "Бесплатное резервирование мест со свободными местами рядом",
-                    "en": ""
+                    "en": "Seat reservation with empty middle seat — available"
                 },
                 "needToPay": "free"
             },
@@ -485,7 +485,7 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Закуски и напитки",
-                    "en": ""
+                    "en": "Snacks & Beverages"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -497,7 +497,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в зал ожидания",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -509,11 +509,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование",
-                    "en": ""
+                    "en": "Rebooking"
                 },
                 "fullDescription": {
                     "ru": "Перебронирование разрешено без сборов",
-                    "en": ""
+                    "en": "Rebooking — available. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -521,11 +521,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": ""
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -533,7 +533,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "Мили HON Circle",
-                    "en": ""
+                    "en": "HON Circle Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -545,11 +545,11 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Выбор места при регистрации на рейс",
-                    "en": ""
+                    "en": "Seat Selection"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Seat selection permitted during the check-in"
                 },
                 "needToPay": "free"
             },
@@ -557,7 +557,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритет в аэропорту",
-                    "en": ""
+                    "en": "Priority Check-in, Baggage Handling and Boarding"
                 },
                 "fullDescription": {
                     "ru": "",

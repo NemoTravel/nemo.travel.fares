@@ -8,7 +8,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Деловой",
-                    "en": ""
+                    "en": "Breaking Deals"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -20,7 +20,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 7 кг",
-                    "en": ""
+                    "en": "1 item up to 7 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -32,7 +32,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -44,11 +44,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты",
-                    "en": ""
+                    "en": "Date Changes"
                 },
                 "fullDescription": {
                     "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": ""
+                    "en": "Date changes — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -56,11 +56,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возмещение стоимости",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета не разрешен",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -68,7 +68,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "25% миль",
-                    "en": ""
+                    "en": "25% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -87,7 +87,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Экономный",
-                    "en": ""
+                    "en": "Saver"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -99,7 +99,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 7 кг",
-                    "en": ""
+                    "en": "1 item up to 7 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -111,7 +111,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": ""
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -123,11 +123,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты",
-                    "en": ""
+                    "en": "Date Changes"
                 },
                 "fullDescription": {
                     "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": ""
+                    "en": "Date changes — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -135,11 +135,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возмещение стоимости",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета не разрешен",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -147,11 +147,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Upgrade Eligibility"
                 },
                 "fullDescription": {
                     "ru": "Платная возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Eligible for paid upgrade"
                 },
                 "needToPay": "charge"
             },
@@ -159,7 +159,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "50% миль",
-                    "en": ""
+                    "en": "50% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -178,7 +178,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Выгодный",
-                    "en": ""
+                    "en": "Value"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -190,7 +190,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 7 кг",
-                    "en": ""
+                    "en": "1 item up to 7 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -202,7 +202,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "75% миль",
-                    "en": ""
+                    "en": "75% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -214,7 +214,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 23 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 23 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -226,11 +226,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты",
-                    "en": ""
+                    "en": "Date Changes"
                 },
                 "fullDescription": {
                     "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": ""
+                    "en": "Date changes — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -238,11 +238,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возмещение стоимости",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": ""
+                    "en": "Refundable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -250,11 +250,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Upgrade Eligibility"
                 },
                 "fullDescription": {
                     "ru": "Платная возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Eligible for paid upgrade"
                 },
                 "needToPay": "charge"
             }
@@ -269,7 +269,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Свободный",
-                    "en": ""
+                    "en": "Freedom"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -281,7 +281,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "100% миль",
-                    "en": ""
+                    "en": "100% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -293,7 +293,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 7 кг",
-                    "en": ""
+                    "en": "1 item up to 7 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -305,7 +305,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 23 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 23 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -317,11 +317,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты",
-                    "en": ""
+                    "en": "Date Changes"
                 },
                 "fullDescription": {
                     "ru": "Изменение даты без дополнительной оплаты",
-                    "en": ""
+                    "en": "Date changes — available. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -329,11 +329,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возмещение стоимости",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": ""
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -341,19 +341,19 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Upgrade Eligibility"
                 },
                 "fullDescription": {
                     "ru": "Платная возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Eligible for paid upgrade"
                 },
                 "needToPay": "charge"
             },
             {
-                "code": "seatsRegistration",
+                "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация",
-                    "en": ""
+                    "en": "Priority Check-in"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -372,7 +372,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Деловой Бизнес",
-                    "en": ""
+                    "en": "Business Breaking Deals"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -384,7 +384,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "115% миль",
-                    "en": ""
+                    "en": "115% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -396,7 +396,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 12 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 12 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -408,7 +408,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -420,11 +420,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты",
-                    "en": ""
+                    "en": "Date Changes"
                 },
                 "fullDescription": {
                     "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": ""
+                    "en": "Date changes — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -432,11 +432,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возмещение стоимости",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета не разрешен",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -444,19 +444,19 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Upgrade Eligibility"
                 },
                 "fullDescription": {
                     "ru": "Возможность повышения класса обслуживания недоступна",
-                    "en": ""
+                    "en": "Not eligible for upgrades"
                 },
                 "needToPay": "notAvailable"
             },
             {
-                "code": "seatsRegistration",
+                "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация",
-                    "en": ""
+                    "en": "Priority Check-in"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -468,7 +468,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в залы ожидания",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -487,7 +487,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Экономный Бизнес",
-                    "en": ""
+                    "en": "Business Saver"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -499,7 +499,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "130% миль",
-                    "en": ""
+                    "en": "130% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -511,7 +511,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 12 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 12 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -523,7 +523,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -535,11 +535,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты",
-                    "en": ""
+                    "en": "Date Changes"
                 },
                 "fullDescription": {
                     "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": ""
+                    "en": "Date changes — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -547,11 +547,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возмещение стоимости",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": ""
+                    "en": "Refundable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -559,19 +559,19 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Upgrade Eligibility"
                 },
                 "fullDescription": {
                     "ru": "Бесплатная возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Eligible for paid upgrade"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
-                "code": "seatsRegistration",
+                "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация",
-                    "en": ""
+                    "en": "Priority Check-in"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -583,7 +583,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в залы ожидания",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -595,7 +595,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "«Персональный шофер»",
-                    "en": ""
+                    "en": "Etihad Chauffeur"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -614,7 +614,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Свободный Бизнес",
-                    "en": ""
+                    "en": "Business Freedom"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -626,7 +626,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "175% миль",
-                    "en": ""
+                    "en": "175% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -638,7 +638,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 12 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 12 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -650,7 +650,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -662,11 +662,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты",
-                    "en": ""
+                    "en": "Date Changes"
                 },
                 "fullDescription": {
                     "ru": "Изменение даты без дополнительной оплаты",
-                    "en": ""
+                    "en": "Date changes — available. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -674,11 +674,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возмещение стоимости",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": ""
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -686,19 +686,19 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Upgrade Eligibility"
                 },
                 "fullDescription": {
                     "ru": "Бесплатная возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Eligible for paid upgrade"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
-                "code": "seatsRegistration",
+                "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация",
-                    "en": ""
+                    "en": "Priority Check-in"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -710,7 +710,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в залы ожидания",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -722,7 +722,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "«Персональный шофер»",
-                    "en": ""
+                    "en": "Etihad Chauffeur"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -741,7 +741,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Полная Свобода",
-                    "en": ""
+                    "en": "First Freedom"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -753,7 +753,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "250% миль",
-                    "en": ""
+                    "en": "250% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -765,7 +765,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 12 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 12 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -777,7 +777,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -789,11 +789,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты",
-                    "en": ""
+                    "en": "Date Changes"
                 },
                 "fullDescription": {
                     "ru": "Изменение даты без дополнительной оплаты",
-                    "en": ""
+                    "en": "Date changes — available. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -801,19 +801,19 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возмещение стоимости",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": ""
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             },
             {
-                "code": "seatsRegistration",
+                "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация",
-                    "en": ""
+                    "en": "Priority Check-in"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -825,7 +825,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в залы ожидания",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -837,7 +837,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "«Персональный шофер»",
-                    "en": ""
+                    "en": "Etihad Chauffeur"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -856,7 +856,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Место Гостя - Эконом",
-                    "en": ""
+                    "en": "Guest Seat - Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -868,7 +868,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "0% миль",
-                    "en": ""
+                    "en": "0% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -880,7 +880,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 7 кг",
-                    "en": ""
+                    "en": "1 item up to 7 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -892,7 +892,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 23 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 23 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -904,11 +904,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты",
-                    "en": ""
+                    "en": "Date Changes"
                 },
                 "fullDescription": {
                     "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": ""
+                    "en": "Date changes — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -916,11 +916,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возмещение стоимости",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Ранее чем за 24 часа до вылета рейса: взимается дополнительная плата за возврат билета. Стоимость билетов не возмещается, если до вылета остается менее 24 часов",
-                    "en": ""
+                    "en": "Refundable for 24 hours or upwards before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -928,25 +928,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Upgrade Eligibility"
                 },
                 "fullDescription": {
                     "ru": "Возможность повышения класса обслуживания недоступна",
-                    "en": ""
+                    "en": "Not eligible for upgrades"
                 },
                 "needToPay": "notAvailable"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места на основании уровня статуса",
-                    "en": ""
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
             }
         ]
     },
@@ -959,7 +947,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Место Гостя - Бизнес",
-                    "en": ""
+                    "en": "Guest Seat - Business"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -971,7 +959,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "0% миль",
-                    "en": ""
+                    "en": "0% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -983,7 +971,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 12 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 12 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -995,7 +983,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1007,11 +995,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты",
-                    "en": ""
+                    "en": "Date Changes"
                 },
                 "fullDescription": {
                     "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": ""
+                    "en": "Date changes — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -1019,11 +1007,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возмещение стоимости",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Ранее чем за 24 часа до вылета рейса: взимается дополнительная плата за возврат билета. Стоимость билетов не возмещается, если до вылета остается менее 24 часов",
-                    "en": ""
+                    "en": "Refundable for 24 hours or upwards before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -1031,19 +1019,19 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Возможность повышения класса обслуживания",
-                    "en": ""
+                    "en": "Upgrade Eligibility"
                 },
                 "fullDescription": {
                     "ru": "Возможность повышения класса обслуживания недоступна",
-                    "en": ""
+                    "en": "Not eligible for upgrades"
                 },
                 "needToPay": "notAvailable"
             },
             {
-                "code": "seatsRegistration",
+                "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация",
-                    "en": ""
+                    "en": "Priority Check-in"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1055,7 +1043,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в залы ожидания",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1067,7 +1055,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "«Персональный шофер»",
-                    "en": ""
+                    "en": "Etihad Chauffeur"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1086,7 +1074,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Место Гостя - Первый",
-                    "en": ""
+                    "en": "Guest Seat - First"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1098,7 +1086,7 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "0% миль",
-                    "en": ""
+                    "en": "0% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1110,7 +1098,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 12 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 12 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1122,7 +1110,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": ""
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1134,11 +1122,11 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты",
-                    "en": ""
+                    "en": "Date Changes"
                 },
                 "fullDescription": {
                     "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": ""
+                    "en": "Date changes — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -1146,19 +1134,19 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возмещение стоимости",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Ранее чем за 24 часа до вылета рейса: взимается дополнительная плата за возврат билета. Стоимость билетов не возмещается, если до вылета остается менее 24 часов",
-                    "en": ""
+                    "en": "Refundable for 24 hours or upwards before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
             {
-                "code": "seatsRegistration",
+                "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация",
-                    "en": ""
+                    "en": "Priority Check-in"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1170,7 +1158,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в залы ожидания",
-                    "en": ""
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1182,7 +1170,7 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "«Персональный шофер»",
-                    "en": ""
+                    "en": "Etihad Chauffeur"
                 },
                 "fullDescription": {
                     "ru": "",

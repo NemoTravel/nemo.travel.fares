@@ -1,0 +1,78 @@
+[
+    {
+        "owner": "HY",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([NE])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Тариф 1",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            }
+        ]
+    },
+    {
+        "owner": "HY",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([BMKTVOSUL])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Тариф 2",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            }
+        ]
+    },
+    {
+        "owner": "HY",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([Y])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Тариф 3",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            }
+        ]
+    },
+    {
+        "owner": "HY",
+        "baseClass": "business",
+        "tariffCodePattern": "^([CD])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Тариф 4",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            }
+        ]
+    }
+]
