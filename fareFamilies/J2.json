@@ -31,8 +31,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "платный",
-                    "en": "no free baggage allowance"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -752,8 +752,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "платный",
-                    "en": "no free baggage allowance"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "Бесплатная норма провоза багажа не предоставляется",
@@ -843,8 +843,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "платный",
-                    "en": "no free baggage allowance"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "Бесплатная норма провоза багажа не предоставляется",

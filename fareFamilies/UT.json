@@ -100,8 +100,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "платный",
-                    "en": "no free baggage allowance"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "",

@@ -1,6 +1,6 @@
 [
     {
-        "owner": "IK",
+        "owner": "N4",
         "baseClass": "economy",
         "tariffCodePattern": "^[IJ]\\w*$",
         "parameters": [
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "owner": "IK",
+        "owner": "N4",
         "baseClass": "economy",
         "tariffCodePattern": "^[WXEO]\\w*$",
         "parameters": [
@@ -134,7 +134,7 @@
         ]
     },
     {
-        "owner": "IK",
+        "owner": "N4",
         "baseClass": "economy",
         "tariffCodePattern": "^[^IJWXOE]\\w*$",
         "parameters": [

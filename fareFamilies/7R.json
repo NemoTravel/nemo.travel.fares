@@ -2,7 +2,7 @@
     {
         "owner": "7R",
         "baseClass": "economy",
-        "tariffCodePattern": "^([NMQKSBH])\\w*\\d*$",
+        "tariffCodePattern": "^([KSBH])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
@@ -93,7 +93,7 @@
     {
         "owner": "7R",
         "baseClass": "economy",
-        "tariffCodePattern": "^[AOGUELXVT]\\w*\\d*$",
+        "tariffCodePattern": "^[AOGUELXVTNMQ]\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",

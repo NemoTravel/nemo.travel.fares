@@ -32,7 +32,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 10 кг",
-                    "en": "up to 10 kg"
+                    "en": "Up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -123,7 +123,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "10 кг",
-                    "en": "up to 10 kg"
+                    "en": "Up to 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -158,8 +158,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "платный",
-                    "en": "no free baggage allowance"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "Возможна оплата 1 места багажа до 23 кг, доплата за каждый сегмент",
@@ -250,7 +250,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "15 кг",
-                    "en": "up to 15 kg"
+                    "en": "Up to 15 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -341,7 +341,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "15 кг",
-                    "en": "up to 15 kg"
+                    "en": "Up to 15 kg"
                 },
                 "fullDescription": {
                     "ru": "",

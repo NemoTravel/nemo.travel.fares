@@ -431,8 +431,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "платный",
-                    "en": "no free baggage allowance"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "На некоторых рейсах может быть предусмотрена другая величина нормы бесплатного провоза багажа",

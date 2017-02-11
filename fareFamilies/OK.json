@@ -31,8 +31,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "нет",
-                    "en": "no free baggage allowance"
+                    "ru": "Нет",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "Зарегистрированный багаж: нет",
@@ -557,6 +557,37 @@
                 "fullDescription": {
                     "ru": "Питание бизнес класса",
                     "en": "Business menu"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "OK",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([YC](IF))$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "IATA Тариф",
+                    "en": "IATA Tariff"
+                },
+                "fullDescription": {
+                    "ru": "Тариф является базовым для данного направления и не привязан к авиакомпании. Подробности о предоставляемых услугах уточняйте в условиях применения тарифа",
+                    "en": "This tariff has no connection to the airline and works only on this route. Please check the fare rules for more details"
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Информация по провозу ручной клади и багажа уточняется в условиях применения тарифа",
+                    "en": "Check the fare rules to specify the baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
