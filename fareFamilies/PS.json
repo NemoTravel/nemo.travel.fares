@@ -2,49 +2,6 @@
     {
         "owner": "PS",
         "baseClass": "economy",
-        "tariffCodePattern": "^(\\w*(Z))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Только ручная кладь",
-                    "en": "Hand Baggage Only"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 7 кг",
-                    "en": "1 item up to 7 kg"
-                },
-                "fullDescription": {
-                    "ru": "Общая норма — 1 место до 7 кг. Для владельцев карт Panorama Club Premium — 1 место до 12 кг",
-                    "en": "General allowance — 1 item up to 7 kg. For Panorama Premium cardholders — 1 item up to 12 kg"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "PS",
-        "baseClass": "economy",
         "tariffCodePattern": "^((?!Z)\\w)*$",
         "parameters": [
             {
@@ -82,6 +39,49 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "PS",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*(Z))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Только ручная кладь",
+                    "en": "Hand Baggage Only"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "Общая норма — 1 место до 7 кг. Для владельцев карт Panorama Club Premium — 1 место до 12 кг",
+                    "en": "General allowance — 1 item up to 7 kg. For Panorama Premium cardholders — 1 item up to 12 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
             }
         ]
     }

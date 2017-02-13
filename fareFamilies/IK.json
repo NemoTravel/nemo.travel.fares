@@ -2,6 +2,8 @@
     {
         "owner": "IK",
         "baseClass": "economy",
+        "flightTimeSince": "2017-01-01T00:00:00",
+        "flightTimeUntil": "2017-03-26T00:00:00",
         "tariffCodePattern": "^[IJ]\\w*$",
         "parameters": [
             {
@@ -69,6 +71,77 @@
     {
         "owner": "IK",
         "baseClass": "economy",
+        "flightTimeSince": "2017-03-26T00:00:00",
+        "flightTimeUntil": "2027-03-26T00:00:00",
+        "tariffCodePattern": "^[SW]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом-комфорт",
+                    "en": "Economy Comfort"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается до отправления воздушного судна (детские скидки сохраняются). При этом производится доплата разницы между старым и новым уровнями при увеличении тарифа. Сбор не взимается. Изменения условий договора перевозки разрешается в случае изменения ФИО в пункте отправления по полностью неиспользованному билету до отправления воздушного судна. Взимается сбор",
+                    "en": "Exchangeable before departure. No fee applies. Name changes — available at extra charge"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "IK",
+        "baseClass": "economy",
+        "flightTimeSince": "2017-01-01T00:00:00",
+        "flightTimeUntil": "2017-03-26T00:00:00",
         "tariffCodePattern": "^[WXEO]\\w*$",
         "parameters": [
             {
@@ -136,6 +209,77 @@
     {
         "owner": "IK",
         "baseClass": "economy",
+        "flightTimeSince": "2017-03-26T00:00:00",
+        "flightTimeUntil": "2027-03-26T00:00:00",
+        "tariffCodePattern": "^[EOP]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом-промо",
+                    "en": "Economy Promo"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "На рейсах Москва — Благовещенск и Москва — Хабаровск норма провоза багажа — 30 кг. На рейсах Москва — Тель-Авив и Москва — Ереван норма провоза багажа — 23 кг. На остальных направлениях норма провоза багажа — 1 сумка до 10 кг",
+                    "en": "1 item up to 30 kg — in case of Moscow — Blagoveschensk or Moscow — Khabarovsk route. 1 item up to 23 kg — in case of Moscow — Tel Aviv or Moscow — Yerevan route. 1 item up to 10 kg — in other cases"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается за 7 суток и более до отправления воздушного судна (детские скидки сохраняются). При этом производится доплата разницы между старым и новым уровнями при увеличении тарифа. Взимается сбор. Сбор рассчитывается для каждого возвращаемого участка. Сбор не взимается в случае доплаты до тарифа более высокого уровня",
+                    "en": "Exchangeable for 7 days or upwards before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "IK",
+        "baseClass": "economy",
+        "flightTimeSince": "2017-01-01T00:00:00",
+        "flightTimeUntil": "2017-03-26T00:00:00",
         "tariffCodePattern": "^[^IJWXOE]\\w*$",
         "parameters": [
             {
@@ -143,6 +287,75 @@
                 "shortDescription": {
                     "ru": "Эконом Гибкий",
                     "en": "Economy Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается до отправления воздушного судна (детские скидки сохраняются). При этом производится доплата разницы между старым и новым уровнями при увеличении тарифа. Взимается сбор. Тариф для расчета сбора — тариф участка. Сбор не взимается в случае доплаты до тарифа более высокого уровня",
+                    "en": "Exchangeable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "IK",
+        "baseClass": "economy",
+        "flightTimeSince": "2017-03-26T00:00:00",
+        "flightTimeUntil": "2027-03-26T00:00:00",
+        "tariffCodePattern": "^[^OEPSW]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом-стандарт",
+                    "en": "Economy Standard"
                 },
                 "fullDescription": {
                     "ru": "",
