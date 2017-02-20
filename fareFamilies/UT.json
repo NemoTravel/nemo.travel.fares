@@ -4,7 +4,7 @@
         "baseClass": "economy",
         "perTicketRefundPenalty": "2000RUB",
         "perTicketExchangePenalty": "1000RUB",
-        "tariffCodePattern": "^[A-LN-Z]FLEX(OW|RT|CR)$",
+        "tariffCodePattern": "^([A-LN-Z](FLEX))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -83,7 +83,7 @@
     {
         "owner": "UT",
         "baseClass": "economy",
-        "tariffCodePattern": "^[A-Z]LT(OW|RT|CR)$",
+        "tariffCodePattern": "^(\\w*(LT))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -163,7 +163,7 @@
         "owner": "UT",
         "baseClass": "economy",
         "perTicketExchangePenalty": "1000RUB",
-        "tariffCodePattern": "^[A-Z]STD(OW|RT|CR)$",
+        "tariffCodePattern": "^(\\w*(STD))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -244,7 +244,7 @@
         "baseClass": "business",
         "perTicketRefundPenalty": "2000RUB",
         "perTicketExchangePenalty": "1000RUB",
-        "tariffCodePattern": "^[ADCJ]FLEX(OW|RT|CR)$",
+        "tariffCodePattern": "^([ADCJ](FLEX))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -337,7 +337,7 @@
         "baseClass": "economy",
         "perTicketRefundPenalty": "2000RUB",
         "perTicketExchangePenalty": "1000RUB",
-        "tariffCodePattern": "^[M]FLEX(OW|RT|CR)$",
+        "tariffCodePattern": "^([M](FLEX))\\w*$",
         "parameters": [
             {
                 "code": "description",
