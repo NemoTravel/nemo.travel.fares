@@ -7,8 +7,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Тариф 2",
-                    "en": "Fare 2"
+                    "ru": "Классик",
+                    "en": "Classic"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -98,8 +98,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Тариф 1",
-                    "en": "Fare 1"
+                    "ru": "Лайт",
+                    "en": "Light"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -177,8 +177,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Тариф 3",
-                    "en": "Fare 3"
+                    "ru": "Оптимум",
+                    "en": "Optimum"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -268,8 +268,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Тариф 4",
-                    "en": "Fare 4"
+                    "ru": "Премиум",
+                    "en": "Premium"
                 },
                 "fullDescription": {
                     "ru": "",

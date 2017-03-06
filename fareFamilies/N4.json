@@ -280,7 +280,7 @@
         "baseClass": "economy",
         "flightTimeSince": "2017-01-01T00:00:00",
         "flightTimeUntil": "2017-03-26T00:00:00",
-        "tariffCodePattern": "^[^IJWXOE]\\w*$",
+        "tariffCodePattern": "^[^IJWXOE1234567890]\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -349,7 +349,7 @@
         "baseClass": "economy",
         "flightTimeSince": "2017-03-26T00:00:00",
         "flightTimeUntil": "2027-03-26T00:00:00",
-        "tariffCodePattern": "^[^OEPSW]\\w*$",
+        "tariffCodePattern": "^[^OEPSW1234567890]\\w*$",
         "parameters": [
             {
                 "code": "description",
