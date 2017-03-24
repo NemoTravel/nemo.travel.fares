@@ -2,7 +2,7 @@
     {
         "owner": "A3",
         "baseClass": "economy",
-        "tariffCodePattern": "^(\\w*\\d*(NOBAG))\\w*\\d*$",
+        "tariffCodePattern": "^(\\w*\\d*(NOBAG|0BAG))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
@@ -69,7 +69,7 @@
     {
         "owner": "A3",
         "baseClass": "economy",
-        "tariffCodePattern": "^((?!NOBAG).)*$",
+        "tariffCodePattern": "^((?!NOBAG|0BAG).)*$",
         "parameters": [
             {
                 "code": "description",
