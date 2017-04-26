@@ -2,13 +2,140 @@
     {
         "owner": "Y7",
         "baseClass": "business",
-        "tariffCodePattern": "^([CDI])\\w*\\d*$",
+        "tariffCodePattern": "^([DI])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Бизнес",
-                    "en": "Business"
+                    "ru": "Бизнес Выгодно",
+                    "en": "Business Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 20 кг",
+                    "en": "Up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до отправления рейса",
+                    "en": "Exchange Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения до отправления рейса разрешены",
+                    "en": "Exchangeable before departure"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после отправления рейса",
+                    "en": "Exchange After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после отправления рейса не разрешены",
+                    "en": "Non-exchangeable after departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат до отправления рейса",
+                    "en": "Refund Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до отправления рейса разрешен со сборами",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после отправления рейса",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после отправления рейса не разрешен",
+                    "en": "Non-refundable after departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "150% миль",
+                    "en": "150% Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": "Complimentary Meals"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "Y7",
+        "baseClass": "business",
+        "tariffCodePattern": "^([C])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Легко",
+                    "en": "Business Light"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -47,8 +174,8 @@
                     "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до отправления рейса разрешены без сборов",
-                    "en": "Exchangeable before departure. No fee applies"
+                    "ru": "Изменения до отправления рейса разрешены",
+                    "en": "Exchangeable before departure"
                 },
                 "needToPay": "free"
             },
@@ -59,10 +186,10 @@
                     "en": "Exchange After Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения после отправления рейса разрешены со сборами",
-                    "en": "Exchangeable after departure. A fee applies"
+                    "ru": "Изменения после отправления рейса разрешены",
+                    "en": "Exchangeable after departure"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "refundable",
@@ -83,10 +210,10 @@
                     "en": "Refund After Departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат после отправления рейса разрешен со сборами",
-                    "en": "Refundable after departure. A fee applies"
+                    "ru": "Возврат после отправления рейса разрешен без сборов",
+                    "en": "Refundable after departure. No fee applies"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "miles",
@@ -111,19 +238,146 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
     {
         "owner": "Y7",
         "baseClass": "economy",
-        "tariffCodePattern": "^([BVNOWH])\\w*\\d*$",
+        "tariffCodePattern": "(BOW)|(BRT)|(VOW)|(VRT)|(NOW)|(NRT)|(WOW)|(WRT)|(OOW)|(ORT)|(HOW)|(HRT)|(SOW)|(SRT)|(KOW)|(KRT)|(MOW)|(MRT)|(TOW)|(TRT)|(XOW)|(XRT)|(QOW)|(QRT)|(LOW)|(LRT)$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Бюджет",
-                    "en": "Light"
+                    "ru": "Эконом Комфортно",
+                    "en": "Economy Comfort"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "При выполнении перелета в/из г. Санья (Китай), норма бесплатного провоза багажа составляет 15 кг. Норма бесплатного провоза багажа для остальных перелетов составляет 20 кг",
+                    "en": "In case of flight to/from Sanya (China) — 1 item up to 15 kg. In other case — 1 item up to 20 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до отправления рейса",
+                    "en": "Exchange Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения до отправления рейса запрещены в случае, если авиабилет оформлен по тарифу: BOW, BRT, VOW, VRT, NOW, NRT, WOW, WRT, OOW, ORT, HOW, HRT. Изменения до отправления рейса разрешены в случае, если авиабилет оформлен по тарифу: SOW, SRT, KOW, KRT, MOW, MRT, TOW, TRT, XOW, XRT, QOW, QRT, LOW, LRT",
+                    "en": "Non-exchangeable before departure in case of BOW, BRT, VOW, VRT, NOW, NRT, WOW, WRT, OOW, ORT, HOW, HRT fares. Exchangeable before departure in case of SOW, SRT, KOW, KRT, MOW, MRT, TOW, TRT, XOW, XRT, QOW, QRT, LOW, LRT fares"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после отправления рейса",
+                    "en": "Exchange After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после отправления рейса не разрешены",
+                    "en": "Non-exchangeable after departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат до отправления рейса",
+                    "en": "Refund Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до отправления рейса разрешен со сборами",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после отправления рейса",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после отправления рейса не разрешен",
+                    "en": "Non-refundable after departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "50% миль",
+                    "en": "50% Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": "Complimentary Meals"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "Y7",
+        "baseClass": "economy",
+        "tariffCodePattern": "(BOW2)|(BRT2)|(VOW2)|(VRT2)|(NOW2)|(NRT2)|(WOW2)|(WRT2)|(OOW2)|(ORT2)|(HOW2)|(HRT2)|(SOW2)|(SRT2)|(KOW2)|(KRT2)|(MOW2)|(MRT2)|(TOW2)|(TRT2)|(XOW2)|(XRT2)|(QOW2)|(QRT2)|(LOW2)|(LRT2)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Выгодно",
+                    "en": "Economy Saver"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -158,12 +412,24 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения до и после отправления рейса",
-                    "en": "Exchange"
+                    "ru": "Изменения до отправления рейса",
+                    "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до и после отправления рейса не разрешены",
-                    "en": "Non-exchangeable"
+                    "ru": "Изменения до отправления рейса запрещены в случае, если авиабилет оформлен по тарифу: BOW2, BRT2, VOW2, VRT2, NOW2, NRT2, WOW2, WRT2, OOW2, ORT2, HOW2, HRT2. Изменения до отправления рейса разрешены в случае, если авиабилет оформлен по тарифу: SOW2, SRT2, KOW2, KRT2, MOW2, MRT2, TOW2, TRT2, XOW2, XRT2, QOW2, QRT2, LOW2, LRT2",
+                    "en": "Non-exchangeable before departure in case of BOW2, BRT2, VOW2, VRT2, NOW2, NRT2, WOW2, WRT2, OOW2, ORT2, HOW2, HRT2 fares. Exchangeable before departure in case of SOW2, SRT2, KOW2, KRT2, MOW2, MRT2, TOW2, TRT2, XOW2, XRT2, QOW2, QRT2, LOW2, LRT2 fares"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после отправления рейса",
+                    "en": "Exchange After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после отправления рейса не разрешены",
+                    "en": "Non-exchangeable after departure"
                 },
                 "needToPay": "notAvailable"
             },
@@ -180,22 +446,10 @@
                 "needToPay": "charge"
             },
             {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат после отправления рейса",
-                    "en": "Refund After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат после отправления рейса не разрешен",
-                    "en": "Non-refundable after departure"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "25% миль",
-                    "en": "25% Miles"
+                    "ru": "50% миль",
+                    "en": "50% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -214,6 +468,18 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после отправления рейса",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после отправления рейса не разрешен",
+                    "en": "Non-refundable after departure"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     },
@@ -225,8 +491,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Премиум",
-                    "en": "Premium"
+                    "ru": "Эконом Легко",
+                    "en": "Economy Light"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -253,32 +519,56 @@
                     "en": "1 item up to 20 kg"
                 },
                 "fullDescription": {
-                    "ru": "Норма бесплатного провоза багажа составляет 15 кг, при оформлении авиабилета на рейсы по маршрутам: Красноярск — Сочи — Красноярск, Красноярск — Анапа — Красноярск, Красноярск — Краснодар — Красноярск. Норма бесплатного провоза багажа составляет 10 кг, при оформлении авиабилета на рейсы по маршрутам: Москва — Сочи — Москва, Москва — Минеральные Воды — Москва, Москва — Махачкала — Москва. В остальных случаях — 20 кг",
-                    "en": "1 item up to 15 kg — in case of following routs: Krasnoyarsk — Sochi — Krasnoyarsk, Krasnoyarsk — Anapa — Krasnoyarsk, Krasnoyarsk — Krasnodar — Krasnoyarsk. 1 item up to 10 kg — in case of following routs: Moscow — Sochi — Moscow, Moscow — Mineralnye Vody — Moscow, Moscow — Makhachkala — Moscow. 1 item up to 20 kg — in other cases"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения до и после отправления рейса",
-                    "en": "Exchange"
+                    "ru": "Изменения до отправления рейса",
+                    "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до и после отправления рейса разрешены без сборов",
-                    "en": "Exchangeable. No fee applies"
+                    "ru": "Изменения до отправления рейса разрешены",
+                    "en": "Exchangeable before departure"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после отправления рейса",
+                    "en": "Exchange After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после отправления рейса разрешены",
+                    "en": "Exchangeable after departure"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат до и после отправления рейса",
-                    "en": "Refund"
+                    "ru": "Возврат до отправления рейса",
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат до и после отправления рейса разрешен без сборов",
-                    "en": "Refundable. No fee applies"
+                    "ru": "Возврат до отправления рейса разрешен без сборов",
+                    "en": "Refundable before departure. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после отправления рейса",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после отправления рейса разрешен без сборов",
+                    "en": "Refundable after departure. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -344,8 +634,8 @@
                     "en": "1 item up to 20 kg"
                 },
                 "fullDescription": {
-                    "ru": "Норма бесплатного провоза багажа составляет 15 кг, при оформлении авиабилета на рейсы по маршрутам: Красноярск — Сочи — Красноярск, Красноярск — Анапа — Красноярск, Красноярск — Краснодар — Красноярск. Норма бесплатного провоза багажа составляет 10 кг, при оформлении авиабилета на рейсы по маршрутам: Москва — Сочи — Москва, Москва — Минеральные Воды — Москва, Москва — Махачкала — Москва. В остальных случаях — 20 кг",
-                    "en": "1 item up to 15 kg — in case of following routs: Krasnoyarsk — Sochi — Krasnoyarsk, Krasnoyarsk — Anapa — Krasnoyarsk, Krasnoyarsk — Krasnodar — Krasnoyarsk. 1 item up to 10 kg — in case of following routs: Moscow — Sochi — Moscow, Moscow — Mineralnye Vody — Moscow, Moscow — Makhachkala — Moscow. 1 item up to 20 kg — in other cases"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -356,113 +646,10 @@
                     "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до отправления рейса разрешены со сборами",
-                    "en": "Exchangeable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения после отправления рейса",
-                    "en": "Exchange After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменения после отправления рейса не разрешены",
-                    "en": "Non-exchangeable after departure"
+                    "ru": "Изменения до отправления рейса не разрешены",
+                    "en": "Non-exchangeable before departure"
                 },
                 "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат до и после отправления рейса",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат до и после отправления рейса не разрешен",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "25% миль",
-                    "en": "25% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary Meals"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "Y7",
-        "baseClass": "economy",
-        "tariffCodePattern": "^([SKMTXQL])\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Стандарт",
-                    "en": "Standard"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 сумка до 20 кг",
-                    "en": "1 item up to 20 kg"
-                },
-                "fullDescription": {
-                    "ru": "Норма бесплатного провоза багажа составляет 15 кг, при оформлении авиабилета на рейсы по маршрутам: Красноярск — Сочи — Красноярск, Красноярск — Анапа — Красноярск, Красноярск — Краснодар — Красноярск. Норма бесплатного провоза багажа составляет 10 кг, при оформлении авиабилета на рейсы по маршрутам: Москва — Сочи — Москва, Москва — Минеральные Воды — Москва, Москва — Махачкала — Москва. В остальных случаях — 20 кг",
-                    "en": "1 item up to 15 kg — in case of following routs: Krasnoyarsk — Sochi — Krasnoyarsk, Krasnoyarsk — Anapa — Krasnoyarsk, Krasnoyarsk — Krasnodar — Krasnoyarsk. 1 item up to 10 kg — in case of following routs: Moscow — Sochi — Moscow, Moscow — Mineralnye Vody — Moscow, Moscow — Makhachkala — Moscow. 1 item up to 20 kg — in other cases"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения до отправления рейса",
-                    "en": "Exchange Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменения до отправления рейса разрешены со сборами",
-                    "en": "Exchangeable before departure. A fee applies"
-                },
-                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -503,8 +690,8 @@
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "50% миль",
-                    "en": "50% Miles"
+                    "ru": "25% миль",
+                    "en": "25% Miles"
                 },
                 "fullDescription": {
                     "ru": "",

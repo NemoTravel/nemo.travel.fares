@@ -1,207 +1,6 @@
 [
     {
         "owner": "U6",
-        "baseClass": "economy",
-        "tariffCodePattern": "^(\\w*\\d*(PR))\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Промо",
-                    "en": "Promo"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент",
-                    "en": "Exchangeable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            }
-        ]
-    },
-    {
-        "owner": "U6",
-        "baseClass": "economy",
-        "tariffCodePattern": "^(\\w*\\d*(EC))\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Эконом",
-                    "en": "Economy"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент. Повышение класса разрешено с добором разницы между тарифами",
-                    "en": "Exchangeable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "U6",
-        "baseClass": "economy",
-        "tariffCodePattern": "^(\\w*\\d*(FL))\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Премиум Эконом",
-                    "en": "Premium Economy"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены без оплаты. Повышение класса разрешено с добором разницы между тарифами. При неявке на рейс (после окончания регистрации) разрешен со сбором за каждый сегмент",
-                    "en": "Exchangeable before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета до вылета (более чем за 40 мин до окончания регистрации) разрешен без оплаты. При неявке на рейс (после окончания регистрации) по полностью неиспользованному билету возврат разрешен со сбором",
-                    "en": "Refundable. No fee applies"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "U6",
         "baseClass": "business",
         "tariffCodePattern": "^(\\w*\\d*(BL))\\w*\\d*$",
         "parameters": [
@@ -355,6 +154,222 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "U6",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(EC))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом",
+                    "en": "Economy",
+                    "de": "Wirtschaft"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg",
+                    "de": "1 Platz bis zu 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg",
+                    "de": "1 Platz bis zu 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange",
+                    "de": "Ticketbörse"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент. Повышение класса разрешено с добором разницы между тарифами",
+                    "en": "Exchangeable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "U6",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(FL))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум Эконом",
+                    "en": "Premium Economy",
+                    "de": "Prämie Wirtschaft"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg",
+                    "de": "1 Platz bis zu 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg",
+                    "de": "1 Platz bis zu 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange",
+                    "de": "Ticketbörse"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены без оплаты. Повышение класса разрешено с добором разницы между тарифами. При неявке на рейс (после окончания регистрации) разрешен со сбором за каждый сегмент",
+                    "en": "Exchangeable before departure. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета (более чем за 40 мин до окончания регистрации) разрешен без оплаты. При неявке на рейс (после окончания регистрации) по полностью неиспользованному билету возврат разрешен со сбором",
+                    "en": "Refundable. No fee applies"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "U6",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(PR))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Промо",
+                    "en": "Promo",
+                    "de": "Promo"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg",
+                    "de": "1 Platz bis zu 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Platz bis zu 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange",
+                    "de": "Ticketbörse"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент",
+                    "en": "Exchangeable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     }

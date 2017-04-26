@@ -2,109 +2,6 @@
     {
         "owner": "S7",
         "baseClass": "economy",
-        "tariffCodePattern": "^(\\w*\\d*(FL))\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Эконом Гибкий",
-                    "en": "Economy Flex"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "100% миль S7 Priority",
-                    "en": "100% S7 Priority Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "Up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф на неиспользованных участках подлежит возврату. Такса YR, аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Такса YQ возврату не подлежит. Взимается сбор за возврат за каждый возвращаемый участок, на котором была неявка, и сбор за возврат за каждый возвращаемый участок, на котором не было неявки. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатный выбор места в салоне при регистрации на рейс.  Выбор места при покупке за дополнительную плату. Выбор места повышенной комфортности за дополнительную плату",
-                    "en": "Seat selection permitted during the check-in"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения в билете до вылета",
-                    "en": "Exchange Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменения разрешены без сборов до вылета. Разрешены со сбором за каждый сегмент после вылета. Разрешен обмен билета до более высокого тарифа в пределах группы Эконом Гибкий и Бизнес Гибкий, при доборе с Эконом Гибкий до Бизнес Гибкий со сбором за каждый сегмент. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
-                    "en": "Exchangeable before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуска/горячее питание",
-                    "en": "Snacks/Meals"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "S7",
-        "baseClass": "economy",
         "tariffCodePattern": "^(\\w*\\d*(BS))\\w*\\d*$",
         "parameters": [
             {
@@ -202,121 +99,6 @@
                     "en": "Seat selection permitted during the check-in at extra charge"
                 },
                 "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "S7",
-        "baseClass": "business",
-        "tariffCodePattern": "^(\\w*\\d*(FL))\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Гибкий Бизнес",
-                    "en": "Business Flex"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения в билете до вылета",
-                    "en": "Exchange Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменения разрешены без сборов",
-                    "en": "Exchangeable before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф на неиспользованных участках подлежит возврату. Такса YR, аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Такса YQ возврату не подлежит. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Refundable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "15 кг",
-                    "en": "Up to 15 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 места по 32 кг",
-                    "en": "2 items up to 32 kg each"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": "Seat selection permitted during the check-in"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "250% миль S7 Priority",
-                    "en": "250% S7 Priority Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Специальное меню и напитки",
-                    "en": "Special Meals & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Бизнес зал",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "С доступом в зал ожидания бизнес-класса",
-                    "en": ""
-                },
-                "needToPay": "free"
             }
         ]
     },
@@ -432,6 +214,224 @@
                     "en": "No free lounge access"
                 },
                 "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "S7",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(FL))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Гибкий",
+                    "en": "Economy Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "100% миль S7 Priority",
+                    "en": "100% S7 Priority Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "Up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф на неиспользованных участках подлежит возврату. Такса YR, аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Такса YQ возврату не подлежит. Взимается сбор за возврат за каждый возвращаемый участок, на котором была неявка, и сбор за возврат за каждый возвращаемый участок, на котором не было неявки. Сбор за оформление авиабилета возврату не подлежит",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места при регистрации",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатный выбор места в салоне при регистрации на рейс.  Выбор места при покупке за дополнительную плату. Выбор места повышенной комфортности за дополнительную плату",
+                    "en": "Seat selection permitted during the check-in"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены без сборов до вылета. Разрешены со сбором за каждый сегмент после вылета. Разрешен обмен билета до более высокого тарифа в пределах группы Эконом Гибкий и Бизнес Гибкий, при доборе с Эконом Гибкий до Бизнес Гибкий со сбором за каждый сегмент. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
+                    "en": "Exchangeable before departure. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Закуска/горячее питание",
+                    "en": "Snacks/Meals"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "S7",
+        "baseClass": "business",
+        "tariffCodePattern": "^(\\w*\\d*(FL))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий Бизнес",
+                    "en": "Business Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены без сборов",
+                    "en": "Exchangeable before departure. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф на неиспользованных участках подлежит возврату. Такса YR, аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Такса YQ возврату не подлежит. Сбор за оформление авиабилета возврату не подлежит",
+                    "en": "Refundable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "15 кг",
+                    "en": "Up to 15 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места по 32 кг",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места при регистрации",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": "Seat selection permitted during the check-in"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "250% миль S7 Priority",
+                    "en": "250% S7 Priority Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Специальное меню и напитки",
+                    "en": "Special Meals & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "С доступом в зал ожидания бизнес-класса",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     }
