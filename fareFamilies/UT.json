@@ -1,6 +1,99 @@
 [
     {
         "owner": "UT",
+        "baseClass": "business",
+        "perTicketRefundPenalty": "2000RUB",
+        "perTicketExchangePenalty": "1000RUB",
+        "tariffCodePattern": "^([ADCJ](FLEX))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки до 10 кг каждая",
+                    "en": "2 items up to 10 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "200% миль",
+                    "en": "200% Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес-зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "С доступом в зал ожидания бизнес-класса",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "UT",
         "baseClass": "economy",
         "perTicketRefundPenalty": "2000RUB",
         "perTicketExchangePenalty": "1000RUB",
@@ -77,6 +170,87 @@
                     "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "UT",
+        "baseClass": "economy",
+        "perTicketRefundPenalty": "2000RUB",
+        "perTicketExchangePenalty": "1000RUB",
+        "tariffCodePattern": "^([M](FLEX))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфорт",
+                    "en": "Comfort Economy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки до 10 кг каждая",
+                    "en": "2 items up to 10 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "200% миль",
+                    "en": "200% Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -236,180 +410,6 @@
                     "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "UT",
-        "baseClass": "business",
-        "perTicketRefundPenalty": "2000RUB",
-        "perTicketExchangePenalty": "1000RUB",
-        "tariffCodePattern": "^([ADCJ](FLEX))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Бизнес",
-                    "en": "Business"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "2 сумки до 10 кг каждая",
-                    "en": "2 items up to 10 kg each"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "200% миль",
-                    "en": "200% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Бизнес-зал",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "С доступом в зал ожидания бизнес-класса",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "UT",
-        "baseClass": "economy",
-        "perTicketRefundPenalty": "2000RUB",
-        "perTicketExchangePenalty": "1000RUB",
-        "tariffCodePattern": "^([M](FLEX))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Комфорт",
-                    "en": "Comfort Economy"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "2 сумки до 10 кг каждая",
-                    "en": "2 items up to 10 kg each"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "200% миль",
-                    "en": "200% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
             }
         ]
     }

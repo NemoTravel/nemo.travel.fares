@@ -19,8 +19,9 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 места общим весом до 15 кг",
-                    "en": "2 items up to 15 kg in total"
+                    "ru": "15 кг",
+                    "en": "Up to 15",
+                    "de": "Bis zu 15 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -31,8 +32,9 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 32 кг",
-                    "en": "1 item up to 32 kg"
+                    "ru": "Один чемодан 32 кг",
+                    "en": "1 item up to 32 kg",
+                    "de": "Eine Tasche bis zu 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -43,19 +45,19 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange before departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент",
-                    "en": "Exchangeable. A fee applies"
+                    "en": "Exchangeable before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund"
                 },
                 "fullDescription": {
@@ -65,16 +67,64 @@
                 "needToPay": "notAvailable"
             },
             {
-                "code": "vipService",
+                "code": "meal",
                 "shortDescription": {
-                    "ru": "Бизнес-зал",
-                    "en": "Lounge Access"
+                    "ru": "Питание на борту",
+                    "en": "Complimentary meals"
                 },
                 "fullDescription": {
-                    "ru": "Без доступа в зал ожидания бизнес-класса",
-                    "en": "No free lounge access"
+                    "ru": "Питание Бизнес-класса",
+                    "en": "Business class menu"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Рассадка на первых рядах",
+                    "en": "First row seats"
+                },
+                "fullDescription": {
+                    "ru": "Рассадка на первых рядах — недоступно",
+                    "en": "First row seats — not available"
                 },
                 "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация на рейс",
+                    "en": "Priority check-in"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка в самолёт",
+                    "en": "Priority boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Начисление бонусов",
+                    "en": "«Wings» bonuses"
+                },
+                "fullDescription": {
+                    "ru": "Участники программы «Крылья» получают на свой счет бонусы (15% от оплаченного тарифа)",
+                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 15% of the applicable tariff)"
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -98,8 +148,9 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 места общим весом до 15 кг",
-                    "en": "2 items up to 15 kg in total"
+                    "ru": "15 кг",
+                    "en": "Up to 15 kg",
+                    "de": "Bis zu 15 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -110,8 +161,9 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 места до 32 кг каждое",
-                    "en": "2 items up to 32 kg each"
+                    "ru": "Два чемодана по 32 кг",
+                    "en": "2 items up to 32 kg each",
+                    "de": "Zwei Taschen bis zu 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -120,38 +172,86 @@
                 "needToPay": "free"
             },
             {
-                "code": "refundable",
+                "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange before departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable. No fee applies"
+                    "ru": "Изменения в билете до вылета разрешены без сборов",
+                    "en": "Exchange before departure. No fee applies"
                 },
                 "needToPay": "free"
             },
             {
-                "code": "exchangeable",
+                "code": "refundable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен без сборов",
-                    "en": "Exchangeable. No fee applies"
+                    "ru": "Возврат билета до вылета разрешен без сборов",
+                    "en": "Refundable before departure. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": "Complimentary meals"
+                },
+                "fullDescription": {
+                    "ru": "Питание Бизнес-класса",
+                    "en": "Business class menu"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Рассадка на первых рядах",
+                    "en": "First row seats"
+                },
+                "fullDescription": {
+                    "ru": "Рассадка на первых рядах — недоступно",
+                    "en": "First row seats — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация на рейс",
+                    "en": "Priority check-in"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
             {
                 "code": "vipService",
                 "shortDescription": {
-                    "ru": "Бизнес-зал",
-                    "en": "Lounge Access"
+                    "ru": "Приоритетная посадка в самолёт",
+                    "en": "Priority boarding"
                 },
                 "fullDescription": {
-                    "ru": "Доступ в зал ожидания бизнес-класса",
+                    "ru": "",
                     "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Начисление бонусов",
+                    "en": "«Wings» bonuses"
+                },
+                "fullDescription": {
+                    "ru": "Участники программы «Крылья» получают на свой счет бонусы (15% от оплаченного тарифа)",
+                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 15% of the applicable tariff)"
                 },
                 "needToPay": "free"
             }
@@ -166,8 +266,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Эконом",
-                    "en": "Economy",
-                    "de": "Wirtschaft"
+                    "en": "Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -178,9 +277,9 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg",
-                    "de": "1 Platz bis zu 5 kg"
+                    "ru": "5 кг",
+                    "en": "Up to 5 kg",
+                    "de": "Bis zu 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -191,9 +290,9 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 23 кг",
+                    "ru": "Один чемодан 23 кг",
                     "en": "1 item up to 23 kg",
-                    "de": "1 Platz bis zu 23 kg"
+                    "de": "Eine Tasche bis zu 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -204,9 +303,8 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange",
-                    "de": "Ticketbörse"
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange before departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент. Повышение класса разрешено с добором разницы между тарифами",
@@ -217,15 +315,74 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
-                    "de": "Ticketrückerstattung"
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "ru": "Возврат билета до вылета разрешен со сборами",
+                    "en": "Refundable before departure. A fee applies"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": "Complimentary meals"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Рассадка на первых рядах",
+                    "en": "First row seats"
+                },
+                "fullDescription": {
+                    "ru": "Рассадка на первых рядах — недоступно",
+                    "en": "First row seats — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация на рейс",
+                    "en": "Priority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная регистрация на рейс — недоступно",
+                    "en": "Priority check-in — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка в самолёт",
+                    "en": "Priority boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка в самолёт — недоступно",
+                    "en": "Priority boarding — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Начисление бонусов",
+                    "en": "«Wings» bonuses"
+                },
+                "fullDescription": {
+                    "ru": "Участники программы «Крылья» получают на свой счет бонусы (10% от оплаченного тарифа)",
+                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 10% of the applicable tariff)"
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -238,8 +395,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Премиум Эконом",
-                    "en": "Premium Economy",
-                    "de": "Prämie Wirtschaft"
+                    "en": "Premium Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -250,9 +406,9 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg",
-                    "de": "1 Platz bis zu 5 kg"
+                    "ru": "5 кг",
+                    "en": "Up to 5 kg",
+                    "de": "Bis zu 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -263,9 +419,9 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 23 кг",
+                    "ru": "Один чемодан 23 кг",
                     "en": "1 item up to 23 kg",
-                    "de": "1 Platz bis zu 23 kg"
+                    "de": "Eine Tasche bis zu 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -276,9 +432,8 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange",
-                    "de": "Ticketbörse"
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange before departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены без оплаты. Повышение класса разрешено с добором разницы между тарифами. При неявке на рейс (после окончания регистрации) разрешен со сбором за каждый сегмент",
@@ -289,13 +444,72 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
-                    "de": "Ticketrückerstattung"
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета (более чем за 40 мин до окончания регистрации) разрешен без оплаты. При неявке на рейс (после окончания регистрации) по полностью неиспользованному билету возврат разрешен со сбором",
-                    "en": "Refundable. No fee applies"
+                    "en": "Refundable before departure. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": "Complimentary meals"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Рассадка на первых рядах",
+                    "en": "First row seats"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация на рейс",
+                    "en": "Priority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная регистрация на рейс — недоступно",
+                    "en": "Priority check-in — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка в самолёт",
+                    "en": "Priority boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка в самолёт — недоступно",
+                    "en": "Priority boarding — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Начисление бонусов",
+                    "en": "«Wings» bonuses"
+                },
+                "fullDescription": {
+                    "ru": "Участники программы «Крылья» получают на свой счет бонусы (10% от оплаченного тарифа)",
+                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 10% of the applicable tariff)"
                 },
                 "needToPay": "free"
             }
@@ -310,8 +524,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Промо",
-                    "en": "Promo",
-                    "de": "Promo"
+                    "en": "Promo"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -322,9 +535,9 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg",
-                    "de": "1 Platz bis zu 5 kg"
+                    "ru": "5 кг",
+                    "en": "Up to 5 kg",
+                    "de": "Bis zu 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -335,9 +548,9 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 10 кг",
+                    "ru": "Один чемодан 10 кг",
                     "en": "1 item up to 10 kg",
-                    "de": "1 Platz bis zu 10 kg"
+                    "de": "Eine Tasche bis zu 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -348,9 +561,8 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange",
-                    "de": "Ticketbörse"
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange before departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент",
@@ -361,15 +573,74 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
-                    "de": "Ticketrückerstattung"
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
                     "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": "Complimentary meals"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Рассадка на первых рядах",
+                    "en": "First row seats"
+                },
+                "fullDescription": {
+                    "ru": "Рассадка на первых рядах — недоступно",
+                    "en": "First row seats — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация на рейс",
+                    "en": "Priority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная регистрация на рейс — недоступно",
+                    "en": "Priority check-in — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка в самолёт",
+                    "en": "Priority boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка в самолёт — недоступно",
+                    "en": "Priority boarding — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Начисление бонусов",
+                    "en": "«Wings» bonuses"
+                },
+                "fullDescription": {
+                    "ru": "Участники программы «Крылья» получают на свой счет бонусы (5% от оплаченного тарифа)",
+                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 5% of the applicable tariff)"
+                },
+                "needToPay": "free"
             }
         ]
     }

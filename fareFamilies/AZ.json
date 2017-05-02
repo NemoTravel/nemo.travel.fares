@@ -1,0 +1,777 @@
+[
+    {
+        "owner": "AZ",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([YC](IF))$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "IATA Тариф",
+                    "en": "IATA Tariff"
+                },
+                "fullDescription": {
+                    "ru": "Тариф является базовым для данного направления и не привязан к авиакомпании. Подробности о предоставляемых услугах уточняйте в условиях применения тарифа",
+                    "en": "This tariff has no connection to the airline and works only on this route. Please check the fare rules for more details"
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Информация по провозу ручной клади и багажа уточняется в условиях применения тарифа",
+                    "en": "Check the fare rules to specify the baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AZ",
+        "baseClass": "business",
+        "flightTimeSince": "2017-04-07T00:00:00",
+        "flightTimeUntil": "2027-03-24T00:00:00",
+        "tariffCodePattern": "^([CDEIJ]\\w*(FL))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Гибкий",
+                    "en": "Business Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Refundable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен без сборов",
+                    "en": "Exchangeable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор мест доступен бесплатно",
+                    "en": "Seat selection — available for free"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация, посадка и выдача багажа",
+                    "en": "Priority Check-in, Boarding and Baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AZ",
+        "baseClass": "business",
+        "flightTimeSince": "2017-04-07T00:00:00",
+        "flightTimeUntil": "2027-03-24T00:00:00",
+        "tariffCodePattern": "^([CDEIJ]\\w*(CL))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Классический",
+                    "en": "Business Classic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами. Возможны исключения. Проверьте правила тарифа после выбора рейса",
+                    "en": "Refundable. A fee applies. Exceptions might apply. Please verify the fare rules after your final flight selection"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами. Возможны исключения. Проверьте правила тарифа после выбора рейса",
+                    "en": "Exchangeable. A fee applies. Exceptions might apply. Please verify the fare rules after your final flight selection"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор мест доступен бесплатно",
+                    "en": "Seat selection — available for free"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация, посадка и выдача багажа",
+                    "en": "Priority Check-in, Boarding and Baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AZ",
+        "baseClass": "business",
+        "flightTimeSince": "2017-04-07T00:00:00",
+        "flightTimeUntil": "2027-03-24T00:00:00",
+        "tariffCodePattern": "^((?!FL|CL).)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Деловой",
+                    "en": "Business Deal"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета не разрешен",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор мест доступен бесплатно",
+                    "en": "Seat selection — available for free"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация, посадка и выдача багажа",
+                    "en": "Priority Check-in, Boarding and Baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AZ",
+        "baseClass": "premiumEconomy",
+        "flightTimeSince": "2017-04-07T00:00:00",
+        "flightTimeUntil": "2027-03-24T00:00:00",
+        "tariffCodePattern": "^([AP]\\w*(FL))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум Гибкий",
+                    "en": "Premium Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов. Возможны исключения. Проверьте правила тарифа после выбора рейса",
+                    "en": "Refundable. No fee applies. Exceptions might apply. Please verify the fare rules after your final flight selection"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен без сборов. Возможны исключения. Проверьте правила тарифа после выбора рейса. Доступно повышение класса обслуживания за дополнительную плату",
+                    "en": "Exchangeable. No fee applies. Exceptions might apply. Please verify the fare rules after your final flight selection. Upgrade to Business class — available at extra charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор мест доступен бесплатно",
+                    "en": "Seat selection — available for free"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация, посадка и выдача багажа",
+                    "en": "Priority Check-in, Boarding and Baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AZ",
+        "baseClass": "premiumEconomy",
+        "flightTimeSince": "2017-04-07T00:00:00",
+        "flightTimeUntil": "2027-03-24T00:00:00",
+        "tariffCodePattern": "^([AP]\\w*(CL))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум Классический",
+                    "en": "Premium Classic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами. Возможны исключения. Проверьте правила тарифа после выбора рейса",
+                    "en": "Refundable. A fee applies. Exceptions might apply. Please verify the fare rules after your final flight selection"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами. Возможны исключения. Проверьте правила тарифа после выбора рейса. Доступно повышение класса обслуживания за дополнительную плату",
+                    "en": "Exchangeable. A fee applies. Exceptions might apply. Please verify the fare rules after your final flight selection. Upgrade to Business class — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор мест доступен бесплатно",
+                    "en": "Seat selection — available for free"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация, посадка и выдача багажа",
+                    "en": "Priority Check-in, Boarding and Baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AZ",
+        "baseClass": "economy",
+        "flightTimeSince": "2017-04-07T00:00:00",
+        "flightTimeUntil": "2027-03-24T00:00:00",
+        "tariffCodePattern": "^([^APCDEIJ]\\w*(FL))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Гибкий",
+                    "en": "Economy Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов. Возможны исключения. Проверьте правила тарифа после выбора рейса",
+                    "en": "Refundable. No fee applies. Exceptions might apply. Please verify the fare rules after your final flight selection"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен без сборов. Доступно повышение класса обслуживания за дополнительную плату",
+                    "en": "Exchangeable. No fee applies. Upgrade to Business class — available at extra charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор мест доступен бесплатно",
+                    "en": "Seat selection — available for free"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AZ",
+        "baseClass": "economy",
+        "flightTimeSince": "2017-04-07T00:00:00",
+        "flightTimeUntil": "2027-03-24T00:00:00",
+        "tariffCodePattern": "^([^APCDEIJ]\\w*(CL))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Классический",
+                    "en": "Economy Classic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами. Доступно повышение класса обслуживания за дополнительную плату",
+                    "en": "Exchangeable. A fee applies. Upgrade to Business class — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор мест доступен бесплатно",
+                    "en": "Seat selection — available for free"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AZ",
+        "baseClass": "economy",
+        "flightTimeSince": "2017-04-07T00:00:00",
+        "flightTimeUntil": "2027-03-24T00:00:00",
+        "tariffCodePattern": "^(\\w*(SV))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Легкий",
+                    "en": "Economy Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета не разрешен. Доступно повышение класса обслуживания за дополнительную плату",
+                    "en": "Non-exchangeable. Upgrade to Business class — available at extra charge"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор мест доступен за дополнительную плату",
+                    "en": "Seat selection — available at extra charge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    }
+]

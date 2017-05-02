@@ -286,7 +286,7 @@
     },
     {
         "owner": "AC",
-        "baseClass": "economy",
+        "baseClass": "premiumEconomy",
         "tariffCodePattern": "^([EN])\\w*\\d*$",
         "parameters": [
             {
@@ -389,7 +389,7 @@
     },
     {
         "owner": "AC",
-        "baseClass": "economy",
+        "baseClass": "premiumEconomy",
         "tariffCodePattern": "^([O])\\w*\\d*$",
         "parameters": [
             {

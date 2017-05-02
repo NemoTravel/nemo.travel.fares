@@ -122,7 +122,7 @@
                     "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
                     "en": "Advance basic seat reservation — free of charge only for FFP members with Elite and Elite Plus (Silver, Gold, Platinum) tier level"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "vipService",
@@ -309,7 +309,7 @@
                     "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
                     "en": "Advance basic seat reservation — free of charge only for FFP members with Elite and Elite Plus (Silver, Gold, Platinum) tier level"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "vipService",
@@ -496,7 +496,7 @@
                     "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
                     "en": "Advance basic seat reservation — free of charge only for FFP members with Elite and Elite Plus (Silver, Gold, Platinum) tier level"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "vipService",
@@ -620,8 +620,8 @@
                     "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1 item up to 23 kg"
                 },
                 "needToPay": "free"
             },
@@ -680,10 +680,10 @@
                     "en": "Advance Basic Seat Reservation"
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется за дополнительную плату",
-                    "en": "Advance basic seat reservation — available at extra charge"
+                    "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
+                    "en": "Advance basic seat reservation — free of charge only for FFP members with Elite and Elite Plus (Silver, Gold, Platinum) tier level"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "vipService",
@@ -970,10 +970,10 @@
                     "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Внесение изменений в оформленный билет разрешено без сборов",
-                    "en": "Rebooking before flight departure time — available. No fee applies"
+                    "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
+                    "en": "Rebooking before flight departure time — available. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -990,14 +990,14 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
+                    "ru": "Возврат билета до конца регистрации",
+                    "en": "Refund Before Check-in Closure"
                 },
                 "fullDescription": {
-                    "ru": "При внутренних перевозках по РФ и международных перевозках между пунктами РФ/Европы/БСВ/СНГ возврат билета разрешен без удержания платы. При остальных международных перевозках разрешен с удержанием платы",
-                    "en": "When domestic travel in Russia and international transportation between cities in Russia / Europe / ME / NA9 refund allowed without deduction of fees. For other travel refund allowed with a retention fee"
+                    "ru": "Возврат стоимости билета до окончания регистрации разрешен со сборами",
+                    "en": "Refundable before check-in closure. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "seatsRegistration",

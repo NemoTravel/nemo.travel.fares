@@ -1,0 +1,819 @@
+[
+    {
+        "owner": "LO",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*(SAV))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Легкий",
+                    "en": "Economy Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета не разрешен",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение класса обслуживания",
+                    "en": "Upgrade to Higher Class"
+                },
+                "fullDescription": {
+                    "ru": "Повышение класса обслуживания недоступно",
+                    "en": "Upgrade to higher class — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места доступен за дополнительную плату",
+                    "en": "Seat selection — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Закуски и напитки",
+                    "en": "Snacks & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "LO",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*(STD))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Стандартный",
+                    "en": "Economy Standard"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение класса обслуживания",
+                    "en": "Upgrade to Higher Class"
+                },
+                "fullDescription": {
+                    "ru": "Повышение класса обслуживания доступно за дополнительную плату",
+                    "en": "Upgrade to higher class — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места разрешен",
+                    "en": "Seat selection — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Закуски и напитки",
+                    "en": "Snacks & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "LO",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*(FLX))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Гибкий",
+                    "en": "Economy Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен без сборов",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение класса обслуживания",
+                    "en": "Upgrade to Higher Class"
+                },
+                "fullDescription": {
+                    "ru": "Повышение класса обслуживания доступно за дополнительную плату",
+                    "en": "Upgrade to higher class — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места разрешен",
+                    "en": "Seat selection — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Закуски и напитки",
+                    "en": "Snacks & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "LO",
+        "baseClass": "premiumEconomy",
+        "tariffCodePattern": "^(\\w*(SPC))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум Стандартный",
+                    "en": "Premium Standard"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение класса обслуживания",
+                    "en": "Upgrade to Higher Class"
+                },
+                "fullDescription": {
+                    "ru": "Повышение класса обслуживания доступно за дополнительную плату",
+                    "en": "Upgrade to higher class — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места разрешен",
+                    "en": "Seat selection — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Премиум меню",
+                    "en": "Premium Meal Menu"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка, выдача багажа",
+                    "en": "Priority Bag & Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Business Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания за дополнительную плату",
+                    "en": "Business lounge access — at extra charge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "LO",
+        "baseClass": "premiumEconomy",
+        "tariffCodePattern": "^(\\w*(PML))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум Гибкий",
+                    "en": "Premium Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен без сборов",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение класса обслуживания",
+                    "en": "Upgrade to Higher Class"
+                },
+                "fullDescription": {
+                    "ru": "Повышение класса обслуживания доступно за дополнительную плату",
+                    "en": "Upgrade to higher class — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места разрешен",
+                    "en": "Seat selection — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Премиум меню",
+                    "en": "Premium Meal Menu"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка, выдача багажа",
+                    "en": "Priority Bag & Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Business Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания за дополнительную плату",
+                    "en": "Business lounge access — at extra charge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "LO",
+        "baseClass": "business",
+        "tariffCodePattern": "^([Z])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Стандартный",
+                    "en": "Business Standard"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 9 кг каждое",
+                    "en": "2 items up to 9 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен без сборов",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места разрешен",
+                    "en": "Seat selection — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места со свободными соседними местами",
+                    "en": "Empty Neighboring Seat"
+                },
+                "fullDescription": {
+                    "ru": "Возможен выбор места со свободными соседними местами",
+                    "en": "Empty neighboring seat  — available for selection"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Бизнес меню",
+                    "en": "Business Meal Menu"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка, выдача багажа",
+                    "en": "Priority Bag & Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Business Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "LO",
+        "baseClass": "business",
+        "tariffCodePattern": "^([DC])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Гибкий",
+                    "en": "Business Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 9 кг каждое",
+                    "en": "2 items up to 9 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен без сборов",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места разрешен",
+                    "en": "Seat selection — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места со свободными соседними местами",
+                    "en": "Empty Neighboring Seat"
+                },
+                "fullDescription": {
+                    "ru": "Возможен выбор места со свободными соседними местами",
+                    "en": "Empty neighboring seat  — available for selection"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Бизнес меню",
+                    "en": "Business Meal Menu"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка, выдача багажа",
+                    "en": "Priority Bag & Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Business Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

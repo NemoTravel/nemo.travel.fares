@@ -35,7 +35,7 @@
                     "en": "No free baggage allowance"
                 },
                 "fullDescription": {
-                    "ru": "",
+                    "ru": "Бесплатная норма провоза багажа не предоставляется",
                     "en": ""
                 },
                 "needToPay": "charge"
@@ -574,8 +574,8 @@
                     "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для рейсов AZAL — 1 сумки до 23 кг каждая. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
-                    "en": "In case of AZAL flight — 1 items up to 23 kg each. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
+                    "ru": "Для рейсов AZAL — 1 сумка до 23 кг. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
+                    "en": "In case of AZAL flight — 1 item up to 23 kg. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
                 },
                 "needToPay": "free"
             },
@@ -665,8 +665,8 @@
                     "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для рейсов AZAL — 1 сумки до 23 кг каждая. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
-                    "en": "In case of AZAL flight — 1 items up to 23 kg each. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
+                    "ru": "Для рейсов AZAL — 1 сумка до 23 кг. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
+                    "en": "In case of AZAL flight — 1 item up to 23 kg. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
                 },
                 "needToPay": "free"
             },
@@ -1041,8 +1041,8 @@
                     "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для рейсов AZAL — 1 сумки до 23 кг каждая. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
-                    "en": "In case of AZAL flight — 1 items up to 23 kg each. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
+                    "ru": "Для рейсов AZAL — 1 сумка до 23 кг. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
+                    "en": "In case of AZAL flight — 1 item up to 23 kg. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
                 },
                 "needToPay": "free"
             },

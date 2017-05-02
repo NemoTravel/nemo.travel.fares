@@ -17,18 +17,6 @@
                 "needToPay": null
             },
             {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Бизнес зал",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 5 кг",
@@ -117,6 +105,18 @@
                 "shortDescription": {
                     "ru": "Питание на борту",
                     "en": "Complimentary Meals"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -561,18 +561,6 @@
                 "needToPay": "free"
             },
             {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат после отправления рейса",
-                    "en": "Refund After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат после отправления рейса разрешен без сборов",
-                    "en": "Refundable after departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "miles",
                 "shortDescription": {
                     "ru": "100% миль",
@@ -593,6 +581,18 @@
                 "fullDescription": {
                     "ru": "",
                     "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после отправления рейса",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после отправления рейса разрешен без сборов",
+                    "en": "Refundable after departure. No fee applies"
                 },
                 "needToPay": "free"
             }
@@ -676,18 +676,6 @@
                 "needToPay": "charge"
             },
             {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат после отправления рейса",
-                    "en": "Refund After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат после отправления рейса не разрешен",
-                    "en": "Non-refundable after departure"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
                 "code": "miles",
                 "shortDescription": {
                     "ru": "25% миль",
@@ -710,6 +698,18 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после отправления рейса",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после отправления рейса не разрешен",
+                    "en": "Non-refundable after departure"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     }
