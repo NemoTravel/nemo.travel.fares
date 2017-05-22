@@ -2,85 +2,6 @@
     {
         "owner": "AC",
         "baseClass": "economy",
-        "tariffCodePattern": "^([WGSTLAK])\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Tango",
-                    "en": ""
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета не разрешен",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable: Any-time change fees are per direction, plus taxes and any fare difference (as a higher fare may apply in addition to the change fee). A same-day confirmed change is a flight change requested at check-in or at the airport prior to departure, on the day of departure.  Same-day confirmed changes are subject to availability. Change fees are per direction, plus taxes. No additional charges for fare difference apply for changes made on the day of travel when flights are operated by Air Canada. Same-day confirmed changes can be completed upon at time of check-in"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "50% миль",
-                    "en": "Up to 50% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Advance Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатный выбор места",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание",
-                    "en": "Complimentary Meal"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатное питание",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "AC",
-        "baseClass": "economy",
         "tariffCodePattern": "^([MUHQV])\\w*\\d*$",
         "parameters": [
             {
@@ -164,6 +85,121 @@
                 "fullDescription": {
                     "ru": "Бесплатное питание",
                     "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AC",
+        "baseClass": "business",
+        "tariffCodePattern": "^([J])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Flexible Business",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Refundable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен без сборов",
+                    "en": "Exchangeable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "150% миль",
+                    "en": "150% Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority Check-in, Baggage Handling and Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в залы ожидания",
+                    "en": "Access to Maple Leaf Lounges and London-Heathrow Arrivals Lounge"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание",
+                    "en": "Complimentary Meal"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатное питание",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Advance Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатный выбор места",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Скидка в Online Duty-Free",
+                    "en": "Online Duty-Free Pre-order Discount"
+                },
+                "fullDescription": {
+                    "ru": "15% скидка в Online Duty-Free",
+                    "en": "15% Online Duty-Free Pre-order Discount"
                 },
                 "needToPay": "free"
             }
@@ -279,6 +315,121 @@
                 "fullDescription": {
                     "ru": "10% скидка в Online Duty-Free",
                     "en": "10% Online Duty-Free Pre-order Discount"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AC",
+        "baseClass": "business",
+        "tariffCodePattern": "^([CDZP])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Lowest Business",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Exchangeable: Any-time change fees are per direction, plus taxes and any fare difference (as a higher fare may apply in addition to the change fee). A same-day confirmed change is a flight change requested at check-in or at the airport prior to departure, on the day of departure.  Same-day confirmed changes are subject to availability. Change fees are per direction, plus taxes. No additional charges for fare difference apply for changes made on the day of travel when flights are operated by Air Canada. Same-day confirmed changes can be completed upon at time of check-in"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "150% миль",
+                    "en": "150% Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Скидка в Online Duty-Free",
+                    "en": "Online Duty-Free Pre-order Discount"
+                },
+                "fullDescription": {
+                    "ru": "15% скидка в Online Duty-Free",
+                    "en": "15% Online Duty-Free Pre-order Discount"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание",
+                    "en": "Complimentary Meal"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатное питание",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority Check-in, Baggage Handling and Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Advance Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатный выбор места",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в залы ожидания",
+                    "en": "Access to Maple Leaf Lounges and London-Heathrow Arrivals Lounge"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -492,13 +643,13 @@
     },
     {
         "owner": "AC",
-        "baseClass": "business",
-        "tariffCodePattern": "^([CDZP])\\w*\\d*$",
+        "baseClass": "economy",
+        "tariffCodePattern": "^([WGSTLAK])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Lowest Business",
+                    "ru": "Tango",
                     "en": ""
                 },
                 "fullDescription": {
@@ -522,7 +673,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
+                    "ru": "Изменения билета",
                     "en": "Exchange"
                 },
                 "fullDescription": {
@@ -534,44 +685,8 @@
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "150% миль",
-                    "en": "150% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Скидка в Online Duty-Free",
-                    "en": "Online Duty-Free Pre-order Discount"
-                },
-                "fullDescription": {
-                    "ru": "15% скидка в Online Duty-Free",
-                    "en": "15% Online Duty-Free Pre-order Discount"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание",
-                    "en": "Complimentary Meal"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатное питание",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритетная регистрация",
-                    "en": "Priority Check-in, Baggage Handling and Boarding"
+                    "ru": "50% миль",
+                    "en": "Up to 50% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -592,97 +707,6 @@
                 "needToPay": "free"
             },
             {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в залы ожидания",
-                    "en": "Access to Maple Leaf Lounges and London-Heathrow Arrivals Lounge"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "AC",
-        "baseClass": "business",
-        "tariffCodePattern": "^([J])\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Flexible Business",
-                    "en": ""
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен без сборов",
-                    "en": "Exchangeable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "150% миль",
-                    "en": "150% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритетная регистрация",
-                    "en": "Priority Check-in, Baggage Handling and Boarding"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в залы ожидания",
-                    "en": "Access to Maple Leaf Lounges and London-Heathrow Arrivals Lounge"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Питание",
@@ -691,30 +715,6 @@
                 "fullDescription": {
                     "ru": "Бесплатное питание",
                     "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Advance Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатный выбор места",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Скидка в Online Duty-Free",
-                    "en": "Online Duty-Free Pre-order Discount"
-                },
-                "fullDescription": {
-                    "ru": "15% скидка в Online Duty-Free",
-                    "en": "15% Online Duty-Free Pre-order Discount"
                 },
                 "needToPay": "free"
             }
