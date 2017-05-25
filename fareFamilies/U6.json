@@ -50,7 +50,8 @@
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент",
-                    "en": "Exchangeable before departure. A fee applies"
+                    "en": "Changes to the ticket before departure (40 minutes before the end of registration) are allowed with an additional charge for each segment",
+                    "de": "Änderungen am Ticket vor der Abreise (40 Minuten vor dem Ende der Anmeldung) sind mit einem Aufpreis für jedes Segment erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -62,7 +63,8 @@
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью не возвратный",
-                    "en": "Non-refundable"
+                    "en": "Fare is completely non-refundable",
+                    "de": "Fare ist völlig nicht rückzahlbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -266,7 +268,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Эконом",
-                    "en": "Economy"
+                    "en": "Economy",
+                    "de": "Wirtschaft"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -308,7 +311,8 @@
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент. Повышение класса разрешено с добором разницы между тарифами",
-                    "en": "Exchangeable before departure. A fee applies"
+                    "en": "Changes to the ticket before departure (40 minutes before the end of registration) are allowed with an additional charge for each segment. Class upgrade is allowed with the sufficient difference between the fares",
+                    "de": "Änderungen am Ticket vor der Abreise (40 Minuten vor dem Ende der Anmeldung) sind mit einem Aufpreis für jedes Segment erlaubt. Klasse-Upgrade ist mit dem ausreichenden Unterschied zwischen den Tarifen erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -395,7 +399,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Премиум Эконом",
-                    "en": "Premium Economy"
+                    "en": "Premium Economy",
+                    "de": "Prämie Wirtschaft"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -437,7 +442,8 @@
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены без оплаты. Повышение класса разрешено с добором разницы между тарифами. При неявке на рейс (после окончания регистрации) разрешен со сбором за каждый сегмент",
-                    "en": "Exchangeable before departure. No fee applies"
+                    "en": "Changes to the ticket before departure (40 minutes before the end of registration) are allowed free of charge. Class upgrade is allowed with the sufficient difference between the fares.  In case of missed flight (Non-appearance after registration is over) changes are allowed with an additional charge for each segment",
+                    "de": "Änderungen am Ticket vor der Abreise (40 Minuten vor dem Ende der Anmeldung) sind kostenlos erlaubt. Klasse-Upgrade ist mit dem ausreichenden Unterschied zwischen den Tarifen erlaubt. Im Falle eines verpassten Fluges (Nicht-Aussehen nach Anmeldung ist vorbei) Änderungen sind mit einer zusätzlichen Gebühr für jedes Segment erlaubt"
                 },
                 "needToPay": "free"
             },
@@ -449,7 +455,8 @@
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета (более чем за 40 мин до окончания регистрации) разрешен без оплаты. При неявке на рейс (после окончания регистрации) по полностью неиспользованному билету возврат разрешен со сбором",
-                    "en": "Refundable before departure. No fee applies"
+                    "en": "Ticket refund before departure (40 minutes before the end of registration) is allowed free of charge. In case of missed flight (Non-appearance after registration is over) refound is allowed with an additional charge",
+                    "de": "Ticketrückmeldung vor Abreise (40 Minuten vor dem Ende der Anmeldung) ist kostenlos erlaubt. Im Falle eines verpassten Fluges (Nicht-Aussehen nach Anmeldung ist vorbei) ist eine Nachzahlung erlaubt"
                 },
                 "needToPay": "free"
             },
@@ -524,7 +531,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Промо",
-                    "en": "Promo"
+                    "en": "Promo",
+                    "de": "Promo"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -566,7 +574,8 @@
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент",
-                    "en": "Exchangeable before departure. A fee applies"
+                    "en": "Changes to the ticket before departure (40 minutes before the end of registration) are allowed with an additional charge for each segment",
+                    "de": "Änderungen am Ticket vor der Abreise (40 Minuten vor dem Ende der Anmeldung) sind mit einem Aufpreis für jedes Segment erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -578,7 +587,8 @@
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "en": "Fare is completely non-refundable",
+                    "de": "Fare ist völlig nicht rückzahlbar"
                 },
                 "needToPay": "notAvailable"
             },
