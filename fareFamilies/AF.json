@@ -302,7 +302,7 @@
                 "needToPay": "charge"
             },
             {
-                "code": "miles",
+                "code": "meal",
                 "shortDescription": {
                     "ru": "Закуски и напитки",
                     "en": "Snacks & Beverages"

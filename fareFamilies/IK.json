@@ -203,7 +203,7 @@
     {
         "owner": "IK",
         "baseClass": "economy",
-        "tariffCodePattern": "^[LMNHQTVX]\\w*$",
+        "tariffCodePattern": "^[BLMNHQTVX]\\w*$",
         "parameters": [
             {
                 "code": "description",

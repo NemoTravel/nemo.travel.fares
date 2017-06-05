@@ -203,7 +203,7 @@
     {
         "owner": "N4",
         "baseClass": "economy",
-        "tariffCodePattern": "^[LMNHQTVX]\\w*$",
+        "tariffCodePattern": "^[BLMNHQTVX]\\w*$",
         "parameters": [
             {
                 "code": "description",

@@ -2,14 +2,12 @@
     {
         "owner": "5F",
         "baseClass": "economy",
-        "saleTimeSince": "2017-06-01T00:00:00",
-        "saleTimeUntil": "2027-05-23T00:00:00",
-        "tariffCodePattern": "^([AYSEW])\\w*$",
+        "tariffCodePattern": "^[AYSEW]\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Выигрышный",
+                    "ru": "Премиум",
                     "en": "Advantage"
                 },
                 "fullDescription": {
@@ -95,14 +93,12 @@
     {
         "owner": "5F",
         "baseClass": "economy",
-        "saleTimeSince": "2017-06-01T00:00:00",
-        "saleTimeUntil": "2027-05-23T00:00:00",
-        "tariffCodePattern": "^([UMLKHB])\\w*$",
+        "tariffCodePattern": "^[UMLKHB]\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Лояльный",
+                    "ru": "Гибкий",
                     "en": "Loyal"
                 },
                 "fullDescription": {
@@ -188,9 +184,7 @@
     {
         "owner": "5F",
         "baseClass": "economy",
-        "saleTimeSince": "2017-06-01T00:00:00",
-        "saleTimeUntil": "2027-05-23T00:00:00",
-        "tariffCodePattern": "^([P])\\w*$",
+        "tariffCodePattern": "^[P]\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -281,9 +275,7 @@
     {
         "owner": "5F",
         "baseClass": "economy",
-        "saleTimeSince": "2017-06-01T00:00:00",
-        "saleTimeUntil": "2027-05-23T00:00:00",
-        "tariffCodePattern": "^([OXVTQN])\\w*$",
+        "tariffCodePattern": "^[OXVTQN]\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -325,11 +317,11 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": ""
+                    "en": "Refund"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": ""
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
