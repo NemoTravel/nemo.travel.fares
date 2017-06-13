@@ -87,6 +87,18 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Premium Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Доступен выбор любого места",
+                    "en": "Any seat"
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -176,6 +188,18 @@
                 "fullDescription": {
                     "ru": "",
                     "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Standard Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Доступен выбор любого места кроме первых и аварийных рядов",
+                    "en": "Any seat excluding first/exit rows"
                 },
                 "needToPay": "free"
             }

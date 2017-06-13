@@ -1,0 +1,318 @@
+[
+    {
+        "owner": "LA",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(SE))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Плюс",
+                    "en": "Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 8 кг (55x35x25 см) и 1 личная вещь (45x35x20 см)",
+                    "en": "1 piece up to 8 kg in weight with a maximum total size of 55x35x25 cm plus one personal item not to exceed 45x35x20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сборами",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета до вылета разрешен со сборами",
+                    "en": "Exchangeable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор мест разрешен",
+                    "en": "Seat selection — permitted"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "LA",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(SF))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Лучший",
+                    "en": "Top"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 8 кг (55x35x25 см) и 1 личная вещь (45x35x20 см)",
+                    "en": "1 piece up to 8 kg in weight with a maximum total size of 55x35x25 cm plus one personal item not to exceed 45x35x20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор мест разрешен",
+                    "en": "Seat selection — permitted"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "LA",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(SL))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Легкий",
+                    "en": "Light"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 8 кг (55x35x25 см) и 1 личная вещь (45x35x20 см)",
+                    "en": "1 piece up to 8 kg in weight with a maximum total size of 55x35x25 cm plus one personal item not to exceed 45x35x20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета не разрешен",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места доступен за дополнительную плату",
+                    "en": "Seat selection — available at extra charge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "LA",
+        "baseClass": "economy",
+        "tariffCodePattern": "^(\\w*\\d*(SN))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Промо",
+                    "en": "Promo"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 8 кг (55x35x25 см) и 1 личная вещь (45x35x20 см)",
+                    "en": "1 piece up to 8 kg in weight with a maximum total size of 55x35x25 cm plus one personal item not to exceed 45x35x20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета не разрешен",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор мест",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор мест не включен",
+                    "en": "Seat selection — not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    }
+]
