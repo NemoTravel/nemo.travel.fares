@@ -8,7 +8,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Бизнес",
-                    "en": "Business"
+                    "en": "Business",
+                    "de": "Business"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -20,7 +21,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -32,11 +34,13 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "en": "2 items up to 32 kg each",
+                    "de": "2 Beutel bis 32 kg"
                 },
                 "fullDescription": {
                     "ru": "На некоторых рейсах может быть предусмотрена другая величина нормы бесплатного провоза багажа",
-                    "en": ""
+                    "en": "On some flights, a different amount of free baggage allowance may be provided",
+                    "de": "Bei einigen Flügen kann eine andere Menge an Freigepäck vorgesehen sein"
                 },
                 "needToPay": "free"
             },
@@ -48,7 +52,8 @@
                 },
                 "fullDescription": {
                     "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время)",
-                    "en": "Date changes — available. A fee applies"
+                    "en": "Changes in the contract of carriage are permitted with a fee in case of reissuance to an earlier date (time) / renewal for a later date (time)",
+                    "de": "Änderungen im Beförderungsvertrag sind im Falle einer Neuausgabe zu einem früheren Zeitpunkt (Uhrzeit) / Verlängerung zu einem späteren Zeitpunkt (Uhrzeit) mit einer Gebühr zulässig"
                 },
                 "needToPay": "charge"
             },
@@ -56,11 +61,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешается со сбором. При этом возвращается тариф неиспользованного участка маршрута перевозки. Тариф для расчета сбора - тариф участка. Сбор рассчитывается для всего билета",
-                    "en": "Refundable. A fee applies"
+                    "ru": "Возврат билета разрешается со сбором. При этом возвращается тариф неиспользованного участка маршрута перевозки. Тариф для расчета сбора — тариф участка. Сбор рассчитывается для всего билета",
+                    "en": "Ticket return is allowed with a fee. In addition to the above, the fare of unused section of transportation route is returned. The fare for calculating the fee — is the fare of the route section. The fee is calculated for the whole ticket",
+                    "de": "Die Rückgabe des Tickets ist mit einer Gebühr möglich. Zusätzlich zu den oben genannten, wird der Fahrpreis der unbenutzten Abschnitt der Transportstrecke zurückgegeben. Der Fahrpreis für die Berechnung der Gebühr — ist der Fahrpreis des Streckenabschnitts. Die Gebühr wird für das ganze Ticket berechnet"
                 },
                 "needToPay": "charge"
             },
@@ -68,7 +75,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Бизнес зал",
-                    "en": "Lounge Access"
+                    "en": "Lounge Access",
+                    "de": "Business-Lounge"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -80,7 +88,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация на рейс",
-                    "en": "Priority Check-in"
+                    "en": "Priority Check-in",
+                    "de": "Vorrangiger Check-in für einen Flug"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -92,7 +101,8 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Выбор места в самолете",
-                    "en": "Seat Selection"
+                    "en": "Seat Selection",
+                    "de": "Sitzbelegung im Flugzeug"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -104,7 +114,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Улучшенное питание",
-                    "en": "Business-Class Meals"
+                    "en": "Business-Class Meals",
+                    "de": "Verbesserte Mahlzeiten"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -123,7 +134,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Эконом Комфорт",
-                    "en": "Economy Comfort"
+                    "en": "Economy Comfort",
+                    "de": "Econom Komfort"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -135,7 +147,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -147,11 +160,13 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "en": "2 items up to 32 kg each",
+                    "de": "2 Beutel bis 32 kg"
                 },
                 "fullDescription": {
                     "ru": "На некоторых рейсах может быть предусмотрена другая величина нормы бесплатного провоза багажа",
-                    "en": ""
+                    "en": "On some flights, a different amount of free baggage allowance may be provided",
+                    "de": "Bei einigen Flügen kann eine andere Menge an Freigepäck vorgesehen sein"
                 },
                 "needToPay": "free"
             },
@@ -159,7 +174,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Бизнес зал",
-                    "en": "Lounge Access"
+                    "en": "Lounge Access",
+                    "de": "Business-Lounge"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -175,7 +191,8 @@
                 },
                 "fullDescription": {
                     "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время)",
-                    "en": "Date changes — available. A fee applies"
+                    "en": "Changes in the contract of carriage are permitted with a fee in case of reissuance to an earlier date (time) / renewal for a later date (time)",
+                    "de": "Änderungen im Beförderungsvertrag sind im Falle einer Neuausgabe zu einem früheren Zeitpunkt (Uhrzeit) / Verlängerung zu einem späteren Zeitpunkt (Uhrzeit) mit einer Gebühr zulässig"
                 },
                 "needToPay": "charge"
             },
@@ -183,11 +200,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешается со сбором. При этом возвращается тариф неиспользованного участка маршрута перевозки. Тариф для расчета сбора - тариф участка. Сбор рассчитывается для всего билета",
-                    "en": "Refundable. A fee applies"
+                    "ru": "Возврат билета разрешается со сбором. При этом возвращается тариф неиспользованного участка маршрута перевозки. Тариф для расчета сбора — тариф участка. Сбор рассчитывается для всего билета",
+                    "en": "Ticket return is allowed with a fee. In addition to the above, the fare of unused section of transportation route is returned. The fare for calculating the fee — is the fare of the route section. The fee is calculated for the whole ticket",
+                    "de": "Die Rückgabe des Tickets ist mit einer Gebühr möglich. Zusätzlich zu den oben genannten, wird der Fahrpreis der unbenutzten Abschnitt der Transportstrecke zurückgegeben. Der Fahrpreis für die Berechnung der Gebühr — ist der Fahrpreis des Streckenabschnitts. Die Gebühr wird für das ganze Ticket berechnet"
                 },
                 "needToPay": "charge"
             },
@@ -195,7 +214,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация на рейс",
-                    "en": "Priority Check-in"
+                    "en": "Priority Check-in",
+                    "de": "Vorrangiger Check-in für einen Flug"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -207,7 +227,8 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Выбор места в самолете",
-                    "en": "Seat Selection"
+                    "en": "Seat Selection",
+                    "de": "Sitzbelegung im Flugzeug"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -219,7 +240,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Улучшенное питание",
-                    "en": "Business-Class Meals"
+                    "en": "Business-Class Meals",
+                    "de": "Verbesserte Mahlzeiten"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -238,7 +260,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Эконом",
-                    "en": "Economy"
+                    "en": "Economy",
+                    "de": "Econom"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -250,7 +273,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 5 кг",
-                    "en": "1 item up to 5 kg"
+                    "en": "1 item up to 5 kg",
+                    "de": "1 Beutel bis 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -262,7 +286,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "de": "1 Beutel bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "На рейсах Узбекистан (Андижан, Термез, Наманган, Карши, Самарканд, Фергана) — Москва норма провоза багажа — до 20 кг. На некоторых рейсах может быть предусмотрена другая величина нормы бесплатного провоза багажа",
@@ -274,11 +299,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешается со сбором. При этом возвращается тариф неиспользованного участка маршрута перевозки. Тариф для расчета сбора - тариф участка. Сбор рассчитывается для всего билета",
-                    "en": "Refundable. A fee applies"
+                    "ru": "Возврат билета разрешается со сбором. При этом возвращается тариф неиспользованного участка маршрута перевозки. Тариф для расчета сбора — тариф участка. Сбор рассчитывается для всего билета",
+                    "en": "Ticket return is allowed with a fee. In addition to the above, the fare of unused section of transportation route is returned. The fare for calculating the fee — is the fare of the route section. The fee is calculated for the whole ticket",
+                    "de": "Die Rückgabe des Tickets ist mit einer Gebühr möglich. Zusätzlich zu den oben genannten, wird der Fahrpreis der unbenutzten Abschnitt der Transportstrecke zurückgegeben. Der Fahrpreis für die Berechnung der Gebühr — ist der Fahrpreis des Streckenabschnitts. Die Gebühr wird für das ganze Ticket berechnet"
                 },
                 "needToPay": "charge"
             },
@@ -290,7 +317,8 @@
                 },
                 "fullDescription": {
                     "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время)",
-                    "en": "Date changes — available. A fee applies"
+                    "en": "Changes in the contract of carriage are permitted with a fee in case of reissuance to an earlier date (time) / renewal for a later date (time)",
+                    "de": "Änderungen im Beförderungsvertrag sind im Falle einer Neuausgabe zu einem früheren Zeitpunkt (Uhrzeit) / Verlängerung zu einem späteren Zeitpunkt (Uhrzeit) mit einer Gebühr zulässig"
                 },
                 "needToPay": "charge"
             },
@@ -298,7 +326,8 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Выбор места в самолете",
-                    "en": "Seat Selection"
+                    "en": "Seat Selection",
+                    "de": "Sitzbelegung im Flugzeug"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -310,11 +339,13 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Стандартное питание",
-                    "en": "Complimentary Meals"
+                    "en": "Complimentary Meals",
+                    "de": "Standardmahlzeiten"
                 },
                 "fullDescription": {
                     "ru": "Пассажирам экономического класса в полете предлагается чайный набор (при продолжительности полета до 3,5 часов) или горячее (при продолжительности полета более 3,5 часов) питание и безалкогольные напитки. Помимо основного рациона питания, авиакомпания предлагает пассажирам всех классов обслуживания бесплатное вегетарианское, мусульманское, детское меню и питание из морепродуктов. Данное питание предоставляется только на рейсах протяженностью более 3,5 часов, вылетающих из аэропорта Домодедово",
-                    "en": "Different food and drinks depending on the route and duration of flight"
+                    "en": "Passengers of economy class in flight are offered a tea set (with a flight duration of up to 3.5 hours) or hot food and soft drinks (with a flight duration of more than 3.5 hours). In addition to the basic diet, the airline offers passengers of all classes of service a free vegetarian, Muslim, children's menu and seafood meals. This food is provided only for flights with a length of more than 3.5 hours departing from Domodedovo airport",
+                    "de": "Passagiere der Economy-Klasse im Flug angeboten werden ein Tee-Set (mit einer Flugdauer von bis zu 3,5 Stunden) oder warme Speisen und alkoholfreie Getränke (mit einer Flugdauer von mehr als 3,5 Stunden). Neben der Grundnahrung bietet die Fluggesellschaft den Passagieren aller Unterrichtsstunden einen kostenlosen Vegetarier, Muslime, Kindermenü und Meeresfrüchte. Dieses Essen ist nur für Flüge mit einer Länge von mehr als 3,5 Stunden Abfahrt von Domodedovo Flughafen zur Verfügung gestellt"
                 },
                 "needToPay": "free"
             }
@@ -329,7 +360,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Эконом Плюс",
-                    "en": "Economy Plus"
+                    "en": "Economy Plus",
+                    "de": "Econom Plus"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -341,7 +373,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 5 кг",
-                    "en": "1 item up to 5 kg"
+                    "en": "1 item up to 5 kg",
+                    "de": "1 Beutel bis 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -353,7 +386,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 23 кг каждая",
-                    "en": "2 items up to 23 kg each"
+                    "en": "2 items up to 23 kg each",
+                    "de": "2 Beutel bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "На некоторых рейсах может быть предусмотрена другая величина нормы бесплатного провоза багажа",
@@ -365,11 +399,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешается со сбором. При этом возвращается тариф неиспользованного участка маршрута перевозки. Тариф для расчета сбора - тариф участка. Сбор рассчитывается для всего билета",
-                    "en": "Refundable. A fee applies"
+                    "ru": "Возврат билета разрешается со сбором. При этом возвращается тариф неиспользованного участка маршрута перевозки. Тариф для расчета сбора — тариф участка. Сбор рассчитывается для всего билета",
+                    "en": "Ticket return is allowed with a fee. In addition to the above, the fare of unused section of transportation route is returned. The fare for calculating the fee — is the fare of the route section. The fee is calculated for the whole ticket",
+                    "de": "Die Rückgabe des Tickets ist mit einer Gebühr möglich. Zusätzlich zu den oben genannten, wird der Fahrpreis der unbenutzten Abschnitt der Transportstrecke zurückgegeben. Der Fahrpreis für die Berechnung der Gebühr — ist der Fahrpreis des Streckenabschnitts. Die Gebühr wird für das ganze Ticket berechnet"
                 },
                 "needToPay": "charge"
             },
@@ -381,7 +417,8 @@
                 },
                 "fullDescription": {
                     "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время)",
-                    "en": "Date changes — available. A fee applies"
+                    "en": "Changes in the contract of carriage are permitted with a fee in case of reissuance to an earlier date (time) / renewal for a later date (time)",
+                    "de": "Änderungen im Beförderungsvertrag sind im Falle einer Neuausgabe zu einem früheren Zeitpunkt (Uhrzeit) / Verlängerung zu einem späteren Zeitpunkt (Uhrzeit) mit einer Gebühr zulässig"
                 },
                 "needToPay": "charge"
             },
@@ -389,7 +426,8 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Выбор места в самолете",
-                    "en": "Seat Selection"
+                    "en": "Seat Selection",
+                    "de": "Sitzbelegung im Flugzeug"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -401,11 +439,13 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Стандартное питание",
-                    "en": "Complimentary Meals"
+                    "en": "Complimentary Meals",
+                    "de": "Standardmahlzeiten"
                 },
                 "fullDescription": {
                     "ru": "Пассажирам экономического класса в полете предлагается чайный набор (при продолжительности полета до 3,5 часов) или горячее (при продолжительности полета более 3,5 часов) питание и безалкогольные напитки. Помимо основного рациона питания, авиакомпания предлагает пассажирам всех классов обслуживания бесплатное вегетарианское, мусульманское, детское меню и питание из морепродуктов. Данное питание предоставляется только на рейсах протяженностью более 3,5 часов, вылетающих из аэропорта Домодедово",
-                    "en": "Different food and drinks depending on the route and duration of flight"
+                    "en": "Passengers of economy class in flight are offered a tea set (with a flight duration of up to 3.5 hours) or hot food and soft drinks (with a flight duration of more than 3.5 hours). In addition to the basic diet, the airline offers passengers of all classes of service a free vegetarian, Muslim, children's menu and seafood meals. This food is provided only for flights with a length of more than 3.5 hours departing from Domodedovo airport",
+                    "de": "Passagiere der Economy-Klasse im Flug angeboten werden ein Tee-Set (mit einer Flugdauer von bis zu 3,5 Stunden) oder warme Speisen und alkoholfreie Getränke (mit einer Flugdauer von mehr als 3,5 Stunden). Neben der Grundnahrung bietet die Fluggesellschaft den Passagieren aller Unterrichtsstunden einen kostenlosen Vegetarier, Muslime, Kindermenü und Meeresfrüchte. Dieses Essen ist nur für Flüge mit einer Länge von mehr als 3,5 Stunden Abfahrt von Domodedovo Flughafen zur Verfügung gestellt"
                 },
                 "needToPay": "free"
             }
@@ -420,7 +460,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Промо",
-                    "en": "Promo"
+                    "en": "Promo",
+                    "de": "Promo"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -432,7 +473,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 5 кг",
-                    "en": "1 item up to 5 kg"
+                    "en": "1 item up to 5 kg",
+                    "de": "1 Beutel bis 5 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -444,7 +486,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "На рейсах Узбекистан (Андижан, Термез, Наманган, Карши, Самарканд, Фергана) — Москва норма провоза багажа — до 20 кг. На некоторых рейсах может быть предусмотрена другая величина нормы бесплатного провоза багажа",
@@ -456,11 +499,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "en": "Non-refundable",
+                    "de": "Fare ist völlig nicht rückzahlbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -472,7 +517,7 @@
                 },
                 "fullDescription": {
                     "ru": "Изменение даты вылета недоступно",
-                    "en": "Non-exchangeable"
+                    "en": "Date сhanges — not available"
                 },
                 "needToPay": "notAvailable"
             },
@@ -480,7 +525,8 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Выбор места в самолете",
-                    "en": "Seat Selection"
+                    "en": "Seat Selection",
+                    "de": "Sitzbelegung im Flugzeug"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -492,11 +538,13 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Стандартное питание",
-                    "en": "Complimentary Meals"
+                    "en": "Complimentary Meals",
+                    "de": "Standardmahlzeiten"
                 },
                 "fullDescription": {
                     "ru": "Пассажирам экономического класса в полете предлагается чайный набор (при продолжительности полета до 3,5 часов) или горячее (при продолжительности полета более 3,5 часов) питание и безалкогольные напитки. Помимо основного рациона питания, авиакомпания предлагает пассажирам всех классов обслуживания бесплатное вегетарианское, мусульманское, детское меню и питание из морепродуктов. Данное питание предоставляется только на рейсах протяженностью более 3,5 часов, вылетающих из аэропорта Домодедово",
-                    "en": "Different food and drinks depending on the route and duration of flight"
+                    "en": "Passengers of economy class in flight are offered a tea set (with a flight duration of up to 3.5 hours) or hot food and soft drinks (with a flight duration of more than 3.5 hours). In addition to the basic diet, the airline offers passengers of all classes of service a free vegetarian, Muslim, children's menu and seafood meals. This food is provided only for flights with a length of more than 3.5 hours departing from Domodedovo airport",
+                    "de": "Passagiere der Economy-Klasse im Flug angeboten werden ein Tee-Set (mit einer Flugdauer von bis zu 3,5 Stunden) oder warme Speisen und alkoholfreie Getränke (mit einer Flugdauer von mehr als 3,5 Stunden). Neben der Grundnahrung bietet die Fluggesellschaft den Passagieren aller Unterrichtsstunden einen kostenlosen Vegetarier, Muslime, Kindermenü und Meeresfrüchte. Dieses Essen ist nur für Flüge mit einer Länge von mehr als 3,5 Stunden Abfahrt von Domodedovo Flughafen zur Verfügung gestellt"
                 },
                 "needToPay": "free"
             }

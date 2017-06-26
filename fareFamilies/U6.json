@@ -8,7 +8,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Бизнес Лайт",
-                    "en": "Business Light"
+                    "en": "Business Light",
+                    "de": "Business Licht"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -46,7 +47,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения в билете до вылета",
-                    "en": "Exchange before departure"
+                    "en": "Exchange before departure",
+                    "de": "Änderungen am Ticket vor der Abreise"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент",
@@ -59,7 +61,8 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью не возвратный",
@@ -96,7 +99,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация на рейс",
-                    "en": "Priority check-in"
+                    "en": "Priority check-in",
+                    "de": "Vorrangiger Check-in für einen Flug"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -108,7 +112,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка в самолёт",
-                    "en": "Priority boarding"
+                    "en": "Priority boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -139,7 +144,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Бизнес Комфорт",
-                    "en": "Business Comfort"
+                    "en": "Business Comfort",
+                    "de": "Business Komfort"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -177,11 +183,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения в билете до вылета",
-                    "en": "Exchange before departure"
+                    "en": "Exchange before departure",
+                    "de": "Änderungen am Ticket vor der Abreise"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета разрешены без сборов",
-                    "en": "Exchange before departure. No fee applies"
+                    "en": "Changes to the ticket before departure are allowed free of charge",
+                    "de": "Änderungen am Ticket vor der Abreise ist kostenlos erlaubt"
                 },
                 "needToPay": "free"
             },
@@ -189,11 +197,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": "Refund before departure"
+                    "en": "Refund before departure",
+                    "de": "Ticketrückmeldung vor Abreise"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета разрешен без сборов",
-                    "en": "Refundable before departure. No fee applies"
+                    "en": "Ticket refund before departure is allowed free of charge",
+                    "de": "Ticketrückmeldung vor Abreise ist kostenlos erlaubt"
                 },
                 "needToPay": "free"
             },
@@ -225,7 +235,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация на рейс",
-                    "en": "Priority check-in"
+                    "en": "Priority check-in",
+                    "de": "Vorrangiger Check-in für einen Flug"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -237,7 +248,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка в самолёт",
-                    "en": "Priority boarding"
+                    "en": "Priority boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -307,7 +319,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения в билете до вылета",
-                    "en": "Exchange before departure"
+                    "en": "Exchange before departure",
+                    "de": "Änderungen am Ticket vor der Abreise"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент. Повышение класса разрешено с добором разницы между тарифами",
@@ -320,11 +333,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": "Refund before departure"
+                    "en": "Refund before departure",
+                    "de": "Ticketrückmeldung vor Abreise"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета разрешен со сборами",
-                    "en": "Refundable before departure. A fee applies"
+                    "en": "Ticket refund before departure is allowed with an additional charge",
+                    "de": "Ticketrückmeldung vor Abreise ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -356,7 +371,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация на рейс",
-                    "en": "Priority check-in"
+                    "en": "Priority check-in",
+                    "de": "Vorrangiger Check-in für einen Flug"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная регистрация на рейс — недоступно",
@@ -368,7 +384,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка в самолёт",
-                    "en": "Priority boarding"
+                    "en": "Priority boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная посадка в самолёт — недоступно",
@@ -438,11 +455,12 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения в билете до вылета",
-                    "en": "Exchange before departure"
+                    "en": "Exchange before departure",
+                    "de": "Änderungen am Ticket vor der Abreise"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены без оплаты. Повышение класса разрешено с добором разницы между тарифами. При неявке на рейс (после окончания регистрации) разрешен со сбором за каждый сегмент",
-                    "en": "Changes to the ticket before departure (40 minutes before the end of registration) are allowed free of charge. Class upgrade is allowed with the sufficient difference between the fares.  In case of missed flight (Non-appearance after registration is over) changes are allowed with an additional charge for each segment",
+                    "en": "Changes to the ticket before departure (40 minutes before the end of registration) are allowed free of charge. Class upgrade is allowed with the sufficient difference between the fares. In case of missed flight (Non-appearance after registration is over) changes are allowed with an additional charge for each segment",
                     "de": "Änderungen am Ticket vor der Abreise (40 Minuten vor dem Ende der Anmeldung) sind kostenlos erlaubt. Klasse-Upgrade ist mit dem ausreichenden Unterschied zwischen den Tarifen erlaubt. Im Falle eines verpassten Fluges (Nicht-Aussehen nach Anmeldung ist vorbei) Änderungen sind mit einer zusätzlichen Gebühr für jedes Segment erlaubt"
                 },
                 "needToPay": "free"
@@ -451,11 +469,12 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": "Refund before departure"
+                    "en": "Refund before departure",
+                    "de": "Ticketrückmeldung vor Abreise"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета (более чем за 40 мин до окончания регистрации) разрешен без оплаты. При неявке на рейс (после окончания регистрации) по полностью неиспользованному билету возврат разрешен со сбором",
-                    "en": "Ticket refund before departure (40 minutes before the end of registration) is allowed free of charge. In case of missed flight (Non-appearance after registration is over) refound is allowed with an additional charge",
+                    "en": "Ticket refund before departure (40 minutes before the end of registration) is allowed free of charge. In case of missed flight (Non-appearance after registration is over) refund is allowed with an additional charge",
                     "de": "Ticketrückmeldung vor Abreise (40 Minuten vor dem Ende der Anmeldung) ist kostenlos erlaubt. Im Falle eines verpassten Fluges (Nicht-Aussehen nach Anmeldung ist vorbei) ist eine Nachzahlung erlaubt"
                 },
                 "needToPay": "free"
@@ -488,7 +507,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация на рейс",
-                    "en": "Priority check-in"
+                    "en": "Priority check-in",
+                    "de": "Vorrangiger Check-in für einen Flug"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная регистрация на рейс — недоступно",
@@ -500,7 +520,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка в самолёт",
-                    "en": "Priority boarding"
+                    "en": "Priority boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная посадка в самолёт — недоступно",
@@ -570,7 +591,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения в билете до вылета",
-                    "en": "Exchange before departure"
+                    "en": "Exchange before departure",
+                    "de": "Änderungen am Ticket vor der Abreise"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета (за 40 мин. до окончания регистрации) разрешены со сбором за каждый сегмент",
@@ -582,8 +604,9 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund"
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
@@ -620,7 +643,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация на рейс",
-                    "en": "Priority check-in"
+                    "en": "Priority check-in",
+                    "de": "Vorrangiger Check-in für einen Flug"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная регистрация на рейс — недоступно",
@@ -632,7 +656,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка в самолёт",
-                    "en": "Priority boarding"
+                    "en": "Priority boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная посадка в самолёт — недоступно",

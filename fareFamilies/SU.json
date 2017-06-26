@@ -8,7 +8,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "ПРЕМИУМ-Эконом",
-                    "en": "Economy Flex"
+                    "en": "FLEX-Economy",
+                    "de": "FLEX-Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -20,7 +21,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -32,7 +34,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 23 кг каждая",
-                    "en": "2 items up to 23 kg each"
+                    "en": "2 items up to 23 kg each",
+                    "de": "2 Beutel bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -56,11 +59,12 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения до вылета",
-                    "en": "Rebooking Before Departure"
+                    "en": "Rebooking Before Departure",
+                    "de": "Änderungen vor Abfahrt"
                 },
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет разрешено без сборов",
-                    "en": "Rebooking before flight departure time — available. No fee applies"
+                    "en": "Making changes to the issued ticket is allowed free of charge"
                 },
                 "needToPay": "free"
             },
@@ -68,7 +72,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Открытая дата обратного вылета",
-                    "en": "Open Return Date"
+                    "en": "Open Return Date",
+                    "de": "Offenes Rückflugdatum"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -80,11 +85,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable. No fee applies"
+                    "en": "Ticket refund is allowed free of charge",
+                    "de": "Ticketrückerstattung ist kostenlos"
                 },
                 "needToPay": "free"
             },
@@ -92,11 +99,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания в Комфорт класс",
-                    "en": "Cabin Upgrade for Purchase to Comfort"
+                    "en": "Cabin Upgrade for Purchase to Comfort",
+                    "de": "Upgrade der Klasse der Service auf die Comfort-Klasse"
                 },
                 "fullDescription": {
                     "ru": "Возможно платное повышение класса обслуживания в Комфорт класс. На отдельных направлениях могут действовать исключения",
-                    "en": "Cabin upgrade for purchase to Comfort — available at extra charge (exceptions may apply for some destinations)"
+                    "en": "Cabin upgrade for purchase to Comfort — available at extra charge (exceptions may apply for some destinations)",
+                    "de": "Es ist möglich, die Klasse der Dienste auf die Comfort-Klasse zu aktualisieren. Ausnahmen können für bestimmte Bereiche gelten"
                 },
                 "needToPay": "charge"
             },
@@ -104,7 +113,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус»",
-                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members"
+                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members",
+                    "de": "Upgrade der Serviceklasse für Aeroflot Bonusmeilen"
                 },
                 "fullDescription": {
                     "ru": "Возможно повышение класса обслуживания за мили «Аэрофлот Бонус»",
@@ -116,11 +126,13 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation"
+                    "en": "Advance Basic Seat Reservation",
+                    "de": "Vorwahl der Standardsitze in der Kabine"
                 },
                 "fullDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
-                    "en": "Advance basic seat reservation — free of charge only for FFP members with Elite and Elite Plus (Silver, Gold, Platinum) tier level"
+                    "en": "Advance basic seat reservation in the aircraft cabin is provided free of charge only for participants of the FFP program Elite and Elite Plus (Silver, Gold, Platinum)",
+                    "de": "Die Vorwahl der Standardsitze in der Flugzeugkabine erfolgt nur für Teilnehmer des FFP-Programms Elite und Elite Plus (Silber, Gold, Platin) kostenlos"
                 },
                 "needToPay": "notAvailable"
             },
@@ -128,7 +140,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка",
-                    "en": "Priority Boarding"
+                    "en": "Priority Boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная посадка — недоступно",
@@ -140,7 +153,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная выдача багажа",
-                    "en": "Priority Luggage Claim"
+                    "en": "Priority Luggage Claim",
+                    "de": "Vorrangige Gepäckausgabe"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная выдача багажа — недоступно",
@@ -152,7 +166,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
-                    "en": "Priority Check-in"
+                    "en": "Priority Check-in",
+                    "de": "Dedizierter Check-In Schreibtisch"
                 },
                 "fullDescription": {
                     "ru": "Выделенная стойка регистрации — недоступно",
@@ -164,7 +179,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в зал ожидания Бизнес класса",
-                    "en": "Lounge Access"
+                    "en": "Lounge Access",
+                    "de": "Zugang zur Business Class Lounge"
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания Бизнес класса",
@@ -176,7 +192,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Стоповер",
-                    "en": "Stopover"
+                    "en": "Stopover",
+                    "de": "Zwischenstopp"
                 },
                 "fullDescription": {
                     "ru": "Стоповеры разрешены",
@@ -195,7 +212,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "ОПТИМУМ-Эконом",
-                    "en": "Economy Classic"
+                    "en": "CLASSIC-Economy",
+                    "de": "CLASSIC-Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -207,7 +225,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -231,7 +250,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "de": "1 Beutel bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -243,11 +263,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения до вылета",
-                    "en": "Rebooking Before Departure"
+                    "en": "Rebooking Before Departure",
+                    "de": "Änderungen vor Abfahrt"
                 },
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
-                    "en": "Rebooking before flight departure time — available. A fee applies"
+                    "en": "Making changes to the issued ticket before the time of the flight is allowed with fees",
+                    "de": "Änderungen an der ausgegebenen Eintrittskarte vor der Zeit des Fluges sind mit Gebühren erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -255,7 +277,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Открытая дата обратного вылета",
-                    "en": "Open Return Date"
+                    "en": "Open Return Date",
+                    "de": "Offenes Rückflugdatum"
                 },
                 "fullDescription": {
                     "ru": "Открытая дата обратного вылета — недоступно",
@@ -267,11 +290,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до конца регистрации",
-                    "en": "Refund Before Check-in Closure"
+                    "en": "Refund Before Check-in Closure",
+                    "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
                 "fullDescription": {
                     "ru": "Возврат стоимости билета до окончания регистрации разрешен со сборами",
-                    "en": "Refundable before check-in closure. A fee applies"
+                    "en": "Ticket refund before the end of registration is allowed with additional fees",
+                    "de": "Ticketrückerstattung vor dem Ende der Anmeldung ist mit zusätzlichen Gebühren erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -279,11 +304,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания в Комфорт класс",
-                    "en": "Cabin Upgrade for Purchase to Comfort"
+                    "en": "Cabin Upgrade for Purchase to Comfort",
+                    "de": "Upgrade der Klasse der Service auf die Comfort-Klasse"
                 },
                 "fullDescription": {
                     "ru": "Возможно платное повышение класса обслуживания в Комфорт класс. На отдельных направлениях могут действовать исключения",
-                    "en": "Cabin upgrade for purchase to Comfort — available at extra charge (exceptions may apply for some destinations)"
+                    "en": "Cabin upgrade for purchase to Comfort — available at extra charge (exceptions may apply for some destinations)",
+                    "de": "Es ist möglich, die Klasse der Dienste auf die Comfort-Klasse zu aktualisieren. Ausnahmen können für bestimmte Bereiche gelten"
                 },
                 "needToPay": "charge"
             },
@@ -291,7 +318,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус»",
-                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members"
+                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members",
+                    "de": "Upgrade der Serviceklasse für Aeroflot Bonusmeilen"
                 },
                 "fullDescription": {
                     "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус» — недоступно",
@@ -303,11 +331,13 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation"
+                    "en": "Advance Basic Seat Reservation",
+                    "de": "Vorwahl der Standardsitze in der Kabine"
                 },
                 "fullDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
-                    "en": "Advance basic seat reservation — free of charge only for FFP members with Elite and Elite Plus (Silver, Gold, Platinum) tier level"
+                    "en": "Advance basic seat reservation in the aircraft cabin is provided free of charge only for members of the FFP program Elite and Elite Plus (Silver, Gold, Platinum)",
+                    "de": "Die Vorwahl der Standardsitze in der Flugzeugkabine erfolgt nur für Teilnehmer des FFP-Programms Elite und Elite Plus (Silber, Gold, Platin) kostenlos"
                 },
                 "needToPay": "notAvailable"
             },
@@ -315,7 +345,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка",
-                    "en": "Priority Boarding"
+                    "en": "Priority Boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная посадка — недоступно",
@@ -327,7 +358,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная выдача багажа",
-                    "en": "Priority Luggage Claim"
+                    "en": "Priority Luggage Claim",
+                    "de": "Vorrangige Gepäckausgabe"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная выдача багажа — недоступно",
@@ -339,7 +371,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
-                    "en": "Priority Check-in"
+                    "en": "Priority Check-in",
+                    "de": "Dedizierter Check-In Schreibtisch"
                 },
                 "fullDescription": {
                     "ru": "Выделенная стойка регистрации — недоступно",
@@ -351,7 +384,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в зал ожидания Бизнес класса",
-                    "en": "Lounge Access"
+                    "en": "Lounge Access",
+                    "de": "Zugang zur Business Class Lounge"
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания Бизнес класса",
@@ -363,11 +397,13 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Стоповер",
-                    "en": "Stopover"
+                    "en": "Stopover",
+                    "de": "Zwischenstopp"
                 },
                 "fullDescription": {
                     "ru": "При длительности до 3 дней стоповеры разрешены, при длительности более 3 дней – запрещены",
-                    "en": "Stopover on the route with a duration of up to 3 days — allowed, with a duration of more than 3 days — prohibited"
+                    "en": "If the duration is up to 3 days, stopovers are allowed, and if they are longer than 3 days, they are forbidden",
+                    "de": "Wenn die Dauer bis zu 3 Tage dauert, sind Zwischenlandungen erlaubt und wenn sie länger als 3 Tage sind, sind sie verboten"
                 },
                 "needToPay": "free"
             }
@@ -382,7 +418,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "БЮДЖЕТ-Эконом",
-                    "en": "Economy Saver"
+                    "en": "SAVER-Economy",
+                    "de": "SAVER-Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -394,7 +431,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -406,7 +444,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "de": "1 Beutel bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -430,11 +469,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения до вылета",
-                    "en": "Rebooking Before Departure"
+                    "en": "Rebooking Before Departure",
+                    "de": "Änderungen vor Abfahrt"
                 },
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
-                    "en": "Rebooking before flight departure time — available. A fee applies"
+                    "en": "Making changes to the issued ticket before the time of the flight is allowed with fees",
+                    "de": "Änderungen an der ausgegebenen Eintrittskarte vor der Zeit des Fluges sind mit Gebühren erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -442,7 +483,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Открытая дата обратного вылета",
-                    "en": "Open Return Date"
+                    "en": "Open Return Date",
+                    "de": "Offenes Rückflugdatum"
                 },
                 "fullDescription": {
                     "ru": "Открытая дата обратного вылета — недоступно",
@@ -454,7 +496,8 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до конца регистрации",
-                    "en": "Refund Before Check-in Closure"
+                    "en": "Refund Before Check-in Closure",
+                    "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета не разрешен. Для перевозок от пунктов Республики Корея или между пунктами Узбекистана, Таджикистана и пунктами РФ, Азербайджана, Армении, Белоруссии, Казахстана, Киргизии, Молдавии, Украины, Грузии разрешен с удержанием платы",
@@ -466,11 +509,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания в Комфорт класс",
-                    "en": "Cabin Upgrade for Purchase to Comfort"
+                    "en": "Cabin Upgrade for Purchase to Comfort",
+                    "de": "Upgrade der Klasse der Service auf die Comfort-Klasse"
                 },
                 "fullDescription": {
                     "ru": "Возможно платное повышение класса обслуживания в Комфорт класс. На отдельных направлениях могут действовать исключения",
-                    "en": "Cabin upgrade for purchase to Comfort — available at extra charge (exceptions may apply for some destinations)"
+                    "en": "Cabin upgrade for purchase to Comfort — available at extra charge (exceptions may apply for some destinations)",
+                    "de": "Es ist möglich, die Klasse der Dienste auf die Comfort-Klasse zu aktualisieren. Ausnahmen können für bestimmte Bereiche gelten"
                 },
                 "needToPay": "charge"
             },
@@ -478,7 +523,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус»",
-                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members"
+                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members",
+                    "de": "Upgrade der Serviceklasse für Aeroflot Bonusmeilen"
                 },
                 "fullDescription": {
                     "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус» — недоступно",
@@ -490,11 +536,13 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation"
+                    "en": "Advance Basic Seat Reservation",
+                    "de": "Vorwahl der Standardsitze in der Kabine"
                 },
                 "fullDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
-                    "en": "Advance basic seat reservation — free of charge only for FFP members with Elite and Elite Plus (Silver, Gold, Platinum) tier level"
+                    "en": "Advance basic seat reservation in the aircraft cabin is provided free of charge only for members of the FFP program Elite and Elite Plus (Silver, Gold, Platinum)",
+                    "de": "Die Vorwahl der Standardsitze in der Flugzeugkabine erfolgt nur für Teilnehmer des FFP-Programms Elite und Elite Plus (Silber, Gold, Platin) kostenlos"
                 },
                 "needToPay": "notAvailable"
             },
@@ -502,7 +550,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка",
-                    "en": "Priority Boarding"
+                    "en": "Priority Boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная посадка — недоступно",
@@ -514,7 +563,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная выдача багажа",
-                    "en": "Priority Luggage Claim"
+                    "en": "Priority Luggage Claim",
+                    "de": "Vorrangige Gepäckausgabe"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная выдача багажа — недоступно",
@@ -526,7 +576,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
-                    "en": "Priority Check-in"
+                    "en": "Priority Check-in",
+                    "de": "Dedizierter Check-In Schreibtisch"
                 },
                 "fullDescription": {
                     "ru": "Выделенная стойка регистрации — недоступно",
@@ -538,7 +589,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в зал ожидания Бизнес класса",
-                    "en": "Lounge Access"
+                    "en": "Lounge Access",
+                    "de": "Zugang zur Business Class Lounge"
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания Бизнес класса",
@@ -550,7 +602,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Стоповер",
-                    "en": "Stopover"
+                    "en": "Stopover",
+                    "de": "Zwischenstopp"
                 },
                 "fullDescription": {
                     "ru": "Стоповеры запрещены",
@@ -569,7 +622,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "ПРОМО-Эконом",
-                    "en": "Economy Promo"
+                    "en": "PROMO-Economy",
+                    "de": "PROMO-Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -581,7 +635,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -605,11 +660,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения до вылета",
-                    "en": "Rebooking Before Departure"
+                    "en": "Rebooking Before Departure",
+                    "de": "Änderungen vor Abfahrt"
                 },
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
-                    "en": "Rebooking before flight departure time — available. A fee applies"
+                    "en": "Making changes to the issued ticket before the time of the flight is allowed with fees",
+                    "de": "Änderungen an der ausgegebenen Eintrittskarte vor der Zeit des Fluges sind mit Gebühren erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -617,10 +674,11 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "de": "1 Beutel bis 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 сумка до 23 кг",
+                    "ru": "",
                     "en": "1 item up to 23 kg"
                 },
                 "needToPay": "free"
@@ -629,7 +687,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Открытая дата обратного вылета",
-                    "en": "Open Return Date"
+                    "en": "Open Return Date",
+                    "de": "Offenes Rückflugdatum"
                 },
                 "fullDescription": {
                     "ru": "Открытая дата обратного вылета — недоступно",
@@ -641,11 +700,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "en": "Non-refundable",
+                    "de": "Fahrpreis ist nicht erstattungsfähig"
                 },
                 "needToPay": "notAvailable"
             },
@@ -653,11 +714,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания в Комфорт класс",
-                    "en": "Cabin Upgrade for Purchase to Comfort"
+                    "en": "Cabin Upgrade for Purchase to Comfort",
+                    "de": "Upgrade der Klasse der Service auf die Comfort-Klasse"
                 },
                 "fullDescription": {
                     "ru": "Возможно платное повышение класса обслуживания в Комфорт класс. На отдельных направлениях могут действовать исключения",
-                    "en": "Cabin upgrade for purchase to Comfort — available at extra charge (exceptions may apply for some destinations)"
+                    "en": "Cabin upgrade for purchase to Comfort — available at extra charge (exceptions may apply for some destinations)",
+                    "de": "Es ist möglich, die Klasse der Dienste auf die Comfort-Klasse zu aktualisieren. Ausnahmen können für bestimmte Bereiche gelten"
                 },
                 "needToPay": "charge"
             },
@@ -665,7 +728,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус»",
-                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members"
+                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members",
+                    "de": "Upgrade der Serviceklasse für Aeroflot Bonusmeilen"
                 },
                 "fullDescription": {
                     "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус» — недоступно",
@@ -677,11 +741,13 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation"
+                    "en": "Advance Basic Seat Reservation",
+                    "de": "Vorwahl der Standardsitze in der Kabine"
                 },
                 "fullDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
-                    "en": "Advance basic seat reservation — free of charge only for FFP members with Elite and Elite Plus (Silver, Gold, Platinum) tier level"
+                    "en": "Advance basic seat reservation in the aircraft cabin is provided free of charge only for members of the FFP program Elite and Elite Plus (Silver, Gold, Platinum)",
+                    "de": "Die Vorwahl der Standardsitze in der Flugzeugkabine erfolgt nur für Teilnehmer des FFP-Programms Elite und Elite Plus (Silber, Gold, Platin) kostenlos"
                 },
                 "needToPay": "notAvailable"
             },
@@ -689,7 +755,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка",
-                    "en": "Priority Boarding"
+                    "en": "Priority Boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная посадка — недоступно",
@@ -701,7 +768,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная выдача багажа",
-                    "en": "Priority Luggage Claim"
+                    "en": "Priority Luggage Claim",
+                    "de": "Vorrangige Gepäckausgabe"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная выдача багажа — недоступно",
@@ -713,7 +781,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
-                    "en": "Priority Check-in"
+                    "en": "Priority Check-in",
+                    "de": "Dedizierter Check-In Schreibtisch"
                 },
                 "fullDescription": {
                     "ru": "Выделенная стойка регистрации — недоступно",
@@ -725,7 +794,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в зал ожидания Бизнес класса",
-                    "en": "Lounge Access"
+                    "en": "Lounge Access",
+                    "de": "Zugang zur Business Class Lounge"
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания Бизнес класса",
@@ -737,7 +807,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Стоповер",
-                    "en": "Stopover"
+                    "en": "Stopover",
+                    "de": "Zwischenstopp"
                 },
                 "fullDescription": {
                     "ru": "Стоповеры запрещены",
@@ -756,7 +827,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "ПРЕМИУМ-Бизнес",
-                    "en": "Business Flex"
+                    "en": "FLEX-Business",
+                    "de": "FLEX-Business"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -780,7 +852,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 15 кг",
-                    "en": "1 item up to 15 kg"
+                    "en": "1 item up to 15 kg",
+                    "de": "1 Beutel bis 15 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -792,7 +865,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "en": "2 items up to 32 kg each",
+                    "de": "2 Beutel bis 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -804,11 +878,12 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения до вылета",
-                    "en": "Rebooking Before Departure"
+                    "en": "Rebooking Before Departure",
+                    "de": "Änderungen vor Abfahrt"
                 },
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет разрешено без сборов",
-                    "en": "Rebooking before flight departure time — available. No fee applies"
+                    "en": "Making changes to the issued ticket is allowed free of charge"
                 },
                 "needToPay": "free"
             },
@@ -816,7 +891,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Открытая дата обратного вылета",
-                    "en": "Open Return Date"
+                    "en": "Open Return Date",
+                    "de": "Offenes Rückflugdatum"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -828,11 +904,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable. No fee applies"
+                    "en": "Ticket refund is allowed free of charge",
+                    "de": "Ticketrückerstattung ist kostenlos"
                 },
                 "needToPay": "free"
             },
@@ -840,7 +918,8 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation"
+                    "en": "Advance Basic Seat Reservation",
+                    "de": "Vorwahl der Standardsitze in der Kabine"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -852,7 +931,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка",
-                    "en": "Priority Boarding"
+                    "en": "Priority Boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -864,7 +944,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная выдача багажа",
-                    "en": "Priority Luggage Claim"
+                    "en": "Priority Luggage Claim",
+                    "de": "Vorrangige Gepäckausgabe"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -876,7 +957,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
-                    "en": "Priority Check-in"
+                    "en": "Priority Check-in",
+                    "de": "Dedizierter Check-In Schreibtisch"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -888,7 +970,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в зал ожидания Бизнес класса",
-                    "en": "Lounge Access"
+                    "en": "Lounge Access",
+                    "de": "Zugang zur Business Class Lounge"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -900,7 +983,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Стоповер",
-                    "en": "Stopover"
+                    "en": "Stopover",
+                    "de": "Zwischenstopp"
                 },
                 "fullDescription": {
                     "ru": "Стоповеры разрешены",
@@ -919,7 +1003,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "ОПТИМУМ-Бизнес",
-                    "en": "Business Classic"
+                    "en": "CLASSIC-Business",
+                    "de": "CLASSIC-Business"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -943,7 +1028,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 15 кг",
-                    "en": "1 item up to 15 kg"
+                    "en": "1 item up to 15 kg",
+                    "de": "1 Beutel bis 15 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -955,7 +1041,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "en": "2 items up to 32 kg each",
+                    "de": "2 Beutel bis 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -967,11 +1054,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения до вылета",
-                    "en": "Rebooking Before Departure"
+                    "en": "Rebooking Before Departure",
+                    "de": "Änderungen vor Abfahrt"
                 },
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
-                    "en": "Rebooking before flight departure time — available. A fee applies"
+                    "en": "Making changes to the issued ticket before the time of the flight is allowed with fees",
+                    "de": "Änderungen an der ausgegebenen Eintrittskarte vor der Zeit des Fluges sind mit Gebühren erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -979,7 +1068,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Открытая дата обратного вылета",
-                    "en": "Open Return Date"
+                    "en": "Open Return Date",
+                    "de": "Offenes Rückflugdatum"
                 },
                 "fullDescription": {
                     "ru": "Открытая дата обратного вылета — недоступно",
@@ -991,11 +1081,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до конца регистрации",
-                    "en": "Refund Before Check-in Closure"
+                    "en": "Refund Before Check-in Closure",
+                    "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
                 "fullDescription": {
                     "ru": "Возврат стоимости билета до окончания регистрации разрешен со сборами",
-                    "en": "Refundable before check-in closure. A fee applies"
+                    "en": "Ticket refund before the end of registration is allowed with additional fees",
+                    "de": "Ticketrückerstattung vor dem Ende der Anmeldung ist mit zusätzlichen Gebühren erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -1003,7 +1095,8 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation"
+                    "en": "Advance Basic Seat Reservation",
+                    "de": "Vorwahl der Standardsitze in der Kabine"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1015,7 +1108,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка",
-                    "en": "Priority Boarding"
+                    "en": "Priority Boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1027,7 +1121,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная выдача багажа",
-                    "en": "Priority Luggage Claim"
+                    "en": "Priority Luggage Claim",
+                    "de": "Vorrangige Gepäckausgabe"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1039,7 +1134,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
-                    "en": "Priority Check-in"
+                    "en": "Priority Check-in",
+                    "de": "Dedizierter Check-In Schreibtisch"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1051,7 +1147,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в зал ожидания Бизнес класса",
-                    "en": "Lounge Access"
+                    "en": "Lounge Access",
+                    "de": "Zugang zur Business Class Lounge"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1063,11 +1160,13 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Стоповер",
-                    "en": "Stopover"
+                    "en": "Stopover",
+                    "de": "Zwischenstopp"
                 },
                 "fullDescription": {
                     "ru": "При длительности до 3 дней стоповеры разрешены, при длительности более 3 дней – запрещены",
-                    "en": "Stopover on the route with a duration of up to 3 days — allowed, with a duration of more than 3 days — prohibited"
+                    "en": "If the duration is up to 3 days, stopovers are allowed, and if they are longer than 3 days, they are forbidden",
+                    "de": "Wenn die Dauer bis zu 3 Tage dauert, sind Zwischenlandungen erlaubt und wenn sie länger als 3 Tage sind, sind sie verboten"
                 },
                 "needToPay": "free"
             }
@@ -1082,7 +1181,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "ПРЕМИУМ-Комфорт",
-                    "en": "Comfort Flex"
+                    "en": "FLEX-Comfort",
+                    "de": "FLEX-Comfort"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1106,7 +1206,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1118,7 +1219,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 23 кг каждая",
-                    "en": "2 items up to 23 kg each"
+                    "en": "2 items up to 23 kg each",
+                    "de": "2 Beutel bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1130,11 +1232,12 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения до вылета",
-                    "en": "Rebooking Before Departure"
+                    "en": "Rebooking Before Departure",
+                    "de": "Änderungen vor Abfahrt"
                 },
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет разрешено без сборов",
-                    "en": "Rebooking before flight departure time — available. No fee applies"
+                    "en": "Making changes to the issued ticket is allowed free of charge"
                 },
                 "needToPay": "free"
             },
@@ -1142,7 +1245,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Открытая дата обратного вылета",
-                    "en": "Open Return Date"
+                    "en": "Open Return Date",
+                    "de": "Offenes Rückflugdatum"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1154,11 +1258,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable. No fee applies"
+                    "en": "Ticket refund is allowed free of charge",
+                    "de": "Ticketrückerstattung ist kostenlos"
                 },
                 "needToPay": "free"
             },
@@ -1166,7 +1272,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус»",
-                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members"
+                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members",
+                    "de": "Upgrade der Serviceklasse für Aeroflot Bonusmeilen"
                 },
                 "fullDescription": {
                     "ru": "Возможно повышение класса обслуживания за мили «Аэрофлот Бонус»",
@@ -1178,7 +1285,8 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation"
+                    "en": "Advance Basic Seat Reservation",
+                    "de": "Vorwahl der Standardsitze in der Kabine"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1190,7 +1298,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка",
-                    "en": "Priority Boarding"
+                    "en": "Priority Boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная посадка — недоступно",
@@ -1202,7 +1311,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная выдача багажа",
-                    "en": "Priority Luggage Claim"
+                    "en": "Priority Luggage Claim",
+                    "de": "Vorrangige Gepäckausgabe"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная выдача багажа — недоступно",
@@ -1214,7 +1324,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
-                    "en": "Priority Check-in"
+                    "en": "Priority Check-in",
+                    "de": "Dedizierter Check-In Schreibtisch"
                 },
                 "fullDescription": {
                     "ru": "Выделенная стойка регистрации — недоступно",
@@ -1226,7 +1337,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в зал ожидания Бизнес класса",
-                    "en": "Lounge Access"
+                    "en": "Lounge Access",
+                    "de": "Zugang zur Business Class Lounge"
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания Бизнес класса",
@@ -1238,7 +1350,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Стоповер",
-                    "en": "Stopover"
+                    "en": "Stopover",
+                    "de": "Zwischenstopp"
                 },
                 "fullDescription": {
                     "ru": "Стоповеры разрешены",
@@ -1257,7 +1370,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "ОПТИМУМ-Комфорт",
-                    "en": "Comfort Classic"
+                    "en": "CLASSIC-Comfort",
+                    "de": "CLASSIC-Comfort"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1281,7 +1395,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1293,7 +1408,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 23 кг каждая",
-                    "en": "2 items up to 23 kg each"
+                    "en": "2 items up to 23 kg each",
+                    "de": "2 Beutel bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1305,11 +1421,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменения до вылета",
-                    "en": "Rebooking Before Departure"
+                    "en": "Rebooking Before Departure",
+                    "de": "Änderungen vor Abfahrt"
                 },
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
-                    "en": "Rebooking before flight departure time — available. A fee applies"
+                    "en": "Making changes to the issued ticket before the time of the flight is allowed with fees",
+                    "de": "Änderungen an der ausgegebenen Eintrittskarte vor der Zeit des Fluges sind mit Gebühren erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -1317,7 +1435,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Открытая дата обратного вылета",
-                    "en": "Open Return Date"
+                    "en": "Open Return Date",
+                    "de": "Offenes Rückflugdatum"
                 },
                 "fullDescription": {
                     "ru": "Открытая дата обратного вылета — недоступно",
@@ -1329,11 +1448,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до конца регистрации",
-                    "en": "Refund Before Check-in Closure"
+                    "en": "Refund Before Check-in Closure",
+                    "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
                 "fullDescription": {
                     "ru": "Возврат стоимости билета до окончания регистрации разрешен со сборами",
-                    "en": "Refundable before check-in closure. A fee applies"
+                    "en": "Ticket refund before the end of registration is allowed with additional fees",
+                    "de": "Ticketrückerstattung vor dem Ende der Anmeldung ist mit zusätzlichen Gebühren erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -1341,7 +1462,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус»",
-                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members"
+                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members",
+                    "de": "Upgrade der Serviceklasse für Aeroflot Bonusmeilen"
                 },
                 "fullDescription": {
                     "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус» — недоступно",
@@ -1353,7 +1475,8 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation"
+                    "en": "Advance Basic Seat Reservation",
+                    "de": "Vorwahl der Standardsitze in der Kabine"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1365,7 +1488,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная выдача багажа",
-                    "en": "Priority Luggage Claim"
+                    "en": "Priority Luggage Claim",
+                    "de": "Vorrangige Gepäckausgabe"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная выдача багажа — недоступно",
@@ -1377,7 +1501,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная посадка",
-                    "en": "Priority Boarding"
+                    "en": "Priority Boarding",
+                    "de": "Vorrangiges Einsteigen"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная посадка — недоступно",
@@ -1389,7 +1514,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
-                    "en": "Priority Check-in"
+                    "en": "Priority Check-in",
+                    "de": "Dedizierter Check-In Schreibtisch"
                 },
                 "fullDescription": {
                     "ru": "Выделенная стойка регистрации — недоступно",
@@ -1401,7 +1527,8 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Доступ в зал ожидания Бизнес класса",
-                    "en": "Lounge Access"
+                    "en": "Lounge Access",
+                    "de": "Zugang zur Business Class Lounge"
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания Бизнес класса",
@@ -1413,11 +1540,13 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Стоповер",
-                    "en": "Stopover"
+                    "en": "Stopover",
+                    "de": "Zwischenstopp"
                 },
                 "fullDescription": {
                     "ru": "При длительности до 3 дней стоповеры разрешены, при длительности более 3 дней – запрещены",
-                    "en": "Stopover on the route with a duration of up to 3 days — allowed, with a duration of more than 3 days — prohibited"
+                    "en": "If the duration is up to 3 days, stopovers are allowed, and if they are longer than 3 days, they are forbidden",
+                    "de": "Wenn die Dauer bis zu 3 Tage dauert, sind Zwischenlandungen erlaubt und wenn sie länger als 3 Tage sind, sind sie verboten"
                 },
                 "needToPay": "free"
             }

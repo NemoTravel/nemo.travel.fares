@@ -10,7 +10,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Бизнес",
-                    "en": "Business"
+                    "en": "Business",
+                    "de": "Business"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -22,7 +23,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 10 кг каждая",
-                    "en": "2 items up to 10 kg each"
+                    "en": "2 items up to 10 kg each",
+                    "de": "2 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -34,7 +36,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "en": "2 items up to 32 kg each",
+                    "de": "2 Beutel bis 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -58,11 +61,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "de": "Ticketbörse"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
+                    "en": "Ticket exchange is allowed with additional charges",
+                    "de": "Ticketbörse ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -70,11 +75,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "en": "Ticket refund is allowed with additional charges",
+                    "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -82,11 +89,13 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Бизнес-зал",
-                    "en": "Lounge Access"
+                    "en": "Lounge Access",
+                    "de": "Business Class Lounge"
                 },
                 "fullDescription": {
                     "ru": "С доступом в зал ожидания бизнес-класса",
-                    "en": ""
+                    "en": "With access to the Business Class lounge",
+                    "de": "Mit Zugang zur Business Class Lounge"
                 },
                 "needToPay": "free"
             }
@@ -103,7 +112,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Гибкий Эконом",
-                    "en": "Flexible Economy"
+                    "en": "Flexible Economy",
+                    "de": "Flexibel Econom"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -115,11 +125,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "en": "Ticket refund is allowed with additional charges",
+                    "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -139,7 +151,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -151,7 +164,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "de": "1 Beutel bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -163,11 +177,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "de": "Ticketbörse"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
+                    "en": "Ticket exchange is allowed with additional charges",
+                    "de": "Ticketbörse ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "charge"
             }
@@ -184,7 +200,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Комфорт",
-                    "en": "Comfort Economy"
+                    "en": "Comfort Economy",
+                    "de": "Komfort Econom"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -196,7 +213,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "До 10 кг",
-                    "en": "Up to 10 kg"
+                    "en": "Up to 10 kg",
+                    "de": "Bis zu 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -208,7 +226,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "de": "1 Beutel bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -220,11 +239,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "de": "Ticketbörse"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
+                    "en": "Ticket exchange is allowed with additional charges",
+                    "de": "Ticketbörse ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -232,11 +253,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "en": "Ticket refund is allowed with additional charges",
+                    "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -255,12 +278,14 @@
             {
                 "code": "vipService",
                 "shortDescription": {
-                    "ru": "Бизнес зал",
-                    "en": "Lounge Access"
+                    "ru": "Бизнес-зал",
+                    "en": "Lounge Access",
+                    "de": "Business Class Lounge"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "С доступом в зал ожидания бизнес-класса",
+                    "en": "With access to the Business Class lounge",
+                    "de": "Mit Zugang zur Business Class Lounge"
                 },
                 "needToPay": "free"
             }
@@ -279,7 +304,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Комфорт",
-                    "en": "Comfort Economy"
+                    "en": "Comfort Economy",
+                    "de": "Komfort Econom"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -291,7 +317,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 10 кг каждая",
-                    "en": "2 items up to 10 kg each"
+                    "en": "2 items up to 10 kg each",
+                    "de": "2 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -303,7 +330,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "en": "2 items up to 32 kg each",
+                    "de": "2 Beutel bis 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -315,11 +343,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "de": "Ticketbörse"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
+                    "en": "Ticket exchange is allowed with additional charges",
+                    "de": "Ticketbörse ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -327,11 +357,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "en": "Ticket refund is allowed with additional charges",
+                    "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -358,7 +390,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Лайт",
-                    "en": "Light"
+                    "en": "Light",
+                    "de": "Licht"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -382,7 +415,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -394,11 +428,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "en": "Non-refundable",
+                    "de": "Fare ist völlig nicht rückzahlbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -406,7 +442,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "de": "Ticketbörse"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета не разрешен",
@@ -438,7 +475,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Стандарт Эконом",
-                    "en": "Standard Economy"
+                    "en": "Standard Economy",
+                    "de": "Standard Econom"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -450,11 +488,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "en": "Non-refundable",
+                    "de": "Fare ist völlig nicht rückzahlbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -474,7 +514,8 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -486,7 +527,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "de": "1 Beutel bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -498,11 +540,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "de": "Ticketbörse"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
+                    "en": "Ticket exchange is allowed with additional charges",
+                    "de": "Ticketbörse ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "charge"
             }
