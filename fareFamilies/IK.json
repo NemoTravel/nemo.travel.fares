@@ -68,7 +68,7 @@
     },
     {
         "owner": "IK",
-        "baseClass": "economy",
+        "baseClass": "premiumEconomy",
         "tariffCodePattern": "^[SW]\\w*$",
         "parameters": [
             {

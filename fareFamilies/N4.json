@@ -68,7 +68,7 @@
     },
     {
         "owner": "N4",
-        "baseClass": "economy",
+        "baseClass": "premiumEconomy",
         "tariffCodePattern": "^[SW]\\w*$",
         "parameters": [
             {

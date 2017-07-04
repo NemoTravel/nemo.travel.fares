@@ -402,8 +402,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "IATA Тариф",
-                    "en": "IATA Tariff",
+                    "ru": "IATA",
+                    "en": "IATA",
                     "de": "IATA"
                 },
                 "fullDescription": {

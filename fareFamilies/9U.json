@@ -59,8 +59,8 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета не разрешен. На направлениях в/из Москвы и Стамбула обмен билета разрешен со сборами",
-                    "en": "Non-exchangeable. In case of to/from Moscow or Istanbul routes — exchangeable, a fee applies"
+                    "ru": "Обмен билета не разрешен. На направлениях в/из Москвы и Стамбула; из Кишинева/Бельцов в Санкт-Петербург обмен билета разрешен со сборами",
+                    "en": "Non-exchangeable. In case of to/from Moscow or Istanbul routes or Chisinau/Balti to Saint Petersburg routes — exchangeable, a fee applies"
                 },
                 "needToPay": "notAvailable"
             },
@@ -213,8 +213,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "IATA Тариф",
-                    "en": "IATA Tariff",
+                    "ru": "IATA",
+                    "en": "IATA",
                     "de": "IATA"
                 },
                 "fullDescription": {

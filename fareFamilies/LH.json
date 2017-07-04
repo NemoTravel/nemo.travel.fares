@@ -17,10 +17,10 @@
                 "needToPay": null
             },
             {
-                "code": "baggage",
+                "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "ru": "До 8 кг",
+                    "en": "Up to 8 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -29,10 +29,10 @@
                 "needToPay": "free"
             },
             {
-                "code": "carryOn",
+                "code": "baggage",
                 "shortDescription": {
-                    "ru": "До 8 кг",
-                    "en": "Up to 8 kg"
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -412,8 +412,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "IATA Тариф",
-                    "en": "IATA Tariff",
+                    "ru": "IATA",
+                    "en": "IATA",
                     "de": "IATA"
                 },
                 "fullDescription": {
