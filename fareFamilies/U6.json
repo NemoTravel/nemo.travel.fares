@@ -75,11 +75,13 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Питание на борту",
-                    "en": "Complimentary meals"
+                    "en": "Complimentary meals",
+                    "de": "Mahlzeiten an Bord"
                 },
                 "fullDescription": {
                     "ru": "Питание Бизнес-класса",
-                    "en": "Business class menu"
+                    "en": "Business class menu",
+                    "de": "Business-Class Menü"
                 },
                 "needToPay": "free"
             },
@@ -87,11 +89,13 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Рассадка на первых рядах",
-                    "en": "First row seats"
+                    "en": "First row seats",
+                    "de": "Erste Reihe Sitze"
                 },
                 "fullDescription": {
                     "ru": "Рассадка на первых рядах — недоступно",
-                    "en": "First row seats — not available"
+                    "en": "First row seats — not available",
+                    "de": "Erste Reihe Sitze — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -125,11 +129,13 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "Начисление бонусов",
-                    "en": "«Wings» bonuses"
+                    "en": "«Wings» bonuses",
+                    "de": "«Wings» Boni"
                 },
                 "fullDescription": {
                     "ru": "Участники программы «Крылья» получают на свой счет бонусы (15% от оплаченного тарифа)",
-                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 15% of the applicable tariff)"
+                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 15% of the applicable tariff)",
+                    "de": "Alle Mitglieder von «Wings Loyalty Program» bekommen Punkte zu Wings Loyalty Account (ca. 15% des geltenden Tarifs)"
                 },
                 "needToPay": "free"
             }
@@ -211,11 +217,13 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Питание на борту",
-                    "en": "Complimentary meals"
+                    "en": "Complimentary meals",
+                    "de": "Mahlzeiten an Bord"
                 },
                 "fullDescription": {
                     "ru": "Питание Бизнес-класса",
-                    "en": "Business class menu"
+                    "en": "Business class menu",
+                    "de": "Business-Class Menü"
                 },
                 "needToPay": "free"
             },
@@ -223,11 +231,13 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Рассадка на первых рядах",
-                    "en": "First row seats"
+                    "en": "First row seats",
+                    "de": "Erste Reihe Sitze"
                 },
                 "fullDescription": {
                     "ru": "Рассадка на первых рядах — недоступно",
-                    "en": "First row seats — not available"
+                    "en": "First row seats — not available",
+                    "de": "Erste Reihe Sitze — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -261,11 +271,13 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "Начисление бонусов",
-                    "en": "«Wings» bonuses"
+                    "en": "«Wings» bonuses",
+                    "de": "«Wings» Boni"
                 },
                 "fullDescription": {
                     "ru": "Участники программы «Крылья» получают на свой счет бонусы (15% от оплаченного тарифа)",
-                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 15% of the applicable tariff)"
+                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 15% of the applicable tariff)",
+                    "de": "Alle Mitglieder von «Wings Loyalty Program» bekommen Punkte zu Wings Loyalty Account (ca. 15% des geltenden Tarifs)"
                 },
                 "needToPay": "free"
             }
@@ -347,7 +359,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Питание на борту",
-                    "en": "Complimentary meals"
+                    "en": "Complimentary meals",
+                    "de": "Mahlzeiten an Bord"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -359,11 +372,13 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Рассадка на первых рядах",
-                    "en": "First row seats"
+                    "en": "First row seats",
+                    "de": "Erste Reihe Sitze"
                 },
                 "fullDescription": {
                     "ru": "Рассадка на первых рядах — недоступно",
-                    "en": "First row seats — not available"
+                    "en": "First row seats — not available",
+                    "de": "Erste Reihe Sitze — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -376,7 +391,8 @@
                 },
                 "fullDescription": {
                     "ru": "Приоритетная регистрация на рейс — недоступно",
-                    "en": "Priority check-in — not available"
+                    "en": "Priority check-in — not available",
+                    "de": "Vorrangiger Check-in für einen Flug — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -389,7 +405,8 @@
                 },
                 "fullDescription": {
                     "ru": "Приоритетная посадка в самолёт — недоступно",
-                    "en": "Priority boarding — not available"
+                    "en": "Priority boarding — not available",
+                    "de": "Vorrangiges Einsteigen — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -397,11 +414,13 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "Начисление бонусов",
-                    "en": "«Wings» bonuses"
+                    "en": "«Wings» bonuses",
+                    "de": "«Wings» Boni"
                 },
                 "fullDescription": {
                     "ru": "Участники программы «Крылья» получают на свой счет бонусы (10% от оплаченного тарифа)",
-                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 10% of the applicable tariff)"
+                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 10% of the applicable tariff)",
+                    "de": "Alle Mitglieder von «Wings Loyalty Program» bekommen Punkte zu Wings Loyalty Account (ca. 10% des geltenden Tarifs)"
                 },
                 "needToPay": "free"
             }
@@ -483,7 +502,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Питание на борту",
-                    "en": "Complimentary meals"
+                    "en": "Complimentary meals",
+                    "de": "Mahlzeiten an Bord"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -495,7 +515,8 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Рассадка на первых рядах",
-                    "en": "First row seats"
+                    "en": "First row seats",
+                    "de": "Erste Reihe Sitze"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -512,7 +533,8 @@
                 },
                 "fullDescription": {
                     "ru": "Приоритетная регистрация на рейс — недоступно",
-                    "en": "Priority check-in — not available"
+                    "en": "Priority check-in — not available",
+                    "de": "Vorrangiger Check-in für einen Flug — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -525,7 +547,8 @@
                 },
                 "fullDescription": {
                     "ru": "Приоритетная посадка в самолёт — недоступно",
-                    "en": "Priority boarding — not available"
+                    "en": "Priority boarding — not available",
+                    "de": "Vorrangiges Einsteigen — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -533,11 +556,13 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "Начисление бонусов",
-                    "en": "«Wings» bonuses"
+                    "en": "«Wings» bonuses",
+                    "de": "«Wings» Boni"
                 },
                 "fullDescription": {
                     "ru": "Участники программы «Крылья» получают на свой счет бонусы (10% от оплаченного тарифа)",
-                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 10% of the applicable tariff)"
+                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 10% of the applicable tariff)",
+                    "de": "Alle Mitglieder von «Wings Loyalty Program» bekommen Punkte zu Wings Loyalty Account (ca. 10% des geltenden Tarifs)"
                 },
                 "needToPay": "free"
             }
@@ -619,7 +644,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Питание на борту",
-                    "en": "Complimentary meals"
+                    "en": "Complimentary meals",
+                    "de": "Mahlzeiten an Bord"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -631,11 +657,13 @@
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Рассадка на первых рядах",
-                    "en": "First row seats"
+                    "en": "First row seats",
+                    "de": "Erste Reihe Sitze"
                 },
                 "fullDescription": {
                     "ru": "Рассадка на первых рядах — недоступно",
-                    "en": "First row seats — not available"
+                    "en": "First row seats — not available",
+                    "de": "Erste Reihe Sitze — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -648,7 +676,8 @@
                 },
                 "fullDescription": {
                     "ru": "Приоритетная регистрация на рейс — недоступно",
-                    "en": "Priority check-in — not available"
+                    "en": "Priority check-in — not available",
+                    "de": "Vorrangiger Check-in für einen Flug — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -661,7 +690,8 @@
                 },
                 "fullDescription": {
                     "ru": "Приоритетная посадка в самолёт — недоступно",
-                    "en": "Priority boarding — not available"
+                    "en": "Priority boarding — not available",
+                    "de": "Vorrangiges Einsteigen — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -669,11 +699,13 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "Начисление бонусов",
-                    "en": "«Wings» bonuses"
+                    "en": "«Wings» bonuses",
+                    "de": "«Wings» Boni"
                 },
                 "fullDescription": {
                     "ru": "Участники программы «Крылья» получают на свой счет бонусы (5% от оплаченного тарифа)",
-                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 5% of the applicable tariff)"
+                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 5% of the applicable tariff)",
+                    "de": "Alle Mitglieder von «Wings Loyalty Program» bekommen Punkte zu Wings Loyalty Account (ca. 5% des geltenden Tarifs)"
                 },
                 "needToPay": "free"
             }
