@@ -2,7 +2,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "tariffCodePattern": "^([PEO])\\w*\\d*$",
+        "tariffCodePattern": "^[PEO]((?!BA|BB).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -93,7 +93,7 @@
     {
         "owner": "J2",
         "baseClass": "business",
-        "tariffCodePattern": "^([J])\\w*\\d*$",
+        "tariffCodePattern": "^[J]((?!BA|BB).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -208,7 +208,7 @@
     {
         "owner": "J2",
         "baseClass": "business",
-        "tariffCodePattern": "^([WC])\\w*\\d*$",
+        "tariffCodePattern": "^[WC]((?!BA|BB).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -323,7 +323,7 @@
     {
         "owner": "J2",
         "baseClass": "business",
-        "tariffCodePattern": "^([D])\\w*\\d*$",
+        "tariffCodePattern": "^[D]((?!BA|BB).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -438,7 +438,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "tariffCodePattern": "^([Y])\\w*\\d*$",
+        "tariffCodePattern": "^[Y]((?!BA|BB).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -541,7 +541,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "tariffCodePattern": "^([B])\\w*\\d*$",
+        "tariffCodePattern": "^[B]((?!BA|BB).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -632,7 +632,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "tariffCodePattern": "^([TL])\\w*\\d*$",
+        "tariffCodePattern": "^[TL]((?!BA|BB).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -723,7 +723,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "tariffCodePattern": "^([N])\\w*\\d*$",
+        "tariffCodePattern": "^[N]((?!BA|BB).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -814,7 +814,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "tariffCodePattern": "^([MK])\\w*\\d*$",
+        "tariffCodePattern": "^[MK]((?!BA|BB).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -905,7 +905,7 @@
     {
         "owner": "J2",
         "baseClass": "business",
-        "tariffCodePattern": "^([Z])\\w*\\d*$",
+        "tariffCodePattern": "^[Z]((?!BA|BB).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -1008,7 +1008,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "tariffCodePattern": "^([H])\\w*\\d*$",
+        "tariffCodePattern": "^[H]((?!BA|BB).)*$",
         "parameters": [
             {
                 "code": "description",
