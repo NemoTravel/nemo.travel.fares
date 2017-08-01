@@ -513,7 +513,7 @@
                     "ru": "Перебронирование не разрешено",
                     "en": "Rebooking — not available"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "refundable",
@@ -525,7 +525,7 @@
                     "ru": "Тариф полностью невозвратный",
                     "en": "Non-refundable"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "miles",
