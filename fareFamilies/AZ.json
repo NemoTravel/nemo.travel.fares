@@ -13,7 +13,8 @@
                 },
                 "fullDescription": {
                     "ru": "Тариф является базовым для данного направления и не привязан к авиакомпании. Подробности о предоставляемых услугах уточняйте в условиях применения тарифа",
-                    "en": "This tariff has no connection to the airline and works only on this route. Please check the fare rules for more details"
+                    "en": "This tariff has no connection to the airline and works only on this route. Please check the fare rules for more details",
+                    "de": "Dieser Fahrpreis hat keine Verbindung zur Fluggesellschaft und funktioniert nur auf dieser Strecke. Bitte überprüfen Sie die Tarifregeln für weitere Details"
                 },
                 "needToPay": null
             },
@@ -21,7 +22,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "Информация по провозу ручной клади и багажа уточняется в условиях применения тарифа",
-                    "en": "Check the fare rules to specify the baggage allowance"
+                    "en": "Check the fare rules to specify the baggage allowance",
+                    "de": "Überprüfen Sie die Tarifbestimmungen, um die Freigepäckmenge festzulegen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -246,7 +248,7 @@
         "baseClass": "business",
         "flightTimeSince": "2017-04-07T00:00:00",
         "flightTimeUntil": "2027-03-24T00:00:00",
-        "tariffCodePattern": "^((?!FL|CL).)*$",
+        "tariffCodePattern": "^[CDEIJ]((?!FL|CL).)*$",
         "parameters": [
             {
                 "code": "description",

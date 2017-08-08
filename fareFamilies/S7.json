@@ -21,7 +21,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "100% миль S7 Priority",
-                    "en": "100% S7 Priority Miles"
+                    "en": "100% S7 Priority Miles",
+                    "de": "100% S7 Priority Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -38,7 +39,8 @@
                 },
                 "fullDescription": {
                     "ru": "1 место до 10 кг, размер 55*40*20 см",
-                    "en": "1 piece up to 10 kg, size 55*40*20 cm"
+                    "en": "1 piece up to 10 kg, size 55*40*20 cm",
+                    "de": "1 Beutel bis 10 kg, Größe 55 * 40 * 20"
                 },
                 "needToPay": "free"
             },
@@ -64,7 +66,8 @@
                 },
                 "fullDescription": {
                     "ru": "Тариф на неиспользованных участках подлежит возврату. Такса YR, аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Такса YQ возврату не подлежит. Взимается сбор за возврат за каждый возвращаемый участок, на котором была неявка, и сбор за возврат за каждый возвращаемый участок, на котором не было неявки. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Refundable. A fee applies"
+                    "en": "Fares on unused legs of the route is subject to return. The YR rate, airport taxes and fees for unused portions are refundable. YQ fee is not refundable. A charge is collected for a refund for each returned land on which there was no attendance, and a fee for refunding for each returned site on which there was no non-appearance. The fee for issuing the ticket is non-refundable",
+                    "de": "Fahrpreise auf unbenutzten Beinen der Strecke unterliegen der Rückgabe. Die YR-Rate, Flughafen Steuern und Gebühren für nicht genutzte Portionen sind zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Eine Gebühr wird für eine Rückerstattung für jedes zurückgegebene Land gesammelt, auf dem es keine Anwesenheit gab, und eine Gebühr für die Rückerstattung für jede zurückgegebene Website, auf der es keine Nicht-Aussehen gab. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
                 },
                 "needToPay": "charge"
             },
@@ -77,7 +80,8 @@
                 },
                 "fullDescription": {
                     "ru": "Бесплатный выбор места в салоне при регистрации на рейс.  Выбор места при покупке за дополнительную плату. Выбор места повышенной комфортности за дополнительную плату",
-                    "en": "Seat selection permitted during the check-in"
+                    "en": "Seat selection permitted during the check-in. Upon purchase — seat selection is available with an additional fee. Selection of high comfort seat is available for an additional fee",
+                    "de": "Die Sitzplatzwahl ist während des Check-ins kostenlos gestattet. Nach dem Kauf — Sitzplatzwahl ist gegen Aufpreis möglich.  Die Auswahl des hohen Komfortsitzes steht gegen Aufpreis zur Verfügung"
                 },
                 "needToPay": "free"
             },
@@ -90,7 +94,8 @@
                 },
                 "fullDescription": {
                     "ru": "Изменения разрешены без сборов до вылета. Разрешены со сбором за каждый сегмент после вылета. Разрешен обмен билета до более высокого тарифа в пределах группы Эконом Гибкий и Бизнес Гибкий, при доборе с Эконом Гибкий до Бизнес Гибкий со сбором за каждый сегмент. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
-                    "en": "Exchangeable before departure. No fee applies"
+                    "en": "Before departure — changes are allowed free of charge. Permitted with additional charge for each segment after departure. Exchange to a higher level of fare is permitted within the Economy Base and Business Base groups. It is allowed to upgrage you current fare level to the higher avalible grade, with an additional charge",
+                    "de": "Vor Abreise — Änderungen sind kostenfrei. Nach jedem Abflug mit Aufpreis für jedes Segment zugelassen. Der Austausch zu einem höheren Fahrpreis ist innerhalb der Economy Base und Business Base Gruppen erlaubt. Es ist erlaubt, Ihnen die aktuelle Tarifniveau auf die höhere avalible Klasse, mit einer zusätzlichen Gebühr zu upgragen"
                 },
                 "needToPay": "free"
             },
@@ -98,7 +103,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Закуска/горячее питание",
-                    "en": "Snacks/Meals"
+                    "en": "Snacks/Meals",
+                    "de": "Snacks / Mahlzeiten"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -134,7 +140,8 @@
                 },
                 "fullDescription": {
                     "ru": "1 место до 10 кг, размер 55*40*20 см",
-                    "en": "1 piece up to 10 kg, size 55*40*20 cm"
+                    "en": "1 piece up to 10 kg, size 55*40*20 cm",
+                    "de": "1 Beutel bis 10 kg, Größe 55 * 40 * 20"
                 },
                 "needToPay": "free"
             },
@@ -156,7 +163,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "50% миль S7 Priority",
-                    "en": "50% S7 Priority Miles"
+                    "en": "50% S7 Priority Miles",
+                    "de": "50% S7 Priority Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -185,7 +193,8 @@
                 },
                 "fullDescription": {
                     "ru": "Изменения разрешены со сбором за каждый сегмент до вылета. Разрешены со сбором за каждый сегмент после вылета. Обмен до более высокого тарифа Разрешен в пределах группы Эконом Базовый и Бизнес Базовый. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
-                    "en": "Exchangeable before departure. A fee applies"
+                    "en": "Before departure — changes are allowed with a fee for each segment. Permitted with additional charge for each segment after departure. Exchange to a higher level of fare is permitted within the Economy Base and Business Base groups. It is allowed to upgrage you current fare level to the higher avalible grade, with an additional charge",
+                    "de": "Vor der Abreise — Änderungen sind mit einer Gebühr für jedes Segment erlaubt. Nach jedem Abflug mit Aufpreis für jedes Segment zugelassen. Der Austausch zu einem höheren Fahrpreis ist innerhalb der Economy Base und Business Base Gruppen erlaubt. Es ist erlaubt, Ihnen die aktuelle Tarifniveau auf die höhere avalible Klasse, mit einer zusätzlichen Gebühr zu upgragen"
                 },
                 "needToPay": "charge"
             },
@@ -193,7 +202,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Закуска/горячее питание",
-                    "en": "Snacks/Meals"
+                    "en": "Snacks/Meals",
+                    "de": "Snacks / Mahlzeiten"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -242,7 +252,8 @@
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до вылета разрешены без сборов",
-                    "en": "Ticket exchange before departure is allowed free of charge"
+                    "en": "Ticket exchange before departure is allowed free of charge",
+                    "de": "Ticketbörse vor Abreise ist kostenlos"
                 },
                 "needToPay": "free"
             },
@@ -268,7 +279,8 @@
                 },
                 "fullDescription": {
                     "ru": "2 места общим весом не более 15 кг, размер 55*40*20",
-                    "en": "2 pieces up to 15 kg in total, size 55*40*20"
+                    "en": "2 pieces up to 15 kg in total, size 55*40*20",
+                    "de": "2 Stück bis 15 kg alle, Größe 55 * 40 * 20"
                 },
                 "needToPay": "free"
             },
@@ -302,7 +314,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "250% миль S7 Priority",
-                    "en": "250% S7 Priority Miles"
+                    "en": "250% S7 Priority Miles",
+                    "de": "250% S7 Priority Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -314,7 +327,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Специальное меню и напитки",
-                    "en": "Special Meals & Beverages"
+                    "en": "Special Meals & Beverages",
+                    "de": "Spezielle Mahlzeiten & Getränke"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -364,7 +378,8 @@
                 },
                 "fullDescription": {
                     "ru": "2 места общим весом не более 15 кг, размер 55*40*20",
-                    "en": "2 pieces up to 15 kg in total, size 55*40*20"
+                    "en": "2 pieces up to 15 kg in total, size 55*40*20",
+                    "de": "2 Stück bis 15 kg alle, Größe 55 * 40 * 20"
                 },
                 "needToPay": "free"
             },
@@ -390,7 +405,8 @@
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный. Такса YR возврату не подлежит. Такса YQ возврату не подлежит. Аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Non-refundable"
+                    "en": "Fare is non-refundable. The YR tax is not refundable. YQ fee is not refundable. Airport fees and charges for unused portions are refundable. The fee for issuing the ticket is non-refundable",
+                    "de": "Fahrpreis ist nicht erstattungsfähig. Die YR-Steuer wird nicht zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Flughafengebühren und Gebühren für nicht genutzte Portionen sind rückzahlbar. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
                 },
                 "needToPay": "notAvailable"
             },
@@ -411,7 +427,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Специальное меню и напитки",
-                    "en": "Special Meals & Beverages"
+                    "en": "Special Meals & Beverages",
+                    "de": "Spezielle Mahlzeiten & Getränke"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -423,7 +440,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "150% миль S7 Priority",
-                    "en": "150% S7 Priority Miles"
+                    "en": "150% S7 Priority Miles",
+                    "de": "150% S7 Priority Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -440,7 +458,8 @@
                 },
                 "fullDescription": {
                     "ru": "Бесплатный выбор места в салоне при регистрации на рейс",
-                    "en": "Seat selection permitted during the check-in"
+                    "en": "Seat selection permitted during the check-in",
+                    "de": "Die Sitzplatzwahl ist während des Check-ins kostenlos gestattet"
                 },
                 "needToPay": "free"
             },
@@ -453,7 +472,8 @@
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания бизнес-класса",
-                    "en": "No free lounge access"
+                    "en": "No free lounge access",
+                    "de": "Ohne Zugang zur Business Class Lounge"
                 },
                 "needToPay": "notAvailable"
             }

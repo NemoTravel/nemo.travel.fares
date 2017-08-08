@@ -49,7 +49,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "200% миль",
-                    "en": "200% Miles"
+                    "en": "200% Miles",
+                    "de": "200% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -139,7 +140,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "100% миль",
-                    "en": "100% Miles"
+                    "en": "100% Miles",
+                    "de": "100% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -267,7 +269,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "100% миль",
-                    "en": "100% Miles"
+                    "en": "100% Miles",
+                    "de": "100% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -371,7 +374,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "200% миль",
-                    "en": "200% Miles"
+                    "en": "200% Miles",
+                    "de": "200% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -403,7 +407,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "Платный",
-                    "en": "No free baggage allowance"
+                    "en": "No free baggage allowance",
+                    "de": "Kein Freigepäck"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -447,7 +452,8 @@
                 },
                 "fullDescription": {
                     "ru": "Обмен билета не разрешен",
-                    "en": "Non-exchangeable"
+                    "en": "Non-exchangeable",
+                    "de": "Nicht austauschbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -455,7 +461,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "25% миль",
-                    "en": "25% Miles"
+                    "en": "25% Miles",
+                    "de": "25% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -502,7 +509,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "75% миль",
-                    "en": "75% Miles"
+                    "en": "75% Miles",
+                    "de": "75% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",

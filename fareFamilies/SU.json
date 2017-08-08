@@ -47,7 +47,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "150-200% миль",
-                    "en": "150-200% Miles"
+                    "en": "150-200% Miles",
+                    "de": "150-200% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -64,7 +65,8 @@
                 },
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет разрешено без сборов",
-                    "en": "Making changes to the issued ticket is allowed free of charge"
+                    "en": "Making changes to the issued ticket is allowed free of charge",
+                    "de": "Änderungen am ausgegebenen Ticket sind kostenfrei möglich"
                 },
                 "needToPay": "free"
             },
@@ -118,7 +120,8 @@
                 },
                 "fullDescription": {
                     "ru": "Возможно повышение класса обслуживания за мили «Аэрофлот Бонус»",
-                    "en": "Cabin award upgrade for Aeroflot Bonus members — available"
+                    "en": "Cabin award upgrade for Aeroflot Bonus members — available",
+                    "de": "Upgrade der Serviceklasse für Aeroflot Bonusmeilen — verfügbar"
                 },
                 "needToPay": "free"
             },
@@ -187,7 +190,8 @@
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания Бизнес класса",
-                    "en": "No free lounge access"
+                    "en": "No free lounge access",
+                    "de": "Kein Zugang zur freien Lounge"
                 },
                 "needToPay": "notAvailable"
             },
@@ -200,7 +204,8 @@
                 },
                 "fullDescription": {
                     "ru": "Стоповеры разрешены",
-                    "en": "Stopover on the route — available"
+                    "en": "Stopovers are allowed",
+                    "de": "Zwischenstopps sind erlaubt"
                 },
                 "needToPay": "free"
             }
@@ -241,7 +246,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "100-150% миль",
-                    "en": "100-150% Miles"
+                    "en": "100-150% Miles",
+                    "de": "100-150% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -397,7 +403,8 @@
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания Бизнес класса",
-                    "en": "No free lounge access"
+                    "en": "No free lounge access",
+                    "de": "Kein Zugang zur freien Lounge"
                 },
                 "needToPay": "notAvailable"
             },
@@ -465,7 +472,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "75-125% миль",
-                    "en": "75-125% Miles"
+                    "en": "75-125% Miles",
+                    "de": "75-125% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -510,7 +518,8 @@
                 },
                 "fullDescription": {
                     "ru": "Возврат билета не разрешен. Для перевозок от пунктов Республики Корея или между пунктами Узбекистана, Таджикистана и пунктами РФ, Азербайджана, Армении, Белоруссии, Казахстана, Киргизии, Молдавии, Украины, Грузии разрешен с удержанием платы",
-                    "en": "Non-refundable"
+                    "en": "Ticket refund is not allowed with the exception of routes from the points of the Republic of Korea or between points of Uzbekistan, Tajikistan and the points of the Russian Federation, Azerbaijan, Armenia, Belarus, Kazakhstan, Kyrgyzstan, Moldova, Ukraine, Georgia - in such cases, operation is allowed with retention of fee",
+                    "de": "Ticketrückerstattung ist nicht zulässig mit Ausnahme von Strecken von den Punkten der Republik Korea oder zwischen den Punkten Usbekistan, Tadschikistan und den Punkten der Russischen Föderation, Aserbaidschan, Armenien, Weißrussland, Kasachstan, Kirgisistan, Moldawien, Ukraine, Georgien In solchen Fällen ist der Betrieb unter Beibehaltung der Gebühr erlaubt"
                 },
                 "needToPay": "notAvailable"
             },
@@ -607,7 +616,8 @@
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания Бизнес класса",
-                    "en": "No free lounge access"
+                    "en": "No free lounge access",
+                    "de": "Kein Zugang zur freien Lounge"
                 },
                 "needToPay": "notAvailable"
             },
@@ -620,7 +630,8 @@
                 },
                 "fullDescription": {
                     "ru": "Стоповеры запрещены",
-                    "en": "Stopover on the route — not available"
+                    "en": "Stopovers are prohibited",
+                    "de": "Zwischenstopps sind verboten"
                 },
                 "needToPay": "notAvailable"
             }
@@ -661,7 +672,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "25% миль",
-                    "en": "25% Miles"
+                    "en": "25% Miles",
+                    "de": "25% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -817,7 +829,8 @@
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания Бизнес класса",
-                    "en": "No free lounge access"
+                    "en": "No free lounge access",
+                    "de": "Kein Zugang zur freien Lounge"
                 },
                 "needToPay": "notAvailable"
             },
@@ -830,7 +843,8 @@
                 },
                 "fullDescription": {
                     "ru": "Стоповеры запрещены",
-                    "en": "Stopover on the route — not available"
+                    "en": "Stopovers are prohibited",
+                    "de": "Zwischenstopps sind verboten"
                 },
                 "needToPay": "notAvailable"
             }
@@ -858,7 +872,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "200-250% миль",
-                    "en": "200-250% Miles"
+                    "en": "200-250% Miles",
+                    "de": "200-250% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -901,7 +916,8 @@
                 },
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет разрешено без сборов",
-                    "en": "Making changes to the issued ticket is allowed free of charge"
+                    "en": "Making changes to the issued ticket is allowed free of charge",
+                    "de": "Änderungen am ausgegebenen Ticket sind kostenfrei möglich"
                 },
                 "needToPay": "free"
             },
@@ -1006,7 +1022,8 @@
                 },
                 "fullDescription": {
                     "ru": "Стоповеры разрешены",
-                    "en": "Stopover on the route — available"
+                    "en": "Stopovers are allowed",
+                    "de": "Zwischenstopps sind erlaubt"
                 },
                 "needToPay": "free"
             }
@@ -1034,7 +1051,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "150-200% миль",
-                    "en": "150-200% Miles"
+                    "en": "150-200% Miles",
+                    "de": "150-200% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1213,7 +1231,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "200% миль",
-                    "en": "200% Miles"
+                    "en": "200% Miles",
+                    "de": "200% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1256,7 +1275,8 @@
                 },
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет разрешено без сборов",
-                    "en": "Making changes to the issued ticket is allowed free of charge"
+                    "en": "Making changes to the issued ticket is allowed free of charge",
+                    "de": "Änderungen am ausgegebenen Ticket sind kostenfrei möglich"
                 },
                 "needToPay": "free"
             },
@@ -1364,7 +1384,8 @@
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания Бизнес класса",
-                    "en": "No free lounge access"
+                    "en": "No free lounge access",
+                    "de": "Kein Zugang zur freien Lounge"
                 },
                 "needToPay": "notAvailable"
             },
@@ -1405,7 +1426,8 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "150% миль",
-                    "en": "150% Miles"
+                    "en": "150% Miles",
+                    "de": "150% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1559,7 +1581,8 @@
                 },
                 "fullDescription": {
                     "ru": "Без доступа в зал ожидания Бизнес класса",
-                    "en": "No free lounge access"
+                    "en": "No free lounge access",
+                    "de": "Kein Zugang zur freien Lounge"
                 },
                 "needToPay": "notAvailable"
             },

@@ -48,7 +48,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты вылета",
-                    "en": "Date Changes"
+                    "en": "Date Changes",
+                    "de": "Änderung des Abreisedatums"
                 },
                 "fullDescription": {
                     "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время)",
@@ -187,7 +188,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты вылета",
-                    "en": "Date Changes"
+                    "en": "Date Changes",
+                    "de": "Änderung des Abreisedatums"
                 },
                 "fullDescription": {
                     "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время)",
@@ -291,7 +293,8 @@
                 },
                 "fullDescription": {
                     "ru": "На рейсах Узбекистан (Андижан, Термез, Наманган, Карши, Самарканд, Фергана) — Москва норма провоза багажа — до 20 кг. На некоторых рейсах может быть предусмотрена другая величина нормы бесплатного провоза багажа",
-                    "en": ""
+                    "en": "On flights Uzbekistan (Andizhan, Termez, Namangan, Karshi, Samarkand, Fergana) — Moscow the baggage allowance is up to 20 kg",
+                    "de": "Auf den Flügen Usbekistan (Andizhan, Termez, Namangan, Karshi, Samarkand, Fergana) — Moskau ist das Gepäck bis zu 20 kg"
                 },
                 "needToPay": "free"
             },
@@ -313,7 +316,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты вылета",
-                    "en": "Date Changes"
+                    "en": "Date Changes",
+                    "de": "Änderung des Abreisedatums"
                 },
                 "fullDescription": {
                     "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время)",
@@ -413,7 +417,8 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты вылета",
-                    "en": "Date Changes"
+                    "en": "Date Changes",
+                    "de": "Änderung des Abreisedatums"
                 },
                 "fullDescription": {
                     "ru": "Изменение условий договора перевозки разрешается со сбором в случае переоформления на более раннюю(ее) дату(время)/переоформления на более позднюю(ее) дату(время)",
@@ -491,7 +496,8 @@
                 },
                 "fullDescription": {
                     "ru": "На рейсах Узбекистан (Андижан, Термез, Наманган, Карши, Самарканд, Фергана) — Москва норма провоза багажа — до 20 кг. На некоторых рейсах может быть предусмотрена другая величина нормы бесплатного провоза багажа",
-                    "en": ""
+                    "en": "On flights Uzbekistan (Andizhan, Termez, Namangan, Karshi, Samarkand, Fergana) — Moscow the baggage allowance is up to 20 kg",
+                    "de": "Auf den Flügen Usbekistan (Andizhan, Termez, Namangan, Karshi, Samarkand, Fergana) — Moskau ist das Gepäck bis zu 20 kg"
                 },
                 "needToPay": "free"
             },
@@ -513,11 +519,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты вылета",
-                    "en": "Date Changes"
+                    "en": "Date Changes",
+                    "de": "Änderung des Abreisedatums"
                 },
                 "fullDescription": {
                     "ru": "Изменение даты вылета недоступно",
-                    "en": "Date сhanges — not available"
+                    "en": "Date сhanges — not available",
+                    "de": "Das Ändern des Abreisedatums ist nicht möglich"
                 },
                 "needToPay": "notAvailable"
             },
