@@ -325,10 +325,10 @@
                     "en": "Snacks & Meals"
                 },
                 "fullDescription": {
-                    "ru": "Закуски и питание — за дополнительную плату",
-                    "en": "Snacks and meals — available at extra charge"
+                    "ru": "Бесплатные закуски предлагаются пассажирам на коротких рейсах в Европе и на Ближнем Востоке",
+                    "en": "Free in-flight refreshments on routes across Europe and to the Near East"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             }
         ]
     },

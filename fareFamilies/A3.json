@@ -2,7 +2,7 @@
     {
         "owner": "A3",
         "baseClass": "economy",
-        "tariffCodePattern": "^((?!NOBAG|0BAG).)*$",
+        "tariffCodePattern": "^[YBMHQWLKSTUP]((?!NOBAG|0BAG).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -69,7 +69,7 @@
     {
         "owner": "A3",
         "baseClass": "economy",
-        "tariffCodePattern": "^(\\w*\\d*(NOBAG|0BAG))\\w*\\d*$",
+        "tariffCodePattern": "^([YBMHQWLKSTUP]\\w*(NOBAG|0BAG))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
@@ -130,6 +130,109 @@
                     "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "A3",
+        "baseClass": "business",
+        "tariffCodePattern": "^([CZDA])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места весом до 8 и 5 кг соответственно",
+                    "en": "2 items up to 8 kg and 5 kg respectively"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Уплаченная сумма может быть возмещена",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен без сборов",
+                    "en": "Exchangeable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в залы бизнес-класса",
+                    "en": "Access to Business class lounges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Отдельные стойки регистрации",
+                    "en": "Separate check-in desks"
+                },
+                "fullDescription": {
+                    "ru": "Доступны отдельные стойки регистрации",
+                    "en": "Separate check-in desks — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритет обработки багажа",
+                    "en": "Priority baggage handling"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная обработка багажа",
+                    "en": "Priority baggage handling — available"
+                },
+                "needToPay": "free"
             }
         ]
     }

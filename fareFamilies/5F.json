@@ -8,7 +8,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Премиум",
-                    "en": "Advantage"
+                    "en": "Advantage",
+                    "ro": "Advantage"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -20,11 +21,13 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "ro": "1 unitate de pînă la 10kg"
                 },
                 "fullDescription": {
                     "ru": "1 место до 10 кг, габариты не более 115 см по сумме трех измерений",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm"
+                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm",
+                    "ro": "1 unitate de pînă la 10kg cu dimensiunile totale de pînă la 115cm"
                 },
                 "needToPay": "free"
             },
@@ -32,11 +35,13 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 32 кг",
-                    "en": "1 item up to 32 kg"
+                    "en": "1 item up to 32 kg",
+                    "ro": "1 unitate de pînă la 32kg"
                 },
                 "fullDescription": {
                     "ru": "1 место до 32 кг, габариты не более 158 см по сумме трех измерений",
-                    "en": "1 item up to 32 kg, total linear dimension — up to 158 cm"
+                    "en": "1 item up to 32 kg, total linear dimension — up to 158 cm",
+                    "ro": "1 unitate de pînă la 32kg cu dimensiunile totale de pînă la 158cm"
                 },
                 "needToPay": "free"
             },
@@ -44,11 +49,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "ro": "Rambursarea biletului"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "en": "Refundable. A fee applies",
+                    "ro": "Biletul poate fi rambursat cu aplicarea penalităților"
                 },
                 "needToPay": "charge"
             },
@@ -56,11 +63,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты вылета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "ro": "Modificare de dată"
                 },
                 "fullDescription": {
                     "ru": "Изменение даты вылета разрешено со сборами",
-                    "en": "Date changes — available. A fee applies"
+                    "en": "Date changes — available. A fee applies",
+                    "ro": "Modificarea de dată/oră este posibilă cu aplicarea penalităților"
                 },
                 "needToPay": "charge"
             },
@@ -68,11 +77,13 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Регистрация на стойке",
-                    "en": "Desk check-in"
+                    "en": "Desk check-in",
+                    "ro": "Înregistrarea la ghișeu"
                 },
                 "fullDescription": {
                     "ru": "Доступна регистрация на стойке",
-                    "en": "Desk check-in — available"
+                    "en": "Desk check-in — available",
+                    "ro": "Este posibilă înregistrarea la ghișeu"
                 },
                 "needToPay": "free"
             },
@@ -80,7 +91,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Питание на борту",
-                    "en": "Catering"
+                    "en": "Catering",
+                    "ro": "Catering"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -111,7 +123,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Гибкий",
-                    "en": "Loyal"
+                    "en": "Loyal",
+                    "ro": "Loyal"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -123,11 +136,13 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "en": "1 item up to 10 kg",
+                    "ro": "1 unitate de pînă la 10kg"
                 },
                 "fullDescription": {
                     "ru": "1 место до 10 кг, габариты не более 115 см по сумме трех измерений",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm"
+                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm",
+                    "ro": "1 unitate de pînă la 10kg cu dimensiunile totale de pînă la 115cm"
                 },
                 "needToPay": "free"
             },
@@ -135,11 +150,13 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "ro": "1 unitate de pînă la 23kg"
                 },
                 "fullDescription": {
                     "ru": "1 место до 23 кг, габариты не более 158 см по сумме трех измерений",
-                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm"
+                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm",
+                    "ro": "1 unitate de pînă la 23kg cu dimensiunile totale de pînă la 158cm"
                 },
                 "needToPay": "free"
             },
@@ -147,11 +164,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "ro": "Rambursarea biletului"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "en": "Refundable. A fee applies",
+                    "ro": "Biletul poate fi rambursat cu aplicarea penalităților"
                 },
                 "needToPay": "charge"
             },
@@ -159,11 +178,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты вылета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "ro": "Modificare de dată"
                 },
                 "fullDescription": {
                     "ru": "Изменение даты вылета разрешено со сборами",
-                    "en": "Date changes — available. A fee applies"
+                    "en": "Date changes — available. A fee applies",
+                    "ro": "Modificarea de dată/oră este posibilă cu aplicarea penalităților"
                 },
                 "needToPay": "charge"
             },
@@ -171,11 +192,13 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Регистрация на стойке",
-                    "en": "Desk check-in"
+                    "en": "Desk check-in",
+                    "ro": "Înregistrarea la ghișeu"
                 },
                 "fullDescription": {
                     "ru": "Регистрация на стойке доступна за дополнительную плату",
-                    "en": "Desk check-in — available at extra charge"
+                    "en": "Desk check-in — available at extra charge",
+                    "ro": "Înregistrarea la ghișeu — posibilă contra plată"
                 },
                 "needToPay": "charge"
             },
@@ -183,7 +206,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Питание на борту",
-                    "en": "Catering"
+                    "en": "Catering",
+                    "ro": "Catering"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -214,7 +238,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Промо",
-                    "en": "Promo"
+                    "en": "Promo",
+                    "ro": "Promo"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -226,11 +251,13 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 8 кг",
-                    "en": "1 item up to 8 kg"
+                    "en": "1 item up to 8 kg",
+                    "ro": "1 unitate de pînă la 8kg"
                 },
                 "fullDescription": {
                     "ru": "1 место до 8 кг, габариты не более 100 см по сумме трех измерений",
-                    "en": "1 item up to 8 kg, total linear dimension — up to 100 cm"
+                    "en": "1 item up to 8 kg, total linear dimension — up to 100 cm",
+                    "ro": "1 unitate de pînă la 8kg cu dimensiunile totale de pînă la 100cm"
                 },
                 "needToPay": "free"
             },
@@ -238,7 +265,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "Платный",
-                    "en": "No free baggage allowance"
+                    "en": "No free baggage allowance",
+                    "ro": "Contra plată"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -250,11 +278,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "ro": "Rambursarea biletului"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "en": "Non-refundable",
+                    "ro": "Nerambursabil"
                 },
                 "needToPay": "notAvailable"
             },
@@ -262,11 +292,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты вылета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "ro": "Modificare de dată/oră"
                 },
                 "fullDescription": {
                     "ru": "Изменение даты вылета не разрешено",
-                    "en": "Date changes — not available"
+                    "en": "Date changes — not available",
+                    "ro": "Modificarea de dată/oră nu este permisă"
                 },
                 "needToPay": "notAvailable"
             },
@@ -274,11 +306,13 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Регистрация на стойке",
-                    "en": "Desk check-in"
+                    "en": "Desk check-in",
+                    "ro": "Înregistrarea la ghișeu"
                 },
                 "fullDescription": {
                     "ru": "Регистрация на стойке доступна за дополнительную плату",
-                    "en": "Desk check-in — available at extra charge"
+                    "en": "Desk check-in — available at extra charge",
+                    "ro": "Înregistrarea la ghișeu — posibilă contra plată"
                 },
                 "needToPay": "charge"
             },
@@ -286,7 +320,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Питание на борту",
-                    "en": "Catering"
+                    "en": "Catering",
+                    "ro": "Catering"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -305,7 +340,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Стандартный",
-                    "en": "Standard"
+                    "en": "Standard",
+                    "ro": "Standard"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -317,11 +353,13 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 8 кг",
-                    "en": "1 item up to 8 kg"
+                    "en": "1 item up to 8 kg",
+                    "ro": "1 unitate de pînă la 8kg"
                 },
                 "fullDescription": {
                     "ru": "1 место до 8 кг, габариты не более 100 см по сумме трех измерений",
-                    "en": "1 item up to 8 kg, total linear dimension — up to 100 cm"
+                    "en": "1 item up to 8 kg, total linear dimension — up to 100 cm",
+                    "ro": "1 unitate de pînă la 8kg cu dimensiunile totale de pînă la 100cm"
                 },
                 "needToPay": "free"
             },
@@ -329,7 +367,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "Платный",
-                    "en": "No free baggage allowance"
+                    "en": "No free baggage allowance",
+                    "ro": "Contra plată"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -341,11 +380,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "ro": "Rambursarea biletului"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "en": "Non-refundable",
+                    "ro": "Nerambursabil"
                 },
                 "needToPay": "notAvailable"
             },
@@ -353,11 +394,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Изменение даты вылета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "ro": "Modificare de dată/oră"
                 },
                 "fullDescription": {
                     "ru": "Изменение даты вылета не разрешено",
-                    "en": "Date changes — not available"
+                    "en": "Date changes — not available",
+                    "ro": "Modificarea de dată/oră nu este permisă"
                 },
                 "needToPay": "notAvailable"
             },
@@ -365,11 +408,13 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Регистрация на стойке",
-                    "en": "Desk check-in"
+                    "en": "Desk check-in",
+                    "ro": "Înregistrarea la ghișeu"
                 },
                 "fullDescription": {
                     "ru": "Регистрация на стойке доступна за дополнительную плату",
-                    "en": "Desk check-in — available at extra charge"
+                    "en": "Desk check-in — available at extra charge",
+                    "ro": "Înregistrarea la ghișeu — posibilă contra plată"
                 },
                 "needToPay": "charge"
             },
@@ -377,7 +422,8 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Питание на борту",
-                    "en": "Catering"
+                    "en": "Catering",
+                    "ro": "Catering"
                 },
                 "fullDescription": {
                     "ru": "",

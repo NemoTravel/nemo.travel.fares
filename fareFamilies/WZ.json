@@ -150,6 +150,18 @@
                     "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": "Complimentary Meals"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -399,6 +411,18 @@
                     "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": "Complimentary Meals"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -611,6 +635,18 @@
                 "fullDescription": {
                     "ru": "Открытая дата разрешена",
                     "en": "Open return date — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": "Complimentary Meals"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
