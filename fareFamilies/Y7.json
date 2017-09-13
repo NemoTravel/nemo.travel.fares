@@ -256,7 +256,7 @@
     {
         "owner": "Y7",
         "baseClass": "economy",
-        "tariffCodePattern": "(BOW)|(BRT)|(VOW)|(VRT)|(NOW)|(NRT)|(WOW)|(WRT)|(OOW)|(ORT)|(HOW)|(HRT)|(SOW)|(SRT)|(KOW)|(KRT)|(MOW)|(MRT)|(TOW)|(TRT)|(XOW)|(XRT)|(QOW)|(QRT)|(LOW)|(LRT)$",
+        "tariffCodePattern": "((BOW)|(BRT)|(VOW)|(VRT)|(NOW)|(NRT)|(WOW)|(WRT)|(OOW)|(ORT)|(HOW)|(HRT)|(SOW)|(SRT)|(KOW)|(KRT)|(MOW)|(MRT)|(TOW)|(TRT)|(XOW)|(XRT)|(QOW)|(QRT)|(LOW)|(LRT))$",
         "parameters": [
             {
                 "code": "description",
@@ -371,7 +371,7 @@
     {
         "owner": "Y7",
         "baseClass": "economy",
-        "tariffCodePattern": "(BOW2)|(BRT2)|(VOW2)|(VRT2)|(NOW2)|(NRT2)|(WOW2)|(WRT2)|(OOW2)|(ORT2)|(HOW2)|(HRT2)|(SOW2)|(SRT2)|(KOW2)|(KRT2)|(MOW2)|(MRT2)|(TOW2)|(TRT2)|(XOW2)|(XRT2)|(QOW2)|(QRT2)|(LOW2)|(LRT2)$",
+        "tariffCodePattern": "((BOW2)|(BRT2)|(VOW2)|(VRT2)|(NOW2)|(NRT2)|(WOW2)|(WRT2)|(OOW2)|(ORT2)|(HOW2)|(HRT2)|(SOW2)|(SRT2)|(KOW2)|(KRT2)|(MOW2)|(MRT2)|(TOW2)|(TRT2)|(XOW2)|(XRT2)|(QOW2)|(QRT2)|(LOW2)|(LRT2))$",
         "parameters": [
             {
                 "code": "description",
