@@ -14,6 +14,7 @@
 | owner          | String        | Двухсимвольный IATA код авиакомпании |
 | baseClass      | String        |  Сервис класс перелета, к которому относится набор тарифных правил. Допустимые значения `economy`, `premiumEconomy`, `business`, `first`|
 | tariffCodePattern  | String      |    Регулярное выражение, описывающее код тарифа |
+| priority  | Number      | Рекомендуемый авиакомпанией порядок отображения |
 | saleTimeSince  | String      |    Допустимая дата для продажи "От" (Формат ISO 8601) |
 | saleTimeUntil  | String      |    Допустимая дата для продажи "До" (Формат ISO 8601) |
 | flightTimeSince  | String      |    Допустимая дата вылета "От" (Формат ISO 8601) |
