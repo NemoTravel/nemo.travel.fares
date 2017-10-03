@@ -1,0 +1,318 @@
+[
+    {
+        "owner": "R3",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([BVTMU])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Тариф дня",
+                    "en": "Fare of the day"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат — более 40 минут до вылета",
+                    "en": "Refund - 40 min and more before flight departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета более чем за 40 минут до вылета разрешен со сборами",
+                    "en": "Refund permitted at 40 min and more before departure with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат — менее 40 минут до вылета после вылета",
+                    "en": "Refund - less than 40 min before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета менее чем за 40 минут до вылета не разрешен. Возврат билета после вылета не разрешен",
+                    "en": "Refund is not permitted less than 40 min before departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты — более 40 минут до вылета",
+                    "en": "Departure date change - at 40 min and more before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета более чем за 40 минут до вылета разрешено со сборами",
+                    "en": "Departure date change is permitted at 40 min and more before departure with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты — менее 40 минут до вылета и после вылета",
+                    "en": "Date change - less than 40 min before and after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета менее чем за 40 минут до вылета не разрешено. Изменение даты вылета после вылета не разрешено",
+                    "en": "Date change is not permitted less than 40 min before and after departure"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "R3",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^([XHYG])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом",
+                    "en": "Economy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат — до вылета",
+                    "en": "Refund - before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сборами",
+                    "en": "Refund before departure is permitted with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат — после вылета",
+                    "en": "Refund - after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со сборами",
+                    "en": "Refund after departure is permitted with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты — до вылета",
+                    "en": "Date change - before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета до вылета разрешено со сборами",
+                    "en": "Date change before departure is permitted with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты — после вылета",
+                    "en": "Date change - after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета после вылета разрешено со сборами",
+                    "en": "Date change after departure is permitted with penalty"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "R3",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "\\w*\\d*[JDC]\\w*\\d*",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат — до вылета",
+                    "en": "Refund - before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сборами",
+                    "en": "Refund before departure is permitted with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат — после вылета",
+                    "en": "Refund - after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со сборами",
+                    "en": "Refund after departure is permitted with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты — до вылета",
+                    "en": "Date change - before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета до вылета разрешено со сборами",
+                    "en": "Date change before departure is permitted with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты — после вылета",
+                    "en": "Date change - after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета после вылета разрешено со сборами",
+                    "en": "Date change after departure is permitted with penalty"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "R3",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^([SRLQ])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Пониженный тариф дня",
+                    "en": "Low fare of the day"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты — более 40 минут до вылета",
+                    "en": "Departure date change - at 40 min and more before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета более чем за 40 минут до вылета разрешено со сборами",
+                    "en": "Departure date change is permitted at 40 min and more before departure with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты — менее 40 минут до вылета и после вылета",
+                    "en": "Date change - less than 40 min before and after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета менее чем за 40 минут до вылета не разрешено. Изменение даты вылета после вылета не разрешено",
+                    "en": "Date change is not permitted less than 40 min before and after departure"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "R3",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^([E])\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Промо",
+                    "en": "Promo"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты — более 40 минут до вылета",
+                    "en": "Departure date change - at 40 min and more before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета более чем за 40 минут до вылета разрешено со сборами",
+                    "en": "Departure date change is permitted at 40 min and more before departure with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты — менее 40 минут до вылета, после вылета",
+                    "en": "Date change - less than 40 min before and after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета менее чем за 40 минут до вылета не разрешено. Изменение даты вылета после вылета не разрешено",
+                    "en": "Date change is not permitted less than 40 min before and after departure"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    }
+]
