@@ -3,7 +3,7 @@
         "owner": "R3",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([BVTMU])\\w*\\d*$",
+        "tariffCodePattern": "^([BVTMUG])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
@@ -32,7 +32,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат — менее 40 минут до вылета после вылета",
+                    "ru": "Возврат — менее 40 минут до вылета, после вылета",
                     "en": "Refund - less than 40 min before departure"
                 },
                 "fullDescription": {
@@ -56,7 +56,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение даты — менее 40 минут до вылета и после вылета",
+                    "ru": "Изменение даты — менее 40 минут до вылета, после вылета",
                     "en": "Date change - less than 40 min before and after departure"
                 },
                 "fullDescription": {
@@ -71,7 +71,7 @@
         "owner": "R3",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^([XHYG])\\w*\\d*$",
+        "tariffCodePattern": "^([XHY])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
@@ -248,7 +248,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение даты — менее 40 минут до вылета и после вылета",
+                    "ru": "Изменение даты — менее 40 минут до вылета, после вылета",
                     "en": "Date change - less than 40 min before and after departure"
                 },
                 "fullDescription": {

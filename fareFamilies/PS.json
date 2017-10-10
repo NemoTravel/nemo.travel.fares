@@ -39,6 +39,18 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Распечатка посадочных талонов",
+                    "en": "Check-in"
+                },
+                "fullDescription": {
+                    "ru": "Взимается плата за распечатку посадочных талонов в аэропорту на стойке регистрации",
+                    "en": "Boarding pass issuance fee applicable if issued at check-in desk only"
+                },
+                "needToPay": "charge"
             }
         ]
     },
@@ -80,6 +92,18 @@
                 "fullDescription": {
                     "ru": "",
                     "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Распечатка посадочных талонов",
+                    "en": "Check-in"
+                },
+                "fullDescription": {
+                    "ru": "Взимается плата за распечатку посадочных талонов в аэропорту на стойке регистрации",
+                    "en": "Boarding pass issuance fee applicable if issued at check-in desk only"
                 },
                 "needToPay": "charge"
             }

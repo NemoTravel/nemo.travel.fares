@@ -2,7 +2,7 @@
     {
         "owner": "AF",
         "baseClass": "business",
-        "tariffCodePattern": "^([JСDIZ])\\w*\\d*$",
+        "tariffCodePattern": "^([JСDIZO])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
@@ -81,7 +81,7 @@
     {
         "owner": "AF",
         "baseClass": "economy",
-        "tariffCodePattern": "^[YBMUKHLTQENRVXG]\\w*(FF|FAP|FFW)\\w*$",
+        "tariffCodePattern": "^[YPFWSABMUKHLTQENRVXG]\\w*(FF|FAP|FFW)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -160,7 +160,7 @@
     {
         "owner": "AF",
         "baseClass": "economy",
-        "tariffCodePattern": "^[YBMUKHLTWSAQENRVXG]\\w*(BAG0|BAGY)\\w*$",
+        "tariffCodePattern": "^[YPFWSABMUKHLTWSAQENRVXG]\\w*(BAG0|BAGY)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -239,7 +239,7 @@
     {
         "owner": "AF",
         "baseClass": "economy",
-        "tariffCodePattern": "^[YBMUKHLTQENRVXG]\\w*(WK|SR|WAP|SAP)\\w*[^9]$",
+        "tariffCodePattern": "^[YPFWSABMUKHLTQENRVXG]\\w*(WK|SR|WAP|SAP)\\w*[^9]$",
         "parameters": [
             {
                 "code": "description",
@@ -318,7 +318,7 @@
     {
         "owner": "AF",
         "baseClass": "economy",
-        "tariffCodePattern": "^[YBMUKHLTQENRVXG]\\w*(WK|RD|WAP|AR)\\w*9$",
+        "tariffCodePattern": "^[YPFWSABMUKHLTQENRVXG]\\w*(WK|RD|WAP|AR)\\w*9$",
         "parameters": [
             {
                 "code": "description",
