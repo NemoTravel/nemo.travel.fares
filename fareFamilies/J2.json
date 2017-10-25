@@ -208,121 +208,6 @@
     {
         "owner": "J2",
         "baseClass": "business",
-        "tariffCodePattern": "^[WC]((?!BA|BB).)*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Комфорт",
-                    "en": "Comfort"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "2 сумки до 10 кг каждая",
-                    "en": "2 items up to 10 kg each"
-                },
-                "fullDescription": {
-                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (2 сумки до 10 кг каждая)",
-                    "en": "2 items up to 10 kg each. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
-                },
-                "fullDescription": {
-                    "ru": "Для рейсов AZAL — 2 сумки до 32 кг каждая. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
-                    "en": "In case of AZAL flight — 2 items up to 32 kg each. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен без штрафов",
-                    "en": "Refundable before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета после вылета",
-                    "en": "Refund After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета после вылета разрешен со штрафом",
-                    "en": "Refundable after departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Перебронирование до вылета",
-                    "en": "Rebooking Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Перебронирование до вылета разрешено без штрафов",
-                    "en": "Rebooking before departure — available. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Перебронирование после вылета",
-                    "en": "Rebooking After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Перебронирование после вылета разрешено со штрафом",
-                    "en": "Rebooking after departure — available. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Выписка «с открытой датой»",
-                    "en": "«Open Date» Ticket"
-                },
-                "fullDescription": {
-                    "ru": "Выписка «с открытой датой» разрешается",
-                    "en": "«Open date» ticket — allowed"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в зал ожидания Бизнес Класса",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "J2",
-        "baseClass": "business",
         "tariffCodePattern": "^[D]((?!BA|BB).)*$",
         "parameters": [
             {
@@ -1263,6 +1148,509 @@
                     "en": "Seat selection — available at extra charge"
                 },
                 "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "business",
+        "tariffCodePattern": "^[W]((?!BA|BB).)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфорт Клуб",
+                    "en": "Comfort Club"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки до 10 кг каждая",
+                    "en": "2 items up to 10 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (2 сумки до 10 кг каждая)",
+                    "en": "2 items up to 10 kg each. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Для рейсов AZAL — 2 сумки до 32 кг каждая. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
+                    "en": "In case of AZAL flight — 2 items up to 32 kg each. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен без штрафов",
+                    "en": "Refundable before departure. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со штрафом",
+                    "en": "Refundable after departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": "Rebooking Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено без штрафов",
+                    "en": "Rebooking before departure — available. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": "Rebooking After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета разрешено со штрафом",
+                    "en": "Rebooking after departure — available. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Выписка «с открытой датой»",
+                    "en": "«Open Date» Ticket"
+                },
+                "fullDescription": {
+                    "ru": "Выписка «с открытой датой» разрешается",
+                    "en": "«Open date» ticket — allowed"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания Бизнес Класса",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "economy",
+        "tariffCodePattern": "^[C]((?!BA|BB).)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Премиум",
+                    "en": "Business Premium"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки до 10 кг каждая",
+                    "en": "2 items up to 10 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (2 сумки до 10 кг каждая)",
+                    "en": "2 items up to 10 kg each. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Для рейсов AZAL — 2 сумки до 32 кг каждая. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
+                    "en": "In case of AZAL flight — 2 items up to 32 kg each. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен без штрафов",
+                    "en": "Refundable before departure. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со штрафом",
+                    "en": "Refundable after departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": "Rebooking Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено без штрафов",
+                    "en": "Rebooking before departure — available. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": "Rebooking After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета разрешено со штрафом",
+                    "en": "Rebooking after departure — available. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Выписка «с открытой датой»",
+                    "en": "«Open Date» Ticket"
+                },
+                "fullDescription": {
+                    "ru": "Выписка «с открытой датой» разрешается",
+                    "en": "«Open date» ticket — allowed"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания Бизнес Класса",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "economy",
+        "tariffCodePattern": "^[QU]((?!BA|BB).)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Трансфер Стандарт",
+                    "en": "Transfer Standart"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг)",
+                    "en": "1 item up to 10 kg. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Для рейсов AZAL — 1 сумка до 23 кг. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
+                    "en": "In case of AZAL flight — 1 item up to 23 kg. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со штрафом",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со штрафом",
+                    "en": "Refundable after departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": "Rebooking Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено со штрафом",
+                    "en": "Rebooking before departure — available. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": "Rebooking After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета разрешено со штрафом",
+                    "en": "Rebooking after departure — available. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Стоповер",
+                    "en": "Stopover"
+                },
+                "fullDescription": {
+                    "ru": "Остановка в пути (stopover) разрешается",
+                    "en": "Stopover on the route — available"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "economy",
+        "tariffCodePattern": "^[GV]((?!BA|BB).)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Трансфер Cпециальный",
+                    "en": "Transfer Special"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг)",
+                    "en": "1 item up to 10 kg. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Для рейсов AZAL — 1 сумка до 23 кг. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
+                    "en": "In case of AZAL flight — 1 item up to 23 kg. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со штрафом",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета не разрешен",
+                    "en": "Non-refundable after departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": "Rebooking Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено со штрафом",
+                    "en": "Rebooking before departure — available. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": "Rebooking After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета разрешено со штрафом",
+                    "en": "Rebooking before departure — available. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Стоповер",
+                    "en": "Stopover"
+                },
+                "fullDescription": {
+                    "ru": "Остановка в пути (stopover) разрешается",
+                    "en": "Stopover on the route — available"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "economy",
+        "tariffCodePattern": "^[Х]((?!BA|BB).)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Трансфер Акция",
+                    "en": "Transfer Promotion"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг)",
+                    "en": "1 item up to 10 kg. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Для рейсов AZAL — 1 сумка до 23 кг. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
+                    "en": "In case of AZAL flight — 1 item up to 23 kg. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование не разрешено",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     }

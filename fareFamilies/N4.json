@@ -4,7 +4,7 @@
         "baseClass": "business",
         "flightTimeSince": "2017-10-29T00:00:00",
         "flightTimeUntil": "2021-10-13T00:00:00",
-        "tariffCodePattern": "^([CSDWZ](PR))\\w*$",
+        "tariffCodePattern": "^([CSDWZ](OP))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -21,8 +21,8 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 сумки до 5 кг",
-                    "en": "2 items up to 5 kg"
+                    "ru": "2 места до 5 кг каждое",
+                    "en": "2 items up to 5 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -33,8 +33,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 20 кг",
-                    "en": "2 items up to 20 kg"
+                    "ru": "2 места до 20 кг каждое",
+                    "en": "2 items up to 20 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -49,8 +49,8 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -69,12 +69,12 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета в случае NO-SHOW",
+                    "ru": "Обмен билета NO-SHOW",
                     "en": "Exchange NO-SHOW"
                 },
                 "fullDescription": {
-                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса - разрешено со сбором за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
-                    "en": "Fee applies"
+                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса разрешено со сбором за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
+                    "en": "Exchangeable in case of NO-SHOW. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -85,8 +85,20 @@
                     "en": "Meals"
                 },
                 "fullDescription": {
-                    "ru": "Питание по стандарту бизнес класса",
-                    "en": "Meals according to the business class standard"
+                    "ru": "Питание предоставляется бесплатно на рейсах любой продолжительности.Заказ дополнительного  питания платно",
+                    "en": "Meals according to the business class standard. Additional meals available at extra charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного вылета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного вылета разрешена",
+                    "en": "Open return date is available"
                 },
                 "needToPay": "free"
             }
@@ -114,8 +126,8 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 сумки до 5 кг",
-                    "en": "2 items up to 5 kg"
+                    "ru": "2 места до 5 кг каждое",
+                    "en": "2 items up to 5 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -126,7 +138,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 20 кг",
+                    "ru": "1 место до 20 кг",
                     "en": "1 item up to 20 kg"
                 },
                 "fullDescription": {
@@ -154,8 +166,8 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса - разрешено со сбором за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
-                    "en": "Exchangeable before departure. A fee applies"
+                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса разрешено со сбором за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
+                    "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -166,8 +178,8 @@
                     "en": "Meals"
                 },
                 "fullDescription": {
-                    "ru": "Питание по стандарту бизнес класса",
-                    "en": "Meals according to the business class standard"
+                    "ru": "Питание предоставляется бесплатно на рейсах любой продолжительности. Заказ дополнительного питания платно",
+                    "en": "Meals according to the business class standard. Additional meals available at extra charge"
                 },
                 "needToPay": "free"
             }
@@ -195,7 +207,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 5 кг",
+                    "ru": "1 место до 5 кг",
                     "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
@@ -207,7 +219,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 20 кг",
+                    "ru": "1 место до 20 кг",
                     "en": "1 item up to 20 kg"
                 },
                 "fullDescription": {
@@ -223,8 +235,8 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен со сборами",
-                    "en": "Refundable before departure. A fee applies"
+                    "ru": "Полностью неиспользованный билет: возврат оплаченного тарифа разрешен с удержанием сбора за каждый участок маршрута. Частично использованный билет: возврат разницы между оплаченным тарифом и тарифом использованного участка маршрута перевозки разрешен с удержанием сбора за каждый участок маршрута",
+                    "en": "Refundable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -235,8 +247,8 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса - разрешено со сбором за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
-                    "en": "Exchangeable before departure. A fee applies"
+                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса разрешено со сбором за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
+                    "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -247,8 +259,8 @@
                     "en": "Meals"
                 },
                 "fullDescription": {
-                    "ru": "На рейсах продолжительностью менее 3ч - не предоставляется. Выбор питания платно",
-                    "en": ""
+                    "ru": "На рейсах продолжительностью менее 3 часов питание не предоставляется. Выбор питания платно",
+                    "en": "Meals on board are available at extra charge (for flights over 3 hours long)"
                 },
                 "needToPay": "charge"
             }
@@ -276,7 +288,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 5 кг",
+                    "ru": "1 место до 5 кг",
                     "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
@@ -292,7 +304,7 @@
                     "en": "No free baggage allowance"
                 },
                 "fullDescription": {
-                    "ru": "",
+                    "ru": "Бесплатная норма провоза багажа не предоставляется",
                     "en": ""
                 },
                 "needToPay": "charge"
@@ -316,7 +328,7 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса - разрешено со сбором  за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
+                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса разрешено со сбором  за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
                     "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
@@ -328,10 +340,355 @@
                     "en": "Meals"
                 },
                 "fullDescription": {
-                    "ru": "На рейсах продолжительностью менее 3ч - не предоставляется. Выбор питания платно",
-                    "en": ""
+                    "ru": "На рейсах продолжительностью менее 3 часов питание не предоставляется. Выбор питания платно",
+                    "en": "Meals on board are available at extra charge (for flights over 3 hours long)"
                 },
                 "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "N4",
+        "baseClass": "business",
+        "flightTimeSince": "2010-10-18T00:00:00",
+        "flightTimeUntil": "2017-10-29T00:00:00",
+        "tariffCodePattern": "^[CDZ]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг — для внутренних воздушных линий по РФ. 1 место до 5 кг — для международных воздушных линий",
+                    "en": "1 item up to 10 kg — in case of an internal (Russian Federation) flight. 1 item up to 5 kg — in case of an international flight"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 32 кг",
+                    "en": "1 item up to 32 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сборами",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается до отправления воздушного судна",
+                    "en": "Exchangeable before departure"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "N4",
+        "baseClass": "premiumEconomy",
+        "flightTimeSince": "2010-10-18T00:00:00",
+        "flightTimeUntil": "2017-10-29T00:00:00",
+        "tariffCodePattern": "^[SW]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфорт",
+                    "en": "Comfort"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг — для внутренних воздушных линий по РФ. 1 место до 5 кг — для международных воздушных линий",
+                    "en": "1 item up to 10 kg — in case of an internal (Russian Federation) flight. 1 item up to 5 kg — in case of an international flight"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 32 кг",
+                    "en": "1 item up to 32 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается до отправления воздушного судна. Сбор не взимается",
+                    "en": "Exchangeable before departure. No fee applies. Name changes — available at extra charge"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "N4",
+        "baseClass": "economy",
+        "flightTimeSince": "2010-10-18T00:00:00",
+        "flightTimeUntil": "2017-10-29T00:00:00",
+        "tariffCodePattern": "^[EOPR]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Промо",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг — для внутренних воздушных линий по РФ. 1 место до 5 кг — для международных воздушных линий",
+                    "en": "1 item up to 10 kg — in case of an internal (Russian Federation) flight. 1 item up to 5 kg — in case of an international flight"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг — для внутренних воздушных линий по РФ. 1 место до 23 кг — для международных воздушных линий",
+                    "en": "1 item up to 10 kg — in case of an internal (Russian Federation) flight. 1 item up to 23 kg — in case of an international flight"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается за 7 суток и более до отправления воздушного судна. Взимается сбор",
+                    "en": "Exchangeable for 7 days or upwards before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "N4",
+        "baseClass": "economy",
+        "flightTimeSince": "2010-10-18T00:00:00",
+        "flightTimeUntil": "2017-10-29T00:00:00",
+        "tariffCodePattern": "^[LMNHQТVX]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Стандарт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг — для внутренних воздушных линий по РФ. 1 место до 5 кг — для международных воздушных линий",
+                    "en": "1 item up to 10 kg — in case of an internal (Russian Federation) flight. 1 item up to 5 kg — in case of an international flight"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 20 кг — для внутренних воздушных линий по РФ. 1 место до 23 кг — для международных воздушных линий",
+                    "en": "1 item up to 20 kg — in case of an internal (Russian Federation) flight. 1 item up to 23 kg — in case of an international flight"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сборами",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается до отправления воздушного судна. Взимается сбор",
+                    "en": "Exchangeable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "N4",
+        "baseClass": "economy",
+        "flightTimeSince": "2010-10-18T00:00:00",
+        "flightTimeUntil": "2017-10-29T00:00:00",
+        "tariffCodePattern": "^[KY]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Стандарт ПЛЮС",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг — для внутренних воздушных линий по РФ. 1 место до 5 кг — для международных воздушных линий",
+                    "en": "1 item up to 10 kg — in case of an internal (Russian Federation) flight. 1 item up to 5 kg — in case of an international flight"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 20 кг — для внутренних воздушных линий по РФ. 1 место до 23 кг — для международных воздушных линий",
+                    "en": "1 item up to 20 kg — in case of an internal (Russian Federation) flight. 1 item up to 23 kg — in case of an international flight"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение условий договора перевозки разрешается без сборов до отправления воздушного судна. Обмен билета после отправления воздушного судна не разрешается",
+                    "en": "Exchangeable before departure. No fee applies"
+                },
+                "needToPay": "free"
             }
         ]
     }
