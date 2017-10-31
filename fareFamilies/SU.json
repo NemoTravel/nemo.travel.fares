@@ -20,7 +20,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 10 кг",
+                    "ru": "1 место не более 10 кг",
                     "en": "1 item up to 10 kg",
                     "de": "1 Beutel bis 10 kg"
                 },
@@ -33,7 +33,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 23 кг каждая",
+                    "ru": "2 места не более 23 кг каждое",
                     "en": "2 items up to 23 kg each",
                     "de": "2 Beutel bis 23 kg"
                 },
@@ -232,7 +232,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 10 кг",
+                    "ru": "1 место не более 10 кг",
                     "en": "1 item up to 10 kg",
                     "de": "1 Beutel bis 10 kg"
                 },
@@ -258,7 +258,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
+                    "ru": "1 место не более 23 кг",
                     "en": "1 item up to 23 kg",
                     "de": "1 Beutel bis 23 kg"
                 },
@@ -445,7 +445,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 10 кг",
+                    "ru": "1 место не более 10 кг",
                     "en": "1 item up to 10 kg",
                     "de": "1 Beutel bis 10 kg"
                 },
@@ -458,7 +458,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
+                    "ru": "1 место не более 23 кг",
                     "en": "1 item up to 23 kg",
                     "de": "1 Beutel bis 23 kg"
                 },
@@ -658,7 +658,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 10 кг",
+                    "ru": "1 место не более 10 кг",
                     "en": "1 item up to 10 kg",
                     "de": "1 Beutel bis 10 kg"
                 },
@@ -698,7 +698,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
+                    "ru": "1 место не более 23 кг",
                     "en": "1 item up to 23 kg",
                     "de": "1 Beutel bis 23 kg"
                 },
@@ -884,7 +884,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 15 кг",
+                    "ru": "1 место не более 15 кг",
                     "en": "1 item up to 15 kg",
                     "de": "1 Beutel bis 15 kg"
                 },
@@ -897,7 +897,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
+                    "ru": "2 места не более 32 кг каждое",
                     "en": "2 items up to 32 kg each",
                     "de": "2 Beutel bis 32 kg"
                 },
@@ -1063,7 +1063,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 15 кг",
+                    "ru": "1 место не более 15 кг",
                     "en": "1 item up to 15 kg",
                     "de": "1 Beutel bis 15 kg"
                 },
@@ -1076,7 +1076,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
+                    "ru": "2 места не более 32 кг каждое",
                     "en": "2 items up to 32 kg each",
                     "de": "2 Beutel bis 32 kg"
                 },
@@ -1243,7 +1243,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 10 кг",
+                    "ru": "1 место не более 10 кг",
                     "en": "1 item up to 10 kg",
                     "de": "1 Beutel bis 10 kg"
                 },
@@ -1256,7 +1256,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 23 кг каждая",
+                    "ru": "2 места не более 23 кг каждое",
                     "en": "2 items up to 23 kg each",
                     "de": "2 Beutel bis 23 kg"
                 },
@@ -1438,7 +1438,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 10 кг",
+                    "ru": "1 место не более 10 кг",
                     "en": "1 item up to 10 kg",
                     "de": "1 Beutel bis 10 kg"
                 },
@@ -1451,7 +1451,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 23 кг каждая",
+                    "ru": "2 места не более 23 кг каждое",
                     "en": "2 items up to 23 kg each",
                     "de": "2 Beutel bis 23 kg"
                 },

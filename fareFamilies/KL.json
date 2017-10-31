@@ -318,7 +318,7 @@
     {
         "owner": "KL",
         "baseClass": "economy",
-        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(7WK|7WKW|SR)\\w*[^6]$",
+        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(7WK|7WKW)\\w*[^6]$",
         "parameters": [
             {
                 "code": "description",
