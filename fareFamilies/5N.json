@@ -2,7 +2,7 @@
     {
         "owner": "5N",
         "baseClass": "economy",
-        "tariffCodePattern": "^([ROJP])\\w*\\d*$",
+        "tariffCodePattern": "^([ROJP])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -105,7 +105,7 @@
     {
         "owner": "5N",
         "baseClass": "economy",
-        "tariffCodePattern": "^([KQVTW])\\w*\\d*$",
+        "tariffCodePattern": "^([KQVTW])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -232,7 +232,7 @@
     {
         "owner": "5N",
         "baseClass": "economy",
-        "tariffCodePattern": "^([EHLNA])\\w*\\d*$",
+        "tariffCodePattern": "^([EHLNA])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -359,7 +359,7 @@
     {
         "owner": "5N",
         "baseClass": "economy",
-        "tariffCodePattern": "^([X])\\w*\\d*$",
+        "tariffCodePattern": "^([X])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -438,7 +438,7 @@
     {
         "owner": "5N",
         "baseClass": "economy",
-        "tariffCodePattern": "^([YISM])\\w*\\d*$",
+        "tariffCodePattern": "^([YISM])\\w*$",
         "parameters": [
             {
                 "code": "description",
