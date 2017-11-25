@@ -214,7 +214,7 @@
     {
         "owner": "SU",
         "baseClass": "economy",
-        "tariffCodePattern": "^([YBMUKHLQTEN](CL|CO))\\w*\\d*$",
+        "tariffCodePattern": "^([YBMUKHLQTEN](CL|CO|FL|FX))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
