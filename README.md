@@ -1,3 +1,7 @@
+<p align="center">
+    <img width="200" src="http://mjolnir.com.ua/kcfinder/upload/images/logo.jpg">
+</p>
+
 # Fare Families
  
 В директории fareFamilies содержится информация о семействах тарифов авиакомпаний с описаниями тарифных опций.
