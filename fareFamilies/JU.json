@@ -1,0 +1,287 @@
+[
+    {
+        "owner": "JU",
+        "baseClass": "economy",
+        "saleTimeSince": "2018-02-01T00:00:00",
+        "saleTimeUntil": "2028-02-01T00:00:00",
+        "flightTimeSince": "2018-03-01T00:00:00",
+        "flightTimeUntil": "2028-03-01T00:00:00",
+        "tariffCodePattern": "^[YBHKMQLVUET]\\w*(CS)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Синий",
+                    "en": "Economy Blue"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "Ручная кладь — до 8 кг. Все гости имеют право взять 1 дополнительную единицу ручной клади с предметами личного пользования — до 4 кг",
+                    "en": "Hand baggage — up to 8 kg. Additional item of your choice — up to 4 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сбором",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация, посадка и выдача багажа",
+                    "en": "Priority Check-in, Baggage and Boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная регистрация, посадка и выдача багажа доступны за дополнительную плату",
+                    "en": "Priority check-in, baggage and boarding — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания — за дополнительную плату",
+                    "en": "Lounge access — available at extra cherge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "JU",
+        "baseClass": "economy",
+        "saleTimeSince": "2018-02-01T00:00:00",
+        "saleTimeUntil": "2028-02-01T00:00:00",
+        "flightTimeSince": "2018-03-01T00:00:00",
+        "flightTimeUntil": "2028-03-01T00:00:00",
+        "tariffCodePattern": "^[YBHKMQLVU]\\w*(FX)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Красный",
+                    "en": "Economy Red"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "Ручная кладь — до 8 кг. Все гости имеют право взять 1 дополнительную единицу ручной клади с предметами личного пользования — до 4 кг",
+                    "en": "Hand baggage — up to 8 kg. Additional item of your choice — up to 4 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация, посадка и выдача багажа",
+                    "en": "Priority Check-in, Baggage and Boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная регистрация, посадка и выдача багажа доступны за дополнительную плату",
+                    "en": "Priority check-in, baggage and boarding — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания — за дополнительную плату",
+                    "en": "Lounge access — available at extra cherge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "JU",
+        "baseClass": "business",
+        "saleTimeSince": "2018-02-01T00:00:00",
+        "saleTimeUntil": "2028-02-01T00:00:00",
+        "flightTimeSince": "2018-03-01T00:00:00",
+        "flightTimeUntil": "2028-03-01T00:00:00",
+        "tariffCodePattern": "^[JCDW]\\w*(FX)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Серебро",
+                    "en": "Business Silver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 8 кг каждое",
+                    "en": "2 items up to 8 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Ручная кладь — 2 места до 8 кг каждое. Все гости имеют право взять 1 дополнительную единицу ручной клади с предметами личного пользования — до 4 кг",
+                    "en": "Hand baggage — 2 items up to 8 kg each. Additional item of your choice — up to 4 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация, посадка и выдача багажа",
+                    "en": "Priority Check-in, Baggage and Boarding"
+                },
+                "fullDescription": {
+                    "ru": "Доступны приоритетная регистрация, посадка и выдача багажа",
+                    "en": "Priority check-in, baggage and boarding — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]
