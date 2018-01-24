@@ -2,6 +2,7 @@
     {
         "owner": "7R",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^([KSBH])\\w*\\d*$",
         "parameters": [
             {
@@ -79,7 +80,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат после вылета недоступен",
+                    "ru": "Возврат после вылета",
                     "en": "Refund After Departure"
                 },
                 "fullDescription": {
@@ -93,7 +94,8 @@
     {
         "owner": "7R",
         "baseClass": "economy",
-        "tariffCodePattern": "^[AOGUELXVTNMQ]\\w*\\d*$",
+        "priority": 2,
+        "tariffCodePattern": "^(?!EOW).*^[AOGUELXVTNMQ]\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -172,6 +174,7 @@
     {
         "owner": "7R",
         "baseClass": "economy",
+        "priority": 4,
         "tariffCodePattern": "^([Y])\\w*\\d*$",
         "parameters": [
             {
@@ -263,6 +266,7 @@
     {
         "owner": "7R",
         "baseClass": "business",
+        "priority": 5,
         "tariffCodePattern": "^([ZJ])\\w*\\d*$",
         "parameters": [
             {
@@ -372,6 +376,99 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "7R",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^(EOW)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный",
+                    "en": "Special",
+                    "de": "Speziell"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг (55x40x20 см)",
+                    "en": "1 item up to 5 (55x40x20 cm)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Нет",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "В данный тариф багаж не включен",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Exchange Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения более чем за 24 часа до вылета производятся за дополнительную плату",
+                    "en": "Exchangeable for 24 hours or upwards before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Exchange After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения менее чем за 24 часа до вылета недоступны",
+                    "en": "Non-exchangeable less than 24 hours before the departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат до вылета",
+                    "en": "Refund Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат более чем за 24 часа до вылета производятся за дополнительную плату",
+                    "en": "Refundable for 24 hours or upwards before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после вылета",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после вылета недоступен",
+                    "en": "Non-refundable less than 24 hours before the departure"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     }
