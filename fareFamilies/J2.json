@@ -1001,26 +1001,74 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен со штрафом, после вылета — не разрешен",
-                    "en": "Refundable before departure — a fee applies. Non-refundable after departure"
+                    "ru": "Возврат билета до вылета разрешен со штрафом",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета не разрешен",
+                    "en": "Non-refundable after departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": "Rebooking Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование (изменение даты) до вылета разрешено со штрафом",
+                    "en": "Rebooking (date changes) before departure is available. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Перелет выполняется авиакомпанией Buta Airways",
+                    "en": "Flight services provided by Buta Airways"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Регистрация на рейс в аэропорту и выбор места в самолете",
+                    "en": "Check-in at the airport and seat selection on the plane"
+                },
+                "fullDescription": {
+                    "ru": "Будучи низкобюджетной авиакомпанией, Buta Airways предлагает ряд услуг только за дополнительную плату, включая регистрацию на рейс в аэропорту и выбор места в самолете. Вы можете бесплатно зарегистрироваться на сайте авиакомпании, а также на стойках самостоятельной регистрации (доступно в Международном аэропорту Гейдар Алиев, Баку)",
+                    "en": "Being a low-cost airline, Buta Airways offers a range of services only for an additional fee, including check-in at the airport and seat selection on the plane. You can check-in on the airline's website free of charge, as well as at the self check-in kiosks (available at Baku Heydar Aliyev International Airport)"
                 },
                 "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Перебронирование",
-                    "en": "Rebooking"
+                    "ru": "Перебронирование после вылета",
+                    "en": "Rebooking After Departure"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование (изменение даты) до вылета разрешено со штрафом, после вылета — не разрешено",
-                    "en": "Rebooking (date changes) before departure is available, a fee applies. Rebooking after departure is not permitted"
+                    "ru": "Перебронирование (изменение даты) после вылета не разрешено",
+                    "en": "Rebooking after departure is not permitted"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             }
         ]
     }
