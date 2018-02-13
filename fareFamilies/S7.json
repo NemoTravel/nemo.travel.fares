@@ -2,6 +2,7 @@
     {
         "owner": "S7",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^(\\w*\\d*(FL))\\w*\\d*$",
         "parameters": [
             {
@@ -117,6 +118,7 @@
     {
         "owner": "S7",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^(\\w*\\d*(BS))\\w*\\d*$",
         "parameters": [
             {
@@ -229,6 +231,7 @@
     {
         "owner": "S7",
         "baseClass": "business",
+        "priority": 4,
         "tariffCodePattern": "^(\\w*\\d*(FL))\\w*\\d*$",
         "parameters": [
             {
@@ -355,6 +358,7 @@
     {
         "owner": "S7",
         "baseClass": "business",
+        "priority": 3,
         "tariffCodePattern": "^(\\w*\\d*(BS))\\w*\\d*$",
         "parameters": [
             {

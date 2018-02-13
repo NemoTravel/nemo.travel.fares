@@ -2,6 +2,7 @@
     {
         "owner": "SU",
         "baseClass": "economy",
+        "priority": 4,
         "tariffCodePattern": "^([YBMUKHLQTEN](FM|FO))\\w*\\d*$",
         "parameters": [
             {
@@ -214,6 +215,7 @@
     {
         "owner": "SU",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^([YBMUKHLQTEN](CL|CO|FL|FX))\\w*$",
         "parameters": [
             {
@@ -427,6 +429,7 @@
     {
         "owner": "SU",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^([YBMUKHLQTEN](VU|VO))\\w*\\d*$",
         "parameters": [
             {
@@ -640,6 +643,7 @@
     {
         "owner": "SU",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^([R])\\w*\\d*$",
         "parameters": [
             {
@@ -853,6 +857,7 @@
     {
         "owner": "SU",
         "baseClass": "business",
+        "priority": 8,
         "tariffCodePattern": "^([JCDIZ](FM|FO))\\w*\\d*$",
         "parameters": [
             {
@@ -1032,6 +1037,7 @@
     {
         "owner": "SU",
         "baseClass": "business",
+        "priority": 7,
         "tariffCodePattern": "^([JCDIZ](CL|CO))\\w*\\d*$",
         "parameters": [
             {
@@ -1212,6 +1218,7 @@
     {
         "owner": "SU",
         "baseClass": "premiumEconomy",
+        "priority": 6,
         "tariffCodePattern": "^([WSA](FM|FO))\\w*\\d*$",
         "parameters": [
             {
@@ -1407,6 +1414,7 @@
     {
         "owner": "SU",
         "baseClass": "premiumEconomy",
+        "priority": 5,
         "tariffCodePattern": "^([WSA](CL|CO))\\w*\\d*$",
         "parameters": [
             {
