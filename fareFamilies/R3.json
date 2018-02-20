@@ -3,7 +3,7 @@
         "owner": "R3",
         "baseClass": "business",
         "priority": 6,
-        "tariffCodePattern": "^[EJDC]((?!BB|SBPOW|OWJ).)*$",
+        "tariffCodePattern": "^([JDC](SB))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -24,7 +24,7 @@
                     "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
+                    "ru": "Ручная кладь - 1 место до 10 кг",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -140,7 +140,7 @@
                     "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
+                    "ru": "Ручная кладь",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -256,7 +256,7 @@
                     "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
+                    "ru": "Ручная кладь - 1 место до 10 кг",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -372,7 +372,7 @@
                     "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
+                    "ru": "Ручная кладь - 1 место до 10 кг",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -488,7 +488,7 @@
                     "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
+                    "ru": "Ручная кладь - 1 место до 10 кг",
                     "en": ""
                 },
                 "needToPay": "free"
@@ -604,7 +604,7 @@
                     "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
+                    "ru": "Ручная кладь - 1 место до 10 кг",
                     "en": ""
                 },
                 "needToPay": "free"
