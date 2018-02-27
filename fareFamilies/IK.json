@@ -4,7 +4,7 @@
         "baseClass": "economy",
         "flightTimeSince": "2017-10-29T00:00:00",
         "flightTimeUntil": "2021-01-17T00:00:00",
-        "tariffCodePattern": "^([AGYKLMNBHQTVXOPRE](PR))\\w*$",
+        "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI](PR))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -73,7 +73,7 @@
         "baseClass": "economy",
         "flightTimeSince": "2017-10-29T00:00:00",
         "flightTimeUntil": "2021-10-13T00:00:00",
-        "tariffCodePattern": "^([YKLMNBHQTVXOPRE](OP))\\w*$",
+        "tariffCodePattern": "^([YKLMNBHQTVXOPREI](OP))\\w*$",
         "parameters": [
             {
                 "code": "description",
