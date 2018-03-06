@@ -2,6 +2,7 @@
     {
         "owner": "LA",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^(\\w*\\d*(SE))\\w*\\d*$",
         "parameters": [
             {
@@ -81,6 +82,7 @@
     {
         "owner": "LA",
         "baseClass": "economy",
+        "priority": 4,
         "tariffCodePattern": "^(\\w*\\d*(SF))\\w*\\d*$",
         "parameters": [
             {
@@ -160,6 +162,7 @@
     {
         "owner": "LA",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^(\\w*\\d*(SL))\\w*\\d*$",
         "parameters": [
             {
@@ -239,6 +242,7 @@
     {
         "owner": "LA",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^(\\w*\\d*(SN))\\w*\\d*$",
         "parameters": [
             {

@@ -2,6 +2,7 @@
     {
         "owner": "5F",
         "baseClass": "economy",
+        "priority": 6,
         "saleTimeSince": "2017-12-27T00:00:00",
         "saleTimeUntil": "2018-03-25T00:00:00",
         "flightTimeSince": "2017-12-27T00:00:00",
@@ -121,6 +122,7 @@
     {
         "owner": "5F",
         "baseClass": "economy",
+        "priority": 5,
         "saleTimeSince": "2017-12-27T00:00:00",
         "saleTimeUntil": "2020-03-04T00:00:00",
         "flightTimeSince": "2018-03-25T00:00:00",
@@ -242,6 +244,7 @@
     {
         "owner": "5F",
         "baseClass": "economy",
+        "priority": 4,
         "saleTimeSince": "2017-12-27T00:00:00",
         "saleTimeUntil": "2018-03-25T00:00:00",
         "flightTimeSince": "2017-12-27T00:00:00",
@@ -361,6 +364,7 @@
     {
         "owner": "5F",
         "baseClass": "economy",
+        "priority": 3,
         "saleTimeSince": "2017-12-27T00:00:00",
         "saleTimeUntil": "2020-07-18T00:00:00",
         "flightTimeSince": "2018-03-25T00:00:00",
@@ -482,6 +486,7 @@
     {
         "owner": "5F",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^[P]\\w*$",
         "parameters": [
             {
@@ -584,6 +589,7 @@
     {
         "owner": "5F",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^[OXVTQN]\\w*$",
         "parameters": [
             {

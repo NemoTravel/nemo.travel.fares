@@ -2,6 +2,7 @@
     {
         "owner": "6R",
         "baseClass": "business",
+        "priority": 5,
         "tariffCodePattern": "^([C])\\w*\\d*$",
         "parameters": [
             {
@@ -153,6 +154,7 @@
     {
         "owner": "6R",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^([OEUG])\\w*\\d*$",
         "parameters": [
             {
@@ -256,6 +258,7 @@
     {
         "owner": "6R",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^([VTNMLKHB])\\w*\\d*$",
         "parameters": [
             {
@@ -383,6 +386,7 @@
     {
         "owner": "6R",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^([Y])\\w*\\d*$",
         "parameters": [
             {
@@ -510,6 +514,7 @@
     {
         "owner": "6R",
         "baseClass": "economy",
+        "priority": 4,
         "tariffCodePattern": "^([SW])\\w*\\d*$",
         "parameters": [
             {

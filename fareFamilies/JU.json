@@ -2,10 +2,7 @@
     {
         "owner": "JU",
         "baseClass": "economy",
-        "saleTimeSince": "2018-02-01T00:00:00",
-        "saleTimeUntil": "2028-02-01T00:00:00",
-        "flightTimeSince": "2018-03-01T00:00:00",
-        "flightTimeUntil": "2028-03-01T00:00:00",
+        "priority": 1,
         "tariffCodePattern": "^[YBHKMQLVUET]\\w*(CS)$",
         "parameters": [
             {
@@ -97,10 +94,7 @@
     {
         "owner": "JU",
         "baseClass": "economy",
-        "saleTimeSince": "2018-02-01T00:00:00",
-        "saleTimeUntil": "2028-02-01T00:00:00",
-        "flightTimeSince": "2018-03-01T00:00:00",
-        "flightTimeUntil": "2028-03-01T00:00:00",
+        "priority": 2,
         "tariffCodePattern": "^[YBHKMQLVU]\\w*(FX)$",
         "parameters": [
             {
@@ -192,10 +186,7 @@
     {
         "owner": "JU",
         "baseClass": "business",
-        "saleTimeSince": "2018-02-01T00:00:00",
-        "saleTimeUntil": "2028-02-01T00:00:00",
-        "flightTimeSince": "2018-03-01T00:00:00",
-        "flightTimeUntil": "2028-03-01T00:00:00",
+        "priority": 3,
         "tariffCodePattern": "^[JCDW]\\w*(FX)$",
         "parameters": [
             {

@@ -134,11 +134,11 @@
                     "de": "Vorwahl der Standardsitze in der Kabine"
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
+                    "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется только после оформления авиабилета путем выбора мест через сервис онлайн-услуг (проверить бронирование)",
                     "en": "Advance basic seat reservation in the aircraft cabin is provided free of charge only for participants of the FFP program Elite and Elite Plus (Silver, Gold, Platinum)",
                     "de": "Die Vorwahl der Standardsitze in der Flugzeugkabine erfolgt nur für Teilnehmer des FFP-Programms Elite und Elite Plus (Silber, Gold, Platin) kostenlos"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
             },
             {
                 "code": "vipService",
@@ -348,11 +348,11 @@
                     "de": "Vorwahl der Standardsitze in der Kabine"
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
+                    "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется только после оформления авиабилета путем выбора мест через сервис онлайн-услуг (проверить бронирование)",
                     "en": "Advance basic seat reservation in the aircraft cabin is provided free of charge only for members of the FFP program Elite and Elite Plus (Silver, Gold, Platinum)",
                     "de": "Die Vorwahl der Standardsitze in der Flugzeugkabine erfolgt nur für Teilnehmer des FFP-Programms Elite und Elite Plus (Silber, Gold, Platin) kostenlos"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
             },
             {
                 "code": "vipService",

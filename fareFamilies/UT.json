@@ -2,6 +2,7 @@
     {
         "owner": "UT",
         "baseClass": "business",
+        "priority": 4,
         "perTicketRefundPenalty": "2000RUB",
         "perTicketExchangePenalty": "1000RUB",
         "tariffCodePattern": "^([ADCJ](FLEX))\\w*$",
@@ -28,7 +29,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Hand luggage - 2 items up to 10 kg each"
                 },
                 "needToPay": "free"
             },
@@ -41,7 +42,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Baggage - 2 items up to 32 kg each"
                 },
                 "needToPay": "free"
             },
@@ -105,6 +106,7 @@
     {
         "owner": "UT",
         "baseClass": "economy",
+        "priority": 3,
         "perTicketRefundPenalty": "2000RUB",
         "perTicketExchangePenalty": "1000RUB",
         "tariffCodePattern": "^([A-LN-Z](FLEX))\\w*$",
@@ -158,7 +160,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -171,7 +173,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Baggage - 1 item up to 23 kg"
                 },
                 "needToPay": "free"
             },
@@ -215,12 +217,12 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "До 10 кг",
-                    "en": "Up to 10 kg",
+                    "en": "1 item up to 10 kg",
                     "de": "Bis zu 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -233,7 +235,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Baggage - 1 item up to 23 kg"
                 },
                 "needToPay": "free"
             },
@@ -297,6 +299,7 @@
     {
         "owner": "UT",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^(\\w*(LT))\\w*$",
         "parameters": [
             {
@@ -321,7 +324,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "No free baggage allowance"
                 },
                 "needToPay": "charge"
             },
@@ -334,7 +337,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Baggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -384,6 +387,7 @@
     {
         "owner": "UT",
         "baseClass": "economy",
+        "priority": 2,
         "perTicketExchangePenalty": "1000RUB",
         "tariffCodePattern": "^(\\w*(STD))\\w*$",
         "parameters": [
@@ -436,7 +440,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -449,7 +453,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Baggage - 1 item up to 23 kg"
                 },
                 "needToPay": "free"
             },

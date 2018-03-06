@@ -1,0 +1,603 @@
+[
+    {
+        "owner": "Z9",
+        "baseClass": "economy",
+        "priority": 5,
+        "tariffCodePattern": "^([YIH])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "L",
+                    "en": "L",
+                    "az": "L"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 piece till 8 kg",
+                    "kz": "Салмағы 8 кг дейін жолжүктің 1 орны"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 28 кг",
+                    "en": "1 piece till 28 kg",
+                    "kz": "Салмағы 28 кг дейін жолжүктің 1 орны"
+                },
+                "fullDescription": {
+                    "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
+                    "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
+                    "kz": "Бір жолжүк орны 158 см асатын өлшем жиынына (ені + биіктігі + тереңдігі) ие болмауы тиіс"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение авиабилета за 24 часа до начала перевозки",
+                    "en": "Change before original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение менее чем за 24 часа до времени вылета рейса",
+                    "en": "Change after original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат менее чем за 24 часа до времени вылета рейса",
+                    "en": "Refund of ticket after original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат более чем за 24 часа до времени вылета рейса",
+                    "en": "Refund of ticket before original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "Z9",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^([LQMBK])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "M",
+                    "en": "M",
+                    "kz": "M"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 piece till 7 kg",
+                    "kz": "Салмағы 7 кг дейін жолжүктің 1 орны"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 25 кг",
+                    "en": "1 piece till 25 kg",
+                    "kz": "Салмағы 25 кг дейін жолжүктің 1 орны"
+                },
+                "fullDescription": {
+                    "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
+                    "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
+                    "kz": "Бір жолжүк орны 158 см асатын өлшем жиынына (ені + биіктігі + тереңдігі) ие болмауы тиіс"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение авиабилета за 24 часа до начала перевозки",
+                    "en": "Change before original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение менее чем за 24 часа до времени вылета рейса",
+                    "en": "Change after original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат менее чем за 24 часа до времени вылета рейса",
+                    "en": "Refund of ticket after original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат более чем за 24 часа до времени вылета рейса",
+                    "en": "Refund of ticket before original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "Z9",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([RTUESCD])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "S",
+                    "en": "S",
+                    "de": "",
+                    "kz": "S"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 6 кг",
+                    "en": "1 piece till 6 kg",
+                    "kz": "Салмағы 6 кг дейін жолжүктің 1 орны"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 piece till 23 kg",
+                    "kz": "Салмағы 23 кг дейін жолжүктің 1 орны"
+                },
+                "fullDescription": {
+                    "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
+                    "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
+                    "kz": "Бір жолжүк орны 158 см асатын өлшем жиынына (ені + биіктігі + тереңдігі) ие болмауы тиіс"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение авиабилета за 24 часа до начала перевозки",
+                    "en": "Change before original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение менее чем за 24 часа до времени вылета рейса",
+                    "en": "Change after original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат менее чем за 24 часа до времени вылета рейса",
+                    "en": "Refund of ticket after original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан кейін  қайтарып беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат более чем за 24 часа до времени вылета рейса",
+                    "en": "Refund of ticket before original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "Z9",
+        "baseClass": "economy",
+        "priority": 6,
+        "tariffCodePattern": "^([NPZJA])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "XL",
+                    "en": "XL",
+                    "kz": "XL"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 piece till 10 kg",
+                    "kz": "Салмағы 10 кг дейін жолжүктің 1 орны"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 32 кг",
+                    "en": "1 piece till 32 kg",
+                    "kz": "Салмағы 32 кг дейін жолжүктің 1 орны"
+                },
+                "fullDescription": {
+                    "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
+                    "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
+                    "kz": "Бір жолжүк орны 158 см асатын өлшем жиынына (ені + биіктігі + тереңдігі) ие болмауы тиіс"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение авиабилета за 24 часа до начала перевозки",
+                    "en": "Change before original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение менее чем за 24 часа до времени вылета рейса",
+                    "en": "Change after original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат менее чем за 24 часа до времени вылета рейса",
+                    "en": "Refund of ticket after original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат более чем за 24 часа до времени вылета рейса",
+                    "en": "Refund of ticket before original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "Z9",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^([VOWX])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "XS",
+                    "en": "XS",
+                    "kz": "XS"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 piece till 5 kg",
+                    "kz": "Салмағы 5 кг дейін жолжүктің 1 орны"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 15 кг",
+                    "en": "1 piece till 15 kg",
+                    "kz": "Салмағы 15 кг дейін жолжүктің 1 орны"
+                },
+                "fullDescription": {
+                    "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
+                    "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
+                    "kz": "Бір жолжүк орны 158 см асатын өлшем жиынына (ені + биіктігі + тереңдігі) ие болмауы тиіс"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение авиабилета за 24 часа до начала перевозки",
+                    "en": "Change before original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение менее чем за 24 часа до времени вылета рейса",
+                    "en": "Change after original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат менее чем за 24 часа до времени вылета рейса",
+                    "en": "Refund of ticket after original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат более чем за 24 часа до времени вылета рейса",
+                    "en": "Refund of ticket before original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "Z9",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^([F])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "XXS",
+                    "en": "XXS",
+                    "kz": "XXS"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 piece till 5 kg",
+                    "kz": "Салмағы 5 кг дейін жолжүктің 1 орны"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 piece till 10 kg",
+                    "kz": "Салмағы 10 кг дейін жолжүктің 1 орны"
+                },
+                "fullDescription": {
+                    "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
+                    "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
+                    "kz": "Бір жолжүк орны 158 см асатын өлшем жиынына (ені + биіктігі + тереңдігі) ие болмауы тиіс"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение авиабилета за 24 часа до начала перевозки",
+                    "en": "Change before original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытына дейін өзгерту"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение менее чем за 24 часа до времени вылета рейса",
+                    "en": "Change after original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат менее чем за 24 часа до времени вылета рейса",
+                    "en": "Refund of ticket after original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат более чем за 24 часа до времени вылета рейса",
+                    "en": "Refund of ticket before original time of departure",
+                    "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    }
+]

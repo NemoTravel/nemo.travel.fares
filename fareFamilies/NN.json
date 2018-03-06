@@ -2,6 +2,7 @@
     {
         "owner": "NN",
         "baseClass": "business",
+        "priority": 5,
         "tariffCodePattern": "^([C])\\w*\\d*",
         "parameters": [
             {
@@ -129,6 +130,7 @@
     {
         "owner": "NN",
         "baseClass": "economy",
+        "priority": 4,
         "tariffCodePattern": "^(\\w*\\d*(COMFORT|D))\\w*\\d*$",
         "parameters": [
             {
@@ -256,6 +258,7 @@
     {
         "owner": "NN",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^(\\w*\\d*(EC))\\w*\\d*$",
         "parameters": [
             {
@@ -358,6 +361,7 @@
     {
         "owner": "NN",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^(\\w*\\d*(PL))\\w*\\d*$",
         "parameters": [
             {
@@ -459,6 +463,7 @@
     {
         "owner": "NN",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^(\\w*\\d*(PR))\\w*\\d*$",
         "parameters": [
             {

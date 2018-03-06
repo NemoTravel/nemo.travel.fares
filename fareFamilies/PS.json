@@ -2,6 +2,7 @@
     {
         "owner": "PS",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^((?!Z)\\w)*$",
         "parameters": [
             {
@@ -57,6 +58,7 @@
     {
         "owner": "PS",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^(\\w*(Z))\\w*$",
         "parameters": [
             {
@@ -112,6 +114,7 @@
     {
         "owner": "PS",
         "baseClass": "economy",
+        "priority": 9,
         "tariffCodePattern": "^([YC](IF))$",
         "parameters": [
             {

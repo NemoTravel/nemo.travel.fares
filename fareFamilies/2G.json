@@ -1,0 +1,370 @@
+[
+    {
+        "owner": "2G",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[YBHKLNQTXOU](BASB)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Базовый багажный",
+                    "en": "Basic With Baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг (55*40*20 см)",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 20 кг, 203 см в сумме трех измерений",
+                    "en": "1 item up to 20 kg, total linear dimension — up to 203 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты",
+                    "en": "Date Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты запрещены",
+                    "en": "Date changes are not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Добор до более высокого тарифа",
+                    "en": "Upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Добор до более высокого тарифа разрешен. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
+                    "en": "Upgrade is available during ticket exchange"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Доступен выбор места при регистрации",
+                    "en": "Seat selection is available during check-in"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "2G",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[YBHKLNQTXOU](?!BASB)(BAS)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Базовый безбагажный",
+                    "en": "Basic No Baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг (55*40*20 см)",
+                    "en": "1 item up to 5 kg (55*40*20 cm)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты",
+                    "en": "Date Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты запрещены",
+                    "en": "Date changes are not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Добор до более высокого тарифа",
+                    "en": "Upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Добор до более высокого тарифа разрешен. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
+                    "en": "Upgrade is available during ticket exchange"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места доступен при регистрации",
+                    "en": "Seat selection is available during check-in"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "2G",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[YBHKLNQTXOU](?!COMB)(COM)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комплекс безбагажный",
+                    "en": "Complex No Baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг (55*40*20 см)",
+                    "en": "1 item up to 10 kg (55*40*20 cm)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф на неиспользованных участках подлежит возврату. Взимается сбор за возврат",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты разрешены со сбором",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Добор до более высокого тарифа",
+                    "en": "Upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Добор до более высокого тарифа разрешен. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
+                    "en": "Upgrade is available during ticket exchange"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места доступен при регистрации",
+                    "en": "Seat selection is available during check-in"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "2G",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^[YBHKLNQTXOU](COMB)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комплекс багажный",
+                    "en": "Complex With Baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг (55*40*20 см)",
+                    "en": "1 item up to 10 kg (55*40*20 cm)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 20 кг, 203 см в сумме трех измерений",
+                    "en": "1 item up to 20 kg, total linear dimension — up to 203 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф на неиспользованных участках подлежит возврату. Взимается сбор за возврат",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты разрешены со сбором",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Добор до более высокого тарифа",
+                    "en": "Upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Добор до более высокого тарифа разрешен. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
+                    "en": "Upgrade is available during ticket exchange"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места доступен при регистрации",
+                    "en": "Seat selection is available during check-in"
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

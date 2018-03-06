@@ -2,6 +2,7 @@
     {
         "owner": "BT",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^(\\w*\\d*(BAS))\\w*\\d*$",
         "parameters": [
             {
@@ -81,6 +82,7 @@
     {
         "owner": "BT",
         "baseClass": "business",
+        "priority": 4,
         "tariffCodePattern": "^(\\w*\\d*(BIZ))\\w*\\d*$",
         "parameters": [
             {
@@ -184,6 +186,7 @@
     {
         "owner": "BT",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^(\\w*\\d*(PRM))\\w*\\d*$",
         "parameters": [
             {
@@ -263,6 +266,7 @@
     {
         "owner": "BT",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^(\\w*\\d*(SALE))\\w*\\d*$",
         "parameters": [
             {

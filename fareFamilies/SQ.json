@@ -2,6 +2,7 @@
     {
         "owner": "SQ",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^[QNVK]\\w*$",
         "parameters": [
             {
@@ -105,6 +106,7 @@
     {
         "owner": "SQ",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^[MHW]\\w*$",
         "parameters": [
             {
@@ -208,6 +210,7 @@
     {
         "owner": "SQ",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^[YBE]\\w*$",
         "parameters": [
             {
@@ -311,6 +314,7 @@
     {
         "owner": "SQ",
         "baseClass": "premiumEconomy",
+        "priority": 4,
         "tariffCodePattern": "^[P]\\w*$",
         "parameters": [
             {
@@ -414,6 +418,7 @@
     {
         "owner": "SQ",
         "baseClass": "premiumEconomy",
+        "priority": 5,
         "tariffCodePattern": "^[ST]\\w*$",
         "parameters": [
             {
@@ -517,6 +522,7 @@
     {
         "owner": "SQ",
         "baseClass": "business",
+        "priority": 6,
         "tariffCodePattern": "^[D]\\w*$",
         "parameters": [
             {
@@ -620,6 +626,7 @@
     {
         "owner": "SQ",
         "baseClass": "business",
+        "priority": 7,
         "tariffCodePattern": "^[U]\\w*$",
         "parameters": [
             {
@@ -723,6 +730,7 @@
     {
         "owner": "SQ",
         "baseClass": "business",
+        "priority": 8,
         "tariffCodePattern": "^[ZCJ]\\w*$",
         "parameters": [
             {
@@ -826,6 +834,7 @@
     {
         "owner": "SQ",
         "baseClass": "first",
+        "priority": 9,
         "tariffCodePattern": "^[FA]\\w*$",
         "parameters": [
             {

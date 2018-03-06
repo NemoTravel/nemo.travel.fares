@@ -2,6 +2,7 @@
     {
         "owner": "EY",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^([TE])\\w*\\d*$",
         "parameters": [
             {
@@ -81,6 +82,7 @@
     {
         "owner": "EY",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^([UV])\\w*\\d*$",
         "parameters": [
             {
@@ -172,6 +174,7 @@
     {
         "owner": "EY",
         "baseClass": "economy",
+        "priority": 4,
         "tariffCodePattern": "^([LQMK])\\w*\\d*$",
         "parameters": [
             {
@@ -263,6 +266,7 @@
     {
         "owner": "EY",
         "baseClass": "economy",
+        "priority": 5,
         "tariffCodePattern": "^([HBY])\\w*\\d*$",
         "parameters": [
             {
@@ -366,6 +370,7 @@
     {
         "owner": "EY",
         "baseClass": "business",
+        "priority": 7,
         "tariffCodePattern": "^([Z])\\w*\\d*$",
         "parameters": [
             {
@@ -481,6 +486,7 @@
     {
         "owner": "EY",
         "baseClass": "business",
+        "priority": 8,
         "tariffCodePattern": "^([W])\\w*\\d*$",
         "parameters": [
             {
@@ -608,6 +614,7 @@
     {
         "owner": "EY",
         "baseClass": "business",
+        "priority": 9,
         "tariffCodePattern": "^([DCJ])\\w*\\d*$",
         "parameters": [
             {
@@ -735,6 +742,7 @@
     {
         "owner": "EY",
         "baseClass": "first",
+        "priority": 11,
         "tariffCodePattern": "^([RAF])\\w*\\d*$",
         "parameters": [
             {
@@ -850,6 +858,7 @@
     {
         "owner": "EY",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^([N])\\w*\\d*$",
         "parameters": [
             {
@@ -941,6 +950,7 @@
     {
         "owner": "EY",
         "baseClass": "business",
+        "priority": 6,
         "tariffCodePattern": "^([I])\\w*\\d*$",
         "parameters": [
             {
@@ -1068,6 +1078,7 @@
     {
         "owner": "EY",
         "baseClass": "first",
+        "priority": 10,
         "tariffCodePattern": "^([O])\\w*\\d*$",
         "parameters": [
             {

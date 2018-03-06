@@ -2,6 +2,7 @@
     {
         "owner": "A3",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^[YBMHQWLKSTUP]((?!NOBAG|0BAG).)*$",
         "parameters": [
             {
@@ -69,6 +70,7 @@
     {
         "owner": "A3",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^([YBMHQWLKSTUP]\\w*(NOBAG|0BAG))\\w*\\d*$",
         "parameters": [
             {
@@ -136,6 +138,7 @@
     {
         "owner": "A3",
         "baseClass": "business",
+        "priority": 3,
         "tariffCodePattern": "^([CZDA])\\w*\\d*$",
         "parameters": [
             {

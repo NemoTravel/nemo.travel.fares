@@ -2,6 +2,7 @@
     {
         "owner": "AB",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^(\\w*\\d*(NC))\\w*\\d*$",
         "parameters": [
             {
@@ -103,6 +104,7 @@
     {
         "owner": "AB",
         "baseClass": "economy",
+        "priority": 4,
         "tariffCodePattern": "^(\\w*\\d*(FF))\\w*\\d*$",
         "parameters": [
             {
@@ -217,6 +219,7 @@
     {
         "owner": "AB",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^(\\w*\\d*(NY))\\w*\\d*$",
         "parameters": [
             {
@@ -304,6 +307,7 @@
     {
         "owner": "AB",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^(\\w*\\d*(NN))\\w*\\d*$",
         "parameters": [
             {
@@ -391,6 +395,7 @@
     {
         "owner": "AB",
         "baseClass": "economy",
+        "priority": 9,
         "tariffCodePattern": "^([YC](IF))$",
         "parameters": [
             {

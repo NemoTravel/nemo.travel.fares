@@ -2,6 +2,7 @@
     {
         "owner": "J2",
         "baseClass": "business",
+        "priority": 3,
         "tariffCodePattern": "^[Z]((?!BA|BB).)*$",
         "parameters": [
             {
@@ -105,6 +106,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^[H]((?!BA|BB).)*$",
         "parameters": [
             {
@@ -184,6 +186,7 @@
     {
         "owner": "J2",
         "baseClass": "business",
+        "priority": 10,
         "tariffCodePattern": "^[W]\\w*(CC)((?!BA|BB).)*$",
         "parameters": [
             {
@@ -287,6 +290,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
+        "priority": 6,
         "tariffCodePattern": "^[QU]((?!BA|BB).)*$",
         "parameters": [
             {
@@ -390,6 +394,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
+        "priority": 5,
         "tariffCodePattern": "^[GV]((?!BA|BB).)*$",
         "parameters": [
             {
@@ -493,6 +498,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
+        "priority": 4,
         "tariffCodePattern": "^[Х]((?!BA|BB).)*$",
         "parameters": [
             {
@@ -560,6 +566,7 @@
     {
         "owner": "J2",
         "baseClass": "business",
+        "priority": 11,
         "tariffCodePattern": "^[J]\\w*(VC)((?!BA|BB).)*$",
         "parameters": [
             {
@@ -663,6 +670,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
+        "priority": 8,
         "tariffCodePattern": "^[OTLBNY]\\w*(FX)((?!BA|BB).)*$",
         "parameters": [
             {
@@ -766,6 +774,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
+        "priority": 7,
         "tariffCodePattern": "^[OTLBNY]\\w*(CL)((?!BA|BB).)*$",
         "parameters": [
             {
@@ -857,6 +866,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
+        "priority": 9,
         "tariffCodePattern": "^[С]\\w*(CP)((?!BA|BB).)*$",
         "parameters": [
             {
@@ -960,6 +970,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^[OTLBNY]\\w*(BS)$",
         "parameters": [
             {

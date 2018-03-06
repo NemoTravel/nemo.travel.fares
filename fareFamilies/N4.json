@@ -2,6 +2,7 @@
     {
         "owner": "N4",
         "baseClass": "business",
+        "priority": 4,
         "flightTimeSince": "2017-10-29T00:00:00",
         "flightTimeUntil": "2021-10-13T00:00:00",
         "tariffCodePattern": "^([CSDWZ]\\w*(OP))\\w*$",
@@ -107,6 +108,7 @@
     {
         "owner": "N4",
         "baseClass": "business",
+        "priority": 3,
         "flightTimeSince": "2017-10-29T00:00:00",
         "flightTimeUntil": "2021-10-13T00:00:00",
         "tariffCodePattern": "^([CSDWZ]\\w*(PR))\\w*$",
@@ -188,6 +190,7 @@
     {
         "owner": "N4",
         "baseClass": "economy",
+        "priority": 2,
         "flightTimeSince": "2017-10-29T00:00:00",
         "flightTimeUntil": "2021-10-13T00:00:00",
         "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI]\\w*(OP))\\w*$",
@@ -269,6 +272,7 @@
     {
         "owner": "N4",
         "baseClass": "economy",
+        "priority": 1,
         "flightTimeSince": "2017-10-29T00:00:00",
         "flightTimeUntil": "2021-01-17T00:00:00",
         "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI]\\w*(PR))\\w*$",

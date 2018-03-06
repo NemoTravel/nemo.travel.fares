@@ -2,6 +2,7 @@
     {
         "owner": "D2",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^((YW)|(YV))$",
         "parameters": [
             {
@@ -69,6 +70,7 @@
     {
         "owner": "D2",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^((YO)|(YH))$",
         "parameters": [
             {
@@ -136,6 +138,7 @@
     {
         "owner": "D2",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^((YX)|(YE))$",
         "parameters": [
             {
@@ -203,6 +206,7 @@
     {
         "owner": "D2",
         "baseClass": "business",
+        "priority": 4,
         "tariffCodePattern": "^((CJ)|(CZ))$",
         "parameters": [
             {

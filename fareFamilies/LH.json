@@ -2,6 +2,7 @@
     {
         "owner": "LH",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^(\\w*\\d*(CLS))\\w*\\d*$",
         "parameters": [
             {
@@ -129,6 +130,7 @@
     {
         "owner": "LH",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^(\\w*\\d*(FLX))\\w*\\d*$",
         "parameters": [
             {
@@ -256,6 +258,7 @@
     {
         "owner": "LH",
         "baseClass": "economy",
+        "priority": 9,
         "tariffCodePattern": "^([YC](IF))$",
         "parameters": [
             {
@@ -290,6 +293,7 @@
     {
         "owner": "LH",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^(\\w*\\d*(LGT))\\w*\\d*$",
         "parameters": [
             {
@@ -417,6 +421,7 @@
     {
         "owner": "LH",
         "baseClass": "business",
+        "priority": 4,
         "tariffCodePattern": "^(\\w*\\d*(BXX))\\w*\\d*$",
         "parameters": [
             {
@@ -570,6 +575,7 @@
     {
         "owner": "LH",
         "baseClass": "business",
+        "priority": 5,
         "tariffCodePattern": "^(\\w*\\d*(BUZ))\\w*\\d*$",
         "parameters": [
             {

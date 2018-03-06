@@ -2,6 +2,7 @@
     {
         "owner": "9U",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^([ARGSW])\\w*$",
         "parameters": [
             {
@@ -81,6 +82,7 @@
     {
         "owner": "9U",
         "baseClass": "business",
+        "priority": 4,
         "tariffCodePattern": "^([DC])\\w*$",
         "parameters": [
             {
@@ -208,6 +210,7 @@
     {
         "owner": "9U",
         "baseClass": "economy",
+        "priority": 9,
         "tariffCodePattern": "^([YC](IF))$",
         "parameters": [
             {
@@ -242,6 +245,7 @@
     {
         "owner": "9U",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^([YB])\\w*$",
         "parameters": [
             {
@@ -357,6 +361,7 @@
     {
         "owner": "9U",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^([NOUKQHM])\\w*$",
         "parameters": [
             {

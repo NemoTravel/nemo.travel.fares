@@ -2,6 +2,7 @@
     {
         "owner": "KL",
         "baseClass": "business",
+        "priority": 6,
         "tariffCodePattern": "^([JСDIZO])\\w*\\d*$",
         "parameters": [
             {
@@ -81,6 +82,7 @@
     {
         "owner": "KL",
         "baseClass": "economy",
+        "priority": 5,
         "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(FF|FFW)\\w*$",
         "parameters": [
             {
@@ -160,6 +162,7 @@
     {
         "owner": "KL",
         "baseClass": "economy",
+        "priority": 4,
         "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(BAG0|BAGY)\\w*$",
         "parameters": [
             {
@@ -239,6 +242,7 @@
     {
         "owner": "KL",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(WK|SR|WKW)\\w*6$",
         "parameters": [
             {
@@ -318,6 +322,7 @@
     {
         "owner": "KL",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(7WK|7WKW)\\w*[^6]$",
         "parameters": [
             {
@@ -397,6 +402,7 @@
     {
         "owner": "KL",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(WK|SR|WKW)\\w*[^6]$",
         "parameters": [
             {
@@ -476,6 +482,7 @@
     {
         "owner": "KL",
         "baseClass": "economy",
+        "priority": 9,
         "tariffCodePattern": "^([YC](IF))$",
         "parameters": [
             {

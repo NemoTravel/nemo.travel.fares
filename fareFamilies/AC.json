@@ -2,6 +2,7 @@
     {
         "owner": "AC",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^([MUHQV])\\w*\\d*$",
         "parameters": [
             {
@@ -93,6 +94,7 @@
     {
         "owner": "AC",
         "baseClass": "business",
+        "priority": 7,
         "tariffCodePattern": "^([J])\\w*\\d*$",
         "parameters": [
             {
@@ -208,6 +210,7 @@
     {
         "owner": "AC",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^([YB])\\w*\\d*$",
         "parameters": [
             {
@@ -323,6 +326,7 @@
     {
         "owner": "AC",
         "baseClass": "business",
+        "priority": 6,
         "tariffCodePattern": "^([CDZP])\\w*\\d*$",
         "parameters": [
             {
@@ -438,6 +442,7 @@
     {
         "owner": "AC",
         "baseClass": "premiumEconomy",
+        "priority": 4,
         "tariffCodePattern": "^([EN])\\w*\\d*$",
         "parameters": [
             {
@@ -541,6 +546,7 @@
     {
         "owner": "AC",
         "baseClass": "premiumEconomy",
+        "priority": 5,
         "tariffCodePattern": "^([O])\\w*\\d*$",
         "parameters": [
             {
@@ -644,6 +650,7 @@
     {
         "owner": "AC",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^([WGSTLAK])\\w*\\d*$",
         "parameters": [
             {

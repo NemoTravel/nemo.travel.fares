@@ -2,6 +2,7 @@
     {
         "owner": "OK",
         "baseClass": "economy",
+        "priority": 1,
         "tariffCodePattern": "^(\\w*\\d*(0BAGG))\\w*\\d*$",
         "parameters": [
             {
@@ -105,6 +106,7 @@
     {
         "owner": "OK",
         "baseClass": "economy",
+        "priority": 2,
         "tariffCodePattern": "^(\\w*\\d*(ECOK|ECROK|ECOWOK|EC))\\w*\\d*$",
         "parameters": [
             {
@@ -208,6 +210,7 @@
     {
         "owner": "OK",
         "baseClass": "economy",
+        "priority": 3,
         "tariffCodePattern": "^(\\w*\\d*(FLXOK))\\w*\\d*$",
         "parameters": [
             {
@@ -335,6 +338,7 @@
     {
         "owner": "OK",
         "baseClass": "business",
+        "priority": 4,
         "tariffCodePattern": "^(\\w*\\d*(BRSOK))\\w*\\d*$",
         "parameters": [
             {
@@ -450,6 +454,7 @@
     {
         "owner": "OK",
         "baseClass": "business",
+        "priority": 5,
         "tariffCodePattern": "^(\\w*\\d*(BFLOK))\\w*\\d*$",
         "parameters": [
             {
@@ -565,6 +570,7 @@
     {
         "owner": "OK",
         "baseClass": "economy",
+        "priority": 9,
         "tariffCodePattern": "^([YC](IF))$",
         "parameters": [
             {

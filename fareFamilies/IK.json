@@ -2,6 +2,7 @@
     {
         "owner": "IK",
         "baseClass": "economy",
+        "priority": 1,
         "flightTimeSince": "2017-10-29T00:00:00",
         "flightTimeUntil": "2021-01-17T00:00:00",
         "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI](PR))\\w*$",
@@ -71,6 +72,7 @@
     {
         "owner": "IK",
         "baseClass": "economy",
+        "priority": 2,
         "flightTimeSince": "2017-10-29T00:00:00",
         "flightTimeUntil": "2021-10-13T00:00:00",
         "tariffCodePattern": "^([YKLMNBHQTVXOPREI](OP))\\w*$",
@@ -140,6 +142,7 @@
     {
         "owner": "IK",
         "baseClass": "business",
+        "priority": 3,
         "flightTimeSince": "2017-10-29T00:00:00",
         "flightTimeUntil": "2021-10-13T00:00:00",
         "tariffCodePattern": "^([CSDWZ](PR))\\w*$",
@@ -209,6 +212,7 @@
     {
         "owner": "IK",
         "baseClass": "business",
+        "priority": 4,
         "flightTimeSince": "2017-10-29T00:00:00",
         "flightTimeUntil": "2021-10-13T00:00:00",
         "tariffCodePattern": "^([CSDWZ](OP))\\w*$",
