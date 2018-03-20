@@ -108,8 +108,8 @@
                     "de": "Snacks / Mahlzeiten"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "На рейсах продолжительностью более 3-х часов предлагается горячее питание, менее 3-х часов — закуски",
+                    "en": "Meals on board are available for flights over 3 hours long, snacks — for flights less than 3 hours long"
                 },
                 "needToPay": "free"
             }
@@ -208,8 +208,8 @@
                     "de": "Snacks / Mahlzeiten"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "На рейсах продолжительностью более 3-х часов предлагается горячее питание, менее 3-х часов — закуски",
+                    "en": "Meals on board are available for flights over 3 hours long, snacks — for flights less than 3 hours long"
                 },
                 "needToPay": "free"
             },
