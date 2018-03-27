@@ -10,7 +10,7 @@
                 "shortDescription": {
                     "ru": "L",
                     "en": "L",
-                    "az": "L"
+                    "kz": "L"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -23,11 +23,12 @@
                 "shortDescription": {
                     "ru": "1 место до 8 кг",
                     "en": "1 piece till 8 kg",
-                    "kz": "Салмағы 8 кг дейін жолжүктің 1 орны"
+                    "kz": "1 орын 8 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Допускается провезти 1 место ручной клади весом не более 8 кг",
+                    "en": "Cabin baggage 8 kg",
+                    "kz": "Өзімен бірге 1 орын - 8 кг"
                 },
                 "needToPay": "free"
             },
@@ -36,12 +37,12 @@
                 "shortDescription": {
                     "ru": "1 место до 28 кг",
                     "en": "1 piece till 28 kg",
-                    "kz": "Салмағы 28 кг дейін жолжүктің 1 орны"
+                    "kz": "1 орын 28 кг дейін"
                 },
                 "fullDescription": {
                     "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
-                    "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
-                    "kz": "Бір жолжүк орны 158 см асатын өлшем жиынына (ені + биіктігі + тереңдігі) ие болмауы тиіс"
+                    "en": "The max. size 55 x 40 x 23 см (less that 158 cm in total three dimenstions)",
+                    "kz": "Максималды өлшемі 55 x 40 x 23 (Үш өлшемде 158 см-ден аспауы шарт) сай келетін қол жүгін алып өтуге болады"
                 },
                 "needToPay": "free"
             },
@@ -53,8 +54,9 @@
                     "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения до вылета производятся за дополнительную плату",
+                    "en": "Changes before the departure are made at additional charge",
+                    "kz": "Рейс жөнелтілуіне дейін өзгеріс енгізу - ақылы"
                 },
                 "needToPay": "charge"
             },
@@ -66,8 +68,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения после вылета производятся за дополнительную плату",
+                    "en": "Changes after the departure are made at additional charge",
+                    "kz": "Рейс жөнелтілуінен соң өзгеріс енгізу - ақылы"
                 },
                 "needToPay": "charge"
             },
@@ -79,8 +82,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат после вылета производится за дополнительную плату",
+                    "en": "Refund after the departure is performed at additional charge",
+                    "kz": "Қайтарылым операциясы рейс жөнелтілуінен соң - ақылы"
                 },
                 "needToPay": "charge"
             },
@@ -92,8 +96,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета производится за дополнительную плату",
+                    "en": "Refund before the departure is performed at additional charge",
+                    "kz": "Қайтарылым операциясы рейс жөнелтілуіне дейін - ақылы"
                 },
                 "needToPay": "charge"
             }
@@ -123,11 +128,12 @@
                 "shortDescription": {
                     "ru": "1 место до 7 кг",
                     "en": "1 piece till 7 kg",
-                    "kz": "Салмағы 7 кг дейін жолжүктің 1 орны"
+                    "kz": "1 орын 7 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Допускается провезти 1 место ручной клади весом не более 7 кг",
+                    "en": "Cabin baggage 7 kg",
+                    "kz": "Өзімен бірге 1 орын - 7 кг"
                 },
                 "needToPay": "free"
             },
@@ -136,12 +142,12 @@
                 "shortDescription": {
                     "ru": "1 место до 25 кг",
                     "en": "1 piece till 25 kg",
-                    "kz": "Салмағы 25 кг дейін жолжүктің 1 орны"
+                    "kz": "1 орын 25 кг дейін"
                 },
                 "fullDescription": {
                     "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
-                    "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
-                    "kz": "Бір жолжүк орны 158 см асатын өлшем жиынына (ені + биіктігі + тереңдігі) ие болмауы тиіс"
+                    "en": "The max. size 55 x 40 x 23 см (less that 158 cm in total three dimenstions)",
+                    "kz": "Максималды өлшемі 55 x 40 x 23 (Үш өлшемде 158 см-ден аспауы шарт) сай келетін қол жүгін алып өтуге болады"
                 },
                 "needToPay": "free"
             },
@@ -153,8 +159,9 @@
                     "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения до вылета производятся за дополнительную плату",
+                    "en": "Changes before the departure are made at additional charge",
+                    "kz": "Рейс жөнелтілуіне дейін өзгеріс енгізу - ақылы"
                 },
                 "needToPay": "charge"
             },
@@ -166,8 +173,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения после вылета производятся за дополнительную плату",
+                    "en": "Changes after the departure are made at additional charge",
+                    "kz": "Рейс жөнелтілуінен соң өзгеріс енгізу - ақылы"
                 },
                 "needToPay": "charge"
             },
@@ -179,8 +187,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат после вылета производится за дополнительную плату",
+                    "en": "Refund after the departure is performed at additional charge",
+                    "kz": "Қайтарылым операциясы рейс жөнелтілуінен соң - ақылы"
                 },
                 "needToPay": "charge"
             },
@@ -192,8 +201,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета производится за дополнительную плату",
+                    "en": "Refund before the departure is performed at additional charge",
+                    "kz": "Қайтарылым операциясы рейс жөнелтілуіне дейін - ақылы"
                 },
                 "needToPay": "charge"
             }
@@ -224,11 +234,12 @@
                 "shortDescription": {
                     "ru": "1 место до 6 кг",
                     "en": "1 piece till 6 kg",
-                    "kz": "Салмағы 6 кг дейін жолжүктің 1 орны"
+                    "kz": "1 орын 6 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Допускается провезти 1 место ручной клади весом не более 6 кг",
+                    "en": "Cabin baggage 6 kg",
+                    "kz": "Өзімен бірге 1 орын - 6 кг"
                 },
                 "needToPay": "free"
             },
@@ -237,12 +248,12 @@
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
                     "en": "1 piece till 23 kg",
-                    "kz": "Салмағы 23 кг дейін жолжүктің 1 орны"
+                    "kz": "1 орын 23 кг дейін"
                 },
                 "fullDescription": {
                     "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
-                    "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
-                    "kz": "Бір жолжүк орны 158 см асатын өлшем жиынына (ені + биіктігі + тереңдігі) ие болмауы тиіс"
+                    "en": "The max. size 55 x 40 x 23 см (less that 158 cm in total three dimenstions)",
+                    "kz": "Максималды өлшемі 55 x 40 x 23 (Үш өлшемде 158 см-ден аспауы шарт) сай келетін қол жүгін алып өтуге болады"
                 },
                 "needToPay": "free"
             },
@@ -254,8 +265,9 @@
                     "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения до вылета производятся за дополнительную плату",
+                    "en": "Changes before the departure are made at additional charge",
+                    "kz": "Рейс жөнелтілуіне дейін өзгеріс енгізу - ақылы"
                 },
                 "needToPay": "charge"
             },
@@ -267,8 +279,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения после вылета в данном тарифе недоступны",
+                    "en": "Changes after the departure are not available for this tariff",
+                    "kz": "Рейс жөнелтілуінен соң өзгеріс енгізу - нақты тариф бойынша мүмкін емес"
                 },
                 "needToPay": "notAvailable"
             },
@@ -280,8 +293,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан кейін  қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат после вылета производится за дополнительную плату",
+                    "en": "Refund after the departure is performed at additional charge",
+                    "kz": "Қайтарылым операциясы рейс жөнелтілуінен соң - ақылы"
                 },
                 "needToPay": "notAvailable"
             },
@@ -293,8 +307,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета производится за дополнительную плату",
+                    "en": "Refund before the departure is performed at additional charge",
+                    "kz": "Қайтарылым операциясы рейс жөнелтілуіне дейін - ақылы"
                 },
                 "needToPay": "charge"
             }
@@ -324,11 +339,12 @@
                 "shortDescription": {
                     "ru": "1 место до 10 кг",
                     "en": "1 piece till 10 kg",
-                    "kz": "Салмағы 10 кг дейін жолжүктің 1 орны"
+                    "kz": "1 орын 10 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Допускается провезти 1 место ручной клади весом не более 10 кг",
+                    "en": "Cabin baggage 10 kg",
+                    "kz": "Өзімен бірге 1 орын - 10 кг"
                 },
                 "needToPay": "free"
             },
@@ -337,12 +353,12 @@
                 "shortDescription": {
                     "ru": "1 место до 32 кг",
                     "en": "1 piece till 32 kg",
-                    "kz": "Салмағы 32 кг дейін жолжүктің 1 орны"
+                    "kz": "1 орын 32 кг дейін"
                 },
                 "fullDescription": {
                     "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
-                    "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
-                    "kz": "Бір жолжүк орны 158 см асатын өлшем жиынына (ені + биіктігі + тереңдігі) ие болмауы тиіс"
+                    "en": "The max. size 55 x 40 x 23 см (less that 158 cm in total three dimenstions)",
+                    "kz": "Максималды өлшемі 55 x 40 x 23 (Үш өлшемде 158 см-ден аспауы шарт) сай келетін қол жүгін алып өтуге болады"
                 },
                 "needToPay": "free"
             },
@@ -354,8 +370,9 @@
                     "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения до вылета производятся за дополнительную плату",
+                    "en": "Changes before the departure are made at additional charge",
+                    "kz": "Рейс жөнелтілуіне дейін өзгеріс енгізу - ақылы"
                 },
                 "needToPay": "charge"
             },
@@ -367,8 +384,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения после вылета производятся за дополнительную плату",
+                    "en": "Changes after the departure are made at additional charge",
+                    "kz": "Рейс жөнелтілуінен соң өзгеріс енгізу - ақылы"
                 },
                 "needToPay": "charge"
             },
@@ -380,8 +398,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат после вылета производится за дополнительную плату",
+                    "en": "Refund after the departure is performed at additional charge",
+                    "kz": "Қайтарылым операциясы рейс жөнелтілуінен соң - ақылы"
                 },
                 "needToPay": "charge"
             },
@@ -393,8 +412,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета производится за дополнительную плату",
+                    "en": "Refund before the departure is performed at additional charge",
+                    "kz": "Қайтарылым операциясы рейс жөнелтілуіне дейін - ақылы"
                 },
                 "needToPay": "charge"
             }
@@ -424,11 +444,12 @@
                 "shortDescription": {
                     "ru": "1 место до 5 кг",
                     "en": "1 piece till 5 kg",
-                    "kz": "Салмағы 5 кг дейін жолжүктің 1 орны"
+                    "kz": "1 орын 5 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Допускается провезти 1 место ручной клади весом не более 5 кг",
+                    "en": "Cabin baggage 5 kg",
+                    "kz": "Өзімен бірге 1 орын - 5 кг"
                 },
                 "needToPay": "free"
             },
@@ -437,12 +458,12 @@
                 "shortDescription": {
                     "ru": "1 место до 15 кг",
                     "en": "1 piece till 15 kg",
-                    "kz": "Салмағы 15 кг дейін жолжүктің 1 орны"
+                    "kz": "1 орын 15 кг дейін"
                 },
                 "fullDescription": {
                     "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
                     "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
-                    "kz": "Бір жолжүк орны 158 см асатын өлшем жиынына (ені + биіктігі + тереңдігі) ие болмауы тиіс"
+                    "kz": "Максималды өлшемі 55 x 40 x 23 (Үш өлшемде 158 см-ден аспауы шарт) сай келетін қол жүгін алып өтуге болады"
                 },
                 "needToPay": "free"
             },
@@ -454,8 +475,9 @@
                     "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения до вылета производятся за дополнительную плату",
+                    "en": "Changes before the departure are made at additional charge",
+                    "kz": "Рейс жөнелтілуіне дейін өзгеріс енгізу - ақылы"
                 },
                 "needToPay": "charge"
             },
@@ -467,8 +489,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения после вылета в данном тарифе недоступны",
+                    "en": "Changes after the departure are not available for this tariff",
+                    "kz": "Рейс жөнелтілуінен соң өзгеріс енгізу - нақты тариф бойынша мүмкін емес"
                 },
                 "needToPay": "notAvailable"
             },
@@ -480,8 +503,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат после вылета в данном тарифе недоступен",
+                    "en": "Refund after the departure is not available for this tariff",
+                    "kz": "Қайтарылым операциясы рейс жөнелтілуінен соң - нақты тариф бойынша мүмкін емес"
                 },
                 "needToPay": "notAvailable"
             },
@@ -493,8 +517,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета производится за дополнительную плату",
+                    "en": "Refund before the departure is performed at additional charge",
+                    "kz": "Қайтарылым операциясы рейс жөнелтілуіне дейін - ақылы"
                 },
                 "needToPay": "charge"
             }
@@ -524,11 +549,12 @@
                 "shortDescription": {
                     "ru": "1 место до 5 кг",
                     "en": "1 piece till 5 kg",
-                    "kz": "Салмағы 5 кг дейін жолжүктің 1 орны"
+                    "kz": "1 орын 5 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Допускается провезти 1 место ручной клади весом не более 5 кг",
+                    "en": "Cabin baggage 5 kg",
+                    "kz": "Өзімен бірге 1 орын - 5 кг"
                 },
                 "needToPay": "free"
             },
@@ -537,12 +563,12 @@
                 "shortDescription": {
                     "ru": "1 место до 10 кг",
                     "en": "1 piece till 10 kg",
-                    "kz": "Салмағы 10 кг дейін жолжүктің 1 орны"
+                    "kz": "1 орын 10 кг дейін"
                 },
                 "fullDescription": {
                     "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
-                    "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
-                    "kz": "Бір жолжүк орны 158 см асатын өлшем жиынына (ені + биіктігі + тереңдігі) ие болмауы тиіс"
+                    "en": "The max. size 55 x 40 x 23 см (less that 158 cm in total three dimenstions)",
+                    "kz": "Максималды өлшемі 55 x 40 x 23 (Үш өлшемде 158 см-ден аспауы шарт) сай келетін қол жүгін алып өтуге болады"
                 },
                 "needToPay": "free"
             },
@@ -554,8 +580,9 @@
                     "kz": "Рейстің жөнелтілу уақытына дейін өзгерту"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения до вылета производятся за дополнительную плату",
+                    "en": "Changes before the departure are made at additional charge",
+                    "kz": "Рейс жөнелтілуіне дейін өзгеріс енгізу - ақылы"
                 },
                 "needToPay": "charge"
             },
@@ -567,8 +594,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения после вылета в данном тарифе недоступны",
+                    "en": "Changes after the departure are not available for this tariff",
+                    "kz": "Рейс жөнелтілуінен соң өзгеріс енгізу - нақты тариф бойынша мүмкін емес"
                 },
                 "needToPay": "notAvailable"
             },
@@ -580,8 +608,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат после вылета в данном тарифе недоступен",
+                    "en": "Refund after the departure is not available for this tariff",
+                    "kz": "Қайтарылым операциясы рейс жөнелтілуінен соң - нақты тариф бойынша мүмкін емес"
                 },
                 "needToPay": "notAvailable"
             },
@@ -593,8 +622,9 @@
                     "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета производится за дополнительную плату",
+                    "en": "Refund before the departure is performed at additional charge",
+                    "kz": "Қайтарылым операциясы рейс жөнелтілуіне дейін - ақылы"
                 },
                 "needToPay": "charge"
             }
