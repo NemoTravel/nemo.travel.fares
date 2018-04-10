@@ -1,0 +1,450 @@
+[
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([YBHKLTQSVPME](FF))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Плюс",
+                    "en": "Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 8 кг",
+                    "en": "Up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "Разрешено перевозить 1 сумку размером не больше 56 x 45 x 25 см",
+                    "en": "Cabin baggage dimensions are limited and must not be larger than 56 x 45 x 25 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 30 кг",
+                    "en": "Up to 30 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellation"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета производится без удержания штрафа",
+                    "en": "No penalties apply for cancellations"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение бронирования",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменение бронирования разрешается без взимания дополнительных сборов",
+                    "en": "Changes are permitted without penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Бонусные баллы +100%",
+                    "en": "Bonus +100%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority Check-in"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "^([JC](FF))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 12 кг",
+                    "en": "Up to 12 kg"
+                },
+                "fullDescription": {
+                    "ru": "Разрешено перевозить 1 сумку размером не больше 56 x 45 x 25 см",
+                    "en": "Cabin baggage dimensions are limited and must not be larger than 56 x 45 x 25 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 30 кг",
+                    "en": "Up to 30 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellation"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета производится без удержания штрафа",
+                    "en": "No penalties apply for cancellations"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение бронирования",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменение бронирования разрешается без взимания дополнительных сборов",
+                    "en": "Changes are permitted without penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority Check-in"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Бонусные баллы +50%",
+                    "en": "Bonus +50%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Зал ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^([YBHKLTQSVPME](SF))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Классический",
+                    "en": "Classic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 8 кг",
+                    "en": "Up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "Разрешено перевозить 1 сумку размером не больше 56 x 45 x 25 см",
+                    "en": "Cabin baggage dimensions are limited and must not be larger than 56 x 45 x 25 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 20 кг",
+                    "en": "Up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellation"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета производится с удержанием сбора",
+                    "en": "Refundable. Cancellation fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение бронирования",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменение бронирования допускается с удержанием дополнительного сбора",
+                    "en": "Changes are permitted with a penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Бонусные баллы +50%",
+                    "en": "Bonus +50%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "business",
+        "priority": 4,
+        "tariffCodePattern": "^([ZD](SF))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Выгодный Бизнес",
+                    "en": "Business Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 12 кг",
+                    "en": "Up to 12 kg"
+                },
+                "fullDescription": {
+                    "ru": "Разрешено перевозить 1 сумку размером не больше 56 x 45 x 25 см",
+                    "en": "Cabin baggage dimensions are limited and must not be larger than 56 x 45 x 25 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 30 кг",
+                    "en": "Up to 30 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета производится с удержанием сбора",
+                    "en": "Refundable. Cancellation fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение бронирования",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменение бронирования допускается с удержанием дополнительного сбора",
+                    "en": "Changes are permitted with a penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Бонусные баллы +50%",
+                    "en": "Bonus +50%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority Check-in"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Зал ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^([YBHKLTQSVPME](SS))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Базовый",
+                    "en": "Basic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 8 кг",
+                    "en": "Up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "Разрешено перевозить 1 сумку размером не больше 56 x 45 x 25 см",
+                    "en": "Cabin baggage dimensions are limited and must not be larger than 56 x 45 x 25 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellation"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "No refunds permitted"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение бронирования",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменение бронирования не разрешено",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    }
+]

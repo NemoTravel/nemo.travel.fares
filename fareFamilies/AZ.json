@@ -38,8 +38,6 @@
         "owner": "AZ",
         "baseClass": "business",
         "priority": 9,
-        "flightTimeSince": "2017-04-07T00:00:00",
-        "flightTimeUntil": "2027-03-24T00:00:00",
         "tariffCodePattern": "^([CDEIJ]\\w*(FL))\\w*$",
         "parameters": [
             {
@@ -120,8 +118,6 @@
         "owner": "AZ",
         "baseClass": "business",
         "priority": 8,
-        "flightTimeSince": "2017-04-07T00:00:00",
-        "flightTimeUntil": "2027-03-24T00:00:00",
         "tariffCodePattern": "^([CDEIJ]\\w*(CL))\\w*$",
         "parameters": [
             {
@@ -202,8 +198,6 @@
         "owner": "AZ",
         "baseClass": "economy",
         "priority": 4,
-        "flightTimeSince": "2017-04-07T00:00:00",
-        "flightTimeUntil": "2027-03-24T00:00:00",
         "tariffCodePattern": "^([^APCDEIJ]\\w*(FL))\\w*$",
         "parameters": [
             {
@@ -284,8 +278,6 @@
         "owner": "AZ",
         "baseClass": "economy",
         "priority": 3,
-        "flightTimeSince": "2017-04-07T00:00:00",
-        "flightTimeUntil": "2027-03-24T00:00:00",
         "tariffCodePattern": "^([^APCDEIJ]\\w*(CL))\\w*$",
         "parameters": [
             {
@@ -366,8 +358,6 @@
         "owner": "AZ",
         "baseClass": "economy",
         "priority": 2,
-        "flightTimeSince": "2017-04-07T00:00:00",
-        "flightTimeUntil": "2027-03-24T00:00:00",
         "tariffCodePattern": "^(\\w*(SV|LG))\\w*$",
         "parameters": [
             {
@@ -448,8 +438,6 @@
         "owner": "AZ",
         "baseClass": "business",
         "priority": 7,
-        "flightTimeSince": "2017-04-07T00:00:00",
-        "flightTimeUntil": "2027-03-24T00:00:00",
         "tariffCodePattern": "^(IRPCRU).*$",
         "parameters": [
             {
@@ -530,8 +518,6 @@
         "owner": "AZ",
         "baseClass": "economy",
         "priority": 1,
-        "flightTimeSince": "2017-04-07T00:00:00",
-        "flightTimeUntil": "2027-03-24T00:00:00",
         "tariffCodePattern": "^(FRPSRU).*$",
         "parameters": [
             {
