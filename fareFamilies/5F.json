@@ -35,14 +35,14 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 места: 1 до 32 кг и 1 до 10 кг",
-                    "en": "2 items: 1 up to 32 kg and 1 up to 10 kg",
-                    "ro": "2 unități: 1 pînă la 32kg și 1 pînă la 10kg"
+                    "ru": "2 места: 1 до 32 кг и 1 до 10 кг (50*40*25); исключение: вылеты из Парижа - 1 место до 32кг/158см",
+                    "en": "2 items: 1 up to 32 kg and 1 up to 10 kg (50*40*25); exception: flights from Paris - 1 item up to 32kg/158cm",
+                    "ro": "2 unități: 1 pînă la 32kg și 1 pînă la 10kg (50*40*25); excepție: zboruri din Paris - 1 unitate pînă la 32kg/158cm"
                 },
                 "fullDescription": {
-                    "ru": "2 места: 1 до 32 кг (габариты не более 158 см по сумме 3 измерений)  и 1 до 10 кг (габариты не более 115 см, 50*40*25)",
-                    "en": "2 items: 1 up to 32 kg (total linear dimension — up to 158 cm)  and 1 up to 10 kg (up to 115 cm, 50*40*25)",
-                    "ro": "2 unități: 1 pînă la 32kg (cu dimensiunile totale de pînă la 158cm) și 1 pînă la 10kg (cu dimensiunile totale de pînă la 115cm)"
+                    "ru": "2 места: 1 до 32 кг (габариты не более 158 см по сумме 3 измерений)  и 1 до 10 кг (габариты не более 115 см, 50*40*25); исключение: вылеты из Парижа - 1 место до 32кг/158см",
+                    "en": "2 items: 1 up to 32 kg (total linear dimension — up to 158 cm)  and 1 up to 10 kg (up to 115 cm, 50*40*25); exception: flights from Paris - 1 item up to 32kg/158cm",
+                    "ro": "2 unități: 1 pînă la 32kg (cu dimensiunile totale de pînă la 158cm) și 1 pînă la 10kg (cu dimensiunile totale de pînă la 115cm); excepție: zboruri din Paris - 1 unitate pînă la 32kg/158cm"
                 },
                 "needToPay": "free"
             },
@@ -194,14 +194,14 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 места: 1 до 23 кг и 1 до 10 кг",
-                    "en": "2 items: 1 up to 23 kg and 1 up to 10 kg",
-                    "ro": "2 unități: 1 pînă la 23kg și 1 pînă la 10kg"
+                    "ru": "2 места: 1 до 23кг/158см и 1 до 10кг/115см (50*40*25); исключение: вылеты из Парижа - 1 место до 23кг/158см",
+                    "en": "2 items: 1 up to 23 kg and 1 up to 10 kg (50*40*25); exception: flights from Paris - 1 item up to 23kg/158cm",
+                    "ro": "2 unități: 1 pînă la 23kg și 1 pînă la 10kg (50*40*25); excepție: zboruri din Paris - 1 unitate pînă la 23kg/158cm"
                 },
                 "fullDescription": {
-                    "ru": "2 места: 1 до 23 кг, габариты не более 158 см, и 1 место до 10 кг, габариты не более 115 см (50*40*25)",
-                    "en": "2 items: 1 up to 23 kg (total linear dimension — up to 158 cm) and 1 up to 10 kg (up to 115 cm, 50*40*25)",
-                    "ro": "2 unități de până la 23kg (cu dimensiunile totale de pînă la 158cm) și 1 pînă la 10kg (cu dimensiunile totale de pînă la 115cm, 50*40*25)"
+                    "ru": "2 места: 1 до 23 кг, габариты не более 158 см, и 1 место до 10 кг, габариты не более 115 см (50*40*25); исключение: вылеты из Парижа - 1 место до 23кг/158см",
+                    "en": "2 items: 1 up to 23 kg (total linear dimension — up to 158 cm) and 1 up to 10 kg (up to 115 cm, 50*40*25); exception: flights from Paris - 1 item up to 23kg/158cm",
+                    "ro": "2 unități de până la 23kg (cu dimensiunile totale de pînă la 158cm) și 1 pînă la 10kg (cu dimensiunile totale de pînă la 115cm, 50*40*25); excepție: zboruri din Paris - 1 unitate pînă la 23kg/158cm"
                 },
                 "needToPay": "free"
             },

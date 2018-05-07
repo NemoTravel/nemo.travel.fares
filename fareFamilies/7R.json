@@ -3,7 +3,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^(HH|HR|K|B|S).*$",
+        "tariffCodePattern": "^(HH|HR|K|B|S).*|([MOUEQHLY](CS)).*$",
         "parameters": [
             {
                 "code": "description",
@@ -95,7 +95,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^(?!HH|HR).*^[AOGUELXVTNMQH]\\w*$",
+        "tariffCodePattern": "^(?!HH|HR).*^[AOGUELXVTNMQH]((?!CS).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -175,7 +175,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^([Y])\\w*$",
+        "tariffCodePattern": "^[Y]((?!CS).)*$",
         "parameters": [
             {
                 "code": "description",
