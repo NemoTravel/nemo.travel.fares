@@ -241,7 +241,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Бюджетный Безбагажный",
-                    "en": "Budget"
+                    "en": "Budget (without baggage)"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -357,7 +357,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Бюджетный Багажный",
-                    "en": "Budget"
+                    "en": "Budget (with baggage)"
                 },
                 "fullDescription": {
                     "ru": "",

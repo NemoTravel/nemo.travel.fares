@@ -1,0 +1,542 @@
+[
+    {
+        "owner": "AY",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^([RZOQNSVL]\\w*(BA))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Базовый",
+                    "en": "Economy Basic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одна единица ручной клади (максимальные габариты 56 x 45 x 25 см) и единица багажа для личного пользования (максимальные габариты 40 x 30 x 15 см). Максимальный общий вес — 8 кг",
+                    "en": "One piece of carry-on baggage (maximum dimensions 56 x 45 x 25 cm) and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 8 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место багажа массой до 23 кг и размером по сумме трех измерений (длина + ширина + высота) до 158 см",
+                    "en": "One piece of baggage with the maximum weight of 23 kg and external dimensions (length + width + height) of up to 158 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения не разрешены",
+                    "en": "Changes are not permitted"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат не разрешен",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Расчет баллов Finnair Plus — 50%",
+                    "en": "Finnair Plus — 50%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AY",
+        "baseClass": "business",
+        "priority": 6,
+        "tariffCodePattern": "^([JCDI]\\w*(BU))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 10 кг в сумме",
+                    "en": "2 items up to 10 kg total"
+                },
+                "fullDescription": {
+                    "ru": "Две единицы ручной клади (максимальные габариты 56 x 45 x 25 см) и единица багажа для личного пользования (максимальные габариты 40 x 30 x 15 см). Максимальный общий вес — 10 кг",
+                    "en": "Two pieces of carry-on baggage (maximum dimensions 56 x 45 x 25 cm)  and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 10 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "3 места до 23 кг каждое",
+                    "en": "3 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Три места багажа массой до 23 кг и размером по сумме трех измерений (длина + ширина + высота) до 158 см каждое",
+                    "en": "Three pieces of baggage with the maximum weight of 23 kg and external dimensions (length + width + height) of up to 158 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены. Изменение имени разрешено за дополнительную плату",
+                    "en": "Changes are permitted. Name changes are available at extra charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Расчет баллов Finnair Plus — 200%",
+                    "en": "Finnair Plus — 200%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетное обслуживание",
+                    "en": "Priority service"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетные регистрация, прохождение контроля (если доступно), посадка",
+                    "en": "Priority check-in, security check (where available) and boarding"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в бизнес-залы",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AY",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^([RZOQNSVL]\\w*(LI))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Light",
+                    "en": "Economy Light"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одна единица ручной клади (максимальные габариты 56 x 45 x 25 см) и единица багажа для личного пользования (максимальные габариты 40 x 30 x 15 см). Максимальный общий вес — 8 кг",
+                    "en": "One piece of carry-on baggage (maximum dimensions 56 x 45 x 25 cm) and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 8 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения не разрешены",
+                    "en": "Changes are not permitted"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Расчет баллов Finnair Plus — 50%",
+                    "en": "Finnair Plus — 50%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат не разрешен",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "AY",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^([YBH]\\w*(PR))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Pro",
+                    "en": "Economy Pro"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одна единица ручной клади (максимальные габариты 56 x 45 x 25 см) и единица багажа для личного пользования (максимальные габариты 40 x 30 x 15 см). Максимальный общий вес — 8 кг",
+                    "en": "One piece of carry-on baggage (maximum dimensions 56 x 45 x 25 cm) and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 8 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Два места багажа массой до 23 кг и размером по сумме трех измерений (длина + ширина + высота) до 158 см каждое",
+                    "en": "Two pieces of baggage with the maximum weight of 23 kg and external dimensions (length + width + height) of up to 158 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены. Изменение имени разрешено за дополнительную плату",
+                    "en": "Changes are permitted. Name changes are available at extra charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Расчет баллов Finnair Plus — 150%",
+                    "en": "Finnair Plus — 150%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетное обслуживание",
+                    "en": "Priority Service"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетные регистрация, прохождение контроля (если доступно), посадка",
+                    "en": "Priority check-in, security check (where available) and boarding"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AY",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "^([I]\\w*(SA))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Saver",
+                    "en": "Business Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 10 кг в сумме",
+                    "en": "2 items up to 10 kg total"
+                },
+                "fullDescription": {
+                    "ru": "Две единицы ручной клади (максимальные габариты 56 x 45 x 25 см) и единица багажа для личного пользования (максимальные габариты 40 x 30 x 15 см). Максимальный общий вес — 10 кг",
+                    "en": "Two pieces of carry-on baggage (maximum dimensions 56 x 45 x 25 cm)  and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 10 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "3 места до 23 кг каждое",
+                    "en": "3 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Три места багажа массой до 23 кг и размером по сумме трех измерений (длина + ширина + высота) до 158 см каждое",
+                    "en": "Three pieces of baggage with the maximum weight of 23 kg and external dimensions (length + width + height) of up to 158 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сбором. Изменение имени разрешено за дополнительную плату",
+                    "en": "Changes are permitted with a penalty. Name changes are available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен со штрафом",
+                    "en": "Refundable with cancellation penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Расчет баллов Finnair Plus — 200%",
+                    "en": "Finnair Plus — 200%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетное обслуживание",
+                    "en": "Priority service"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетные регистрация, прохождение контроля (если доступно), посадка",
+                    "en": "Priority check-in, security check (where available) and boarding"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в бизнес-залы",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AY",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([RZOQNSVLKMPT]\\w*(VA))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Value",
+                    "en": "Economy Value"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одна единица ручной клади (максимальные габариты 56 x 45 x 25 см) и единица багажа для личного пользования (максимальные габариты 40 x 30 x 15 см). Максимальный общий вес — 8 кг",
+                    "en": "One piece of carry-on baggage (maximum dimensions 56 x 45 x 25 cm) and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 8 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место багажа массой до 23 кг и размером по сумме трех измерений (длина + ширина + высота) до 158 см",
+                    "en": "One piece of baggage with the maximum weight of 23 kg and external dimensions (length + width + height) of up to 158 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сбором. Изменение имени разрешено за дополнительную плату",
+                    "en": "Changes are permitted with a penalty. Name changes are available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен со штрафом",
+                    "en": "Refundable with cancellation penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Расчет баллов Finnair Plus — 100%",
+                    "en": "Finnair Plus — 100%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]
