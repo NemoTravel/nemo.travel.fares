@@ -3,7 +3,7 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^((?!Z)\\w)*$",
+        "tariffCodePattern": "^[^ZDC]((?![Z])\\w)*$",
         "parameters": [
             {
                 "code": "description",
@@ -59,7 +59,7 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^(\\w*(Z))\\w*$",
+        "tariffCodePattern": "^((?!Z)\\w*(Z))\\w*$ ",
         "parameters": [
             {
                 "code": "description",
