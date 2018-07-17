@@ -59,7 +59,7 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^((?!Z)\\w*(Z))\\w*$ ",
+        "tariffCodePattern": "^((?!Z)\\w*(Z))\\w*$",
         "parameters": [
             {
                 "code": "description",
