@@ -25,7 +25,7 @@
                 },
                 "fullDescription": {
                     "ru": "Ручная кладь - 1 место до 10 кг",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -141,7 +141,7 @@
                 },
                 "fullDescription": {
                     "ru": "Ручная кладь",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -257,7 +257,7 @@
                 },
                 "fullDescription": {
                     "ru": "Ручная кладь - 1 место до 10 кг",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -373,7 +373,7 @@
                 },
                 "fullDescription": {
                     "ru": "Ручная кладь - 1 место до 10 кг",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -473,7 +473,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Оптимальный Безбагажный",
-                    "en": "Optimum"
+                    "en": "Optimum (without baggage)"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -489,7 +489,7 @@
                 },
                 "fullDescription": {
                     "ru": "Ручная кладь - 1 место до 10 кг",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -589,7 +589,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Оптимальный Багажный",
-                    "en": "Optimum"
+                    "en": "Optimum (with baggage)"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -605,7 +605,7 @@
                 },
                 "fullDescription": {
                     "ru": "Ручная кладь - 1 место до 10 кг",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
