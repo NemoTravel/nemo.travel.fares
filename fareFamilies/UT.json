@@ -29,7 +29,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Hand luggage - 2 items up to 10 kg each"
                 },
                 "needToPay": "free"
             },
@@ -50,12 +50,12 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "200% миль",
-                    "en": "200% Miles",
+                    "en": "200% miles",
                     "de": "200% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "200% FFP miles"
                 },
                 "needToPay": "free"
             },
@@ -142,12 +142,12 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "100% миль",
-                    "en": "100% Miles",
+                    "en": "100% miles",
                     "de": "100% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "100% FFP miles"
                 },
                 "needToPay": "free"
             },
@@ -160,7 +160,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -222,7 +222,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -271,12 +271,12 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "100% миль",
-                    "en": "100% Miles",
+                    "en": "100% miles",
                     "de": "100% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "100% FFP miles"
                 },
                 "needToPay": "free"
             },
@@ -337,7 +337,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -373,12 +373,12 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "25% миль",
-                    "en": "25% Miles",
+                    "en": "25% miles",
                     "de": "25% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "25% FFP miles"
                 },
                 "needToPay": "free"
             }
@@ -422,12 +422,12 @@
                 "code": "miles",
                 "shortDescription": {
                     "ru": "75% миль",
-                    "en": "75% Miles",
+                    "en": "75% miles",
                     "de": "75% Meilen"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "75% FFP miles"
                 },
                 "needToPay": "free"
             },
@@ -440,7 +440,7 @@
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": ""
+                    "en": "Hand luggage - 1 item up to 10 kg"
                 },
                 "needToPay": "free"
             },
