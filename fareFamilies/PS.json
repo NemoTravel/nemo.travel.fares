@@ -3,7 +3,7 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[^ZDC]((?![Z])\\w)*$",
+        "tariffCodePattern": "^[WYPSEKHLVMQNBT]\\w*(BET|LET|SET|BEP|LEP|SEP|BUP|LUP|SUP|FEP|FUP)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -24,34 +24,22 @@
                     "en": "1 item up to 7 kg"
                 },
                 "fullDescription": {
-                    "ru": "Общая норма — 1 место до 7 кг. Для владельцев карт Panorama Club Premium — 1 место до 12 кг",
-                    "en": "General allowance — 1 item up to 7 kg. For Panorama Premium cardholders — 1 item up to 12 kg"
+                    "ru": "Норма провоза ручной клади: 1 место весом до 7 кг, максимальный размер — 115 см (55 x 40 x 20 см). На Embraer-145: 1 место весом до 5 кг, максимальный размер — 105 см (55 x 35 x 15 см)",
+                    "en": "General allowance: 1 item up to 7 kg, total linear dimention — 115 cm (55 x 40 x 20 cm). For Embraer-145: 1 item up to 5 kg, total linear dimention — 105 cm (55 x 35 x 15 cm)"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
+                    "ru": "1 место до 23 кг",
                     "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Норма провоза регистрируемого багажа: 1 место весом до 23 кг, максимальный размер — 158 см",
+                    "en": "General allowance: 1 item up to 23 kg, total linear dimention — 158 cm"
                 },
                 "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Распечатка посадочных талонов",
-                    "en": "Check-in"
-                },
-                "fullDescription": {
-                    "ru": "Взимается плата за распечатку посадочных талонов в аэропорту на стойке регистрации",
-                    "en": "Boarding pass issuance fee applicable if issued at check-in desk only"
-                },
-                "needToPay": "charge"
             }
         ]
     },
@@ -59,7 +47,7 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^((?!Z)\\w*(Z))\\w*$",
+        "tariffCodePattern": "^[WYPSEKHLVMQNBT]\\w*(ZET|NET|ZEP|NEP|ZUP|NUP)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -80,8 +68,8 @@
                     "en": "1 item up to 7 kg"
                 },
                 "fullDescription": {
-                    "ru": "Общая норма — 1 место до 7 кг. Для владельцев карт Panorama Club Premium — 1 место до 12 кг",
-                    "en": "General allowance — 1 item up to 7 kg. For Panorama Premium cardholders — 1 item up to 12 kg"
+                    "ru": "Норма провоза ручной клади: 1 место весом до 7 кг, максимальный размер — 115 см (55 x 40 x 20 см). На Embraer-145: 1 место весом до 5 кг, максимальный размер — 105 см (55 x 35 x 15 см)",
+                    "en": "General allowance: 1 item up to 7 kg, total linear dimention — 115 cm (55 x 40 x 20 cm). For Embraer-145: 1 item up to 5 kg, total linear dimention — 105 cm (55 x 35 x 15 cm)"
                 },
                 "needToPay": "free"
             },
@@ -96,51 +84,48 @@
                     "en": ""
                 },
                 "needToPay": "charge"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Распечатка посадочных талонов",
-                    "en": "Check-in"
-                },
-                "fullDescription": {
-                    "ru": "Взимается плата за распечатку посадочных талонов в аэропорту на стойке регистрации",
-                    "en": "Boarding pass issuance fee applicable if issued at check-in desk only"
-                },
-                "needToPay": "charge"
             }
         ]
     },
     {
         "owner": "PS",
-        "baseClass": "economy",
-        "priority": 9,
-        "tariffCodePattern": "^([YC](IF))$",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "^([CDZFJ])((?!IF).)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "IATA",
-                    "en": "IATA",
-                    "de": "IATA"
-                },
-                "fullDescription": {
-                    "ru": "Тариф является базовым для данного направления и не привязан к авиакомпании. Подробности о предоставляемых услугах уточняйте в условиях применения тарифа",
-                    "en": "This tariff has no connection to the airline and works only on this route. Please check the fare rules for more details",
-                    "de": "Dieser Fahrpreis hat keine Verbindung zur Fluggesellschaft und funktioniert nur auf dieser Strecke. Bitte überprüfen Sie die Tarifregeln für weitere Details"
-                },
-                "needToPay": null
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Информация по провозу ручной клади и багажа уточняется в условиях применения тарифа",
-                    "en": "Check the fare rules to specify the baggage allowance",
-                    "de": "Überprüfen Sie die Tarifbestimmungen, um die Freigepäckmenge festzulegen"
+                    "ru": "Бизнес",
+                    "en": "Business"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 12 кг",
+                    "en": "1 item up to 12 kg"
+                },
+                "fullDescription": {
+                    "ru": "Норма провоза ручной клади: 1 место весом до 12 кг, максимальный размер — 115 см (55 x 40 x 20 см). На Embraer-145: 1 место весом до 5 кг, максимальный размер — 105 см (55 x 35 x 15 см)",
+                    "en": "General allowance: 1 item up to 12 kg, total linear dimention — 115 cm (55 x 40 x 20 cm). For Embraer-145: 1 item up to 5 kg, total linear dimention — 105 cm (55 x 35 x 15 cm)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Норма провоза регистрируемого багажа: 2 места весом до 23 кг каждое, максимальный размер — 158 см каждое",
+                    "en": "General allowance: 2 items up to 32 kg each, total linear dimention — 158 cm each"
                 },
                 "needToPay": "free"
             }

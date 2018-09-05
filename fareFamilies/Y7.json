@@ -2,8 +2,10 @@
     {
         "owner": "Y7",
         "baseClass": "business",
-        "priority": 5,
-        "tariffCodePattern": "^([DI])\\w*\\d*$",
+        "priority": 9,
+        "flightTimeSince": "2017-08-21T00:00:00",
+        "flightTimeUntil": "2018-10-27T00:00:00",
+        "tariffCodePattern": "^([DI])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -102,10 +104,116 @@
                 "needToPay": "free"
             },
             {
-                "code": "meal",
+                "code": "vipService",
                 "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary Meals"
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "Y7",
+        "baseClass": "business",
+        "priority": 12,
+        "flightTimeSince": "2018-10-28T00:00:00",
+        "flightTimeUntil": "2020-10-28T00:00:00",
+        "tariffCodePattern": "^([DI])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Выгодно",
+                    "en": "Business Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 15 кг",
+                    "en": "1 item up to 15 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место ручной клади весом до 15 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см)",
+                    "en": "1 item up to 15 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Предоставляется бесплатная норма провоза багажа",
+                    "en": "Free baggage allowance included"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до отправления рейса",
+                    "en": "Exchange Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения до отправления рейса разрешены",
+                    "en": "Exchangeable before departure"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после отправления рейса",
+                    "en": "Exchange After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после отправления рейса не разрешены",
+                    "en": "Non-exchangeable after departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат до отправления рейса",
+                    "en": "Refund Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до отправления рейса разрешен со сборами",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после отправления рейса",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после отправления рейса не разрешен",
+                    "en": "Non-refundable after departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "150% миль",
+                    "en": "150% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -130,8 +238,128 @@
     {
         "owner": "Y7",
         "baseClass": "business",
-        "priority": 6,
-        "tariffCodePattern": "^([C])\\w*\\d*$",
+        "priority": 13,
+        "flightTimeSince": "2018-10-28T00:00:00",
+        "flightTimeUntil": "2020-10-28T00:00:00",
+        "tariffCodePattern": "^([C])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Легко",
+                    "en": "Business Light"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 15 кг",
+                    "en": "1 item up to 15 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место ручной клади весом до 15 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см)",
+                    "en": "1 item up to 15 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Предоставляется бесплатная норма провоза багажа",
+                    "en": "Free baggage allowance included"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до отправления рейса",
+                    "en": "Exchange Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения до отправления рейса разрешены",
+                    "en": "Exchangeable before departure"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после отправления рейса",
+                    "en": "Exchange After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после отправления рейса разрешены",
+                    "en": "Exchangeable after departure"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат до отправления рейса",
+                    "en": "Refund Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до отправления рейса разрешен без сборов",
+                    "en": "Refundable before departure. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после отправления рейса",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после отправления рейса разрешен без сборов",
+                    "en": "Refundable after departure. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "200% миль",
+                    "en": "200% Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "Y7",
+        "baseClass": "business",
+        "priority": 10,
+        "flightTimeSince": "2017-08-21T00:00:00",
+        "flightTimeUntil": "2018-10-27T00:00:00",
+        "tariffCodePattern": "^([C])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -230,18 +458,6 @@
                 "needToPay": "free"
             },
             {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary Meals"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Бизнес зал",
@@ -258,14 +474,16 @@
     {
         "owner": "Y7",
         "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "((BOW)|(BRT)|(VOW)|(VRT)|(NOW)|(NRT)|(WOW)|(WRT)|(OOW)|(ORT)|(HOW)|(HRT)|(SOW)|(SRT)|(KOW)|(KRT)|(MOW)|(MRT)|(TOW)|(TRT)|(XOW)|(XRT)|(QOW)|(QRT)|(LOW)|(LRT))$",
+        "priority": 10,
+        "flightTimeSince": "2018-10-28T00:00:00",
+        "flightTimeUntil": "2020-10-28T00:00:00",
+        "tariffCodePattern": "^(ASALE)|(([ABVNWOHSKMTXQLY])\\w{2}(2)\\w*)$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Эконом Комфортно",
-                    "en": "Economy Comfort"
+                    "ru": "Эконом Выгодно",
+                    "en": "Economy Saver"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -276,24 +494,24 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
+                    "ru": "1 сумка до 10 кг",
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Одно место ручной клади весом до 10 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см)",
+                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm)"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 20 кг",
-                    "en": "1 item up to 20 kg"
+                    "ru": "Предоставляется бесплатная норма провоза багажа",
+                    "en": "Free baggage allowance included"
                 },
                 "fullDescription": {
-                    "ru": "При выполнении перелета в/из г. Санья (Китай), норма бесплатного провоза багажа составляет 15 кг. Норма бесплатного провоза багажа для остальных перелетов составляет 20 кг",
-                    "en": "In case of flight to/from Sanya (China) — 1 item up to 15 kg. In other case — 1 item up to 20 kg"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -304,8 +522,8 @@
                     "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до отправления рейса запрещены в случае, если авиабилет оформлен по тарифу: BOW, BRT, VOW, VRT, NOW, NRT, WOW, WRT, OOW, ORT, HOW, HRT. Изменения до отправления рейса разрешены в случае, если авиабилет оформлен по тарифу: SOW, SRT, KOW, KRT, MOW, MRT, TOW, TRT, XOW, XRT, QOW, QRT, LOW, LRT",
-                    "en": "Non-exchangeable before departure in case of BOW, BRT, VOW, VRT, NOW, NRT, WOW, WRT, OOW, ORT, HOW, HRT fares. Exchangeable before departure in case of SOW, SRT, KOW, KRT, MOW, MRT, TOW, TRT, XOW, XRT, QOW, QRT, LOW, LRT fares"
+                    "ru": "Изменения до отправления рейса запрещены для подклассов B, V, N, W, O, H. Изменения до отправления рейса разрешены для подклассов S, K, M, T, X, Q, L. Условия могут отличаться для подклассов A, Y",
+                    "en": "Non-exchangeable before departure for subclasses B, V, N, W, O, H. Exchangeable before departure for subclasses S, K, M, T, X, Q, L. The rules may be different for subclasses A, Y"
                 },
                 "needToPay": "notAvailable"
             },
@@ -334,18 +552,6 @@
                 "needToPay": "charge"
             },
             {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат после отправления рейса",
-                    "en": "Refund After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат после отправления рейса не разрешен",
-                    "en": "Non-refundable after departure"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
                 "code": "miles",
                 "shortDescription": {
                     "ru": "50% миль",
@@ -358,24 +564,26 @@
                 "needToPay": "free"
             },
             {
-                "code": "meal",
+                "code": "refundable",
                 "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary Meals"
+                    "ru": "Возврат после отправления рейса",
+                    "en": "Refund After Departure"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат после отправления рейса не разрешен",
+                    "en": "Non-refundable after departure"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             }
         ]
     },
     {
         "owner": "Y7",
         "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "((BOW2)|(BRT2)|(VOW2)|(VRT2)|(NOW2)|(NRT2)|(WOW2)|(WRT2)|(OOW2)|(ORT2)|(HOW2)|(HRT2)|(SOW2)|(SRT2)|(KOW2)|(KRT2)|(MOW2)|(MRT2)|(TOW2)|(TRT2)|(XOW2)|(XRT2)|(QOW2)|(QRT2)|(LOW2)|(LRT2))$",
+        "priority": 7,
+        "flightTimeSince": "2017-08-21T00:00:00",
+        "flightTimeUntil": "2018-10-27T00:00:00",
+        "tariffCodePattern": "^(ASALE)|(([ABVNWOHSKMTXQLY])\\w{2}(2)\\w*)$",
         "parameters": [
             {
                 "code": "description",
@@ -420,8 +628,8 @@
                     "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до отправления рейса запрещены в случае, если авиабилет оформлен по тарифу: BOW2, BRT2, VOW2, VRT2, NOW2, NRT2, WOW2, WRT2, OOW2, ORT2, HOW2, HRT2. Изменения до отправления рейса разрешены в случае, если авиабилет оформлен по тарифу: SOW2, SRT2, KOW2, KRT2, MOW2, MRT2, TOW2, TRT2, XOW2, XRT2, QOW2, QRT2, LOW2, LRT2",
-                    "en": "Non-exchangeable before departure in case of BOW2, BRT2, VOW2, VRT2, NOW2, NRT2, WOW2, WRT2, OOW2, ORT2, HOW2, HRT2 fares. Exchangeable before departure in case of SOW2, SRT2, KOW2, KRT2, MOW2, MRT2, TOW2, TRT2, XOW2, XRT2, QOW2, QRT2, LOW2, LRT2 fares"
+                    "ru": "Изменения до отправления рейса запрещены для подклассов B, V, N, W, O, H. Изменения до отправления рейса разрешены для подклассов S, K, M, T, X, Q, L. Условия могут отличаться для подклассов A, Y",
+                    "en": "Non-exchangeable before departure for subclasses B, V, N, W, O, H. Exchangeable before departure for subclasses S, K, M, T, X, Q, L. The rules may be different for subclasses A, Y"
                 },
                 "needToPay": "notAvailable"
             },
@@ -462,10 +670,104 @@
                 "needToPay": "free"
             },
             {
-                "code": "meal",
+                "code": "refundable",
                 "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary Meals"
+                    "ru": "Возврат после отправления рейса",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после отправления рейса не разрешен",
+                    "en": "Non-refundable after departure"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "Y7",
+        "baseClass": "economy",
+        "priority": 11,
+        "flightTimeSince": "2018-10-28T00:00:00",
+        "flightTimeUntil": "2020-10-28T00:00:00",
+        "tariffCodePattern": "^([ABVNWOHSKMTXQLY])\\w{2}(?!2)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Легко",
+                    "en": "Economy Light"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место ручной клади весом до 10 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см)",
+                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Предоставляется бесплатная норма провоза багажа",
+                    "en": "Free baggage allowance included"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до отправления рейса",
+                    "en": "Exchange Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения до отправления рейса запрещены для подклассов B, V, N, W, O, H. Изменения до отправления рейса разрешены для подклассов S, K, M, T, X, Q, L. Условия могут отличаться для подклассов A, Y",
+                    "en": "Non-exchangeable before departure for subclasses B, V, N, W, O, H. Exchangeable before departure for subclasses S, K, M, T, X, Q, L. The rules may be different for subclasses A, Y"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после отправления рейса",
+                    "en": "Exchange After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после отправления рейса не разрешены",
+                    "en": "Non-exchangeable after departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат до отправления рейса",
+                    "en": "Refund Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до отправления рейса разрешен со сборами",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "50% миль",
+                    "en": "50% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -490,8 +792,10 @@
     {
         "owner": "Y7",
         "baseClass": "economy",
-        "priority": 4,
-        "tariffCodePattern": "^([Y])\\w*\\d*$",
+        "priority": 8,
+        "flightTimeSince": "2017-08-21T00:00:00",
+        "flightTimeUntil": "2018-10-27T00:00:00",
+        "tariffCodePattern": "^([ABVNWOHSKMTXQLY])\\w{2}(?!2)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -524,8 +828,8 @@
                     "en": "1 item up to 20 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "1 сумка до 20 кг. При выполнении перелета в/из города Санья (Китай), норма бесплатного провоза багажа составляет 15 кг",
+                    "en": "1 item up to 20 kg. In case of flight to/from Sanya (China) — 1 item up to 15 kg"
                 },
                 "needToPay": "free"
             },
@@ -536,124 +840,8 @@
                     "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до отправления рейса разрешены",
-                    "en": "Exchangeable before departure"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения после отправления рейса",
-                    "en": "Exchange After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменения после отправления рейса разрешены",
-                    "en": "Exchangeable after departure"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат до отправления рейса",
-                    "en": "Refund Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат до отправления рейса разрешен без сборов",
-                    "en": "Refundable before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "100% миль",
-                    "en": "100% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary Meals"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат после отправления рейса",
-                    "en": "Refund After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат после отправления рейса разрешен без сборов",
-                    "en": "Refundable after departure. No fee applies"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "Y7",
-        "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^([A])\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Промо",
-                    "en": "Promo"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 сумка до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 сумка до 20 кг",
-                    "en": "1 item up to 20 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения до отправления рейса",
-                    "en": "Exchange Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменения до отправления рейса не разрешены",
-                    "en": "Non-exchangeable before departure"
+                    "ru": "Изменения до отправления рейса запрещены для подклассов B, V, N, W, O, H. Изменения до отправления рейса разрешены для подклассов S, K, M, T, X, Q, L. Условия могут отличаться для подклассов A, Y",
+                    "en": "Non-exchangeable before departure for subclasses B, V, N, W, O, H. Exchangeable before departure for subclasses S, K, M, T, X, Q, L. The rules may be different for subclasses A, Y"
                 },
                 "needToPay": "notAvailable"
             },
@@ -684,20 +872,8 @@
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "25% миль",
-                    "en": "25% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary Meals"
+                    "ru": "50% миль",
+                    "en": "50% Miles"
                 },
                 "fullDescription": {
                     "ru": "",

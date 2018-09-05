@@ -87,7 +87,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возможность возврата",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -301,7 +301,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до конца регистрации",
+                    "ru": "Возможность возврата",
                     "en": "Refund Before Check-in Closure",
                     "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
@@ -515,7 +515,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до конца регистрации",
+                    "ru": "Возможность возврата",
                     "en": "Refund Before Check-in Closure",
                     "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
@@ -729,7 +729,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возможность возврата",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -942,7 +942,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возможность возврата",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -1123,7 +1123,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до конца регистрации",
+                    "ru": "Возможность возврата",
                     "en": "Refund Before Check-in Closure",
                     "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
@@ -1303,7 +1303,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возможность возврата",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -1500,7 +1500,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до конца регистрации",
+                    "ru": "Возможность возврата",
                     "en": "Refund Before Check-in Closure",
                     "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },

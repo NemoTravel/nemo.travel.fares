@@ -3,10 +3,6 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 1,
-        "saleTimeSince": "2017-01-16T21:00:00",
-        "saleTimeUntil": "2028-07-13T21:00:00",
-        "flightTimeSince": "2017-03-25T21:00:00",
-        "flightTimeUntil": "2028-03-22T21:00:00",
         "tariffCodePattern": "^[OZUEVFTQNMLKBWR](LT)\\w*$",
         "parameters": [
             {
@@ -87,10 +83,6 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 2,
-        "saleTimeSince": "2017-01-16T21:00:00",
-        "saleTimeUntil": "2028-07-13T21:00:00",
-        "flightTimeSince": "2017-03-25T21:00:00",
-        "flightTimeUntil": "2028-03-22T21:00:00",
         "tariffCodePattern": "^[OZUEVFTQNMLKBWR](ST)\\w*$",
         "parameters": [
             {
@@ -171,10 +163,6 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 3,
-        "saleTimeSince": "2017-01-16T21:00:00",
-        "saleTimeUntil": "2028-07-13T21:00:00",
-        "flightTimeSince": "2017-03-25T21:00:00",
-        "flightTimeUntil": "2028-03-22T21:00:00",
         "tariffCodePattern": "^([Y])\\w*\\d*$",
         "parameters": [
             {

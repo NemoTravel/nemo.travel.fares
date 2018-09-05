@@ -196,8 +196,6 @@
     {
         "owner": "UT",
         "baseClass": "economy",
-        "flightTimeSince": "2017-06-30T21:00:00",
-        "flightTimeUntil": "2027-06-07T21:00:00",
         "tariffCodePattern": "^([UXBNTSY](COMF))\\w*$",
         "parameters": [
             {

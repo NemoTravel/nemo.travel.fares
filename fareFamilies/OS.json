@@ -2,7 +2,7 @@
     {
         "owner": "OS",
         "baseClass": "business",
-        "priority": 4,
+        "priority": 5,
         "tariffCodePattern": "^(\\w*\\d*(BUZ))\\w*\\d*$",
         "parameters": [
             {
@@ -603,6 +603,160 @@
                     "en": "No free lounge access"
                 },
                 "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "OS",
+        "baseClass": "business",
+        "priority": 4,
+        "tariffCodePattern": "^(\\w*\\d*(BXX))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Легкий",
+                    "en": "Business Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительное бронирование места",
+                    "en": "Seat Reservation"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатное резервирование мест",
+                    "en": "Seat reservation — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 8 кг каждое",
+                    "en": "2 pieces up to 8 kg each",
+                    "de": "2 Beutel bis 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": "2 items up to 32 kg each",
+                    "de": "2 Beutel bis 32 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Полное меню",
+                    "en": "Meal & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Свободное место рядом",
+                    "en": "Empty Middle Seat"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатное резервирование мест со свободными местами рядом",
+                    "en": "Seat reservation with empty middle seat — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование не разрешено",
+                    "en": "Rebooking — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили HON Circle",
+                    "en": "HON Circle Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места при регистрации на рейс",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритет в аэропорту",
+                    "en": "Priority Check-in, Baggage Handling and Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     }
