@@ -697,5 +697,73 @@
                 "needToPay": "free"
             }
         ]
+    },
+    {
+        "owner": "AZ",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^(\\w*(LG))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Легкий",
+                    "en": "Economy Light"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "На внутренних рейсах изменение даты и/или маршрута разрешается с доплатой до отправления рейса.  Для вылетов из Европы в США и Канаду изменения даты и/или маршрута разрешаются до и после отправления с доплатой. Для вылетов из США и Канады в Европу изменения даты и/или маршрута не разрешаются",
+                    "en": "Changes to the booking and/or itinerary are allowed as follows: domestic flights — before departure with a charge; international flights — not allowed; flights to US and Canada — before and after departure with a penalty; flights from US and Canada to Italy and Europe — not allowed"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
     }
 ]

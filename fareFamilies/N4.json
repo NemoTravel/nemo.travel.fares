@@ -187,7 +187,7 @@
         "owner": "N4",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI](OP))\\w*$",
+        "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI]\\w*(OPOW|OPRT))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -267,7 +267,7 @@
         "owner": "N4",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI](PR))\\w*$",
+        "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI]\\w*(PROW|PRRT))\\w*$",
         "parameters": [
             {
                 "code": "description",

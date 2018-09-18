@@ -1,0 +1,706 @@
+[
+    {
+        "owner": "DV",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^((APROMO|WDM)(OW|1M|RT)*).*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный Акционный",
+                    "en": "Special Promo",
+                    "kz": "Арнайы науқандық"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "20 кг",
+                    "en": "20 kg",
+                    "kz": "20 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "5 кг",
+                    "en": "5 kg",
+                    "kz": "5 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Изменение маршрута недоступно",
+                    "en": "Changing the route not allowed",
+                    "kz": "Бағытты өзгертуге жол берілмейді"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат разрешен",
+                    "en": "Refund is allowed",
+                    "kz": "Қайтаруға рұқсат етіледі"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен с удержанием сборов",
+                    "en": "Refund is allowed with penalties",
+                    "kz": "Қайтару айыппұлдармен рұқсат етіледі"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен разрешен",
+                    "en": "Exchange is allowed",
+                    "kz": "Алмасу рұқсат етілді"
+                },
+                "fullDescription": {
+                    "ru": "Обмен разрешен с удержанием штрафов",
+                    "en": "Exchange is allowed with penalty",
+                    "kz": "Биржаға айыппұл салынады"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "DV",
+        "baseClass": "economy",
+        "priority": 7,
+        "tariffCodePattern": "^((B|H){1}(OW|RT)).*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Стандарт",
+                    "en": "Economy Standard",
+                    "kz": "Эконом Стандарт"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Изменение маршрута недоступно",
+                    "en": "Changing the route not allowed",
+                    "kz": "Бағытты өзгертуге жол берілмейді"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат разрешен",
+                    "en": "Refund is allowed",
+                    "kz": "Қайтаруға рұқсат етіледі"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен с удержанием сборов",
+                    "en": "Refund is allowed with penalties",
+                    "kz": "Қайтару айыппұлдармен рұқсат етіледі"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "20 кг",
+                    "en": "20 kg",
+                    "kz": "20 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "5 кг",
+                    "en": "5 kg",
+                    "kz": "5 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен разрешен",
+                    "en": "Exchange is allowed",
+                    "kz": "Алмасу рұқсат етілді"
+                },
+                "fullDescription": {
+                    "ru": "Обмен разрешен с удержанием штрафов",
+                    "en": "Exchange is allowed with penalty",
+                    "kz": "Биржаға айыппұл салынады"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "DV",
+        "baseClass": "economy",
+        "priority": 5,
+        "tariffCodePattern": "^([KMTLE]{1}(OW|EE)(3|6)*M*).*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Частично гибкий",
+                    "en": "Semi Flexible",
+                    "kz": "Жартылай икемдi"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "20 кг",
+                    "en": "20 kg",
+                    "kz": "20 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "5 кг",
+                    "en": "5 kg",
+                    "kz": "5 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Изменение маршрута недоступно",
+                    "en": "Changing the route not allowed",
+                    "kz": "Бағытты өзгертуге жол берілмейді"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат разрешен",
+                    "en": "Refund is allowed",
+                    "kz": "Қайтаруға рұқсат етіледі"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен с удержанием сборов",
+                    "en": "Refund is allowed with penalties",
+                    "kz": "Қайтару айыппұлдармен рұқсат етіледі"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен разрешен",
+                    "en": "Exchange is allowed",
+                    "kz": "Алмасу рұқсат етілді"
+                },
+                "fullDescription": {
+                    "ru": "Обмен разрешен с удержанием штрафов",
+                    "en": "Exchange is allowed with penalty",
+                    "kz": "Биржаға айыппұл салынады"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "DV",
+        "baseClass": "economy",
+        "priority": 6,
+        "tariffCodePattern": "^([KXM]{1}PX(OW|3M)).*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Частично гибкий",
+                    "en": "Semi Flexible",
+                    "kz": "Жартылай икемдi"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат разрешен",
+                    "en": "Refund is allowed",
+                    "kz": "Қайтаруға рұқсат етіледі"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен с удержанием сборов",
+                    "en": "Refund is allowed with penalties",
+                    "kz": "Қайтару айыппұлдармен рұқсат етіледі"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "20 кг",
+                    "en": "20 kg",
+                    "kz": "20 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "5 кг",
+                    "en": "5 kg",
+                    "kz": "5 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен разрешен",
+                    "en": "Exchange is allowed",
+                    "kz": "Алмасу рұқсат етілді"
+                },
+                "fullDescription": {
+                    "ru": "Обмен разрешен с удержанием штрафов",
+                    "en": "Exchange is allowed with penalty",
+                    "kz": "Биржаға айыппұл салынады"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Изменение маршрута недоступно",
+                    "en": "Changing the route not allowed",
+                    "kz": "Бағытты өзгертуге жол берілмейді"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "DV",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([NVI]{1}PX(OW|1M)).*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный Ограниченный",
+                    "en": "Special Restricted",
+                    "kz": "Арнайы шектеулi"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "20 кг",
+                    "en": "20 kg",
+                    "kz": "20 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "5 кг",
+                    "en": "5 kg",
+                    "kz": "5 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Изменение маршрута недоступно",
+                    "en": "Changing the route not allowed",
+                    "kz": "Бағытты өзгертуге жол берілмейді"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат разрешен",
+                    "en": "Refund is allowed",
+                    "kz": "Қайтаруға рұқсат етіледі"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен с удержанием сборов",
+                    "en": "Refund is allowed with penalties",
+                    "kz": "Қайтару айыппұлдармен рұқсат етіледі"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен разрешен",
+                    "en": "Exchange is allowed",
+                    "kz": "Алмасу рұқсат етілді"
+                },
+                "fullDescription": {
+                    "ru": "Обмен разрешен с удержанием штрафов",
+                    "en": "Exchange is allowed with penalty",
+                    "kz": "Биржаға айыппұл салынады"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "DV",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^([RPTN]{1}PR(OW|1M)).*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный Стандартный",
+                    "en": "Special Standard",
+                    "kz": "Арнайы шектеулi"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "20 кг",
+                    "en": "20 kg",
+                    "kz": "20 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "5 кг",
+                    "en": "5 kg",
+                    "kz": "5 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Изменение маршрута недоступно",
+                    "en": "Changing the route not allowed",
+                    "kz": "Бағытты өзгертуге жол берілмейді"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен разрешен",
+                    "en": "Exchange is allowed",
+                    "kz": "Алмасу рұқсат етілді"
+                },
+                "fullDescription": {
+                    "ru": "Обмен разрешен с удержанием штрафов",
+                    "en": "Exchange is allowed with penalty",
+                    "kz": "Биржаға айыппұл салынады"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат разрешен",
+                    "en": "Refund is allowed",
+                    "kz": "Қайтаруға рұқсат етіледі"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен с удержанием сборов",
+                    "en": "Refund is allowed with penalties",
+                    "kz": "Қайтару айыппұлдармен рұқсат етіледі"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "DV",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^([SQOVUW]{1}PR(OW|1M)).*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный Промо",
+                    "en": "Special Promo",
+                    "kz": "Арнайы Промо"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "20 кг",
+                    "en": "20 kg",
+                    "kz": "20 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "5 кг",
+                    "en": "5 kg",
+                    "kz": "5 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Изменение маршрута недоступно",
+                    "en": "Changing the route not allowed",
+                    "kz": "Бағытты өзгертуге жол берілмейді"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен разрешен",
+                    "en": "Exchange is allowed",
+                    "kz": "Алмасу рұқсат етілді"
+                },
+                "fullDescription": {
+                    "ru": "Обмен разрешен с удержанием штрафов",
+                    "en": "Exchange is allowed with penalty",
+                    "kz": "Биржаға айыппұл салынады"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат разрешен",
+                    "en": "Refund is allowed",
+                    "kz": "Қайтаруға рұқсат етіледі"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен с удержанием сборов",
+                    "en": "Refund is allowed with penalties",
+                    "kz": "Қайтару айыппұлдармен рұқсат етіледі"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "DV",
+        "baseClass": "economy",
+        "priority": 8,
+        "tariffCodePattern": "^([Y]{1}(OW|RT)).*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий",
+                    "en": "Flexible",
+                    "kz": "Икемдi"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат разрешен",
+                    "en": "Refund is allowed",
+                    "kz": "Қайтаруға рұқсат етіледі"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен без удержания сборов",
+                    "en": "Refund is allowed without any penalties",
+                    "kz": "Қайтаруға ешқандай айыппұл салынбайды"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "5 кг",
+                    "en": "5 kg",
+                    "kz": "5 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "20 кг",
+                    "en": "20 kg",
+                    "kz": "20 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Изменение маршрута недоступно",
+                    "en": "Changing the route not allowed",
+                    "kz": "Бағытты өзгертуге жол берілмейді"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен разрешен",
+                    "en": "Exchange is allowed",
+                    "kz": "Алмасу рұқсат етілді"
+                },
+                "fullDescription": {
+                    "ru": "Разрешено изменение даты вылета без штрафов за обмен",
+                    "en": "Exchange is allowed without penalties for change the date of departure",
+                    "kz": "Алмасу күнін өзгерту үшін айыппұл санкциялары жоқ"
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]
