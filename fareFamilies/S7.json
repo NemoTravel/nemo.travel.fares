@@ -179,7 +179,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "Платный",
-                    "en": "No free baggage allowance"
+                    "en": "No free baggage allowance",
+                    "de": "Der Tarif enthält kein Freigepäck"
                 },
                 "fullDescription": {
                     "ru": "Возможна оплата 1 места багажа до 23 кг, доплата за каждый сегмент",
