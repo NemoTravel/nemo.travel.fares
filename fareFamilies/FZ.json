@@ -1,0 +1,274 @@
+[
+    {
+        "owner": "FZ",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^(\\w*[8])\\w{3}$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальное предложение",
+                    "en": "Special Offer"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 7 кг",
+                    "en": "Up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Включает провоз регистрируемого багажа",
+                    "en": "Free baggage allowance included"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета более чем за 24 часа до вылета разрешен со сборами",
+                    "en": "Refundable for 24 hours or upwards before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета более чем за 24 часа до вылета разрешен со сборами",
+                    "en": "Exhangeable for 24 hours or upwards before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "FZ",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^(\\w*[6])\\w{3}$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Платный обмен",
+                    "en": "Pay To Change"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 7 кг",
+                    "en": "Up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Не включен",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета более чем за 24 часа до вылета разрешен со сборами",
+                    "en": "Refundable for 24 hours or upwards before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета более чем за 24 часа до вылета разрешен со сборами",
+                    "en": "Exhangeable for 24 hours or upwards before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "FZ",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^(\\w*[7])\\w{3}$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бесплатный обмен",
+                    "en": "Free To Change"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 7 кг",
+                    "en": "Up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 20 кг",
+                    "en": "Up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сборами",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета более чем за 24 часа до вылета разрешен без сборов. Оплачивается только разница в тарифе",
+                    "en": "Exhangeable for 24 hours or upwards before departure. No fee applies. Any difference in the fare  needs to be paid"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "FZ",
+        "baseClass": "business",
+        "priority": 4,
+        "tariffCodePattern": "^(\\w*[9])\\w{3}$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес-класс",
+                    "en": "Business Class"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 14 кг",
+                    "en": "Up to 14 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сборами",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета до вылета разрешен без сборов. Оплачивается только разница в тарифе",
+                    "en": "Exhangeable before departure. No fee applies. Any difference in the fare  needs to be paid"
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

@@ -23,7 +23,7 @@
                 "shortDescription": {
                     "ru": "1 место не более 10 кг",
                     "en": "1 item up to 10 kg",
-                    "de": "1 Beutel bis 10 kg"
+                    "de": "1 Gepäckstück bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -36,7 +36,7 @@
                 "shortDescription": {
                     "ru": "2 места не более 23 кг каждое",
                     "en": "2 items up to 23 kg each",
-                    "de": "2 Beutel bis 23 kg"
+                    "de": "2 Gepäckstück bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -87,7 +87,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возможность возврата",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -103,7 +103,7 @@
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания в Комфорт класс",
                     "en": "Cabin Upgrade for Purchase to Comfort",
-                    "de": "Upgrade der Klasse der Service auf die Comfort-Klasse"
+                    "de": "Upgrade der Serviceklasse"
                 },
                 "fullDescription": {
                     "ru": "Возможно платное повышение класса обслуживания в Комфорт класс. На отдельных направлениях могут действовать исключения",
@@ -131,7 +131,7 @@
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
                     "en": "Advance Basic Seat Reservation",
-                    "de": "Vorwahl der Standardsitze in der Kabine"
+                    "de": "Einen Sitzplatz in der Kabine buchen"
                 },
                 "fullDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется только после оформления авиабилета путем выбора мест через сервис онлайн-услуг (проверить бронирование)",
@@ -173,12 +173,12 @@
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
                     "en": "Priority Check-in",
-                    "de": "Dedizierter Check-In Schreibtisch"
+                    "de": "Abgetrennter Check-in-Schalter"
                 },
                 "fullDescription": {
                     "ru": "Выделенная стойка регистрации — недоступно",
                     "en": "Priority check-in — not available",
-                    "de": "Dedizierter Check-In Schreibtisch — nicht verfügbar"
+                    "de": "Abgetrennter Check-in-Schalter — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -236,7 +236,7 @@
                 "shortDescription": {
                     "ru": "1 место не более 10 кг",
                     "en": "1 item up to 10 kg",
-                    "de": "1 Beutel bis 10 kg"
+                    "de": "1 Gepäckstück bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -262,7 +262,7 @@
                 "shortDescription": {
                     "ru": "1 место не более 23 кг",
                     "en": "1 item up to 23 kg",
-                    "de": "1 Beutel bis 23 kg"
+                    "de": "1 Gepäckstück bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -280,7 +280,7 @@
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
                     "en": "Making changes to the issued ticket before the time of the flight is allowed with fees",
-                    "de": "Änderungen an der ausgegebenen Eintrittskarte vor der Zeit des Fluges sind mit Gebühren erlaubt"
+                    "de": "Kostenpflichtige Änderungen für den gewählten Tarif sind vor der Abflugzeit möglich"
                 },
                 "needToPay": "charge"
             },
@@ -301,7 +301,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до конца регистрации",
+                    "ru": "Возможность возврата",
                     "en": "Refund Before Check-in Closure",
                     "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
@@ -317,7 +317,7 @@
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания в Комфорт класс",
                     "en": "Cabin Upgrade for Purchase to Comfort",
-                    "de": "Upgrade der Klasse der Service auf die Comfort-Klasse"
+                    "de": "Upgrade der Serviceklasse"
                 },
                 "fullDescription": {
                     "ru": "Возможно платное повышение класса обслуживания в Комфорт класс. На отдельных направлениях могут действовать исключения",
@@ -345,7 +345,7 @@
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
                     "en": "Advance Basic Seat Reservation",
-                    "de": "Vorwahl der Standardsitze in der Kabine"
+                    "de": "Einen Sitzplatz in der Kabine buchen"
                 },
                 "fullDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется только после оформления авиабилета путем выбора мест через сервис онлайн-услуг (проверить бронирование)",
@@ -387,12 +387,12 @@
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
                     "en": "Priority Check-in",
-                    "de": "Dedizierter Check-In Schreibtisch"
+                    "de": "Abgetrennter Check-in-Schalter"
                 },
                 "fullDescription": {
                     "ru": "Выделенная стойка регистрации — недоступно",
                     "en": "Priority check-in — not available",
-                    "de": "Dedizierter Check-In Schreibtisch — nicht verfügbar"
+                    "de": "Abgetrennter Check-in-Schalter — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -450,7 +450,7 @@
                 "shortDescription": {
                     "ru": "1 место не более 10 кг",
                     "en": "1 item up to 10 kg",
-                    "de": "1 Beutel bis 10 kg"
+                    "de": "1 Gepäckstück bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -463,7 +463,7 @@
                 "shortDescription": {
                     "ru": "1 место не более 23 кг",
                     "en": "1 item up to 23 kg",
-                    "de": "1 Beutel bis 23 kg"
+                    "de": "1 Gepäckstück bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -494,7 +494,7 @@
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
                     "en": "Making changes to the issued ticket before the time of the flight is allowed with fees",
-                    "de": "Änderungen an der ausgegebenen Eintrittskarte vor der Zeit des Fluges sind mit Gebühren erlaubt"
+                    "de": "Kostenpflichtige Änderungen für den gewählten Tarif sind vor der Abflugzeit möglich"
                 },
                 "needToPay": "charge"
             },
@@ -515,7 +515,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до конца регистрации",
+                    "ru": "Возможность возврата",
                     "en": "Refund Before Check-in Closure",
                     "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
@@ -531,7 +531,7 @@
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания в Комфорт класс",
                     "en": "Cabin Upgrade for Purchase to Comfort",
-                    "de": "Upgrade der Klasse der Service auf die Comfort-Klasse"
+                    "de": "Upgrade der Serviceklasse"
                 },
                 "fullDescription": {
                     "ru": "Возможно платное повышение класса обслуживания в Комфорт класс. На отдельных направлениях могут действовать исключения",
@@ -559,7 +559,7 @@
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
                     "en": "Advance Basic Seat Reservation",
-                    "de": "Vorwahl der Standardsitze in der Kabine"
+                    "de": "Einen Sitzplatz in der Kabine buchen"
                 },
                 "fullDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
@@ -601,12 +601,12 @@
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
                     "en": "Priority Check-in",
-                    "de": "Dedizierter Check-In Schreibtisch"
+                    "de": "Abgetrennter Check-in-Schalter"
                 },
                 "fullDescription": {
                     "ru": "Выделенная стойка регистрации — недоступно",
                     "en": "Priority check-in — not available",
-                    "de": "Dedizierter Check-In Schreibtisch — nicht verfügbar"
+                    "de": "Abgetrennter Check-in-Schalter — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -664,7 +664,7 @@
                 "shortDescription": {
                     "ru": "1 место не более 10 кг",
                     "en": "1 item up to 10 kg",
-                    "de": "1 Beutel bis 10 kg"
+                    "de": "1 Gepäckstück bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -695,7 +695,7 @@
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
                     "en": "Making changes to the issued ticket before the time of the flight is allowed with fees",
-                    "de": "Änderungen an der ausgegebenen Eintrittskarte vor der Zeit des Fluges sind mit Gebühren erlaubt"
+                    "de": "Kostenpflichtige Änderungen für den gewählten Tarif sind vor der Abflugzeit möglich"
                 },
                 "needToPay": "charge"
             },
@@ -704,7 +704,7 @@
                 "shortDescription": {
                     "ru": "1 место не более 23 кг",
                     "en": "1 item up to 23 kg",
-                    "de": "1 Beutel bis 23 kg"
+                    "de": "1 Gepäckstück bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -729,7 +729,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возможность возврата",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -745,7 +745,7 @@
                 "shortDescription": {
                     "ru": "Повышение класса обслуживания в Комфорт класс",
                     "en": "Cabin Upgrade for Purchase to Comfort",
-                    "de": "Upgrade der Klasse der Service auf die Comfort-Klasse"
+                    "de": "Upgrade der Serviceklasse"
                 },
                 "fullDescription": {
                     "ru": "Возможно платное повышение класса обслуживания в Комфорт класс. На отдельных направлениях могут действовать исключения",
@@ -773,7 +773,7 @@
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
                     "en": "Advance Basic Seat Reservation",
-                    "de": "Vorwahl der Standardsitze in der Kabine"
+                    "de": "Einen Sitzplatz in der Kabine buchen"
                 },
                 "fullDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
@@ -815,12 +815,12 @@
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
                     "en": "Priority Check-in",
-                    "de": "Dedizierter Check-In Schreibtisch"
+                    "de": "Abgetrennter Check-in-Schalter"
                 },
                 "fullDescription": {
                     "ru": "Выделенная стойка регистрации — недоступно",
                     "en": "Priority check-in — not available",
-                    "de": "Dedizierter Check-In Schreibtisch — nicht verfügbar"
+                    "de": "Abgetrennter Check-in-Schalter — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -891,7 +891,7 @@
                 "shortDescription": {
                     "ru": "1 место не более 15 кг",
                     "en": "1 item up to 15 kg",
-                    "de": "1 Beutel bis 15 kg"
+                    "de": "1 Gepäckstück bis 15 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -904,7 +904,7 @@
                 "shortDescription": {
                     "ru": "2 места не более 32 кг каждое",
                     "en": "2 items up to 32 kg each",
-                    "de": "2 Beutel bis 32 kg"
+                    "de": "2 Gepäckstück bis 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -942,7 +942,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возможность возврата",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -958,7 +958,7 @@
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
                     "en": "Advance Basic Seat Reservation",
-                    "de": "Vorwahl der Standardsitze in der Kabine"
+                    "de": "Einen Sitzplatz in der Kabine buchen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -997,7 +997,7 @@
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
                     "en": "Priority Check-in",
-                    "de": "Dedizierter Check-In Schreibtisch"
+                    "de": "Abgetrennter Check-in-Schalter"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1071,7 +1071,7 @@
                 "shortDescription": {
                     "ru": "1 место не более 15 кг",
                     "en": "1 item up to 15 kg",
-                    "de": "1 Beutel bis 15 kg"
+                    "de": "1 Gepäckstück bis 15 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1084,7 +1084,7 @@
                 "shortDescription": {
                     "ru": "2 места не более 32 кг каждое",
                     "en": "2 items up to 32 kg each",
-                    "de": "2 Beutel bis 32 kg"
+                    "de": "2 Gepäckstück bis 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1102,7 +1102,7 @@
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
                     "en": "Making changes to the issued ticket before the time of the flight is allowed with fees",
-                    "de": "Änderungen an der ausgegebenen Eintrittskarte vor der Zeit des Fluges sind mit Gebühren erlaubt"
+                    "de": "Kostenpflichtige Änderungen für den gewählten Tarif sind vor der Abflugzeit möglich"
                 },
                 "needToPay": "charge"
             },
@@ -1123,7 +1123,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до конца регистрации",
+                    "ru": "Возможность возврата",
                     "en": "Refund Before Check-in Closure",
                     "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
@@ -1139,7 +1139,7 @@
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
                     "en": "Advance Basic Seat Reservation",
-                    "de": "Vorwahl der Standardsitze in der Kabine"
+                    "de": "Einen Sitzplatz in der Kabine buchen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1178,7 +1178,7 @@
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
                     "en": "Priority Check-in",
-                    "de": "Dedizierter Check-In Schreibtisch"
+                    "de": "Abgetrennter Check-in-Schalter"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1252,7 +1252,7 @@
                 "shortDescription": {
                     "ru": "1 место не более 10 кг",
                     "en": "1 item up to 10 kg",
-                    "de": "1 Beutel bis 10 kg"
+                    "de": "1 Gepäckstück bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1265,7 +1265,7 @@
                 "shortDescription": {
                     "ru": "2 места не более 23 кг каждое",
                     "en": "2 items up to 23 kg each",
-                    "de": "2 Beutel bis 23 kg"
+                    "de": "2 Gepäckstück bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1303,7 +1303,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возможность возврата",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -1332,7 +1332,7 @@
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
                     "en": "Advance Basic Seat Reservation",
-                    "de": "Vorwahl der Standardsitze in der Kabine"
+                    "de": "Einen Sitzplatz in der Kabine buchen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1373,12 +1373,12 @@
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
                     "en": "Priority Check-in",
-                    "de": "Dedizierter Check-In Schreibtisch"
+                    "de": "Abgetrennter Check-in-Schalter"
                 },
                 "fullDescription": {
                     "ru": "Выделенная стойка регистрации — недоступно",
                     "en": "Priority check-in — not available",
-                    "de": "Dedizierter Check-In Schreibtisch — nicht verfügbar"
+                    "de": "Abgetrennter Check-in-Schalter — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -1448,7 +1448,7 @@
                 "shortDescription": {
                     "ru": "1 место не более 10 кг",
                     "en": "1 item up to 10 kg",
-                    "de": "1 Beutel bis 10 kg"
+                    "de": "1 Gepäckstück bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1461,7 +1461,7 @@
                 "shortDescription": {
                     "ru": "2 места не более 23 кг каждое",
                     "en": "2 items up to 23 kg each",
-                    "de": "2 Beutel bis 23 kg"
+                    "de": "2 Gepäckstück bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1479,7 +1479,7 @@
                 "fullDescription": {
                     "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
                     "en": "Making changes to the issued ticket before the time of the flight is allowed with fees",
-                    "de": "Änderungen an der ausgegebenen Eintrittskarte vor der Zeit des Fluges sind mit Gebühren erlaubt"
+                    "de": "Kostenpflichtige Änderungen für den gewählten Tarif sind vor der Abflugzeit möglich"
                 },
                 "needToPay": "charge"
             },
@@ -1500,7 +1500,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до конца регистрации",
+                    "ru": "Возможность возврата",
                     "en": "Refund Before Check-in Closure",
                     "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
@@ -1530,7 +1530,7 @@
                 "shortDescription": {
                     "ru": "Предварительный выбор стандартных мест в салоне ВС",
                     "en": "Advance Basic Seat Reservation",
-                    "de": "Vorwahl der Standardsitze in der Kabine"
+                    "de": "Einen Sitzplatz in der Kabine buchen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1571,12 +1571,12 @@
                 "shortDescription": {
                     "ru": "Выделенная стойка регистрации",
                     "en": "Priority Check-in",
-                    "de": "Dedizierter Check-In Schreibtisch"
+                    "de": "Abgetrennter Check-in-Schalter"
                 },
                 "fullDescription": {
                     "ru": "Выделенная стойка регистрации — недоступно",
                     "en": "Priority check-in — not available",
-                    "de": "Dedizierter Check-In Schreibtisch — nicht verfügbar"
+                    "de": "Abgetrennter Check-in-Schalter — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
             },

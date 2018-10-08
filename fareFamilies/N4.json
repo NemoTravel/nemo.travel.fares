@@ -3,7 +3,7 @@
         "owner": "N4",
         "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^([CSDWZ]\\w*(OP))\\w*$",
+        "tariffCodePattern": "^([CSDWZ](OP))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -107,7 +107,7 @@
         "owner": "N4",
         "baseClass": "business",
         "priority": 3,
-        "tariffCodePattern": "^([CSDWZ]\\w*(PR))\\w*$",
+        "tariffCodePattern": "^([CSDWZ](PR))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -187,7 +187,7 @@
         "owner": "N4",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI]\\w*(OP))\\w*$",
+        "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI]\\w*(OPOW|OPRT))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -267,7 +267,7 @@
         "owner": "N4",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI]\\w*(PR))\\w*$",
+        "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI]\\w*(PROW|PRRT))\\w*$",
         "parameters": [
             {
                 "code": "description",
