@@ -50,7 +50,7 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[WYPSEKHLVMQNBT]\\w*(ZET|NET|ZEP|NEP|ZUP|NUP)\\w*$",
+        "tariffCodePattern": "^[WYPSEKHLVMQNBT]\\w*(ZE|NE|ZE|NE|ZU|NU)\\w*$",
         "parameters": [
             {
                 "code": "description",
