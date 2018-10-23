@@ -89,7 +89,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[YSBHKMNQEUOLVXT]\\w*(LT).*$",
+        "tariffCodePattern": "^[YSBHKMNQEUOLVXTR]\\w*(LT).*$",
         "parameters": [
             {
                 "code": "description",
