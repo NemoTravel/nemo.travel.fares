@@ -4,8 +4,8 @@
         "baseClass": "business",
         "priority": 9,
         "flightTimeSince": "2017-08-21T00:00:00",
-        "flightTimeUntil": "2018-10-27T00:00:00",
-        "tariffCodePattern": "^([DI])\\w*$",
+        "flightTimeUntil": "2018-10-28T00:00:00",
+        "tariffCodePattern": "^([DI]).*$",
         "parameters": [
             {
                 "code": "description",
@@ -123,7 +123,7 @@
         "priority": 12,
         "flightTimeSince": "2018-10-28T00:00:00",
         "flightTimeUntil": "2020-10-28T00:00:00",
-        "tariffCodePattern": "^([DI])\\w*$",
+        "tariffCodePattern": "^([DI]).*$",
         "parameters": [
             {
                 "code": "description",
@@ -240,8 +240,8 @@
         "baseClass": "business",
         "priority": 10,
         "flightTimeSince": "2017-08-21T00:00:00",
-        "flightTimeUntil": "2018-10-27T00:00:00",
-        "tariffCodePattern": "^([C])\\w*$",
+        "flightTimeUntil": "2018-10-28T00:00:00",
+        "tariffCodePattern": "^([C]).*$",
         "parameters": [
             {
                 "code": "description",
@@ -359,7 +359,7 @@
         "priority": 13,
         "flightTimeSince": "2018-10-28T00:00:00",
         "flightTimeUntil": "2020-10-28T00:00:00",
-        "tariffCodePattern": "^([C])\\w*$",
+        "tariffCodePattern": "^([C]).*$",
         "parameters": [
             {
                 "code": "description",
@@ -476,8 +476,8 @@
         "baseClass": "economy",
         "priority": 7,
         "flightTimeSince": "2017-08-21T00:00:00",
-        "flightTimeUntil": "2018-10-27T00:00:00",
-        "tariffCodePattern": "^(ASALE)|(([ABVNWOHSKMTXQLY])\\w{2}(2)\\w*)$",
+        "flightTimeUntil": "2018-10-28T00:00:00",
+        "tariffCodePattern": "^(ASALE)|(([ABVNWOHSKMTXQLY])\\w{2}(2).*)$",
         "parameters": [
             {
                 "code": "description",
@@ -583,7 +583,7 @@
         "priority": 10,
         "flightTimeSince": "2018-10-28T00:00:00",
         "flightTimeUntil": "2020-10-28T00:00:00",
-        "tariffCodePattern": "^(ASALE)|(([ABVNWOHSKMTXQLY])\\w{2}(2)\\w*)$",
+        "tariffCodePattern": "^(ASALE)|(([ABVNWOHSKMTXQLY])\\w{2}(2).*)$",
         "parameters": [
             {
                 "code": "description",
@@ -688,8 +688,8 @@
         "baseClass": "economy",
         "priority": 8,
         "flightTimeSince": "2017-08-21T00:00:00",
-        "flightTimeUntil": "2018-10-27T00:00:00",
-        "tariffCodePattern": "^([ABVNWOHSKMTXQLY])\\w{2}(?!2)\\w*$",
+        "flightTimeUntil": "2018-10-28T00:00:00",
+        "tariffCodePattern": "^([ABVNWOHSKMTXQLY])\\w{2}(?!2).*$",
         "parameters": [
             {
                 "code": "description",
@@ -795,7 +795,7 @@
         "priority": 11,
         "flightTimeSince": "2018-10-28T00:00:00",
         "flightTimeUntil": "2020-10-28T00:00:00",
-        "tariffCodePattern": "^([ABVNWOHSKMTXQLY])\\w{2}(?!2)\\w*$",
+        "tariffCodePattern": "^([ABVNWOHSKMTXQLY])\\w{2}(?!2).*$",
         "parameters": [
             {
                 "code": "description",

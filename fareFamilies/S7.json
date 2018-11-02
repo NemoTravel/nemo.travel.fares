@@ -3,7 +3,7 @@
         "owner": "S7",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^(\\w*(FL))\\w*$",
+        "tariffCodePattern": "^(\\w*(FL|FO))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -119,7 +119,7 @@
         "owner": "S7",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^(\\w*(BS))\\w*$",
+        "tariffCodePattern": "^(\\w*(BS|BO))\\w*$",
         "parameters": [
             {
                 "code": "description",
