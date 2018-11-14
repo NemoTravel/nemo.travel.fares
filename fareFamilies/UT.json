@@ -36,9 +36,9 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each",
-                    "de": "2 Beutel bis 32 kg"
+                    "ru": "2 сумки до 30 кг каждая",
+                    "en": "2 items up to 30 kg each",
+                    "de": "2 Beutel bis 30 kg"
                 },
                 "fullDescription": {
                     "ru": "",
