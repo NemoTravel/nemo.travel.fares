@@ -380,14 +380,14 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 места общим весом до 15 кг",
-                    "en": "2 pieces up to 15 kg in total",
+                    "ru": "общим весом не более 15 кг, размер 55*40*20",
+                    "en": "15 kg in total",
                     "de": "Bis zu 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "2 места общим весом не более 15 кг, размер 55*40*20",
-                    "en": "2 pieces up to 15 kg in total, size 55*40*20",
-                    "de": "2 Stück bis 15 kg alle, Größe 55 * 40 * 20"
+                    "ru": "общим весом не более 15 кг, размер 55*40*20",
+                    "en": "15 kg in total, size 55*40*20",
+                    "de": "15 kg alle, Größe 55 * 40 * 20"
                 },
                 "needToPay": "free"
             },
