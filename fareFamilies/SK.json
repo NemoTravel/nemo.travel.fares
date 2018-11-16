@@ -107,7 +107,7 @@
         "owner": "SK",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[EMHQVWUKLTOG]((?!LIGHT)\\w)*$",
+        "tariffCodePattern": "^[EMHQVWUKLTOG]+((LIGHT)\\w?)*$",
         "parameters": [
             {
                 "code": "description",
