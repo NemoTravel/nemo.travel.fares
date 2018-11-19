@@ -174,6 +174,74 @@
   {
     "owner": "SK",
     "baseClass": "economy",
+    "priority": 6,
+    "tariffCodePattern": "^[EMHQVWUKLTOG]\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "SAS Go",
+          "en": ""
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 сумка до 8 кг",
+          "en": "1 item up to 8 kg"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "1 сумка до 23 кг",
+          "en": "1 item up to 23 kg"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Тариф полностью невозвратный",
+          "en": "Non-refundable"
+        },
+        "needToPay": "notAvailable"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Перебронирование",
+          "en": "Rebooking"
+        },
+        "fullDescription": {
+          "ru": "Перебронирование разрешено со сборами",
+          "en": "Rebooking — available. A fee applies"
+        },
+        "needToPay": "charge"
+      }
+    ]
+  },
+  {
+    "owner": "SK",
+    "baseClass": "economy",
     "priority": 1,
     "tariffCodePattern": "^(\\w*\\d*(LIGHT))\\w*\\d*$",
     "parameters": [
@@ -241,7 +309,7 @@
   },
   {
     "owner": "SK",
-    "baseClass": "premiumEconomy",
+    "baseClass": "economy",
     "priority": 4,
     "tariffCodePattern": "^[CJYSBPA]+((SAVER)\\w)*",
     "parameters": [
@@ -345,7 +413,7 @@
   },
   {
     "owner": "SK",
-    "baseClass": "premiumEconomy",
+    "baseClass": "economy",
     "priority": 3,
     "tariffCodePattern": "^(\\w*\\d*(SAVER))\\w*\\d*$",
     "parameters": [
