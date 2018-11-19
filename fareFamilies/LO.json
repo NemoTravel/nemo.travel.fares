@@ -313,9 +313,9 @@
     },
     {
         "owner": "LO",
-        "baseClass": "premiumEconomy",
+        "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^(\\w*(SPC))\\w*$",
+        "tariffCodePattern": "^(\\w*[SPC])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -441,7 +441,7 @@
     },
     {
         "owner": "LO",
-        "baseClass": "premiumEconomy",
+        "baseClass": "economy",
         "priority": 5,
         "tariffCodePattern": "^(\\w*(PML))\\w*$",
         "parameters": [
