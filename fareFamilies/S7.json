@@ -36,12 +36,12 @@
                 "shortDescription": {
                     "ru": "1 место до 10 кг",
                     "en": "1 piece up to 10 kg",
-                    "de": "1 Gepäckstück bis 10 kg"
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "1 место до 10 кг, размер 55*40*20 см",
                     "en": "1 piece up to 10 kg, size 55*40*20 cm",
-                    "de": "1 Gepäckstück bis 10 kg, Größe 55 * 40 * 20"
+                    "de": "1 Beutel bis 10 kg, Größe 55 * 40 * 20"
                 },
                 "needToPay": "free"
             },
@@ -50,7 +50,7 @@
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
                     "en": "1 piece up to 23 kg",
-                    "de": "1 Gepäckstück bis 23 kg"
+                    "de": "1 Beutel bis 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -139,12 +139,12 @@
                 "shortDescription": {
                     "ru": "1 место до 10 кг",
                     "en": "1 piece up to 10 kg",
-                    "de": "1 Gepäckstück bis 10 kg"
+                    "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
                     "ru": "1 место до 10 кг, размер 55*40*20 см",
                     "en": "1 piece up to 10 kg, size 55*40*20 cm",
-                    "de": "1 Gepäckstück bis 10 kg, Größe 55 * 40 * 20"
+                    "de": "1 Beutel bis 10 kg, Größe 55 * 40 * 20"
                 },
                 "needToPay": "free"
             },
@@ -295,7 +295,7 @@
                 "shortDescription": {
                     "ru": "2 места по 32 кг",
                     "en": "2 pieces up to 32 kg each",
-                    "de": "2 Gepäckstück bis 32 kg"
+                    "de": "2 Beutel bis 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -396,7 +396,7 @@
                 "shortDescription": {
                     "ru": "1 место 32 кг",
                     "en": "1 piece up to 32 kg",
-                    "de": "1 Gepäckstück bis 32 kg"
+                    "de": "1 Beutel bis 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",

@@ -470,7 +470,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^(WNBCOW)$",
+        "tariffCodePattern": "^[EW](NBCOW)$",
         "parameters": [
             {
                 "code": "description",
