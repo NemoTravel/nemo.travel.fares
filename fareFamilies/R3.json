@@ -3,122 +3,6 @@
         "owner": "R3",
         "baseClass": "business",
         "priority": 6,
-        "tariffCodePattern": "^([JDC](SB)(CKR))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Бизнес",
-                    "en": "Business"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "Ручная кладь - 1 место до 10 кг",
-                    "en": "Hand luggage - 1 item up to 10 kg"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "3 места с общим весом до 40 кг",
-                    "en": "3 items up to 40 kg in total"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты вылета — более 24 часов до вылета",
-                    "en": "Date Changes — 24 hours or upwards before departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты вылета за более чем 24 часа до вылета разрешено без сбора",
-                    "en": "Date changes are available for 24 hours or upwards before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты вылета — менее 24 часов до вылета",
-                    "en": "Date Changes — less than 24 hours before departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты вылета за менее чем 24 часа до вылета разрешено со сбором",
-                    "en": "Date changes are available for less than 24 hours before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты вылета — после вылета",
-                    "en": "Date Changes — after departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты вылета после вылета разрешено со сбором",
-                    "en": "Date changes are available after departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат — более 24 часов до вылета",
-                    "en": "Refund — 24 hours or upwards before departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета за более чем 24 часа до вылета запрещен",
-                    "en": "Refundable for 24 hours or upwards before departure. No fee applies"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат — менее 24 часов до вылета",
-                    "en": "Refund — less than 24 hours before departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета за менее чем 24 часа до вылета запрещен",
-                    "en": "Refundable for less than 24 hours before departure. A fee applies"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат — после вылета",
-                    "en": "Refund — after departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета после вылета запрещен",
-                    "en": "Refundable after departure. A fee applies"
-                },
-                "needToPay": "notAvailable"
-            }
-        ]
-    },
-    {
-        "owner": "R3",
-        "baseClass": "business",
-        "priority": 6,
         "tariffCodePattern": "^([JDC](SB)(?!CKR))\\w*$",
         "parameters": [
             {
@@ -228,6 +112,122 @@
                     "en": "Refundable after departure. A fee applies"
                 },
                 "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "R3",
+        "baseClass": "business",
+        "priority": 6,
+        "tariffCodePattern": "^([JDC](SB)(CKR))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Ручная кладь - 1 место до 10 кг",
+                    "en": "Hand luggage - 1 item up to 10 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "3 места с общим весом до 40 кг",
+                    "en": "3 items up to 40 kg in total"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета — более 24 часов до вылета",
+                    "en": "Date Changes — 24 hours or upwards before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета за более чем 24 часа до вылета разрешено без сбора",
+                    "en": "Date changes are available for 24 hours or upwards before departure. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета — менее 24 часов до вылета",
+                    "en": "Date Changes — less than 24 hours before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета за менее чем 24 часа до вылета разрешено со сбором",
+                    "en": "Date changes are available for less than 24 hours before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета — после вылета",
+                    "en": "Date Changes — after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета после вылета разрешено со сбором",
+                    "en": "Date changes are available after departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат — более 24 часов до вылета",
+                    "en": "Refund — 24 hours or upwards before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета за более чем 24 часа до вылета запрещен",
+                    "en": "Refundable for 24 hours or upwards before departure. No fee applies"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат — менее 24 часов до вылета",
+                    "en": "Refund — less than 24 hours before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета за менее чем 24 часа до вылета запрещен",
+                    "en": "Refundable for less than 24 hours before departure. A fee applies"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат — после вылета",
+                    "en": "Refund — after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета запрещен",
+                    "en": "Refundable after departure. A fee applies"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     },
