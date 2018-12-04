@@ -9,7 +9,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Премиум",
-                    "en": ""
+                    "en": "Premium"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -77,7 +77,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Стандарт",
-                    "en": ""
+                    "en": "Standard"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -121,7 +121,7 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Плюс",
-                    "en": ""
+                    "en": "Plus"
                 },
                 "fullDescription": {
                     "ru": "",
