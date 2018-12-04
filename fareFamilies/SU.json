@@ -1609,5 +1609,97 @@
                 "needToPay": "free"
             }
         ]
+    },
+    {
+        "owner": "SU",
+        "baseClass": "economy",
+        "priority": 0,
+        "tariffCodePattern": "^((BPX)(OW|RT)(RF|FV))*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "ЭКОНОМ ПЛОСКИЙ",
+                    "en": "ECONOMY FLAT"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место не более 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "25% миль",
+                    "en": "25% Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место не более 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Rebooking Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
+                    "en": "Making changes to the issued ticket before the time of the flight is allowed with fees"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус»",
+                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members"
+                },
+                "fullDescription": {
+                    "ru": "Возможно повышение класса обслуживания за мили «Аэрофлот Бонус»",
+                    "en": "Cabin award upgrade for Aeroflot Bonus members — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возможность возврата",
+                    "en": "Refund Before Check-in Closure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат стоимости билета до окончания регистрации разрешен со сборами",
+                    "en": "Ticket refund before the end of registration is allowed with additional fees"
+                },
+                "needToPay": "charge"
+            }
+        ]
     }
 ]
