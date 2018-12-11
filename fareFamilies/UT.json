@@ -3,6 +3,8 @@
         "owner": "UT",
         "baseClass": "business",
         "priority": 4,
+        "flightTimeSince": "2017-12-10T00:00:00",
+        "flightTimeUntil": "2019-01-31T00:00:00",
         "perTicketRefundPenalty": "2000RUB",
         "perTicketExchangePenalty": "1000RUB",
         "tariffCodePattern": "^([ADCJ](FLEX))\\w*$",
@@ -107,6 +109,8 @@
         "owner": "UT",
         "baseClass": "economy",
         "priority": 3,
+        "flightTimeSince": "2017-12-10T00:00:00",
+        "flightTimeUntil": "2019-01-31T00:00:00",
         "perTicketRefundPenalty": "2000RUB",
         "perTicketExchangePenalty": "1000RUB",
         "tariffCodePattern": "^([A-LN-Z](FLEX))\\w*$",
@@ -196,6 +200,8 @@
     {
         "owner": "UT",
         "baseClass": "economy",
+        "flightTimeSince": "2017-12-10T00:00:00",
+        "flightTimeUntil": "2019-01-31T00:00:00",
         "tariffCodePattern": "^([UXBNTSY](COMF))\\w*$",
         "parameters": [
             {
@@ -298,6 +304,8 @@
         "owner": "UT",
         "baseClass": "economy",
         "priority": 1,
+        "flightTimeSince": "2017-12-10T00:00:00",
+        "flightTimeUntil": "2019-01-31T00:00:00",
         "tariffCodePattern": "^(\\w*(LT))\\w*$",
         "parameters": [
             {
@@ -386,6 +394,8 @@
         "owner": "UT",
         "baseClass": "economy",
         "priority": 2,
+        "flightTimeSince": "2017-12-10T00:00:00",
+        "flightTimeUntil": "2019-01-31T00:00:00",
         "perTicketExchangePenalty": "1000RUB",
         "tariffCodePattern": "^(\\w*(STD))\\w*$",
         "parameters": [
