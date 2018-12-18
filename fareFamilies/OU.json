@@ -1,0 +1,370 @@
+[
+    {
+        "owner": "OU",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^(\\w*(EASY))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Легкий",
+                    "en": "FlyEasy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Change"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сбором",
+                    "en": "Changes are permitted. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Reservation"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание",
+                    "en": "Meal & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "Питание не включено в тариф",
+                    "en": "Meal and beverages are not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "OU",
+        "baseClass": "business",
+        "priority": 4,
+        "tariffCodePattern": "^(\\w*(BIZZ))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий",
+                    "en": "FlyFlexi"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 8 кг каждое",
+                    "en": "2 items up to 8 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сбора",
+                    "en": "Refundable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Change"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены без сбора",
+                    "en": "Changes are permitted. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Reservation"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание",
+                    "en": "Meal & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "Питание не включено в тариф",
+                    "en": "Meal and beverages are not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "OU",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^(\\w*(FLEX))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий",
+                    "en": "FlyFlexi"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Change"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены без сбора",
+                    "en": "Changes are permitted. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Reservation"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание",
+                    "en": "Meal & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "Питание не включено в тариф",
+                    "en": "Meal and beverages are not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "OU",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^(\\w*(OPTI))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Оптимальный",
+                    "en": "FlyOpti"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Change"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сбором",
+                    "en": "Changes are permitted. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Reservation"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание",
+                    "en": "Meal & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "Питание не включено в тариф",
+                    "en": "Meal and beverages are not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    }
+]
