@@ -1,0 +1,138 @@
+[
+    {
+        "owner": "CY",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^(\\w*(BS))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Базовый",
+                    "en": "Basiс"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, размером не более 55 x 40 x 20 см",
+                    "en": "1 piece up to 10 kg, size is not more than 55 x 40 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сбором",
+                    "en": "Changes of flight/date — allowed with a charge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "CY",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^(\\w*(FL))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий",
+                    "en": "Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, размером не более 55 x 40 x 20 см",
+                    "en": "1 piece up to 10 kg, size is not more than 55 x 40 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 23 кг, габариты не более 203 см по сумме трех измерений",
+                    "en": "1 item up to 23 kg, total linear dimension — up to 203 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения до закрытия регистрации разрешены без сбора. Изменения после регистрации разрешены со сбором",
+                    "en": "Changes of flight/date before check-in closing — allowed without a charge. Changes of flight/date in the event of NO-SHOW (less than 40 min before flight departure) — allowed with a charge"
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]
