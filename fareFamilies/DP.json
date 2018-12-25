@@ -60,7 +60,7 @@
                     "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Не позднее, чем за 48 часа до вылета, разрешено один раз изменить время и/или дату вылета (в случае более дорогого тарифного класса необходима доплата разницы между тарифами)",
+                    "ru": "Не позднее, чем за 48 часов до вылета, разрешено один раз изменить время и/или дату вылета (в случае более дорогого тарифного класса необходима доплата разницы между тарифами)",
                     "en": "Date and time chages are available for 48 hours or upwards before departure (in case of more expensive fare class passenger is required to pay the difference in fare amounts)"
                 },
                 "needToPay": "free"
@@ -108,6 +108,30 @@
                     "en": ""
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты и времени",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Не позднее, чем за 48 часов до вылета, разрешено изменить время и/или дату вылета за дополнительную плату (в случае более дорогого тарифного класса необходима доплата разницы между тарифами)",
+                    "en": "Date and time chages are available at extra charge for 48 hours or upwards before departure (in case of more expensive fare class passenger is required to pay the difference in fare amounts)"
+                },
+                "needToPay": "charge"
             }
         ]
     },
@@ -152,6 +176,30 @@
                     "en": "1 item up to 20 kg, total linear dimension — up to 203 cm"
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты и времени",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Не позднее, чем за 48 часов до вылета, разрешено изменить время и/или дату вылета за дополнительную плату (в случае более дорогого тарифного класса необходима доплата разницы между тарифами)",
+                    "en": "Date and time chages are available at extra charge for 48 hours or upwards before departure (in case of more expensive fare class passenger is required to pay the difference in fare amounts)"
+                },
+                "needToPay": "charge"
             }
         ]
     }
