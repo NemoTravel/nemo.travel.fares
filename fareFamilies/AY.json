@@ -26,7 +26,8 @@
                 },
                 "fullDescription": {
                     "ru": "Одна единица ручной клади (максимальные габариты 56 x 45 x 25 см) и единица багажа для личного пользования (максимальные габариты 40 x 30 x 15 см). Максимальный общий вес — 8 кг",
-                    "en": "One piece of carry-on baggage (maximum dimensions 56 x 45 x 25 cm) and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 8 kg"
+                    "en": "One piece of carry-on baggage (maximum dimensions 56 x 45 x 25 cm) and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 8 kg",
+                    "de": "1 Freigepäckstück max. 56 x 45 x 25cm und 1 Handgepäckstück max. 40 x 30 x 15cm bis zu 8 kg"
                 },
                 "needToPay": "free"
             },
@@ -47,7 +48,7 @@
                 "shortDescription": {
                     "ru": "Изменения",
                     "en": "Changes",
-                    "de": "Änderungen"
+                    "de": "Umbuchung"
                 },
                 "fullDescription": {
                     "ru": "Изменения не разрешены",
@@ -59,7 +60,8 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Erstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат не разрешен",
@@ -108,7 +110,8 @@
                 },
                 "fullDescription": {
                     "ru": "Две единицы ручной клади (максимальные габариты 56 x 45 x 25 см) и единица багажа для личного пользования (максимальные габариты 40 x 30 x 15 см). Максимальный общий вес — 10 кг",
-                    "en": "Two pieces of carry-on baggage (maximum dimensions 56 x 45 x 25 cm)  and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 10 kg"
+                    "en": "Two pieces of carry-on baggage (maximum dimensions 56 x 45 x 25 cm)  and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 10 kg",
+                    "de": "2 Freigepäckstücke max. 56 x 45 x 25cm und 1 Handgepäckstück max. 40 x 30 x 15cm bis zu 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -129,7 +132,7 @@
                 "shortDescription": {
                     "ru": "Изменения",
                     "en": "Changes",
-                    "de": "Änderungen"
+                    "de": "Umbuchung"
                 },
                 "fullDescription": {
                     "ru": "Изменения разрешены. Изменение имени разрешено за дополнительную плату",
@@ -141,7 +144,8 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Erstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат разрешен",
@@ -214,7 +218,8 @@
                 },
                 "fullDescription": {
                     "ru": "Одна единица ручной клади (максимальные габариты 56 x 45 x 25 см) и единица багажа для личного пользования (максимальные габариты 40 x 30 x 15 см). Максимальный общий вес — 8 кг",
-                    "en": "One piece of carry-on baggage (maximum dimensions 56 x 45 x 25 cm) and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 8 kg"
+                    "en": "One piece of carry-on baggage (maximum dimensions 56 x 45 x 25 cm) and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 8 kg",
+                    "de": "1 Freigepäckstück max. 56 x 45 x 25cm und 1 Handgepäckstück max. 40 x 30 x 15cm bis zu 8 kg"
                 },
                 "needToPay": "free"
             },
@@ -235,7 +240,7 @@
                 "shortDescription": {
                     "ru": "Изменения",
                     "en": "Changes",
-                    "de": "Änderungen"
+                    "de": "Umbuchung"
                 },
                 "fullDescription": {
                     "ru": "Изменения не разрешены",
@@ -259,7 +264,8 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Erstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат не разрешен",
@@ -296,7 +302,8 @@
                 },
                 "fullDescription": {
                     "ru": "Одна единица ручной клади (максимальные габариты 56 x 45 x 25 см) и единица багажа для личного пользования (максимальные габариты 40 x 30 x 15 см). Максимальный общий вес — 8 кг",
-                    "en": "One piece of carry-on baggage (maximum dimensions 56 x 45 x 25 cm) and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 8 kg"
+                    "en": "One piece of carry-on baggage (maximum dimensions 56 x 45 x 25 cm) and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 8 kg",
+                    "de": "1 Freigepäckstück max. 56 x 45 x 25cm und 1 Handgepäckstück max. 40 x 30 x 15cm bis zu 8 kg"
                 },
                 "needToPay": "free"
             },
@@ -317,7 +324,7 @@
                 "shortDescription": {
                     "ru": "Изменения",
                     "en": "Changes",
-                    "de": "Änderungen"
+                    "de": "Umbuchung"
                 },
                 "fullDescription": {
                     "ru": "Изменения разрешены. Изменение имени разрешено за дополнительную плату",
@@ -329,7 +336,8 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Erstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат разрешен",
@@ -390,7 +398,8 @@
                 },
                 "fullDescription": {
                     "ru": "Две единицы ручной клади (максимальные габариты 56 x 45 x 25 см) и единица багажа для личного пользования (максимальные габариты 40 x 30 x 15 см). Максимальный общий вес — 10 кг",
-                    "en": "Two pieces of carry-on baggage (maximum dimensions 56 x 45 x 25 cm)  and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 10 kg"
+                    "en": "Two pieces of carry-on baggage (maximum dimensions 56 x 45 x 25 cm)  and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 10 kg",
+                    "de": "2 Freigepäckstücke max. 56 x 45 x 25cm und 1 Handgepäckstück max. 40 x 30 x 15cm bis zu 10 kg"
                 },
                 "needToPay": "free"
             },
@@ -411,7 +420,7 @@
                 "shortDescription": {
                     "ru": "Изменения",
                     "en": "Changes",
-                    "de": "Änderungen"
+                    "de": "Umbuchung"
                 },
                 "fullDescription": {
                     "ru": "Изменения разрешены со сбором. Изменение имени разрешено за дополнительную плату",
@@ -423,7 +432,8 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Erstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат разрешен со штрафом",
@@ -496,7 +506,8 @@
                 },
                 "fullDescription": {
                     "ru": "Одна единица ручной клади (максимальные габариты 56 x 45 x 25 см) и единица багажа для личного пользования (максимальные габариты 40 x 30 x 15 см). Максимальный общий вес — 8 кг",
-                    "en": "One piece of carry-on baggage (maximum dimensions 56 x 45 x 25 cm) and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 8 kg"
+                    "en": "One piece of carry-on baggage (maximum dimensions 56 x 45 x 25 cm) and one personal item (maximum dimensions 40 x 30 x 15 cm). Maximum combined weight — 8 kg",
+                    "de": "1 Freigepäckstück max. 56 x 45 x 25cm und 1 Handgepäckstück max. 40 x 30 x 15cm bis zu 8 kg"
                 },
                 "needToPay": "free"
             },
@@ -517,7 +528,7 @@
                 "shortDescription": {
                     "ru": "Изменения",
                     "en": "Changes",
-                    "de": "Änderungen"
+                    "de": "Umbuchung"
                 },
                 "fullDescription": {
                     "ru": "Изменения разрешены со сбором. Изменение имени разрешено за дополнительную плату",
@@ -529,7 +540,8 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "de": "Erstattung"
                 },
                 "fullDescription": {
                     "ru": "Возврат разрешен со штрафом",

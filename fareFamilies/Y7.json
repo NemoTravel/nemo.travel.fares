@@ -3,8 +3,6 @@
         "owner": "Y7",
         "baseClass": "business",
         "priority": 9,
-        "flightTimeSince": "2018-10-28T00:00:00",
-        "flightTimeUntil": "2020-10-28T00:00:00",
         "tariffCodePattern": "^([DI]).*$",
         "parameters": [
             {
@@ -121,8 +119,6 @@
         "owner": "Y7",
         "baseClass": "business",
         "priority": 10,
-        "flightTimeSince": "2018-10-28T00:00:00",
-        "flightTimeUntil": "2020-10-28T00:00:00",
         "tariffCodePattern": "^([C]).*$",
         "parameters": [
             {
@@ -239,8 +235,6 @@
         "owner": "Y7",
         "baseClass": "economy",
         "priority": 7,
-        "flightTimeSince": "2018-10-28T00:00:00",
-        "flightTimeUntil": "2020-10-28T00:00:00",
         "tariffCodePattern": "^(ASALE)|(([ABVNWOHSKMTXQLY])\\w{2}(2).*)$",
         "parameters": [
             {
@@ -345,8 +339,6 @@
         "owner": "Y7",
         "baseClass": "economy",
         "priority": 8,
-        "flightTimeSince": "2018-10-28T00:00:00",
-        "flightTimeUntil": "2020-10-28T00:00:00",
         "tariffCodePattern": "^([ABVNWOHSKMTXQLY])\\w{2}(?!2).*$",
         "parameters": [
             {
