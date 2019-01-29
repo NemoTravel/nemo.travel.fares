@@ -3,7 +3,7 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[WYPSEKHLVMQNBT]\\w*(BET|LET|SET|BEP|LEP|SEP|BUP|LUP|SUP|FEP|FUP)\\w*$",
+        "tariffCodePattern": "^[XOWYPSEKHLVMQNBT]\\w*(BET|LET|SET|BEP|LEP|SEP|BUP|LUP|SUP|FEP|FUP)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -20,13 +20,13 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 7 кг",
-                    "en": "1 item up to 7 kg",
+                    "ru": "2 места до 7 кг и до 5 кг",
+                    "en": "2 items up to 7 kg and up to 5 kg",
                     "de": "1 Gepäckstück bis 7 kg"
                 },
                 "fullDescription": {
-                    "ru": "Норма провоза ручной клади: 1 место весом до 7 кг, максимальный размер — 115 см (55 x 40 x 20 см). На Embraer-145: 1 место весом до 5 кг, максимальный размер — 105 см (55 x 35 x 15 см)",
-                    "en": "General allowance: 1 item up to 7 kg, total linear dimention — 115 cm (55 x 40 x 20 cm). For Embraer-145: 1 item up to 5 kg, total linear dimention — 105 cm (55 x 35 x 15 cm)",
+                    "ru": "Норма провоза ручной клади: 1 место весом до 7 кг, максимальный размер — 55 x 40 x 20 см; и 1 место весом до 5 кг, максимальный размер — 40 x 30 x 10 см",
+                    "en": "General allowance: 1 item up to 7 kg with dimensions max. 55 x 40 x 20 cm; and 1 item up to 5 kg with dimensions max. 40 x 30 x 10 cm",
                     "de": "Allgemeine Regeln: 1 Gepäckstück bis zu 7 kg, max. Abmessungen Handgepäck - 115 cm (50x44x20).Für Embraer-145: 1 Gepäckstück bis zu 5 kg, max. Abmessungen Handgepäck - 105 cm (50x35x15)"
                 },
                 "needToPay": "free"
@@ -50,7 +50,7 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[WYPSEKHLVMQNBT]\\w*(ZE|NE|ZE|NE|ZU|NU)\\w*$",
+        "tariffCodePattern": "^[XWYPSEKHLVMQNBT]\\w*(ZE|NE|ZE|NE|ZU|NU)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -67,13 +67,13 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 7 кг (для Embraer-145 - 1 место до 5 кг)",
-                    "en": "1 item up to 7 kg (аor Embraer-145: 1 item up to 5 kg)",
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg",
                     "de": "1 Gepäckstück bis 7 kg"
                 },
                 "fullDescription": {
-                    "ru": "Норма провоза ручной клади: 1 место весом до 7 кг, максимальный размер — 115 см (55 x 40 x 20 см). На Embraer-145: 1 место весом до 5 кг, максимальный размер — 105 см (55 x 35 x 15 см)",
-                    "en": "General allowance: 1 item up to 7 kg, total linear dimention — 115 cm (55 x 40 x 20 cm). For Embraer-145: 1 item up to 5 kg, total linear dimention — 105 cm (55 x 35 x 15 cm)",
+                    "ru": "Норма провоза ручной клади: 1 место весом до 7 кг, максимальный размер — 55 x 40 x 20 см",
+                    "en": "General allowance: 1 item up to 7 kg with dimensions max. 55 x 40 x 20 cm",
                     "de": "Allgemeine Regeln: 1 Gepäckstück bis zu 7 kg, max. Abmessungen Handgepäck - 115 cm (50x44x20).Für Embraer-145: 1 Gepäckstück bis zu 5 kg, max. Abmessungen Handgepäck - 105 cm (55x35x15)"
                 },
                 "needToPay": "free"
@@ -114,13 +114,60 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 12 кг",
-                    "en": "1 item up to 12 kg",
+                    "ru": "2 места до 12 кг и до 5 кг",
+                    "en": "2 items up to 12 kg and up to 5 kg",
                     "de": "1 Gepäckstück bis 12 kg"
                 },
                 "fullDescription": {
-                    "ru": "Норма провоза ручной клади: 1 место весом до 12 кг, максимальный размер — 115 см (55 x 40 x 20 см). На Embraer-145: 1 место весом до 5 кг, максимальный размер — 105 см (55 x 35 x 15 см)",
-                    "en": "General allowance: 1 item up to 12 kg, total linear dimention — 115 cm (55 x 40 x 20 cm). For Embraer-145: 1 item up to 5 kg, total linear dimention — 105 cm (55 x 35 x 15 cm)"
+                    "ru": "Норма провоза ручной клади: 1 место весом до 12 кг, максимальный размер — 55 x 40 x 20 см; и 1 место весом до 5 кг, максимальный размер — 40 x 30 x 10 см",
+                    "en": "General allowance: 1 item up to 12 kg with dimensions max. 55 x 40 x 20 cm; and 1 item up to 5 kg with dimensions max. 40 x 30 x 10 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each",
+                    "de": "2 Gepäckstück bis 32 kg"
+                },
+                "fullDescription": {
+                    "ru": "Норма провоза регистрируемого багажа: 2 места весом до 32 кг каждое, максимальный размер места — 158 см",
+                    "en": "General allowance: 2 items up to 32 kg each, total linear dimention — 158 cm each"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "PS",
+        "baseClass": "premiumEconomy",
+        "priority": 3,
+        "tariffCodePattern": "^[SE]\\w*(PREM)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум",
+                    "en": "Premium"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг и до 5 кг",
+                    "en": "2 items up to 7 kg and up to 5 kg",
+                    "de": "1 Gepäckstück bis 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "Норма провоза ручной клади: 1 место весом до 7 кг, максимальный размер — 55 x 40 x 20 см; и 1 место весом до 5 кг, максимальный размер — 40 x 30 x 10 см",
+                    "en": "General allowance: 1 item up to 7 kg with dimensions max. 55 x 40 x 20 cm; and 1 item up to 5 kg with dimensions max. 40 x 30 x 10 cm",
+                    "de": "Allgemeine Regeln: 1 Gepäckstück bis zu 7 kg, max. Abmessungen Handgepäck - 115 cm (50x44x20).Für Embraer-145: 1 Gepäckstück bis zu 5 kg, max. Abmessungen Handgepäck - 105 cm (50x35x15)"
                 },
                 "needToPay": "free"
             },
@@ -128,12 +175,12 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 места до 23 кг каждое",
-                    "en": "2 items up to 32 kg each",
-                    "de": "2 Gepäckstück bis 32 kg"
+                    "en": "2 items up to 23 kg each",
+                    "de": "1 Gepäckstück bis 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "Норма провоза регистрируемого багажа: 2 места весом до 23 кг каждое, максимальный размер — 158 см каждое",
-                    "en": "General allowance: 2 items up to 32 kg each, total linear dimention — 158 cm each"
+                    "ru": "Норма провоза регистрируемого багажа: 2 места весом до 23 кг каждое, максимальный размер места — 158 см",
+                    "en": "General allowance: 2 items up to 23 kg each, total linear dimention — 158 cm each"
                 },
                 "needToPay": "free"
             }
