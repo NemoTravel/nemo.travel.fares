@@ -246,7 +246,7 @@
     },
     {
         "owner": "7R",
-        "baseClass": "business",
+        "baseClass": "economy",
         "priority": 5,
         "tariffCodePattern": "^[JZ]\\w*(PM).*$",
         "parameters": [
