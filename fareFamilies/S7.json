@@ -61,7 +61,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -89,7 +89,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения в билете до вылета",
+                    "ru": "Обмен билета до вылета",
                     "en": "Exchange Before Departure",
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
@@ -151,7 +151,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета - недоступен",
+                    "ru": "Возврат билета до вылета",
                     "en": "Non-refundable",
                     "de": "Ticketrückerstattung"
                 },
@@ -191,7 +191,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения в билете до вылета - платные",
+                    "ru": "Обмен билета до вылета",
                     "en": "Exchange Before Departure",
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
@@ -252,7 +252,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения в билете до вылета",
+                    "ru": "Обмен билета до вылета",
                     "en": "Exchange Before Departure",
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
@@ -266,7 +266,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -407,7 +407,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета - недоступен",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -421,7 +421,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения в билете до вылета - платные",
+                    "ru": "Обмен билета до вылета",
                     "en": "Exchange Before Departure",
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
@@ -474,7 +474,7 @@
             {
                 "code": "vipService",
                 "shortDescription": {
-                    "ru": "Бизнес зал - недоступен",
+                    "ru": "Бизнес зал",
                     "en": "Lounge Access",
                     "de": "Business Class Lounge"
                 },
