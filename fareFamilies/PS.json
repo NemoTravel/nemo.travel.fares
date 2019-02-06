@@ -3,7 +3,7 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[XOWYPSEKHLVMQNBT]\\w*(BET|LET|SET|BEP|LEP|SEP|BUP|LUP|SUP|FEP|FUP)\\w*$",
+        "tariffCodePattern": "^[XOWYPSEKHLVMQNBT]\\w*(BET|LET|SET|BEP|LEP|SEP|BUP|LUP|SUP|FEP|FUP|B3U)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -50,7 +50,7 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[XWYPSEKHLVMQNBT]\\w*(ZE|NE|ZE|NE|ZU|NU)\\w*$",
+        "tariffCodePattern": "^[XWYPSEKHLVMQNBT]\\w*(ZE|NE|ZE|NE|ZU|NU|Z3U|Z2U|N3U)\\w*$",
         "parameters": [
             {
                 "code": "description",
