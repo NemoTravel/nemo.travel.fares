@@ -587,8 +587,8 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место не более 5 кг с габаритами, не превышающими размеры 55*40*20 см",
-                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 55x40x20 cm",
+                    "ru": "1 место не более 10 кг с габаритами, не превышающими размеры 55*40*20 см",
+                    "en": "It is allowed to carry 1 additional hand luggage piece up to 10 kg and with dimensions not exceeding 55x40x20 cm",
                     "de": "1 Handgepäckstück bis 10 kg, maximale Abmessungen 55x40x20cm"
                 },
                 "fullDescription": {
