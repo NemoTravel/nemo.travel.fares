@@ -141,7 +141,7 @@
     },
     {
         "owner": "PS",
-        "baseClass": "premiumEconomy",
+        "baseClass": "economy",
         "priority": 3,
         "tariffCodePattern": "^[SE]\\w*(PREM)\\w*$",
         "parameters": [

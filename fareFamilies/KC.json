@@ -68,7 +68,7 @@
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "Бонусные баллы +100%",
+                    "ru": "Бонусные баллы +150%",
                     "en": "Bonus +100%"
                 },
                 "fullDescription": {
@@ -172,7 +172,7 @@
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "Бонусные баллы +50%",
+                    "ru": "Бонусные баллы +150%",
                     "en": "Bonus +50%"
                 },
                 "fullDescription": {
@@ -264,7 +264,7 @@
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "Бонусные баллы +50%",
+                    "ru": "Бонусные баллы +100%",
                     "en": "Bonus +50%"
                 },
                 "fullDescription": {
@@ -344,7 +344,7 @@
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "Бонусные баллы +50%",
+                    "ru": "Бонусные баллы +150%",
                     "en": "Bonus +50%"
                 },
                 "fullDescription": {
@@ -376,74 +376,6 @@
                     "en": ""
                 },
                 "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "KC",
-        "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^([YBHKLTQSVPME]\\w*(SS))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Базовый",
-                    "en": "Basic"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "До 8 кг",
-                    "en": "Up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "Разрешено перевозить 1 сумку размером не больше 56 x 45 x 25 см",
-                    "en": "Cabin baggage dimensions are limited and must not be larger than 56 x 45 x 25 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Cancellation"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "No refunds permitted"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение бронирования",
-                    "en": "Changes"
-                },
-                "fullDescription": {
-                    "ru": "Изменение бронирования не разрешено",
-                    "en": "Non-exchangeable"
-                },
-                "needToPay": "notAvailable"
             }
         ]
     }
