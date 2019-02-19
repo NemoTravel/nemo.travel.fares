@@ -95,7 +95,7 @@
         "owner": "2G",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[YBHKLNQTXOU](?!BASB)(BAS)\\w*$",
+        "tariffCodePattern": "^[YBHKLNQTXOU](BAS)([AC-Zac-z]\\w*)?$",
         "parameters": [
             {
                 "code": "description",
@@ -187,7 +187,7 @@
         "owner": "2G",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[YBHKLNQTXOU](?!COMB)(COM)\\w*$",
+        "tariffCodePattern": "^[YBHKLNQTXOU](COM)([AC-Zac-z]\\w*)?$",
         "parameters": [
             {
                 "code": "description",
