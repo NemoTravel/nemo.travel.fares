@@ -3,7 +3,7 @@
         "owner": "R3",
         "baseClass": "business",
         "priority": 6,
-        "tariffCodePattern": "^([JDC](SB)(.*CKR)?)\\w*$",
+        "tariffCodePattern": "^([SRLQBV](SB))[ABD-JL-PS-Z]*$",
         "parameters": [
             {
                 "code": "description",
