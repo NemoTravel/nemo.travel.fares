@@ -85,6 +85,16 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места"
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -162,6 +172,16 @@
                     "de": "Nicht austauschbar"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места"
+                },
+                "needToPay": "charge"
             }
         ]
     },
@@ -237,6 +257,16 @@
                     "ru": "Обмен билета разрешен со сборами",
                     "en": "Ticket exchange is allowed with additional charges",
                     "de": "Ticketbörse ist gegen Aufpreis erlaubt"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места"
                 },
                 "needToPay": "charge"
             }
@@ -326,6 +356,16 @@
                 "fullDescription": {
                     "ru": "",
                     "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места"
                 },
                 "needToPay": "free"
             }
