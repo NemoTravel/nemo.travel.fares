@@ -372,7 +372,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 0,
-        "tariffCodePattern": "^[QEW](OW\\d*)$",
+        "tariffCodePattern": "^[NQEW](OW\\d*)$",
         "parameters": [
             {
                 "code": "description",
