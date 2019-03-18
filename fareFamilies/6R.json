@@ -1,167 +1,15 @@
 [
     {
         "owner": "6R",
-        "baseClass": "business",
-        "priority": 5,
-        "tariffCodePattern": "^([C])\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Бизнес",
-                    "en": "Business"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 или 2 места в сумме весом до 15 кг",
-                    "en": "1 or 2 items up to 15 kg in total"
-                },
-                "fullDescription": {
-                    "ru": "1 или 2 места в сумме весом до 15 кг, размером до 55*40*20 см",
-                    "en": "1 or 2 items up to 15 kg in total (55х40х20 cm)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 или 2 места в сумме весом до 32 кг",
-                    "en": "1 or 2 items up to 32 kg in total"
-                },
-                "fullDescription": {
-                    "ru": "1 или 2 места в сумме весом до 32 кг включительно, размером до 203 см по сумме 3-х измерений длина-ширина-высота",
-                    "en": "1 or 2 items up to 32 kg in total, total linear dimension — up to 203 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута за исключением NO-SHOW",
-                    "en": "Exchange Without Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута за исключением NO-SHOW разрешаются без сборов",
-                    "en": "Changes of date, flight number, itinerary (without case of no-show) — available. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута в случае NO-SHOW",
-                    "en": "Exchange in Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута в случае NO-SHOW разрешаются без сборов",
-                    "en": "Changes of date, flight number, itinerary (in case of no-show) — available. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат за исключением NO-SHOW",
-                    "en": "Refund Without Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "За исключением NO-SHOW тариф на неиспользованных участках подлежит возврату. Сбор не взимается",
-                    "en": "Refundable (without case of no-show). No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат в случае NO-SHOW",
-                    "en": "Refund in Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "В случае NO-SHOW тариф на неиспользованных участках подлежит возврату. Сбор не взимается",
-                    "en": "Refundable (in case of no-show). No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Специальное меню и напитки",
-                    "en": "Special Meals & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": "Seat selection permitted during the check-in"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Стоповер",
-                    "en": "Stopover"
-                },
-                "fullDescription": {
-                    "ru": "Стоповер разрешен",
-                    "en": "Stopover — available"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Бизнес-зал",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Открытая дата",
-                    "en": "Open Return Date"
-                },
-                "fullDescription": {
-                    "ru": "Открытая дата разрешена",
-                    "en": "Open return date — available"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "6R",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([OEUG])\\w*\\d*$",
+        "tariffCodePattern": "^([YBHKLMNTVGUEО](PROW))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Невозвратный",
-                    "en": "Non-refundable"
+                    "ru": "Эконом ПРОМО",
+                    "en": "Economy PROMO"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -172,32 +20,8 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг — не более 55*40*20 см",
-                    "en": "1 item up to 10 kg (55х40х20 cm)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место весом до 10 кг включительно, размером до 203 см по сумме 3-х измерений длина-ширина-высота",
-                    "en": "1 item up to 10 kg in total, total linear dimension — up to 203 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуска/горячее питание",
-                    "en": "Snacks & Meals"
+                    "ru": "1 место 10 кг",
+                    "en": "1 seat 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -206,52 +30,199 @@
                 "needToPay": "free"
             },
             {
-                "code": "exchangeable",
+                "code": "baggage",
                 "shortDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута разрешаются со сборами. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
-                    "en": "Changes of date, flight number, itinerary — available. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью не возвратный. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации",
-                    "en": "Seat Selection"
+                    "ru": "Без багажа",
+                    "en": "No baggage"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "Seat selection permitted during the check-in"
+                    "en": ""
                 },
                 "needToPay": "free"
             },
             {
-                "code": "vipService",
+                "seatsRegistration": [
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор места на регистрации (за 2 часа до вылета)",
+                            "en": "Choosing a place at check-in (2 hours before departure)"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор места на сайте (онлайн)",
+                            "en": "Choosing a place online"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "charge"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор комфортностого места",
+                            "en": "Choice of comfort seat"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "charge"
+                    }
+                ]
+            },
+            {
+                "code": "miles",
                 "shortDescription": {
-                    "ru": "Стоповер",
-                    "en": "Stopover"
+                    "ru": "Начисление миль (25% от тарифа)",
+                    "en": "Miles accrual (25% of the fare)"
                 },
                 "fullDescription": {
-                    "ru": "Стоповер запрещен",
-                    "en": "Stopover — not available"
+                    "ru": "",
+                    "en": ""
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
+            },
+            {
+                "vipService": [
+                    {
+                        "shortDescription": {
+                            "ru": "Отдельная стойка регистрации бизнес-класса",
+                            "en": "Separate business class reception"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Бизнес зал",
+                            "en": "Lounge Access"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Приоритетная посадка",
+                            "en": "Priority Boarding"
+                        },
+                        "fullDescription": {
+                            "ru": "Приоритетная посадка — недоступно",
+                            "en": "Priority boarding — not available"
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Открытая дата",
+                            "en": "Open Date"
+                        },
+                        "fullDescription": {
+                            "ru": "Открытая дата — недоступно",
+                            "en": "Open date — not available"
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Стоповер",
+                            "en": "Stopover"
+                        },
+                        "fullDescription": {
+                            "ru": "Стоповер — недоступно",
+                            "en": "Stopover — not available"
+                        },
+                        "needToPay": "notAvailable"
+                    }
+                ]
+            },
+            {
+                "exchangeable": [
+                    {
+                        "shortDescription": {
+                            "ru": "Срок годности билета (с даты вылета рейса)",
+                            "en": "Expiration date of the ticket (from the date of flight departure)"
+                        },
+                        "fullDescription": {
+                            "ru": "Срок годности билета (с даты вылета рейса) - 1 месяц",
+                            "en": "Expiration date of the ticket (from the date of flight departure) - 1 month"
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Изменения даты или маршрута до отправления рейса",
+                            "en": "Changes to date or route prior to departure"
+                        },
+                        "fullDescription": {
+                            "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса)",
+                            "en": "Changes in the date or route before departure (more than 40 minutes before departure)"
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                        },
+                        "fullDescription": {
+                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                        },
+                        "needToPay": "notAvailable"
+                    }
+                ]
+            },
+            {
+                "refundable": [
+                    {
+                        "shortDescription": {
+                            "ru": "Возможность возврата",
+                            "en": "Refund possibility"
+                        },
+                        "fullDescription": {
+                            "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Сбор за оформление авиабилета возврату не подлежит",
+                            "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Fee for ticket issuance is non-refundable."
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Возможность возврата",
+                            "en": "Refund possibility"
+                        },
+                        "fullDescription": {
+                            "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Сбор за оформление авиабилета возврату не подлежит",
+                            "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Fee for ticket issuance is non-refundable."
+                        },
+                        "needToPay": "notAvailable"
+                    }
+                ]
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Меню бортового питания",
+                    "en": "Catering menu"
+                },
+                "fullDescription": {
+                    "ru": "Закуска/горячее питание",
+                    "en": "Snack / hot meal"
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -259,13 +230,13 @@
         "owner": "6R",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([VTNMLKHB])\\w*\\d*$",
+        "tariffCodePattern": "^([YBHKLMNTVGUEО](LTOW))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Специальный",
-                    "en": "Special"
+                    "ru": "Эконом ЛАЙТ",
+                    "en": "Economy LITE"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -276,12 +247,239 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "ru": "1 место 10 кг",
+                    "en": "1 seat 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 10 кг —  не более 55*40*20 см",
-                    "en": "1 item up to 10 kg (55х40х20 cm)"
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Без багажа",
+                    "en": "No baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "seatsRegistration": [
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор места на регистрации (за 2 часа до вылета)",
+                            "en": "Choosing a place at check-in (2 hours before departure)"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор места на сайте (онлайн)",
+                            "en": "Choosing a place online"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "charge"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор комфортностого места",
+                            "en": "Choice of comfort seat"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "charge"
+                    }
+                ]
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Начисление миль (50% от тарифа)",
+                    "en": "Miles accrual (50% of the fare)"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "vipService": [
+                    {
+                        "shortDescription": {
+                            "ru": "Отдельная стойка регистрации бизнес-класса",
+                            "en": "Separate business class reception"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Бизнес зал",
+                            "en": "Lounge Access"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Приоритетная посадка",
+                            "en": "Priority Boarding"
+                        },
+                        "fullDescription": {
+                            "ru": "Приоритетная посадка — недоступно",
+                            "en": "Priority boarding — not available"
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Открытая дата",
+                            "en": "Open Date"
+                        },
+                        "fullDescription": {
+                            "ru": "Открытая дата — недоступно",
+                            "en": "Open date — not available"
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Стоповер",
+                            "en": "Stopover"
+                        },
+                        "fullDescription": {
+                            "ru": "Стоповер — недоступно",
+                            "en": "Stopover — not available"
+                        },
+                        "needToPay": "notAvailable"
+                    }
+                ]
+            },
+            {
+                "exchangeable": [
+                    {
+                        "shortDescription": {
+                            "ru": "Срок годности билета (с даты вылета рейса)",
+                            "en": "Expiration date of the ticket (from the date of flight departure)"
+                        },
+                        "fullDescription": {
+                            "ru": "Срок годности билета (с даты вылета рейса) - 6 месяцев",
+                            "en": "Expiration date of the ticket (from the date of flight departure) - 6 month"
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Изменения даты или маршрута до отправления рейса",
+                            "en": "Changes to date or route prior to departure"
+                        },
+                        "fullDescription": {
+                            "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса)",
+                            "en": "Changes in the date or route before departure (more than 40 minutes before departure)"
+                        },
+                        "needToPay": "charge"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                        },
+                        "fullDescription": {
+                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                        },
+                        "needToPay": "charge"
+                    }
+                ]
+            },
+            {
+                "refundable": [
+                    {
+                        "shortDescription": {
+                            "ru": "Возможность возврата",
+                            "en": "Refund possibility"
+                        },
+                        "fullDescription": {
+                            "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Сбор за оформление авиабилета возврату не подлежит",
+                            "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Fee for ticket issuance is non-refundable."
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Возможность возврата",
+                            "en": "Refund possibility"
+                        },
+                        "fullDescription": {
+                            "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Сбор за оформление авиабилета возврату не подлежит",
+                            "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Fee for ticket issuance is non-refundable."
+                        },
+                        "needToPay": "notAvailable"
+                    }
+                ]
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Меню бортового питания",
+                    "en": "Catering menu"
+                },
+                "fullDescription": {
+                    "ru": "Закуска/горячее питание",
+                    "en": "Snack / hot meal"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "6R",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([YBHKLMNTVGUEО](STDOW))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом СТАНДАРТ",
+                    "en": "Economy STANDARD"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место 10 кг",
+                    "en": "1 seat 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -289,223 +487,194 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 seat up to 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место весом до 23 кг включительно, размером до 203 см по сумме 3-х измерений длина-ширина-высота",
-                    "en": "1 item up to 23 kg in total, total linear dimension — up to 203 cm"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
             {
-                "code": "exchangeable",
+                "seatsRegistration": [
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор места на регистрации (за 2 часа до вылета)",
+                            "en": "Choosing a place at check-in (2 hours before departure)"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор места на сайте (онлайн)",
+                            "en": "Choosing a place online"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор комфортностого места",
+                            "en": "Choice of comfort seat"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "charge"
+                    }
+                ]
+            },
+            {
+                "code": "miles",
                 "shortDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута за исключением NO-SHOW",
-                    "en": "Exchange Without Case of No-show"
+                    "ru": "Начисление миль (100% от тарифа)",
+                    "en": "Miles accrual (100% of the fare)"
                 },
                 "fullDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута за исключением NO-SHOW разрешаются без сборов. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
-                    "en": "Changes of date, flight number, itinerary (without case of no-show) — available. No fee applies"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
             {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута в случае NO-SHOW",
-                    "en": "Exchange in Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута в случае NO-SHOW разрешаются со сбором. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
-                    "en": "Changes of date, flight number, itinerary (in case of no-show) — available. A fee applies"
-                },
-                "needToPay": "charge"
+                "vipService": [
+                    {
+                        "shortDescription": {
+                            "ru": "Отдельная стойка регистрации бизнес-класса",
+                            "en": "Separate business class reception"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Бизнес зал",
+                            "en": "Lounge Access"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Приоритетная посадка",
+                            "en": "Priority Boarding"
+                        },
+                        "fullDescription": {
+                            "ru": "Приоритетная посадка — недоступно",
+                            "en": "Priority boarding — not available"
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Открытая дата",
+                            "en": "Open Date"
+                        },
+                        "fullDescription": {
+                            "ru": "Открытая дата — недоступно",
+                            "en": "Open date — not available"
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Стоповер",
+                            "en": "Stopover"
+                        },
+                        "fullDescription": {
+                            "ru": "Стоповер — доступен",
+                            "en": "Stopover — available"
+                        },
+                        "needToPay": "free"
+                    }
+                ]
             },
             {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат за исключением NO-SHOW",
-                    "en": "Refund Without Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "За исключением NO-SHOW тариф на неиспользованных участках подлежит возврату. Взимается сбор за возврат за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Refundable (without case of no-show). A fee applies"
-                },
-                "needToPay": "charge"
+                "exchangeable": [
+                    {
+                        "shortDescription": {
+                            "ru": "Срок годности билета (с даты вылета рейса)",
+                            "en": "Expiration date of the ticket (from the date of flight departure)"
+                        },
+                        "fullDescription": {
+                            "ru": "Срок годности билета (с даты вылета рейса) - 12 месяцев",
+                            "en": "Expiration date of the ticket (from the date of flight departure) - 12 month"
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Изменения даты или маршрута до отправления рейса",
+                            "en": "Changes to date or route prior to departure"
+                        },
+                        "fullDescription": {
+                            "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса). Разрешены,без сборов, возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                            "en": "Changes in the date or route before departure (more than 40 minutes before departure). Allowed, without fees, it is possible to supplement the difference to the available fare level at the time of ticket exchange."
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                        },
+                        "fullDescription": {
+                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс). Возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight). Surcharge possible difference to the available fare level at the time of ticket exchange."
+                        },
+                        "needToPay": "charge"
+                    }
+                ]
+            },
+            {
+                "refundable": [
+                    {
+                        "shortDescription": {
+                            "ru": "Возможность возврата",
+                            "en": "Refund possibility"
+                        },
+                        "fullDescription": {
+                            "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Разрешен, сбор за возврат 1000 \u20BD за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
+                            "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Permitted, a return fee of 5000  \u20BD for each return area. Fee for ticket issuance is non-refundable."
+                        },
+                        "needToPay": "charge"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Возможность возврата",
+                            "en": "Refund possibility"
+                        },
+                        "fullDescription": {
+                            "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Разрешен, сбор за возврат 1000 \u20BD за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
+                            "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Permitted, a return fee of 5000  \u20BD for each return area. Fee for ticket issuance is non-refundable."
+                        },
+                        "needToPay": "charge"
+                    }
+                ]
             },
             {
                 "code": "meal",
                 "shortDescription": {
+                    "ru": "Меню бортового питания",
+                    "en": "Catering menu"
+                },
+                "fullDescription": {
                     "ru": "Закуска/горячее питание",
-                    "en": "Snacks & Meals"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат в случае NO-SHOW",
-                    "en": "Refund in Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "В случае NO-SHOW тариф на неиспользованных участках подлежит возврату. Взимается сбор за возврат за каждый возвращаемый участок, на котором была неявка, и сбор за возврат за каждый возвращаемый участок, на котором не было неявки. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Refundable (in case of no-show). A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": "Seat selection permitted during the check-in"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Стоповер",
-                    "en": "Stopover"
-                },
-                "fullDescription": {
-                    "ru": "Стоповер запрещен",
-                    "en": "Stopover — not available"
-                },
-                "needToPay": "notAvailable"
-            }
-        ]
-    },
-    {
-        "owner": "6R",
-        "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^([Y])\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Стандартный",
-                    "en": "Standard"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута в случае NO-SHOW",
-                    "en": "Exchange in Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута в случае NO-SHOW разрешаются со сбором. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
-                    "en": "Changes of date, flight number, itinerary (in case of no-show) — available. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута за исключением NO-SHOW",
-                    "en": "Exchange Without Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута за исключением NO-SHOW разрешается без сборов. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
-                    "en": "Changes of date, flight number, itinerary (without case of no-show) — available. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг — не более 55*40*20 см",
-                    "en": "1 item up to 10 kg (55х40х20 cm)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 или 2 места в сумме весом до 23 кг",
-                    "en": "1 or 2 items up to 23 kg in total"
-                },
-                "fullDescription": {
-                    "ru": "1 или 2 места в сумме весом до 23 кг включительно, размером до 203 см по сумме 3-х измерений длина-ширина-высота",
-                    "en": "1 or 2 items up to 23 kg in total, total linear dimension — up to 203 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат за исключением NO-SHOW",
-                    "en": "Refund Without Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "За исключением NO-SHOW тариф на неиспользованных участках подлежит возврату. Взимается сбор за возврат за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Refundable (without case of no-show). A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат в случае NO-SHOW",
-                    "en": "Refund in Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "В случае NO-SHOW тариф на неиспользованных участках подлежит возврату. Взимается сбор за возврат за каждый возвращаемый участок, на котором была неявка, и сбор за возврат за каждый возвращаемый участок, на котором не было неявки. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Refundable (in case of no-show). A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуска/горячее питание",
-                    "en": "Snacks & Meals"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": "Seat selection permitted during the check-in"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Стоповер",
-                    "en": "Stopover"
-                },
-                "fullDescription": {
-                    "ru": "Стоповер разрешен",
-                    "en": "Stopover — available"
+                    "en": "Snack / hot meal"
                 },
                 "needToPay": "free"
             }
@@ -513,15 +682,15 @@
     },
     {
         "owner": "6R",
-        "baseClass": "economy",
+        "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^([SW])\\w*\\d*$",
+        "tariffCodePattern": "^([SWC](LTOW))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Бизнес лайт",
-                    "en": "Business Light"
+                    "ru": "Бизнес ЛАЙТ",
+                    "en": "Business LITE"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -532,80 +701,8 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 или 2 места в сумме весом до 15 кг",
-                    "en": "1 or 2 items up to 15 kg in total"
-                },
-                "fullDescription": {
-                    "ru": "1 или 2 места в сумме весом до 15 кг, размером до 55*40*20 см",
-                    "en": "1 or 2 items up to 15 kg in total (55х40х20 cm)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 или 2 места в сумме весом до 32 кг",
-                    "en": "1 or 2 items up to 32 kg in total"
-                },
-                "fullDescription": {
-                    "ru": "1 или 2 места в сумме весом до 32 кг включительно, размером до 203 см по сумме 3-х измерений длина-ширина-высота",
-                    "en": "1 or 2 items up to 32 kg in total, total linear dimension — up to 203 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута за исключением NO-SHOW",
-                    "en": "Exchange Without Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута за исключением NO-SHOW разрешаются без сборов. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
-                    "en": "Changes of date, flight number, itinerary (without case of no-show) — available. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута в случае NO-SHOW",
-                    "en": "Exchange in Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "Изменения даты, номера рейса, маршрута в случае NO-SHOW разрешаются со сбором. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
-                    "en": "Changes of date, flight number, itinerary (in case of no-show) — available. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат за исключением NO-SHOW",
-                    "en": "Refund Without Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "За исключением NO-SHOW тариф на неиспользованных участках подлежит возврату. Взимается сбор за возврат за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Refundable (without case of no-show). A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат в случае NO-SHOW",
-                    "en": "Refund in Case of No-show"
-                },
-                "fullDescription": {
-                    "ru": "В случае NO-SHOW тариф на неиспользованных участках подлежит возврату. Взимается сбор за возврат за каждый возвращаемый участок, на котором была неявка, и сбор за возврат за каждый возвращаемый участок, на котором не было неявки. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Refundable (in case of no-show). A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуска/горячее питание",
-                    "en": "Snacks & Meals"
+                    "ru": "1 место 15 кг",
+                    "en": "1 seat 15 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -614,14 +711,424 @@
                 "needToPay": "free"
             },
             {
-                "code": "vipService",
+                "code": "baggage",
                 "shortDescription": {
-                    "ru": "Стоповер",
-                    "en": "Stopover"
+                    "ru": "1 место до 32 кг",
+                    "en": "1 seat up to 32 kg"
                 },
                 "fullDescription": {
-                    "ru": "Стоповер разрешен",
-                    "en": "Stopover — available"
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "seatsRegistration": [
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор места на регистрации (за 2 часа до вылета)",
+                            "en": "Choosing a place at check-in (2 hours before departure)"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор места на сайте (онлайн)",
+                            "en": "Choosing a place online"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор комфортностого места",
+                            "en": "Choice of comfort seat"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    }
+                ]
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Начисление миль (150% от тарифа)",
+                    "en": "Miles accrual (150% of the fare)"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "vipService": [
+                    {
+                        "shortDescription": {
+                            "ru": "Доступна отдельная стойка регистрации бизнес-класса",
+                            "en": "Available separate business class reception"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Бизнес зал",
+                            "en": "Lounge Access"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Приоритетная посадка",
+                            "en": "Priority Boarding"
+                        },
+                        "fullDescription": {
+                            "ru": "Приоритетная посадка — недоступно",
+                            "en": "Priority boarding — not available"
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Открытая дата",
+                            "en": "Open Date"
+                        },
+                        "fullDescription": {
+                            "ru": "Открытая дата — недоступно",
+                            "en": "Open date — not available"
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Стоповер",
+                            "en": "Stopover"
+                        },
+                        "fullDescription": {
+                            "ru": "Стоповер — доступен",
+                            "en": "Stopover — available"
+                        },
+                        "needToPay": "free"
+                    }
+                ]
+            },
+            {
+                "exchangeable": [
+                    {
+                        "shortDescription": {
+                            "ru": "Срок годности билета (с даты вылета рейса)",
+                            "en": "Expiration date of the ticket (from the date of flight departure)"
+                        },
+                        "fullDescription": {
+                            "ru": "Срок годности билета (с даты вылета рейса) - 12 месяцев",
+                            "en": "Expiration date of the ticket (from the date of flight departure) - 12 month"
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Изменения даты или маршрута до отправления рейса",
+                            "en": "Changes to date or route prior to departure"
+                        },
+                        "fullDescription": {
+                            "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса). Разрешены,без сборов, возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                            "en": "Changes in the date or route before departure (more than 40 minutes before departure). Allowed, without fees, it is possible to supplement the difference to the available fare level at the time of ticket exchange."
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                        },
+                        "fullDescription": {
+                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс). Возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight). Surcharge possible difference to the available fare level at the time of ticket exchange."
+                        },
+                        "needToPay": "charge"
+                    }
+                ]
+            },
+            {
+                "refundable": [
+                    {
+                        "shortDescription": {
+                            "ru": "Возможность возврата",
+                            "en": "Refund possibility"
+                        },
+                        "fullDescription": {
+                            "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Разрешен, сбор за возврат 1000 \u20BD за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
+                            "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Permitted, a return fee of 5000  \u20BD for each return area. Fee for ticket issuance is non-refundable."
+                        },
+                        "needToPay": "charge"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Возможность возврата",
+                            "en": "Refund possibility"
+                        },
+                        "fullDescription": {
+                            "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Разрешен, сбор за возврат 1000 \u20BD за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
+                            "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Permitted, a return fee of 5000  \u20BD for each return area. Fee for ticket issuance is non-refundable."
+                        },
+                        "needToPay": "charge"
+                    }
+                ]
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Меню бортового питания",
+                    "en": "Catering menu"
+                },
+                "fullDescription": {
+                    "ru": "Специальное меню и напитки",
+                    "en": "Special menu and drinks"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "6R",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "^([SWC](STDOW))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес СТАНДАРТ",
+                    "en": "Business STANDARD"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место 15 кг",
+                    "en": "1 seat 15 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 32 кг",
+                    "en": "2 seats up to 32 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "seatsRegistration": [
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор места на регистрации (за 2 часа до вылета)",
+                            "en": "Choosing a place at check-in (2 hours before departure)"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор места на сайте (онлайн)",
+                            "en": "Choosing a place online"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Выбор комфортностого места",
+                            "en": "Choice of comfort seat"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    }
+                ]
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Начисление миль (200% от тарифа)",
+                    "en": "Miles accrual (200% of the fare)"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "vipService": [
+                    {
+                        "shortDescription": {
+                            "ru": "Доступна отдельная стойка регистрации бизнес-класса",
+                            "en": "Available separate business class reception"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Предоставляется бизнес зал",
+                            "en": "Business lounge available"
+                        },
+                        "fullDescription": {
+                            "ru": "",
+                            "en": ""
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Предоставляется приоритетная посадка",
+                            "en": "Priority boarding available."
+                        },
+                        "fullDescription": {
+                            "ru": "Предоставляется приоритетная посадка.",
+                            "en": "Priority boarding available."
+                        },
+                        "needToPay": "notAvailable"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Открытая дата",
+                            "en": "Open Date"
+                        },
+                        "fullDescription": {
+                            "ru": "3 месяца с даты продажи а/билета",
+                            "en": "3 months from the date of sale of a ticket"
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Стоповер",
+                            "en": "Stopover"
+                        },
+                        "fullDescription": {
+                            "ru": "Стоповер — доступен",
+                            "en": "Stopover — available"
+                        },
+                        "needToPay": "free"
+                    }
+                ]
+            },
+            {
+                "exchangeable": [
+                    {
+                        "shortDescription": {
+                            "ru": "Срок годности билета (с даты вылета рейса)",
+                            "en": "Expiration date of the ticket (from the date of flight departure)"
+                        },
+                        "fullDescription": {
+                            "ru": "Срок годности билета (с даты вылета рейса) - 12 месяцев",
+                            "en": "Expiration date of the ticket (from the date of flight departure) - 12 month"
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Изменения даты или маршрута до отправления рейса",
+                            "en": "Changes to date or route prior to departure"
+                        },
+                        "fullDescription": {
+                            "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса). Разрешены,без сборов.",
+                            "en": "Changes in the date or route before departure (more than 40 minutes before departure). Allowed, without fees."
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                        },
+                        "fullDescription": {
+                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс). Разрешены,без сборов.",
+                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight). Allowed, without fees."
+                        },
+                        "needToPay": "free"
+                    }
+                ]
+            },
+            {
+                "refundable": [
+                    {
+                        "shortDescription": {
+                            "ru": "Возможность возврата",
+                            "en": "Refund possibility"
+                        },
+                        "fullDescription": {
+                            "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Разрешен, ,без сборов. Сбор за оформление авиабилета возврату не подлежит.",
+                            "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Permitted, without fees. Fee for ticket issuance is non-refundable."
+                        },
+                        "needToPay": "free"
+                    },
+                    {
+                        "shortDescription": {
+                            "ru": "Возможность возврата",
+                            "en": "Refund possibility"
+                        },
+                        "fullDescription": {
+                            "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Разрешен, без сборов. Сбор за оформление авиабилета возврату не подлежит.",
+                            "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Permitted, without fees. Fee for ticket issuance is non-refundable."
+                        },
+                        "needToPay": "free"
+                    }
+                ]
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Меню бортового питания",
+                    "en": "Catering menu"
+                },
+                "fullDescription": {
+                    "ru": "Специальное меню и напитки",
+                    "en": "Special menu and drinks"
                 },
                 "needToPay": "free"
             }
