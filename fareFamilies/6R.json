@@ -42,41 +42,40 @@
                 "needToPay": "free"
             },
             {
-                "seatsRegistration": [
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор места на регистрации (за 2 часа до вылета)",
-                            "en": "Choosing a place at check-in (2 hours before departure)"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор места на сайте (онлайн)",
-                            "en": "Choosing a place online"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "charge"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор комфортностого места",
-                            "en": "Choice of comfort seat"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "charge"
-                    }
-                ]
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места на регистрации (за 2 часа до вылета)",
+                    "en": "Choosing a place at check-in (2 hours before departure)"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места на сайте (онлайн)",
+                    "en": "Choosing a place online"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор комфортностого места",
+                    "en": "Choice of comfort seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
             },
             {
                 "code": "miles",
@@ -91,126 +90,125 @@
                 "needToPay": "free"
             },
             {
-                "vipService": [
-                    {
-                        "shortDescription": {
-                            "ru": "Отдельная стойка регистрации бизнес-класса",
-                            "en": "Separate business class reception"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Бизнес зал",
-                            "en": "Lounge Access"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Приоритетная посадка",
-                            "en": "Priority Boarding"
-                        },
-                        "fullDescription": {
-                            "ru": "Приоритетная посадка — недоступно",
-                            "en": "Priority boarding — not available"
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Открытая дата",
-                            "en": "Open Date"
-                        },
-                        "fullDescription": {
-                            "ru": "Открытая дата — недоступно",
-                            "en": "Open date — not available"
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Стоповер",
-                            "en": "Stopover"
-                        },
-                        "fullDescription": {
-                            "ru": "Стоповер — недоступно",
-                            "en": "Stopover — not available"
-                        },
-                        "needToPay": "notAvailable"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Отдельная стойка регистрации бизнес-класса",
+                    "en": "Separate business class reception"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+
             },
             {
-                "exchangeable": [
-                    {
-                        "shortDescription": {
-                            "ru": "Срок годности билета (с даты вылета рейса)",
-                            "en": "Expiration date of the ticket (from the date of flight departure)"
-                        },
-                        "fullDescription": {
-                            "ru": "Срок годности билета (с даты вылета рейса) - 1 месяц",
-                            "en": "Expiration date of the ticket (from the date of flight departure) - 1 month"
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Изменения даты или маршрута до отправления рейса",
-                            "en": "Changes to date or route prior to departure"
-                        },
-                        "fullDescription": {
-                            "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса)",
-                            "en": "Changes in the date or route before departure (more than 40 minutes before departure)"
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
-                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
-                        },
-                        "fullDescription": {
-                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
-                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
-                        },
-                        "needToPay": "notAvailable"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
             },
             {
-                "refundable": [
-                    {
-                        "shortDescription": {
-                            "ru": "Возможность возврата",
-                            "en": "Refund possibility"
-                        },
-                        "fullDescription": {
-                            "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Сбор за оформление авиабилета возврату не подлежит",
-                            "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Fee for ticket issuance is non-refundable."
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Возможность возврата",
-                            "en": "Refund possibility"
-                        },
-                        "fullDescription": {
-                            "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Сбор за оформление авиабилета возврату не подлежит",
-                            "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Fee for ticket issuance is non-refundable."
-                        },
-                        "needToPay": "notAvailable"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": "Priority Boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка — недоступно",
+                    "en": "Priority boarding — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Открытая дата",
+                    "en": "Open Date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата — недоступно",
+                    "en": "Open date — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Стоповер",
+                    "en": "Stopover"
+                },
+                "fullDescription": {
+                    "ru": "Стоповер — недоступно",
+                    "en": "Stopover — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Срок годности билета (с даты вылета рейса)",
+                    "en": "Expiration date of the ticket (from the date of flight departure)"
+                },
+                "fullDescription": {
+                    "ru": "Срок годности билета (с даты вылета рейса) - 1 месяц",
+                    "en": "Expiration date of the ticket (from the date of flight departure) - 1 month"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты или маршрута до отправления рейса",
+                    "en": "Changes to date or route prior to departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса)",
+                    "en": "Changes in the date or route before departure (more than 40 minutes before departure)"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возможность возврата",
+                    "en": "Refund possibility"
+                },
+                "fullDescription": {
+                    "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Сбор за оформление авиабилета возврату не подлежит",
+                    "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Fee for ticket issuance is non-refundable."
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возможность возврата",
+                    "en": "Refund possibility"
+                },
+                "fullDescription": {
+                    "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Сбор за оформление авиабилета возврату не подлежит",
+                    "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Fee for ticket issuance is non-refundable."
+                },
+                "needToPay": "notAvailable"
             },
             {
                 "code": "meal",
@@ -269,41 +267,41 @@
                 "needToPay": "free"
             },
             {
-                "seatsRegistration": [
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор места на регистрации (за 2 часа до вылета)",
-                            "en": "Choosing a place at check-in (2 hours before departure)"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор места на сайте (онлайн)",
-                            "en": "Choosing a place online"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "charge"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор комфортностого места",
-                            "en": "Choice of comfort seat"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "charge"
-                    }
-                ]
+                "code": "seatsRegistration",
+
+                "shortDescription": {
+                    "ru": "Выбор места на регистрации (за 2 часа до вылета)",
+                    "en": "Choosing a place at check-in (2 hours before departure)"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места на сайте (онлайн)",
+                    "en": "Choosing a place online"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор комфортностого места",
+                    "en": "Choice of comfort seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
             },
             {
                 "code": "miles",
@@ -318,126 +316,125 @@
                 "needToPay": "free"
             },
             {
-                "vipService": [
-                    {
-                        "shortDescription": {
-                            "ru": "Отдельная стойка регистрации бизнес-класса",
-                            "en": "Separate business class reception"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Бизнес зал",
-                            "en": "Lounge Access"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Приоритетная посадка",
-                            "en": "Priority Boarding"
-                        },
-                        "fullDescription": {
-                            "ru": "Приоритетная посадка — недоступно",
-                            "en": "Priority boarding — not available"
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Открытая дата",
-                            "en": "Open Date"
-                        },
-                        "fullDescription": {
-                            "ru": "Открытая дата — недоступно",
-                            "en": "Open date — not available"
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Стоповер",
-                            "en": "Stopover"
-                        },
-                        "fullDescription": {
-                            "ru": "Стоповер — недоступно",
-                            "en": "Stopover — not available"
-                        },
-                        "needToPay": "notAvailable"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Отдельная стойка регистрации бизнес-класса",
+                    "en": "Separate business class reception"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
             },
             {
-                "exchangeable": [
-                    {
-                        "shortDescription": {
-                            "ru": "Срок годности билета (с даты вылета рейса)",
-                            "en": "Expiration date of the ticket (from the date of flight departure)"
-                        },
-                        "fullDescription": {
-                            "ru": "Срок годности билета (с даты вылета рейса) - 6 месяцев",
-                            "en": "Expiration date of the ticket (from the date of flight departure) - 6 month"
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Изменения даты или маршрута до отправления рейса",
-                            "en": "Changes to date or route prior to departure"
-                        },
-                        "fullDescription": {
-                            "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса)",
-                            "en": "Changes in the date or route before departure (more than 40 minutes before departure)"
-                        },
-                        "needToPay": "charge"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
-                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
-                        },
-                        "fullDescription": {
-                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
-                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
-                        },
-                        "needToPay": "charge"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
             },
             {
-                "refundable": [
-                    {
-                        "shortDescription": {
-                            "ru": "Возможность возврата",
-                            "en": "Refund possibility"
-                        },
-                        "fullDescription": {
-                            "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Сбор за оформление авиабилета возврату не подлежит",
-                            "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Fee for ticket issuance is non-refundable."
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Возможность возврата",
-                            "en": "Refund possibility"
-                        },
-                        "fullDescription": {
-                            "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Сбор за оформление авиабилета возврату не подлежит",
-                            "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Fee for ticket issuance is non-refundable."
-                        },
-                        "needToPay": "notAvailable"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": "Priority Boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка — недоступно",
+                    "en": "Priority boarding — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+
+                "shortDescription": {
+                    "ru": "Открытая дата",
+                    "en": "Open Date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата — недоступно",
+                    "en": "Open date — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Стоповер",
+                    "en": "Stopover"
+                },
+                "fullDescription": {
+                    "ru": "Стоповер — недоступно",
+                    "en": "Stopover — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Срок годности билета (с даты вылета рейса)",
+                    "en": "Expiration date of the ticket (from the date of flight departure)"
+                },
+                "fullDescription": {
+                    "ru": "Срок годности билета (с даты вылета рейса) - 6 месяцев",
+                    "en": "Expiration date of the ticket (from the date of flight departure) - 6 month"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты или маршрута до отправления рейса",
+                    "en": "Changes to date or route prior to departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса)",
+                    "en": "Changes in the date or route before departure (more than 40 minutes before departure)"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возможность возврата",
+                    "en": "Refund possibility"
+                },
+                "fullDescription": {
+                    "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Сбор за оформление авиабилета возврату не подлежит",
+                    "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Fee for ticket issuance is non-refundable."
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возможность возврата",
+                    "en": "Refund possibility"
+                },
+                "fullDescription": {
+                    "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Сбор за оформление авиабилета возврату не подлежит",
+                    "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Fee for ticket issuance is non-refundable."
+                },
+                "needToPay": "notAvailable"
             },
             {
                 "code": "meal",
@@ -496,41 +493,40 @@
                 "needToPay": "free"
             },
             {
-                "seatsRegistration": [
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор места на регистрации (за 2 часа до вылета)",
-                            "en": "Choosing a place at check-in (2 hours before departure)"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор места на сайте (онлайн)",
-                            "en": "Choosing a place online"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор комфортностого места",
-                            "en": "Choice of comfort seat"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "charge"
-                    }
-                ]
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места на регистрации (за 2 часа до вылета)",
+                    "en": "Choosing a place at check-in (2 hours before departure)"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места на сайте (онлайн)",
+                    "en": "Choosing a place online"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор комфортностого места",
+                    "en": "Choice of comfort seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
             },
             {
                 "code": "miles",
@@ -545,126 +541,124 @@
                 "needToPay": "free"
             },
             {
-                "vipService": [
-                    {
-                        "shortDescription": {
-                            "ru": "Отдельная стойка регистрации бизнес-класса",
-                            "en": "Separate business class reception"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Бизнес зал",
-                            "en": "Lounge Access"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Приоритетная посадка",
-                            "en": "Priority Boarding"
-                        },
-                        "fullDescription": {
-                            "ru": "Приоритетная посадка — недоступно",
-                            "en": "Priority boarding — not available"
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Открытая дата",
-                            "en": "Open Date"
-                        },
-                        "fullDescription": {
-                            "ru": "Открытая дата — недоступно",
-                            "en": "Open date — not available"
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Стоповер",
-                            "en": "Stopover"
-                        },
-                        "fullDescription": {
-                            "ru": "Стоповер — доступен",
-                            "en": "Stopover — available"
-                        },
-                        "needToPay": "free"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Отдельная стойка регистрации бизнес-класса",
+                    "en": "Separate business class reception"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
             },
             {
-                "exchangeable": [
-                    {
-                        "shortDescription": {
-                            "ru": "Срок годности билета (с даты вылета рейса)",
-                            "en": "Expiration date of the ticket (from the date of flight departure)"
-                        },
-                        "fullDescription": {
-                            "ru": "Срок годности билета (с даты вылета рейса) - 12 месяцев",
-                            "en": "Expiration date of the ticket (from the date of flight departure) - 12 month"
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Изменения даты или маршрута до отправления рейса",
-                            "en": "Changes to date or route prior to departure"
-                        },
-                        "fullDescription": {
-                            "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса). Разрешены,без сборов, возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
-                            "en": "Changes in the date or route before departure (more than 40 minutes before departure). Allowed, without fees, it is possible to supplement the difference to the available fare level at the time of ticket exchange."
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
-                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
-                        },
-                        "fullDescription": {
-                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс). Возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
-                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight). Surcharge possible difference to the available fare level at the time of ticket exchange."
-                        },
-                        "needToPay": "charge"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
             },
             {
-                "refundable": [
-                    {
-                        "shortDescription": {
-                            "ru": "Возможность возврата",
-                            "en": "Refund possibility"
-                        },
-                        "fullDescription": {
-                            "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Разрешен, сбор за возврат 1000 \u20BD за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
-                            "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Permitted, a return fee of 5000  \u20BD for each return area. Fee for ticket issuance is non-refundable."
-                        },
-                        "needToPay": "charge"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Возможность возврата",
-                            "en": "Refund possibility"
-                        },
-                        "fullDescription": {
-                            "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Разрешен, сбор за возврат 1000 \u20BD за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
-                            "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Permitted, a return fee of 5000  \u20BD for each return area. Fee for ticket issuance is non-refundable."
-                        },
-                        "needToPay": "charge"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": "Priority Boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка — недоступно",
+                    "en": "Priority boarding — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Открытая дата",
+                    "en": "Open Date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата — недоступно",
+                    "en": "Open date — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Стоповер",
+                    "en": "Stopover"
+                },
+                "fullDescription": {
+                    "ru": "Стоповер — доступен",
+                    "en": "Stopover — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Срок годности билета (с даты вылета рейса)",
+                    "en": "Expiration date of the ticket (from the date of flight departure)"
+                },
+                "fullDescription": {
+                    "ru": "Срок годности билета (с даты вылета рейса) - 12 месяцев",
+                    "en": "Expiration date of the ticket (from the date of flight departure) - 12 month"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты или маршрута до отправления рейса",
+                    "en": "Changes to date or route prior to departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса). Разрешены,без сборов, возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                    "en": "Changes in the date or route before departure (more than 40 minutes before departure). Allowed, without fees, it is possible to supplement the difference to the available fare level at the time of ticket exchange."
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс). Возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight). Surcharge possible difference to the available fare level at the time of ticket exchange."
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возможность возврата",
+                    "en": "Refund possibility"
+                },
+                "fullDescription": {
+                    "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Разрешен, сбор за возврат 1000 \u20BD за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
+                    "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Permitted, a return fee of 5000  \u20BD for each return area. Fee for ticket issuance is non-refundable."
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возможность возврата",
+                    "en": "Refund possibility"
+                },
+                "fullDescription": {
+                    "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Разрешен, сбор за возврат 1000 \u20BD за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
+                    "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Permitted, a return fee of 5000  \u20BD for each return area. Fee for ticket issuance is non-refundable."
+                },
+                "needToPay": "charge"
             },
             {
                 "code": "meal",
@@ -723,41 +717,40 @@
                 "needToPay": "free"
             },
             {
-                "seatsRegistration": [
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор места на регистрации (за 2 часа до вылета)",
-                            "en": "Choosing a place at check-in (2 hours before departure)"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор места на сайте (онлайн)",
-                            "en": "Choosing a place online"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор комфортностого места",
-                            "en": "Choice of comfort seat"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    }
-                ]
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места на регистрации (за 2 часа до вылета)",
+                    "en": "Choosing a place at check-in (2 hours before departure)"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места на сайте (онлайн)",
+                    "en": "Choosing a place online"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор комфортностого места",
+                    "en": "Choice of comfort seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             },
             {
                 "code": "miles",
@@ -772,126 +765,125 @@
                 "needToPay": "free"
             },
             {
-                "vipService": [
-                    {
-                        "shortDescription": {
-                            "ru": "Доступна отдельная стойка регистрации бизнес-класса",
-                            "en": "Available separate business class reception"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Бизнес зал",
-                            "en": "Lounge Access"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Приоритетная посадка",
-                            "en": "Priority Boarding"
-                        },
-                        "fullDescription": {
-                            "ru": "Приоритетная посадка — недоступно",
-                            "en": "Priority boarding — not available"
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Открытая дата",
-                            "en": "Open Date"
-                        },
-                        "fullDescription": {
-                            "ru": "Открытая дата — недоступно",
-                            "en": "Open date — not available"
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Стоповер",
-                            "en": "Stopover"
-                        },
-                        "fullDescription": {
-                            "ru": "Стоповер — доступен",
-                            "en": "Stopover — available"
-                        },
-                        "needToPay": "free"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступна отдельная стойка регистрации бизнес-класса",
+                    "en": "Available separate business class reception"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             },
             {
-                "exchangeable": [
-                    {
-                        "shortDescription": {
-                            "ru": "Срок годности билета (с даты вылета рейса)",
-                            "en": "Expiration date of the ticket (from the date of flight departure)"
-                        },
-                        "fullDescription": {
-                            "ru": "Срок годности билета (с даты вылета рейса) - 12 месяцев",
-                            "en": "Expiration date of the ticket (from the date of flight departure) - 12 month"
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Изменения даты или маршрута до отправления рейса",
-                            "en": "Changes to date or route prior to departure"
-                        },
-                        "fullDescription": {
-                            "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса). Разрешены,без сборов, возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
-                            "en": "Changes in the date or route before departure (more than 40 minutes before departure). Allowed, without fees, it is possible to supplement the difference to the available fare level at the time of ticket exchange."
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
-                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
-                        },
-                        "fullDescription": {
-                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс). Возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
-                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight). Surcharge possible difference to the available fare level at the time of ticket exchange."
-                        },
-                        "needToPay": "charge"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
             },
             {
-                "refundable": [
-                    {
-                        "shortDescription": {
-                            "ru": "Возможность возврата",
-                            "en": "Refund possibility"
-                        },
-                        "fullDescription": {
-                            "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Разрешен, сбор за возврат 1000 \u20BD за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
-                            "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Permitted, a return fee of 5000  \u20BD for each return area. Fee for ticket issuance is non-refundable."
-                        },
-                        "needToPay": "charge"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Возможность возврата",
-                            "en": "Refund possibility"
-                        },
-                        "fullDescription": {
-                            "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Разрешен, сбор за возврат 1000 \u20BD за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
-                            "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Permitted, a return fee of 5000  \u20BD for each return area. Fee for ticket issuance is non-refundable."
-                        },
-                        "needToPay": "charge"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": "Priority Boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка — недоступно",
+                    "en": "Priority boarding — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Открытая дата",
+                    "en": "Open Date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата — недоступно",
+                    "en": "Open date — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Стоповер",
+                    "en": "Stopover"
+                },
+                "fullDescription": {
+                    "ru": "Стоповер — доступен",
+                    "en": "Stopover — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+
+                "shortDescription": {
+                    "ru": "Срок годности билета (с даты вылета рейса)",
+                    "en": "Expiration date of the ticket (from the date of flight departure)"
+                },
+                "fullDescription": {
+                    "ru": "Срок годности билета (с даты вылета рейса) - 12 месяцев",
+                    "en": "Expiration date of the ticket (from the date of flight departure) - 12 month"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты или маршрута до отправления рейса",
+                    "en": "Changes to date or route prior to departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса). Разрешены,без сборов, возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                    "en": "Changes in the date or route before departure (more than 40 minutes before departure). Allowed, without fees, it is possible to supplement the difference to the available fare level at the time of ticket exchange."
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс). Возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
+                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight). Surcharge possible difference to the available fare level at the time of ticket exchange."
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возможность возврата",
+                    "en": "Refund possibility"
+                },
+                "fullDescription": {
+                    "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Разрешен, сбор за возврат 1000 \u20BD за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
+                    "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Permitted, a return fee of 5000  \u20BD for each return area. Fee for ticket issuance is non-refundable."
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возможность возврата",
+                    "en": "Refund possibility"
+                },
+                "fullDescription": {
+                    "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Разрешен, сбор за возврат 1000 \u20BD за каждый возвращаемый участок. Сбор за оформление авиабилета возврату не подлежит.",
+                    "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Permitted, a return fee of 5000  \u20BD for each return area. Fee for ticket issuance is non-refundable."
+                },
+                "needToPay": "charge"
             },
             {
                 "code": "meal",
@@ -950,41 +942,40 @@
                 "needToPay": "free"
             },
             {
-                "seatsRegistration": [
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор места на регистрации (за 2 часа до вылета)",
-                            "en": "Choosing a place at check-in (2 hours before departure)"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор места на сайте (онлайн)",
-                            "en": "Choosing a place online"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Выбор комфортностого места",
-                            "en": "Choice of comfort seat"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    }
-                ]
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места на регистрации (за 2 часа до вылета)",
+                    "en": "Choosing a place at check-in (2 hours before departure)"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места на сайте (онлайн)",
+                    "en": "Choosing a place online"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор комфортностого места",
+                    "en": "Choice of comfort seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             },
             {
                 "code": "miles",
@@ -999,126 +990,125 @@
                 "needToPay": "free"
             },
             {
-                "vipService": [
-                    {
-                        "shortDescription": {
-                            "ru": "Доступна отдельная стойка регистрации бизнес-класса",
-                            "en": "Available separate business class reception"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Предоставляется бизнес зал",
-                            "en": "Business lounge available"
-                        },
-                        "fullDescription": {
-                            "ru": "",
-                            "en": ""
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Предоставляется приоритетная посадка",
-                            "en": "Priority boarding available."
-                        },
-                        "fullDescription": {
-                            "ru": "Предоставляется приоритетная посадка.",
-                            "en": "Priority boarding available."
-                        },
-                        "needToPay": "notAvailable"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Открытая дата",
-                            "en": "Open Date"
-                        },
-                        "fullDescription": {
-                            "ru": "3 месяца с даты продажи а/билета",
-                            "en": "3 months from the date of sale of a ticket"
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Стоповер",
-                            "en": "Stopover"
-                        },
-                        "fullDescription": {
-                            "ru": "Стоповер — доступен",
-                            "en": "Stopover — available"
-                        },
-                        "needToPay": "free"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступна отдельная стойка регистрации бизнес-класса",
+                    "en": "Available separate business class reception"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             },
             {
-                "exchangeable": [
-                    {
-                        "shortDescription": {
-                            "ru": "Срок годности билета (с даты вылета рейса)",
-                            "en": "Expiration date of the ticket (from the date of flight departure)"
-                        },
-                        "fullDescription": {
-                            "ru": "Срок годности билета (с даты вылета рейса) - 12 месяцев",
-                            "en": "Expiration date of the ticket (from the date of flight departure) - 12 month"
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Изменения даты или маршрута до отправления рейса",
-                            "en": "Changes to date or route prior to departure"
-                        },
-                        "fullDescription": {
-                            "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса). Разрешены,без сборов.",
-                            "en": "Changes in the date or route before departure (more than 40 minutes before departure). Allowed, without fees."
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
-                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
-                        },
-                        "fullDescription": {
-                            "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс). Разрешены,без сборов.",
-                            "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight). Allowed, without fees."
-                        },
-                        "needToPay": "free"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Предоставляется бизнес зал",
+                    "en": "Business lounge available"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             },
             {
-                "refundable": [
-                    {
-                        "shortDescription": {
-                            "ru": "Возможность возврата",
-                            "en": "Refund possibility"
-                        },
-                        "fullDescription": {
-                            "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Разрешен, ,без сборов. Сбор за оформление авиабилета возврату не подлежит.",
-                            "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Permitted, without fees. Fee for ticket issuance is non-refundable."
-                        },
-                        "needToPay": "free"
-                    },
-                    {
-                        "shortDescription": {
-                            "ru": "Возможность возврата",
-                            "en": "Refund possibility"
-                        },
-                        "fullDescription": {
-                            "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Разрешен, без сборов. Сбор за оформление авиабилета возврату не подлежит.",
-                            "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Permitted, without fees. Fee for ticket issuance is non-refundable."
-                        },
-                        "needToPay": "free"
-                    }
-                ]
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Предоставляется приоритетная посадка",
+                    "en": "Priority boarding available."
+                },
+                "fullDescription": {
+                    "ru": "Предоставляется приоритетная посадка.",
+                    "en": "Priority boarding available."
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Открытая дата",
+                    "en": "Open Date"
+                },
+                "fullDescription": {
+                    "ru": "3 месяца с даты продажи а/билета",
+                    "en": "3 months from the date of sale of a ticket"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+
+                "shortDescription": {
+                    "ru": "Стоповер",
+                    "en": "Stopover"
+                },
+                "fullDescription": {
+                    "ru": "Стоповер — доступен",
+                    "en": "Stopover — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Срок годности билета (с даты вылета рейса)",
+                    "en": "Expiration date of the ticket (from the date of flight departure)"
+                },
+                "fullDescription": {
+                    "ru": "Срок годности билета (с даты вылета рейса) - 12 месяцев",
+                    "en": "Expiration date of the ticket (from the date of flight departure) - 12 month"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения даты или маршрута до отправления рейса",
+                    "en": "Changes to date or route prior to departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса). Разрешены,без сборов.",
+                    "en": "Changes in the date or route before departure (more than 40 minutes before departure). Allowed, without fees."
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
+                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс). Разрешены,без сборов.",
+                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight). Allowed, without fees."
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возможность возврата",
+                    "en": "Refund possibility"
+                },
+                "fullDescription": {
+                    "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Разрешен, ,без сборов. Сбор за оформление авиабилета возврату не подлежит.",
+                    "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Permitted, without fees. Fee for ticket issuance is non-refundable."
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возможность возврата",
+                    "en": "Refund possibility"
+                },
+                "fullDescription": {
+                    "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Разрешен, без сборов. Сбор за оформление авиабилета возврату не подлежит.",
+                    "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Permitted, without fees. Fee for ticket issuance is non-refundable."
+                },
+                "needToPay": "free"
             },
             {
                 "code": "meal",
