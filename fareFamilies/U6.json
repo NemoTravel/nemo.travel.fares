@@ -649,14 +649,14 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Питание на борту",
-                    "en": "Complimentary meals",
+                    "en": "Meals",
                     "de": "Mahlzeiten an Bord"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "seatsRegistration",
@@ -699,20 +699,136 @@
                     "de": "Vorrangiges Einsteigen — nicht verfügbar"
                 },
                 "needToPay": "notAvailable"
-            },
+            }
+        ]
+    },
+    {
+        "owner": "U6",
+        "baseClass": "economy",
+        "priority": 0,
+        "tariffCodePattern": "^(\\w*(PL))\\w*$",
+        "parameters": [
             {
-                "code": "miles",
+                "code": "description",
                 "shortDescription": {
-                    "ru": "Начисление бонусов",
-                    "en": "«Wings» bonuses",
-                    "de": "«Wings» Boni"
+                    "ru": "Промо Лайт",
+                    "en": "Promo Light",
+                    "de": "Promo"
                 },
                 "fullDescription": {
-                    "ru": "Участники программы «Крылья» получают на свой счет бонусы (5% от оплаченного тарифа)",
-                    "en": "All members of «Wings Loyalty Program» get points to Wings Loyalty account (about 5% of the applicable tariff)",
-                    "de": "Alle Mitglieder von «Wings Loyalty Program» bekommen Punkte zu Wings Loyalty Account (ca. 5% des geltenden Tarifs)"
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange before departure",
+                    "de": "Änderungen am Ticket vor der Abreise"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете не разрешены",
+                    "en": "Changes to the ticket are not allowed",
+                    "de": "Änderungen am Ticket vor der Abreise (40 Minuten vor dem Ende der Anmeldung) sind mit einem Aufpreis für jedes Segment erlaubt"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платно",
+                    "en": "No free baggage allowance",
+                    "de": "Eine Tasche bis zu 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "5 кг",
+                    "en": "Up to 5 kg",
+                    "de": "Bis zu 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Fare is completely non-refundable",
+                    "de": "Fare ist völlig nicht rückzahlbar"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту",
+                    "en": "Meals",
+                    "de": "Mahlzeiten an Bord"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Рассадка на первых рядах",
+                    "en": "First row seats",
+                    "de": "Erste Reihe Sitze"
+                },
+                "fullDescription": {
+                    "ru": "Рассадка на первых рядах — недоступно",
+                    "en": "First row seats — not available",
+                    "de": "Erste Reihe Sitze — nicht verfügbar"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация на рейс",
+                    "en": "Priority check-in",
+                    "de": "Vorrangiger Check-in für einen Flug"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная регистрация на рейс — недоступно",
+                    "en": "Priority check-in — not available",
+                    "de": "Vorrangiger Check-in für einen Flug — nicht verfügbar"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка в самолёт",
+                    "en": "Priority boarding",
+                    "de": "Vorrangiges Einsteigen"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка в самолёт — недоступно",
+                    "en": "Priority boarding — not available",
+                    "de": "Vorrangiges Einsteigen — nicht verfügbar"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     }
