@@ -3,9 +3,9 @@
         "owner": "5F",
         "baseClass": "economy",
         "priority": 5,
-        "flightTimeSince": "2018-10-28T00:00:00",
-        "flightTimeUntil": "2025-03-07T00:00:00",
-        "tariffCodePattern": "^(\\w*(AD)).*$",
+        "flightTimeSince": "2017-10-28T00:00:00",
+        "flightTimeUntil": "2018-10-28T00:00:00",
+        "tariffCodePattern": "^[AYSEW]\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -21,35 +21,23 @@
                 "needToPay": null
             },
             {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Дополнительное питание за 1 EUR",
-                    "en": "Additional meal for 1 EUR",
-                    "ro": "Mâncare suplimentară pentru 1 EURO"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 8 кг (43*32*25)",
-                    "en": "1 item up to 8 kg (43*32*25)",
-                    "ro": "1 unitate de pînă la 8kg (43*32*25)"
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg",
+                    "ro": "1 unitate de pînă la 8kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 8 кг с габаритами не превышающими размеры 43*32*25 см",
-                    "en": ""
+                    "ru": "1 место до 8 кг, габариты не более 100 см по сумме трех измерений",
+                    "en": "1 item up to 8 kg, total linear dimension — up to 100 cm",
+                    "ro": "1 unitate de pînă la 8kg cu dimensiunile totale de pînă la 100cm"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 места: 1 до 32 кг/158см и 1 до 10 кг (50*40*25); исключение: вылеты из Парижа - 1 место до 32кг/158см",
+                    "ru": "2 места: 1 до 32 кг и 1 до 10 кг (50*40*25); исключение: вылеты из Парижа - 1 место до 32кг/158см",
                     "en": "2 items: 1 up to 32 kg and 1 up to 10 kg (50*40*25); exception: flights from Paris - 1 item up to 32kg/158cm",
                     "ro": "2 unități: 1 pînă la 32kg și 1 pînă la 10kg (50*40*25); excepție: zboruri din Paris - 1 unitate pînă la 32kg/158cm"
                 },
@@ -135,9 +123,9 @@
         "owner": "5F",
         "baseClass": "economy",
         "priority": 5,
-        "flightTimeSince": "2017-10-28T00:00:00",
-        "flightTimeUntil": "2018-10-28T00:00:00",
-        "tariffCodePattern": "^[AYSEW]\\w*$",
+        "flightTimeSince": "2018-10-28T00:00:00",
+        "flightTimeUntil": "2025-03-07T00:00:00",
+        "tariffCodePattern": "^(\\w*(AD)).*$",
         "parameters": [
             {
                 "code": "description",
@@ -153,23 +141,35 @@
                 "needToPay": null
             },
             {
-                "code": "carryOn",
+                "code": "vipService",
                 "shortDescription": {
-                    "ru": "1 место до 8 кг",
-                    "en": "1 item up to 8 kg",
-                    "ro": "1 unitate de pînă la 8kg"
+                    "ru": "Дополнительное питание за 1 EUR",
+                    "en": "Additional meal for 1 EUR",
+                    "ro": "Mâncare suplimentară pentru 1 EURO"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 8 кг, габариты не более 100 см по сумме трех измерений",
-                    "en": "1 item up to 8 kg, total linear dimension — up to 100 cm",
-                    "ro": "1 unitate de pînă la 8kg cu dimensiunile totale de pînă la 100cm"
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг (43*32*25)",
+                    "en": "1 item up to 8 kg (43*32*25)",
+                    "ro": "1 unitate de pînă la 8kg (43*32*25)"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 8 кг с габаритами не превышающими размеры 43*32*25 см",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 места: 1 до 32 кг и 1 до 10 кг (50*40*25); исключение: вылеты из Парижа - 1 место до 32кг/158см",
+                    "ru": "2 места: 1 до 32 кг/158см и 1 до 10 кг (50*40*25); исключение: вылеты из Парижа - 1 место до 32кг/158см",
                     "en": "2 items: 1 up to 32 kg and 1 up to 10 kg (50*40*25); exception: flights from Paris - 1 item up to 32kg/158cm",
                     "ro": "2 unități: 1 pînă la 32kg și 1 pînă la 10kg (50*40*25); excepție: zboruri din Paris - 1 unitate pînă la 32kg/158cm"
                 },
