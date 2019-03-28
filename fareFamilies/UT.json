@@ -94,6 +94,30 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority Check-In"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -378,7 +402,7 @@
         "owner": "UT",
         "baseClass": "economy",
         "priority": 8,
-        "tariffCodePattern": "^([A-LN-Z](FLEX))\\w*$",
+        "tariffCodePattern": "^([FZPKLHVOUXRBNGWESTY](FLEX))\\w*$",
         "parameters": [
             {
                 "code": "description",
