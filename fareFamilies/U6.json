@@ -2,7 +2,7 @@
     {
         "owner": "U6",
         "baseClass": "business",
-        "priority": 4,
+        "priority": 7,
         "tariffCodePattern": "^(\\w*\\d*(BL))\\w*\\d*$",
         "parameters": [
             {
@@ -145,7 +145,7 @@
     {
         "owner": "U6",
         "baseClass": "business",
-        "priority": 5,
+        "priority": 8,
         "tariffCodePattern": "^(\\w*\\d*(BS))\\w*\\d*$",
         "parameters": [
             {
@@ -288,7 +288,7 @@
     {
         "owner": "U6",
         "baseClass": "economy",
-        "priority": 2,
+        "priority": 5,
         "tariffCodePattern": "^(\\w*\\d*(EC))\\w*\\d*$",
         "parameters": [
             {
@@ -432,7 +432,7 @@
     {
         "owner": "U6",
         "baseClass": "economy",
-        "priority": 3,
+        "priority": 6,
         "tariffCodePattern": "^(\\w*\\d*(FL))\\w*\\d*$",
         "parameters": [
             {
@@ -575,7 +575,7 @@
     {
         "owner": "U6",
         "baseClass": "economy",
-        "priority": 1,
+        "priority": 4,
         "tariffCodePattern": "^(\\w*\\d*(PR))\\w*\\d*$",
         "parameters": [
             {
