@@ -3,7 +3,7 @@
         "owner": "SU",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([YBMUKHLQTEN](CL|CO|FL|FX))\\w*$",
+        "tariffCodePattern": "^([YBMUKHLQTENR](CL|CO|FL|FX))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -645,7 +645,7 @@
         "owner": "SU",
         "baseClass": "business",
         "priority": 7,
-        "tariffCodePattern": "^([JCDIZR](CL|CO))\\w*\\d*$",
+        "tariffCodePattern": "^([JCDIZ](CL|CO))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
@@ -1117,7 +1117,7 @@
         "owner": "SU",
         "baseClass": "business",
         "priority": 8,
-        "tariffCodePattern": "^([JCDIZR](FM|FO))\\w*\\d*$",
+        "tariffCodePattern": "^([JCDIZ](FM|FO))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
@@ -1493,7 +1493,7 @@
         "owner": "SU",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^([YBMUKHLQTEN](FM|FO))\\w*\\d*$",
+        "tariffCodePattern": "^([YBMUKHLQTENR](FM|FO))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
