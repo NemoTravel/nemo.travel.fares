@@ -431,7 +431,7 @@
         "owner": "SU",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([R])\\w*\\d*$",
+        "tariffCodePattern": "^((RSX|RSO))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
@@ -1800,7 +1800,7 @@
         "priority": 2,
         "saleTimeSince": "2019-04-02T00:00:00",
         "saleTimeUntil": "2022-03-19T00:00:00",
-        "tariffCodePattern": "^([YBMUKHLQTEN](NB|NO))\\w*$",
+        "tariffCodePattern": "^([YBMUKHLQTENR](NB|NO))\\w*$",
         "parameters": [
             {
                 "code": "description",
