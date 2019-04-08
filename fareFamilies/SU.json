@@ -824,7 +824,7 @@
     },
     {
         "owner": "SU",
-        "baseClass": "premiumEconomy",
+        "baseClass": "economy",
         "priority": 5,
         "tariffCodePattern": "^([WSA](CL|CO))\\w*\\d*$",
         "parameters": [
@@ -1295,7 +1295,7 @@
     },
     {
         "owner": "SU",
-        "baseClass": "premiumEconomy",
+        "baseClass": "economy",
         "priority": 6,
         "tariffCodePattern": "^([WSA](FM|FO))\\w*\\d*$",
         "parameters": [
