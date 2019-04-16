@@ -211,7 +211,7 @@
         "owner": "5N",
         "baseClass": "economy",
         "priority": 15,
-        "tariffCodePattern": "^([Y])\\w*$",
+        "tariffCodePattern": "^[HEWTVQKMSY](BS)\\w*$",
         "parameters": [
             {
                 "code": "description",
