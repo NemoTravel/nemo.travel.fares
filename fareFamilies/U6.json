@@ -831,5 +831,141 @@
                 "needToPay": "notAvailable"
             }
         ]
+    },
+    {
+        "owner": "U6",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^(\\w*(LC1))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Безбагажный",
+                    "en": "No Bags"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "5 кг",
+                    "en": "Up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платно",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете не разрешены",
+                    "en": "Changes to the ticket are not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Fare is completely non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "U6",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^(\\w*(LC2))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Багажный",
+                    "en": "One Bag"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "5 кг",
+                    "en": "Up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Один чемодан 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете не разрешены",
+                    "en": "Changes to the ticket are not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Fare is completely non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
     }
 ]

@@ -3,7 +3,7 @@
         "owner": "AY",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([RZOQNSVL]\\w*(BA))\\w*$",
+        "tariffCodePattern": "^([ZOQNSVL]\\w*(BA))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -195,7 +195,7 @@
         "owner": "AY",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([RZOQNSVL]\\w*(LI))\\w*$",
+        "tariffCodePattern": "^([ZOQNSVL]\\w*(LI))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -483,7 +483,7 @@
         "owner": "AY",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([RZOQNSVLKMPT]\\w*(VA))\\w*$",
+        "tariffCodePattern": "^([ZOQNSVLKM]\\w*(VA))\\w*$",
         "parameters": [
             {
                 "code": "description",
