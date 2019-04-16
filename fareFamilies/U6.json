@@ -464,13 +464,13 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "Один чемодан 23 кг",
-                    "en": "1 item up to 23 kg",
+                    "ru": "Два чемодана по 23 кг",
+                    "en": "2 items up to 23 kg each",
                     "de": "Eine Tasche bis zu 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Разрешен провоз двух мест багажа по 23 кг (кроме Таджикистана/Киргизии/Узбекистана)",
+                    "en": "2 pieces up to 23 kg each (except CIS countries)"
                 },
                 "needToPay": "free"
             },

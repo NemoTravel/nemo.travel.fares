@@ -3,7 +3,7 @@
         "owner": "EK",
         "baseClass": "business",
         "priority": 7,
-        "tariffCodePattern": "^([IC]\\w*(SA))\\w*$",
+        "tariffCodePattern": "^([IC]\\w*(SA|SR))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -71,7 +71,7 @@
         "owner": "EK",
         "baseClass": "business",
         "priority": 8,
-        "tariffCodePattern": "^([CJ]\\w*(FA))\\w*$",
+        "tariffCodePattern": "^([CJ]\\w*(FA|FR))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -139,7 +139,7 @@
         "owner": "EK",
         "baseClass": "business",
         "priority": 6,
-        "tariffCodePattern": "^([OI]\\w*(PA))\\w*$",
+        "tariffCodePattern": "^([OI]\\w*(PA|PR))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -207,7 +207,7 @@
         "owner": "EK",
         "baseClass": "business",
         "priority": 5,
-        "tariffCodePattern": "^[O]((?!PA).)*$",
+        "tariffCodePattern": "^[O]((?!PA|PR).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -275,7 +275,7 @@
         "owner": "EK",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([KUBMW]\\w*(SA))\\w*$",
+        "tariffCodePattern": "^([KUBMW]\\w*(SA|SR))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -343,7 +343,7 @@
         "owner": "EK",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^([REY]\\w*(FA))\\w*$",
+        "tariffCodePattern": "^([REY]\\w*(FA|FR))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -411,7 +411,7 @@
         "owner": "EK",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([TLQN]\\w*(PA))\\w*$",
+        "tariffCodePattern": "^([TLQN]\\w*(PA|PR))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -547,7 +547,7 @@
         "owner": "EK",
         "baseClass": "first",
         "priority": 9,
-        "tariffCodePattern": "^([A]\\w*(SA))\\w*$",
+        "tariffCodePattern": "^([A]\\w*(SA|SR))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -615,7 +615,7 @@
         "owner": "EK",
         "baseClass": "first",
         "priority": 10,
-        "tariffCodePattern": "^([AF]\\w*(FA))\\w*$",
+        "tariffCodePattern": "^([AF]\\w*(FA|FR))\\w*$",
         "parameters": [
             {
                 "code": "description",
