@@ -1,0 +1,682 @@
+[
+    {
+        "owner": "EK",
+        "baseClass": "business",
+        "priority": 7,
+        "tariffCodePattern": "^([IC]\\w*(SA))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий Бизнес",
+                    "en": "Flex Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг каждое",
+                    "en": "2 items up to 7 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Каждому пассажиру разрешается взять с собой один портфель, а также одну ручную сумку или один портплед (сумку для одежды), при условии соблюдения следующих размерных ограничений. Портфель: 45 x 35 x 20 см. Сумка: 55 x 38 x 20 см. Сумка для одежды: толщина 20 см в сложенном виде",
+                    "en": "Each passenger is permitted one briefcase, plus either one handbag or one garment bag, subject to the following size limitations. Briefcase: 45 x 35 x 20 cm (18 x 14 x 8 inches). Handbag: 55 x 38 x 20 cm (22 x 15 x 8 inches). Garment bag: 20 cm (8 inches) thick when folded"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сборами. Сборы за изменение условий бронирования не входят в сумму доплаты за более дорогой тариф",
+                    "en": "Changes are available. A fee applies. Change fees will be charged in addition to any applicable fare difference"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "EK",
+        "baseClass": "business",
+        "priority": 8,
+        "tariffCodePattern": "^([CJ]\\w*(FA))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий Плюс Бизнес",
+                    "en": "Flex Plus Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг каждое",
+                    "en": "2 items up to 7 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Каждому пассажиру разрешается взять с собой один портфель, а также одну ручную сумку или один портплед (сумку для одежды), при условии соблюдения следующих размерных ограничений. Портфель: 45 x 35 x 20 см. Сумка: 55 x 38 x 20 см. Сумка для одежды: толщина 20 см в сложенном виде",
+                    "en": "Each passenger is permitted one briefcase, plus either one handbag or one garment bag, subject to the following size limitations. Briefcase: 45 x 35 x 20 cm (18 x 14 x 8 inches). Handbag: 55 x 38 x 20 cm (22 x 15 x 8 inches). Garment bag: 20 cm (8 inches) thick when folded"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Refundable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены без сборов",
+                    "en": "Changes are available. No fee applies"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "EK",
+        "baseClass": "business",
+        "priority": 6,
+        "tariffCodePattern": "^([OI]\\w*(PA))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Выгодный Бизнес",
+                    "en": "Saver Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг каждое",
+                    "en": "2 items up to 7 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Каждому пассажиру разрешается взять с собой один портфель, а также одну ручную сумку или один портплед (сумку для одежды), при условии соблюдения следующих размерных ограничений. Портфель: 45 x 35 x 20 см. Сумка: 55 x 38 x 20 см. Сумка для одежды: толщина 20 см в сложенном виде",
+                    "en": "Each passenger is permitted one briefcase, plus either one handbag or one garment bag, subject to the following size limitations. Briefcase: 45 x 35 x 20 cm (18 x 14 x 8 inches). Handbag: 55 x 38 x 20 cm (22 x 15 x 8 inches). Garment bag: 20 cm (8 inches) thick when folded"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сборами. Сборы за изменение условий бронирования не входят в сумму доплаты за более дорогой тариф",
+                    "en": "Changes are available. A fee applies. Change fees will be charged in addition to any applicable fare difference"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "EK",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "^[O]((?!PA).)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный Бизнес",
+                    "en": "Special Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг каждое",
+                    "en": "2 items up to 7 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Каждому пассажиру разрешается взять с собой один портфель, а также одну ручную сумку или один портплед (сумку для одежды), при условии соблюдения следующих размерных ограничений. Портфель: 45 x 35 x 20 см. Сумка: 55 x 38 x 20 см. Сумка для одежды: толщина 20 см в сложенном виде",
+                    "en": "Each passenger is permitted one briefcase, plus either one handbag or one garment bag, subject to the following size limitations. Briefcase: 45 x 35 x 20 cm (18 x 14 x 8 inches). Handbag: 55 x 38 x 20 cm (22 x 15 x 8 inches). Garment bag: 20 cm (8 inches) thick when folded"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сборами. Повышение до Бизнес-класса не разрешено",
+                    "en": "Changes are available. A fee applies. Upgrade to Business is not permitted"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "EK",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([KUBMW]\\w*(SA))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий",
+                    "en": "Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "Разрешается взять с собой одно место ручной клади размерами не более 55x38x20 см, за исключением вылета из Индии. При вылете из Индии сумма измерений (длина + высота + ширина) каждой сумки не должна превышать 115 см",
+                    "en": "Each passenger is permitted one piece of carry-on baggage no larger than 55 x 38 x 20 cm (22 x 15 x 8 inches) except when departing India. From India the total dimensions of any bag (length + width + height) cannot exceed 115cm (45.3 inches)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 30 кг",
+                    "en": "Up to 30 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сборами. Сборы за изменение условий бронирования не входят в сумму доплаты за более дорогой тариф",
+                    "en": "Changes are available. A fee applies. Change fees will be charged in addition to any applicable fare difference"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "EK",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^([REY]\\w*(FA))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий Плюс",
+                    "en": "Flex Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "Разрешается взять с собой одно место ручной клади размерами не более 55x38x20 см, за исключением вылета из Индии. При вылете из Индии сумма измерений (длина + высота + ширина) каждой сумки не должна превышать 115 см",
+                    "en": "Each passenger is permitted one piece of carry-on baggage no larger than 55 x 38 x 20 cm (22 x 15 x 8 inches) except when departing India. From India the total dimensions of any bag (length + width + height) cannot exceed 115cm (45.3 inches)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 35 кг",
+                    "en": "Up to 35 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Refundable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены без сборов",
+                    "en": "Changes are available. No fee applies"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "EK",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^([TLQN]\\w*(PA))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Выгодный",
+                    "en": "Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "Разрешается взять с собой одно место ручной клади размерами не более 55x38x20 см, за исключением вылета из Индии. При вылете из Индии сумма измерений (длина + высота + ширина) каждой сумки не должна превышать 115 см",
+                    "en": "Each passenger is permitted one piece of carry-on baggage no larger than 55 x 38 x 20 cm (22 x 15 x 8 inches) except when departing India. From India the total dimensions of any bag (length + width + height) cannot exceed 115cm (45.3 inches)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 25 кг",
+                    "en": "Up to 25 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сборами. Сборы за изменение условий бронирования не входят в сумму доплаты за более дорогой тариф",
+                    "en": "Changes are available. A fee applies. Change fees will be charged in addition to any applicable fare difference"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "EK",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^([VX])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный",
+                    "en": "Special"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "Разрешается взять с собой одно место ручной клади размерами не более 55x38x20 см, за исключением вылета из Индии. При вылете из Индии сумма измерений (длина + высота + ширина) каждой сумки не должна превышать 115 см",
+                    "en": "Each passenger is permitted one piece of carry-on baggage no larger than 55 x 38 x 20 cm (22 x 15 x 8 inches) except when departing India. From India the total dimensions of any bag (length + width + height) cannot exceed 115cm (45.3 inches)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 15 кг",
+                    "en": "Up to 15 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сборами. Повышение до Бизнес-класса не разрешено",
+                    "en": "Changes are available. A fee applies. Upgrade to Business is not permitted"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "EK",
+        "baseClass": "first",
+        "priority": 9,
+        "tariffCodePattern": "^([A]\\w*(SA))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий Первый",
+                    "en": "Flex First"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг каждое",
+                    "en": "2 items up to 7 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Каждому пассажиру разрешается взять с собой один портфель, а также одну ручную сумку или один портплед (сумку для одежды), при условии соблюдения следующих размерных ограничений. Портфель: 45 x 35 x 20 см. Сумка: 55 x 38 x 20 см. Сумка для одежды: толщина 20 см в сложенном виде",
+                    "en": "Each passenger is permitted one briefcase, plus either one handbag or one garment bag, subject to the following size limitations. Briefcase: 45 x 35 x 20 cm (18 x 14 x 8 inches). Handbag: 55 x 38 x 20 cm (22 x 15 x 8 inches). Garment bag: 20 cm (8 inches) thick when folded"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 50 кг",
+                    "en": "Up to 50 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сборами. Сборы за изменение условий бронирования не входят в сумму доплаты за более дорогой тариф",
+                    "en": "Changes are available. A fee applies. Change fees will be charged in addition to any applicable fare difference"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "EK",
+        "baseClass": "first",
+        "priority": 10,
+        "tariffCodePattern": "^([AF]\\w*(FA))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий Плюс Первый",
+                    "en": "Flex Plus First"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг каждое",
+                    "en": "2 items up to 7 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Каждому пассажиру разрешается взять с собой один портфель, а также одну ручную сумку или один портплед (сумку для одежды), при условии соблюдения следующих размерных ограничений. Портфель: 45 x 35 x 20 см. Сумка: 55 x 38 x 20 см. Сумка для одежды: толщина 20 см в сложенном виде",
+                    "en": "Each passenger is permitted one briefcase, plus either one handbag or one garment bag, subject to the following size limitations. Briefcase: 45 x 35 x 20 cm (18 x 14 x 8 inches). Handbag: 55 x 38 x 20 cm (22 x 15 x 8 inches). Garment bag: 20 cm (8 inches) thick when folded"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 50 кг",
+                    "en": "Up to 50 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Refundable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены без сборов",
+                    "en": "Changes are available. No fee applies"
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]
