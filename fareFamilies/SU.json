@@ -95,8 +95,6 @@
         "owner": "SU",
         "baseClass": "premiumEconomy",
         "priority": 6,
-        "saleTimeSince": "2019-04-02T00:00:00",
-        "saleTimeUntil": "2022-03-19T00:00:00",
         "tariffCodePattern": "^([WSA](CL|CO))\\w*\\d*$",
         "parameters": [
             {
@@ -285,8 +283,6 @@
         "owner": "SU",
         "baseClass": "business",
         "priority": 8,
-        "saleTimeSince": "2019-04-02T00:00:00",
-        "saleTimeUntil": "2022-03-19T00:00:00",
         "tariffCodePattern": "^([JCDIZ](CL|CO))\\w*\\d*$",
         "parameters": [
             {
@@ -439,8 +435,6 @@
         "owner": "SU",
         "baseClass": "premiumEconomy",
         "priority": 7,
-        "saleTimeSince": "2019-04-02T00:00:00",
-        "saleTimeUntil": "2022-03-19T00:00:00",
         "tariffCodePattern": "^([WSA](FM|FO))\\w*\\d*$",
         "parameters": [
             {
@@ -629,8 +623,6 @@
         "owner": "SU",
         "baseClass": "economy",
         "priority": 1,
-        "saleTimeSince": "2019-04-02T00:00:00",
-        "saleTimeUntil": "2022-03-19T00:00:00",
         "tariffCodePattern": "^([R](SX|SO))\\w*$",
         "parameters": [
             {
@@ -831,8 +823,6 @@
         "owner": "SU",
         "baseClass": "economy",
         "priority": 5,
-        "saleTimeSince": "2019-04-02T00:00:00",
-        "saleTimeUntil": "2022-03-19T00:00:00",
         "tariffCodePattern": "^([YBMUKHLQTENR](FM|FO))\\w*\\d*$",
         "parameters": [
             {
@@ -1033,8 +1023,6 @@
         "owner": "SU",
         "baseClass": "economy",
         "priority": 4,
-        "saleTimeSince": "2019-04-02T00:00:00",
-        "saleTimeUntil": "2022-03-19T00:00:00",
         "tariffCodePattern": "^([YBMUKHLQTENR](CL|CO|FL|FX))\\w*$",
         "parameters": [
             {
@@ -1235,8 +1223,6 @@
         "owner": "SU",
         "baseClass": "economy",
         "priority": 3,
-        "saleTimeSince": "2019-04-02T00:00:00",
-        "saleTimeUntil": "2022-03-19T00:00:00",
         "tariffCodePattern": "^([YBMUKHLQTENR](VU|VO))\\w*\\d*$",
         "parameters": [
             {
@@ -1437,8 +1423,6 @@
         "owner": "SU",
         "baseClass": "economy",
         "priority": 2,
-        "saleTimeSince": "2019-04-02T00:00:00",
-        "saleTimeUntil": "2022-03-19T00:00:00",
         "tariffCodePattern": "^([YBMUKHLQTENR](NB|NO))\\w*$",
         "parameters": [
             {
@@ -1639,8 +1623,6 @@
         "owner": "SU",
         "baseClass": "business",
         "priority": 9,
-        "saleTimeSince": "2019-04-02T00:00:00",
-        "saleTimeUntil": "2022-03-19T00:00:00",
         "tariffCodePattern": "^([JCDIZ](FM|FO))\\w*\\d*$",
         "parameters": [
             {

@@ -259,7 +259,7 @@
                     "ru": "Перебронирование до вылета разрешено со штрафом",
                     "en": "Rebooking before departure — available. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -612,10 +612,10 @@
                     "en": "Refund Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен без штрафов",
-                    "en": "Refundable before departure. No fee applies"
+                    "ru": "Возврат билета до вылета разрешен со штрафом",
+                    "en": "Refundable before departure. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -636,10 +636,10 @@
                     "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование до вылета разрешено без штрафов",
-                    "en": "Rebooking before departure — available. No fee applies"
+                    "ru": "Перебронирование до вылета разрешено со штрафом",
+                    "en": "Rebooking before departure — available. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -716,10 +716,10 @@
                     "en": "Refund Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен без штрафов",
-                    "en": "Refundable before departure. No fee applies"
+                    "ru": "Возврат билета до вылета разрешен со штрафом",
+                    "en": "Refundable before departure. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -740,10 +740,10 @@
                     "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование до вылета разрешено без штрафов",
-                    "en": "Rebooking before departure — available. No fee applies"
+                    "ru": "Перебронирование до вылета разрешено со штрафом",
+                    "en": "Rebooking before departure — available. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -912,8 +912,8 @@
                     "en": "Refund Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен без штрафов",
-                    "en": "Refundable before departure. No fee applies"
+                    "ru": "Возврат билета до вылета разрешен со штрафом",
+                    "en": "Refundable before departure. A fee applies"
                 },
                 "needToPay": "free"
             },
@@ -936,10 +936,10 @@
                     "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование до вылета разрешено без штрафов",
-                    "en": "Rebooking before departure — available. No fee applies"
+                    "ru": "Перебронирование до вылета разрешено со штрафом",
+                    "en": "Rebooking before departure — available. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
