@@ -8,8 +8,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Экономический",
-                    "en": "Economy"
+                    "ru": "Эконом Стандартный",
+                    "en": "Economy Standard"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -43,6 +43,168 @@
                     "en": "General allowance: 1 item up to 23 kg, total linear dimention — 158 cm"
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со штрафом",
+                    "en": "Booking changes allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со штрафом",
+                    "en": "Refundable with penalty"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "PS",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "^[CDZFJ]\\w*(BB)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Гибкий",
+                    "en": "Business Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 12 кг и до 5 кг",
+                    "en": "2 items up to 12 kg and up to 5 kg",
+                    "de": "1 Gepäckstück bis 12 kg"
+                },
+                "fullDescription": {
+                    "ru": "Норма провоза ручной клади: 1 место весом до 12 кг, максимальный размер — 55 x 40 x 20 см; и 1 место весом до 5 кг, максимальный размер — 40 x 30 x 10 см",
+                    "en": "General allowance: 1 item up to 12 kg with dimensions max. 55 x 40 x 20 cm; and 1 item up to 5 kg with dimensions max. 40 x 30 x 10 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each",
+                    "de": "2 Gepäckstück bis 32 kg"
+                },
+                "fullDescription": {
+                    "ru": "Норма провоза регистрируемого багажа: 2 места весом до 32 кг каждое, максимальный размер места — 158 см",
+                    "en": "General allowance: 2 items up to 32 kg each, total linear dimention — 158 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены без штрафа",
+                    "en": "Booking changes allowed with no penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без штрафа",
+                    "en": "Refundable with no penalty"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "PS",
+        "baseClass": "business",
+        "priority": 4,
+        "tariffCodePattern": "^[CDZFJ]\\w*(BS)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Бюджетный",
+                    "en": "Business Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 12 кг и до 5 кг",
+                    "en": "2 items up to 12 kg and up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "Норма провоза ручной клади: 1 место весом до 12 кг, максимальный размер — 55 x 40 x 20 см; и 1 место весом до 5 кг, максимальный размер — 40 x 30 x 10 см",
+                    "en": "General allowance: 1 item up to 12 kg with dimensions max. 55 x 40 x 20 cm; and 1 item up to 5 kg with dimensions max. 40 x 30 x 10 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Норма провоза регистрируемого багажа: 2 места весом до 32 кг каждое, максимальный размер места — 158 см",
+                    "en": "General allowance: 2 items up to 32 kg each, total linear dimention — 158 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со штрафом",
+                    "en": "Booking changes allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     },
@@ -55,8 +217,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Только ручная кладь",
-                    "en": "Hand Baggage Only"
+                    "ru": "Эконом Легкий",
+                    "en": "Economy Lite"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -90,52 +252,30 @@
                     "en": ""
                 },
                 "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "PS",
-        "baseClass": "business",
-        "priority": 5,
-        "tariffCodePattern": "^[CDZFJ]\\w*(BB)\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Бизнес",
-                    "en": "Business"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
             },
             {
-                "code": "carryOn",
+                "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "2 места до 12 кг и до 5 кг",
-                    "en": "2 items up to 12 kg and up to 5 kg",
-                    "de": "1 Gepäckstück bis 12 kg"
+                    "ru": "Изменения",
+                    "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Норма провоза ручной клади: 1 место весом до 12 кг, максимальный размер — 55 x 40 x 20 см; и 1 место весом до 5 кг, максимальный размер — 40 x 30 x 10 см",
-                    "en": "General allowance: 1 item up to 12 kg with dimensions max. 55 x 40 x 20 cm; and 1 item up to 5 kg with dimensions max. 40 x 30 x 10 cm"
+                    "ru": "Изменения не разрешены",
+                    "en": "Booking changes not allowed"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             },
             {
-                "code": "baggage",
+                "code": "refundable",
                 "shortDescription": {
-                    "ru": "2 места до 32 кг каждое",
-                    "en": "2 items up to 32 kg each",
-                    "de": "2 Gepäckstück bis 32 kg"
+                    "ru": "Возврат билета",
+                    "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Норма провоза регистрируемого багажа: 2 места весом до 32 кг каждое, максимальный размер места — 158 см",
-                    "en": "General allowance: 2 items up to 32 kg each, total linear dimention — 158 cm each"
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non-refundable"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             }
         ]
     },
@@ -148,8 +288,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Премиум",
-                    "en": "Premium"
+                    "ru": "Эконом Премиум",
+                    "en": "Economy Premium"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -181,6 +321,30 @@
                 "fullDescription": {
                     "ru": "Норма провоза регистрируемого багажа: 2 места весом до 23 кг каждое, максимальный размер места — 158 см",
                     "en": "General allowance: 2 items up to 23 kg each, total linear dimention — 158 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без штрафа",
+                    "en": "Refundable with no penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены без штрафа",
+                    "en": "Booking changes allowed with no penalty"
                 },
                 "needToPay": "free"
             }

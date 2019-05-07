@@ -371,6 +371,104 @@
     {
         "owner": "7R",
         "baseClass": "economy",
+        "priority": 0,
+        "tariffCodePattern": "^[NQEW](OW\\d*)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный",
+                    "en": "Special",
+                    "de": "Speziell"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место не более 10 кг с габаритами, не превышающими размеры 55*40*20 см",
+                    "en": "It is allowed to carry 1 additional hand luggage piece up to 10 kg and with dimensions not exceeding 55x40x20 cm",
+                    "de": "1 Handgepäckstück bis 10 kg, maximale Abmessungen 55x40x20cm"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Нет",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "В данный тариф багаж не включен",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета производятся за дополнительную плату",
+                    "en": "Changes before departure are available at additional charge",
+                    "de": "Änderungen vor dem Abflug sind kostenpflichtig"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения за 40 минут до вылета и после вылета в данном тарифе недоступны",
+                    "en": "Changes within 40 minutes before departure and after departure is not available in this fare",
+                    "de": "Änderungen nach dem Abflug sind in diesem Tarif nicht verfügbar"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат до вылета производится за дополнительную плату",
+                    "en": "Refund before departure is available at additional charge",
+                    "de": "Rückgabe vor dem Abflug ist kostenpflichtig"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат за 40 минут до и после вылета в данном тарифе недоступен",
+                    "en": "Refund within 40 minutes before departure and after departure is not available in this fare",
+                    "de": "Rückgabe nach dem Abflug ist in diesem Tarif nicht verfügbar"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "7R",
+        "baseClass": "economy",
         "priority": 1,
         "tariffCodePattern": "^[EWQ](NBCOW|OW)$",
         "parameters": [
@@ -458,104 +556,6 @@
                     "ru": "Изменения за 40 минут до вылета и после вылета в данном тарифе недоступны",
                     "en": "Changes within 40 minutes before departure and after departure is not available in this fare",
                     "de": "Änderungen nach dem Abflug sind in diesem Tarif nicht verfügbar"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "notAvailable"
-            }
-        ]
-    },
-    {
-        "owner": "7R",
-        "baseClass": "economy",
-        "priority": 0,
-        "tariffCodePattern": "^[NQEW](OW\\d*)$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Специальный",
-                    "en": "Special",
-                    "de": "Speziell"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место не более 10 кг с габаритами, не превышающими размеры 55*40*20 см",
-                    "en": "It is allowed to carry 1 additional hand luggage piece up to 10 kg and with dimensions not exceeding 55x40x20 cm",
-                    "de": "1 Handgepäckstück bis 10 kg, maximale Abmessungen 55x40x20cm"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Нет",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "В данный тариф багаж не включен",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения до вылета производятся за дополнительную плату",
-                    "en": "Changes before departure are available at additional charge",
-                    "de": "Änderungen vor dem Abflug sind kostenpflichtig"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения за 40 минут до вылета и после вылета в данном тарифе недоступны",
-                    "en": "Changes within 40 minutes before departure and after departure is not available in this fare",
-                    "de": "Änderungen nach dem Abflug sind in diesem Tarif nicht verfügbar"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат до вылета производится за дополнительную плату",
-                    "en": "Refund before departure is available at additional charge",
-                    "de": "Rückgabe vor dem Abflug ist kostenpflichtig"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат за 40 минут до и после вылета в данном тарифе недоступен",
-                    "en": "Refund within 40 minutes before departure and after departure is not available in this fare",
-                    "de": "Rückgabe nach dem Abflug ist in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
                     "ru": "",
