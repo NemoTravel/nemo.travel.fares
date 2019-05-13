@@ -945,14 +945,14 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения в билете до вылета",
+                    "ru": "Изменения до вылета",
                     "en": "Exchange before departure"
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете не разрешены",
                     "en": "Changes to the ticket are not allowed"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -964,7 +964,7 @@
                     "ru": "Тариф полностью невозвратный",
                     "en": "Fare is completely non-refundable"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             }
         ]
     }
