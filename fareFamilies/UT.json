@@ -3,7 +3,7 @@
         "owner": "UT",
         "baseClass": "business",
         "priority": 9,
-        "tariffCodePattern": "^([ADCJ](FLEX))\\w*$",
+        "tariffCodePattern": "^([ADCJ](FL))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -402,7 +402,7 @@
         "owner": "UT",
         "baseClass": "economy",
         "priority": 8,
-        "tariffCodePattern": "^([FZPKLHVOUXRBNGWESTY](FLEX))\\w*$",
+        "tariffCodePattern": "^([FZPKLHVOUXRBNGWESTY](FL))\\w*$",
         "parameters": [
             {
                 "code": "description",
