@@ -3,6 +3,8 @@
         "owner": "EO",
         "baseClass": "business",
         "priority": 7,
+        "flightTimeSince": "2019-05-01T00:00:00",
+        "flightTimeUntil": "2019-05-20T00:00:00",
         "tariffCodePattern": "^([CSDWZ](OP))\\w*$",
         "parameters": [
             {
@@ -83,6 +85,8 @@
         "owner": "EO",
         "baseClass": "business",
         "priority": 5,
+        "flightTimeSince": "2019-05-01T00:00:00",
+        "flightTimeUntil": "2019-05-20T00:00:00",
         "tariffCodePattern": "^([CSDWZ](PR))\\w*$",
         "parameters": [
             {
@@ -152,7 +156,7 @@
         "baseClass": "economy",
         "priority": 3,
         "flightTimeSince": "2019-05-01T00:00:00",
-        "flightTimeUntil": "2022-03-15T00:00:00",
+        "flightTimeUntil": "2019-05-20T00:00:00",
         "tariffCodePattern": "^([YKLMNBHQTVXOPREI](OP))\\w*$",
         "parameters": [
             {
@@ -220,77 +224,9 @@
     {
         "owner": "EO",
         "baseClass": "economy",
-        "priority": 3,
-        "flightTimeSince": "2017-03-18T00:00:00",
-        "flightTimeUntil": "2019-05-01T00:00:00",
-        "tariffCodePattern": "^([YKLMNBHQTVXOPREI](OP))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Эконом Оптимум",
-                    "en": "Economy Optimum"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 20 кг",
-                    "en": "1 item up to 20 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сбором",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса разрешено со сбором за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "EO",
-        "baseClass": "economy",
         "priority": 1,
+        "flightTimeSince": "2019-05-01T00:00:00",
+        "flightTimeUntil": "2019-05-20T00:00:00",
         "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI](PR))\\w*$",
         "parameters": [
             {
@@ -519,8 +455,6 @@
         "owner": "EO",
         "baseClass": "economy",
         "priority": 2,
-        "flightTimeSince": "2019-05-01T00:00:00",
-        "flightTimeUntil": "2022-03-15T00:00:00",
         "tariffCodePattern": "^([YKLMNBHQTVXOPRIE](EX))\\w*$",
         "parameters": [
             {
@@ -599,17 +533,205 @@
     },
     {
         "owner": "EO",
-        "baseClass": "economy",
-        "priority": 2,
-        "flightTimeSince": "2017-03-18T00:00:00",
-        "flightTimeUntil": "2019-05-01T00:00:00",
-        "tariffCodePattern": "^([YKLMNBHQTVXOPRIE](EX))\\w*$",
+        "baseClass": "business",
+        "priority": 14,
+        "flightTimeSince": "2019-05-20T00:00:00",
+        "flightTimeUntil": "2022-05-30T00:00:00",
+        "tariffCodePattern": "^([CDZ](OM))\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Экскурсионный Эконом",
-                    "en": "Excursion Economy"
+                    "ru": "Оптимум Бизнес",
+                    "en": "Business Optimum"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 5 кг каждое",
+                    "en": "2 items up to 5 kg each"
+                },
+                "fullDescription": {
+                    "ru": "2 места весом не более 5 кг и суммой трех измерений не более 115 см каждое",
+                    "en": "2 items up to 5 kg each, total linear dimension — up to 115 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 30 кг",
+                    "en": "1 item up to 30 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сбором",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета запрещен",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Отдельная стойка регистрации",
+                    "en": "Priority Check-In"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в бизнес зал не предоставляется",
+                    "en": "Lounge access is not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "EO",
+        "baseClass": "business",
+        "priority": 15,
+        "flightTimeSince": "2019-05-20T00:00:00",
+        "flightTimeUntil": "2022-05-30T00:00:00",
+        "tariffCodePattern": "^([CDZ](PM))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум Бизнес",
+                    "en": "Business Premium"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 5 кг каждое",
+                    "en": "2 items up to 5 kg each"
+                },
+                "fullDescription": {
+                    "ru": "2 места весом не более 5 кг и суммой трех измерений не более 115 см каждое",
+                    "en": "2 items up to 5 kg each, total linear dimension — up to 115 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 30 кг каждое",
+                    "en": "2 items up to 30 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета до вылета разрешен без сбора",
+                    "en": "Exchangeable before departure. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Отдельная стойка регистрации",
+                    "en": "Priority Check-In"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "EO",
+        "baseClass": "economy",
+        "priority": 11,
+        "flightTimeSince": "2019-05-20T00:00:00",
+        "flightTimeUntil": "2022-05-30T00:00:00",
+        "tariffCodePattern": "^([YKLMNBHQTVXOPREY](LT))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Лайт Эконом",
+                    "en": "Economy Light"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -624,7 +746,147 @@
                     "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 5 кг, до 115 см по сумме трех измерений",
+                    "ru": "1 место весом не более 5 кг и суммой трех измерений не более 115 см",
+                    "en": "1 item up to 5 kg, total linear dimension — up to 115 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета запрещен",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета запрещен",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "EO",
+        "baseClass": "economy",
+        "priority": 12,
+        "flightTimeSince": "2019-05-20T00:00:00",
+        "flightTimeUntil": "2022-05-30T00:00:00",
+        "tariffCodePattern": "^([YKLMNBHQTVXOPRE](OM))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Оптимум Эконом",
+                    "en": "Economy Optimum"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 5 кг и суммой трех измерений не более 115 см",
+                    "en": "1 item up to 5 kg, total linear dimension — up to 115 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 15 кг",
+                    "en": "1 item up to 15 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сбором",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета запрещен",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "EO",
+        "baseClass": "economy",
+        "priority": 13,
+        "flightTimeSince": "2019-05-20T00:00:00",
+        "flightTimeUntil": "2022-05-30T00:00:00",
+        "tariffCodePattern": "^([YKLMNBHQTVXOPRE](PM))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум Эконом",
+                    "en": "Economy Premium"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 5 кг и суммой трех измерений не более 115 см",
                     "en": "1 item up to 5 kg, total linear dimension — up to 115 cm"
                 },
                 "needToPay": "free"
@@ -636,8 +898,20 @@
                     "en": "1 item up to 20 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 20 кг, до 203 см по сумме трех измерений",
-                    "en": "1 item up to 20 kg, total linear dimension — up to 203 cm"
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета до вылета разрешен без сбора",
+                    "en": "Exchangeable before departure. No fee applies"
                 },
                 "needToPay": "free"
             },
@@ -648,32 +922,8 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен со штрафом",
-                    "en": "Refundable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменение до вылета рейса разрешено со сбором",
-                    "en": "Exchangeable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "Выбор места предлагается за дополнительную плату",
-                    "en": "Seat selection is available at extra charge"
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable. A fee applies"
                 },
                 "needToPay": "charge"
             }
