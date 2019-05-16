@@ -3,13 +3,13 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[XOWYPSEKHLVMQNBT]\\w*(BET|LET|SET|BEP|LEP|SEP|BUP|LUP|SUP|FEP|FUP|B3U)\\w*$",
+        "tariffCodePattern": "^[XOWYPSEKHLVMQNBT]\\w*(SS)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Экономический",
-                    "en": "Economy"
+                    "ru": "Эконом Стандартный",
+                    "en": "Economy Standard"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -43,51 +43,28 @@
                     "en": "General allowance: 1 item up to 23 kg, total linear dimention — 158 cm"
                 },
                 "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "PS",
-        "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^[XWYPSEKHLVMQNBT]\\w*(ZE|NE|ZE|NE|ZU|NU|Z3U|Z2U|N3U)\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Только ручная кладь",
-                    "en": "Hand Baggage Only"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
             },
             {
-                "code": "carryOn",
+                "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "1 место до 7 кг (для Embraer-145 - 1 место до 5 кг)",
-                    "en": "1 item up to 7 kg (аor Embraer-145: 1 item up to 5 kg)",
-                    "de": "1 Gepäckstück bis 7 kg"
+                    "ru": "Изменения",
+                    "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Норма провоза ручной клади: 1 место весом до 7 кг, максимальный размер — 55 x 40 x 20 см",
-                    "en": "General allowance: 1 item up to 7 kg with dimensions max. 55 x 40 x 20 cm",
-                    "de": "Allgemeine Regeln: 1 Gepäckstück bis zu 7 kg, max. Abmessungen Handgepäck - 115 cm (50x44x20).Für Embraer-145: 1 Gepäckstück bis zu 5 kg, max. Abmessungen Handgepäck - 105 cm (55x35x15)"
+                    "ru": "Изменения разрешены со штрафом",
+                    "en": "Booking changes allowed with penalty"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
-                "code": "baggage",
+                "code": "refundable",
                 "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance",
-                    "de": "Kein Freigepäck"
+                    "ru": "Возврат билета",
+                    "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат билета разрешен со штрафом",
+                    "en": "Refundable with penalty"
                 },
                 "needToPay": "charge"
             }
@@ -97,13 +74,13 @@
         "owner": "PS",
         "baseClass": "business",
         "priority": 5,
-        "tariffCodePattern": "^([CDZFJ])((?!IF).)\\w*$",
+        "tariffCodePattern": "^[CDZFJ]\\w*(BB)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Бизнес",
-                    "en": "Business"
+                    "ru": "Бизнес Гибкий",
+                    "en": "Business Flex"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -136,6 +113,169 @@
                     "en": "General allowance: 2 items up to 32 kg each, total linear dimention — 158 cm each"
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены без штрафа",
+                    "en": "Booking changes allowed with no penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без штрафа",
+                    "en": "Refundable with no penalty"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "PS",
+        "baseClass": "business",
+        "priority": 4,
+        "tariffCodePattern": "^[CDZFJ]\\w*(BS)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Бюджетный",
+                    "en": "Business Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 12 кг и до 5 кг",
+                    "en": "2 items up to 12 kg and up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "Норма провоза ручной клади: 1 место весом до 12 кг, максимальный размер — 55 x 40 x 20 см; и 1 место весом до 5 кг, максимальный размер — 40 x 30 x 10 см",
+                    "en": "General allowance: 1 item up to 12 kg with dimensions max. 55 x 40 x 20 cm; and 1 item up to 5 kg with dimensions max. 40 x 30 x 10 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Норма провоза регистрируемого багажа: 2 места весом до 32 кг каждое, максимальный размер места — 158 см",
+                    "en": "General allowance: 2 items up to 32 kg each, total linear dimention — 158 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со штрафом",
+                    "en": "Booking changes allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "PS",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[XWYPSEKHLVMQNBTO]\\w*(LL)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Легкий",
+                    "en": "Economy Lite"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg",
+                    "de": "1 Gepäckstück bis 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "Норма провоза ручной клади: 1 место весом до 7 кг, максимальный размер — 55 x 40 x 20 см",
+                    "en": "General allowance: 1 item up to 7 kg with dimensions max. 55 x 40 x 20 cm",
+                    "de": "Allgemeine Regeln: 1 Gepäckstück bis zu 7 kg, max. Abmessungen Handgepäck - 115 cm (50x44x20).Für Embraer-145: 1 Gepäckstück bis zu 5 kg, max. Abmessungen Handgepäck - 105 cm (55x35x15)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance",
+                    "de": "Kein Freigepäck"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения не разрешены",
+                    "en": "Booking changes not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     },
@@ -143,13 +283,13 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[SE]\\w*(PREM)\\w*$",
+        "tariffCodePattern": "^[SE]\\w*(PP)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Премиум",
-                    "en": "Premium"
+                    "ru": "Эконом Премиум",
+                    "en": "Economy Premium"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -181,6 +321,30 @@
                 "fullDescription": {
                     "ru": "Норма провоза регистрируемого багажа: 2 места весом до 23 кг каждое, максимальный размер места — 158 см",
                     "en": "General allowance: 2 items up to 23 kg each, total linear dimention — 158 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без штрафа",
+                    "en": "Refundable with no penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены без штрафа",
+                    "en": "Booking changes allowed with no penalty"
                 },
                 "needToPay": "free"
             }

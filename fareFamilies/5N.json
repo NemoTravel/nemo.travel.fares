@@ -3,7 +3,7 @@
         "owner": "5N",
         "baseClass": "economy",
         "priority": 5,
-        "tariffCodePattern": "^[SMKQVTWEHLNAPORI](LT)\\w*$",
+        "tariffCodePattern": "^[FIROPANLHEWTVQKMS](LT)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -107,7 +107,7 @@
         "owner": "5N",
         "baseClass": "economy",
         "priority": 10,
-        "tariffCodePattern": "^[SMKQVTWEHLNAPORI](ST)\\w*$",
+        "tariffCodePattern": "^[FIROPANLHEWTVQKMS](ST)\\w*$",
         "parameters": [
             {
                 "code": "description",

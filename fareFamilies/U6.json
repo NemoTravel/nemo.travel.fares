@@ -73,20 +73,6 @@
                 "needToPay": "notAvailable"
             },
             {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary meals",
-                    "de": "Mahlzeiten an Bord"
-                },
-                "fullDescription": {
-                    "ru": "Питание Бизнес-класса",
-                    "en": "Business class menu",
-                    "de": "Business-Class Menü"
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Рассадка на первых рядах",
@@ -212,20 +198,6 @@
                     "ru": "Возврат билета до вылета разрешен без сборов",
                     "en": "Ticket refund before departure is allowed free of charge",
                     "de": "Ticketrückmeldung vor Abreise ist kostenlos erlaubt"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary meals",
-                    "de": "Mahlzeiten an Bord"
-                },
-                "fullDescription": {
-                    "ru": "Питание Бизнес-класса",
-                    "en": "Business class menu",
-                    "de": "Business-Class Menü"
                 },
                 "needToPay": "free"
             },
@@ -359,19 +331,6 @@
                 "needToPay": "charge"
             },
             {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary meals",
-                    "de": "Mahlzeiten an Bord"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Рассадка на первых рядах",
@@ -464,13 +423,13 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "Один чемодан 23 кг",
-                    "en": "1 item up to 23 kg",
+                    "ru": "Два чемодана по 23 кг",
+                    "en": "2 items up to 23 kg each",
                     "de": "Eine Tasche bis zu 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Разрешен провоз двух мест багажа по 23 кг (кроме Таджикистана/Киргизии/Узбекистана)",
+                    "en": "2 pieces up to 23 kg each (except CIS countries)"
                 },
                 "needToPay": "free"
             },
@@ -499,19 +458,6 @@
                     "ru": "Возврат билета до вылета (более чем за 40 мин до окончания регистрации) разрешен без оплаты. При неявке на рейс (после окончания регистрации) по полностью неиспользованному билету возврат разрешен со сбором",
                     "en": "Ticket refund before departure (40 minutes before the end of registration) is allowed free of charge. In case of missed flight (Non-appearance after registration is over) refund is allowed with an additional charge",
                     "de": "Ticketrückmeldung vor Abreise (40 Minuten vor dem Ende der Anmeldung) ist kostenlos erlaubt. Im Falle eines verpassten Fluges (Nicht-Aussehen nach Anmeldung ist vorbei) ist eine Nachzahlung erlaubt"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary meals",
-                    "de": "Mahlzeiten an Bord"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -646,19 +592,6 @@
                 "needToPay": "notAvailable"
             },
             {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Meals",
-                    "de": "Mahlzeiten an Bord"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
                 "code": "seatsRegistration",
                 "shortDescription": {
                     "ru": "Рассадка на первых рядах",
@@ -774,19 +707,6 @@
                     "de": "Fare ist völlig nicht rückzahlbar"
                 },
                 "needToPay": "notAvailable"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Meals",
-                    "de": "Mahlzeiten an Bord"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
             },
             {
                 "code": "seatsRegistration",
