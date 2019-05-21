@@ -1,0 +1,450 @@
+[
+    {
+        "owner": "LY",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^([YSMUGKLOVHN]\\w*(L1))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Легкий",
+                    "en": "Economy Lite"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место багажа весом максимум 8 кг; Пассажирам разрешается провоз в салоне самолета одного из следующих предметов личного пользования (в дополнение к разрешенной ручной клади): кошелек, упаковка подгузников, портфель, кейс камеры или ноутбук",
+                    "en": "One piece of luggage weighing maximum 10 kg. Passengers are allowed to carry one of the following personal items (in addition to authorized hand luggage): wallet, wrapping diapers, briefcase, camera case or laptop"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 чемодан до 23 кг",
+                    "en": "1 bag up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка одного чемодана весом до 23 кг",
+                    "en": "1 bag weighing up to 23 kg is available to carry free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Completely non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены со сбором",
+                    "en": "Changes to the ticket are allowed with a charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту самолета",
+                    "en": "Meal service"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна услуга \"Лёгкое питание\"",
+                    "en": "\"Light meal\" service is available free of charge"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "LY",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([YSMUGKLOVHN]\\w*(C2))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Классический",
+                    "en": "Economy Classic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место багажа весом максимум 8 кг; Пассажирам разрешается провоз в салоне самолета одного из следующих предметов личного пользования (в дополнение к разрешенной ручной клади): кошелек, упаковка подгузников, портфель, кейс камеры или ноутбук",
+                    "en": "One piece of luggage weighing maximum 8 kg. Passengers are allowed to carry one of the following personal items (in addition to authorized hand luggage): wallet, wrapping diapers, briefcase, camera case or laptop"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 чемодан до 23 кг",
+                    "en": "1 bag up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка одного чемодана весом до 23 кг",
+                    "en": "1 bag weighing up to 23 kg is available to carry free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат доступен с дополнительным сбором",
+                    "en": "Refund available with additional charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены со сбором",
+                    "en": "Changes to the ticket are allowed with a charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту самолета",
+                    "en": "Meal service"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна услуга \"Лёгкое питание\"",
+                    "en": "\"Light meal\" service is available free of charge"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "LY",
+        "baseClass": "economy",
+        "priority": 5,
+        "tariffCodePattern": "^([YSMUGKLOVHN]\\w*(F3))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Гибкий",
+                    "en": "Economy Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место багажа весом максимум 8 кг; Пассажирам разрешается провоз в салоне самолета одного из следующих предметов личного пользования (в дополнение к разрешенной ручной клади): кошелек, упаковка подгузников, портфель, кейс камеры или ноутбук",
+                    "en": "One piece of luggage weighing maximum 8 kg. Passengers are allowed to carry one of the following personal items (in addition to authorized hand luggage): wallet, wrapping diapers, briefcase, camera case or laptop"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 чемодан до 23 кг",
+                    "en": "1 bag up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка одного чемодана весом до 23 кг. Для рейсов в страны Дальнего Востока и Южной Африки - 2 чемодана",
+                    "en": "1 bag weighing up to 23 kg is available to carry free of charge. 2 bags for flights to Far East and South Africa countries"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат доступен с дополнительным сбором, для классов Y/S/M доступен бесплатно",
+                    "en": "Refund available with additional charge. For Y/S/M classes it is available free of charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены без сбора",
+                    "en": "Changes available without a charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту самолета",
+                    "en": "Meal service"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна услуга \"Лёгкое питание\"",
+                    "en": "\"Light meal\" service is available free of charge"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "LY",
+        "baseClass": "business",
+        "priority": 9,
+        "tariffCodePattern": "^[IC]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 чемодана общим весом до 20 кг",
+                    "en": "2 bags up to 20 kg total"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка двух предметов ручной клади общим весом до 20 кг",
+                    "en": "2 bags weighing up to 20 kg total are available to carry free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 чемодана до 32 кг каждый",
+                    "en": "2 bags up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка двух чемоданов весом до 32 кг каждый",
+                    "en": "2 bags weighing up to 32 kg each are available to carry free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат доступен",
+                    "en": "Refund is available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены без сбора",
+                    "en": "Changes available without a charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту самолета",
+                    "en": "Meal service"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступно расширенное меню",
+                    "en": "Extended menu is available free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": "Priority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка на рейс. Доступна только для рейсов в Израиль и из Израиля",
+                    "en": "Priority boarding on a flight. Available only for flights to and from Israel"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная регистрация на рейс. Доступна только для рейсов из Израиля",
+                    "en": "Priority check-in for a flight. Available only for flights from Israel"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "LY",
+        "baseClass": "first",
+        "priority": 10,
+        "tariffCodePattern": "^[PAF]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Первый",
+                    "en": "First"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 чемодана общим весом до 24 кг",
+                    "en": "2 bags up to 24 kg total"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка двух предметов ручной клади общим весом до 24 кг",
+                    "en": "2 bags weighing up to 24 kg total are available to carry free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "3 чемодана до 32 кг каждый",
+                    "en": "3 bags up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка трёх чемоданов весом до 32 кг каждый",
+                    "en": "3 bags weighing up to 32 kg each are available to carry free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат доступен",
+                    "en": "Refund is available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены без сбора",
+                    "en": "Changes available without a charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту самолета",
+                    "en": "Meal service"
+                },
+                "fullDescription": {
+                    "ru": "Питание и напитки доступны бесплатно",
+                    "en": "Meal and beverages are available free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка на рейс. Доступна только для рейсов в Израиль и из Израиля",
+                    "en": "Priority boarding on a flight. Available only for flights to and from Israel"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная регистрация на рейс. Доступна только для рейсов из Израиля",
+                    "en": "Priority check-in for a flight. Available only for flights from Israel"
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

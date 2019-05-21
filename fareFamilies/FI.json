@@ -1,0 +1,448 @@
+[
+    {
+        "owner": "FI",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^(\\w*(EC))$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Стандартный",
+                    "en": "Economy Standard"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место багажа весом максимум 10 кг; при этом общая длина, ширина и высота не превышают 115 см",
+                    "en": "One piece of luggage weighing maximum 10 kg and the combined length, width and height does not exceed 115cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 чемодан до 23 кг",
+                    "en": "1 bag up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка одного чемодана весом до 23 кг",
+                    "en": "1 bag weighing up to 23 kg is available to carry free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Completely non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены со сбором",
+                    "en": "Changes available with a charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту самолета",
+                    "en": "Meal service"
+                },
+                "fullDescription": {
+                    "ru": "Питание на борту самолета доступно за дополнительную плату. Безалкогольные напитки, кофе и чай доступны бесплатно",
+                    "en": "Meals available for an extra charge. Soft drinks, coffee and tea available free of charge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "FI",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^(\\w*(FL))$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Гибкий",
+                    "en": "Economy Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место багажа весом максимум 10 кг; при этом общая длина, ширина и высота не превышают 115 см",
+                    "en": "One piece of luggage weighing maximum 10 kg and the combined length, width and height does not exceed 115cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 чемодан до 23 кг",
+                    "en": "1 bag up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка одного чемодана весом до 23 кг",
+                    "en": "1 bag weighing up to 23 kg is available to carry free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета доступен",
+                    "en": "Ticket refund is available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены без сбора",
+                    "en": "Changes available without a charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту самолета",
+                    "en": "Meal service"
+                },
+                "fullDescription": {
+                    "ru": "Питание на борту самолета доступно за дополнительную плату. Безалкогольные напитки, кофе и чай доступны бесплатно",
+                    "en": "Meals available for an extra charge. Soft drinks, coffee and tea available free of charge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "FI",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^(\\w*(LT))$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Легкий",
+                    "en": "Economy Light"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место багажа весом максимум 10 кг; при этом общая длина, ширина и высота не превышают 115 см",
+                    "en": "One piece of luggage weighing maximum 10 kg and the combined length, width and height does not exceed 115cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Для покупки",
+                    "en": "For purchase"
+                },
+                "fullDescription": {
+                    "ru": "Багаж доступен только за дополнительную плату",
+                    "en": "Luggage is available only for an additional charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Completely non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены со сбором",
+                    "en": "Changes available with a charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту самолета",
+                    "en": "Meal service"
+                },
+                "fullDescription": {
+                    "ru": "Питание на борту самолета доступно за дополнительную плату. Безалкогольные напитки, кофе и чай доступны бесплатно",
+                    "en": "Meals available for an extra charge. Soft drinks, coffee and tea available free of charge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "FI",
+        "baseClass": "business",
+        "tariffCodePattern": "^(\\w*(SB))$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум",
+                    "en": "Saga Premium"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место багажа весом максимум 10 кг; при этом общая длина, ширина и высота не превышают 115 см",
+                    "en": "One piece of luggage weighing maximum 10 kg and the combined length, width and height does not exceed 115cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 чемодана до 32 кг каждый",
+                    "en": "2 bags up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка двух чемоданов весом до 32 кг каждый",
+                    "en": "2 bags weighing up to 32 kg each are available to carry free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Completely non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены со сбором",
+                    "en": "Changes available with a charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту самолета",
+                    "en": "Meal service"
+                },
+                "fullDescription": {
+                    "ru": "Питание и напитки доступны бесплатно",
+                    "en": "Meal and beverages are available free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная регистрация на рейс. Доступна не для всех аэропортов",
+                    "en": "Priority check-in for a flight. Not available at all airports"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Зал ожидания",
+                    "en": "Lounge"
+                },
+                "fullDescription": {
+                    "ru": "Зал ожидания. Недоступны в Галифаксе, Торонто, Миннеаполисе и Манчестере",
+                    "en": "Lounge. Not available in Halifax, Toronto, Minneapolis and Manchester"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "FI",
+        "baseClass": "business",
+        "tariffCodePattern": "^(\\w*(SA))$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат доступен",
+                    "en": "Refund is available"
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 чемодана, 10 кг каждый",
+                    "en": "2 bags, 10 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка в салоне двух чемоданов весом до 10 кг каждый",
+                    "en": "Two pieces of luggage weighing maximum 10 kg each and the combined length, width and height does not exceed 115cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 чемодана до 32 кг каждый",
+                    "en": "2 bags up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка двух чемоданов весом до 32 кг каждый",
+                    "en": "2 bags weighing up to 32 kg each are available to carry free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены без сбора",
+                    "en": "Changes available without a charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание на борту самолета",
+                    "en": "Meal service"
+                },
+                "fullDescription": {
+                    "ru": "Питание и напитки доступны бесплатно",
+                    "en": "Meal and beverages are available free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная регистрация на рейс. Доступна не для всех аэропортов",
+                    "en": "Priority check-in for a flight. Not available at all airports"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Зал ожидания",
+                    "en": "Lounge"
+                },
+                "fullDescription": {
+                    "ru": "Зал ожидания. Недоступны в Галифаксе, Торонто, Миннеаполисе и Манчестере",
+                    "en": "Lounge. Not available in Halifax, Toronto, Minneapolis and Manchester"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум Гибкий",
+                    "en": "Saga Premium Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]
