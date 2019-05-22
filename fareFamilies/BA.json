@@ -3,7 +3,7 @@
         "owner": "BA",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "",
+        "tariffCodePattern": "^[KHB](Z0HO)$",
         "parameters": [
             {
                 "code": "description",
@@ -71,7 +71,7 @@
         "owner": "BA",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "",
+        "tariffCodePattern": "^[LH](V2H)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -205,9 +205,9 @@
     },
     {
         "owner": "BA",
-        "baseClass": "premiumEconomy",
+        "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "",
+        "tariffCodePattern": "^[Y](V3H)\\w*$",
         "parameters": [
             {
                 "code": "description",
