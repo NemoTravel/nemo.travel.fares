@@ -2,14 +2,82 @@
     {
         "owner": "DP",
         "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Выгодный",
+                    "en": "Advantageous"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место габаритами не более 36 x 30 x 27 см",
+                    "en": "1 item up 36 x 30 x 27 cm"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место зарегистрированного багажа весом не более 20 кг и габаритами не более 203 см в трех измерениях (перевозится в багажном отсеке самолета)",
+                    "en": "1 item up to 20 kg, total linear dimension — up to 203 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты и времени",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Не позднее, чем за 48 часов до вылета, разрешено изменить время и/или дату вылета за дополнительную плату (в случае более дорогого тарифного класса необходима доплата разницы между тарифами)",
+                    "en": "Date and time chages are available at extra charge for 48 hours or upwards before departure (in case of more expensive fare class passenger is required to pay the difference in fare amounts)"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "DP",
+        "baseClass": "economy",
         "priority": 3,
         "tariffCodePattern": "",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Премиум",
-                    "en": "Premium"
+                    "ru": "Возвратный",
+                    "en": "Refundable"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -76,8 +144,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Стандарт",
-                    "en": "Standard"
+                    "ru": "Базовый",
+                    "en": "Basic"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -108,74 +176,6 @@
                     "en": ""
                 },
                 "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты и времени",
-                    "en": "Changes"
-                },
-                "fullDescription": {
-                    "ru": "Не позднее, чем за 48 часов до вылета, разрешено изменить время и/или дату вылета за дополнительную плату (в случае более дорогого тарифного класса необходима доплата разницы между тарифами)",
-                    "en": "Date and time chages are available at extra charge for 48 hours or upwards before departure (in case of more expensive fare class passenger is required to pay the difference in fare amounts)"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "DP",
-        "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Плюс",
-                    "en": "Plus"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место габаритами не более 36 x 30 x 27 см",
-                    "en": "1 item up 36 x 30 x 27 cm"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 20 кг",
-                    "en": "1 item up to 20 kg"
-                },
-                "fullDescription": {
-                    "ru": "Одно место зарегистрированного багажа весом не более 20 кг и габаритами не более 203 см в трех измерениях (перевозится в багажном отсеке самолета)",
-                    "en": "1 item up to 20 kg, total linear dimension — up to 203 cm"
-                },
-                "needToPay": "free"
             },
             {
                 "code": "refundable",
