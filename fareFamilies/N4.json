@@ -2,358 +2,6 @@
     {
         "owner": "N4",
         "baseClass": "business",
-        "priority": 7,
-        "flightTimeSince": "2019-05-01T00:00:00",
-        "flightTimeUntil": "2019-05-20T00:00:00",
-        "tariffCodePattern": "^([CSDWZ](OP))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Бизнес Оптимум",
-                    "en": "Business Optimum"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "2 места до 5 кг каждое",
-                    "en": "2 items up to 5 kg each"
-                },
-                "fullDescription": {
-                    "ru": "2 места до 5 кг каждое, до 115 см по сумме трех измерений",
-                    "en": "2 items up to 5 kg each, total linear dimension — up to 115 cm each"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 места до 20 кг каждое",
-                    "en": "2 items up to 20 kg each"
-                },
-                "fullDescription": {
-                    "ru": "2 места до 20 кг каждое, до 203 см по сумме трех измерений",
-                    "en": "2 items up to 20 kg each, total linear dimension — up to 203 cm each"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета до вылета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса - разрешено без сборов, доплата до более высокого тарифа разрешается",
-                    "en": "Exchangeable before departure"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета NO-SHOW",
-                    "en": "Exchange NO-SHOW"
-                },
-                "fullDescription": {
-                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса разрешено со сбором за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
-                    "en": "Exchangeable in case of NO-SHOW. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание",
-                    "en": "Meals"
-                },
-                "fullDescription": {
-                    "ru": "Питание предоставляется бесплатно на рейсах любой продолжительности. Заказ дополнительного питания платный",
-                    "en": "Meals according to the business class standard. Additional meals available at extra charge"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Открытая дата обратного вылета",
-                    "en": "Open return date"
-                },
-                "fullDescription": {
-                    "ru": "Открытая дата обратного вылета разрешена",
-                    "en": "Open return date is available"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "N4",
-        "baseClass": "business",
-        "priority": 5,
-        "flightTimeSince": "2019-05-01T00:00:00",
-        "flightTimeUntil": "2019-05-20T00:00:00",
-        "tariffCodePattern": "^([CSDWZ](PR))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Бизнес Промо",
-                    "en": "Business Promo"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "2 места до 5 кг каждое",
-                    "en": "2 items up to 5 kg each"
-                },
-                "fullDescription": {
-                    "ru": "2 места до 5 кг каждое, до 115 см по сумме трех измерений",
-                    "en": "2 items up to 5 kg each, total linear dimension — up to 115 cm each"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 20 кг",
-                    "en": "1 item up to 20 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 20 кг, до 203 см по сумме трех измерений",
-                    "en": "1 item up to 20 kg, total linear dimension — up to 203 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса разрешено со сбором за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание",
-                    "en": "Meals"
-                },
-                "fullDescription": {
-                    "ru": "Питание предоставляется бесплатно на рейсах любой продолжительности. Заказ дополнительного питания платный",
-                    "en": "Meals according to the business class standard. Additional meals available at extra charge"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "N4",
-        "baseClass": "economy",
-        "priority": 3,
-        "flightTimeSince": "2019-05-01T00:00:00",
-        "flightTimeUntil": "2019-05-20T00:00:00",
-        "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI]\\w*(OPOW|OPRT))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Эконом Оптимум",
-                    "en": "Economy Optimum"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 5 кг, до 115 см по сумме трех измерений",
-                    "en": "1 item up to 5 kg, total linear dimension — up to 115 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 15 кг",
-                    "en": "1 item up to 15 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 15 кг, до 203 см по сумме трех измерений. Для всех рейсов между РФ и Узбекистаном, Таджикистаном, Арменией, Азербайджаном — 1 место до 20 кг",
-                    "en": "1 item up to 15 kg, total linear dimension — up to 203 cm. In case of flights between Russian Federation and Uzbekistan, Tajikistan, Armenia, Azerbaijan — 1 item up to 20 kg"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Полностью неиспользованный билет: возврат оплаченного тарифа разрешен с удержанием сбора за каждый участок маршрута. Частично использованный билет: возврат разницы между оплаченным тарифом и тарифом использованного участка маршрута перевозки разрешен с удержанием сбора за каждый участок маршрута",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса разрешено со сбором за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание",
-                    "en": "Meals"
-                },
-                "fullDescription": {
-                    "ru": "На рейсах продолжительностью менее 3-х часов питание не предоставляется. Выбор питания платный",
-                    "en": "Meals on board are available at extra charge (for flights over 3 hours long)"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "N4",
-        "baseClass": "economy",
-        "priority": 1,
-        "flightTimeSince": "2019-05-01T00:00:00",
-        "flightTimeUntil": "2019-05-20T00:00:00",
-        "tariffCodePattern": "^([AGYKLMNBHQTVXOPREI]\\w*(PROW|PRRT))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Эконом Промо",
-                    "en": "Economy Promo"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 5 кг, до 115 см по сумме трех измерений",
-                    "en": "1 item up to 5 kg, total linear dimension — up to 115 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатная норма провоза багажа не предоставляется",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Полностью неиспользованный или частично использованный билет: изменение до вылета рейса разрешено со сбором за каждый участок маршрута, доплата до более высокого тарифа разрешается. Сбор за обмен при этом также взимается",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание",
-                    "en": "Meals"
-                },
-                "fullDescription": {
-                    "ru": "На рейсах продолжительностью менее 3-х часов питание не предоставляется. Выбор питания платный",
-                    "en": "Meals on board are available at extra charge (for flights over 3 hours long)"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "N4",
-        "baseClass": "business",
         "priority": 6,
         "tariffCodePattern": "^([CDZ](EX))\\w*$",
         "parameters": [
@@ -597,7 +245,7 @@
         "priority": 11,
         "flightTimeSince": "2019-05-20T00:00:00",
         "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([YKLMNBHQTVXOPREY](LT))\\w*$",
+        "tariffCodePattern": "^([YKLMNBHQTVXOPREY]\\w*(LT))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -667,7 +315,7 @@
         "priority": 14,
         "flightTimeSince": "2019-05-20T00:00:00",
         "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([CDZ](OM))\\w*$",
+        "tariffCodePattern": "^([CDZ]\\w*(OM))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -761,7 +409,7 @@
         "priority": 12,
         "flightTimeSince": "2019-05-20T00:00:00",
         "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([YKLMNBHQTVXOPRE](OM))\\w*$",
+        "tariffCodePattern": "^([YKLMNBHQTVXOPRE]\\w*(OM))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -831,7 +479,7 @@
         "priority": 15,
         "flightTimeSince": "2019-05-20T00:00:00",
         "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([CDZ](PM))\\w*$",
+        "tariffCodePattern": "^([CDZ]\\w*(PM))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -925,7 +573,7 @@
         "priority": 13,
         "flightTimeSince": "2019-05-20T00:00:00",
         "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([YKLMNBHQTVXOPRE](PM))\\w*$",
+        "tariffCodePattern": "^([YKLMNBHQTVXOPRE]\\w*(PM))\\w*$",
         "parameters": [
             {
                 "code": "description",
