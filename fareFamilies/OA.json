@@ -1,0 +1,242 @@
+[
+    {
+        "owner": "OA",
+        "baseClass": "business",
+        "priority": 3,
+        "tariffCodePattern": "^([CZDA])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места весом до 8 и 5 кг соответственно",
+                    "en": "2 items up to 8 kg and 5 kg respectively"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Уплаченная сумма может быть возмещена",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен без сборов",
+                    "en": "Exchangeable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в залы бизнес-класса",
+                    "en": "Access to Business class lounges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Отдельные стойки регистрации",
+                    "en": "Separate check-in desks"
+                },
+                "fullDescription": {
+                    "ru": "Доступны отдельные стойки регистрации",
+                    "en": "Separate check-in desks — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритет обработки багажа",
+                    "en": "Priority baggage handling"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная обработка багажа",
+                    "en": "Priority baggage handling — available"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "OA",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[YBMHQWLKSTUPV]((?!NOBAG|0BAG).)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий",
+                    "en": "Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Возможность менять билет бесплатно неограниченное количество раз в рамках семейств тарифов «Гибкий» и «Бизнес»",
+                    "en": "Exchangeable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета в случае отмены рейса",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "В случае внутренних рейсов допустимая не подлежащая возврату сумма тарифа равна 45 евро. Короткие международные рейсы: 50 евро. Дальние международные рейсы: 60 евро",
+                    "en": "Refundable in case of cancellation. A fee applies. Non-refundable short international flights — €50, longer international flights — €60"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "OA",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^([YBMHQWLKSTUPV]\\w*(NOBAG|0BAG))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Лайт",
+                    "en": "Go-Light"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "Багаж платный",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сбором только в рамках выбранного семейства",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    }
+]
