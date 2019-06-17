@@ -88,7 +88,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возможность возврата",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund Before Check-in Closure",
                     "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
@@ -98,6 +98,20 @@
                     "de": "Ticketrückerstattung vor dem Ende der Anmeldung ist mit zusätzlichen Gebühren erlaubt"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund After Check-in Closure",
+                    "de": "Ticketrückerstattung nach Ende der Registrierung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат стоимости билета после окончания регистрации не разрешен",
+                    "en": "Ticket refund after the end of registration is not allowed",
+                    "de": "Ticketrückerstattung nach Ende der Anmeldung ist mit zusätzlichen Gebühren nicht erlaubt"
+                },
+                "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
@@ -302,7 +316,21 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возможность возврата",
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund Before Check-in Closure",
+                    "de": "Ticketrückerstattung vor dem Ende der Registrierung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета не разрешен. Для перевозок от пунктов Республики Корея или между пунктами Узбекистана, Таджикистана и пунктами РФ, Азербайджана, Армении, Белоруссии, Казахстана, Киргизии, Молдавии, Украины, Грузии разрешен с удержанием платы",
+                    "en": "Ticket refund is not allowed with the exception of routes from the points of the Republic of Korea or between points of Uzbekistan, Tajikistan and the points of the Russian Federation, Azerbaijan, Armenia, Belarus, Kazakhstan, Kyrgyzstan, Moldova, Ukraine, Georgia - in such cases, operation is allowed with retention of fee",
+                    "de": "Ticketrückerstattung ist nicht zulässig mit Ausnahme von Strecken von den Punkten der Republik Korea oder zwischen den Punkten Usbekistan, Tadschikistan und den Punkten der Russischen Föderation, Aserbaidschan, Armenien, Weißrussland, Kasachstan, Kirgisistan, Moldawien, Ukraine, Georgien In solchen Fällen ist der Betrieb unter Beibehaltung der Gebühr erlaubt"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
                     "en": "Refund Before Check-in Closure",
                     "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
@@ -516,7 +544,21 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возможность возврата",
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable",
+                    "de": "Fahrpreis ist nicht erstattungsfähig"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -730,7 +772,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возможность возврата",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund Before Check-in Closure",
                     "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
@@ -738,6 +780,20 @@
                     "ru": "Возврат стоимости билета до окончания регистрации разрешен со сборами",
                     "en": "Ticket refund before the end of registration is allowed with additional fees",
                     "de": "Ticketrückerstattung vor dem Ende der Anmeldung ist mit zusätzlichen Gebühren erlaubt"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund After Check-in Closure",
+                    "de": "Ticketrückerstattung nach Ende der Registrierung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат стоимости билета после окончания регистрации не разрешен",
+                    "en": "Ticket refund after the end of registration is not allowed",
+                    "de": "Ticketrückerstattung nach Ende der Anmeldung ist mit zusätzlichen Gebühren nicht erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -911,7 +967,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возможность возврата",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund Before Check-in Closure",
                     "de": "Ticketrückerstattung vor dem Ende der Registrierung"
                 },
@@ -921,6 +977,20 @@
                     "de": "Ticketrückerstattung vor dem Ende der Anmeldung ist mit zusätzlichen Gebühren erlaubt"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund After Check-in Closure",
+                    "de": "Ticketrückerstattung nach Ende der Registrierung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат стоимости билета после окончания регистрации не разрешен",
+                    "en": "Ticket refund after the end of registration is not allowed",
+                    "de": "Ticketrückerstattung nach Ende der Anmeldung ist mit zusätzlichen Gebühren nicht erlaubt"
+                },
+                "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
@@ -1201,7 +1271,21 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возможность возврата",
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Ticket refund is allowed free of charge",
+                    "de": "Ticketrückerstattung ist kostenlos"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -1381,7 +1465,21 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возможность возврата",
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Ticket refund is allowed free of charge",
+                    "de": "Ticketrückerstattung ist kostenlos"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -1577,7 +1675,21 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возможность возврата",
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Ticket refund is allowed free of charge",
+                    "de": "Ticketrückerstattung ist kostenlos"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
@@ -1925,7 +2037,19 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат стоимости билета",
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы не разрешен. Для некоторых направлений могут действовать особые правила применения тарифов",
+                    "en": "Confirmed ticket may not be refunded. Special fare rules may apply for some destinations"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
                     "en": "Refund"
                 },
                 "fullDescription": {
