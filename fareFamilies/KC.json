@@ -334,14 +334,14 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "",
+        "priority": 1,
+        "tariffCodePattern": "^([YBHKLTQSVPME]\\w*(SS))\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Выгодный Комфорт Плюс",
-                    "en": "Lowest Comfort Plus"
+                    "ru": "Базовый",
+                    "en": "Basic"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -352,62 +352,50 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "ru": "До 8 кг",
+                    "en": "Up to 8 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 10 кг, 56x45x20 см",
-                    "en": "1 item up to 10 kg, 56x45x20 cm"
+                    "ru": "Разрешено перевозить 1 сумку размером не больше 56 x 45 x 25 см",
+                    "en": "Cabin baggage dimensions are limited and must not be larger than 56 x 45 x 25 cm"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "До 20 кг",
-                    "en": "Up to 20 kg"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
-                "code": "seatsRegistration",
+                "code": "refundable",
                 "shortDescription": {
-                    "ru": "Выбор любого места на борту",
-                    "en": "Any seat"
+                    "ru": "Возврат билета",
+                    "en": "Cancellation"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "No refunds permitted"
                 },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритетная посадка",
-                    "en": "Priority boarding"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Перебронирование",
+                    "ru": "Изменение бронирования",
                     "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное перебронирование один раз",
-                    "en": "One time flight change"
+                    "ru": "Изменение бронирования допускается с удержанием дополнительного сбора",
+                    "en": "Changes are permitted with a penalty"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             }
         ]
     },
@@ -674,14 +662,14 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 2,
+        "priority": 3,
         "tariffCodePattern": "",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Выгодный Комфорт",
-                    "en": "Lowest Comfort"
+                    "ru": "Выгодный Комфорт Плюс",
+                    "en": "Lowest Comfort Plus"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -692,12 +680,12 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 5 кг, 56x45x20 см",
-                    "en": "1 item up to 5 kg, 56x45x20 cm"
+                    "ru": "1 место до 10 кг, 56x45x20 см",
+                    "en": "1 item up to 10 kg, 56x45x20 cm"
                 },
                 "needToPay": "free"
             },
@@ -716,12 +704,36 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор стандартного места на борту",
-                    "en": "Standard seat"
+                    "ru": "Выбор любого места на борту",
+                    "en": "Any seat"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": "Priority boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатное перебронирование один раз",
+                    "en": "One time flight change"
                 },
                 "needToPay": "free"
             }
@@ -1120,6 +1132,62 @@
                     "en": ""
                 },
                 "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Выгодный Комфорт",
+                    "en": "Lowest Comfort"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг, 56x45x20 см",
+                    "en": "1 item up to 5 kg, 56x45x20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 20 кг",
+                    "en": "Up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор стандартного места на борту",
+                    "en": "Standard seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },

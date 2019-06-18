@@ -2,74 +2,6 @@
     {
         "owner": "IQ",
         "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^([Y])\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Универсальный",
-                    "en": "Flexible"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг, габаритами не более 56 x 41 x 25 см",
-                    "en": "1 item up to 10 kg, size 56 x 41 x 20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "До 20 кг",
-                    "en": "Up to 20 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат авиабилета разрешается без удержания",
-                    "en": "Refundable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Перебронирование",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Перебронирование разрешено без удержания",
-                    "en": "Exchangeable. No fee applies"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "IQ",
-        "baseClass": "economy",
         "priority": 2,
         "tariffCodePattern": "^([S])\\w*$",
         "parameters": [
@@ -88,20 +20,20 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 10 кг, габаритами не более 56 x 41 x 25 см",
-                    "en": "1 item up to 10 kg, size 56 x 41 x 20 cm"
+                    "ru": "1 место до 5 кг, габаритами не более 40 x 25 x 20 см",
+                    "en": "1 item up to 5 kg, size 40 x 25 x 20 cm"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "До 15 кг",
-                    "en": "Up to 15 kg"
+                    "ru": "До 20 кг",
+                    "en": "Up to 20 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -156,20 +88,20 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 10 кг, габаритами не более 56 x 41 x 25 см",
-                    "en": "1 item up to 10 kg, size 56 x 41 x 20 cm"
+                    "ru": "1 место до 5 кг, габаритами не более 40 x 25 x 20 см",
+                    "en": "1 item up to 5 kg, size 40 x 25 x 20 cm"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "До 10 кг",
-                    "en": "Up to 10 kg"
+                    "ru": "До 20 кг",
+                    "en": "Up to 20 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -200,6 +132,74 @@
                     "en": "Exchangeable, a fee applies. Non-exchangeable in case of no-show"
                 },
                 "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "IQ",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([J])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Жайлы",
+                    "en": "Jaily"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, габаритами не более 56 x 41 x 25 см",
+                    "en": "1 item up to 10 kg, size 56 x 41 x 25 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 30 кг",
+                    "en": "Up to 30 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат авиабилета разрешается без удержания",
+                    "en": "Refundable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено без удержания",
+                    "en": "Exchangeable. No fee applies"
+                },
+                "needToPay": "free"
             }
         ]
     }

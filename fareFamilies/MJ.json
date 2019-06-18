@@ -36,8 +36,8 @@
                     "en": "1 item up to 25 kg"
                 },
                 "fullDescription": {
-                    "ru": "Норма бесплатного провоза багажа: 1 место до 25 кг, сумма 3 измерений — не более 158 см. Также предоставляется 1 место до 23 кг под спортивное оборудование",
-                    "en": "Checked baggage: 1 item up to 25 kg, with dimensions not exceeding 158 cm. 1 item up to 23 kg is also provided for sport equipment"
+                    "ru": "Норма бесплатного провоза багажа: 1 место до 25 кг, сумма 3 измерений — не более 158 см",
+                    "en": "Checked baggage: 1 item up to 25 kg, with dimensions not exceeding 158 cm"
                 },
                 "needToPay": "free"
             },
@@ -172,8 +172,8 @@
                     "en": "1 item up to 25 kg"
                 },
                 "fullDescription": {
-                    "ru": "Норма бесплатного провоза багажа: 1 место до 25 кг, сумма 3 измерений — не более 158 см. Также предоставляется 1 место до 23 кг под спортивное оборудование",
-                    "en": "Checked baggage: 1 item up to 25 kg, with dimensions not exceeding 158 cm. 1 item up to 23 kg is also provided for sport equipment"
+                    "ru": "Норма бесплатного провоза багажа: 1 место до 25 кг, сумма 3 измерений — не более 158 см",
+                    "en": "Checked baggage: 1 item up to 25 kg, with dimensions not exceeding 158 cm"
                 },
                 "needToPay": "free"
             },
@@ -240,8 +240,8 @@
                     "en": "2 items up to 30 kg each"
                 },
                 "fullDescription": {
-                    "ru": "Норма бесплатного провоза багажа: 2 места до 30 кг каждое, сумма 3 измерений — не более 158 см каждое. Также предоставляется 1 место до 23 кг под спортивное оборудование",
-                    "en": "Checked baggage: 2 items up to 30 kg each, with dimensions not exceeding 158 cm each. 1 item up to 23 kg is also provided for sport equipment"
+                    "ru": "Норма бесплатного провоза багажа: 2 места до 30 кг каждое, сумма 3 измерений — не более 158 см каждое",
+                    "en": "Checked baggage: 2 items up to 30 kg each, with dimensions not exceeding 158 cm each"
                 },
                 "needToPay": "free"
             },
