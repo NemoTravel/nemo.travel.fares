@@ -128,10 +128,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "ru": "Возврат билета разрешен",
+                    "en": "Refundable"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",
@@ -140,10 +140,10 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
+                    "ru": "Обмен билета разрешен",
+                    "en": "Exchangeable"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "seatsRegistration",
