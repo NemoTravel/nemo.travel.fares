@@ -390,13 +390,13 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место не более 5 кг с габаритами, не превышающими размеры 40*30*20 см",
-                    "en": "1 hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm",
+                    "ru": "1 место не более 10 кг с габаритами, не превышающими размеры 40*30*20 см",
+                    "en": "1 hand luggage piece up to 10 kg and with dimensions not exceeding 40x30x20 cm",
                     "de": "1 Handgepäckstück bis 10 kg, maximale Abmessungen 55x40x20cm"
                 },
                 "fullDescription": {
-                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см",
-                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm"
+                    "ru": "Допускается провезти 1 место ручной клади не более 10 кг с габаритами не превышающими размеры 40*30*20 см",
+                    "en": "It is allowed to carry 1 additional hand luggage piece up to 10 kg and with dimensions not exceeding 40x30x20 cm"
                 },
                 "needToPay": "free"
             },

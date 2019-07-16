@@ -516,10 +516,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен со сбором. Возврат билета после вылета не разрешен",
-                    "en": "Refundable before departure. A fee applies"
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
