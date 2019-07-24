@@ -46,10 +46,38 @@
                 "needToPay": "free"
             },
             {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Ticket refund is allowed with additional charges",
+                    "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Ticket refund is allowed with additional charges",
+                    "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
+                },
+                "needToPay": "charge"
+            },
+            {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange",
+                    "ru": "Обмен билета до вылета",
+                    "en": "Exchange before departure",
                     "de": "Ticketbörse"
                 },
                 "fullDescription": {
@@ -60,16 +88,16 @@
                 "needToPay": "charge"
             },
             {
-                "code": "refundable",
+                "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
-                    "de": "Ticketrückerstattung"
+                    "ru": "Обмен билета после вылета",
+                    "en": "Exchange after departure",
+                    "de": "Ticketbörse"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Ticket refund is allowed with additional charges",
-                    "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Ticket exchange is allowed with additional charges",
+                    "de": "Ticketbörse ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "charge"
             },
@@ -147,8 +175,22 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable",
+                    "de": "Fare ist völlig nicht rückzahlbar"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
@@ -161,8 +203,22 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange",
+                    "ru": "Обмен билета до вылета",
+                    "en": "Exchange before departure",
+                    "de": "Ticketbörse"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Ticket exchange is allowed with additional charges",
+                    "de": "Nicht austauschbar"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета после вылета",
+                    "en": "Exchange after departure",
                     "de": "Ticketbörse"
                 },
                 "fullDescription": {
@@ -206,20 +262,6 @@
                 "needToPay": null
             },
             {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
-                    "de": "Ticketrückerstattung"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 5 кг",
@@ -246,16 +288,58 @@
                 "needToPay": "free"
             },
             {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable",
+                    "de": "Fare ist völlig nicht rückzahlbar"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable",
+                    "de": "Fare ist völlig nicht rückzahlbar"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange",
+                    "ru": "Обмен билета до вылета",
+                    "en": "Exchange before departure",
                     "de": "Ticketbörse"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
                     "en": "Ticket exchange is allowed with additional charges",
-                    "de": "Ticketbörse ist gegen Aufpreis erlaubt"
+                    "de": "Nicht austauschbar"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета после вылета",
+                    "en": "Exchange after departure",
+                    "de": "Ticketbörse"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Ticket exchange is allowed with additional charges",
+                    "de": "Nicht austauschbar"
                 },
                 "needToPay": "charge"
             },
@@ -293,20 +377,6 @@
                 "needToPay": null
             },
             {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
-                    "de": "Ticketrückerstattung"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен со сборами",
-                    "en": "Ticket refund is allowed before departure with additional charges",
-                    "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
-                },
-                "needToPay": "charge"
-            },
-            {
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 10 кг и до 5 кг",
@@ -333,16 +403,58 @@
                 "needToPay": "free"
             },
             {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Ticket refund is allowed with additional charges",
+                    "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Ticket refund is allowed with additional charges",
+                    "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange",
+                    "ru": "Обмен билета до вылета",
+                    "en": "Exchange before departure",
                     "de": "Ticketbörse"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сборами",
                     "en": "Ticket exchange is allowed with additional charges",
-                    "de": "Ticketbörse ist gegen Aufpreis erlaubt"
+                    "de": "Nicht austauschbar"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета после вылета",
+                    "en": "Exchange after departure",
+                    "de": "Ticketbörse"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Ticket exchange is allowed with additional charges",
+                    "de": "Nicht austauschbar"
                 },
                 "needToPay": "charge"
             },
