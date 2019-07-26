@@ -154,6 +154,18 @@
                     "en": "Dimensions of free baggage allowance for 1 piece of baggage (23 kg) is not more than 203 cm in the sum of three dimensions"
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
