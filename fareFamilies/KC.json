@@ -446,7 +446,7 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 3,
+        "priority": 4,
         "tariffCodePattern": "",
         "parameters": [
             {
@@ -526,7 +526,7 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 3,
+        "priority": 4,
         "tariffCodePattern": "",
         "parameters": [
             {
@@ -606,7 +606,7 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 3,
+        "priority": 4,
         "tariffCodePattern": "",
         "parameters": [
             {
@@ -686,7 +686,7 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 6,
+        "priority": 8,
         "tariffCodePattern": "",
         "parameters": [
             {
@@ -766,7 +766,7 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 6,
+        "priority": 8,
         "tariffCodePattern": "",
         "parameters": [
             {
@@ -846,7 +846,7 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 6,
+        "priority": 8,
         "tariffCodePattern": "",
         "parameters": [
             {
@@ -970,7 +970,7 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 2,
+        "priority": 3,
         "tariffCodePattern": "",
         "parameters": [
             {
@@ -1026,7 +1026,7 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 2,
+        "priority": 3,
         "tariffCodePattern": "",
         "parameters": [
             {
@@ -1082,7 +1082,7 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 2,
+        "priority": 3,
         "tariffCodePattern": "",
         "parameters": [
             {
@@ -1138,7 +1138,7 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 5,
+        "priority": 7,
         "tariffCodePattern": "",
         "parameters": [
             {
@@ -1194,7 +1194,7 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 5,
+        "priority": 7,
         "tariffCodePattern": "",
         "parameters": [
             {
@@ -1250,7 +1250,7 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 5,
+        "priority": 7,
         "tariffCodePattern": "",
         "parameters": [
             {
@@ -1298,6 +1298,342 @@
                 "fullDescription": {
                     "ru": "",
                     "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Выгодный Стандарт Плюс",
+                    "en": "Lowest Standard Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, 56x45x20 см",
+                    "en": "1 item up to 10 kg, 56x45x20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор стандартного места на борту",
+                    "en": "Standard seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Не включен в тариф",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Выгодный Стандарт Плюс",
+                    "en": "Lowest Standard Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор стандартного места на борту",
+                    "en": "Standard seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Не включен в тариф",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, 56x45x20 см",
+                    "en": "1 item up to 10 kg, 56x45x20 cm"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Выгодный Стандарт Плюс",
+                    "en": "Lowest Standard Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор стандартного места на борту",
+                    "en": "Standard seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Не включен в тариф",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, 56x45x20 см",
+                    "en": "1 item up to 10 kg, 56x45x20 cm"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 6,
+        "tariffCodePattern": "",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий Стандарт Плюс",
+                    "en": "Flexi Standard Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор стандартного места на борту",
+                    "en": "Standard seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Не включен в тариф",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, 56x45x20 см",
+                    "en": "1 item up to 10 kg, 56x45x20 cm"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 6,
+        "tariffCodePattern": "",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий Стандарт Плюс",
+                    "en": "Flexi Standard Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор стандартного места на борту",
+                    "en": "Standard seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Не включен в тариф",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, 56x45x20 см",
+                    "en": "1 item up to 10 kg, 56x45x20 cm"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 6,
+        "tariffCodePattern": "",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий Стандарт Плюс",
+                    "en": "Flexi Standard Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор стандартного места на борту",
+                    "en": "Standard seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Не включен в тариф",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, 56x45x20 см",
+                    "en": "1 item up to 10 kg, 56x45x20 cm"
                 },
                 "needToPay": "free"
             }

@@ -1,0 +1,954 @@
+[
+    {
+        "owner": "RO",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[ESVTF]\\w*(SVR)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бюджетный Эконом",
+                    "en": "Saver Economy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета не разрешен",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[ANRHQKU]\\w*(OPT)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Оптимальный Эконом",
+                    "en": "Optimum Economy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сбором",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[LMBY]\\w*(FLX)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий Эконом",
+                    "en": "Flex Economy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[W]\\w*(DOM)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Промо",
+                    "en": "Promo"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета не разрешен",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[ESFA]\\w*(DOM)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный",
+                    "en": "Superspecials"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета не разрешен",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[S]((?!DOM|SVR).)*(US)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный",
+                    "en": "Superspecials"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сбором",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета до дня вылета разрешен со сбором",
+                    "en": "Exchangeable before the day of the flight. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[TRKU]((?!DOM|SVR|OPT).)*(US)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Базовый",
+                    "en": "Basic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сбором",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета до дня вылета разрешен со сбором",
+                    "en": "Exchangeable before the day of the flight. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[NRQKU]\\w*(DOM)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий",
+                    "en": "Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сбором",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[M]((?!DOM|FLX).)*(US)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий",
+                    "en": "Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сбором",
+                    "en": "Refundable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета до дня вылета разрешен со сбором",
+                    "en": "Exchangeable before the day of the flight. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^[LMBY]\\w*(DOM)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум",
+                    "en": "Premium"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^[BY]((?!DOM|FLX).)*(US)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум",
+                    "en": "Premium"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "economy",
+        "priority": 5,
+        "tariffCodePattern": "^[DC]((?!DOM|FFX).)*(US)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "^[DCJ]\\w*(FFX)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Semiflex Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "3 места до 23 кг каждое",
+                    "en": "3 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "RO",
+        "baseClass": "business",
+        "priority": 4,
+        "tariffCodePattern": "^[I]\\w*(SFX)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Semiflex Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место ручной клади до 10 кг. Если перелет совершается на воздушном судне типа Boeing или Airbus, то размер ручной клади не должен превышать 55 x 40 x 20 см. Если перелет совершается на воздушном судне типа ATR 42 / ATR 72 — 35 x 30 x 20 см",
+                    "en": "1 item up to 10 kg sized maximum 55 x 40 x 20 cm, if you travel with an aircraft type Boeing and Airbus. If you travel with an aircraft type ATR 42 / ATR 72 the luggage carried to the cabin should not exceed 35 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "3 места до 23 кг каждое",
+                    "en": "3 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен не позднее чем за день до вылета. После обмен разрешен со сбором",
+                    "en": "Exchangeable before the day of departure. From day of departure — a fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    }
+]

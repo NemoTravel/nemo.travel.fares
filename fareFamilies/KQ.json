@@ -1,0 +1,274 @@
+[
+    {
+        "owner": "KQ",
+        "baseClass": "business",
+        "priority": 6,
+        "tariffCodePattern": "^[JCDIZ]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 12 кг",
+                    "en": "1 item up to 12 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 12 кг, 55 x 25 x 35 см",
+                    "en": "1 item up to 12 kg, 55 x 25 x 35 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 23 кг для перелетов по Африке. 2 места до 23 кг каждое — для межконтинентальных перелетов",
+                    "en": "Within Africa: 1 item up to 23 kg. Intercontinental flights: 2 items up to 23 kg each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Ticket Change"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "KQ",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^\\w*(SR)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом",
+                    "en": "Economy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 12 кг",
+                    "en": "1 item up to 12 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 12 кг, 55 x 25 x 35 см",
+                    "en": "1 item up to 12 kg, 55 x 25 x 35 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 23 кг для перелетов по Африке. 2 места до 23 кг каждое — для межконтинентальных перелетов",
+                    "en": "Within Africa: 1 item up to 23 kg. Intercontinental flights: 2 items up to 23 kg each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Ticket Change"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сбором",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "KQ",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^\\w*(SF)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Гибкий",
+                    "en": "Economy Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 12 кг",
+                    "en": "1 item up to 12 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 12 кг, 55 x 25 x 35 см",
+                    "en": "1 item up to 12 kg, 55 x 25 x 35 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 23 кг для перелетов по Африке. 2 места до 23 кг каждое — для межконтинентальных перелетов",
+                    "en": "Within Africa: 1 item up to 23 kg. Intercontinental flights: 2 items up to 23 kg each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Ticket Change"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сбором",
+                    "en": "Exchangeable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "KQ",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^\\w*(FF)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Супер Гибкий",
+                    "en": "Economy Super Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 12 кг",
+                    "en": "1 item up to 12 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 12 кг, 55 x 25 x 35 см",
+                    "en": "1 item up to 12 kg, 55 x 25 x 35 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 23 кг для перелетов по Африке. 2 места до 23 кг каждое — для межконтинентальных перелетов",
+                    "en": "Within Africa: 1 item up to 23 kg. Intercontinental flights: 2 items up to 23 kg each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Ticket Change"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

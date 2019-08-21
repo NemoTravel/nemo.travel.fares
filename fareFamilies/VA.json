@@ -1,0 +1,478 @@
+[
+    {
+        "owner": "VA",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[UMSTQ]\\w*(GW)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Базовый",
+                    "en": "Getaway"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг в сумме",
+                    "en": "2 items up to 7 kg total"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место зарегистрированного багажа до 23 кг. Правила провоза зарегистрированного багажа могу отличаться в зависимости от направлений",
+                    "en": "1 item up to 23 kg. Checked baggage allowance depends on the route and code-sharing flights"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в перелете разрешены со сбором не позднее чем за день до вылета. Изменения имени не разрешены",
+                    "en": "Flight changes permitted until midnight prior to scheduled departure with additional fee plus fare difference. Name changes — not permitted"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellations"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета не разрешен. На дальнемагистральных перелетах условия могут отличаться",
+                    "en": "Cancellations not permitted. For international long haul flights: cancellations permitted with additional fee"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "VA",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[QVNEL]\\w*(EV)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Повышенный",
+                    "en": "Elevate"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг в сумме",
+                    "en": "2 items up to 7 kg total"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место зарегистрированного багажа до 23 кг. Правила провоза зарегистрированного багажа могу отличаться в зависимости от направлений",
+                    "en": "1 item up to 23 kg. Checked baggage allowance depends on the route and code-sharing flights"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в перелете разрешены со сбором не позднее чем за день до вылета. Изменения имени не разрешены",
+                    "en": "Flight changes permitted until midnight prior to scheduled departure with additional fee plus fare difference. Name changes — not permitted"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellations"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором не позднее чем за день до вылета",
+                    "en": "Cancellations permitted until midnight prior to scheduled departure with additional fee"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "VA",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[LKHBY]\\w*(FD)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Свободный",
+                    "en": "Freedom"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг в сумме",
+                    "en": "2 items up to 7 kg total"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "К провозу разрешено 1 место зарегистрированного багажа до 23 кг. Правила провоза зарегистрированного багажа могу отличаться в зависимости от направлений",
+                    "en": "1 item up to 23 kg. Checked baggage allowance depends on the route and code-sharing flights"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в перелете до вылета разрешены без сбора. Изменения имени не разрешены",
+                    "en": "Flight changes permitted prior to scheduled departure. Name changes — not permitted"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellations"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Cancellations permitted"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "VA",
+        "baseClass": "premiumEconomy",
+        "priority": 4,
+        "tariffCodePattern": "^[O]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум Бюджетный",
+                    "en": "Premium Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг в сумме",
+                    "en": "2 items up to 7 kg total"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в перелете разрешены со сбором не позднее чем за день до вылета. Изменения имени не разрешены",
+                    "en": "Flight changes permitted until 24 hours prior to scheduled departure with additional fee plus fare difference. Name changes — not permitted"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellations"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором не позднее чем за день до вылета",
+                    "en": "Cancellations permitted until midnight prior to scheduled departure with additional fee"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "VA",
+        "baseClass": "premiumEconomy",
+        "priority": 5,
+        "tariffCodePattern": "^[RW]\\w*(PF)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум",
+                    "en": "Premium"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг в сумме",
+                    "en": "2 items up to 7 kg total"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в перелете до вылета разрешены без сбора. Изменения имени не разрешены",
+                    "en": "Flight changes permitted prior to scheduled departure. Name changes — not permitted"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellations"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Cancellations permitted"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "VA",
+        "baseClass": "business",
+        "priority": 6,
+        "tariffCodePattern": "^[ID]\\w*(BS)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Бюджет",
+                    "en": "Business Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг каждое",
+                    "en": "2 items up to 7 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в перелете разрешены со сбором не позднее чем за день до вылета. Изменения имени не разрешены",
+                    "en": "Flight changes permitted until midnight prior to scheduled departure with additional fee plus fare difference. Name changes — not permitted"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellations"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором не позднее чем за день до вылета",
+                    "en": "Cancellations permitted until midnight prior to scheduled departure with additional fee"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "VA",
+        "baseClass": "business",
+        "priority": 7,
+        "tariffCodePattern": "^[DCJ]\\w*(BU)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг каждое",
+                    "en": "2 items up to 7 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в перелете до вылета разрешены без сбора. Изменения имени не разрешены",
+                    "en": "Flight changes permitted prior to scheduled departure. Name changes — not permitted"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellations"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Cancellations permitted"
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]
