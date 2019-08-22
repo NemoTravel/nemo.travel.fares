@@ -32,7 +32,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 чемодан до 23 кг",
+                    "ru": "1 место до 23 кг",
                     "en": "1 bag up to 23 kg"
                 },
                 "fullDescription": {
@@ -112,7 +112,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 чемодан до 23 кг",
+                    "ru": "1 место до 23 кг",
                     "en": "1 bag up to 23 kg"
                 },
                 "fullDescription": {
@@ -271,7 +271,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 чемодана до 32 кг каждый",
+                    "ru": "2 места до 32 кг каждое",
                     "en": "2 bags up to 32 kg each"
                 },
                 "fullDescription": {
@@ -362,7 +362,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 чемодана, 10 кг каждый",
+                    "ru": "2 места, до 10 кг каждое",
                     "en": "2 bags, 10 kg each"
                 },
                 "fullDescription": {
@@ -374,7 +374,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 чемодана до 32 кг каждый",
+                    "ru": "2 места до 32 кг каждое",
                     "en": "2 bags up to 32 kg each"
                 },
                 "fullDescription": {

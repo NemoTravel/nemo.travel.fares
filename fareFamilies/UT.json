@@ -158,7 +158,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
+                    "ru": "1 место до 23 кг",
                     "en": "1 item up to 23 kg",
                     "de": "1 Beutel bis 23 kg"
                 },
@@ -348,7 +348,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 20 кг",
+                    "ru": "1 место до 20 кг",
                     "en": "1 item up to 20 kg"
                 },
                 "fullDescription": {
@@ -446,7 +446,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 20 кг",
+                    "ru": "1 место до 20 кг",
                     "en": "1 item up to 20 kg",
                     "de": "1 Beutel bis 10 kg"
                 },

@@ -20,7 +20,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 7 кг",
+                    "ru": "1 место до 7 кг",
                     "en": "1 item up to 7 kg"
                 },
                 "fullDescription": {
@@ -32,7 +32,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
+                    "ru": "1 место до 23 кг",
                     "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
@@ -100,7 +100,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 7 кг",
+                    "ru": "1 место до 7 кг",
                     "en": "1 item up to 7 kg"
                 },
                 "fullDescription": {
@@ -112,7 +112,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
+                    "ru": "1 место до 23 кг",
                     "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
@@ -192,7 +192,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 7 кг",
+                    "ru": "1 место до 7 кг",
                     "en": "1 item up to 7 kg"
                 },
                 "fullDescription": {
@@ -296,7 +296,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 7 кг",
+                    "ru": "1 место до 7 кг",
                     "en": "1 item up to 7 kg"
                 },
                 "fullDescription": {
@@ -888,7 +888,7 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 7 кг",
+                    "ru": "1 место до 7 кг",
                     "en": "1 item up to 7 kg"
                 },
                 "fullDescription": {
