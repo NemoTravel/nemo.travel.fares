@@ -80,7 +80,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Перебронирование",
+                    "ru": "Изменения до вылета",
                     "en": "Rebooking"
                 },
                 "fullDescription": {
@@ -104,7 +104,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund"
                 },
                 "fullDescription": {
@@ -184,7 +184,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Перебронирование",
+                    "ru": "Изменения до вылета",
                     "en": "Rebooking"
                 },
                 "fullDescription": {
@@ -196,7 +196,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund"
                 },
                 "fullDescription": {
@@ -335,7 +335,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund"
                 },
                 "fullDescription": {
@@ -359,7 +359,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Перебронирование",
+                    "ru": "Изменения до вылета",
                     "en": "Rebooking"
                 },
                 "fullDescription": {
@@ -513,7 +513,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Перебронирование",
+                    "ru": "Изменения до вылета",
                     "en": "Rebooking"
                 },
                 "fullDescription": {
@@ -525,7 +525,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund"
                 },
                 "fullDescription": {
@@ -667,7 +667,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Перебронирование",
+                    "ru": "Изменения до вылета",
                     "en": "Rebooking"
                 },
                 "fullDescription": {
@@ -679,7 +679,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund"
                 },
                 "fullDescription": {
