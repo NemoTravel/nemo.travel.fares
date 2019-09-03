@@ -3,52 +3,6 @@
         "owner": "A4",
         "baseClass": "economy",
         "priority": 1,
-        "flightTimeSince": "2017-03-18T00:00:00",
-        "flightTimeUntil": "2019-06-01T00:00:00",
-        "tariffCodePattern": "^[TUVX]\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Легкий",
-                    "en": "Light"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "Габаритная норма ручной клади 1 места багажа (10 кг) составляет не более 115 см в сумме трех измерений (55 x 40 x 20 см)",
-                    "en": "Dimensions of carry-on luggage (10 kg) is not more than 115 cm in the sum of three dimensions (55 x 40 x 20 cm)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "A4",
-        "baseClass": "economy",
-        "priority": 1,
         "flightTimeSince": "2019-06-01T00:00:00",
         "flightTimeUntil": "2022-06-01T00:00:00",
         "tariffCodePattern": "^[TUVX]\\w*$",
