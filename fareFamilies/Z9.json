@@ -21,13 +21,13 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 8 кг",
-                    "en": "1 piece till 8 kg",
+                    "ru": "1 место до 5 кг",
+                    "en": "1 piece up to 5 kg",
                     "kz": "1 орын 8 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "Допускается провезти 1 место ручной клади весом не более 8 кг",
-                    "en": "Cabin baggage 8 kg",
+                    "ru": "Допускается провезти 1 место ручной клади весом не более 5 кг",
+                    "en": "Cabin baggage 5 kg",
                     "kz": "Өзімен бірге 1 орын - 8 кг"
                 },
                 "needToPay": "free"
@@ -35,13 +35,13 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 28 кг",
-                    "en": "1 piece till 28 kg",
+                    "ru": "1 место до 23 кг",
+                    "en": "1 piece up to 23 kg",
                     "kz": "1 орын 28 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
-                    "en": "The max. size 55 x 40 x 23 см (less that 158 cm in total three dimenstions)",
+                    "ru": "Макс. размер не превышает 208 см в сумме трех измерений",
+                    "en": "The max. size less than 208 cm in total three dimenstions",
                     "kz": "Максималды өлшемі 55 x 40 x 23 (Үш өлшемде 158 см-ден аспауы шарт) сай келетін қол жүгін алып өтуге болады"
                 },
                 "needToPay": "free"
@@ -49,8 +49,8 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение авиабилета за 24 часа до начала перевозки",
-                    "en": "Change before original time of departure",
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure",
                     "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
                 },
                 "fullDescription": {
@@ -63,8 +63,8 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение менее чем за 24 часа до времени вылета рейса",
-                    "en": "Change after original time of departure",
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure",
                     "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
                 },
                 "fullDescription": {
@@ -77,8 +77,8 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат менее чем за 24 часа до времени вылета рейса",
-                    "en": "Refund of ticket after original time of departure",
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure",
                     "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
                 },
                 "fullDescription": {
@@ -91,8 +91,8 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат более чем за 24 часа до времени вылета рейса",
-                    "en": "Refund of ticket before original time of departure",
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
                     "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
                 },
                 "fullDescription": {
@@ -126,13 +126,13 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 7 кг",
-                    "en": "1 piece till 7 kg",
+                    "ru": "1 место до 5 кг",
+                    "en": "1 piece up to 5 kg",
                     "kz": "1 орын 7 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "Допускается провезти 1 место ручной клади весом не более 7 кг",
-                    "en": "Cabin baggage 7 kg",
+                    "ru": "Допускается провезти 1 место ручной клади весом не более 5 кг",
+                    "en": "Cabin baggage 5 kg",
                     "kz": "Өзімен бірге 1 орын - 7 кг"
                 },
                 "needToPay": "free"
@@ -140,13 +140,13 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 25 кг",
-                    "en": "1 piece till 25 kg",
+                    "ru": "1 место до 23 кг",
+                    "en": "1 piece up to 23 kg",
                     "kz": "1 орын 25 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
-                    "en": "The max. size 55 x 40 x 23 см (less that 158 cm in total three dimenstions)",
+                    "ru": "Макс. размер не превышает 203 см в сумме трех измерений",
+                    "en": "The max. size less than 203 cm in total three dimenstions",
                     "kz": "Максималды өлшемі 55 x 40 x 23 (Үш өлшемде 158 см-ден аспауы шарт) сай келетін қол жүгін алып өтуге болады"
                 },
                 "needToPay": "free"
@@ -154,8 +154,8 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение авиабилета за 24 часа до начала перевозки",
-                    "en": "Change before original time of departure",
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure",
                     "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
                 },
                 "fullDescription": {
@@ -168,8 +168,8 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение менее чем за 24 часа до времени вылета рейса",
-                    "en": "Change after original time of departure",
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure",
                     "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
                 },
                 "fullDescription": {
@@ -182,22 +182,22 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат менее чем за 24 часа до времени вылета рейса",
-                    "en": "Refund of ticket after original time of departure",
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure",
                     "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "Возврат после вылета производится за дополнительную плату",
-                    "en": "Refund after the departure is performed at additional charge",
+                    "ru": "Возврат после вылета в данном тарифе недоступен",
+                    "en": "Refund after the departure is not available for this tariff",
                     "kz": "Қайтарылым операциясы рейс жөнелтілуінен соң - ақылы"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат более чем за 24 часа до времени вылета рейса",
-                    "en": "Refund of ticket before original time of departure",
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
                     "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
                 },
                 "fullDescription": {
@@ -213,7 +213,7 @@
         "owner": "Z9",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([RTUESCD])\\w*$",
+        "tariffCodePattern": "^([RTUES])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -232,13 +232,13 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 6 кг",
-                    "en": "1 piece till 6 kg",
+                    "ru": "1 место до 5 кг",
+                    "en": "1 piece up to 5 kg",
                     "kz": "1 орын 6 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "Допускается провезти 1 место ручной клади весом не более 6 кг",
-                    "en": "Cabin baggage 6 kg",
+                    "ru": "Допускается провезти 1 место ручной клади весом не более 5 кг",
+                    "en": "Cabin baggage 5 kg",
                     "kz": "Өзімен бірге 1 орын - 6 кг"
                 },
                 "needToPay": "free"
@@ -247,12 +247,12 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
-                    "en": "1 piece till 23 kg",
+                    "en": "1 piece up to 23 kg",
                     "kz": "1 орын 23 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
-                    "en": "The max. size 55 x 40 x 23 см (less that 158 cm in total three dimenstions)",
+                    "ru": "Макс. размер не превышает 158 см в сумме трех измерений",
+                    "en": "The max. size less that 158 cm in total three dimenstions",
                     "kz": "Максималды өлшемі 55 x 40 x 23 (Үш өлшемде 158 см-ден аспауы шарт) сай келетін қол жүгін алып өтуге болады"
                 },
                 "needToPay": "free"
@@ -260,8 +260,8 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение авиабилета за 24 часа до начала перевозки",
-                    "en": "Change before original time of departure",
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure",
                     "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
                 },
                 "fullDescription": {
@@ -274,27 +274,27 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение менее чем за 24 часа до времени вылета рейса",
-                    "en": "Change after original time of departure",
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure",
                     "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "Изменения после вылета в данном тарифе недоступны",
-                    "en": "Changes after the departure are not available for this tariff",
+                    "ru": "Изменения после вылета производятся за дополнительную плату",
+                    "en": "Changes after the departure are made at additional charge",
                     "kz": "Рейс жөнелтілуінен соң өзгеріс енгізу - нақты тариф бойынша мүмкін емес"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат менее чем за 24 часа до времени вылета рейса",
-                    "en": "Refund of ticket after original time of departure",
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure",
                     "kz": "Рейстің жөнелтілу уақытынан кейін  қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "Возврат после вылета производится за дополнительную плату",
-                    "en": "Refund after the departure is performed at additional charge",
+                    "ru": "Возврат после вылета в данном тарифе недоступен",
+                    "en": "Refund after the departure is not available for this tariff",
                     "kz": "Қайтарылым операциясы рейс жөнелтілуінен соң - ақылы"
                 },
                 "needToPay": "notAvailable"
@@ -302,8 +302,8 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат более чем за 24 часа до времени вылета рейса",
-                    "en": "Refund of ticket before original time of departure",
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
                     "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
                 },
                 "fullDescription": {
@@ -319,7 +319,7 @@
         "owner": "Z9",
         "baseClass": "economy",
         "priority": 6,
-        "tariffCodePattern": "^([NPZJA])\\w*$",
+        "tariffCodePattern": "^([NPZ])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -337,13 +337,13 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 piece till 10 kg",
+                    "ru": "1 место до 5 кг",
+                    "en": "1 piece up to 5 kg",
                     "kz": "1 орын 10 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "Допускается провезти 1 место ручной клади весом не более 10 кг",
-                    "en": "Cabin baggage 10 kg",
+                    "ru": "Допускается провезти 1 место ручной клади весом не более 5 кг",
+                    "en": "Cabin baggage 5 kg",
                     "kz": "Өзімен бірге 1 орын - 10 кг"
                 },
                 "needToPay": "free"
@@ -351,13 +351,13 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 32 кг",
-                    "en": "1 piece till 32 kg",
+                    "ru": "1 место до 23 кг",
+                    "en": "1 piece up to 23 kg",
                     "kz": "1 орын 32 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
-                    "en": "The max. size 55 x 40 x 23 см (less that 158 cm in total three dimenstions)",
+                    "ru": "Макс. размер не превышает 215 см в сумме трех измерений",
+                    "en": "The max. size less than 215 cm in total three dimenstions",
                     "kz": "Максималды өлшемі 55 x 40 x 23 (Үш өлшемде 158 см-ден аспауы шарт) сай келетін қол жүгін алып өтуге болады"
                 },
                 "needToPay": "free"
@@ -365,8 +365,8 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение авиабилета за 24 часа до начала перевозки",
-                    "en": "Change before original time of departure",
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure",
                     "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
                 },
                 "fullDescription": {
@@ -379,8 +379,8 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение менее чем за 24 часа до времени вылета рейса",
-                    "en": "Change after original time of departure",
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure",
                     "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
                 },
                 "fullDescription": {
@@ -393,8 +393,8 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат менее чем за 24 часа до времени вылета рейса",
-                    "en": "Refund of ticket after original time of departure",
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure",
                     "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
                 },
                 "fullDescription": {
@@ -407,8 +407,8 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат более чем за 24 часа до времени вылета рейса",
-                    "en": "Refund of ticket before original time of departure",
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
                     "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
                 },
                 "fullDescription": {
@@ -443,7 +443,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 5 кг",
-                    "en": "1 piece till 5 kg",
+                    "en": "1 piece up to 5 kg",
                     "kz": "1 орын 5 кг дейін"
                 },
                 "fullDescription": {
@@ -456,13 +456,13 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 15 кг",
-                    "en": "1 piece till 15 kg",
+                    "ru": "1 место до 23 кг",
+                    "en": "1 piece up to 23 kg",
                     "kz": "1 орын 15 кг дейін"
                 },
                 "fullDescription": {
-                    "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
-                    "en": "The max. size 55 x 40 x 23 см (less that 115 cm in total three dimenstions)",
+                    "ru": "Макс. размер не превышает 140 см в сумме трех измерений",
+                    "en": "The max. size less than 140 cm in total three dimenstions",
                     "kz": "Максималды өлшемі 55 x 40 x 23 (Үш өлшемде 158 см-ден аспауы шарт) сай келетін қол жүгін алып өтуге болады"
                 },
                 "needToPay": "free"
@@ -470,22 +470,22 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение авиабилета за 24 часа до начала перевозки",
-                    "en": "Change before original time of departure",
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure",
                     "kz": "Рейстің жөнелтілу уақытына дейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до вылета производятся за дополнительную плату",
-                    "en": "Changes before the departure are made at additional charge",
+                    "ru": "Изменения до вылета в данном тарифе недоступны",
+                    "en": "Changes before the departure are not available for this tariff",
                     "kz": "Рейс жөнелтілуіне дейін өзгеріс енгізу - ақылы"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение менее чем за 24 часа до времени вылета рейса",
-                    "en": "Change after original time of departure",
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure",
                     "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
                 },
                 "fullDescription": {
@@ -498,8 +498,8 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат менее чем за 24 часа до времени вылета рейса",
-                    "en": "Refund of ticket after original time of departure",
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure",
                     "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
                 },
                 "fullDescription": {
@@ -512,16 +512,16 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат более чем за 24 часа до времени вылета рейса",
-                    "en": "Refund of ticket before original time of departure",
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
                     "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "Возврат до вылета производится за дополнительную плату",
-                    "en": "Refund before the departure is performed at additional charge",
+                    "ru": "Возврат до вылета в данном тарифе недоступен",
+                    "en": "Refund before the departure is not available for this tariff",
                     "kz": "Қайтарылым операциясы рейс жөнелтілуіне дейін - ақылы"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             }
         ]
     },
@@ -548,7 +548,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 5 кг",
-                    "en": "1 piece till 5 kg",
+                    "en": "1 piece up to 5 kg",
                     "kz": "1 орын 5 кг дейін"
                 },
                 "fullDescription": {
@@ -562,12 +562,12 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 10 кг",
-                    "en": "1 piece till 10 kg",
+                    "en": "1 piece up to 10 kg",
                     "kz": "1 орын 10 кг дейін"
                 },
                 "fullDescription": {
                     "ru": "Макс. размер 55 x 40 x 23 см (не превышает 158 см в сумме трех измерений)",
-                    "en": "The max. size 55 x 40 x 23 см (less that 158 cm in total three dimenstions)",
+                    "en": "The max. size 55 x 40 x 23 см (less than 158 cm in total three dimenstions)",
                     "kz": "Максималды өлшемі 55 x 40 x 23 (Үш өлшемде 158 см-ден аспауы шарт) сай келетін қол жүгін алып өтуге болады"
                 },
                 "needToPay": "free"
@@ -575,8 +575,8 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение авиабилета за 24 часа до начала перевозки",
-                    "en": "Change before original time of departure",
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure",
                     "kz": "Рейстің жөнелтілу уақытына дейін өзгерту"
                 },
                 "fullDescription": {
@@ -589,36 +589,36 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение менее чем за 24 часа до времени вылета рейса",
-                    "en": "Change after original time of departure",
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure",
                     "kz": "Рейстің жөнелтілу уақытынан кейін өзгерту беру"
                 },
                 "fullDescription": {
-                    "ru": "Изменения после вылета в данном тарифе недоступны",
-                    "en": "Changes after the departure are not available for this tariff",
+                    "ru": "Изменения после вылета производятся за дополнительную плату",
+                    "en": "Changes after the departure are made at additional charge",
                     "kz": "Рейс жөнелтілуінен соң өзгеріс енгізу - нақты тариф бойынша мүмкін емес"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат менее чем за 24 часа до времени вылета рейса",
-                    "en": "Refund of ticket after original time of departure",
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure",
                     "kz": "Рейстің жөнелтілу уақытынан кейін қайтарып беру"
                 },
                 "fullDescription": {
-                    "ru": "Возврат после вылета в данном тарифе недоступен",
-                    "en": "Refund after the departure is not available for this tariff",
+                    "ru": "Возврат после вылета производится за дополнительную плату",
+                    "en": "Refund after the departure is performed at additional charge",
                     "kz": "Қайтарылым операциясы рейс жөнелтілуінен соң - нақты тариф бойынша мүмкін емес"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат более чем за 24 часа до времени вылета рейса",
-                    "en": "Refund of ticket before original time of departure",
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
                     "kz": "Рейстің жөнелтілу уақытынан дейін қайтарып беру"
                 },
                 "fullDescription": {
