@@ -3,7 +3,7 @@
         "owner": "KC",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([YBHKLTQSVPME]\\w*(FF))\\w*$",
+        "tariffCodePattern": "^([YBHKLTQSVPMEO]\\w*(FF))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -175,7 +175,7 @@
         "owner": "KC",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([YBHKLTQSVPME]\\w*(SF))\\w*$",
+        "tariffCodePattern": "^([YBHKLTQSVPMEO]\\w*(SF))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -335,7 +335,7 @@
         "owner": "KC",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([YBHKLTQSVPME]\\w*(SS))\\w*$",
+        "tariffCodePattern": "^([YBHKLTQSVPMEO]\\w*(SS))\\w*$",
         "parameters": [
             {
                 "code": "description",
