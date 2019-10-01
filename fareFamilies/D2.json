@@ -139,7 +139,7 @@
         "owner": "D2",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^((YX)|(YE))$",
+        "tariffCodePattern": "^((YX|YE)|(TRLEDKVK|TRMOWKVK))$",
         "parameters": [
             {
                 "code": "description",
@@ -207,7 +207,7 @@
         "owner": "D2",
         "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^((CJ)|(CZ))$",
+        "tariffCodePattern": "^((CJ|CZ)|(TCLEDKVK|TCMOWKVK))$",
         "parameters": [
             {
                 "code": "description",
