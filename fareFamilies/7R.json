@@ -3,7 +3,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[YSBHKMNQEUOLVXT]\\w*(CL).*$",
+        "tariffCodePattern": "^[YSBHKMNQEUOLVXTA]\\w*(CL).*$",
         "parameters": [
             {
                 "code": "description",
@@ -26,8 +26,8 @@
                     "de": "1 Handgepäckstück bis 10 kg, maximale Abmessungen 55x40x20cm"
                 },
                 "fullDescription": {
-                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см",
-                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm"
+                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см. Для направлений Москва - Белгород - Москва – 10 кг, 55*40*25 см",
+                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm. For Moscow - Belgorod - Moscow routes – 10 kg, 55x40x25 cm"
                 },
                 "needToPay": "free"
             },
@@ -89,7 +89,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[YSBHKMNQEUOLVXTR]\\w*(LT).*$",
+        "tariffCodePattern": "^[YSBHKMNQEUOLVXTRA]\\w*(LT).*$",
         "parameters": [
             {
                 "code": "description",
@@ -112,8 +112,8 @@
                     "de": "1 Handgepäckstück bis 10 kg, maximale Abmessungen 55x40x20cm"
                 },
                 "fullDescription": {
-                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см",
-                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm"
+                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см. Для направлений Москва - Белгород - Москва – 10 кг, 55*40*25 см",
+                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm. For Moscow - Belgorod - Moscow routes – 10 kg, 55x40x25 cm"
                 },
                 "needToPay": "free"
             },
@@ -248,7 +248,7 @@
         "owner": "7R",
         "baseClass": "business",
         "priority": 5,
-        "tariffCodePattern": "^[JZ]\\w*(PM).*$",
+        "tariffCodePattern": "^[JZD]\\w*(PM).*$",
         "parameters": [
             {
                 "code": "description",
@@ -372,7 +372,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 0,
-        "tariffCodePattern": "^[NQEWKMH](NNROW|NNOW|OW\\d*)$|^(RWKNDRT)$",
+        "tariffCodePattern": "^[NQEWKMHOL](NNROW|NNOW|OW\\d*)$|^(RWKNDRT)$",
         "parameters": [
             {
                 "code": "description",
@@ -569,7 +569,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[KEWQBS](BGNNROW|BGNNOW|BGOW\\d*)$",
+        "tariffCodePattern": "^[KEWQBSMHO](BGNNROW|BGNNOW|BGOW\\d*)$",
         "parameters": [
             {
                 "code": "description",
