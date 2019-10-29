@@ -8,8 +8,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "20 кг",
-                    "en": "20 kg"
+                    "ru": "Багажный",
+                    "en": "Baggage Included"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -52,8 +52,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "30 кг",
-                    "en": "30 kg"
+                    "ru": "Бюджетный",
+                    "en": "Value"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -96,8 +96,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "40 кг",
-                    "en": "40 kg"
+                    "ru": "Экстра",
+                    "en": "Extra"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -140,8 +140,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Безбагажный",
-                    "en": "No Baggage"
+                    "ru": "Промо",
+                    "en": "Promo"
                 },
                 "fullDescription": {
                     "ru": "",
