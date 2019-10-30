@@ -683,10 +683,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable. No fee applies"
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "miles",
