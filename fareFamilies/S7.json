@@ -94,7 +94,7 @@
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
                 "fullDescription": {
-                    "ru": "Изменения разрешены без сборов до вылета. Разрешены со сбором за каждый сегмент после вылета. Разрешен обмен билета до более высокого тарифа в пределах группы Эконом Гибкий и Бизнес Гибкий, при доборе с Эконом Гибкий до Бизнес Гибкий со сбором за каждый сегмент. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
+                    "ru": "Изменения разрешены за более 40 минут до вылета без сборов. Менее, чем за 40 минут до вылета рейса или после вылета рейса — разрешены со сбором за каждый сегмент. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета. Добор до более высокого тарифа разрешен в пределах группы Эконом Гибкий и Бизнес Гибкий",
                     "en": "Before departure — changes are allowed free of charge. Permitted with additional charge for each segment after departure. Exchange to a higher level of fare is permitted within the Economy Base and Business Base groups. It is allowed to upgrage you current fare level to the higher avalible grade, with an additional charge",
                     "de": "Vor Abreise — Änderungen sind kostenfrei. Nach jedem Abflug mit Aufpreis für jedes Segment zugelassen. Der Austausch zu einem höheren Fahrpreis ist innerhalb der Economy Base und Business Base Gruppen erlaubt. Es ist erlaubt, Ihnen die aktuelle Tarifniveau auf die höhere avalible Klasse, mit einer zusätzlichen Gebühr zu upgragen"
                 },
@@ -156,7 +156,7 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
+                    "ru": "Тариф полностью невозвратный. Такса YR возврату не подлежит. Такса YQ возврату не подлежит. Аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Сбор за оформление авиабилета возврату не подлежит",
                     "en": "Non-refundable",
                     "de": "Fare ist völlig nicht rückzahlbar"
                 },
@@ -196,7 +196,7 @@
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
                 "fullDescription": {
-                    "ru": "Изменения разрешены со сбором за каждый сегмент до вылета. Разрешены со сбором за каждый сегмент после вылета. Обмен до более высокого тарифа Разрешен в пределах группы Эконом Базовый и Бизнес Базовый. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
+                    "ru": "Изменения разрешены за более 40 минут до вылета со сбором за каждый сегмент. Менее, чем за 40 минут до вылета рейса или после вылета рейса — разрешены со сбором за каждый сегмент. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета. Добор до более высокого тарифа разрешен в пределах группы Эконом Базовый и Бизнес Базовый",
                     "en": "Before departure — changes are allowed with a fee for each segment. Permitted with additional charge for each segment after departure. Exchange to a higher level of fare is permitted within the Economy Base and Business Base groups. It is allowed to upgrage you current fare level to the higher avalible grade, with an additional charge",
                     "de": "Vor der Abreise — Änderungen sind mit einer Gebühr für jedes Segment erlaubt. Nach jedem Abflug mit Aufpreis für jedes Segment zugelassen. Der Austausch zu einem höheren Fahrpreis ist innerhalb der Economy Base und Business Base Gruppen erlaubt. Es ist erlaubt, Ihnen die aktuelle Tarifniveau auf die höhere avalible Klasse, mit einer zusätzlichen Gebühr zu upgragen"
                 },
@@ -257,7 +257,7 @@
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
                 "fullDescription": {
-                    "ru": "Изменения в билете до вылета разрешены без сборов",
+                    "ru": "Изменения в билете разрешены без сборов. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета. Добор до более высокого тарифа разрешен в пределах группы Бизнес Гибкий",
                     "en": "Ticket exchange before departure is allowed free of charge",
                     "de": "Ticketbörse vor Abreise ist kostenlos"
                 },
@@ -426,7 +426,7 @@
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
                 "fullDescription": {
-                    "ru": "Изменения разрешены со сбором за каждый сегмент до вылета. Разрешены со сбором за каждый сегмент после вылета. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета",
+                    "ru": "Изменения разрешены за более 40 минут до вылета со сбором за каждый сегмент. Менее, чем за 40 минут до вылета рейса или после вылета рейса — разрешены со сбором за каждый сегмент. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета. Добор до более высокого тарифа разрешен в пределах группы Бизнес Базовый",
                     "en": "Exchange before departure. A fee applies"
                 },
                 "needToPay": "charge"
