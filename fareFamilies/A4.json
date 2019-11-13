@@ -162,10 +162,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат билета до вылета со сбором",
+                    "en": "Refundable. Cancellation fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             }
         ]
     },
@@ -218,10 +218,22 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат билета до вылета со сбором",
+                    "en": "Refundable. Cancellation fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета со сбором",
+                    "en": "Refundable. Cancellation fee applies"
+                },
+                "needToPay": "charge"
             }
         ]
     },
@@ -274,11 +286,23 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат билета до вылета со сбором",
+                    "en": "Refundable. Cancellation fee applies"
                 },
-                "needToPay": "free"
-            }
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета со сбором",
+                    "en": "Refundable. Cancellation fee applies"
+                },
+                "needToPay": "charge"
+            }			
         ]
     }
 ]
