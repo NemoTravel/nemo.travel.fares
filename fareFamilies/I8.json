@@ -339,7 +339,7 @@
                     "ru": "1 место не более 10 кг (при габаритах багажа не более 203 см по сумме трех измерений)",
                     "en": "1 item up to 10 kg, total linear dimension — up to 203 cm"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "refundable",
@@ -443,7 +443,7 @@
                     "ru": "Возврат билета до окончания регистрации разрешен со сбором",
                     "en": "Refundable before departure. A fee applies"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "refundable",
@@ -455,7 +455,7 @@
                     "ru": "Возврат билета после окончания регистрации разрешен со сбором",
                     "en": "Refundable after departure. A fee applies"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
@@ -467,7 +467,7 @@
                     "ru": "Изменения в билете до окончания регистрации разрешены без сбора",
                     "en": "Exchangeable before departure. No fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
