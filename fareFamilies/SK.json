@@ -115,10 +115,6 @@
           "ru": "SAS GO LIGHT",
           "en": ""
         },
-        "fullDescription": {
-          "ru": "",
-          "en": ""
-        },
         "needToPay": null
       },
       {
@@ -127,22 +123,10 @@
           "ru": "1 x 8 кг",
           "en": "1 x 8 kg"
         },
-        "fullDescription": {
-          "ru": "",
-          "en": ""
-        },
         "needToPay": "free"
       },
       {
         "code": "baggage",
-        "shortDescription": {
-          "ru": "1 сумка до 23 кг",
-          "en": "1 item up to 23 kg"
-        },
-        "fullDescription": {
-          "ru": "",
-          "en": ""
-        },
         "needToPay": "notAvailable"
       },
       {
@@ -180,11 +164,7 @@
       {
         "code": "description",
         "shortDescription": {
-          "ru": "SAS Go",
-          "en": ""
-        },
-        "fullDescription": {
-          "ru": "",
+          "ru": "SAS GO SMART",
           "en": ""
         },
         "needToPay": null
@@ -192,24 +172,16 @@
       {
         "code": "carryOn",
         "shortDescription": {
-          "ru": "1 сумка до 8 кг",
-          "en": "1 item up to 8 kg"
-        },
-        "fullDescription": {
-          "ru": "",
-          "en": ""
+          "ru": "1 x 8 кг",
+          "en": "1 x 8 kg"
         },
         "needToPay": "free"
       },
       {
         "code": "baggage",
         "shortDescription": {
-          "ru": "1 сумка до 23 кг",
-          "en": "1 item up to 23 kg"
-        },
-        "fullDescription": {
-          "ru": "",
-          "en": ""
+          "ru": "1 x 23 кг",
+          "en": "1 x 23 kg"
         },
         "needToPay": "free"
       },
@@ -316,11 +288,7 @@
       {
         "code": "description",
         "shortDescription": {
-          "ru": "SAS GO SMART",
-          "en": ""
-        },
-        "fullDescription": {
-          "ru": "",
+          "ru": "SAS PLUS SMART",
           "en": ""
         },
         "needToPay": null
@@ -331,21 +299,13 @@
           "ru": "1 x 8 кг",
           "en": "1 x 8 kg"
         },
-        "fullDescription": {
-          "ru": "",
-          "en": ""
-        },
         "needToPay": "free"
       },
       {
         "code": "baggage",
         "shortDescription": {
-          "ru": "1 x 23 кг",
-          "en": "1 x 23 kg"
-        },
-        "fullDescription": {
-          "ru": "",
-          "en": ""
+          "ru": "2 x 23 кг",
+          "en": "2 x 23 kg"
         },
         "needToPay": "free"
       },
@@ -356,10 +316,10 @@
           "en": "Refund"
         },
         "fullDescription": {
-          "ru": "Возврат билета разрешен без сборов",
-          "en": "Refundable. No fee applies"
+          "ru": "Возврат билета разрешен со сборами",
+          "en": "Refundable. A fee applies"
         },
-        "needToPay": "notAvailable"
+        "needToPay": "charge"
       },
       {
         "code": "exchangeable",
@@ -368,8 +328,8 @@
           "en": "Rebooking"
         },
         "fullDescription": {
-          "ru": "Перебронирование разрешено без сборов",
-          "en": "Rebooking — available. No fee applies"
+          "ru": "Перебронирование разрешено со сборами",
+          "en": "Rebooking — available. A fee applies"
         },
         "needToPay": "charge"
       },
