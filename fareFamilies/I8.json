@@ -332,14 +332,14 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "10 кг",
-                    "en": "10 kg"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
-                    "ru": "1 место не более 10 кг (при габаритах багажа не более 203 см по сумме трех измерений)",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 203 cm"
+                    "ru": "",
+                    "en": ""
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
