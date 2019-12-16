@@ -235,7 +235,7 @@
         "owner": "Y7",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^(ASALE)|(([ABVNWOHSKMTXQLY])\w{2}.*)$",
+        "tariffCodePattern": "^(ASALE)|([ABVNWOHSKMTXQLY][A-Za-z013-9]*)$",
         "parameters": [
             {
                 "code": "description",
