@@ -48,10 +48,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов. На межконтинентальных рейсах условия возврата могут меняться",
-                    "en": "Refundable. No fee applies. The rule might work differently for intercontinental flights"
+                    "ru": "Возврат билета не разрешен. На межконтинентальных рейсах условия возврата могут отличаться",
+                    "en": "Non-refundable. The rule might work differently for intercontinental flights"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
@@ -60,10 +60,10 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен без сборов. На межконтинентальных рейсах условия обмена могут меняться",
-                    "en": "Exchangeable. No fee applies. The rule might work differently for international flights"
+                    "ru": "Обмен билета разрешен со сборами. На межконтинентальных рейсах условия обмена могут отличаться",
+                    "en": "Exchangeable. A fee applies. The rule might work differently for intercontinental flights"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "meal",
