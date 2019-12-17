@@ -83,7 +83,7 @@
         "owner": "AF",
         "baseClass": "economy",
         "priority": 6,
-        "tariffCodePattern": "^[YPFWSABMUKHLTQENRVXG]\\w*(FF|FAP|FFW)\\w*$",
+        "tariffCodePattern": "^[YBMPUFKHLTWSAQENRVXG]\\w*(FF|SF)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -142,18 +142,6 @@
                 "fullDescription": {
                     "ru": "Обмен билета разрешен без сборов. На межконтинентальных рейсах условия обмена могут отличаться",
                     "en": "Exchangeable. No fee applies. The rule might work differently for intercontinental flights"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуски и напитки",
-                    "en": "Snacks & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -243,7 +231,7 @@
         "owner": "AF",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^[YPFWSABMUKHLTQENRVXG]\\w*(WK|SR|WAP|SAP)\\w*[^9]$",
+        "tariffCodePattern": "^[YBMPUFKHLTWSAQENRVXG]\\w*(WK|SR)\\w*[^9]$",
         "parameters": [
             {
                 "code": "description",
@@ -304,18 +292,6 @@
                     "en": "Exchangeable. A fee applies. The rule might work differently for intercontinental flights"
                 },
                 "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуски и напитки",
-                    "en": "Snacks & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
             }
         ]
     },
@@ -323,7 +299,7 @@
         "owner": "AF",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[YPFWSABMUKHLTQENRVXG]\\w*(WK|RD|WAP|AR)\\w*9$",
+        "tariffCodePattern": "^[YBMPUFKHLTWSAQENRVXG]\\w*(((WK|RD)\\w*9)|((LR)\\w*))$",
         "parameters": [
             {
                 "code": "description",
@@ -384,18 +360,6 @@
                     "en": "Non-exchangeable. The rule might work differently for intercontinental flights"
                 },
                 "needToPay": "notAvailable"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуски и напитки",
-                    "en": "Snacks & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
             }
         ]
     },
