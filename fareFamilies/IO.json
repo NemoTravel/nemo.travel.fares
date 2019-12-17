@@ -32,12 +32,12 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 20 кг",
-                    "en": "1 item up to 20 kg"
+                    "ru": "1 место до 15 кг",
+                    "en": "1 item up to 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Boeing 777: 20 кг багажа + 5 кг ручной клади. Superjet 100: 20 кг багажа + 5 кг ручной клади. СRJ, Ан-24, Ан-26: 15 кг багаж + 5 кг ручной. Или 20 кг без ручной клади",
+                    "en": "Boeing 777: 20 kg of baggage + 5 kg of carry-on. Superjet 100: 20 kg of baggage + 5 kg of carry-on. СRJ, Ан-24, Ан-26: 15 kg of baggage + 5 kg of carry-on. Or 20 kg without carry-on"
                 },
                 "needToPay": "free"
             },
@@ -100,12 +100,12 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 20 кг",
-                    "en": "1 item up to 20 kg"
+                    "ru": "1 место до 15 кг",
+                    "en": "1 item up to 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Boeing 777: 20 кг багажа + 5 кг ручной клади. Superjet 100: 20 кг багажа + 5 кг ручной клади. СRJ, Ан-24, Ан-26: 15 кг багаж + 5 кг ручной. Или 20 кг без ручной клади",
+                    "en": "Boeing 777: 20 kg of baggage + 5 kg of carry-on. Superjet 100: 20 kg of baggage + 5 kg of carry-on. СRJ, Ан-24, Ан-26: 15 kg of baggage + 5 kg of carry-on. Or 20 kg without carry-on"
                 },
                 "needToPay": "free"
             },
@@ -168,12 +168,12 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 20 кг",
-                    "en": "1 item up to 20 kg"
+                    "ru": "1 место до 15 кг",
+                    "en": "1 item up to 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Boeing 777: 20 кг багажа + 5 кг ручной клади. Superjet 100: 20 кг багажа + 5 кг ручной клади. СRJ, Ан-24, Ан-26: 15 кг багаж + 5 кг ручной. Или 20 кг без ручной клади",
+                    "en": "Boeing 777: 20 kg of baggage + 5 kg of carry-on. Superjet 100: 20 kg of baggage + 5 kg of carry-on. СRJ, Ан-24, Ан-26: 15 kg of baggage + 5 kg of carry-on. Or 20 kg without carry-on"
                 },
                 "needToPay": "free"
             },
@@ -240,8 +240,8 @@
                     "en": "1 item up to 30 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 30 кг для Бизнес-класса. 1 место до 60 кг для подкласса D",
-                    "en": "1 item up to 30 kg — Business class. 1 item up to 60 kg — subclass D"
+                    "ru": "Boeing 777-200: 30 кг багажа + 10 кг ручной клади. Superjet 100: 2 багажных места по 30 кг + 10 кг ручной клади",
+                    "en": "Boeing 777-200: 30 kg of baggage + 10 kg of carry-on. Superjet 100: 30 kg of baggage +10 kg of carry-on"
                 },
                 "needToPay": "free"
             },
@@ -308,8 +308,8 @@
                     "en": "1 item up to 30 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Boeing 777-200: 30 кг багажа + 10 кг ручной клади. Superjet 100: 30 кг багажа +10 кг ручной клади. Или без ручной клади – 20 кг багажа",
+                    "en": "Boeing 777-200: 30 kg of baggage + 10 kg of carry-on. Superjet 100: 30 kg of baggage +10 kg of carry-on. Or without carry-on – 20 kg of baggage"
                 },
                 "needToPay": "free"
             },

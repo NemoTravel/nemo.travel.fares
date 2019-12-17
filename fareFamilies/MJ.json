@@ -139,7 +139,7 @@
         "owner": "MJ",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([YSBHK](FL))\\w*$",
+        "tariffCodePattern": "^([YSBHKLMNVXOQTU](FL))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -184,10 +184,10 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен без сбора",
-                    "en": "Exchangeable. No fee applies"
+                    "ru": "Обмен билета разрешен со сбором",
+                    "en": "Exchangeable. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -252,8 +252,8 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен без сбора",
-                    "en": "Exchangeable. No fee applies"
+                    "ru": "Обмен билета до вылета разрешен без сбора",
+                    "en": "Exchangeable before departure with no fee"
                 },
                 "needToPay": "free"
             },
@@ -264,8 +264,8 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сбора",
-                    "en": "Refundable. No fee applies"
+                    "ru": "Возврат билета до вылета разрешен без сбора",
+                    "en": "Refundable before departure with no fee"
                 },
                 "needToPay": "free"
             },

@@ -69,11 +69,11 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Быстрый досмотр, приоритетная регистрация и сдача багажа",
-                    "en": "Fast Track, Priority Check-in & Bag Drop"
+                    "en": "Fast Track, Priority Check-in and Bag Drop"
                 },
                 "fullDescription": {
                     "ru": "Быстрый досмотр, приоритетная регистрация и сдача багажа в Рижском аэропорту доступны за дополнительную плату, для участников PINS уровня VIP или Executive — бесплатно",
-                    "en": "Fast track, priority check-in & bag drop at Riga Airport — available at extra charge, for PINS VIP and Executive members — free of charge"
+                    "en": "Fast track, priority check-in and bag drop at Riga Airport are available at extra charge, free of charge for PINS VIP and Executive members"
                 },
                 "needToPay": "charge"
             }
@@ -129,7 +129,7 @@
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable. No fee applies"
+                    "en": "Refundable (no fees apply)"
                 },
                 "needToPay": "free"
             },
@@ -141,7 +141,7 @@
                 },
                 "fullDescription": {
                     "ru": "Изменение имени разрешено без сборов. Изменение даты/времени полета разрешено без сборов в любое время",
-                    "en": "Name changes are allowed — no fee applies. Flight date/time changes are allowed — no fee applies"
+                    "en": "Name changes are allowed (no fees apply). Flight date/time changes are allowed (no fees apply)"
                 },
                 "needToPay": "free"
             },
@@ -153,7 +153,7 @@
                 },
                 "fullDescription": {
                     "ru": "Быстрый досмотр в Рижском аэропорту доступен бесплатно",
-                    "en": "Fast track at Riga Airport — free of charge"
+                    "en": "Fast track at Riga Airport is free of charge"
                 },
                 "needToPay": "free"
             },
@@ -161,11 +161,11 @@
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Приоритетная регистрация и сдача багажа",
-                    "en": "Priority Check-in & Bag Drop"
+                    "en": "Priority Check-in and Bag Drop"
                 },
                 "fullDescription": {
                     "ru": "Приоритетная регистрация и сдача багажа доступны бесплатно",
-                    "en": "Priority check-in & bag drop — free of charge"
+                    "en": "Priority check-in and bag drop are free of charge"
                 },
                 "needToPay": "free"
             },
@@ -233,7 +233,7 @@
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "en": "Refundable. Fees apply"
                 },
                 "needToPay": "charge"
             },
@@ -245,7 +245,7 @@
                 },
                 "fullDescription": {
                     "ru": "Изменение имени разрешено со сбором. Изменение даты/времени полета разрешено со сбором в любое время, но не позже времени вылета более раннего из желаемого или запланированного рейсов. Если замена даты влечет за собой повышение класса бронирования* (тот же класс бронирования* недоступен на выбранные вами даты), вам также будет необходимо оплатить разницу тарифов",
-                    "en": "Name changes are allowed — a fee applies. Flight date/time changes are allowed before departure — a fee applies"
+                    "en": "Name changes are allowed (fees apply). Flight date/time changes are allowed before departure (fees apply)"
                 },
                 "needToPay": "charge"
             },
@@ -257,7 +257,7 @@
                 },
                 "fullDescription": {
                     "ru": "Быстрый досмотр в Рижском аэропорту доступен за дополнительную плату, для участников PINS уровня VIP или Executive — бесплатно",
-                    "en": "Fast track at Riga Airport — available at extra charge, for PINS VIP and Executive members — free of charge"
+                    "en": "Fast track at Riga Airport is available at extra charge, free of charge for PINS VIP and Executive members"
                 },
                 "needToPay": "charge"
             }
