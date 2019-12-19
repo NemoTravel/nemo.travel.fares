@@ -3,7 +3,7 @@
         "owner": "5N",
         "baseClass": "economy",
         "priority": 5,
-        "tariffCodePattern": "^[FIROPANLHEWTVQKMS](LT)\\w*$",
+        "tariffCodePattern": "^[FIJROPANLHEWTVQKMS](LT)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -107,7 +107,7 @@
         "owner": "5N",
         "baseClass": "economy",
         "priority": 10,
-        "tariffCodePattern": "^[FIROPANLHEWTVQKMS](ST)\\w*$",
+        "tariffCodePattern": "^[FIJROPANLHEWTVQKMS](ST)\\w*$",
         "parameters": [
             {
                 "code": "description",
