@@ -338,7 +338,7 @@
     {
         "owner": "Y7",
         "baseClass": "economy",
-        "priority": 2,
+        "priority":  2,
         "tariffCodePattern": "^[ABVNWOHSKMTXQLY]LT[A-Za-z013-9]*$",
         "parameters": [
             {
