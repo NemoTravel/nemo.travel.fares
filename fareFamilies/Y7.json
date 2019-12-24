@@ -443,7 +443,7 @@
         "owner": "Y7",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[ABVNWOHSKMTXQLY]ST[A-Za-z013-9]*$",
+        "tariffCodePattern": "^[ABVNWOHSKMTXQLY](T|ST)[A-Za-z013-9]*$",
         "parameters": [
             {
                 "code": "description",
