@@ -1,0 +1,134 @@
+[
+    {
+        "owner": "DY",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Базовый",
+                    "en": "LowFare"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "DY",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Плюс",
+                    "en": "LowFare+"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "DY",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий",
+                    "en": "Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 20 кг каждое",
+                    "en": "2 items up to 20 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

@@ -569,7 +569,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[NKEWQBSMHO](BGNNROW|BGNNOW|BGOW\\d*)$",
+        "tariffCodePattern": "^[NKEWQBSMHOL](BGNNROW|BGNNOW|BGOW\\d*)$",
         "parameters": [
             {
                 "code": "description",

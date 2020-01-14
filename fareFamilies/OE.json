@@ -1,0 +1,66 @@
+[
+    {
+        "owner": "OE",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^(Standard Fare)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Стандартный",
+                    "en": "Standard"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "OE",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^(Value)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Базовый",
+                    "en": "Value"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    }
+]
