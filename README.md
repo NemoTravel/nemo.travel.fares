@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="200" src="http://mjolnir.com.ua/kcfinder/upload/images/logo.jpg">
+    <img width="200" src="http://demo.nemo.travel/templates/wurst/f2.0/img/nemo.travel.svg">
 </p>
 
 # Fare Families
