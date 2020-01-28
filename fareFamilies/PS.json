@@ -283,7 +283,7 @@
         "owner": "PS",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[SE]\\w*(PP)\\w*$",
+        "tariffCodePattern": "^[SEQH]\\w*(PP)\\w*$",
         "parameters": [
             {
                 "code": "description",

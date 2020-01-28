@@ -163,7 +163,7 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([Y])\\w*\\d*$",
+        "tariffCodePattern": "^[OZUEVFTQNMLKBWR](BS)\\w*$",
         "parameters": [
             {
                 "code": "description",
