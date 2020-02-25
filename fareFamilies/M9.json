@@ -1,0 +1,206 @@
+[
+    {
+        "owner": "M9",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^(\\w*(XD))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Фиксированный",
+                    "en": "Fixed"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 5 кг и суммой трех измерений не более 115 см",
+                    "en": "1 item up to 5 kg, total linear dimension — up to 115 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "За дополнительную плату",
+                    "en": "For additional payment"
+                },
+                "fullDescription": {
+                    "ru": "Багаж доступен только за дополнительную плату",
+                    "en": "The baggage is available only for additional payment"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билетов запрещен",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета недоступен",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "M9",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^(\\w*(EX))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий",
+                    "en": "Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг, до 115 см по сумме трех измерений",
+                    "en": "1 item up to 5 kg, total linear dimension — up to 115 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат доступен с дополнительным сбором",
+                    "en": "Refund available with additional charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка двух чемоданов весом до 23 кг каждый",
+                    "en": "2 bags weighing up to 23 kg each are available to carry free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билетов возможен только со штрафом и доплатой возможной разницы в стоимости тарифов",
+                    "en": "Exchange is possible only with a penalty and surcharge of the possible difference in fare price"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "M9",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^(\\w*(LM))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный",
+                    "en": "Limited"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 5 кг и суммой трех измерений не более 115 см",
+                    "en": "1 item up to 5 kg, total linear dimension — up to 115 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета недоступен",
+                    "en": "Ticket refund is unavailable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка одного чемодана весом до 23 кг и не более 158 см в сумме трех измерений",
+                    "en": "1 bag weighing up to 23 kg and 158 cm total in three dimensions is available to carry free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билетов возможен только со штрафом и доплатой возможной разницы в стоимости тарифов",
+                    "en": "Exchange is possible only with a penalty and surcharge of the possible difference in fare price"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    }
+]
