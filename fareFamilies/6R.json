@@ -3,7 +3,7 @@
         "owner": "6R",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([YBHKLMNTVGUEО](PROW))\\w*$",
+        "tariffCodePattern": "^([YBHKLMNTVGUEO](PROW))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -131,7 +131,7 @@
         "owner": "6R",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([YBHKLMNTVGUEО](LTOW))\\w*$",
+        "tariffCodePattern": "^([YBHKLMNTVGUEO](LTOW))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -259,7 +259,7 @@
         "owner": "6R",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([YBHKLMNTVGUEО](STDOW))\\w*$",
+        "tariffCodePattern": "^([YBHKLMNTVGUEO](STDOW))\\w*$",
         "parameters": [
             {
                 "code": "description",

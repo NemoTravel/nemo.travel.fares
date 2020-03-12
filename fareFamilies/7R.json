@@ -372,7 +372,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 0,
-        "tariffCodePattern": "^[NQEWKMHOLSBRU](NNROW|NNOW|OW\\d*)$|^(RWKNDRT)$",
+        "tariffCodePattern": "^[NQEWKMHOLSBRUP](NNROW|NNOW|OW\\d*)$|^(RWKNDRT)$",
         "parameters": [
             {
                 "code": "description",
@@ -569,7 +569,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[NKEWQBSMHOLU](BGNNROW|BGNNOW|BGOW\\d*)$",
+        "tariffCodePattern": "^[NKEWQBSMHOLUG](BGNNROW|BGNNOW|BGOW\\d*)$",
         "parameters": [
             {
                 "code": "description",

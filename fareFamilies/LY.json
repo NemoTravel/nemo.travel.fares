@@ -32,14 +32,14 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 чемодан до 23 кг",
-                    "en": "1 bag up to 23 kg"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатно доступна провозка одного чемодана весом до 23 кг",
-                    "en": "1 bag weighing up to 23 kg is available to carry free of charge"
+                    "ru": "",
+                    "en": ""
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",

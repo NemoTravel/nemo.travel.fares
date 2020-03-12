@@ -151,16 +151,16 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета - недоступен",
-                    "en": "Non-refundable",
+                    "ru": "Возврат билета",
+                    "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный. Такса YR возврату не подлежит. Такса YQ возврату не подлежит. Аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "Возврат билета разрешен со сбором, если до вылета осталось не менее 40 минут. Возврат билета менее, чем за 40 минут до вылета недоступен. Сбор за оформление авиабилета возврату не подлежит",
+                    "en": "Refundable for 40 minutes or upwards before departure. A fee applies",
+                    "de": "Fahrpreise auf unbenutzten Beinen der Strecke unterliegen der Rückgabe"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "miles",
@@ -407,16 +407,16 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета - недоступен",
+                    "ru": "Возврат билета",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный. Такса YR возврату не подлежит. Такса YQ возврату не подлежит. Аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Fare is non-refundable. The YR tax is not refundable. YQ fee is not refundable. Airport fees and charges for unused portions are refundable. The fee for issuing the ticket is non-refundable",
-                    "de": "Fahrpreis ist nicht erstattungsfähig. Die YR-Steuer wird nicht zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Flughafengebühren und Gebühren für nicht genutzte Portionen sind rückzahlbar. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
+                    "ru": "Возврат билета разрешен со сбором, если до вылета осталось не менее 40 минут. Возврат билета менее, чем за 40 минут до вылета недоступен. Сбор за оформление авиабилета возврату не подлежит",
+                    "en": "Refundable for 40 minutes or upwards before departure. A fee applies",
+                    "de": "Fahrpreise auf unbenutzten Beinen der Strecke unterliegen der Rückgabe"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
