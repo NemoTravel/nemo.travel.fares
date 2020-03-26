@@ -356,12 +356,12 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "ru": "1 сумка до 5 кг",
+                    "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "Одно место ручной клади весом до 10 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см). При выполнении перелета в/из г. Санья (Китай), норма бесплатного провоза ручной клади составляет 5 кг",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm). In case of flight to/from Sanya (China) — up to 5 kg"
+                    "ru": "Одно место ручной клади весом до 5 кг, габаритами — до 90 см в сумме трех измерений (40 x 30 x 20 см).",
+                    "en": "1 item up to 5 kg, total linear dimension — up to 90 cm (40 x 30 x 20 cm)."
                 },
                 "needToPay": "free"
             },
