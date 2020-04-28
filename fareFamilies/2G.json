@@ -371,13 +371,13 @@
         "owner": "2G",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^(YSG)\\W*$",
+        "tariffCodePattern": "^(YSG)$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Комплекс багажный",
-                    "en": "Complex With Baggage"
+                    "ru": "Допродажа на чартер",
+                    "en": "Charter"
                 },
                 "fullDescription": {
                     "ru": "",
