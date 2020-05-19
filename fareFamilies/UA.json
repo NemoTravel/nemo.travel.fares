@@ -84,6 +84,30 @@
                     "en": ""
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен (со сбором)",
+                    "en": "Exchangeable (a fee applies)"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен (со сбором)",
+                    "en": "Refundable (a fee applies)"
+                },
+                "needToPay": "charge"
             }
         ]
     },
@@ -126,6 +150,18 @@
                 "fullDescription": {
                     "ru": "",
                     "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен (со сбором)",
+                    "en": "Exchangeable (a fee applies)"
                 },
                 "needToPay": "charge"
             }

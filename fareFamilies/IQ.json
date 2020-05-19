@@ -2,8 +2,8 @@
     {
         "owner": "IQ",
         "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "^([S])\\w*$",
+        "priority": 4,
+        "tariffCodePattern": "^([YES](EE))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -56,11 +56,11 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Перебронирование",
+                    "ru": "Изменения",
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено со сбором",
+                    "ru": "Изменение даты, времени, номера рейса разрешено со сбором",
                     "en": "Exchangeable. A fee applies"
                 },
                 "needToPay": "charge"
@@ -70,8 +70,8 @@
     {
         "owner": "IQ",
         "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^([B])\\w*$",
+        "priority": 2,
+        "tariffCodePattern": "^([KLMT](PX))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -124,11 +124,11 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Перебронирование",
+                    "ru": "Изменения",
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено со сбором. При неявке на рейс авиабилет изменению не подлежит",
+                    "ru": "Изменение даты, времени, номера рейса разрешено со сбором. При неявке на рейс авиабилет изменению не подлежит",
                     "en": "Exchangeable, a fee applies. Non-exchangeable in case of no-show"
                 },
                 "needToPay": "charge"
@@ -138,14 +138,14 @@
     {
         "owner": "IQ",
         "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^([J])\\w*$",
+        "priority": 4,
+        "tariffCodePattern": "^([WBH](OW))$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Жайлы",
-                    "en": "Jaily"
+                    "ru": "Комфортный",
+                    "en": "Comfort"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -192,14 +192,82 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Перебронирование",
+                    "ru": "Изменения",
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено без удержания",
+                    "ru": "Изменение даты, времени, номера рейса разрешено без удержания",
                     "en": "Exchangeable. No fee applies"
                 },
                 "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "IQ",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^([O](PR))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Промо",
+                    "en": "Promo"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг, габаритами не более 40 x 25 x 20 см",
+                    "en": "1 item up to 5 kg, size 40 x 25 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Авиабилет возврату не подлежит",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Авиабилет изменению не подлежит",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     }
