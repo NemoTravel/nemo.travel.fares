@@ -132,7 +132,7 @@
         "owner": "U6",
         "baseClass": "business",
         "priority": 8,
-        "tariffCodePattern": "^(\\w*\\d*(BS))\\w*\\d*$",
+        "tariffCodePattern": "^(\\w*(BS|CF))\\w*$",
         "parameters": [
             {
                 "code": "description",
