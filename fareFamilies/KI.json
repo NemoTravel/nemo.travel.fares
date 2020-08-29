@@ -21,25 +21,131 @@
       },
       {
         "code": "carryOn",
+        "airplane": "AN4",
         "shortDescription": {
           "ru": "1 место до 5 кг или 10 кг",
           "en": "1 item up to 5 kg or 10 kg"
         },
         "fullDescription": {
-          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет: АН-24 – 55 x 40 x 20 см, АН-26 – 45 x 30 x 20 см; ЯК-42 – 55 x 40 x 20 см; Л-410 – 30 x 25 x 25 см",
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 55 x 40 x 20 см",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "airplane": "A26",
+        "shortDescription": {
+          "ru": "1 место до 5 кг или 10 кг",
+          "en": "1 item up to 5 kg or 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 45 x 30 x 20 см",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "airplane": "L4T",
+        "shortDescription": {
+          "ru": "1 место до 5 кг или 10 кг",
+          "en": "1 item up to 5 kg or 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 30 x 25 x 25 см",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "airplane": "MIH",
+        "shortDescription": {
+          "ru": "1 место до 5 кг или 10 кг",
+          "en": "1 item up to 5 kg or 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 30 x 25 x 25 см",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "airplane": "YK2",
+        "shortDescription": {
+          "ru": "1 место до 5 кг или 10 кг",
+          "en": "1 item up to 5 kg or 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 55 x 40 x 20 см",
           "en": ""
         },
         "needToPay": "free"
       },
       {
         "code": "baggage",
+        "airplane": "AN4",
         "shortDescription": {
-          "ru": "1 место до 32 кг",
-          "en": "1 место до 32 кг"
+          "ru": "1 место до 20 кг",
+          "en": "1 item up to 20 kg"
         },
         "fullDescription": {
-          "ru": "Габаритная норма бесплатного провоза 1 места багажа (32 кг) составляет не более 203 см в сумме трёх измерений",
-          "en": "Dimensions of free baggage allowance for 1 piece of baggage (32 kg) is not more than 203 cm in the sum of three dimensions"
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (20 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (20 kg) is not more than 203 cm in the sum of three dimensions"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "airplane": "A26",
+        "shortDescription": {
+          "ru": "1 место до 20 кг",
+          "en": "1 item up to 20 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (20 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (20 kg) is not more than 203 cm in the sum of three dimensions"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "airplane": "L4T",
+        "shortDescription": {
+          "ru": "1 место до 10 кг",
+          "en": "1 item up to 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (10 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (10 kg) is not more than 203 cm in the sum of three dimensions"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "airplane": "MIH",
+        "shortDescription": {
+          "ru": "1 место до 15 кг",
+          "en": "1 item up to 15 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (15 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (15 kg) is not more than 203 cm in the sum of three dimensions"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "airplane": "YK2",
+        "shortDescription": {
+          "ru": "1 место до 20 кг",
+          "en": "1 item up to 20 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (20 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (20 kg) is not more than 203 cm in the sum of three dimensions"
         },
         "needToPay": "free"
       },
@@ -115,25 +221,131 @@
       },
       {
         "code": "carryOn",
+        "airplane": "AN4",
         "shortDescription": {
           "ru": "1 место до 5 кг или 10 кг",
           "en": "1 item up to 5 kg or 10 kg"
         },
         "fullDescription": {
-          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет: АН-24 – 55 x 40 x 20 см, АН-26 – 45 x 30 x 20 см; ЯК-42 – 55 x 40 x 20 см; Л-410 – 30 x 25 x 25 см",
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 55 x 40 x 20 см",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "airplane": "A26",
+        "shortDescription": {
+          "ru": "1 место до 5 кг или 10 кг",
+          "en": "1 item up to 5 kg or 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 45 x 30 x 20 см",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "airplane": "L4T",
+        "shortDescription": {
+          "ru": "1 место до 5 кг или 10 кг",
+          "en": "1 item up to 5 kg or 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 30 x 25 x 25 см",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "airplane": "MIH",
+        "shortDescription": {
+          "ru": "1 место до 5 кг или 10 кг",
+          "en": "1 item up to 5 kg or 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 30 x 25 x 25 см",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "airplane": "YK2",
+        "shortDescription": {
+          "ru": "1 место до 5 кг или 10 кг",
+          "en": "1 item up to 5 kg or 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 55 x 40 x 20 см",
           "en": ""
         },
         "needToPay": "free"
       },
       {
         "code": "baggage",
+        "airplane": "AN4",
         "shortDescription": {
-          "ru": "1 место до 32 кг",
-          "en": "1 место до 32 кг"
+          "ru": "1 место до 20 кг",
+          "en": "1 item up to 20 kg"
         },
         "fullDescription": {
-          "ru": "Габаритная норма бесплатного провоза 1 места багажа (32 кг) составляет не более 203 см в сумме трёх измерений",
-          "en": "Dimensions of free baggage allowance for 1 piece of baggage (32 kg) is not more than 203 cm in the sum of three dimensions"
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (20 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (20 kg) is not more than 203 cm in the sum of three dimensions"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "airplane": "A26",
+        "shortDescription": {
+          "ru": "1 место до 20 кг",
+          "en": "1 item up to 20 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (20 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (20 kg) is not more than 203 cm in the sum of three dimensions"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "airplane": "L4T",
+        "shortDescription": {
+          "ru": "1 место до 10 кг",
+          "en": "1 item up to 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (10 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (10 kg) is not more than 203 cm in the sum of three dimensions"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "airplane": "MIH",
+        "shortDescription": {
+          "ru": "1 место до 15 кг",
+          "en": "1 item up to 15 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (15 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (15 kg) is not more than 203 cm in the sum of three dimensions"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "airplane": "YK2",
+        "shortDescription": {
+          "ru": "1 место до 20 кг",
+          "en": "1 item up to 20 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (20 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (20 kg) is not more than 203 cm in the sum of three dimensions"
         },
         "needToPay": "free"
       },
@@ -209,25 +421,131 @@
       },
       {
         "code": "carryOn",
+        "airplane": "AN4",
         "shortDescription": {
           "ru": "1 место до 5 кг или 10 кг",
           "en": "1 item up to 5 kg or 10 kg"
         },
         "fullDescription": {
-          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет: АН-24 – 55 x 40 x 20 см, АН-26 – 45 x 30 x 20 см; ЯК-42 – 55 x 40 x 20 см; Л-410 – 30 x 25 x 25 см",
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 55 x 40 x 20 см",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "airplane": "A26",
+        "shortDescription": {
+          "ru": "1 место до 5 кг или 10 кг",
+          "en": "1 item up to 5 kg or 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 45 x 30 x 20 см",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "airplane": "L4T",
+        "shortDescription": {
+          "ru": "1 место до 5 кг или 10 кг",
+          "en": "1 item up to 5 kg or 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 30 x 25 x 25 см",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "airplane": "MIH",
+        "shortDescription": {
+          "ru": "1 место до 5 кг или 10 кг",
+          "en": "1 item up to 5 kg or 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 30 x 25 x 25 см",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "airplane": "YK2",
+        "shortDescription": {
+          "ru": "1 место до 5 кг или 10 кг",
+          "en": "1 item up to 5 kg or 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма 1 места ручной клади 5 кг (на маршруте Красноярск–Абакан–Красноярск - 10 кг) составляет 55 x 40 x 20 см",
           "en": ""
         },
         "needToPay": "free"
       },
       {
         "code": "baggage",
+        "airplane": "AN4",
         "shortDescription": {
-          "ru": "1 место до 32 кг",
-          "en": "1 место до 32 кг"
+          "ru": "1 место до 20 кг",
+          "en": "1 item up to 20 kg"
         },
         "fullDescription": {
-          "ru": "Габаритная норма бесплатного провоза 1 места багажа (32 кг) составляет не более 203 см в сумме трёх измерений",
-          "en": "Dimensions of free baggage allowance for 1 piece of baggage (32 kg) is not more than 203 cm in the sum of three dimensions"
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (20 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (20 kg) is not more than 203 cm in the sum of three dimensions"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "airplane": "A26",
+        "shortDescription": {
+          "ru": "1 место до 20 кг",
+          "en": "1 item up to 20 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (20 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (20 kg) is not more than 203 cm in the sum of three dimensions"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "airplane": "L4T",
+        "shortDescription": {
+          "ru": "1 место до 10 кг",
+          "en": "1 item up to 10 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (10 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (10 kg) is not more than 203 cm in the sum of three dimensions"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "airplane": "MIH",
+        "shortDescription": {
+          "ru": "1 место до 15 кг",
+          "en": "1 item up to 15 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (15 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (15 kg) is not more than 203 cm in the sum of three dimensions"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "airplane": "YK2",
+        "shortDescription": {
+          "ru": "1 место до 20 кг",
+          "en": "1 item up to 20 kg"
+        },
+        "fullDescription": {
+          "ru": "Габаритная норма бесплатного провоза 1 места багажа (20 кг) составляет не более 203 см в сумме трёх измерений",
+          "en": "Dimensions of free baggage allowance for 1 piece of baggage (20 kg) is not more than 203 cm in the sum of three dimensions"
         },
         "needToPay": "free"
       },
