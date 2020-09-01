@@ -34,7 +34,7 @@
       },
       {
         "code": "carryOn",
-        "airplane": "A26",
+        "airplane": "AN6",
         "shortDescription": {
           "ru": "1 место до 5 кг или 10 кг",
           "en": "1 item up to 5 kg or 10 kg"
@@ -99,7 +99,7 @@
       },
       {
         "code": "baggage",
-        "airplane": "A26",
+        "airplane": "AN6",
         "shortDescription": {
           "ru": "1 место до 20 кг",
           "en": "1 item up to 20 kg"
@@ -234,7 +234,7 @@
       },
       {
         "code": "carryOn",
-        "airplane": "A26",
+        "airplane": "AN6",
         "shortDescription": {
           "ru": "1 место до 5 кг или 10 кг",
           "en": "1 item up to 5 kg or 10 kg"
@@ -299,7 +299,7 @@
       },
       {
         "code": "baggage",
-        "airplane": "A26",
+        "airplane": "AN6",
         "shortDescription": {
           "ru": "1 место до 20 кг",
           "en": "1 item up to 20 kg"
@@ -434,7 +434,7 @@
       },
       {
         "code": "carryOn",
-        "airplane": "A26",
+        "airplane": "AN6",
         "shortDescription": {
           "ru": "1 место до 5 кг или 10 кг",
           "en": "1 item up to 5 kg or 10 kg"
@@ -499,7 +499,7 @@
       },
       {
         "code": "baggage",
-        "airplane": "A26",
+        "airplane": "AN6",
         "shortDescription": {
           "ru": "1 место до 20 кг",
           "en": "1 item up to 20 kg"
