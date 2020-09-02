@@ -5,7 +5,7 @@
     "priority": 0,
     "flightTimeSince": "2019-06-01T00:00:00",
     "flightTimeUntil": "2022-06-01T00:00:00",
-    "tariffCodePattern": "^[EN]\\w*$",
+    "tariffCodePattern": "^[ENU]\\w*$",
     "parameters": [
       {
         "code": "description",
@@ -205,7 +205,7 @@
     "priority": 1,
     "flightTimeSince": "2019-06-01T00:00:00",
     "flightTimeUntil": "2022-06-01T00:00:00",
-    "tariffCodePattern": "^[O]\\w*$",
+    "tariffCodePattern": "^[OQSY]\\w*$",
     "parameters": [
       {
         "code": "description",
