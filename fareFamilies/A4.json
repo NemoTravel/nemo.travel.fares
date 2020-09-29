@@ -3,9 +3,7 @@
         "owner": "A4",
         "baseClass": "economy",
         "priority": 1,
-        "flightTimeSince": "2017-03-18T00:00:00",
-        "flightTimeUntil": "2019-06-01T00:00:00",
-        "tariffCodePattern": "^[TUVX]\\w*$",
+        "tariffCodePattern": "^[BEGHKLMNOQVXTU](LT)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -22,12 +20,12 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "Габаритная норма ручной клади 1 места багажа (10 кг) составляет не более 115 см в сумме трех измерений (55 x 40 x 20 см)",
-                    "en": "Dimensions of carry-on luggage (10 kg) is not more than 115 cm in the sum of three dimensions (55 x 40 x 20 cm)"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -42,96 +40,18 @@
                     "en": ""
                 },
                 "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "A4",
-        "baseClass": "economy",
-        "priority": 1,
-        "flightTimeSince": "2019-06-01T00:00:00",
-        "flightTimeUntil": "2022-06-01T00:00:00",
-        "tariffCodePattern": "^[TUVX]\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Легкий",
-                    "en": "Light"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
             },
             {
-                "code": "carryOn",
+                "code": "refundable",
                 "shortDescription": {
-                    "ru": "1 место до 5 кг или 10 кг",
-                    "en": "1 item up to 5 kg or 10 kg"
+                    "ru": "Возврат билета",
+                    "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Габаритная норма ручной клади 1 места багажа (5 кг для классов T, U или 10 кг для классов V, X) составляет не более 115 см в сумме трех измерений (55 x 40 x 20 см)",
-                    "en": "Dimensions of carry-on luggage (5 kg for classes T, U and10 kg for classes V, X) is not more than 115 cm in the sum of three dimensions (55 x 40 x 20 cm)"
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
                 },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "A4",
-        "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "^[QO]\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Выгодный",
-                    "en": "Efficient"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "Габаритная норма ручной клади 1 места багажа (10 кг) составляет не более 115 см в сумме трех измерений (55 x 40 x 20 см)",
-                    "en": "Dimensions of carry-on luggage (10 kg) is not more than 115 cm in the sum of three dimensions (55 x 40 x 20 cm)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "Габаритная норма бесплатного провоза 1 места багажа (23 кг) составляет не более 203 см в сумме трех измерений",
-                    "en": "Dimensions of free baggage allowance for 1 piece of baggage (23 kg) is not more than 203 cm in the sum of three dimensions"
-                },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             }
         ]
     },
@@ -139,13 +59,13 @@
         "owner": "A4",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[NMLK]\\w*$",
+        "tariffCodePattern": "^([Y])\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Оптимальный",
-                    "en": "Optimal"
+                    "ru": "Нормальный",
+                    "en": "Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -160,8 +80,8 @@
                     "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "Габаритная норма ручной клади 1 места багажа (10 кг) составляет не более 115 см в сумме трех измерений (55 x 40 x 20 см)",
-                    "en": "Dimensions of carry-on luggage (10 kg) is not more than 115 cm in the sum of three dimensions (55 x 40 x 20 cm)"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -172,8 +92,20 @@
                     "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "Габаритная норма бесплатного провоза 1 места багажа (23 кг) составляет не более 203 см в сумме трех измерений",
-                    "en": "Dimensions of free baggage allowance for 1 piece of baggage (23 kg) is not more than 203 cm in the sum of three dimensions"
+                    "ru": "Бесплатно доступна провозка одного места багажа до 23 кг и до 203 см в сумме трех измерений",
+                    "en": "1 item up to 23 kg, total linear dimension — up to 203 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сбора",
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             }
@@ -182,14 +114,70 @@
     {
         "owner": "A4",
         "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[BEGHKLMNOQ](FL)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий",
+                    "en": "Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка одного места багажа до 23 кг и до 203 см в сумме трех измерений",
+                    "en": "1 item up to 23 kg, total linear dimension — up to 203 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "A4",
+        "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^[GEBYH]\\w*$",
+        "tariffCodePattern": "^[S](BS)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Свободный",
-                    "en": "Leisure"
+                    "ru": "Комфорт Базовый",
+                    "en": "Comfort Basic"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -204,52 +192,8 @@
                     "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "Габаритная норма ручной клади 1 места багажа (10 кг) составляет не более 115 см в сумме трех измерений (55 x 40 x 20 см)",
-                    "en": "Dimensions of carry-on luggage (10 kg) is not more than 115 cm in the sum of three dimensions (55 x 40 x 20 cm)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "Габаритная норма бесплатного провоза 1 места багажа (23 кг) составляет не более 203 см в сумме трех измерений",
-                    "en": "Dimensions of free baggage allowance for 1 piece of baggage (23 kg) is not more than 203 cm in the sum of three dimensions"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "A4",
-        "baseClass": "economy",
-        "priority": 5,
-        "tariffCodePattern": "^[WS]\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Комфорт",
-                    "en": "Comfort"
-                },
-                "fullDescription": {
                     "ru": "",
                     "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "Габаритная норма ручной клади 1 места багажа (10 кг) составляет не более 115 см в сумме трех измерений (55 x 40 x 20 см)",
-                    "en": "Dimensions of carry-on luggage (10 kg) is not more than 115 cm in the sum of three dimensions (55 x 40 x 20 cm)"
                 },
                 "needToPay": "free"
             },
@@ -260,8 +204,76 @@
                     "en": "2 items up to 23 kg each"
                 },
                 "fullDescription": {
-                    "ru": "Предоставляется 2 места багажа. Габаритная норма бесплатного провоза 1 места багажа (23 кг) составляет не более 203 см в сумме трех измерений",
-                    "en": "2 pieces included. Dimensions of free baggage allowance for 1 piece of baggage (23 kg) is not more than 203 cm in the sum of three dimensions"
+                    "ru": "Бесплатно доступна провозка двух мест багажа до 23 кг и до 203 см в сумме трех измерений",
+                    "en": "2 items up to 23 kg each, total linear dimension — up to 203 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "A4",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "^[W](FR)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфорт Свободный",
+                    "en": "Comfort Leisure"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатно доступна провозка двух мест багажа до 23 кг и до 203 см в сумме трех измерений",
+                    "en": "2 items up to 23 kg each, total linear dimension — up to 203 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сбора",
+                    "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
             }

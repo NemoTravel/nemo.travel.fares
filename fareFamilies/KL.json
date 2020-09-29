@@ -82,8 +82,8 @@
     {
         "owner": "KL",
         "baseClass": "economy",
-        "priority": 5,
-        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(SF|FF|FFW)\\w*$",
+        "priority": 3,
+        "tariffCodePattern": "^\\w*(FX)$",
         "parameters": [
             {
                 "code": "description",
@@ -128,10 +128,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами. Для подклассов Y, B, M возврат билета разрешен без сборов. На межконтинентальных рейсах условия возврата могут отличаться",
-                    "en": "Refundable. A fee applies (except Y, B, M fare classes). The rule might work differently for intercontinental flights"
+                    "ru": "Возврат стоимости при отмене; предусматривается возмещение, если пассажир пропустил свой рейс. На межконтинентальных рейсах условия возврата могут отличаться",
+                    "en": "Refund if you decide to cancel; refund if you missed your flight. The rule might work differently for intercontinental flights"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",
@@ -140,20 +140,8 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен без сборов. На межконтинентальных рейсах условия обмена могут отличаться",
-                    "en": "Exchangeable. No fee applies. The rule might work differently for intercontinental flights"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуски и напитки",
-                    "en": "Snacks & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Обмен билета разрешен. На межконтинентальных рейсах условия обмена могут отличаться",
+                    "en": "Exchangeable. The rule might work differently for intercontinental flights"
                 },
                 "needToPay": "free"
             }
@@ -242,8 +230,8 @@
     {
         "owner": "KL",
         "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^([YPFBMUKHLTWSAQENRVXG]\\w*(((WK|SR|WKW)\\w*6)|((LR)\\w*)))$|^(TLSRRU)$",
+        "priority": 2,
+        "tariffCodePattern": "^\\w*(ST)$",
         "parameters": [
             {
                 "code": "description",
@@ -300,20 +288,8 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами. На межконтинентальных рейсах условия обмена могут отличаться",
-                    "en": "Exchangeable. A fee applies. The rule might work differently for intercontinental flights"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуски и напитки",
-                    "en": "Snacks & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Обмен билета разрешен. На межконтинентальных рейсах условия обмена могут отличаться",
+                    "en": "Exchangeable. The rule might work differently for intercontinental flights"
                 },
                 "needToPay": "free"
             }
@@ -403,7 +379,7 @@
         "owner": "KL",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(WK|SR|WKW)\\w*[^6]$",
+        "tariffCodePattern": "^\\w*(LG)$",
         "parameters": [
             {
                 "code": "description",
@@ -460,55 +436,8 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета не разрешен. На межконтинентальных рейсах условия обмена могут отличаться",
-                    "en": "Non-exchangeable. The rule might work differently for intercontinental flights"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуски и напитки",
-                    "en": "Snacks & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "KL",
-        "baseClass": "economy",
-        "priority": 9,
-        "tariffCodePattern": "^([YC](IF))$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "IATA",
-                    "en": "IATA",
-                    "de": "IATA"
-                },
-                "fullDescription": {
-                    "ru": "Тариф является базовым для данного направления и не привязан к авиакомпании. Подробности о предоставляемых услугах уточняйте в условиях применения тарифа",
-                    "en": "This tariff has no connection to the airline and works only on this route. Please check the fare rules for more details",
-                    "de": "Dieser Fahrpreis hat keine Verbindung zur Fluggesellschaft und funktioniert nur auf dieser Strecke. Bitte überprüfen Sie die Tarifregeln für weitere Details"
-                },
-                "needToPay": null
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Информация по провозу ручной клади и багажа уточняется в условиях применения тарифа",
-                    "en": "Check the fare rules to specify the baggage allowance",
-                    "de": "Überprüfen Sie die Tarifbestimmungen, um die Freigepäckmenge festzulegen"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Обмен билета разрешен. На межконтинентальных рейсах условия обмена могут отличаться",
+                    "en": "Exchangeable. The rule might work differently for intercontinental flights"
                 },
                 "needToPay": "free"
             }
