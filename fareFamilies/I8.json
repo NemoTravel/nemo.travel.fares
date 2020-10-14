@@ -2,8 +2,8 @@
     {
         "owner": "I8",
         "baseClass": "business",
-        "priority": 4,
-        "tariffCodePattern": "^([D])\\w*$",
+        "priority": 6,
+        "tariffCodePattern": "^([DC])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -20,23 +20,23 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
+                    "ru": "2 места до 10 кг каждое",
+                    "en": "2 items up to 10 kg each"
                 },
                 "fullDescription": {
-                    "ru": "1 место не более 10 кг (при габаритах ручной клади, не превышающих 55x40x25 см)",
-                    "en": "1 piece up to 10 kg, size 55x45x25 cm"
+                    "ru": "2 места до 10 кг каждое (при габаритах ручной клади, не превышающих 55x40x20 см)",
+                    "en": "2 pieces up to 10 kg each, size 55x40x20 cm"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "30 кг",
-                    "en": "30 kg"
+                    "ru": "1 место до 30 кг",
+                    "en": "1 item up to 30 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место не более 30 кг (при габаритах багажа не более 203 см по сумме трех измерений)",
+                    "ru": "1 место до 30 кг (при габаритах багажа не более 203 см по сумме трех измерений)",
                     "en": "1 item up to 30 kg, total linear dimension — up to 203 cm"
                 },
                 "needToPay": "free"
@@ -105,113 +105,9 @@
     },
     {
         "owner": "I8",
-        "baseClass": "business",
-        "priority": 5,
-        "tariffCodePattern": "^([IC])\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Бизнес-Стандарт",
-                    "en": "Business Standard"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "2 места до 10 кг каждое",
-                    "en": "2 items up to 10 kg each"
-                },
-                "fullDescription": {
-                    "ru": "2 места не более 10 кг каждое (при габаритах ручной клади, не превышающих 55x40x25 см)",
-                    "en": "2 pieces up to 10 kg each, size 55x40x25 cm each"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "30 кг",
-                    "en": "30 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место не более 30 кг (при габаритах багажа не более 203 см по сумме трех измерений)",
-                    "en": "1 item up to 30 kg, total linear dimension — up to 203 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета до окончания регистрации разрешен без сбора",
-                    "en": "Refundable before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета после вылета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета после окончания регистрации разрешен без сбора",
-                    "en": "Refundable after departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения в билете до вылета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменения в билете до окончания регистрации разрешены без сбора",
-                    "en": "Exchangeable before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения в билете после вылета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменения в билете после окончания регистрации разрешены без сбора",
-                    "en": "Exchangeable after departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Бизнес зал",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "В аэропорту Ижевска вы можете воспользоваться услугами зала повышенной комфортности",
-                    "en": "At the airport in Izhevsk you can take advantage of the services of the high-end lounge"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "I8",
         "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^([P])\\w*$",
+        "priority": 5,
+        "tariffCodePattern": "^([Y])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -232,19 +128,19 @@
                     "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место не более 10 кг (при габаритах ручной клади, не превышающих 55x40x25 см)",
-                    "en": "1 piece up to 10 kg, size 55x40x25 cm"
+                    "ru": "1 место до 10 кг (при габаритах ручной клади, не превышающих 40x30x20 см)",
+                    "en": "1 piece up to 10 kg, size 40x30x20 cm"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "20 кг",
-                    "en": "20 kg"
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место не более 20 кг (при габаритах багажа не более 203 см по сумме трех измерений)",
+                    "ru": "1 место до 20 кг (при габаритах багажа не более 203 см по сумме трех измерений)",
                     "en": "1 item up to 20 kg, total linear dimension — up to 203 cm"
                 },
                 "needToPay": "free"
@@ -302,8 +198,8 @@
     {
         "owner": "I8",
         "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^([OKEGQ])\\w*$",
+        "priority": 2,
+        "tariffCodePattern": "^([KGQ])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -324,8 +220,8 @@
                     "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место не более 5 кг (при габаритах ручной клади, не превышающих 45x35x15 см)",
-                    "en": "1 piece up to 5 kg, size 45x35x15 cm"
+                    "ru": "1 место до 5 кг (при габаритах ручной клади, не превышающих 40x30x20 см)",
+                    "en": "1 piece up to 5 kg, size 40x30x20 cm"
                 },
                 "needToPay": "free"
             },
@@ -394,8 +290,8 @@
     {
         "owner": "I8",
         "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "^([LXTVMHW])\\w*$",
+        "priority": 3,
+        "tariffCodePattern": "^([LXTVM])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -416,19 +312,19 @@
                     "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место не более 5 кг (при габаритах ручной клади, не превышающих 45x35x15 см)",
-                    "en": "1 piece up to 5 kg, size 45x35x15 cm"
+                    "ru": "1 место до 5 кг (при габаритах ручной клади, не превышающих 40x30x20 см)",
+                    "en": "1 piece up to 5 kg, size 40x30x20 cm"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "20 кг",
-                    "en": "20 kg"
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место не более 20 кг (при габаритах багажа не более 203 см по сумме трех измерений)",
+                    "ru": "1 место до 20 кг (при габаритах багажа не более 203 см по сумме трех измерений)",
                     "en": "1 item up to 20 kg, total linear dimension — up to 203 cm"
                 },
                 "needToPay": "free"
@@ -486,8 +382,8 @@
     {
         "owner": "I8",
         "baseClass": "economy",
-        "priority": 6,
-        "tariffCodePattern": "^([NSY])\\w*$",
+        "priority": 4,
+        "tariffCodePattern": "^([HWNS])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -508,19 +404,19 @@
                     "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место не более 5 кг (при габаритах ручной клади, не превышающих 45x35x15 см)",
-                    "en": "1 piece up to 5 kg, size 45x35x15 cm"
+                    "ru": "1 место до 5 кг (при габаритах ручной клади, не превышающих 40x30x20 см)",
+                    "en": "1 piece up to 5 kg, size 40x30x20 cm"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "20 кг",
-                    "en": "20 kg"
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место не более 20 кг (при габаритах багажа не более 203 см по сумме трех измерений)",
+                    "ru": "1 место до 20 кг (при габаритах багажа не более 203 см по сумме трех измерений)",
                     "en": "1 item up to 20 kg, total linear dimension — up to 203 cm"
                 },
                 "needToPay": "free"
@@ -572,6 +468,98 @@
                     "en": "Exchangeable after departure. A fee applies"
                 },
                 "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "I8",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^([OE])\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом-Промо",
+                    "en": "Economy Promo"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг (при габаритах ручной клади, не превышающих 40x30x20 см)",
+                    "en": "1 item no more than 5 kg (with hand luggage dimensions not exceeding 40x30x20 cm)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до окончания регистрации запрещен",
+                    "en": "Not refundable before departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после окончания регистрации запрещен",
+                    "en": "Not refundable after departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете до окончания регистрации разрешены со сбором",
+                    "en": "Exchangeable before departure. A fee applies"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете после вылета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете после окончания регистрации разрешены со сбором",
+                    "en": "Exchangeable after departure. A fee applies"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     }
