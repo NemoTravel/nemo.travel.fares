@@ -169,15 +169,15 @@
     },
     {
         "owner": "A4",
-        "baseClass": "business",
+        "baseClass": "economy",
         "priority": 4,
         "tariffCodePattern": "^[S](BS)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Комфорт Базовый",
-                    "en": "Comfort Basic"
+                    "ru": "Базовый",
+                    "en": "Basic"
                 },
                 "fullDescription": {
                     "ru": "",
