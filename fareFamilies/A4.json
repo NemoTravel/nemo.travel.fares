@@ -225,15 +225,15 @@
     },
     {
         "owner": "A4",
-        "baseClass": "business",
+        "baseClass": "economy",
         "priority": 5,
         "tariffCodePattern": "^[W](FR)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Комфорт Свободный",
-                    "en": "Comfort Leisure"
+                    "ru": "Свободный",
+                    "en": "Leisure"
                 },
                 "fullDescription": {
                     "ru": "",
