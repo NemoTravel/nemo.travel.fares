@@ -2,124 +2,8 @@
     {
         "owner": "S7",
         "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "^(\\w*(FL|FO))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Эконом Гибкий",
-                    "en": "Economy Flex",
-                    "de": "Economy Flexibel"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "100% миль S7 Priority",
-                    "en": "100% S7 Priority Miles",
-                    "de": "100% S7 Priority Meilen"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 piece up to 10 kg",
-                    "de": "1 Beutel bis 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг, размер 55*40*20 см",
-                    "en": "1 piece up to 10 kg, size 55*40*20 cm",
-                    "de": "1 Beutel bis 10 kg, Größe 55 * 40 * 20"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 piece up to 23 kg",
-                    "de": "1 Beutel bis 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
-                    "de": "Ticketrückerstattung"
-                },
-                "fullDescription": {
-                    "ru": "Тариф на неиспользованных участках подлежит возврату. Такса YR, аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Такса YQ возврату не подлежит. Взимается сбор за возврат за каждый возвращаемый участок, на котором была неявка, и сбор за возврат за каждый возвращаемый участок, на котором не было неявки. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Fares on unused legs of the route is subject to return. The YR rate, airport taxes and fees for unused portions are refundable. YQ fee is not refundable. A charge is collected for a refund for each returned land on which there was no attendance, and a fee for refunding for each returned site on which there was no non-appearance. The fee for issuing the ticket is non-refundable",
-                    "de": "Fahrpreise auf unbenutzten Beinen der Strecke unterliegen der Rückgabe. Die YR-Rate, Flughafen Steuern und Gebühren für nicht genutzte Portionen sind zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Eine Gebühr wird für eine Rückerstattung für jedes zurückgegebene Land gesammelt, auf dem es keine Anwesenheit gab, und eine Gebühr für die Rückerstattung für jede zurückgegebene Website, auf der es keine Nicht-Aussehen gab. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации",
-                    "en": "Seat Selection",
-                    "de": "Sitz bei der Anmeldung auswählen"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатный выбор места в салоне при регистрации на рейс.  Выбор места при покупке за дополнительную плату. Выбор места повышенной комфортности за дополнительную плату",
-                    "en": "Seat selection permitted during the check-in. Upon purchase — seat selection is available with an additional fee. Selection of high comfort seat is available for an additional fee",
-                    "de": "Die Sitzplatzwahl ist während des Check-ins kostenlos gestattet. Nach dem Kauf — Sitzplatzwahl ist gegen Aufpreis möglich.  Die Auswahl des hohen Komfortsitzes steht gegen Aufpreis zur Verfügung"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения в билете до вылета",
-                    "en": "Exchange Before Departure",
-                    "de": "Änderungen der Fahrkarte vor Abfahrt"
-                },
-                "fullDescription": {
-                    "ru": "Изменения разрешены за более 40 минут до вылета без сборов. Менее, чем за 40 минут до вылета рейса или после вылета рейса — разрешены со сбором за каждый сегмент. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета. Добор до более высокого тарифа разрешен в пределах группы Эконом Гибкий и Бизнес Гибкий",
-                    "en": "Before departure — changes are allowed free of charge. Permitted with additional charge for each segment after departure. Exchange to a higher level of fare is permitted within the Economy Base and Business Base groups. It is allowed to upgrage you current fare level to the higher avalible grade, with an additional charge",
-                    "de": "Vor Abreise — Änderungen sind kostenfrei. Nach jedem Abflug mit Aufpreis für jedes Segment zugelassen. Der Austausch zu einem höheren Fahrpreis ist innerhalb der Economy Base und Business Base Gruppen erlaubt. Es ist erlaubt, Ihnen die aktuelle Tarifniveau auf die höhere avalible Klasse, mit einer zusätzlichen Gebühr zu upgragen"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуска/горячее питание",
-                    "en": "Snacks/Meals",
-                    "de": "Snacks / Mahlzeiten"
-                },
-                "fullDescription": {
-                    "ru": "На рейсах продолжительностью более 3-х часов предлагается горячее питание, менее 3-х часов — закуски",
-                    "en": "Meals on board are available for flights over 3 hours long, snacks — for flights less than 3 hours long"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "S7",
-        "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^(\\w*(BS|BO))\\w*$",
+        "tariffCodePattern": "^[YPBHKMLVTRSNQOW]\\w*(BS|BO)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -142,21 +26,21 @@
                     "de": "1 Beutel bis 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 10 кг, размер 55*40*20 см",
-                    "en": "1 piece up to 10 kg, size 55*40*20 cm",
-                    "de": "1 Beutel bis 10 kg, Größe 55 * 40 * 20"
+                    "ru": "1 место до 10 кг, размер 55*40*23 см",
+                    "en": "1 piece up to 10 kg, size 55*40*23 cm",
+                    "de": "1 Beutel bis 10 kg, Größe 55 * 40 * 23"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета - недоступен",
-                    "en": "Non-refundable",
+                    "ru": "Возврат билета",
+                    "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный. Такса YR возврату не подлежит. Такса YQ возврату не подлежит. Аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Сбор за оформление авиабилета возврату не подлежит",
+                    "ru": "Тариф полностью невозвратный",
                     "en": "Non-refundable",
                     "de": "Fare ist völlig nicht rückzahlbar"
                 },
@@ -191,39 +75,26 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения в билете до вылета - платные",
+                    "ru": "Изменения в билете до вылета",
                     "en": "Exchange Before Departure",
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
                 "fullDescription": {
-                    "ru": "Изменения разрешены за более 40 минут до вылета со сбором за каждый сегмент. Менее, чем за 40 минут до вылета рейса или после вылета рейса — разрешены со сбором за каждый сегмент. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета. Добор до более высокого тарифа разрешен в пределах группы Эконом Базовый и Бизнес Базовый",
-                    "en": "Before departure — changes are allowed with a fee for each segment. Permitted with additional charge for each segment after departure. Exchange to a higher level of fare is permitted within the Economy Base and Business Base groups. It is allowed to upgrage you current fare level to the higher avalible grade, with an additional charge",
+                    "ru": "Изменения рейса/даты за более 40 минут до вылета разрешены со сбором за каждый сегмент. Менее, чем за 40 минут до вылета рейса или после вылета рейса — не разрешены",
+                    "en": "Before departure — changes are allowed with a fee for each segment. After departure — changes are not allowed",
                     "de": "Vor der Abreise — Änderungen sind mit einer Gebühr für jedes Segment erlaubt. Nach jedem Abflug mit Aufpreis für jedes Segment zugelassen. Der Austausch zu einem höheren Fahrpreis ist innerhalb der Economy Base und Business Base Gruppen erlaubt. Es ist erlaubt, Ihnen die aktuelle Tarifniveau auf die höhere avalible Klasse, mit einer zusätzlichen Gebühr zu upgragen"
                 },
                 "needToPay": "charge"
             },
             {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуска/горячее питание",
-                    "en": "Snacks/Meals",
-                    "de": "Snacks / Mahlzeiten"
-                },
-                "fullDescription": {
-                    "ru": "На рейсах продолжительностью более 3-х часов предлагается горячее питание, менее 3-х часов — закуски",
-                    "en": "Meals on board are available for flights over 3 hours long, snacks — for flights less than 3 hours long"
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места при регистрации - платно",
+                    "ru": "Выбор места при регистрации",
                     "en": "Seat Selection",
                     "de": "Sitz bei der Anmeldung auswählen"
                 },
                 "fullDescription": {
-                    "ru": "",
+                    "ru": "Выбор места при регистрации на рейс за дополнительную плату",
                     "en": "Seat selection permitted during the check-in at extra charge"
                 },
                 "needToPay": "charge"
@@ -233,14 +104,14 @@
     {
         "owner": "S7",
         "baseClass": "business",
-        "priority": 4,
-        "tariffCodePattern": "^(\\w*(FL))\\w*$",
+        "priority": 5,
+        "tariffCodePattern": "^[JCID]\\w*(PL)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Гибкий Бизнес",
-                    "en": "Business Flex",
+                    "ru": "Бизнес Плюс",
+                    "en": "Business Plus",
                     "de": "Business Flex"
                 },
                 "fullDescription": {
@@ -252,12 +123,12 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения в билете до вылета",
-                    "en": "Exchange Before Departure",
+                    "ru": "Изменения в билете",
+                    "en": "Exchange",
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
                 "fullDescription": {
-                    "ru": "Изменения в билете разрешены без сборов. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета. Добор до более высокого тарифа разрешен в пределах группы Бизнес Гибкий",
+                    "ru": "Изменения в билете разрешены без сборов",
                     "en": "Ticket exchange before departure is allowed free of charge",
                     "de": "Ticketbörse vor Abreise ist kostenlos"
                 },
@@ -271,7 +142,7 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф на неиспользованных участках подлежит возврату. Такса YR, аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Такса YQ возврату не подлежит. Сбор за оформление авиабилета возврату не подлежит",
+                    "ru": "Тариф по неиспользованным участкам подлежит возврату без взимания сборов",
                     "en": "Refundable. No fee applies"
                 },
                 "needToPay": "free"
@@ -279,14 +150,14 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 места общим весом до 15 кг",
-                    "en": "2 pieces up to 15 kg in total",
+                    "ru": "Общим весом до 15 кг",
+                    "en": "Up to 15 kg in total",
                     "de": "Bis zu 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "2 места общим весом не более 15 кг, размер 55*40*20",
-                    "en": "2 pieces up to 15 kg in total, size 55*40*20",
-                    "de": "2 Stück bis 15 kg alle, Größe 55 * 40 * 20"
+                    "ru": "Ручная кладь общим весом не более 15 кг, размер 55*40*23",
+                    "en": "Hand luggage up to 15 kg in total, size 55*40*23",
+                    "de": "2 Stück bis 15 kg alle, Größe 55 * 40 * 23"
                 },
                 "needToPay": "free"
             },
@@ -311,8 +182,8 @@
                     "de": "Sitz bei der Anmeldung auswählen"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Бесплатный выбор места в салоне при регистрации на рейс",
+                    "en": "Seat selection permitted during the check-in"
                 },
                 "needToPay": "free"
             },
@@ -330,19 +201,6 @@
                 "needToPay": "free"
             },
             {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Специальное меню и напитки",
-                    "en": "Special Meals & Beverages",
-                    "de": "Spezielle Mahlzeiten & Getränke"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Бизнес зал",
@@ -350,8 +208,8 @@
                     "de": "Business Class Lounge"
                 },
                 "fullDescription": {
-                    "ru": "С доступом в зал ожидания бизнес-класса",
-                    "en": "With access to the Business Class lounge",
+                    "ru": "Доступ в зал ожидания бизнес-класса",
+                    "en": "Access to the Business Class lounge included",
                     "de": "Zugang zur Business Class Lounge"
                 },
                 "needToPay": "free"
@@ -361,14 +219,14 @@
     {
         "owner": "S7",
         "baseClass": "business",
-        "priority": 3,
-        "tariffCodePattern": "^(\\w*(BS))\\w*$",
+        "priority": 4,
+        "tariffCodePattern": "^[JCID]\\w*(ST)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Базовый Бизнес",
-                    "en": "Business Basic",
+                    "ru": "Бизнес Стандарт",
+                    "en": "Business Standard",
                     "de": "Business Basic"
                 },
                 "fullDescription": {
@@ -380,14 +238,14 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 места общим весом до 15 кг",
-                    "en": "2 pieces up to 15 kg in total",
+                    "ru": "Общим весом до 15 кг",
+                    "en": "Up to 15 kg in total",
                     "de": "Bis zu 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "2 места общим весом не более 15 кг, размер 55*40*20",
-                    "en": "2 pieces up to 15 kg in total, size 55*40*20",
-                    "de": "2 Stück bis 15 kg alle, Größe 55 * 40 * 20"
+                    "ru": "Ручная кладь общим весом не более 15 кг, размер 55*40*23",
+                    "en": "Hand luggage up to 15 kg in total, size 55*40*23",
+                    "de": "2 Stück bis 15 kg alle, Größe 55 * 40 * 23"
                 },
                 "needToPay": "free"
             },
@@ -407,42 +265,29 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета - недоступен",
+                    "ru": "Возврат билета",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный. Такса YR возврату не подлежит. Такса YQ возврату не подлежит. Аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Fare is non-refundable. The YR tax is not refundable. YQ fee is not refundable. Airport fees and charges for unused portions are refundable. The fee for issuing the ticket is non-refundable",
+                    "ru": "Тариф по неиспользованным участкам подлежит возврату. Взимается сбор",
+                    "en": "Fares on unused legs of the route is subject to return. A fee applies",
                     "de": "Fahrpreis ist nicht erstattungsfähig. Die YR-Steuer wird nicht zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Flughafengebühren und Gebühren für nicht genutzte Portionen sind rückzahlbar. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения в билете до вылета - платные",
-                    "en": "Exchange Before Departure",
-                    "de": "Änderungen der Fahrkarte vor Abfahrt"
-                },
-                "fullDescription": {
-                    "ru": "Изменения разрешены за более 40 минут до вылета со сбором за каждый сегмент. Менее, чем за 40 минут до вылета рейса или после вылета рейса — разрешены со сбором за каждый сегмент. Возможна доплата разницы до доступного уровня тарифа на момент обмена билета. Добор до более высокого тарифа разрешен в пределах группы Бизнес Базовый",
-                    "en": "Exchange before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
             {
-                "code": "meal",
+                "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Специальное меню и напитки",
-                    "en": "Special Meals & Beverages",
-                    "de": "Spezielle Mahlzeiten & Getränke"
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange Before Departure",
+                    "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения рейса/даты за более 40 минут до вылета разрешены со сбором за каждый сегмент. Менее, чем за 40 минут до вылета рейса или после вылета рейса — не разрешены",
+                    "en": "Before departure — changes are allowed with a fee for each segment. After departure — changes are not allowed"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "miles",
@@ -474,16 +319,222 @@
             {
                 "code": "vipService",
                 "shortDescription": {
-                    "ru": "Бизнес зал - недоступен",
+                    "ru": "Бизнес зал",
                     "en": "Lounge Access",
                     "de": "Business Class Lounge"
                 },
                 "fullDescription": {
-                    "ru": "Без доступа в зал ожидания бизнес-класса",
-                    "en": "No free lounge access",
+                    "ru": "Доступ в зал ожидания бизнес-класса",
+                    "en": "Access to the Business Class lounge included",
                     "de": "Ohne Zugang zur Business Class Lounge"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "S7",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[YPBHKMLVTRSNQOW]\\w*(PL)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Плюс",
+                    "en": "Economy Plus",
+                    "de": "Economy Flexibel"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "125% миль S7 Priority",
+                    "en": "125% S7 Priority Miles",
+                    "de": "125% S7 Priority Meilen"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 piece up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, размер 55*40*23 см",
+                    "en": "1 piece up to 10 kg, size 55*40*23 cm",
+                    "de": "1 Beutel bis 10 kg, Größe 55 * 40 * 23"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 32 кг",
+                    "en": "1 piece up to 32 kg",
+                    "de": "1 Beutel bis 32 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф по неиспользованным участкам подлежит возврату без взимания сборов",
+                    "en": "Refundable. No fee applies",
+                    "de": "Fahrpreise auf unbenutzten Beinen der Strecke unterliegen der Rückgabe. Die YR-Rate, Flughafen Steuern und Gebühren für nicht genutzte Portionen sind zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Eine Gebühr wird für eine Rückerstattung für jedes zurückgegebene Land gesammelt, auf dem es keine Anwesenheit gab, und eine Gebühr für die Rückerstattung für jede zurückgegebene Website, auf der es keine Nicht-Aussehen gab. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места при регистрации",
+                    "en": "Seat Selection",
+                    "de": "Sitz bei der Anmeldung auswählen"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатный выбор места (или места повышенной комфортности) в салоне при регистрации на рейс",
+                    "en": "Seat selection (or high comfort seat selection) permitted during the check-in",
+                    "de": "Die Sitzplatzwahl ist während des Check-ins kostenlos gestattet. Nach dem Kauf — Sitzplatzwahl ist gegen Aufpreis möglich.  Die Auswahl des hohen Komfortsitzes steht gegen Aufpreis zur Verfügung"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете",
+                    "en": "Exchange",
+                    "de": "Änderungen der Fahrkarte vor Abfahrt"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены без сборов",
+                    "en": "Ticket exchange before departure is allowed free of charge",
+                    "de": "Vor Abreise — Änderungen sind kostenfrei. Nach jedem Abflug mit Aufpreis für jedes Segment zugelassen. Der Austausch zu einem höheren Fahrpreis ist innerhalb der Economy Base und Business Base Gruppen erlaubt. Es ist erlaubt, Ihnen die aktuelle Tarifniveau auf die höhere avalible Klasse, mit einer zusätzlichen Gebühr zu upgragen"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "S7",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[YPBHKMLVTRSNQOWA]\\w*(ST)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Стандарт",
+                    "en": "Economy Standard",
+                    "de": "Economy Flexibel"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 piece up to 23 kg",
+                    "de": "1 Beutel bis 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange Before Departure",
+                    "de": "Änderungen der Fahrkarte vor Abfahrt"
+                },
+                "fullDescription": {
+                    "ru": "Изменения рейса/даты за более 40 минут до вылета разрешены со сбором за каждый сегмент. Менее, чем за 40 минут до вылета рейса или после вылета рейса — не разрешены",
+                    "en": "Before departure — changes are allowed with a fee for each segment. After departure — changes are not allowed",
+                    "de": "Vor Abreise — Änderungen sind kostenfrei. Nach jedem Abflug mit Aufpreis für jedes Segment zugelassen. Der Austausch zu einem höheren Fahrpreis ist innerhalb der Economy Base und Business Base Gruppen erlaubt. Es ist erlaubt, Ihnen die aktuelle Tarifniveau auf die höhere avalible Klasse, mit einer zusätzlichen Gebühr zu upgragen"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф по неиспользованным участкам подлежит возврату. Взимается сбор",
+                    "en": "Fares on unused legs of the route is subject to return. A fee applies",
+                    "de": "Fahrpreise auf unbenutzten Beinen der Strecke unterliegen der Rückgabe. Die YR-Rate, Flughafen Steuern und Gebühren für nicht genutzte Portionen sind zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Eine Gebühr wird für eine Rückerstattung für jedes zurückgegebene Land gesammelt, auf dem es keine Anwesenheit gab, und eine Gebühr für die Rückerstattung für jede zurückgegebene Website, auf der es keine Nicht-Aussehen gab. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места при регистрации",
+                    "en": "Seat Selection",
+                    "de": "Sitz bei der Anmeldung auswählen"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатный выбор места в салоне при регистрации на рейс. Выбор места повышенной комфортности доступен за дополнительную плату",
+                    "en": "Seat selection permitted during the check-in. Selection of high comfort seat is available for an additional fee",
+                    "de": "Die Sitzplatzwahl ist während des Check-ins kostenlos gestattet. Nach dem Kauf — Sitzplatzwahl ist gegen Aufpreis möglich.  Die Auswahl des hohen Komfortsitzes steht gegen Aufpreis zur Verfügung"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "100% миль S7 Priority",
+                    "en": "100% S7 Priority Miles",
+                    "de": "100% S7 Priority Meilen"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 piece up to 10 kg",
+                    "de": "1 Beutel bis 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, размер 55*40*23 см",
+                    "en": "1 piece up to 10 kg, size 55*40*23 cm",
+                    "de": "1 Beutel bis 10 kg, Größe 55 * 40 * 23"
+                },
+                "needToPay": "free"
             }
         ]
     }
