@@ -262,12 +262,12 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 8 кг",
-                    "en": "1 item up to 8 kg"
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место весом не более 8 кг и суммой трех измерений не более 115 см",
-                    "en": "1 item up to 8 kg, total linear dimension — up to 115 cm"
+                    "ru": "1 место весом не более 10 кг, до 40*30*20 см",
+                    "en": "1 item up to 10 kg, up to 40x30x20 cm"
                 },
                 "needToPay": "free"
             },
@@ -332,12 +332,12 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 места до 8 кг каждое",
-                    "en": "2 items up to 8 kg each"
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "2 места весом не более 8 кг и суммой трех измерений не более 115 см каждое",
-                    "en": "2 items up to 8 kg each, total linear dimension — up to 115 cm each"
+                    "ru": "1 место весом не более 10 кг, до 55*40*20 см",
+                    "en": "1 item up to 10 kg, up to 55x40x20 cm"
                 },
                 "needToPay": "free"
             },
@@ -426,12 +426,12 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 8 кг",
-                    "en": "1 item up to 8 kg"
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место весом не более 8 кг и суммой трех измерений не более 115 см",
-                    "en": "1 item up to 8 kg, total linear dimension — up to 115 cm"
+                    "ru": "1 место весом не более 10 кг, до 40*30*20 см",
+                    "en": "1 item up to 10 kg, up to 40x30x20 cm"
                 },
                 "needToPay": "free"
             },
@@ -496,12 +496,12 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 места до 8 кг каждое",
-                    "en": "2 items up to 8 kg each"
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "2 места весом не более 8 кг и суммой трех измерений не более 115 см каждое",
-                    "en": "2 items up to 8 kg each, total linear dimension — up to 115 cm each"
+                    "ru": "1 место весом не более 10 кг, до 55*40*20 см",
+                    "en": "1 item up to 10 kg, up to 55x40x20 cm"
                 },
                 "needToPay": "free"
             },
@@ -590,12 +590,12 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 8 кг",
-                    "en": "1 item up to 8 kg"
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место весом не более 8 кг и суммой трех измерений не более 115 см",
-                    "en": "1 item up to 8 kg, total linear dimension — up to 115 cm"
+                    "ru": "1 место весом не более 10 кг, до 40*30*20 см",
+                    "en": "1 item up to 10 kg, up to 40x30x20 cm"
                 },
                 "needToPay": "free"
             },

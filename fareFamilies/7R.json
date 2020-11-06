@@ -26,8 +26,8 @@
                     "de": "1 Handgepäckstück bis 10 kg, maximale Abmessungen 55x40x20cm"
                 },
                 "fullDescription": {
-                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см. Для направлений Москва - Белгород - Москва – 10 кг, 55*40*25 см",
-                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm. For Moscow - Belgorod - Moscow routes – 10 kg, 55x40x25 cm"
+                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см. Для направлений Москва - Белгород - Москва, Москва - Воронеж - Москва, Москва - Пенза - Москва, Москва - Киров - Москва, Санкт-Петербург - Нижний Новгород - Санкт-Петербург, Санкт-Петербург - Воронеж - Санкт-Петербург, Санкт-Петербург - Киров - Санкт-Петербург, Воронеж - Сочи - Воронеж – 10 кг, 55*40*25 см",
+                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm. For Moscow - Belgorod - Moscow, Moscow - Voronezh - Moscow, Moscow - Penza - Moscow, Moscow - Kirov - Moscow, StPetersburg - Nizhny Novgorod - StPetersburg, StPetersburg - Voronezh - StPetersburg, StPetersburg - Kirov - StPetersburg, Voronezh - Sochi - Voronezh routes – 10 kg, 55x40x25 cm"
                 },
                 "needToPay": "free"
             },
@@ -47,39 +47,39 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат до и после вылета в данном тарифе недоступен",
-                    "en": "Refund before and after departure is not available in this fare",
+                    "ru": "Возврат до и после вылета",
+                    "en": "Refund before and after departure",
                     "de": "Rückgabe vor und nach dem Abflug ist in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до и после вылета в данном тарифе недоступен",
+                    "en": "Refund before and after departure is not available in this fare"
                 },
                 "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения до вылета производятся за дополнительную плату",
-                    "en": "Changes before departure are made at additional charge",
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure",
                     "de": "Änderungen vor dem Abflug sind kostenpflichtig"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения до вылета производятся за дополнительную плату",
+                    "en": "Changes before departure are made at additional charge"
                 },
                 "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения после вылета в данном тарифе недоступны",
-                    "en": "Changes after departure are not available in this fare",
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure",
                     "de": "Änderungen nach dem Abflug sind in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения после вылета в данном тарифе недоступны",
+                    "en": "Changes after departure are not available in this fare"
                 },
                 "needToPay": "notAvailable"
             }
@@ -112,8 +112,8 @@
                     "de": "1 Handgepäckstück bis 10 kg, maximale Abmessungen 55x40x20cm"
                 },
                 "fullDescription": {
-                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см. Для направлений Москва - Белгород - Москва – 10 кг, 55*40*25 см",
-                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm. For Moscow - Belgorod - Moscow routes – 10 kg, 55x40x25 cm"
+                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см. Для направлений Москва - Белгород - Москва, Москва - Воронеж - Москва, Москва - Пенза - Москва, Москва - Киров - Москва, Санкт-Петербург - Нижний Новгород - Санкт-Петербург, Санкт-Петербург - Воронеж - Санкт-Петербург, Санкт-Петербург - Киров - Санкт-Петербург, Воронеж - Сочи - Воронеж – 10 кг, 55*40*25 см",
+                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm. For Moscow - Belgorod - Moscow, Moscow - Voronezh - Moscow, Moscow - Penza - Moscow, Moscow - Kirov - Moscow, StPetersburg - Nizhny Novgorod - StPetersburg, StPetersburg - Voronezh - StPetersburg, StPetersburg - Kirov - StPetersburg, Voronezh - Sochi - Voronezh routes – 10 kg, 55x40x25 cm"
                 },
                 "needToPay": "free"
             },
@@ -133,26 +133,38 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат до и после вылета в данном тарифе недоступен",
-                    "en": "Refund before and after departure is not available in this fare",
+                    "ru": "Возврат до и после вылета",
+                    "en": "Refund before and after",
                     "de": "Rückgabe vor und nach dem Abflug ist in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до и после вылета в данном тарифе недоступен",
+                    "en": "Refund before and after departure is not available in this fare"
                 },
                 "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения до и после вылета в данном тарифе недоступны",
-                    "en": "Changes before and after departure are not available in this fare",
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure",
                     "de": "Änderungen vor und nach dem Abflug sind in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения до вылета производятся за дополнительную плату",
+                    "en": "Changes before departure are made at additional charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после вылета в данном тарифе недоступны",
+                    "en": "Changes after departure are not available in this fare"
                 },
                 "needToPay": "notAvailable"
             }
@@ -206,39 +218,51 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат до вылета доступен за дополнительную плату",
-                    "en": "Refund before departure is made at additional charge",
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
                     "de": "Rückgabe vor dem Abflug ist kostenpflichtig"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета доступен за дополнительную плату",
+                    "en": "Refund before departure is made at additional charge"
                 },
                 "needToPay": "charge"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат за 40 минут до вылета и после вылета в данном тарифе недоступен",
-                    "en": "Refund within 40 minutes before departure and after departure is not available in this fare",
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure",
                     "de": "Rückgabe innerhalb 40 Minuten vor dem Abflug und nach dem Abflug ist in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат после вылета в данном тарифе недоступен",
+                    "en": "Refund after departure is not available in this fare"
                 },
                 "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения до и после вылета производятся за дополнительную плату",
-                    "en": "Changes before and after departure are made at additional charge",
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure",
                     "de": "Änderungen vor und nach dem Abflug sind kostenpflichtig"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения до вылета производятся без штрафа",
+                    "en": "Changes before departure are made with no penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после вылета производятся за дополнительную плату",
+                    "en": "Changes after departure are made at additional charge"
                 },
                 "needToPay": "charge"
             }
@@ -292,27 +316,39 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до и после вылета производится за дополнительную плату",
-                    "en": "Refund before and after departure are made at additional charge",
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
                     "de": "Rückgabe vor und nach dem Abflug sind kostenpflichtig"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета производится за дополнительную плату",
+                    "en": "Refund before departure are made at additional charge"
                 },
                 "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения до и после вылета производятся за дополнительную плату",
-                    "en": "Exchange"
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": "Exchangeable. A fee applies"
+                    "ru": "Изменения до вылета производятся без штрафа",
+                    "en": "Changes before departure are made with no penalty"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после вылета в данном тарифе недоступен",
+                    "en": "Refund after departure is not available in this fare"
+                },
+                "needToPay": "notAvailable"
             },
             {
                 "code": "vipService",
@@ -365,6 +401,18 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после вылета производятся за дополнительную плату",
+                    "en": "Changes after departure are made at additional charge"
+                },
+                "needToPay": "charge"
             }
         ]
     },
