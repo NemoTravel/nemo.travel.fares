@@ -205,6 +205,74 @@
     },
     {
         "owner": "EK",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "^[O]((?!PA|PR).)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Специальный Бизнес",
+                    "en": "Special Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 7 кг каждое",
+                    "en": "2 items up to 7 kg each"
+                },
+                "fullDescription": {
+                    "ru": "Каждому пассажиру разрешается взять с собой один портфель, а также одну ручную сумку или один портплед (сумку для одежды), при условии соблюдения следующих размерных ограничений. Портфель: 45 x 35 x 20 см. Сумка: 55 x 38 x 20 см. Сумка для одежды: толщина 20 см в сложенном виде",
+                    "en": "Each passenger is permitted one briefcase, plus either one handbag or one garment bag, subject to the following size limitations. Briefcase: 45 x 35 x 20 cm (18 x 14 x 8 inches). Handbag: 55 x 38 x 20 cm (22 x 15 x 8 inches). Garment bag: 20 cm (8 inches) thick when folded"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со сборами. Повышение до Бизнес-класса не разрешено",
+                    "en": "Changes are available. A fee applies. Upgrade to Business is not permitted"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "EK",
         "baseClass": "economy",
         "priority": 3,
         "tariffCodePattern": "^([KUBMW]\\w*(SA|SR))\\w*$",
@@ -608,74 +676,6 @@
                     "en": "Changes are available. No fee applies"
                 },
                 "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "EK",
-        "baseClass": "business",
-        "priority": 5,
-        "tariffCodePattern": "^[O]((?!PA|PR).)*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Специальный Бизнес",
-                    "en": "Special Business"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "2 места до 7 кг каждое",
-                    "en": "2 items up to 7 kg each"
-                },
-                "fullDescription": {
-                    "ru": "Каждому пассажиру разрешается взять с собой один портфель, а также одну ручную сумку или один портплед (сумку для одежды), при условии соблюдения следующих размерных ограничений. Портфель: 45 x 35 x 20 см. Сумка: 55 x 38 x 20 см. Сумка для одежды: толщина 20 см в сложенном виде",
-                    "en": "Each passenger is permitted one briefcase, plus either one handbag or one garment bag, subject to the following size limitations. Briefcase: 45 x 35 x 20 cm (18 x 14 x 8 inches). Handbag: 55 x 38 x 20 cm (22 x 15 x 8 inches). Garment bag: 20 cm (8 inches) thick when folded"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "До 40 кг",
-                    "en": "Up to 40 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения",
-                    "en": "Changes"
-                },
-                "fullDescription": {
-                    "ru": "Изменения разрешены со сборами. Повышение до Бизнес-класса не разрешено",
-                    "en": "Changes are available. A fee applies. Upgrade to Business is not permitted"
-                },
-                "needToPay": "charge"
             }
         ]
     }
