@@ -245,7 +245,7 @@
         "priority": 11,
         "flightTimeSince": "2019-05-20T00:00:00",
         "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([YKLMNBHQTVXOPREY]\\w*(LT|PR))\\w*$",
+        "tariffCodePattern": "^([YKLMNBHQTVXOPREFSZ]\\w*(LT|PR))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -409,7 +409,7 @@
         "priority": 12,
         "flightTimeSince": "2019-05-20T00:00:00",
         "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([YKLMNBHQTVXOPRE]\\w*(OM|OP))\\w*$",
+        "tariffCodePattern": "^([YKLMNBHQTVXOPREFSZ]\\w*(OM|OP))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -573,7 +573,7 @@
         "priority": 13,
         "flightTimeSince": "2019-05-20T00:00:00",
         "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([YKLMNBHQTVXOPRE]\\w*(PM))\\w*$",
+        "tariffCodePattern": "^([YKLMNBHQTVXOPREFSZ]\\w*(PM))\\w*$",
         "parameters": [
             {
                 "code": "description",
