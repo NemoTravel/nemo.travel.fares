@@ -5,7 +5,7 @@
         "priority": 1,
         "flightTimeSince": "2020-11-09T00:00:00",
         "flightTimeUntil": "2021-11-11T00:00:00",
-        "tariffCodePattern": "^[OZUEVFTQNMLKBWR](LT)\\w*$",
+        "tariffCodePattern": "^[PJOZUEVFTQNMLKBWR](LT)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -87,7 +87,7 @@
         "priority": 2,
         "flightTimeSince": "2020-11-09T00:00:00",
         "flightTimeUntil": "2021-11-11T00:00:00",
-        "tariffCodePattern": "^[OZUEVFTQNMLKBWR](ST)\\w*$",
+        "tariffCodePattern": "^[PJOZUEVFTQNMLKBWR](ST)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -167,7 +167,7 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[OZUEVFTQNMLKBWR](BS)\\w*$",
+        "tariffCodePattern": "^[PJOZUEVFTQNMLKBWR](BS)\\w*$",
         "parameters": [
             {
                 "code": "description",
