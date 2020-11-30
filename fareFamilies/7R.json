@@ -47,39 +47,52 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат до и после вылета в данном тарифе недоступен",
-                    "en": "Refund before and after departure is not available in this fare",
-                    "de": "Rückgabe vor und nach dem Abflug ist in diesem Tarif nicht verfügbar"
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
+                    "de": "Rückgabe vor dem Abflug ist in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета в данном тарифе недоступен",
+                    "en": "Refund before departure is not available in this fare"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure",
+                    "de": "Rückgabe nach dem Abflug ist in diesem Tarif nicht verfügbar"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после вылета в данном тарифе недоступен",
+                    "en": "Refund after departure is not available in this fare"
                 },
                 "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения до вылета производятся за дополнительную плату",
-                    "en": "Changes before departure are made at additional charge",
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure",
                     "de": "Änderungen vor dem Abflug sind kostenpflichtig"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения до вылета производятся за дополнительную плату",
+                    "en": "Changes before departure are made at additional charge"
                 },
                 "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения после вылета в данном тарифе недоступны",
-                    "en": "Changes after departure are not available in this fare",
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure",
                     "de": "Änderungen nach dem Abflug sind in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения после вылета в данном тарифе недоступны",
+                    "en": "Changes after departure are not available in this fare"
                 },
                 "needToPay": "notAvailable"
             }
@@ -133,26 +146,51 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат до и после вылета в данном тарифе недоступен",
-                    "en": "Refund before and after departure is not available in this fare",
-                    "de": "Rückgabe vor und nach dem Abflug ist in diesem Tarif nicht verfügbar"
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
+                    "de": "Rückgabe vor dem Abflug ist in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета в данном тарифе недоступен",
+                    "en": "Refund before departure is not available in this fare"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure",
+                    "de": "Rückgabe nach dem Abflug ist in diesem Tarif nicht verfügbar"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после вылета в данном тарифе недоступен",
+                    "en": "Refund after departure is not available in this fare"
                 },
                 "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения до и после вылета в данном тарифе недоступны",
-                    "en": "Changes before and after departure are not available in this fare",
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure",
                     "de": "Änderungen vor und nach dem Abflug sind in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения до вылета производятся за дополнительную плату",
+                    "en": "Changes before departure are made at additional charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после вылета в данном тарифе недоступны",
+                    "en": "Changes after departure are not available in this fare"
                 },
                 "needToPay": "notAvailable"
             }
@@ -206,39 +244,51 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат до вылета доступен за дополнительную плату",
-                    "en": "Refund before departure is made at additional charge",
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
                     "de": "Rückgabe vor dem Abflug ist kostenpflichtig"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета доступен за дополнительную плату",
+                    "en": "Refund before departure is made at additional charge"
                 },
                 "needToPay": "charge"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат за 40 минут до вылета и после вылета в данном тарифе недоступен",
-                    "en": "Refund within 40 minutes before departure and after departure is not available in this fare",
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure",
                     "de": "Rückgabe innerhalb 40 Minuten vor dem Abflug und nach dem Abflug ist in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат после вылета в данном тарифе недоступен",
+                    "en": "Refund after departure is not available in this fare"
                 },
                 "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения до и после вылета производятся за дополнительную плату",
-                    "en": "Changes before and after departure are made at additional charge",
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure",
                     "de": "Änderungen vor und nach dem Abflug sind kostenpflichtig"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения до вылета производятся без штрафа",
+                    "en": "Changes before departure are made with no penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после вылета производятся за дополнительную плату",
+                    "en": "Changes after departure are made at additional charge"
                 },
                 "needToPay": "charge"
             }
@@ -292,27 +342,39 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до и после вылета производится за дополнительную плату",
-                    "en": "Refund before and after departure are made at additional charge",
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
                     "de": "Rückgabe vor und nach dem Abflug sind kostenpflichtig"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета производится за дополнительную плату",
+                    "en": "Refund before departure are made at additional charge"
                 },
                 "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения до и после вылета производятся за дополнительную плату",
-                    "en": "Exchange"
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": "Exchangeable. A fee applies"
+                    "ru": "Изменения до вылета производятся без штрафа",
+                    "en": "Changes before departure are made with no penalty"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после вылета в данном тарифе недоступен",
+                    "en": "Refund after departure is not available in this fare"
+                },
+                "needToPay": "notAvailable"
             },
             {
                 "code": "vipService",
@@ -365,6 +427,18 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после вылета производятся за дополнительную плату",
+                    "en": "Changes after departure are made at additional charge"
+                },
+                "needToPay": "charge"
             }
         ]
     },
@@ -372,7 +446,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 0,
-        "tariffCodePattern": "^[NQEWKMHOLS](NNROW|NNOW|OW\\d*)$|^(RWKNDRT)$",
+        "tariffCodePattern": "^[NQEWKMHOLSBRUPA](NNROW|NNOW|OW\\d*)$|^(RWKNDRT)$",
         "parameters": [
             {
                 "code": "description",
@@ -569,12 +643,12 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[NKEWQBSMHOL](BGNNROW|BGNNOW|BGOW\\d*)$",
+        "tariffCodePattern": "^[NKEWQBSMHOLUG](BGNNROW|BGNNOW|BGOW\\d*)$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Специальный с багажом",
+                    "ru": "Специальный",
                     "en": "Special",
                     "de": "Speziell"
                 },
