@@ -294,50 +294,6 @@
         "owner": "LH",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^\\w*(DXLQ)$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Легкий",
-                    "en": "Light"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "До 8 кг",
-                    "en": "Up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "LH",
-        "baseClass": "economy",
-        "priority": 1,
         "tariffCodePattern": "^(\\w*\\d*(LGT))\\w*\\d*$",
         "parameters": [
             {
@@ -457,6 +413,50 @@
                 "fullDescription": {
                     "ru": "Возможна доплата для повышение класса обслуживания до бизнес-класса",
                     "en": "Upgrading to business class — available at extra charge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "LH",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^\\w*(DXLQ)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Легкий",
+                    "en": "Light"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 8 кг",
+                    "en": "Up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             }

@@ -3,8 +3,6 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 1,
-        "flightTimeSince": "2020-11-09T00:00:00",
-        "flightTimeUntil": "2021-11-11T00:00:00",
         "tariffCodePattern": "^[OZUEVFTQNMLKBWR](LT)\\w*$",
         "parameters": [
             {
@@ -18,6 +16,18 @@
                     "en": ""
                 },
                 "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг, габариты — 40 x 30 x 20 см",
+                    "en": "1 item up to 5 kg, up to 40 x 30 x 20 cm"
+                },
+                "needToPay": "free"
             },
             {
                 "code": "baggage",
@@ -32,100 +42,6 @@
                 "needToPay": "charge"
             },
             {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 5 кг, габариты — 40 x 30 x 20 см",
-                    "en": "1 item up to 5 kg, up to 40 x 30 x 20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary Meals"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "WZ",
-        "baseClass": "economy",
-        "priority": 1,
-        "flightTimeSince": "2019-06-01T00:00:00",
-        "flightTimeUntil": "2020-11-09T00:00:00",
-        "tariffCodePattern": "^[OZUEVFTQNMLKBWR](LT)\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Легкий",
-                    "en": "Light"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 5 кг, габариты — 40 x 30 x 20 см",
-                    "en": "1 item up to 5 kg, up to 40 x 30 x 20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг — сумма трех измерений до 158 см",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 158 cm"
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
@@ -167,90 +83,6 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 2,
-        "flightTimeSince": "2019-06-01T00:00:00",
-        "flightTimeUntil": "2020-11-09T00:00:00",
-        "tariffCodePattern": "^[OZUEVFTQNMLKBWR](ST)\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Стандартный",
-                    "en": "Standard"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг, габариты — 40 x 30 x 20 см",
-                    "en": "1 item up to 10 kg, up to 40 x 30 x 20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 23 кг — сумма трех измерений до 158 см",
-                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary Meals"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "WZ",
-        "baseClass": "economy",
-        "priority": 2,
-        "flightTimeSince": "2020-11-09T00:00:00",
-        "flightTimeUntil": "2021-11-11T00:00:00",
         "tariffCodePattern": "^[OZUEVFTQNMLKBWR](ST)\\w*$",
         "parameters": [
             {

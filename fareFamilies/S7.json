@@ -80,8 +80,8 @@
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
                 "fullDescription": {
-                    "ru": "Изменения рейса/даты за более 40 минут до вылета разрешены со сбором за каждый сегмент. Менее, чем за 40 минут до вылета рейса или после вылета рейса — не разрешены",
-                    "en": "Before departure — changes are allowed with a fee for each segment. After departure — changes are not allowed",
+                    "ru": "Изменения рейса/даты за более 40 минут до вылета разрешены со сбором. Менее, чем за 40 минут до вылета рейса или после вылета рейса — не разрешены",
+                    "en": "Before departure — changes are allowed with a fee. After departure — changes are not allowed",
                     "de": "Vor der Abreise — Änderungen sind mit einer Gebühr für jedes Segment erlaubt. Nach jedem Abflug mit Aufpreis für jedes Segment zugelassen. Der Austausch zu einem höheren Fahrpreis ist innerhalb der Economy Base und Business Base Gruppen erlaubt. Es ist erlaubt, Ihnen die aktuelle Tarifniveau auf die höhere avalible Klasse, mit einer zusätzlichen Gebühr zu upgragen"
                 },
                 "needToPay": "charge"
@@ -270,8 +270,8 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф по неиспользованным участкам подлежит возврату. Взимается сбор",
-                    "en": "Fares on unused legs of the route is subject to return. A fee applies",
+                    "ru": "Тариф по неиспользованным участкам подлежит возврату. Взимается сбор. Тариф после вылета (менее 40 минут до вылета) не подлежит возврату",
+                    "en": "Fares on unused legs of the route is subject to return. A fee applies. In case of NO-SHOW fares are non-refundable",
                     "de": "Fahrpreis ist nicht erstattungsfähig. Die YR-Steuer wird nicht zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Flughafengebühren und Gebühren für nicht genutzte Portionen sind rückzahlbar. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
                 },
                 "needToPay": "charge"
@@ -284,8 +284,8 @@
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
                 "fullDescription": {
-                    "ru": "Изменения рейса/даты за более 40 минут до вылета разрешены со сбором за каждый сегмент. Менее, чем за 40 минут до вылета рейса или после вылета рейса — не разрешены",
-                    "en": "Before departure — changes are allowed with a fee for each segment. After departure — changes are not allowed"
+                    "ru": "Изменения рейса/даты за более 40 минут до вылета разрешены со сбором. Менее, чем за 40 минут до вылета рейса или после вылета рейса — не разрешены",
+                    "en": "Before departure — changes are allowed with a fee. After departure — changes are not allowed"
                 },
                 "needToPay": "charge"
             },
@@ -475,8 +475,8 @@
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
                 "fullDescription": {
-                    "ru": "Изменения рейса/даты за более 40 минут до вылета разрешены со сбором за каждый сегмент. Менее, чем за 40 минут до вылета рейса или после вылета рейса — не разрешены",
-                    "en": "Before departure — changes are allowed with a fee for each segment. After departure — changes are not allowed",
+                    "ru": "Изменения рейса/даты за более 40 минут до вылета разрешены со сбором. Менее, чем за 40 минут до вылета рейса или после вылета рейса — не разрешены",
+                    "en": "Before departure — changes are allowed with a fee. After departure — changes are not allowed",
                     "de": "Vor Abreise — Änderungen sind kostenfrei. Nach jedem Abflug mit Aufpreis für jedes Segment zugelassen. Der Austausch zu einem höheren Fahrpreis ist innerhalb der Economy Base und Business Base Gruppen erlaubt. Es ist erlaubt, Ihnen die aktuelle Tarifniveau auf die höhere avalible Klasse, mit einer zusätzlichen Gebühr zu upgragen"
                 },
                 "needToPay": "charge"
@@ -489,8 +489,8 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф по неиспользованным участкам подлежит возврату. Взимается сбор",
-                    "en": "Fares on unused legs of the route is subject to return. A fee applies",
+                    "ru": "Тариф по неиспользованным участкам подлежит возврату. Взимается сбор. Тариф после вылета (менее 40 минут до вылета) не подлежит возврату",
+                    "en": "Fares on unused legs of the route is subject to return. A fee applies. In case of NO-SHOW fares are non-refundable",
                     "de": "Fahrpreise auf unbenutzten Beinen der Strecke unterliegen der Rückgabe. Die YR-Rate, Flughafen Steuern und Gebühren für nicht genutzte Portionen sind zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Eine Gebühr wird für eine Rückerstattung für jedes zurückgegebene Land gesammelt, auf dem es keine Anwesenheit gab, und eine Gebühr für die Rückerstattung für jede zurückgegebene Website, auf der es keine Nicht-Aussehen gab. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
                 },
                 "needToPay": "charge"
