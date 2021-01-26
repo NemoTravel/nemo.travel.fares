@@ -869,8 +869,8 @@
                     "en": "Exchange before departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения в билете не разрешены",
-                    "en": "Changes to the ticket are not allowed"
+                    "ru": "Изменения за 48 часов и более до вылета: со сбором, изменения менее чем за 48 часов до вылета: запрещены",
+                    "en": "Changes 48 hours or more before departure: with collection, changes less than 48 hours before departure: not allowed"
                 },
                 "needToPay": "charge"
             },
@@ -881,8 +881,8 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Fare is completely non-refundable"
+                    "ru": "Возврат за 48 часов и более до вылета: со сбором, возврат менее чем за 48 часов до вылета: запрещён",
+                    "en": "Refunds 48 hours or more before departure: with collection, refunds less than 48 hours before departure: not allowed"
                 },
                 "needToPay": "charge"
             }
