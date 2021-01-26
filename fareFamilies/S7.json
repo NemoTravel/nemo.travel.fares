@@ -3,7 +3,7 @@
         "owner": "S7",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[YPBHKMLVTRSNQOW]\\w*(BS|BO)\\w*$",
+        "tariffCodePattern": "^[YPBHKMLVTRSNQOWZ]\\w*(BS|BO)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -336,7 +336,7 @@
         "owner": "S7",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[YPBHKMLVTRSNQOW]\\w*(PL)\\w*$",
+        "tariffCodePattern": "^[YPBHKMLVTRSNQOWZ]\\w*(PL)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -439,7 +439,7 @@
         "owner": "S7",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[YPBHKMLVTRSNQOWA]\\w*(ST)\\w*$",
+        "tariffCodePattern": "^[YPBHKMLVTRSNQOWAZ]\\w*(ST)\\w*$",
         "parameters": [
             {
                 "code": "description",
