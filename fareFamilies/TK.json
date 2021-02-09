@@ -1,0 +1,354 @@
+[
+  {
+    "owner": "TK",
+    "baseClass": "economy",
+    "priority": 0,
+    "tariffCodePattern": "^(XPC|XPB)$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Эконом Промо",
+          "en": "Economy Promotion"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета не разрешен",
+          "en": "Non-refundable"
+        },
+        "needToPay": "notAvailable"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange before departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен до вылета разрешен без сборов",
+          "en": "Exchange before departure is allowed without penalty"
+        },
+        "needToPay": "free"
+      }
+    ]
+  },
+  {
+    "owner": "TK",
+    "baseClass": "economy",
+    "priority": 0,
+    "tariffCodePattern": "^(XPX)$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Эконом Полугибкий",
+          "en": "Economy Semi-Flexible"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен со сбором",
+          "en": "Refund is allowed with penalty"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange before departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен до вылета разрешен без сборов",
+          "en": "Exchange before departure is allowed without penalty"
+        },
+        "needToPay": "free"
+      }
+    ]
+  },
+  {
+    "owner": "TK",
+    "baseClass": "economy",
+    "priority": 0,
+    "tariffCodePattern": "^(XEX)$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Эконом Гибкий",
+          "en": "Economy Flexible"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен без сборов",
+          "en": "Refund is allowed without penalty"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange before departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен до вылета разрешен без сборов",
+          "en": "Exchange before departure is allowed without penalty"
+        },
+        "needToPay": "free"
+      }
+    ]
+  },
+  {
+    "owner": "TK",
+    "baseClass": "economy",
+    "priority": 0,
+    "tariffCodePattern": "^(ER)$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Economy Restricted",
+          "en": "Economy Restricted"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен без сборов",
+          "en": "Refund is allowed without penalty"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange before departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен до вылета разрешен без сборов",
+          "en": "Exchange before departure is allowed without penalty"
+        },
+        "needToPay": "free"
+      }
+    ]
+  },
+  {
+    "owner": "TK",
+    "baseClass": "economy",
+    "priority": 0,
+    "tariffCodePattern": "^(EU)$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Economy Unrestricted",
+          "en": "Economy Unrestricted"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен без сборов",
+          "en": "Refund is allowed without penalty"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange before departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен до вылета разрешен без сборов",
+          "en": "Exchange before departure is allowed without penalty"
+        },
+        "needToPay": "free"
+      }
+    ]
+  },
+  {
+    "owner": "TK",
+    "baseClass": "business",
+    "priority": 0,
+    "tariffCodePattern": "^(BX)$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Бизнес Полугибкий",
+          "en": "Business Semi-Flexible"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен со сбором",
+          "en": "Refund is allowed with penalty"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange before departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен до вылета разрешен без сборов",
+          "en": "Exchange before departure is allowed without penalty"
+        },
+        "needToPay": "free"
+      }
+    ]
+  },
+  {
+    "owner": "TK",
+    "baseClass": "business",
+    "priority": 0,
+    "tariffCodePattern": "^(BR)$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Бизнес Гибкий",
+          "en": "Business Flexible"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен без сборов",
+          "en": "Refund is allowed without penalty"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange before departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен до вылета разрешен без сборов",
+          "en": "Exchange before departure is allowed without penalty"
+        },
+        "needToPay": "free"
+      }
+    ]
+  },
+  {
+    "owner": "TK",
+    "baseClass": "business",
+    "priority": 0,
+    "tariffCodePattern": "^(BU)$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Business Unrestricted",
+          "en": "Business Unrestricted"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен без сборов",
+          "en": "Refund is allowed without penalty"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange before departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен до вылета разрешен без сборов",
+          "en": "Exchange before departure is allowed without penalty"
+        },
+        "needToPay": "free"
+      }
+    ]
+  }
+]
