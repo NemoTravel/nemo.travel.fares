@@ -243,7 +243,7 @@
         "owner": "KL",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([YPFBMUKHLTWSAQENRVXG]\\w*(WK|SR|WKW|ST)\\w*6)$|^([TN]LSRRU)$",
+        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(WK|SR|WKW|ST)\\w*$",
         "parameters": [
             {
                 "code": "description",
