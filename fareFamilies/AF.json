@@ -231,7 +231,7 @@
         "owner": "AF",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^([YCET](ST))$",
+        "tariffCodePattern": "^([YCTS](ST))$",
         "parameters": [
             {
                 "code": "description",
@@ -299,7 +299,7 @@
         "owner": "AF",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(LG)\\w*$",
+        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXGTSES]\\w*(LG)\\w*$",
         "parameters": [
             {
                 "code": "description",
