@@ -931,7 +931,7 @@
         "owner": "R3",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([EO](BB))\\w*$",
+        "tariffCodePattern": "^([E](BB))\\w*$",
         "parameters": [
             {
                 "code": "description",

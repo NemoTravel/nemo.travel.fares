@@ -1,15 +1,15 @@
 [
     {
         "owner": "EY",
-        "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "^([TE])\\w*\\d*$",
+        "baseClass": "first",
+        "priority": 11,
+        "tariffCodePattern": "^([AF])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Деловой",
-                    "en": "Breaking Deals"
+                    "ru": "First",
+                    "en": "First"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -18,10 +18,10 @@
                 "needToPay": null
             },
             {
-                "code": "carryOn",
+                "code": "miles",
                 "shortDescription": {
-                    "ru": "1 сумка до 7 кг",
-                    "en": "1 item up to 7 kg"
+                    "ru": "275% миль",
+                    "en": "275% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -30,10 +30,22 @@
                 "needToPay": "free"
             },
             {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки до 12 кг каждая",
+                    "en": "2 handbags up to 12 kg each"
+                },
+                "fullDescription": {
+                    "ru": "2 места ручной клади весом до 12 кг каждое и 1 личный предмет весом до 5 кг",
+                    "en": "2 handbags up to 12 kg each and 1 personal item up to 5 kg"
+                },
+                "needToPay": "free"
+            },
+            {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "ru": "До 50 кг",
+                    "en": "Up to 50 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -44,32 +56,44 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Changes"
+                    "ru": "Изменения",
+                    "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": "Date changes — available. A fee applies"
+                    "ru": "Изменения разрешены без сбора",
+                    "en": "Changes are permitted with no fee"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возмещение стоимости",
+                    "ru": "Возврат билета",
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен",
-                    "en": "Non-refundable"
+                    "ru": "Возврат билета до вылета разрешен без сбора",
+                    "en": "Refundable before departure with no fee"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
             },
             {
-                "code": "miles",
+                "code": "vipService",
                 "shortDescription": {
-                    "ru": "25% миль",
-                    "en": "25% Miles"
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority Check-in"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в залы ожидания",
+                    "en": "Lounge Access"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -81,199 +105,15 @@
     },
     {
         "owner": "EY",
-        "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^([UV])\\w*\\d*$",
+        "baseClass": "business",
+        "priority": 7,
+        "tariffCodePattern": "^([ZW])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Экономный",
-                    "en": "Saver"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 сумка до 7 кг",
-                    "en": "1 item up to 7 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Changes"
-                },
-                "fullDescription": {
-                    "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": "Date changes — available. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возмещение стоимости",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета не разрешен",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Возможность повышения класса обслуживания",
-                    "en": "Upgrade Eligibility"
-                },
-                "fullDescription": {
-                    "ru": "Платная возможность повышения класса обслуживания",
-                    "en": "Eligible for paid upgrade"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "50% миль",
-                    "en": "50% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "EY",
-        "baseClass": "economy",
-        "priority": 4,
-        "tariffCodePattern": "^([LQMK])\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Выгодный",
-                    "en": "Value"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 сумка до 7 кг",
-                    "en": "1 item up to 7 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "75% миль",
-                    "en": "75% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 сумки до 23 кг каждая",
-                    "en": "2 items up to 23 kg each"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Changes"
-                },
-                "fullDescription": {
-                    "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": "Date changes — available. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возмещение стоимости",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Возможность повышения класса обслуживания",
-                    "en": "Upgrade Eligibility"
-                },
-                "fullDescription": {
-                    "ru": "Платная возможность повышения класса обслуживания",
-                    "en": "Eligible for paid upgrade"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "EY",
-        "baseClass": "economy",
-        "priority": 5,
-        "tariffCodePattern": "^([HBY])\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Свободный",
-                    "en": "Freedom"
+                    "ru": "Business Value",
+                    "en": "Business Value"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -284,8 +124,8 @@
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "100% миль",
-                    "en": "100% Miles"
+                    "ru": "130% миль",
+                    "en": "130% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -296,20 +136,20 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 7 кг",
-                    "en": "1 item up to 7 kg"
+                    "ru": "2 сумки до 12 кг каждая",
+                    "en": "2 handbags up to 12 kg each"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "2 места ручной клади весом до 12 кг каждое и 1 личный предмет весом до 5 кг",
+                    "en": "2 handbags up to 12 kg each and 1 personal item up to 5 kg"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 23 кг каждая",
-                    "en": "2 items up to 23 kg each"
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -320,36 +160,24 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Changes"
+                    "ru": "Изменения",
+                    "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Изменение даты без дополнительной оплаты",
-                    "en": "Date changes — available. No fee applies"
+                    "ru": "Взимается дополнительная плата за изменения",
+                    "en": "Changes are permitted for a fee"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возмещение стоимости",
+                    "ru": "Возврат билета",
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Возможность повышения класса обслуживания",
-                    "en": "Upgrade Eligibility"
-                },
-                "fullDescription": {
-                    "ru": "Платная возможность повышения класса обслуживания",
-                    "en": "Eligible for paid upgrade"
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable with a fee"
                 },
                 "needToPay": "charge"
             },
@@ -364,20 +192,32 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в залы ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
     {
         "owner": "EY",
         "baseClass": "business",
-        "priority": 7,
-        "tariffCodePattern": "^([Z])\\w*\\d*$",
+        "priority": 9,
+        "tariffCodePattern": "^([J])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Деловой Бизнес",
-                    "en": "Business Breaking Deals"
+                    "ru": "Business Choice Plus",
+                    "en": "Business Choice Plus"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -388,8 +228,8 @@
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "115% миль",
-                    "en": "115% Miles"
+                    "ru": "200% миль",
+                    "en": "200% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -401,19 +241,19 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 12 кг каждая",
-                    "en": "2 items up to 12 kg each"
+                    "en": "2 handbags up to 12 kg each"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "2 места ручной клади весом до 12 кг каждое и 1 личный предмет весом до 5 кг",
+                    "en": "2 handbags up to 12 kg each and 1 personal item up to 5 kg"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -424,38 +264,26 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Changes"
+                    "ru": "Изменения",
+                    "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": "Date changes — available. A fee applies"
+                    "ru": "Изменения разрешены без сбора",
+                    "en": "Changes are permitted with no fee"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возмещение стоимости",
+                    "ru": "Возврат билета",
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета не разрешен",
-                    "en": "Non-refundable"
+                    "ru": "Возврат билета до вылета разрешен без сбора",
+                    "en": "Refundable before departure with no fee"
                 },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Возможность повышения класса обслуживания",
-                    "en": "Upgrade Eligibility"
-                },
-                "fullDescription": {
-                    "ru": "Возможность повышения класса обслуживания недоступна",
-                    "en": "Not eligible for upgrades"
-                },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
             },
             {
                 "code": "vipService",
@@ -487,141 +315,13 @@
         "owner": "EY",
         "baseClass": "business",
         "priority": 8,
-        "tariffCodePattern": "^([W])\\w*\\d*$",
+        "tariffCodePattern": "^([DC])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Экономный Бизнес",
-                    "en": "Business Saver"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "130% миль",
-                    "en": "130% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "2 сумки до 12 кг каждая",
-                    "en": "2 items up to 12 kg each"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Changes"
-                },
-                "fullDescription": {
-                    "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": "Date changes — available. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возмещение стоимости",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Возможность повышения класса обслуживания",
-                    "en": "Upgrade Eligibility"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатная возможность повышения класса обслуживания",
-                    "en": "Eligible for paid upgrade"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритетная регистрация",
-                    "en": "Priority Check-in"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в залы ожидания",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "«Персональный шофер»",
-                    "en": "Etihad Chauffeur"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "EY",
-        "baseClass": "business",
-        "priority": 9,
-        "tariffCodePattern": "^([DCJ])\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Свободный Бизнес",
-                    "en": "Business Freedom"
+                    "ru": "Business Choice",
+                    "en": "Business Choice"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -645,19 +345,19 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 12 кг каждая",
-                    "en": "2 items up to 12 kg each"
+                    "en": "2 handbags up to 12 kg each"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "2 места ручной клади весом до 12 кг каждое и 1 личный предмет весом до 5 кг",
+                    "en": "2 handbags up to 12 kg each and 1 personal item up to 5 kg"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -668,36 +368,24 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Changes"
+                    "ru": "Изменения",
+                    "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Изменение даты без дополнительной оплаты",
-                    "en": "Date changes — available. No fee applies"
+                    "ru": "За одно изменение плата не взымается. За все последующие изменения взимается дополнительная плата",
+                    "en": "One change is permitted for free. All consequent changes are permitted for a fee"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возмещение стоимости",
+                    "ru": "Возврат билета",
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Возможность повышения класса обслуживания",
-                    "en": "Upgrade Eligibility"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатная возможность повышения класса обслуживания",
-                    "en": "Eligible for paid upgrade"
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable with a fee"
                 },
                 "needToPay": "charge"
             },
@@ -724,32 +412,20 @@
                     "en": ""
                 },
                 "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "«Персональный шофер»",
-                    "en": "Etihad Chauffeur"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
             }
         ]
     },
     {
         "owner": "EY",
         "baseClass": "first",
-        "priority": 11,
-        "tariffCodePattern": "^([RAF])\\w*\\d*$",
+        "priority": 12,
+        "tariffCodePattern": "^([P])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Полная Свобода",
-                    "en": "First Freedom"
+                    "ru": "The Residence",
+                    "en": "The Residence"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -760,8 +436,8 @@
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "250% миль",
-                    "en": "250% Miles"
+                    "ru": "400% миль",
+                    "en": "400% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -773,19 +449,19 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 сумки до 12 кг каждая",
-                    "en": "2 items up to 12 kg each"
+                    "en": "2 handbags up to 12 kg each"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "2 места ручной клади весом до 12 кг каждое и 1 личный предмет весом до 5 кг",
+                    "en": "2 handbags up to 12 kg each and 1 personal item up to 5 kg"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "ru": "4 сумки до 32 кг каждая",
+                    "en": "4 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -796,24 +472,24 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Changes"
+                    "ru": "Изменения",
+                    "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Изменение даты без дополнительной оплаты",
-                    "en": "Date changes — available. No fee applies"
+                    "ru": "Изменения разрешены без сбора",
+                    "en": "Changes are permitted with no fee"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возмещение стоимости",
+                    "ru": "Возврат билета",
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable. No fee applies"
+                    "ru": "Возврат билета до вылета разрешен без сбора",
+                    "en": "Refundable before departure with no fee"
                 },
                 "needToPay": "free"
             },
@@ -834,18 +510,6 @@
                 "shortDescription": {
                     "ru": "Доступ в залы ожидания",
                     "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "«Персональный шофер»",
-                    "en": "Etihad Chauffeur"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -858,50 +522,38 @@
     {
         "owner": "EY",
         "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^([N])\\w*\\d*$",
+        "priority": 2,
+        "tariffCodePattern": "^([T])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Место Гостя - Эконом",
-                    "en": "Guest Seat - Economy"
+                    "ru": "Sale",
+                    "en": "Sale"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
                 },
                 "needToPay": null
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "0% миль",
-                    "en": "0% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "notAvailable"
             },
             {
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 сумка до 7 кг",
-                    "en": "1 item up to 7 kg"
+                    "en": "1 handbag up to 7 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "1 место ручной клади весом до 7 кг и 1 личный предмет весом до 5 кг",
+                    "en": "1 handbag up to 7 kg and 1 personal item up to 5 kg"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 23 кг каждая",
-                    "en": "2 items up to 23 kg each"
+                    "ru": "До 20 кг",
+                    "en": "Up to 20 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -912,52 +564,52 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Changes"
+                    "ru": "Изменения",
+                    "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": "Date changes — available. A fee applies"
+                    "ru": "Изменения не разрешены",
+                    "en": "Changes are not permitted"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возмещение стоимости",
+                    "ru": "Возврат билета",
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Ранее чем за 24 часа до вылета рейса: взимается дополнительная плата за возврат билета. Стоимость билетов не возмещается, если до вылета остается менее 24 часов",
-                    "en": "Refundable for 24 hours or upwards before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Возможность повышения класса обслуживания",
-                    "en": "Upgrade Eligibility"
-                },
-                "fullDescription": {
-                    "ru": "Возможность повышения класса обслуживания недоступна",
-                    "en": "Not eligible for upgrades"
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "25% миль",
+                    "en": "25% Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
     {
         "owner": "EY",
-        "baseClass": "business",
-        "priority": 6,
-        "tariffCodePattern": "^([I])\\w*\\d*$",
+        "baseClass": "economy",
+        "priority": 5,
+        "tariffCodePattern": "^([BY])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Место Гостя - Бизнес",
-                    "en": "Guest Seat - Business"
+                    "ru": "Choice Plus",
+                    "en": "Choice Plus"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -968,32 +620,32 @@
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "0% миль",
-                    "en": "0% Miles"
+                    "ru": "100% миль",
+                    "en": "100% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
             },
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 сумки до 12 кг каждая",
-                    "en": "2 items up to 12 kg each"
+                    "ru": "1 сумка до 7 кг",
+                    "en": "1 handbag up to 7 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "1 место ручной клади весом до 7 кг и 1 личный предмет весом до 5 кг",
+                    "en": "1 handbag up to 7 kg and 1 personal item up to 5 kg"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "ru": "До 35 кг",
+                    "en": "Up to 35 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1004,38 +656,26 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Changes"
+                    "ru": "Изменения",
+                    "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": "Date changes — available. A fee applies"
+                    "ru": "Изменения разрешены без сбора",
+                    "en": "Changes are permitted with no fee"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возмещение стоимости",
+                    "ru": "Возврат билета",
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Ранее чем за 24 часа до вылета рейса: взимается дополнительная плата за возврат билета. Стоимость билетов не возмещается, если до вылета остается менее 24 часов",
-                    "en": "Refundable for 24 hours or upwards before departure. A fee applies"
+                    "ru": "Возврат билета до вылета разрешен без сбора",
+                    "en": "Refundable before departure with no fee"
                 },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Возможность повышения класса обслуживания",
-                    "en": "Upgrade Eligibility"
-                },
-                "fullDescription": {
-                    "ru": "Возможность повышения класса обслуживания недоступна",
-                    "en": "Not eligible for upgrades"
-                },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
             },
             {
                 "code": "vipService",
@@ -1048,24 +688,80 @@
                     "en": ""
                 },
                 "needToPay": "free"
-            },
+            }
+        ]
+    },
+    {
+        "owner": "EY",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([EUVL])\\w*\\d*$",
+        "parameters": [
             {
-                "code": "vipService",
+                "code": "description",
                 "shortDescription": {
-                    "ru": "Доступ в залы ожидания",
-                    "en": "Lounge Access"
+                    "ru": "Value",
+                    "en": "Value"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
                 },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 7 кг",
+                    "en": "1 handbag up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место ручной клади весом до 7 кг и 1 личный предмет весом до 5 кг",
+                    "en": "1 handbag up to 7 kg and 1 personal item up to 5 kg"
+                },
                 "needToPay": "free"
             },
             {
-                "code": "vipService",
+                "code": "baggage",
                 "shortDescription": {
-                    "ru": "«Персональный шофер»",
-                    "en": "Etihad Chauffeur"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "Зарегистрированный багаж разрешен к провозу за дополнительную плату. Для класса L разрешен бесплатный провоз сумки до 23 кг",
+                    "en": "Checked baggage item is available for purchase. One item up to 23 kg is available for free on class L flights"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Взимается дополнительная плата за изменения",
+                    "en": "Changes are permitted for a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета не разрешен",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "50% миль",
+                    "en": "50% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1077,15 +773,15 @@
     },
     {
         "owner": "EY",
-        "baseClass": "first",
-        "priority": 10,
-        "tariffCodePattern": "^([O])\\w*\\d*$",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^([QMKH])\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Место Гостя - Первый",
-                    "en": "Guest Seat - First"
+                    "ru": "Choice",
+                    "en": "Choice"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1094,22 +790,22 @@
                 "needToPay": null
             },
             {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "0% миль",
-                    "en": "0% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "notAvailable"
-            },
-            {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 сумки до 12 кг каждая",
-                    "en": "2 items up to 12 kg each"
+                    "ru": "1 сумка до 7 кг",
+                    "en": "1 handbag up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место ручной клади весом до 7 кг и 1 личный предмет весом до 5 кг",
+                    "en": "1 handbag up to 7 kg and 1 personal item up to 5 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "75% миль",
+                    "en": "75% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1120,8 +816,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "ru": "До 30 кг",
+                    "en": "Up to 30 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1132,62 +828,26 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Changes"
+                    "ru": "Изменения",
+                    "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Взимается дополнительная плата за изменение даты",
-                    "en": "Date changes — available. A fee applies"
+                    "ru": "За одно изменение плата не взымается. За все последующие изменения взимается дополнительная плата",
+                    "en": "One change is permitted for free. All consequent changes are permitted for a fee"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возмещение стоимости",
+                    "ru": "Возврат билета",
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Ранее чем за 24 часа до вылета рейса: взимается дополнительная плата за возврат билета. Стоимость билетов не возмещается, если до вылета остается менее 24 часов",
-                    "en": "Refundable for 24 hours or upwards before departure. A fee applies"
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable with a fee"
                 },
                 "needToPay": "charge"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритетная регистрация",
-                    "en": "Priority Check-in"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в залы ожидания",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "«Персональный шофер»",
-                    "en": "Etihad Chauffeur"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
             }
         ]
     }

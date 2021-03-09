@@ -215,7 +215,7 @@
         "priority": 4,
         "flightTimeSince": "2020-03-28T00:00:00",
         "flightTimeUntil": "2021-03-28T00:00:00",
-        "tariffCodePattern": "^([WBH](OW))$",
+        "tariffCodePattern": "^([WBH](OW|RT))$",
         "parameters": [
             {
                 "code": "description",
