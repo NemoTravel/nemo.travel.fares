@@ -299,7 +299,7 @@
         "owner": "AF",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[YBMPUFKHLTWSAQENRVXG]\\w*(((WK|RD|LG)\\w*9)|((LR)\\w*))$",
+        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(WK|SR|WKW|LR|LG)\\w*$",
         "parameters": [
             {
                 "code": "description",
