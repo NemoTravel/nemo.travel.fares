@@ -39,7 +39,7 @@
                     "ru": "",
                     "en": ""
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "seatsRegistration",
@@ -264,7 +264,7 @@
                     "ru": "",
                     "en": ""
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "seatsRegistration",
