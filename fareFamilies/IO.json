@@ -20,26 +20,26 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 5 кг — входит в норму провоза багажа для всех перевозок, за исключением рейсов на воздушных судах типа RRJ-95 (СУ9)",
-                    "en": "1 item up to 5 kg is included in baggage allowance for all flights except flights provided with RRJ-95 (SU9) aircrafts"
+                    "ru": "1 место до 10 кг для воздушных судов типа SSJ-100 и CRJ-200, 1 место до 5 кг для воздушных судов типа Ан-24 и Ан-26",
+                    "en": "1 item up to 10 kg for flights provided with SSJ-100 or CRJ-200 aircraft and 1 item up to 5 kg for flights provided with An-24 or An-26 aircraft"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 20 кг",
-                    "en": "1 item up to 20 kg"
+                  "ru": "Платный",
+                  "en": "No free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
