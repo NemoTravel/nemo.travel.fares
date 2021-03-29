@@ -143,7 +143,7 @@
                     "ru": "Возврат билета до окончания регистрации запрещен",
                     "en": "Not refundable before departure"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "refundable",
@@ -232,10 +232,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до окончания регистрации разрешен со сбором",
-                    "en": "Refundable before departure. A fee applies"
+                    "ru": "Возврат билета до окончания регистрации запрещен",
+                    "en": "Not refundable before departure"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "refundable",
@@ -244,8 +244,8 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета после окончания регистрации разрешен со сбором",
-                    "en": "Refundable after departure. A fee applies"
+                    "ru": "Возврат билета после окончания регистрации запрещен",
+                    "en": "Not refundable after departure"
                 },
                 "needToPay": "notAvailable"
             },
