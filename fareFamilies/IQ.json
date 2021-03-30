@@ -75,7 +75,7 @@
         "priority": 2,
         "flightTimeSince": "2021-03-28T00:00:00",
         "flightTimeUntil": "2023-03-28T00:00:00",
-        "tariffCodePattern": "^([OIQETSMLKHBY](EE)(OW|3M))$",
+        "tariffCodePattern": "^[OIQETSMLKHBY](EE)(OW|3M)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -285,7 +285,7 @@
         "priority": 3,
         "flightTimeSince": "2021-03-28T00:00:00",
         "flightTimeUntil": "2023-03-28T00:00:00",
-        "tariffCodePattern": "^([OIQETSMLKHBY](OW|RT))$",
+        "tariffCodePattern": "^[OIQETSMLKHBY](OW|RT)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -425,7 +425,7 @@
         "priority": 1,
         "flightTimeSince": "2021-03-28T00:00:00",
         "flightTimeUntil": "2023-03-28T00:00:00",
-        "tariffCodePattern": "^([OIQETSMLKHBY](PR)(OW|1M))$",
+        "tariffCodePattern": "^[OIQETSMLKHBY](PR)(OW|1M)\\w*$",
         "parameters": [
             {
                 "code": "description",

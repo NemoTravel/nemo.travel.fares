@@ -3,7 +3,7 @@
         "owner": "RT",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[UXV]\\w*$",
+        "tariffCodePattern": "^[UXVE]\\w*$",
         "parameters": [
             {
                 "code": "description",

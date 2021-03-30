@@ -617,7 +617,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[NKEWQBSMHOLUG](BGNNROW|BGNNOW|BGOW\\d*)$",
+        "tariffCodePattern": "^(([NKEWQBSMHOLUG](BGNNROW|BGNNOW|BGOW\\d*))|[AO](BST)|[XVTQNHM](FMT))$",
         "parameters": [
             {
                 "code": "description",

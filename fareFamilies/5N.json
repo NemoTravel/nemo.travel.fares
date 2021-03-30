@@ -504,24 +504,12 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до окончания регистрации",
-                    "en": "Refund Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Добровольный возврат при снятии мест до окончания регистрации разрешен со сбором",
-                    "en": "Refundable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета после окончания регистрации",
+                    "ru": "Возврат билета",
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Добровольный возврат при снятии мест после окончания регистрации (no-show) не разрешен",
-                    "en": "Non-refundable after departure"
+                    "ru": "Добровольный возврат при снятии мест не разрешен",
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
