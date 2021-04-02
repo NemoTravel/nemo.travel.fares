@@ -3,7 +3,7 @@
         "owner": "R3",
         "baseClass": "business",
         "priority": 6,
-        "tariffCodePattern": "^([JDC](SB)(?!CKR))\\w*$",
+        "tariffCodePattern": "^([JDC](SB)(.*CKR)?)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -467,7 +467,7 @@
         "owner": "R3",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([SRLQBV](SB)(?!SKR))\\w*$",
+        "tariffCodePattern": "^([SRLQBV](SB)(.*SKR)?)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -815,7 +815,7 @@
         "owner": "R3",
         "baseClass": "economy",
         "priority": 5,
-        "tariffCodePattern": "^([TMUXHGY](SB)(?!OKR))\\w*$",
+        "tariffCodePattern": "^([TMUXHGY](SB)(.*OKR)?)\\w*$",
         "parameters": [
             {
                 "code": "description",
