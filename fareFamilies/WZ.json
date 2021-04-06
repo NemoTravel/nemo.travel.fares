@@ -2,174 +2,14 @@
     {
         "owner": "WZ",
         "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "^[OZUEVFTQNMLKBWRP](ST)\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Стандартный",
-                    "en": "Standard"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 5 кг, габариты — 55 x 40 x 20 см",
-                    "en": "1 item up to 5 kg, up to 55 x 40 x 20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 23 кг — сумма трех измерений до 158 см",
-                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "WZ",
-        "baseClass": "economy",
-        "priority": 4,
-        "tariffCodePattern": "^[OZUEVFTQNMLKBWRP](BS)\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Базовый",
-                    "en": "Base"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг, габариты — 55 x 40 x 20 см",
-                    "en": "1 item up to 10 kg, up to 55 x 40 x 20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 места до 23 кг каждое",
-                    "en": "2 items up to 23 kg each"
-                },
-                "fullDescription": {
-                    "ru": "2 места до 23 кг каждое — сумма трех измерений каждого места до 158 см",
-                    "en": "2 items up to 23 kg each, total linear dimension — up to 158 cm each"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета за 24 часа до вылета",
-                    "en": "Refund for 24 Hours or Upwards Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета за 24 часа до вылета разрешен без сборов",
-                    "en": "Refundable for 24 hours or upwards before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета за 24 часа до вылета",
-                    "en": "Exchange for 24 Hours or Upwards Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета за 24 часа до вылета разрешен без сборов",
-                    "en": "Exchangeable for 24 hours or upwards before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета менее чем за 24 часа до вылета",
-                    "en": "Refund up to 24 Hours Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета менее чем за 24 часа до вылета разрешен со сбором",
-                    "en": "Refundable less than 24 hours before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета менее чем за 24 часа до вылета",
-                    "en": "Exchange up to 24 Hours Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета менее чем за 24 часа до вылета разрешен со сбором",
-                    "en": "Exchangeable less than 24 hours before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "WZ",
-        "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^[OZUEVFTQNMLKBWRP](LT)\\w*$",
+        "priority": 3,
+        "tariffCodePattern": "^[A-Z](LT)(OW|RT|PRO)$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
                     "ru": "Лайт",
-                    "en": "Light"
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
@@ -200,44 +40,20 @@
                     "en": ""
                 },
                 "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
             }
         ]
     },
     {
         "owner": "WZ",
         "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^[OZUEVFTQNMLKBWRP](LX)\\w*$",
+        "priority": 5,
+        "tariffCodePattern": "^[A-Z](LX)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
                     "ru": "Премиум",
-                    "en": "Premium"
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
@@ -246,16 +62,92 @@
                 "needToPay": null
             },
             {
-                "code": "refundable",
+                "code": "carryOn",
                 "shortDescription": {
-                    "ru": "Возврат билета менее чем за 24 часа до вылета",
-                    "en": "Refund up to 24 Hours Before Departure"
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета менее чем за 24 часа до вылета разрешен со сбором",
-                    "en": "Refundable less than 24 hours before departure. A fee applies"
+                    "ru": "1 место до 5 кг, габариты — 40 x 30 x 20 см",
+                    "en": "1 item up to 5 kg, up to 40 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 23 кг — сумма трех измерений до 158 см",
+                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "WZ",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[A-Z](EC)(OW|RT|PRO)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг, габариты — 40 x 30 x 20 см",
+                    "en": "1 item up to 5 kg, up to 40 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "WZ",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^[A-Z](MX)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Максимум",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
             },
             {
                 "code": "carryOn",
@@ -280,42 +172,182 @@
                     "en": "1 item up to 23 kg, total linear dimension — up to 158 cm"
                 },
                 "needToPay": "free"
-            },
+            }
+        ]
+    },
+    {
+        "owner": "WZ",
+        "baseClass": "economy",
+        "priority": 7,
+        "tariffCodePattern": "^[A-Z](STOWCS)$",
+        "parameters": [
             {
-                "code": "refundable",
+                "code": "description",
                 "shortDescription": {
-                    "ru": "Возврат билета за 24 часа до вылета",
-                    "en": "Refund for 24 Hours or Upwards Before Departure"
+                    "ru": "Смарт",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета за 24 часа до вылета разрешен без сборов",
-                    "en": "Refundable for 24 hours or upwards before departure. No fee applies"
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 23 кг — сумма трех измерений до 158 см",
+                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm"
                 },
                 "needToPay": "free"
             },
             {
-                "code": "exchangeable",
+                "code": "carryOn",
                 "shortDescription": {
-                    "ru": "Обмен билета за 24 часа до вылета",
-                    "en": "Exchange for 24 Hours or Upwards Before Departure"
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета за 24 часа до вылета разрешен без сборов",
-                    "en": "Exchangeable for 24 hours or upwards before departure. No fee applies"
+                    "ru": "1 место до 10 кг, габариты — 55 x 40 x 20 см",
+                    "en": "1 item up to 10 kg, up to 55 x 40 x 20 cm"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "WZ",
+        "baseClass": "economy",
+        "priority": 6,
+        "tariffCodePattern": "^[A-Z](LTOWCS)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Смарт Лайт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, габариты — 55 x 40 x 20 см",
+                    "en": "1 item up to 10 kg, up to 55 x 40 x 20 cm"
                 },
                 "needToPay": "free"
             },
             {
-                "code": "exchangeable",
+                "code": "baggage",
                 "shortDescription": {
-                    "ru": "Обмен билета менее чем за 24 часа до вылета",
-                    "en": "Exchange up to 24 Hours Before Departure"
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета менее чем за 24 часа до вылета разрешен со сбором",
-                    "en": "Exchangeable less than 24 hours before departure. A fee applies"
+                    "ru": "2 места до 23 кг каждое — сумма трех измерений каждого места до 158 см",
+                    "en": "2 items up to 23 kg each, total linear dimension — up to 158 cm each"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "WZ",
+        "baseClass": "economy",
+        "priority": 8,
+        "tariffCodePattern": "^[A-Z](BSOWCS)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Смарт Про",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, габариты — 55 x 40 x 20 см",
+                    "en": "1 item up to 10 kg, up to 55 x 40 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 23 кг — сумма трех измерений до 158 см",
+                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "WZ",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[A-Z](ST|CH)(OW|RT)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Стандарт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг, габариты — 55 x 40 x 20 см",
+                    "en": "1 item up to 5 kg, up to 55 x 40 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 23 кг — сумма трех измерений до 158 см",
+                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm"
+                },
+                "needToPay": "free"
             }
         ]
     }

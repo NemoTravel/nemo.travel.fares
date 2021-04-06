@@ -324,11 +324,11 @@
                     "de": "Business Class Lounge"
                 },
                 "fullDescription": {
-                    "ru": "Доступ в зал ожидания бизнес-класса",
-                    "en": "Access to the Business Class lounge included",
+                    "ru": "Доступ в зал ожидания бизнес-класса за дополнительную плату",
+                    "en": "Access to the Business Class lounge available at extra charge",
                     "de": "Ohne Zugang zur Business Class Lounge"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             }
         ]
     },
