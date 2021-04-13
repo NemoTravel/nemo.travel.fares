@@ -124,110 +124,6 @@
     {
         "owner": "UT",
         "baseClass": "economy",
-        "priority": 4,
-        "flightTimeSince": "2017-12-10T00:00:00",
-        "flightTimeUntil": "2019-01-31T00:00:00",
-        "tariffCodePattern": "^([UXBNTSY](COMF))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Комфорт",
-                    "en": "Comfort Economy",
-                    "de": "Komfort Econom"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "До 10 кг",
-                    "en": "1 item up to 10 kg",
-                    "de": "Bis zu 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": "Hand luggage - 1 item up to 10 kg"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg",
-                    "de": "1 Beutel bis 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange",
-                    "de": "Ticketbörse"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами",
-                    "en": "Ticket exchange is allowed with additional charges",
-                    "de": "Ticketbörse ist gegen Aufpreis erlaubt"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
-                    "de": "Ticketrückerstattung"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Ticket refund is allowed with additional charges",
-                    "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "100% миль",
-                    "en": "100% miles",
-                    "de": "100% Meilen"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": "100% FFP miles"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Бизнес-зал",
-                    "en": "Lounge Access",
-                    "de": "Business Class Lounge"
-                },
-                "fullDescription": {
-                    "ru": "С доступом в зал ожидания бизнес-класса",
-                    "en": "With access to the Business Class lounge",
-                    "de": "Mit Zugang zur Business Class Lounge"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "UT",
-        "baseClass": "economy",
         "priority": 6,
         "tariffCodePattern": "^(\\w*(LT))\\w*$",
         "parameters": [
@@ -316,7 +212,7 @@
         "owner": "UT",
         "baseClass": "economy",
         "priority": 7,
-        "tariffCodePattern": "^(\\w*(STD))\\w*$",
+        "tariffCodePattern": "^(\\w*(STD|ST))\\w*$",
         "parameters": [
             {
                 "code": "description",

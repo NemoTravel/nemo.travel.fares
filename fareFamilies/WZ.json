@@ -311,7 +311,7 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[A-Z](ST|CH)(OW|RT)$",
+        "tariffCodePattern": "^[A-Z](ST|CH)(OW|RT|HST88)$",
         "parameters": [
             {
                 "code": "description",

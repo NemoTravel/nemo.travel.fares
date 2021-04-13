@@ -3,7 +3,7 @@
         "owner": "A3",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[YBMHQWLKSTUPV]((?!NOBAG|0BAG).)*$",
+        "tariffCodePattern": "^\\w*(FLX)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -20,80 +20,12 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 8 кг",
+                    "ru": "1 место до 8 кг",
                     "en": "1 item up to 8 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Возможность менять билет бесплатно неограниченное количество раз в рамках семейств тарифов «Гибкий» и «Бизнес»",
-                    "en": "Exchangeable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета в случае отмены рейса",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "В случае внутренних рейсов допустимая не подлежащая возврату сумма тарифа равна 45 евро. Короткие международные рейсы: 50 евро. Дальние международные рейсы: 60 евро",
-                    "en": "Refundable in case of cancellation. A fee applies. Non-refundable short international flights — €50, longer international flights — €60"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "A3",
-        "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^([YBMHQWLKSTUPV]\\w*(NOBAG|0BAG))\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Лайт",
-                    "en": "Go-Light"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 сумка до 8 кг",
-                    "en": "1 item up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "1 место ручной клади весом до 8 кг с максимальными габаритами 56x45x25 см для перелетов на самолетах типа Airbus, либо 55x40x23 см для турбовинтовых самолетов",
+                    "en": "1 carry-on up to 8 kg with max dimensions 56x45x25 cm for the Airbus fleet or 55x40x23 cm for the Turboprop fleet"
                 },
                 "needToPay": "free"
             },
@@ -104,7 +36,7 @@
                     "en": "No free baggage allowance"
                 },
                 "fullDescription": {
-                    "ru": "Багаж платный",
+                    "ru": "",
                     "en": ""
                 },
                 "needToPay": "charge"
@@ -112,40 +44,40 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "ru": "Изменение билета",
+                    "en": "Ticket Change"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со сбором только в рамках выбранного семейства",
-                    "en": "Exchangeable. A fee applies"
+                    "ru": "Переоформление/изменение маршрута разрешается неограниченное количество раз без сбора",
+                    "en": "Reissue/rerouting is permitted with no fee"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возврат",
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "ru": "Возврат стоимости билета в случае отмены бронирования разрешен с удержанием штрафа",
+                    "en": "Ticket refund in case of cancellation is allowed with a fee"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             }
         ]
     },
     {
         "owner": "A3",
         "baseClass": "business",
-        "priority": 3,
-        "tariffCodePattern": "^([CZDA])\\w*\\d*$",
+        "priority": 4,
+        "tariffCodePattern": "^\\w*(CCF)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
                     "ru": "Бизнес",
-                    "en": ""
+                    "en": "Business"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -156,12 +88,12 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 места весом до 8 и 5 кг соответственно",
-                    "en": "2 items up to 8 kg and 5 kg respectively"
+                    "ru": "1 место до 13 кг",
+                    "en": "1 item up to 13 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "1 место ручной клади весом до 13 кг с максимальными габаритами 56x45x25 см для перелетов на самолетах типа Airbus, либо 55x40x23 см для турбовинтовых самолетов",
+                    "en": "1 carry-on up to 13 kg with max dimensions 56x45x25 cm for the Airbus fleet or 55x40x23 cm for the Turboprop fleet"
                 },
                 "needToPay": "free"
             },
@@ -180,62 +112,162 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возврат",
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Уплаченная сумма может быть возмещена",
-                    "en": "Refundable"
+                    "ru": "Стоимость билета в случае отмены бронирования подлежит возмещению",
+                    "en": "Ticket refund in case of cancellation is allowed with no fee"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "ru": "Изменение билета",
+                    "en": "Ticket Change"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен без сборов",
-                    "en": "Exchangeable. No fee applies"
+                    "ru": "Переоформление/изменение маршрута разрешается без сбора",
+                    "en": "Reissue/rerouting is permitted with no fee"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "A3",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^\\w*(LGT)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Легкий",
+                    "en": "Light"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место ручной клади весом до 8 кг с максимальными габаритами 56x45x25 см для перелетов на самолетах типа Airbus, либо 55x40x23 см для турбовинтовых самолетов",
+                    "en": "1 carry-on up to 8 kg with max dimensions 56x45x25 cm for the Airbus fleet or 55x40x23 cm for the Turboprop fleet"
                 },
                 "needToPay": "free"
             },
             {
-                "code": "vipService",
+                "code": "baggage",
                 "shortDescription": {
-                    "ru": "Доступ в зал ожидания",
-                    "en": "Lounge Access"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
-                    "ru": "Доступ в залы бизнес-класса",
-                    "en": "Access to Business class lounges"
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение билета",
+                    "en": "Ticket Change"
+                },
+                "fullDescription": {
+                    "ru": "Переоформление/изменение маршрута разрешается со сбором",
+                    "en": "Reissue/rerouting is permitted with a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "A3",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^\\w*(CMF)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфорт Гибкий",
+                    "en": "Comfort Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место ручной клади весом до 8 кг с максимальными габаритами 56x45x25 см для перелетов на самолетах типа Airbus, либо 55x40x23 см для турбовинтовых самолетов",
+                    "en": "1 carry-on up to 8 kg with max dimensions 56x45x25 cm for the Airbus fleet or 55x40x23 cm for the Turboprop fleet"
                 },
                 "needToPay": "free"
             },
             {
-                "code": "vipService",
+                "code": "baggage",
                 "shortDescription": {
-                    "ru": "Отдельные стойки регистрации",
-                    "en": "Separate check-in desks"
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "Доступны отдельные стойки регистрации",
-                    "en": "Separate check-in desks — available"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
             {
-                "code": "vipService",
+                "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Приоритет обработки багажа",
-                    "en": "Priority baggage handling"
+                    "ru": "Изменение билета",
+                    "en": "Ticket Change"
                 },
                 "fullDescription": {
-                    "ru": "Приоритетная обработка багажа",
-                    "en": "Priority baggage handling — available"
+                    "ru": "Переоформление/изменение маршрута разрешается неограниченное количество раз без сбора",
+                    "en": "Reissue/rerouting is permitted with no fee"
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат стоимости билета в случае отмены бронирования разрешен с удержанием штрафа",
+                    "en": "Ticket refund in case of cancellation is allowed with a fee"
+                },
+                "needToPay": "charge"
             }
         ]
     }
