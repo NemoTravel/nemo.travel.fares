@@ -24,8 +24,8 @@
                     "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 5 кг — входит в норму провоза багажа для всех перевозок, за исключением рейсов на воздушных судах типа RRJ-95 (СУ9)",
-                    "en": "1 item up to 5 kg is included in baggage allowance for all flights except flights provided with RRJ-95 (SU9) aircrafts"
+                    "ru": "На воздушных судах Ан-24, Ан-26: 1 место ручной клади до 5 кг. На воздушных судах Superjet 100, СRJ: 1 место ручной клади до 10 кг",
+                    "en": "For all flights provided with An-24, An-26 aircrafts: 1 item up to 5 kg of carry-on. For all flights provided with Superjet 100, СRJ aircrafts: 1 item up to 10 kg of carry-on"
                 },
                 "needToPay": "free"
             },
@@ -36,8 +36,8 @@
                     "en": "1 item up to 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "Boeing 777: 20 кг багажа + 5 кг ручной клади. Superjet 100: 20 кг багажа + 5 кг ручной клади. СRJ, Ан-24, Ан-26: 15 кг багаж + 5 кг ручной. Или 20 кг без ручной клади",
-                    "en": "Boeing 777: 20 kg of baggage + 5 kg of carry-on. Superjet 100: 20 kg of baggage + 5 kg of carry-on. СRJ, Ан-24, Ан-26: 15 kg of baggage + 5 kg of carry-on. Or 20 kg without carry-on"
+                    "ru": "На воздушных судах Ан-24, Ан-26: 1 место до 15 кг багажа. На воздушных судах Superjet 100, СRJ бесплатный провоз зарегистрированного багажа не предоставляется",
+                    "en": "For all flights provided with An-24, An-26 aircrafts: 1 item up to 15 kg of checked baggage. For all flights provided with Superjet 100, СRJ aircrafts: no free baggage allowance"
                 },
                 "needToPay": "free"
             },
@@ -92,8 +92,8 @@
                     "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 5 кг — входит в норму провоза багажа для всех перевозок, за исключением рейсов на воздушных судах типа RRJ-95 (СУ9)",
-                    "en": "1 item up to 5 kg is included in baggage allowance for all flights except flights provided with RRJ-95 (SU9) aircrafts"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -104,8 +104,8 @@
                     "en": "1 item up to 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "Boeing 777: 20 кг багажа + 5 кг ручной клади. Superjet 100: 20 кг багажа + 5 кг ручной клади. СRJ, Ан-24, Ан-26: 15 кг багаж + 5 кг ручной. Или 20 кг без ручной клади",
-                    "en": "Boeing 777: 20 kg of baggage + 5 kg of carry-on. Superjet 100: 20 kg of baggage + 5 kg of carry-on. СRJ, Ан-24, Ан-26: 15 kg of baggage + 5 kg of carry-on. Or 20 kg without carry-on"
+                    "ru": "На воздушных судах СRJ, Ан-24, Ан-26: 1 место до 15 кг багажа. На воздушных судах Superjet 100: 1 место до 20 кг багажа",
+                    "en": "For all flights provided with СRJ, An-24, An-26 aircrafts: 1 item up to 15 kg of checked baggage. For all flights provided with Superjet 100 aircrafts: 1 item up to 20 kg of checked baggage"
                 },
                 "needToPay": "free"
             },
@@ -117,7 +117,7 @@
                 },
                 "fullDescription": {
                     "ru": "Возврат билета до вылета разрешен со штрафом. Возврат билета после вылета не разрешен",
-                    "en": "Refundable before departure. A fee applies. Non-refundable after departure"
+                    "en": "Refundable before departure with a fee. Non-refundable after departure"
                 },
                 "needToPay": "charge"
             },
@@ -128,8 +128,8 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со штрафом",
-                    "en": "Exchangeable. A fee applies"
+                    "ru": "Обмен билета до вылета разрешен со штрафом. Обмен билета после вылета не разрешен",
+                    "en": "Exchangeable before departure with a fee. Non-exchangeable after departure"
                 },
                 "needToPay": "charge"
             }
@@ -160,8 +160,8 @@
                     "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 5 кг — входит в норму провоза багажа для всех перевозок, за исключением рейсов на воздушных судах типа RRJ-95 (СУ9)",
-                    "en": "1 item up to 5 kg is included in baggage allowance for all flights except flights provided with RRJ-95 (SU9) aircrafts"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -172,8 +172,8 @@
                     "en": "1 item up to 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "Boeing 777: 20 кг багажа + 5 кг ручной клади. Superjet 100: 20 кг багажа + 5 кг ручной клади. СRJ, Ан-24, Ан-26: 15 кг багаж + 5 кг ручной. Или 20 кг без ручной клади",
-                    "en": "Boeing 777: 20 kg of baggage + 5 kg of carry-on. Superjet 100: 20 kg of baggage + 5 kg of carry-on. СRJ, Ан-24, Ан-26: 15 kg of baggage + 5 kg of carry-on. Or 20 kg without carry-on"
+                    "ru": "На воздушных судах СRJ, Ан-24, Ан-26: 1 место до 15 кг багажа. На воздушных судах Superjet 100: 1 место до 20 кг багажа",
+                    "en": "For all flights provided with СRJ, An-24, An-26 aircrafts: 1 item up to 15 kg of checked baggage. For all flights provided with Superjet 100 aircrafts: 1 item up to 20 kg of checked baggage"
                 },
                 "needToPay": "free"
             },
@@ -185,7 +185,7 @@
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со штрафом",
-                    "en": "Refundable. A fee applies"
+                    "en": "Refundable with a fee"
                 },
                 "needToPay": "charge"
             },
@@ -197,145 +197,9 @@
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со штрафом",
-                    "en": "Exchangeable. A fee applies"
+                    "en": "Exchangeable with a fee"
                 },
                 "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "IO",
-        "baseClass": "business",
-        "priority": 5,
-        "tariffCodePattern": "^[CD]\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Бизнес",
-                    "en": "Business"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 30 кг",
-                    "en": "1 item up to 30 kg"
-                },
-                "fullDescription": {
-                    "ru": "Boeing 777-200: 30 кг багажа + 10 кг ручной клади. Superjet 100: 2 багажных места по 30 кг + 10 кг ручной клади",
-                    "en": "Boeing 777-200: 30 kg of baggage + 10 kg of carry-on. Superjet 100: 30 kg of baggage +10 kg of carry-on"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со штрафом",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен со штрафом",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "IO",
-        "baseClass": "business",
-        "priority": 4,
-        "tariffCodePattern": "^(\\w*(PREM))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Премиум",
-                    "en": "Premium"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 30 кг",
-                    "en": "1 item up to 30 kg"
-                },
-                "fullDescription": {
-                    "ru": "Boeing 777-200: 30 кг багажа + 10 кг ручной клади. Superjet 100: 30 кг багажа +10 кг ручной клади. Или без ручной клади – 20 кг багажа",
-                    "en": "Boeing 777-200: 30 kg of baggage + 10 kg of carry-on. Superjet 100: 30 kg of baggage +10 kg of carry-on. Or without carry-on – 20 kg of baggage"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен без штрафа. Возврат билета после вылета разрешен со штрафом",
-                    "en": "Refundable before departure. A fee applies after departure"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен без штрафа",
-                    "en": "Exchangeable. No fee applies"
-                },
-                "needToPay": "free"
             }
         ]
     }

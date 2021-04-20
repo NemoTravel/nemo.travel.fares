@@ -3,7 +3,7 @@
         "owner": "6R",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([YBHKLMNTVGUEO](PROW))\\w*$",
+        "tariffCodePattern": "^([YBHKLMNTVGUEO](PROW|PRTROW))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -131,7 +131,7 @@
         "owner": "6R",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([YBHKLMNTVGUEO](LTOW))\\w*$",
+        "tariffCodePattern": "^([YBHKLMNTVGUEO](LTOW|LTTROW))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -259,7 +259,7 @@
         "owner": "6R",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([YBHKLMNTVGUEO](STDOW))\\w*$",
+        "tariffCodePattern": "^([YBHKLMNTVGUEO](STDOW|STDTROW))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -387,7 +387,7 @@
         "owner": "6R",
         "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^([SWC](LTOW))\\w*$",
+        "tariffCodePattern": "^([SWC](LTOW|LTTROW))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -515,7 +515,7 @@
         "owner": "6R",
         "baseClass": "business",
         "priority": 5,
-        "tariffCodePattern": "^([SWC](STDOW))\\w*$",
+        "tariffCodePattern": "^([SWC](STDOW|STDTROW))\\w*$",
         "parameters": [
             {
                 "code": "description",

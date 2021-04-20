@@ -40,6 +40,30 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат более чем за 12 часов до вылета разрешен со штрафом. Возврат менее чем за 12 часов до вылета не разрешен. Возврат после вылета не разрешен",
+                    "en": "A deduction is made on cancelations or refunds made 12 hours or more before a flight. Cancelations or refunds cannot be made to a ticket with less than 12 hours remaining before departure. In case of no-show, ticket refunds cannot be made after the flight"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Переоформление",
+                    "en": "Reissue"
+                },
+                "fullDescription": {
+                    "ru": "Переоформление для внутренних перелетов и перелетов в/из аэропорта Эрджан разрешено без сбора. Переоформление после вылета не разрешено",
+                    "en": "A change fee is not applied for domestic flights and flights to/from Ercan Airport. Ticket changes cannot be made after the flight"
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -84,6 +108,30 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Переоформление",
+                    "en": "Reissue"
+                },
+                "fullDescription": {
+                    "ru": "Переоформление для внутренних перелетов и перелетов в/из аэропорта Эрджан разрешено без сбора. Переоформление после вылета не разрешено",
+                    "en": "A change fee is not applied for domestic flights and flights to/from Ercan Airport. Ticket changes cannot be made after the flight"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат более чем за 1 час до вылета разрешен со штрафом. Возврат менее чем за 1 час до вылета не разрешен. Возврат после вылета не разрешен",
+                    "en": "A deduction is made on cancelations or refunds made 1 hour or more before a flight. Cancelations or refunds cannot be made to a ticket with less than 1 hour remaining before departure. In case of no-show, ticket refunds cannot be made after the flight"
+                },
+                "needToPay": "charge"
             }
         ]
     },
@@ -106,6 +154,18 @@
                 "needToPay": null
             },
             {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат более чем за 12 часов до вылета разрешен без штрафа. Возврат в период за 1-12 часов до вылета разрешен со штрафом. Возврат менее чем за 1 час до вылета не разрешен. Возврат после вылета не разрешен",
+                    "en": "No deduction is made on cancelation or refund made 12 hours or more before flight. A deduction is made on cancelations or refunds made 1-12 hours or more before a flight. Cancelations or refunds cannot be made to a ticket with less than 1 hour remaining before departure. In case of no-show, ticket refunds cannot be made after the flight"
+                },
+                "needToPay": "free"
+            },
+            {
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 8 кг",
@@ -126,6 +186,18 @@
                 "fullDescription": {
                     "ru": "",
                     "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Переоформление",
+                    "en": "Reissue"
+                },
+                "fullDescription": {
+                    "ru": "Переоформление для внутренних перелетов и перелетов в/из аэропорта Эрджан разрешено без сбора. Переоформление после вылета не разрешено",
+                    "en": "A change fee is not applied for domestic flights and flights to/from Ercan Airport. Ticket changes cannot be made after the flight"
                 },
                 "needToPay": "free"
             }

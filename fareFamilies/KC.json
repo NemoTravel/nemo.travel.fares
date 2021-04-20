@@ -906,14 +906,14 @@
     {
         "owner": "KC",
         "baseClass": "economy",
-        "priority": 8,
+        "priority": 3,
         "tariffCodePattern": "^([_])$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Гибкий Комфорт Плюс",
-                    "en": "Flexi Comfort Plus"
+                    "ru": "Выгодный Комфорт Плюс",
+                    "en": "Lowest Comfort Plus"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -966,18 +966,6 @@
                 "fullDescription": {
                     "ru": "",
                     "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Отмена бронирования",
-                    "en": "Cancellation"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатная отмена бронирования",
-                    "en": "Free cancellation"
                 },
                 "needToPay": "free"
             },
@@ -1152,6 +1140,166 @@
                     "en": "Free cancellation"
                 },
                 "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 8,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий Комфорт Плюс",
+                    "en": "Flexi Comfort Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, 56x45x20 см",
+                    "en": "1 item up to 10 kg, 56x45x20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 20 кг",
+                    "en": "Up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор любого места на борту",
+                    "en": "Any seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": "Priority boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Отмена бронирования",
+                    "en": "Cancellation"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатная отмена бронирования",
+                    "en": "Free cancellation"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 8,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Гибкий Комфорт Плюс",
+                    "en": "Flexi Comfort Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, 56x45x20 см",
+                    "en": "1 item up to 10 kg, 56x45x20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 20 кг",
+                    "en": "Up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор любого места на борту",
+                    "en": "Any seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": "Priority boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Отмена бронирования",
+                    "en": "Cancellation"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатная отмена бронирования",
+                    "en": "Free cancellation"
+                },
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",
@@ -1242,6 +1390,18 @@
                 "fullDescription": {
                     "ru": "Бесплатная отмена бронирования",
                     "en": "Free cancellation"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатное перебронирование один раз",
+                    "en": "One time flight change"
                 },
                 "needToPay": "free"
             }
@@ -2476,6 +2636,118 @@
                     "en": ""
                 },
                 "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Стандарт Плюс",
+                    "en": "Standard Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, 56x45x20 см",
+                    "en": "1 item up to 10 kg, 56x45x20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор стандартного места на борту",
+                    "en": "Standard seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Не включен в тариф",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "KC",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфорт",
+                    "en": "Comfort"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг, 56x45x20 см",
+                    "en": "1 item up to 5 kg, 56x45x20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 20 кг",
+                    "en": "Up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор стандартного места на борту",
+                    "en": "Standard seat"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
