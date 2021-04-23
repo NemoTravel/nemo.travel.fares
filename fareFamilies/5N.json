@@ -128,8 +128,8 @@
                     "en": "Up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 10 кг, габариты менее 115 см",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm"
+                    "ru": "1 место до 10 кг, габариты менее 90 см",
+                    "en": "1 item up to 10 kg, total linear dimension — up to 90 cm"
                 },
                 "needToPay": "free"
             },
@@ -148,24 +148,12 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до окончания регистрации",
-                    "en": "Refund Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Добровольный возврат при снятии мест до окончания регистрации разрешен со сбором",
-                    "en": "Refundable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета после окончания регистрации",
+                    "ru": "Возврат билета",
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Добровольный возврат при снятии мест после окончания регистрации (no-show) не разрешен",
-                    "en": "Non-refundable after departure"
+                    "ru": "Добровольный возврат при снятии мест не разрешен",
+                    "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
             },
@@ -232,20 +220,20 @@
                     "en": "Up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место до 10 кг, габариты менее 115 см",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm"
+                    "ru": "1 место до 10 кг, габариты менее 90 см",
+                    "en": "1 item up to 10 kg, total linear dimension — up to 90 cm"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 места до 23 кг",
-                    "en": "2 items up to 23 kg"
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "2 места до 23 кг, габариты менее 203 см",
-                    "en": "2 items up to 23 kg, total linear dimension — up to 203 cm"
+                    "ru": "1 место до 23 кг, габариты менее 203 см",
+                    "en": "1 item up to 23 kg, total linear dimension — up to 203 cm"
                 },
                 "needToPay": "free"
             },
@@ -268,10 +256,10 @@
                     "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Добровольный обмен при снятии мест до вылета разрешен со сбором",
-                    "en": "Exchangeable before departure. A fee applies"
+                    "ru": "Добровольный обмен при снятии мест до вылета разрешен",
+                    "en": "Exchangeable before departure. No fee applies"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",
