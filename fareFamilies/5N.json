@@ -160,12 +160,24 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "ru": "Обмен билета до вылета",
+                    "en": "Exchange Before departure"
                 },
                 "fullDescription": {
-                    "ru": "Добровольный обмен при снятии мест разрешен со сбором",
-                    "en": "Exchangeable. A fee applies"
+                    "ru": "Добровольный обмен при снятии мест до вылета разрешен со сбором",
+                    "en": "Exchangeable before departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета после вылета",
+                    "en": "Exchange After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Добровольный обмен при снятии мест после вылета разрешен со сбором",
+                    "en": "Exchangeable after departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
