@@ -3,7 +3,7 @@
         "owner": "Y7",
         "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^([DI]).*$",
+        "tariffCodePattern": "^(([CDI])\\w*(LT)\\w*)$",
         "parameters": [
             {
                 "code": "description",
@@ -24,8 +24,8 @@
                     "en": "1 item up to 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "Одно место ручной клади весом до 15 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см)",
-                    "en": "1 item up to 15 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm)"
+                    "ru": "Одно место ручной клади весом до 15 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см). При выполнении перелета в/из Санья (Китай), Талакан, Байкит, Ванавара, Тура, Туруханск, Подкаменная Тунгуска, Игарка, Северо-Енисейск, Хатанга, норма бесплатного провоза ручной клади составляет 5 кг.",
+                    "en": "1 item up to 15 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm). In case of flight to/from Sanya (China), Talakan, Baykit, Vanavara, Tura, Turukhansk, Podkamennaya Tura, Igarka, Severo-Yeniseisk, Khatanga — up to 5 kg"
                 },
                 "needToPay": "free"
             },
@@ -36,8 +36,8 @@
                     "en": "1 item up to 30 kg"
                 },
                 "fullDescription": {
-                    "ru": "Одно место багажа весом до 30 кг, габаритами — до 203 см в сумме трех измерений",
-                    "en": "1 item up to 30 kg, total linear dimension — up to 203 cm"
+                    "ru": "Одно место багажа весом до 30 кг, габаритами — до 203 см в сумме трех измерений. При выполнении перелета в/из Санья (Китай), Талакан - норма бесплатного провоза багажа составляет 1 место до 15 кг. При выполнении перелета в/из Байкит, Ванавара, Тура, Туруханск, Подкаменная Тунгуска, Игарка, Северо-Енисейск, Хатанга - норма бесплатного провоза багажа составляет 1 место до 20 кг.",
+                    "en": "1 item up to 30 kg, total linear dimension — up to 203 cm. In case of flight to/from Sanya (China), Talakan — 1 item up to 15 kg. In case of flight to/from Baykit, Vanavara, Tura, Turukhansk, Podkamennaya Tura, Igarka, Severo-Yeniseisk, Khatanga — 1 item up to 20 kg"
                 },
                 "needToPay": "free"
             },
@@ -48,10 +48,10 @@
                     "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) разрешены",
-                    "en": "Exchangeable for 40 minutes or upwards before departure"
+                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) разрешены со сбором",
+                    "en": "Exchangeable for 40 minutes or upwards before departure. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -119,7 +119,7 @@
         "owner": "Y7",
         "baseClass": "business",
         "priority": 5,
-        "tariffCodePattern": "^([C]).*$",
+        "tariffCodePattern": "^(([CDI])\\w*(ST)\\w*)$",
         "parameters": [
             {
                 "code": "description",
@@ -140,8 +140,8 @@
                     "en": "1 item up to 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "Одно место ручной клади весом до 15 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см)",
-                    "en": "1 item up to 15 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm)"
+                    "ru": "Одно место ручной клади весом до 15 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см). При выполнении перелета в/из Санья (Китай), Талакан, Байкит, Ванавара, Тура, Туруханск, Подкаменная Тунгуска, Игарка, Северо-Енисейск, Хатанга, норма бесплатного провоза ручной клади составляет 5 кг.",
+                    "en": "1 item up to 15 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm). In case of flight to/from Sanya (China), Talakan, Baykit, Vanavara, Tura, Turukhansk, Podkamennaya Tura, Igarka, Severo-Yeniseisk, Khatanga — up to 5 kg"
                 },
                 "needToPay": "free"
             },
@@ -152,8 +152,8 @@
                     "en": "2 items up to 30 kg each"
                 },
                 "fullDescription": {
-                    "ru": "Два места багажа весом до 30 кг, габаритами — до 203 см в сумме трех измерений",
-                    "en": "2 item up to 30 kg each, total linear dimension — up to 203 cm"
+                    "ru": "Два места багажа весом до 30 кг, габаритами — до 203 см в сумме трех измерений. При выполнении перелета в/из Санья (Китай), Талакан - норма бесплатного провоза багажа составляет 1 место до 15 кг. При выполнении перелета в/из Байкит, Ванавара, Тура, Туруханск, Подкаменная Тунгуска, Игарка, Северо-Енисейск, Хатанга - норма бесплатного провоза багажа составляет 1 место до 20 кг.",
+                    "en": "2 item up to 30 kg each, total linear dimension — up to 203 cm. In case of flight to/from Sanya (China), Talakan — 1 item up to 15 kg. In case of flight to/from Baykit, Vanavara, Tura, Turukhansk, Podkamennaya Tura, Igarka, Severo-Yeniseisk, Khatanga — 1 item up to 20 kg"
                 },
                 "needToPay": "free"
             },
@@ -164,10 +164,10 @@
                     "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) разрешены",
-                    "en": "Exchangeable for 40 minutes or upwards before departure"
+                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) разрешены со сбором",
+                    "en": "Exchangeable for 40 minutes or upwards before departure. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -176,10 +176,10 @@
                     "en": "Exchange After Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения менее, чем за 40 минут до вылета или после вылета разрешены",
-                    "en": "Exchangeable within 40 minutes before departure and after departure"
+                    "ru": "Изменения менее, чем за 40 минут до вылета или после вылета разрешены со сбором",
+                    "en": "Exchangeable within 40 minutes before departure and after departure. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -188,10 +188,10 @@
                     "en": "Refund Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат до отправления рейса (более 40 минут до вылета) разрешен без сборов",
-                    "en": "Refundable for 40 minutes or upwards before departure. No fee applies"
+                    "ru": "Возврат до отправления рейса (более 40 минут до вылета) разрешен со сбором",
+                    "en": "Refundable for 40 minutes or upwards before departure. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -200,10 +200,10 @@
                     "en": "Refund After Departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат менее, чем за 40 минут до вылета рейса или после вылета разрешен без сборов",
-                    "en": "Refundable within 40 minutes before departure and after departure. No fee applies"
+                    "ru": "Возврат менее, чем за 40 минут до вылета рейса или после вылета не разрешен",
+                    "en": "Non-refundable within 40 minutes before departure and after departure"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "miles",
@@ -235,7 +235,7 @@
         "owner": "Y7",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^(ASALE)|(([ABVNWOHSKMTXQLY])\\w*(2).*)$",
+        "tariffCodePattern": "^(([YSKMTXQLBVNWOHA])\\w*(LT)\\w*)$",
         "parameters": [
             {
                 "code": "description",
@@ -256,8 +256,8 @@
                     "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "Одно место ручной клади весом до 10 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см)",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm)"
+                    "ru": "Одно место ручной клади весом до 10 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см). При выполнении перелета в/из Санья (Китай), Талакан, Байкит, Ванавара, Тура, Туруханск, Подкаменная Тунгуска, Игарка, Северо-Енисейск, Хатанга, норма бесплатного провоза ручной клади составляет 5 кг.",
+                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm). In case of flight to/from Sanya (China), Talakan, Baykit, Vanavara, Tura, Turukhansk, Podkamennaya Tura, Igarka, Severo-Yeniseisk, Khatanga — up to 5 kg"
                 },
                 "needToPay": "free"
             },
@@ -338,8 +338,8 @@
     {
         "owner": "Y7",
         "baseClass": "economy",
-        "priority":  2,
-        "tariffCodePattern": "^[ABVNWOHSKMTXQLY]LT[A-Za-z013-9]*$",
+        "priority": 2,
+        "tariffCodePattern": "^(([YSKMTXQLBVNWOHA])\\w*(ST)\\w*)$",
         "parameters": [
             {
                 "code": "description",
@@ -360,22 +360,22 @@
                     "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "Одно место ручной клади весом до 10 кг, габаритами — до 90 см в сумме трех измерений (40 x 30 x 20 см).",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 90 cm (40 x 30 x 20 cm)."
+                    "ru": "Одно место ручной клади весом до 10 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см). При выполнении перелета в/из Санья (Китай), Талакан, Байкит, Ванавара, Тура, Туруханск, Подкаменная Тунгуска, Игарка, Северо-Енисейск, Хатанга, норма бесплатного провоза ручной клади составляет 5 кг.",
+                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm). In case of flight to/from Sanya (China), Talakan, Baykit, Vanavara, Tura, Turukhansk, Podkamennaya Tura, Igarka, Severo-Yeniseisk, Khatanga — up to 5 kg"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "Не предоставляется бесплатная норма провоза багажа",
-                    "en": "No free baggage allowance"
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Одно место багажа весом до 23 кг, габаритами — до 203 см в сумме трех измерений. При выполнении перелета в/из Санья (Китай), Талакан - норма бесплатного провоза багажа составляет 1 место до 15 кг. При выполнении перелета в/из Байкит, Ванавара, Тура, Туруханск, Подкаменная Тунгуска, Игарка, Северо-Енисейск, Хатанга - норма бесплатного провоза багажа составляет 1 место до 20 кг.",
+                    "en": "1 item up to 23 kg, total linear dimension — up to 203 cm. In case of flight to/from Sanya (China), Talakan — 1 item up to 15 kg. In case of flight to/from Baykit, Vanavara, Tura, Turukhansk, Podkamennaya Tura, Igarka, Severo-Yeniseisk, Khatanga — 1 item up to 20 kg"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",
@@ -384,10 +384,10 @@
                     "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) не разрешены",
-                    "en": "Non-exchangeable for 40 minutes or upwards before departure"
+                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) разрешены со сбором",
+                    "en": "Exchangeable for 40 minutes or upwards before departure. A fee applies"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -408,16 +408,16 @@
                     "en": "Refund Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат до отправления рейса (более 40 минут до вылета) не разрешен",
-                    "en": "Non-refundable for 40 minutes or upwards before departure"
+                    "ru": "Возврат до отправления рейса (более 40 минут до вылета) разрешен со сборами",
+                    "en": "Refundable for 40 minutes or upwards before departure. A fee applies"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "50% миль",
-                    "en": "50% Miles"
+                    "ru": "100% миль",
+                    "en": "100% Miles"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -628,8 +628,8 @@
                     "en": "100% Miles"
                 },
                 "fullDescription": {
-                    "ru": "Одно место багажа весом до 23 кг, габаритами — до 203 см в сумме трех измерений. При выполнении перелета в/из г. Санья (Китай), норма бесплатного провоза багажа составляет 15 кг",
-                    "en": "1 item up to 23 kg, total linear dimension — up to 203 cm. In case of flight to/from Sanya (China) — up to 15 kg"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
