@@ -64,8 +64,8 @@
           "en": "Exchange after departure. A fee applies"
         },
         "needToPay": "charge"
-      }
-        {
+      },
+      {
         "code": "refundable",
         "shortDescription": {
           "ru": "Возврат",
@@ -144,8 +144,8 @@
           "en": "Exchange after departure. A fee applies"
         },
         "needToPay": "charge"
-      }
-        {
+      },
+      {
         "code": "refundable",
         "shortDescription": {
           "ru": "Возврат",
@@ -224,8 +224,8 @@
           "en": "Exchange after departure. A fee applies"
         },
         "needToPay": "charge"
-      }
-        {
+      },
+      {
         "code": "refundable",
         "shortDescription": {
           "ru": "Возврат",
