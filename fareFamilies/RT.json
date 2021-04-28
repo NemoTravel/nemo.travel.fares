@@ -2,7 +2,315 @@
   {
     "owner": "RT",
     "baseClass": "economy",
+    "priority": 2,
+    "tariffCodePattern": "^[UXVE]\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Лайт",
+          "en": "Light"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 место до 5 кг",
+          "en": "1 item up to 5 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 5 кг, 15*35*45 см",
+          "en": "1 item up to 5 kg, 15x35x45 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "1 место до 10 кг",
+          "en": "1 item up to 10 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 10 кг, 50*50*103 см",
+          "en": "1 item up to 10 kg, up to 50x50x103 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения до отправления рейса",
+          "en": "Exchange Before Departure"
+        },
+        "fullDescription": {
+          "ru": "Изменения до отправления рейса разрешены со сбором",
+          "en": "Exchange before departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения после отправления рейса",
+          "en": "Exchange After Departure"
+        },
+        "fullDescription": {
+          "ru": "Изменения после отправления рейса разрешены со сбором",
+          "en": "Exchange after departure. A fee applies"
+        },
+        "needToPay": "charge"
+      }
+        {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Тариф полностью невозвратный",
+          "en": "Non-refundable"
+        },
+        "needToPay": "notAvailable"
+      }
+    ]
+  },
+  {
+    "owner": "RT",
+    "baseClass": "economy",
+    "priority": 5,
+    "tariffCodePattern": "^[YSW]\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Премиум",
+          "en": "Premium"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 место до 5 кг",
+          "en": "1 item up to 5 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 5 кг, 15*35*45 см",
+          "en": "1 item up to 5 kg, 15x35x45 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "1 место до 30 кг",
+          "en": "1 item up to 30 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 30 кг, 50*50*103 см",
+          "en": "1 item up to 30 kg, up to 50x50x103 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения до отправления рейса",
+          "en": "Exchange Before Departure"
+        },
+        "fullDescription": {
+          "ru": "Изменения до отправления рейса разрешены со сбором",
+          "en": "Exchange before departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения после отправления рейса",
+          "en": "Exchange After Departure"
+        },
+        "fullDescription": {
+          "ru": "Изменения после отправления рейса разрешены со сбором",
+          "en": "Exchange after departure. A fee applies"
+        },
+        "needToPay": "charge"
+      }
+        {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен со сбором",
+          "en": "Refundable. A fee applies"
+        },
+        "needToPay": "charge"
+      }
+    ]
+  },
+  {
+    "owner": "RT",
+    "baseClass": "economy",
+    "priority": 4,
+    "tariffCodePattern": "^[QNLKB]\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Оптимум",
+          "en": "Optimum"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 место до 5 кг",
+          "en": "1 item up to 5 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 5 кг, 15*35*45 см",
+          "en": "1 item up to 5 kg, 15x35x45 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "1 место до 20 кг",
+          "en": "1 item up to 20 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 20 кг, 50*50*103 см",
+          "en": "1 item up to 20 kg, up to 50x50x103 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения до отправления рейса",
+          "en": "Exchange Before Departure"
+        },
+        "fullDescription": {
+          "ru": "Изменения до отправления рейса разрешены со сбором",
+          "en": "Exchange before departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения после отправления рейса",
+          "en": "Exchange After Departure"
+        },
+        "fullDescription": {
+          "ru": "Изменения после отправления рейса разрешены со сбором",
+          "en": "Exchange after departure. A fee applies"
+        },
+        "needToPay": "charge"
+      }
+        {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен со сбором",
+          "en": "Refundable. A fee applies"
+        },
+        "needToPay": "charge"
+      }
+    ]
+  },
+  {
+    "owner": "RT",
+    "baseClass": "economy",
     "priority": 1,
+    "tariffCodePattern": "^[AZ](N)\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Промо",
+          "en": "Promo"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 место до 5 кг",
+          "en": "1 item up to 5 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 5 кг, 15*35*45 см",
+          "en": "1 item up to 5 kg, up to 15x35x45 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "Платный",
+          "en": "No free baggage allowance"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения",
+          "en": "Exchange"
+        },
+        "fullDescription": {
+          "ru": "Изменения в билете не разрешены",
+          "en": "Non-exchangeable"
+        },
+        "needToPay": "notAvailable"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Тариф полностью невозвратный",
+          "en": "Non-refundable"
+        },
+        "needToPay": "notAvailable"
+      }
+    ]
+  },
+  {
+    "owner": "RT",
+    "baseClass": "economy",
+    "priority": 3,
     "tariffCodePattern": "^[IPR]\\w*$",
     "parameters": [
       {
@@ -49,19 +357,31 @@
         },
         "fullDescription": {
           "ru": "Возврат билета разрешен со сбором",
-          "en": "Refundable with penalty"
+          "en": "Refundable. A fee applies"
         },
         "needToPay": "charge"
       },
       {
         "code": "exchangeable",
         "shortDescription": {
-          "ru": "Обмен билета",
-          "en": "Exchange"
+          "ru": "Изменения до отправления рейса",
+          "en": "Exchange Before Departure"
         },
         "fullDescription": {
-          "ru": "Обмен билета разрешен со сбором",
-          "en": "Booking changes allowed with penalty"
+          "ru": "Изменения до отправления рейса разрешены со сбором",
+          "en": "Exchange before departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения после отправления рейса",
+          "en": "Exchange After Departure"
+        },
+        "fullDescription": {
+          "ru": "Изменения после отправления рейса разрешены со сбором",
+          "en": "Exchange after departure. A fee applies"
         },
         "needToPay": "charge"
       }
