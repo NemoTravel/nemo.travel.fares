@@ -893,7 +893,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Базовый",
-                    "en": "Basic"
+                    "en": "Basic",
+                    "ua": "Basic"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -905,11 +906,12 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 места",
-                    "en": "2 items"
+                    "en": "2 items",
+                    "ua": "2 місця"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "1 item up to 23 kg and 56x45x25 cm plus 1 handbag/laptop bag up to 23 kg and 40x30x15 cm"
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -917,7 +919,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "Платный",
-                    "en": "No free baggage allowance"
+                    "en": "No free baggage allowance",
+                    "ua": "За додаткову плату"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -929,11 +932,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "ua": "Повернення квитка"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "en": "Non-refundable",
+                    "ua": "Тариф поверненню не підлягає"
                 },
                 "needToPay": "notAvailable"
             },
@@ -941,11 +946,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "ua": "Обмін квитка"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сбором и доплатой возможной разницы в тарифах",
-                    "en": "Exchangeable with a fee plus fare difference"
+                    "en": "Exchangeable with a fee plus fare difference",
+                    "ua": "Обмін квитка зі штрафом та доплатою можливої різниці в тарифах"
                 },
                 "needToPay": "charge"
             }
@@ -961,7 +968,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Плюс",
-                    "en": "Plus"
+                    "en": "Plus",
+                    "ua": "Plus"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -973,11 +981,12 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 места",
-                    "en": "2 items"
+                    "en": "2 items",
+                    "ua": "2 місця"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "1 item up to 23 kg and 56x45x25 cm plus 1 handbag/laptop bag up to 23 kg and 40x30x15 cm"
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -985,7 +994,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "ua": "1 місце до 23 кг"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -997,11 +1007,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "ua": "Повернення квитка"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "en": "Non-refundable",
+                    "ua": "Тариф поверненню не підлягає"
                 },
                 "needToPay": "notAvailable"
             },
@@ -1009,11 +1021,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "ua": "Обмін квитка"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со сбором и доплатой возможной разницы в тарифах",
-                    "en": "Exchangeable with a fee plus fare difference"
+                    "en": "Exchangeable with a fee plus fare difference",
+                    "ua": "Обмін квитка зі штрафом та доплатою можливої різниці в тарифах"
                 },
                 "needToPay": "charge"
             }
@@ -1029,7 +1043,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Избранный",
-                    "en": "Select"
+                    "en": "Select",
+                    "ua": "Select"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1041,11 +1056,12 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 места",
-                    "en": "2 items"
+                    "en": "2 items",
+                    "ua": "2 місця"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "1 item up to 23 kg and 56x45x25 cm plus 1 handbag/laptop bag up to 23 kg and 40x30x15 cm"
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -1053,7 +1069,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "ua": "1 місце до 23 кг"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1065,11 +1082,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "ua": "Повернення квитка"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сбором",
-                    "en": "Refundable with a fee"
+                    "en": "Refundable with a fee",
+                    "ua": "Повернення квитка зі штрафом"
                 },
                 "needToPay": "charge"
             },
@@ -1077,11 +1096,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "ua": "Обмін квитка"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен с доплатой возможной разницы в тарифах",
-                    "en": "Exchangeable with fare difference"
+                    "en": "Exchangeable with fare difference",
+                    "ua": "Обмін квитка з доплатою можливої різниці в тарифах"
                 },
                 "needToPay": "free"
             }
@@ -1097,7 +1118,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Плюс Гибкий",
-                    "en": "PlusFlex"
+                    "en": "PlusFlex",
+                    "ua": "PlusFlex"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1109,11 +1131,12 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 места",
-                    "en": "2 items"
+                    "en": "2 items",
+                    "ua": "2 місця"
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "1 item up to 23 kg and 56x45x25 cm plus 1 handbag/laptop bag up to 23 kg and 40x30x15 cm"
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -1121,7 +1144,8 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "ua": "1 місце до 23 кг"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1133,11 +1157,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "ua": "Повернення квитка"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен",
-                    "en": "Refundable"
+                    "en": "Refundable",
+                    "ua": "Квиток підлягає поверненню"
                 },
                 "needToPay": "free"
             },
@@ -1145,11 +1171,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "ua": "Обмін квитка"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен с доплатой возможной разницы в тарифах",
-                    "en": "Exchangeable with fare difference"
+                    "en": "Exchangeable with fare difference",
+                    "ua": "Обмін квитка з доплатою можливої різниці в тарифах"
                 },
                 "needToPay": "free"
             }

@@ -9,7 +9,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Гибкий",
-                    "en": "Flex"
+                    "en": "Flex",
+                    "ua": "Гнучкий"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -21,11 +22,13 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 12 кг",
-                    "en": "1 item up to 12 kg"
+                    "en": "1 item up to 12 kg",
+                    "ua": "1 місце до 12 кг"
                 },
                 "fullDescription": {
                     "ru": "1 место ручной клади, до 55 x 35 x 25 см + 1 аксессуар, например, легкий чемодан, портфель или ноутбук, до 40 x 30 x 15 см. Общий вес не должен превышать 12 кг. Для ребенка в возрасте до 2 лет, который будет путешествовать без места, разрешено провезти 1 место ручной клади, содержащей предметы по уходу за ребенком, вес которого не должен превышать 12 кг и габариты которого не должны превышать 55 x 35 x 25 см",
-                    "en": "1 cabin bag (55x35x25 cm) + 1 accessory, e.g. a handbag, briefcase or laptop (40x30x15 cm) — up to 12 kg in total"
+                    "en": "1 cabin bag (55x35x25 cm) + 1 accessory, e.g. a handbag, briefcase or laptop (40x30x15 cm) — up to 12 kg in total",
+                    "ua": "1 місце ручної поклажі, до 55 x 35 x 25 см + 1 аксесуар, наприклад, легка валіза, портфель або ноутбук, до 40 x 30 x 15 см. Загальна вага не повинна перевищувати 12 кг. Для дитини у віці до 2 років, яка буде подорожувати без місця, дозволено 1 місце ручної поклажі, що містить предмети по догляду за дитиною, вага якого не повинна перевищувати 12 кг і габарити до 55 x 35 x 25 см"
                 },
                 "needToPay": "free"
             },
@@ -33,11 +36,13 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "ua": "1 місце до 23 кг"
                 },
                 "fullDescription": {
                     "ru": "1 место до 23 кг — сумма измерений по длине, ширине и высоте места не должна превышать 158 см. На межконтинентальных рейсах условия провозки багажа могут отличаться",
-                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm. There might be different baggage allowance in case of intercontinental flights, please check the fare rules"
+                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm. There might be different baggage allowance in case of intercontinental flights, please check the fare rules",
+                    "ua": "1 місце до 23 кг — сума вимірів по довжині, ширині та висоті місця не повинна перевищувати 158 см. На міжконтинентальних рейсах правила перевезення багажу можуть відрізнятися"
                 },
                 "needToPay": "free"
             },
@@ -45,11 +50,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "ua": "Повернення квитка"
                 },
                 "fullDescription": {
                     "ru": "Возврат стоимости при отмене; предусматривается возмещение, если пассажир пропустил свой рейс. На межконтинентальных рейсах условия возврата могут отличаться",
-                    "en": "Refund if you decide to cancel; refund if you missed your flight. The rule might work differently for intercontinental flights"
+                    "en": "Refund if you decide to cancel; refund if you missed your flight. The rule might work differently for intercontinental flights",
+                    "ua": "Повернення вартості при відміні; передбачено відшкодування, якщо пасажир пропустив свій рейс. На міжконтинентальних рейсах правила повернення можуть відрізнятися"
                 },
                 "needToPay": "free"
             },
@@ -57,11 +64,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "ua": "Обмін квитка"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен. На межконтинентальных рейсах условия обмена могут отличаться",
-                    "en": "Exchangeable. The rule might work differently for intercontinental flights"
+                    "en": "Exchangeable. The rule might work differently for intercontinental flights",
+                    "ua": "Обмін квитка дозволено. На міжконтинентальних рейсах правила обміну можуть відрізнятися"
                 },
                 "needToPay": "free"
             }
@@ -77,7 +86,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Стандартный",
-                    "en": "Standard"
+                    "en": "Standard",
+                    "ua": "Стандарт"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -89,11 +99,13 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 12 кг",
-                    "en": "1 item up to 12 kg"
+                    "en": "1 item up to 12 kg",
+                    "ua": "1 місце до 12 кг"
                 },
                 "fullDescription": {
                     "ru": "1 место ручной клади, до 55 x 35 x 25 см + 1 аксессуар, например, легкий чемодан, портфель или ноутбук, до 40 x 30 x 15 см. Общий вес не должен превышать 12 кг. Для ребенка в возрасте до 2 лет, который будет путешествовать без места, разрешено провезти 1 место ручной клади, содержащей предметы по уходу за ребенком, вес которого не должен превышать 12 кг и габариты которого не должны превышать 55 x 35 x 25 см",
-                    "en": "1 cabin bag (55x35x25 cm) + 1 accessory, e.g. a handbag, briefcase or laptop (40x30x15 cm) — up to 12 kg in total"
+                    "en": "1 cabin bag (55x35x25 cm) + 1 accessory, e.g. a handbag, briefcase or laptop (40x30x15 cm) — up to 12 kg in total",
+                    "ua": "1 місце ручної поклажі, до 55 x 35 x 25 см + 1 аксесуар, наприклад, легка валіза, портфель або ноутбук, до 40 x 30 x 15 см. Загальна вага не повинна перевищувати 12 кг. Для дитини у віці до 2 років, яка буде подорожувати без місця, дозволено 1 місце ручної поклажі, що містить предмети по догляду за дитиною, вага якого не повинна перевищувати 12 кг і габарити до 55 x 35 x 25 см"
                 },
                 "needToPay": "free"
             },
@@ -101,11 +113,13 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "en": "1 item up to 23 kg",
+                    "ua": "1 місце до 23 кг"
                 },
                 "fullDescription": {
                     "ru": "1 место до 23 кг — сумма измерений по длине, ширине и высоте места не должна превышать 158 см. На межконтинентальных рейсах условия провозки багажа могут отличаться",
-                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm. There might be different baggage allowance in case of intercontinental flights, please check the fare rules"
+                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm. There might be different baggage allowance in case of intercontinental flights, please check the fare rules",
+                    "ua": "1 місце до 23 кг — сума вимірів по довжині, ширині та висоті місця не повинна перевищувати 158 см. На міжконтинентальних рейсах правила перевезення багажу можуть відрізнятися"
                 },
                 "needToPay": "free"
             },
@@ -113,11 +127,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "ua": "Повернення квитка"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета не разрешен. На межконтинентальных рейсах условия возврата могут отличаться",
-                    "en": "Non-refundable. The rule might work differently for intercontinental flights"
+                    "en": "Non-refundable. The rule might work differently for intercontinental flights",
+                    "ua": "Квиток поверненню не підлягає. На міжконтинентальних рейсах правила повернення можуть відрізнятися"
                 },
                 "needToPay": "notAvailable"
             },
@@ -125,11 +141,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "ua": "Обмін квитка"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета разрешен со штрафом. На межконтинентальных рейсах условия обмена могут отличаться",
-                    "en": "Exchangeable with a fee. The rule might work differently for intercontinental flights"
+                    "en": "Exchangeable with a fee. The rule might work differently for intercontinental flights",
+                    "ua": "Обмін квитка дозволено зі штрафом. На міжконтинентальних рейсах правила обміну можуть відрізнятися"
                 },
                 "needToPay": "charge"
             }
@@ -145,7 +163,8 @@
                 "code": "description",
                 "shortDescription": {
                     "ru": "Легкий",
-                    "en": "Light"
+                    "en": "Light",
+                    "ua": "Легкий"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -157,11 +176,13 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "1 место до 12 кг",
-                    "en": "1 item up to 12 kg"
+                    "en": "1 item up to 12 kg",
+                    "ua": "1 місце до 12 кг"
                 },
                 "fullDescription": {
                     "ru": "1 место ручной клади, до 55 x 35 x 25 см + 1 аксессуар, например, легкий чемодан, портфель или ноутбук, до 40 x 30 x 15 см. Общий вес не должен превышать 12 кг. Для ребенка в возрасте до 2 лет, который будет путешествовать без места, разрешено провезти 1 место ручной клади, содержащей предметы по уходу за ребенком, вес которого не должен превышать 12 кг и габариты которого не должны превышать 55 x 35 x 25 см",
-                    "en": "1 cabin bag (55x35x25 cm) + 1 accessory, e.g. a handbag, briefcase or laptop (40x30x15 cm) — up to 12 kg in total"
+                    "en": "1 cabin bag (55x35x25 cm) + 1 accessory, e.g. a handbag, briefcase or laptop (40x30x15 cm) — up to 12 kg in total",
+                    "ua": "1 місце ручної поклажі, до 55 x 35 x 25 см + 1 аксесуар, наприклад, легка валіза, портфель або ноутбук, до 40 x 30 x 15 см. Загальна вага не повинна перевищувати 12 кг. Для дитини у віці до 2 років, яка буде подорожувати без місця, дозволено 1 місце ручної поклажі, що містить предмети по догляду за дитиною, вага якого не повинна перевищувати 12 кг і габарити до 55 x 35 x 25 см"
                 },
                 "needToPay": "free"
             },
@@ -169,11 +190,13 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "Платный",
-                    "en": "No free baggage allowance"
+                    "en": "No free baggage allowance",
+                    "ua": "За додаткову плату"
                 },
                 "fullDescription": {
                     "ru": "Только ручная кладь. На межконтинентальных рейсах условия провозки багажа могут отличаться",
-                    "en": "Flights within Europe — no free baggage allowance. There might be different baggage allowance in case of intercontinental flights, please check the fare rules"
+                    "en": "Flights within Europe — no free baggage allowance. There might be different baggage allowance in case of intercontinental flights, please check the fare rules",
+                    "ua": "Тільки ручна поклажа. На міжконтинентальних рейсах правила перевезення багажу можуть відрізнятися"
                 },
                 "needToPay": "charge"
             },
@@ -181,11 +204,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund"
+                    "en": "Refund",
+                    "ua": "Повернення квитка"
                 },
                 "fullDescription": {
                     "ru": "Возврат билета не разрешен. На межконтинентальных рейсах условия возврата могут отличаться",
-                    "en": "Non-refundable. The rule might work differently for intercontinental flights"
+                    "en": "Non-refundable. The rule might work differently for intercontinental flights",
+                    "ua": "Квиток поверненню не підлягає. На міжконтинентальних рейсах правила повернення можуть відрізнятися"
                 },
                 "needToPay": "notAvailable"
             },
@@ -193,11 +218,13 @@
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "en": "Exchange",
+                    "ua": "Обмін квитка"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета не разрешен. На межконтинентальных рейсах условия обмена могут отличаться",
-                    "en": "Non-exchangeable. The rule might work differently for intercontinental flights"
+                    "en": "Non-exchangeable. The rule might work differently for intercontinental flights",
+                    "ua": "Квиток обміну не підлягає. На міжконтинентальних рейсах правила обміну можуть відрізнятися"
                 },
                 "needToPay": "notAvailable"
             }

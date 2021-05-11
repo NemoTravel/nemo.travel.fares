@@ -132,8 +132,8 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Изменение даты, времени, номера рейса разрешено без удержания",
-                    "en": "Exchangeable. No fee applies"
+                    "ru": "Изменение даты, времени, номера рейса до вылета разрешено без удержания.  В случае неявки на рейс изменения разрешены со штрафом",
+                    "en": "Exchangeable before departure with no fee. In case of no-show exchange is permitted with a fee"
                 },
                 "needToPay": "free"
             }
