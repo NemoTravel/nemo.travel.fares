@@ -275,22 +275,8 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund before departure",
-                    "de": "Ticketrückerstattung"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета после вылета",
-                    "en": "Refund after departure",
+                    "ru": "Возврат билета",
+                    "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
@@ -388,22 +374,8 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund before departure",
-                    "de": "Ticketrückerstattung"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета после вылета",
-                    "en": "Refund after departure",
+                    "ru": "Возврат билета",
+                    "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
@@ -475,16 +447,16 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета разрешен со сбором",
-                    "en": "Refundable",
+                    "ru": "Возврат билета",
+                    "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный.Возврат билета до вылета разрешен со сбором",
-                    "en": "Ticket refund is allowed before departure with additional charges",
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable",
                     "de": "Fare ist völlig nicht rückzahlbar"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "baggage",
@@ -514,14 +486,28 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета разрешен со сбором",
-                    "en": "Exchangeable",
+                    "ru": "Обмен билета до вылета",
+                    "en": "Exchange before departure",
                     "de": "Ticketbörse"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со сбором",
+                    "ru": "Обмен билета разрешен со сборами",
                     "en": "Ticket exchange is allowed with additional charges",
-                    "de": "Ticketbörse ist gegen Aufpreis erlaubt"
+                    "de": "Nicht austauschbar"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета после вылета",
+                    "en": "Exchange after departure",
+                    "de": "Ticketbörse"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сборами",
+                    "en": "Ticket exchange is allowed with additional charges",
+                    "de": "Nicht austauschbar"
                 },
                 "needToPay": "charge"
             }
@@ -580,8 +566,8 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Ticket refund is allowed with additional charges",
+                    "ru": "Возврат билета до вылета разрешен со сбором",
+                    "en": "Ticket refund is allowed before departure with additional charges",
                     "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "charge"
@@ -594,8 +580,8 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Ticket refund is allowed with additional charges",
+                    "ru": "Возврат билета после вылета не разрешен",
+                    "en": "Non-refundable after departure",
                     "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
                 },
                 "needToPay": "notAvailable"
