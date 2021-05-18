@@ -3,7 +3,7 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[A-Z](LT)(OW|RT|PRO|OLT00)$",
+        "tariffCodePattern": "^([A-Z]LT(OW|RT|PRO))|([A-Z]LT[A-Z]LT00)$",
         "parameters": [
             {
                 "code": "description",
