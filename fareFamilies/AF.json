@@ -83,7 +83,7 @@
         "owner": "AF",
         "baseClass": "economy",
         "priority": 6,
-        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(SF|FF|FFW|FX)\\w*$",
+        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(FF|FFW|FX)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -231,7 +231,7 @@
         "owner": "AF",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(ST)\\w*$",
+        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(SF)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -299,7 +299,7 @@
         "owner": "AF",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXGTSES]\\w*(LG)\\w*$",
+        "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXGTSES]\\w*(LF)\\w*$",
         "parameters": [
             {
                 "code": "description",
