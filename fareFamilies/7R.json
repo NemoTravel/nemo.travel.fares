@@ -518,7 +518,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[EWQ](NBCOW|OW)$",
+        "tariffCodePattern": "^([EWQ](NBCOW|OW))|([IZDCJAFPR](FMBT))$",
         "parameters": [
             {
                 "code": "description",

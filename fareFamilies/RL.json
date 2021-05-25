@@ -1,0 +1,90 @@
+[
+    {
+        "owner": "RL",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[AOEUXVTQNMLKHBSWT](FL)(OW|RT)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Flight",
+                    "en": "Flight"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место ручной клади для пассажиров экономического класса не должно превышать по сумме трех измерений 90 см (40 х 30 х 20) и вес 5 кг. На рейсах в (из) Сочи, Анапу, Минеральные Воды — вес 10 кг",
+                    "en": "The sum of three dimensions of one piece of hand baggage for economy class passengers must not exceed 90 cm (40 x 30 x 20) and weigh up to 5 kg. On flights to/from Sochi, Anapa, Mineralnye Vody — up to 10 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "1 место зарегистрированного багажа для пассажиров экономического класса не должно превышать по сумме трех измерений 203 см и вес 10 кг. На рейсах в (из) Сочи, Анапу, Минеральные Воды бесплатный провоз багажа не предоставляется",
+                    "en": "The sum of three dimensions of one piece of checked baggage for economy class passengers must not exceed 203 cm and weigh up to 10 kg. On flights to/from Sochi, Anapa, Mineralnye Vody tariff does not include free transportation of baggage"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "RL",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[AOEUXVTQNMLKHBSWT](RL)(OW|RT)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Royal",
+                    "en": "Royal"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место ручной клади для пассажиров экономического класса не должно превышать по сумме трех измерений 90 см (40 х 30 х 20) и вес 10 кг. На рейсах в (из) Сочи, Анапу, Минеральные Воды — вес 5 кг",
+                    "en": "The sum of three dimensions of one piece of hand baggage for economy class passengers must not exceed 90 cm (40 x 30 x 20) and weigh up to 10 kg. On flights to/from Sochi, Anapa, Mineralnye Vody — up to 5 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место зарегистрированного багажа для пассажиров экономического класса не должно превышать по сумме трех измерений 203 см и вес 30 кг. На рейсах в (из) Сочи, Анапу, Минеральные Воды — вес 23 кг",
+                    "en": "The sum of three dimensions of one piece of checked baggage for economy class passengers must not exceed 203 cm and weigh up to 30 kg. On flights to/from Sochi, Anapa, Mineralnye Vody — up to 23 kg"
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

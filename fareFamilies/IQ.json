@@ -75,7 +75,7 @@
         "priority": 3,
         "flightTimeSince": "2021-03-28T00:00:00",
         "flightTimeUntil": "2023-03-28T00:00:00",
-        "tariffCodePattern": "^[OIQETSMLKHBY](OW|RT)\\w*$",
+        "tariffCodePattern": "^[OIQETSMLKHB](OW|RT)\\w*$",
         "parameters": [
             {
                 "code": "description",
