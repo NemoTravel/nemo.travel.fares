@@ -82,14 +82,82 @@
   {
     "owner": "AF",
     "baseClass": "economy",
-    "priority": 8,
-    "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(NF)\\w*$",
+    "priority": 10,
+    "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(ENF)\\w*$",
     "parameters": [
       {
         "code": "description",
         "shortDescription": {
-          "ru": "Премиум",
-          "en": "Premium"
+          "ru": "Эконом премиум",
+          "en": "Econom premium"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "2 места общим весом до 18 кг",
+          "en": "2 items up to 18 kg in total"
+        },
+        "fullDescription": {
+          "ru": "2 места ручной клади, каждое до 55 x 35 x 25 см + 1 аксессуар, например, легкий чемодан, портфель или ноутбук, до 40 x 30 x 15 см. Общий вес не должен превышать 18 кг. Для ребенка в возрасте до 2 лет, который будет путешествовать без места, разрешено провезти 1 место ручной клади, содержащей предметы по уходу за ребенком, вес которого не должен превышать 12 кг и габариты которого не должны превышать 55 x 35 x 25 см",
+          "en": "2 cabin bags (55x35x25 cm each) + 1 accessory, e.g. a handbag, briefcase or laptop (40x30x15 cm) — up to 18 kg in total"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "2 места до 23 кг каждое",
+          "en": "2 items up to 23 kg each"
+        },
+        "fullDescription": {
+          "ru": "2 места регистрируемого багажа: сумма измерений по длине, ширине и высоте каждого места не должна превышать 158 см, а вес каждого места багажа не должен превышать 23 кг",
+          "en": "2 items up to 23 kg each, total linear dimension — up to 158 cm each"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен со сборами. Для подклассов Y, B, M возврат билета разрешен без сборов. На межконтинентальных рейсах условия возврата могут отличаться",
+          "en": "Refundable. A fee applies (except Y, B, M fare classes). The rule might work differently for intercontinental flights"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета",
+          "en": "Exchange"
+        },
+        "fullDescription": {
+          "ru": "Обмен билета разрешен со сборами. На межконтинентальных рейсах условия обмена могут отличаться",
+          "en": "Exchangeable. A fee applies. The rule might work differently for intercontinental flights"
+        },
+        "needToPay": "charge"
+      }
+    ]
+  },
+  {
+    "owner": "AF",
+    "baseClass": "economy",
+    "priority": 8,
+    "tariffCodePattern": "^[YPFBMUKHLTWSAQENRVXG]\\w*(CNF)\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Эконом премиум",
+          "en": "Econom premium"
         },
         "fullDescription": {
           "ru": "",
