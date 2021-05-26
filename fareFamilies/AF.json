@@ -128,10 +128,10 @@
           "en": "Refund"
         },
         "fullDescription": {
-          "ru": "Возврат билета разрешен со сборами. Для подклассов Y, B, M возврат билета разрешен без сборов. На межконтинентальных рейсах условия возврата могут отличаться",
-          "en": "Refundable. A fee applies (except Y, B, M fare classes). The rule might work differently for intercontinental flights"
+          "ru": "Возврат билета разрешен без сборов",
+          "en": "Refundable. No fee applies"
         },
-        "needToPay": "charge"
+        "needToPay": "free"
       },
       {
         "code": "exchangeable",
@@ -196,10 +196,10 @@
           "en": "Refund"
         },
         "fullDescription": {
-          "ru": "Возврат билета не разрешен. На межконтинентальных рейсах условия возврата могут отличаться",
-          "en": "Non-refundable. The rule might work differently for intercontinental flights"
+          "ru": "Возврат билета разрешен со сборами. Для подклассов Y, B, M возврат билета разрешен без сборов. На межконтинентальных рейсах условия возврата могут отличаться",
+          "en": "Refundable. A fee applies (except Y, B, M fare classes). The rule might work differently for intercontinental flights"
         },
-        "needToPay": "notAvailable"
+        "needToPay": "charge"
       },
       {
         "code": "exchangeable",
