@@ -91,7 +91,7 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[A-Z](EC)(OW|RT|PRO)\\w*$",
+        "tariffCodePattern": "^[A-Z](EC)(OW|RT|PRO|([A-Z](EC88)))$",
         "parameters": [
             {
                 "code": "description",
@@ -311,7 +311,7 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[A-Z](ST|CH)(OW|RT|HST88|OWTR1|OW1)$",
+        "tariffCodePattern": "^[A-Z](ST|CH)(OW|RT|PRO|OWTR1|OW1|([A-Z](ST88)))$",
         "parameters": [
             {
                 "code": "description",

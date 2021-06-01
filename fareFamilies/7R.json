@@ -518,7 +518,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([EWQ](NBCOW|OW))|([IZDCJAFPR](FMBT))$",
+        "tariffCodePattern": "^[EWQ](NBCOW|OW)$",
         "parameters": [
             {
                 "code": "description",
@@ -617,7 +617,7 @@
         "owner": "7R",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^(([NKEWQBSMHOLUG](BGNNROW|BGNNOW|BGOW\\d*))|[AO](BST)|[XVTQNHM](FMT))$",
+        "tariffCodePattern": "^([NKEWQBSMHOLUG](BGNNROW|BGNNOW|BGOW\\d*)|[XVTQNHM](FMT))$",
         "parameters": [
             {
                 "code": "description",
@@ -707,6 +707,154 @@
                 "fullDescription": {
                     "ru": "",
                     "en": ""
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "7R",
+        "baseClass": "business",
+        "priority": 6,
+        "tariffCodePattern": "^([AOXVTQNHM](BST)|[IZDCJAFPR](FMBT))$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Business",
+                    "de": "Premium"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место не более 5 кг с габаритами, не превышающими размеры 55*40*25 см",
+                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 55x40x25 cm",
+                    "de": "1 Handgepäckstück bis 10 kg, maximale Abmessungen 55x40x20cm"
+                },
+                "fullDescription": {
+                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 55*40*25 см",
+                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 55x40x25 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место весом до 25 кг. Габариты 1 места багажа не должны превышать 203 см по сумме 3-х измерений",
+                    "en": "1 baggage piece up to 25 kg and with dimensions not exceeding 203 cm (LxWxH)",
+                    "de": "1 Gepäckstück bis 32 kg, Summe der Abmessungen (L+B+H) darf 203 cm nicht überschreiten"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом до 25 кг",
+                    "en": "1 baggage piece up to 25 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат до вылета",
+                    "en": "Refund before departure",
+                    "de": "Rückgabe vor und nach dem Abflug sind kostenpflichtig"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до вылета в данном тарифе недоступен",
+                    "en": "Refund before departure is not available in this fare"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения до вылета в данном тарифе недоступен",
+                    "en": "Changes before departure are not available in this fare"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после вылета в данном тарифе недоступен",
+                    "en": "Refund after departure is not available in this fare"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Обслуживание в бизнес залах (при наличии таких возможностей в аэропорту вылета)",
+                    "en": "Business lounge service (if such service is available at the airport of departure)",
+                    "de": "Nutzung der Business-Lounge (je nach Verfügbarkeit am Abflughafen)"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Регистрация пассажиров на стойках бизнес класса",
+                    "en": "Check-in at Business Class counters",
+                    "de": "Anmeldung der Fluggäste an Business-Class-Schaltern"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доставка к терминалу/к трапу самолета отдельным транспортов (при наличии таких возможностей в аэропорту вылета)",
+                    "en": "Transportation to the terminal/aircraft by a separate vehicle (if such service is available at the airport of departure)",
+                    "de": "Privater Transfer zum Terminal/Flugzeug (Je nach Verfügbarkeit am Abflughafen)"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Отдельный ассортимент питания и напитков",
+                    "en": "Separate range of meals and beverages",
+                    "de": "Erweiterte Getränke- und Speisekarte"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после вылета в данном тарифе недоступен",
+                    "en": "Changes after departure are not available in this fare"
                 },
                 "needToPay": "notAvailable"
             }
