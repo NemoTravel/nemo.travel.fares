@@ -131,7 +131,7 @@
         "owner": "LH",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^((YFF)\\d\\d..)$|^(\\w*\\d*(FLX))\\w*\\d*$",
+        "tariffCodePattern": "^(\\w*\\d*(FLX))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
@@ -576,7 +576,7 @@
         "owner": "LH",
         "baseClass": "business",
         "priority": 5,
-        "tariffCodePattern": "^((JFF)\\d\\d..)$|^(\\w*\\d*(BUZ))\\w*\\d*$",
+        "tariffCodePattern": "^(\\w*\\d*(BUZ))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
