@@ -124,12 +124,12 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 8 кг",
-                    "en": "1 item up to 8 kg"
+                    "ru": "1 место до 12 кг",
+                    "en": "1 item up to 12 kg"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатно доступно одно место ручной клади (один чемодан) и одна сумка общим весом не более 8 кг",
-                    "en": "Two pieces of luggage (one suitcase and one bag) are available free of charge with total weight not exceeding 8 kg"
+                    "ru": "Бесплатно доступно одно место ручной клади (один чемодан) и одна сумка общим весом не более 12 кг",
+                    "en": "Two pieces of luggage (one suitcase and one bag) are available free of charge with total weight not exceeding 12 kg"
                 },
                 "needToPay": "free"
             },
@@ -204,24 +204,24 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 места до 8 кг каждая",
-                    "en": "2 pieces up to 8 kg each"
+                    "ru": "1 место до 12 кг",
+                    "en": "1 item up to 12 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Бесплатно доступно одно место ручной клади (один чемодан) и одна сумка общим весом не более 12 кг",
+                    "en": "Two pieces of luggage (one suitcase and one bag) are available free of charge with total weight not exceeding 12 kg"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
+                    "ru": "1 чемодан, 23 кг",
+                    "en": "1 bag, 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Бесплатно доступна провозка одного чемодана весом до 23 кг",
+                    "en": "1 bag weighing up to 23 kg is available to carry free of charge"
                 },
                 "needToPay": "free"
             },
@@ -286,159 +286,6 @@
                 "needToPay": "free"
             }
         ]
-    },     {
-        "owner": "LH",
-        "baseClass": "business",
-        "priority": 5,
-        "tariffCodePattern": "^(\\w*\\d*(BXX))\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Бизнес Легкий",
-                    "en": "Business Saver"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Предварительное бронирование места",
-                    "en": "Seat Reservation"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатное резервирование мест",
-                    "en": "Seat reservation — available"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "2 места до 8 кг каждое",
-                    "en": "2 pieces up to 8 kg each",
-                    "de": "2 Beutel bis 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each",
-                    "de": "2 Beutel bis 32 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Полное меню",
-                    "en": "Meal & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в зал ожидания",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Свободное место рядом",
-                    "en": "Empty Middle Seat"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатное резервирование мест со свободными местами рядом",
-                    "en": "Seat reservation with empty middle seat — available"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения до вылета",
-                    "en": "Rebooking"
-                },
-                "fullDescription": {
-                    "ru": "Перебронирование не разрешено",
-                    "en": "Rebooking — not available"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "Мили HON Circle",
-                    "en": "HON Circle Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации на рейс",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритет в аэропорту",
-                    "en": "Priority Check-in, Baggage Handling and Boarding"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
     },
     {
         "owner": "SN",
@@ -461,12 +308,12 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 8 кг",
-                    "en": "1 item up to 8 kg"
+                    "ru": "1 место до 12 кг",
+                    "en": "1 item up to 12 kg"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатно доступно одно место багажа (один чемодан) и одна сумка общим весом не более 8 кг",
-                    "en": "Two pieces of luggage (one suitcase and one bag) are available free of charge with total weight not exceeding 8 kg"
+                    "ru": "Бесплатно доступно одно место багажа (один чемодан) и одна сумка общим весом не более 12 кг",
+                    "en": "Two pieces of luggage (one suitcase and one bag) are available free of charge with total weight not exceeding 12 kg"
                 },
                 "needToPay": "free"
             },
@@ -519,86 +366,5 @@
                 "needToPay": "charge"
             }
         ]
-    },
-
-    {
-        "owner": "SN",
-        "baseClass": "economy",
-        "priority": 6,
-        "tariffCodePattern": "^(\\w*\\d*(FLX))\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Гибкий",
-                    "en": "Flex"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "до 8 кг",
-                    "en": "up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатно доступно одно место багажа (один чемодан) и одна сумка общим весом не более 8 кг",
-                    "en": "Two pieces of luggage (one suitcase and one bag) are available free of charge with total weight not exceeding 8 kg"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 чемодан, 23 кг",
-                    "en": ""
-                },
-                "fullDescription": {
-                    "ru": "Бесплатно доступна провозка одного чемодана весом до 23 кг",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения до вылета",
-                    "en": "Rebooking"
-                },
-                "fullDescription": {
-                    "ru": "Перебронирование разрешено без сборов",
-                    "en": "Rebooking — available. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту самолета",
-                    "en": "Meal service"
-                },
-                "fullDescription": {
-                    "ru": "Питание на борту самолета доступно за дополнительную плату",
-                    "en": "Meals available for an extra charge"
-                },
-                "needToPay": "charge"
-            }
-        ]
     }
-    ]
+]
