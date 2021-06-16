@@ -444,7 +444,7 @@
         "owner": "SN",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^(\\w*(CL))\\w*$",
+        "tariffCodePattern": "^(\\w*(CL))\\w*$|^(\\w*\\d*(LGT))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
