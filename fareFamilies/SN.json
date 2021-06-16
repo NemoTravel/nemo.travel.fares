@@ -205,7 +205,7 @@
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 места до 8 кг каждое",
-                    "en": "2 pieces up to 8 kg each",
+                    "en": "2 pieces up to 8 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -217,7 +217,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each",
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -444,7 +444,7 @@
         "owner": "SN",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^(\\w*(CL))\\w*$|^(\\w*\\d*(LGT))\\w*\\d*$",
+        "tariffCodePattern": "^(\\w*(CL))\\w*$",
         "parameters": [
             {
                 "code": "description",
