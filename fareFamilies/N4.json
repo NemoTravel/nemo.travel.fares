@@ -471,7 +471,7 @@
         "owner": "N4",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^(IOMSAOW)$",
+        "tariffCodePattern": "^(YOMSAOW)$",
         "parameters": [
             {
                 "code": "description",
