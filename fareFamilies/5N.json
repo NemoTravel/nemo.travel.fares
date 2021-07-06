@@ -395,13 +395,13 @@
     "owner": "5N",
     "baseClass": "economy",
     "priority": 10,
-    "tariffCodePattern": "^\\w*(SOC10)\\w*$",
+    "tariffCodePattern": "^\\w*(SOC)\\w*$",
     "parameters": [
       {
         "code": "description",
         "shortDescription": {
-          "ru": "Smart",
-          "en": "Smart"
+          "ru": "Smart SOC",
+          "en": "Smart SOC"
         },
         "fullDescription": {
           "ru": "",
