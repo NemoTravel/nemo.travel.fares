@@ -1,314 +1,486 @@
 [
-    {
-        "owner": "5N",
-        "baseClass": "economy",
-        "priority": 5,
-        "tariffCodePattern": "^\\w*(LT)\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Лайт",
-                    "en": "Light"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "До 10 кг",
-                    "en": "Up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг, габариты менее 40х30х20 см",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 40х30х20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Добровольный возврат при снятии мест не разрешен",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета до вылета",
-                    "en": "Exchange Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Добровольный обмен при снятии мест до вылета разрешен со сбором",
-                    "en": "Exchangeable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета после вылета",
-                    "en": "Exchange After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Добровольный обмен при снятии мест после вылета не разрешен",
-                    "en": "Non-exchangeable after departure"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Открытая дата обратного вылета",
-                    "en": "Open Return Date"
-                },
-                "fullDescription": {
-                    "ru": "Открытая дата обратного вылета не разрешена",
-                    "en": "Open return date is not available"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Meal"
-                },
-                "fullDescription": {
-                    "ru": "Питание на борту предоставляется",
-                    "en": "Complimentary meal"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "5N",
-        "baseClass": "economy",
-        "priority": 10,
-        "tariffCodePattern": "^\\w*(ST)\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Стандарт",
-                    "en": "Standard"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "До 10 кг",
-                    "en": "Up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг, габариты менее 40х30х20 см",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 40х30х20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 23 кг, габариты менее 203 см",
-                    "en": "1 item up to 23 kg, total linear dimension — up to 203 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Добровольный возврат при снятии мест не разрешен",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета до вылета",
-                    "en": "Exchange Before departure"
-                },
-                "fullDescription": {
-                    "ru": "Добровольный обмен при снятии мест до вылета разрешен со сбором",
-                    "en": "Exchangeable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета после вылета",
-                    "en": "Exchange After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Добровольный обмен при снятии мест после вылета разрешен со сбором",
-                    "en": "Exchangeable after departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Открытая дата обратного вылета",
-                    "en": "Open Return Date"
-                },
-                "fullDescription": {
-                    "ru": "Открытая дата обратного вылета не разрешена",
-                    "en": "Open return date is not available"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Meal"
-                },
-                "fullDescription": {
-                    "ru": "Питание на борту предоставляется",
-                    "en": "Complimentary meal"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "5N",
-        "baseClass": "economy",
-        "priority": 15,
-        "tariffCodePattern": "^\\w*(BS)\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Базовый",
-                    "en": "Basic"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "До 10 кг",
-                    "en": "Up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг, габариты менее 40х30х20 см",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 40х30х20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 23 кг, габариты менее 203 см",
-                    "en": "1 item up to 23 kg, total linear dimension — up to 203 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund before departure"
-                },
-                "fullDescription": {
-                    "ru": "Добровольный возврат при снятии мест до вылета разрешен со сбором",
-                    "en": "Refundable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета до вылета",
-                    "en": "Exchange Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Добровольный обмен при снятии мест до вылета разрешен",
-                    "en": "Exchangeable before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета после вылета",
-                    "en": "Exchange After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Добровольный обмен при снятии мест после вылета разрешен со сбором",
-                    "en": "Exchangeable after departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Открытая дата обратного вылета",
-                    "en": "Open Return Date"
-                },
-                "fullDescription": {
-                    "ru": "Открытая дата обратного вылета разрешена",
-                    "en": "Open return date is available"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Meal"
-                },
-                "fullDescription": {
-                    "ru": "Питание на борту предоставляется",
-                    "en": "Complimentary meal"
-                },
-                "needToPay": "free"
-            }
-        ]
-    }
+  {
+    "owner": "5N",
+    "baseClass": "economy",
+    "priority": 5,
+    "tariffCodePattern": "^\\w*(LT)\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Smart Light",
+          "en": "Smart Light"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "До 10 кг",
+          "en": "Up to 10 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 10 кг, габариты менее 40х30х20 см. На рейсах 5N 6101 - 6999 ручная кладь не должна превышать 5 кг",
+          "en": "1 item up to 10 kg, total linear dimension — up to 40х30х20 cm. Hand luggage must not exceed 5 kg for flights 5N 6101 - 6999"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "Платный",
+          "en": "No free baggage allowance"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Добровольный возврат при снятии мест не разрешен",
+          "en": "Non-refundable"
+        },
+        "needToPay": "notAvailable"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange Before Departure"
+        },
+        "fullDescription": {
+          "ru": "Добровольный обмен при снятии мест до вылета разрешен со сбором",
+          "en": "Exchangeable before departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета после вылета",
+          "en": "Exchange After Departure"
+        },
+        "fullDescription": {
+          "ru": "Добровольный обмен при снятии мест после вылета не разрешен",
+          "en": "Non-exchangeable after departure"
+        },
+        "needToPay": "notAvailable"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Открытая дата обратного вылета",
+          "en": "Open Return Date"
+        },
+        "fullDescription": {
+          "ru": "Открытая дата обратного вылета не разрешена",
+          "en": "Open return date is not available"
+        },
+        "needToPay": "notAvailable"
+      },
+      {
+        "code": "meal",
+        "shortDescription": {
+          "ru": "Питание на борту",
+          "en": "Meal"
+        },
+        "fullDescription": {
+          "ru": "Питание на борту предоставляется",
+          "en": "Complimentary meal"
+        },
+        "needToPay": "free"
+      }
+    ]
+  },
+  {
+    "owner": "5N",
+    "baseClass": "economy",
+    "priority": 10,
+    "tariffCodePattern": "^\\w*(ST)\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Smart",
+          "en": "Smart"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "До 10 кг",
+          "en": "Up to 10 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 10 кг, габариты менее 40х30х20 см",
+          "en": "1 item up to 10 kg, total linear dimension — up to 40х30х20 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "1 место до 23 кг",
+          "en": "1 item up to 23 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 23 кг, габариты менее 203 см",
+          "en": "1 item up to 23 kg, total linear dimension — up to 203 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Добровольный возврат при снятии мест не разрешен",
+          "en": "Non-refundable"
+        },
+        "needToPay": "notAvailable"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange Before departure"
+        },
+        "fullDescription": {
+          "ru": "Добровольный обмен при снятии мест до вылета разрешен со сбором",
+          "en": "Exchangeable before departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета после вылета",
+          "en": "Exchange After Departure"
+        },
+        "fullDescription": {
+          "ru": "Добровольный обмен при снятии мест после вылета разрешен со сбором",
+          "en": "Exchangeable after departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Открытая дата обратного вылета",
+          "en": "Open Return Date"
+        },
+        "fullDescription": {
+          "ru": "Открытая дата обратного вылета не разрешена",
+          "en": "Open return date is not available"
+        },
+        "needToPay": "notAvailable"
+      }
+    ]
+  },
+  {
+    "owner": "5N",
+    "baseClass": "economy",
+    "priority": 15,
+    "tariffCodePattern": "^\\w*(BS)\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Smart Pro",
+          "en": "Smart Pro"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "До 10 кг",
+          "en": "Up to 10 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 10 кг, габариты менее 40х30х20 см",
+          "en": "1 item up to 10 kg, total linear dimension — up to 40х30х20 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "1 место до 23 кг",
+          "en": "1 item up to 23 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 23 кг, габариты менее 203 см",
+          "en": "1 item up to 23 kg, total linear dimension — up to 203 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета до вылета",
+          "en": "Refund before departure"
+        },
+        "fullDescription": {
+          "ru": "Добровольный возврат при снятии мест до вылета разрешен со сбором",
+          "en": "Refundable before departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange Before Departure"
+        },
+        "fullDescription": {
+          "ru": "Добровольный обмен при снятии мест до вылета разрешен",
+          "en": "Exchangeable before departure. No fee applies"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета после вылета",
+          "en": "Exchange After Departure"
+        },
+        "fullDescription": {
+          "ru": "Добровольный обмен при снятии мест после вылета разрешен со сбором",
+          "en": "Exchangeable after departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Открытая дата обратного вылета",
+          "en": "Open Return Date"
+        },
+        "fullDescription": {
+          "ru": "Открытая дата обратного вылета разрешена",
+          "en": "Open return date is available"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "meal",
+        "shortDescription": {
+          "ru": "Питание на борту",
+          "en": "Meal"
+        },
+        "fullDescription": {
+          "ru": "Питание на борту предоставляется",
+          "en": "Complimentary meal"
+        },
+        "needToPay": "free"
+      }
+    ]
+  },
+  {
+    "owner": "5N",
+    "baseClass": "economy",
+    "priority": 10,
+    "tariffCodePattern": "^\\w*(ST)\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Smart",
+          "en": "Smart"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "До 10 кг",
+          "en": "Up to 10 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 10 кг, габариты менее 40х30х20 см",
+          "en": "1 item up to 10 kg, total linear dimension — up to 40х30х20 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "1 место до 23 кг",
+          "en": "1 item up to 23 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 23 кг, габариты менее 203 см",
+          "en": "1 item up to 23 kg, total linear dimension — up to 203 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Добровольный возврат при снятии мест не разрешен",
+          "en": "Non-refundable"
+        },
+        "needToPay": "notAvailable"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange Before departure"
+        },
+        "fullDescription": {
+          "ru": "Добровольный обмен при снятии мест до вылета разрешен со сбором",
+          "en": "Exchangeable before departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета после вылета",
+          "en": "Exchange After Departure"
+        },
+        "fullDescription": {
+          "ru": "Добровольный обмен при снятии мест после вылета разрешен со сбором",
+          "en": "Exchangeable after departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Открытая дата обратного вылета",
+          "en": "Open Return Date"
+        },
+        "fullDescription": {
+          "ru": "Открытая дата обратного вылета не разрешена",
+          "en": "Open return date is not available"
+        },
+        "needToPay": "notAvailable"
+      }
+    ]
+  },
+  {
+    "owner": "5N",
+    "baseClass": "economy",
+    "priority": 10,
+    "tariffCodePattern": "^\\w*(SOC10)\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Smart",
+          "en": "Smart"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "До 10 кг",
+          "en": "Up to 10 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 10 кг, габариты менее 40х30х20 см",
+          "en": "1 item up to 10 kg, total linear dimension — up to 40х30х20 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "1 место до 10 кг",
+          "en": "1 item up to 10 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 10 кг, габариты менее 203 см",
+          "en": "1 item up to 10 kg, total linear dimension — up to 203 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Добровольный возврат при снятии мест не разрешен",
+          "en": "Non-refundable"
+        },
+        "needToPay": "notAvailable"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета до вылета",
+          "en": "Exchange Before departure"
+        },
+        "fullDescription": {
+          "ru": "Добровольный обмен при снятии мест до вылета разрешен со сбором",
+          "en": "Exchangeable before departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Обмен билета после вылета",
+          "en": "Exchange After Departure"
+        },
+        "fullDescription": {
+          "ru": "Добровольный обмен при снятии мест после вылета разрешен со сбором",
+          "en": "Exchangeable after departure. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Открытая дата обратного вылета",
+          "en": "Open Return Date"
+        },
+        "fullDescription": {
+          "ru": "Открытая дата обратного вылета не разрешена",
+          "en": "Open return date is not available"
+        },
+        "needToPay": "notAvailable"
+      }
+    ]
+  }
 ]
