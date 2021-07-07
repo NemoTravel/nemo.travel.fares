@@ -139,7 +139,7 @@
         "owner": "HY",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^(\\w*(M))\\w[^NBLT]*$",
+        "tariffCodePattern": "^(\\w*(OW))*$",
         "parameters": [
             {
                 "code": "description",
