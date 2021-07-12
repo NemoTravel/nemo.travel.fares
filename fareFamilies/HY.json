@@ -3,13 +3,13 @@
         "owner": "HY",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^(\\w*(NB))\\w*$",
+        "tariffCodePattern": "^(XAC)|(XAN)$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Эконом",
-                    "en": "Economy"
+                    "ru": "Лайт",
+                    "en": "Light"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -32,7 +32,7 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "Платный",
+                    "ru": "Нет",
                     "en": "No free baggage allowance"
                 },
                 "fullDescription": {
@@ -71,13 +71,13 @@
         "owner": "HY",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^(\\w*(LT))\\w*$",
+        "tariffCodePattern": "^(XPY)|(XES)|(XEV)$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Лайт",
-                    "en": "Light"
+                    "ru": "Оптимум",
+                    "en": "Optimum"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -112,7 +112,7 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета до вылета",
+                    "ru": "Обмен билета до и после вылета",
                     "en": "Exchange before departure"
                 },
                 "fullDescription": {
@@ -128,10 +128,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "ru": "Возврат билета разрешен",
+                    "en": "Ticket refund is allowed"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             }
         ]
     },
@@ -139,13 +139,13 @@
         "owner": "HY",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^(\\w*(OW))*$",
+        "tariffCodePattern": "^(XAP)$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Эконом c багажом",
-                    "en": "Economy with baggage"
+                    "ru": "Эконом",
+                    "en": "Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -168,19 +168,19 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "Платный",
+                    "ru": "Нет",
                     "en": "No free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
                 },
-                "needToPay": "charge"
+                "needToPay": "charhe"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета до вылета",
+                    "ru": "Обмен билета до и после вылета",
                     "en": "Exchange before departure"
                 },
                 "fullDescription": {
@@ -192,16 +192,15 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund before departure"
+                    "ru": "Возврат билета",
+                    "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен со сбором только на ваучер",
-                    "en": "Ticket refund is allowed before departure with additional charges on voucher only"
+                    "ru": "Возврат билета разрешен",
+                    "en": "Ticket refund is allowed"
                 },
                 "needToPay": "charge"
             }
         ]
     }
-
 ]
