@@ -26,8 +26,8 @@
                     "de": "1 Handgepäckstück bis 10 kg, maximale Abmessungen 55x40x20cm"
                 },
                 "fullDescription": {
-                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см. Для направлений Москва - Белгород - Москва – 10 кг, 55*40*25 см",
-                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm. For Moscow - Belgorod - Moscow routes – 10 kg, 55x40x25 cm"
+                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см. Для следующих направлений 1 место 10 кг, 55*40*25 см: Москва - Воронеж/Пенза/Киров - Москва; Санкт-Петербург - Воронеж/Киров - Санкт-Петербург; Воронеж - Сочи - Воронеж",
+                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm. Or 1 item up to 10 kg 55x40x25 on routes: Moscow - Voronezh/Penza/Kirov - Moscow; StPetersburg - Voronezh/Kirov - StPetersburg, Voronezh - Sochi - Voronezh"
                 },
                 "needToPay": "free"
             },
@@ -47,26 +47,13 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат до вылета",
-                    "en": "Refund before departure",
-                    "de": "Rückgabe vor dem Abflug ist in diesem Tarif nicht verfügbar"
+                    "ru": "Возврат до и после вылета",
+                    "en": "Refund before and after departure",
+                    "de": "Rückgabe vor und nach dem Abflug ist in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
-                    "ru": "Возврат до вылета в данном тарифе недоступен",
-                    "en": "Refund before departure is not available in this fare"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат после вылета",
-                    "en": "Refund after departure",
-                    "de": "Rückgabe nach dem Abflug ist in diesem Tarif nicht verfügbar"
-                },
-                "fullDescription": {
-                    "ru": "Возврат после вылета в данном тарифе недоступен",
-                    "en": "Refund after departure is not available in this fare"
+                    "ru": "Возврат до и после вылета в данном тарифе недоступен",
+                    "en": "Refund before and after departure is not available in this fare"
                 },
                 "needToPay": "notAvailable"
             },
@@ -125,8 +112,8 @@
                     "de": "1 Handgepäckstück bis 10 kg, maximale Abmessungen 55x40x20cm"
                 },
                 "fullDescription": {
-                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см. Для направлений Москва - Белгород - Москва – 10 кг, 55*40*25 см",
-                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm. For Moscow - Belgorod - Moscow routes – 10 kg, 55x40x25 cm"
+                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см. Для следующих направлений 1 место 10 кг, 55*40*25 см: Москва - Воронеж/Пенза/Киров - Москва; Санкт-Петербург - Воронеж/Киров - Санкт-Петербург; Воронеж - Сочи - Воронеж",
+                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm. Or 1 item up to 10 kg 55x40x25 on routes: Moscow - Voronezh/Penza/Kirov - Moscow; StPetersburg - Voronezh/Kirov - StPetersburg, Voronezh - Sochi - Voronezh"
                 },
                 "needToPay": "free"
             },
@@ -146,26 +133,13 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат до вылета",
-                    "en": "Refund before departure",
-                    "de": "Rückgabe vor dem Abflug ist in diesem Tarif nicht verfügbar"
+                    "ru": "Возврат до и после вылета",
+                    "en": "Refund before and after departure",
+                    "de": "Rückgabe vor und nach dem Abflug ist in diesem Tarif nicht verfügbar"
                 },
                 "fullDescription": {
-                    "ru": "Возврат до вылета в данном тарифе недоступен",
-                    "en": "Refund before departure is not available in this fare"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат после вылета",
-                    "en": "Refund after departure",
-                    "de": "Rückgabe nach dem Abflug ist in diesem Tarif nicht verfügbar"
-                },
-                "fullDescription": {
-                    "ru": "Возврат после вылета в данном тарифе недоступен",
-                    "en": "Refund after departure is not available in this fare"
+                    "ru": "Возврат до и после вылета в данном тарифе недоступен",
+                    "en": "Refund before and after departure is not available in this fare"
                 },
                 "needToPay": "notAvailable"
             },
@@ -666,8 +640,8 @@
                     "de": "1 Handgepäckstück bis 10 kg, maximale Abmessungen 55x40x20cm"
                 },
                 "fullDescription": {
-                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см",
-                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm"
+                    "ru": "Допускается провезти 1 место ручной клади не более 5 кг с габаритами не превышающими размеры 40*30*20 см. Для направления Москва – Нарьян-Мар 1 место ручной клади не должно превышать 10 кг",
+                    "en": "It is allowed to carry 1 additional hand luggage piece up to 5 kg and with dimensions not exceeding 40x30x20 cm. Hand luggage piece up to 10 kg on route from Moscow to Naryan-Mar"
                 },
                 "needToPay": "free"
             },
@@ -679,8 +653,8 @@
                     "de": "Nicht inbegriffen"
                 },
                 "fullDescription": {
-                    "ru": "1 место весом до 20 кг",
-                    "en": ""
+                    "ru": "1 место весом до 20 кг.Для направления Москва – Нарьян-Мар 1 место не должно превышать 23 кг",
+                    "en": "1 checked baggage piece up to 20 kg. Baggage piece up to 23 kg on route from Moscow to Naryan-Mar"
                 },
                 "needToPay": "free"
             },
