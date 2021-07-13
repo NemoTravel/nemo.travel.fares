@@ -243,7 +243,7 @@
         "owner": "N4",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([YKLMNBHQTVXOPREY]\\w*(LT|PR))\\w*$",
+        "tariffCodePattern": "^([YKLMNBHQTVXOSPREZF]\\w*(LT|PR))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -403,7 +403,7 @@
         "owner": "N4",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([YKLMNBHQTVXOPRE]\\w*(OM|OP))\\w*$",
+        "tariffCodePattern": "^([YKLMNBHQTVXOSPREZF]\\w*(OM|OP))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -631,7 +631,7 @@
         "owner": "N4",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([YKLMNBHQTVXOPRE]\\w*(PM))\\w*$",
+        "tariffCodePattern": "^([YKLMNBHQTVXOSPREZF]\\w*(PM))\\w*$",
         "parameters": [
             {
                 "code": "description",
