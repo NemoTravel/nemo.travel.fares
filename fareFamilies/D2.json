@@ -104,8 +104,8 @@
                     "en": "1 item up to 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для следующих направлений 1 место до 20 кг: Череповец – Москва/Санкт-Петербург/Мурманск/Ухта/Апатиты/Калининград/Советский/Екатеринбург/Архангельск/Петрозаводск – Череповец; Ухта – Москва/Санкт-Петербург – Ухта; Апатиты – Москва/Санкт-Петербург/Архангельск – Апатиты; Мурманск – Архангельск – Мурманск; Петрозаводск – Архангельск – Петрозаводск",
-                    "en": "Or 1 item up to 20 kg on routes: Cherepovets – Moscow/St Petersburg/Murmansk/Ukhta/Apatity/Kaliningrad/Sovetsky/Yekaterinburg/Arkhangelsk/Petrozavodsk – Cherepovets; Ukhta – Moscow/St Petersburg – Ukhta; Apatity – Moscow/St Petersburg/Arkhangelsk – Apatity; Murmansk – Arkhangelsk – Murmansk; Petrozavodsk – Arkhangelsk – Petrozavodsk"
+                    "ru": "1 место до 15 кг на направлениях Сочи, Анапа, Симферополь, Геленджик, Минеральные воды; 1 место до 20  кг на прочих направлениях",
+                    "en": "1 item up to 15 kg on the routes Sochi, Anapa, Simferopol, Gelendzhik, Mineralnye Vody; 1 item up to 20 kg on other routes"
                 },
                 "needToPay": "free"
             },
@@ -117,7 +117,7 @@
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сбором",
-                    "en": "Refundable. A fee applies"
+                    "en": "Ticket refund is available with a fee"
                 },
                 "needToPay": "charge"
             },
@@ -172,8 +172,8 @@
                     "en": "1 item up to 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для следующих направлений 1 место до 20 кг: Череповец – Москва/Санкт-Петербург/Мурманск/Ухта/Апатиты/Калининград/Советский/Екатеринбург/Архангельск/Петрозаводск – Череповец; Ухта – Москва/Санкт-Петербург – Ухта; Апатиты – Москва/Санкт-Петербург/Архангельск – Апатиты; Мурманск – Архангельск – Мурманск; Петрозаводск – Архангельск – Петрозаводск",
-                    "en": "Or 1 item up to 20 kg on routes: Cherepovets – Moscow/St Petersburg/Murmansk/Ukhta/Apatity/Kaliningrad/Sovetsky/Yekaterinburg/Arkhangelsk/Petrozavodsk – Cherepovets; Ukhta – Moscow/St Petersburg – Ukhta; Apatity – Moscow/St Petersburg/Arkhangelsk – Apatity; Murmansk – Arkhangelsk – Murmansk; Petrozavodsk – Arkhangelsk – Petrozavodsk"
+                    "ru": "1 место до 15 кг на направлениях Сочи, Анапа, Симферополь, Геленджик, Минеральные воды; 1 место до 20  кг на прочих направлениях",
+                    "en": "1 item up to 15 kg on the routes Sochi, Anapa, Simferopol, Gelendzhik, Mineralnye Vody; 1 item up to 20 kg on other routes"
                 },
                 "needToPay": "free"
             },
@@ -185,7 +185,7 @@
                 },
                 "fullDescription": {
                     "ru": "Возврат билета разрешен со сбором",
-                    "en": "Refundable. A fee applies"
+                    "en": "Ticket refund is available with a fee"
                 },
                 "needToPay": "charge"
             },
@@ -196,10 +196,10 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Изменение в билете более чем за 24 часа до вылета разрешено без сбора. Изменение в билете менее чем за 24 часа до вылета или после вылета — со сбором",
-                    "en": ""
+                    "ru": "Изменения в билете разрешены со сбором",
+                    "en": "Exchangeable. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             }
         ]
     },
@@ -253,7 +253,7 @@
                 },
                 "fullDescription": {
                     "ru": "Возврат билета более чем за 24 часа до вылета разрешен без сбора. Возврат билета менее чем за 24 часа до вылета или после вылета — со сбором",
-                    "en": ""
+                    "en": "Ticket refund more than 24 hours before departure is available with no fee. Ticket refund less than 24 hours before departure is available with a fee"
                 },
                 "needToPay": "free"
             },

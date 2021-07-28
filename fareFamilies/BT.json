@@ -3,13 +3,13 @@
         "owner": "BT",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^(\\w*\\d*(BAS))\\w*\\d*$",
+        "tariffCodePattern": "^(\\w*\\d*(GRN))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Базовый",
-                    "en": "Basic"
+                    "ru": "GREEN",
+                    "en": "GREEN"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -20,8 +20,8 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
+                    "ru": "Отмена",
+                    "en": "Cancellation"
                 },
                 "fullDescription": {
                     "ru": "Тариф полностью невозвратный",
@@ -32,24 +32,24 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "ru": "Изменения",
+                    "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Изменение имени не разрешено. Изменение даты/времени полета невозможно, если заранее не приобретена услуга Гарантия изменения рейса",
-                    "en": "Name changes are not allowed. Flight date/time changes are not allowed unless the flight change warranty has been purchased along with the ticket"
+                    "ru": "Изменения даты/времени рейса доступны за дополнительную плату за направление. Изменение даты/времени полета возможно до планируемого вылета или до желаемого времени вылета, если оно раньше. Изменение имени невозможно",
+                    "en": "Flight date/time changes are available for a fee per one way of travel. Flight date/time changes are available prior to the scheduled departure or the desired departure time, whichever is earlier. Name change is not available"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 сумка до 8 кг",
+                    "ru": "1 место до 8 кг",
                     "en": "1 item up to 8 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 сумка ручной клади (55х40х20 см) и 1 личная вещь (30х40х10 см) — в сумме до 8 кг",
-                    "en": "1 cabin bag (55х40х20 cm) + 1 personal item (30x40x10 cm) — up to 8 kg in total"
+                    "ru": "1 место ручной клади (55х40х23 см) и 1 личная вещь (30х40х10 см) — в сумме до 8 кг",
+                    "en": "1 cabin bag (55х40х23 cm) + 1 personal item (30x40x10 cm) — up to 8 kg in total"
                 },
                 "needToPay": "free"
             },
@@ -64,32 +64,88 @@
                     "en": ""
                 },
                 "needToPay": "charge"
-            },
+            }
+        ]
+    },
+    {
+        "owner": "BT",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^(\\w*\\d*(CLS))\\w*\\d*$",
+        "parameters": [
             {
-                "code": "vipService",
+                "code": "description",
                 "shortDescription": {
-                    "ru": "Быстрый досмотр, приоритетная регистрация и сдача багажа",
-                    "en": "Fast Track, Priority Check-in and Bag Drop"
+                    "ru": "GREEN classic",
+                    "en": "GREEN classic"
                 },
                 "fullDescription": {
-                    "ru": "Быстрый досмотр, приоритетная регистрация и сдача багажа в Рижском аэропорту доступны за дополнительную плату, для участников PINS уровня VIP или Executive — бесплатно",
-                    "en": "Fast track, priority check-in and bag drop at Riga Airport are available at extra charge, free of charge for PINS VIP and Executive members"
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место ручной клади (55х40х23 см) и 1 личная вещь (30х40х10 см) — в сумме до 8 кг",
+                    "en": "1 cabin bag (55х40х23 cm) + 1 personal item (30x40x10 cm) — up to 8 kg in total"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Отмена",
+                    "en": "Cancellation"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен со сбором за направление. В случае неявки на рейс билет не возмещается",
+                    "en": "If booking is cancelled before flight departure, refund fee per direction applies. In case of no-show ticket is non-refundable"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения даты/времени доступны бесплатно. Изменение даты/времени полета возможно до планируемого вылета или до желаемого времени вылета, если оно раньше. Смена имени разрешена за дополнительную плату",
+                    "en": "Flight date/time changes are available free of charge. Flight date/time changes are available prior to the scheduled departure or the desired departure time, whichever is earlier. Name change is available at extra charge"
+                },
+                "needToPay": "free"
             }
         ]
     },
     {
         "owner": "BT",
         "baseClass": "business",
-        "priority": 4,
+        "priority": 5,
         "tariffCodePattern": "^(\\w*\\d*(BIZ))\\w*\\d*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Бизнес",
-                    "en": "Business"
+                    "ru": "BUSINESS",
+                    "en": "BUSINESS"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -100,220 +156,48 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 сумки до 8 кг каждая",
+                    "ru": "2 места до 8 кг каждое",
                     "en": "2 items up to 8 kg each"
                 },
                 "fullDescription": {
-                    "ru": "2 сумки ручной клади (55х40х20 см) и 1 личная вещь (30х40х10 см) — в сумме до 16 кг",
-                    "en": "2 cabin bags (55х40х20 cm each) + 1 personal item (30x40x10 cm) — up to 16 kg in total"
+                    "ru": "2 места ручной клади (55х40х23 см) и 1 личная вещь (30х40х10 см) — в сумме до 16 кг",
+                    "en": "2 cabin bags (55х40х23 cm each) + 1 personal item (30x40x10 cm) — up to 16 kg in total"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 20 кг каждая",
-                    "en": "2 items up to 20 kg each"
+                    "ru": "2 места до 46 кг в сумме",
+                    "en": "2 items up to 46 kg in total"
                 },
                 "fullDescription": {
-                    "ru": "2 сумки (100х50х80 см каждая) общим весом до 40 кг",
-                    "en": "2 items up to 20 kg each (100х50х80 cm each)"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
+                    "ru": "Отмена",
+                    "en": "Cancellation"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable (no fees apply)"
+                    "ru": "Отмена доступна бесплатно в любое время. Полный возврат денег",
+                    "en": "Cancellation is available anytime and free of charge. Full refund available"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
+                    "ru": "Изменения",
+                    "en": "Changes"
                 },
                 "fullDescription": {
-                    "ru": "Изменение имени разрешено без сборов. Изменение даты/времени полета разрешено без сборов в любое время",
-                    "en": "Name changes are allowed (no fees apply). Flight date/time changes are allowed (no fees apply)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Быстрый досмотр",
-                    "en": "Fast Track"
-                },
-                "fullDescription": {
-                    "ru": "Быстрый досмотр в Рижском аэропорту доступен бесплатно",
-                    "en": "Fast track at Riga Airport is free of charge"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритетная регистрация и сдача багажа",
-                    "en": "Priority Check-in and Bag Drop"
-                },
-                "fullDescription": {
-                    "ru": "Приоритетная регистрация и сдача багажа доступны бесплатно",
-                    "en": "Priority check-in and bag drop are free of charge"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в Бизнес зал",
-                    "en": "Business Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "BT",
-        "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^(\\w*\\d*(PRM))\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Премиум",
-                    "en": "Premium"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 сумка до 8 кг",
-                    "en": "1 item up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 сумка ручной клади (55х40х20 см) и 1 личная вещь (30х40х10 см) — в сумме до 8 кг",
-                    "en": "1 cabin bag (55х40х20 cm) + 1 personal item (30x40x10 cm) — up to 8 kg in total"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 сумка до 20 кг",
-                    "en": "1 item up to 20 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 сумка до 20 кг (100х50х80 см)",
-                    "en": "1 item up to 20 kg (100х50х80 cm)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. Fees apply"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменение имени разрешено со сбором. Изменение даты/времени полета разрешено со сбором в любое время, но не позже времени вылета более раннего из желаемого или запланированного рейсов. Если замена даты влечет за собой повышение класса бронирования* (тот же класс бронирования* недоступен на выбранные вами даты), вам также будет необходимо оплатить разницу тарифов",
-                    "en": "Name changes are allowed (fees apply). Flight date/time changes are allowed before departure (fees apply)"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Быстрый досмотр",
-                    "en": "Fast Track"
-                },
-                "fullDescription": {
-                    "ru": "Быстрый досмотр в Рижском аэропорту доступен за дополнительную плату, для участников PINS уровня VIP или Executive — бесплатно",
-                    "en": "Fast track at Riga Airport is available at extra charge, free of charge for PINS VIP and Executive members"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "BT",
-        "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^(\\w*\\d*(SALE))\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Специальный",
-                    "en": "Special"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 сумка до 8 кг",
-                    "en": "1 item up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 сумка ручной клади (55х40х20 см) и 1 личная вещь (30х40х10 см) — в сумме до 8 кг",
-                    "en": "1 cabin bag (55х40х20 cm) + 1 personal item (30x40x10 cm) — up to 8 kg in total"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Информацию о предоставляемых по тарифу услугах необходимо уточнять в условиях применения тарифа",
-                    "en": "The information about services provided in this tariff have to be specified in fare rules"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Изменения даты/времени доступны бесплатно. Изменение даты/времени полета возможно до планируемого вылета или до желаемого времени вылета, если оно раньше. Смена имени разрешена бесплатно",
+                    "en": "Flight date/time changes are available free of charge. Flight date/time changes are available prior to the scheduled departure or the desired departure time, whichever is earlier. Name change available free of charge"
                 },
                 "needToPay": "free"
             }
