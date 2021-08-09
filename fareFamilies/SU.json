@@ -329,14 +329,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation",
-                    "de": "Einen Sitzplatz in der Kabine buchen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
-                    "en": "Advance basic seat reservation in the aircraft cabin is provided free of charge only for members of the FFP program Elite and Elite Plus (Silver, Gold, Platinum)",
-                    "de": "Die Vorwahl der Standardsitze in der Flugzeugkabine erfolgt nur für Teilnehmer des FFP-Programms Elite und Elite Plus (Silber, Gold, Platin) kostenlos"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "notAvailable"
             },
@@ -507,12 +505,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор мест",
-                    "en": "Seat reservation"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор мест разрешен за дополнительную плату",
-                    "en": "Seat reservation is allowed with additional charges"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             },
@@ -771,14 +769,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation",
-                    "de": "Einen Sitzplatz in der Kabine buchen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется бесплатно только для участников программы FFP уровней Elite и Elite Plus (Silver, Gold, Platinum)",
-                    "en": "Advance basic seat reservation in the aircraft cabin is provided free of charge only for members of the FFP program Elite and Elite Plus (Silver, Gold, Platinum)",
-                    "de": "Die Vorwahl der Standardsitze in der Flugzeugkabine erfolgt nur für Teilnehmer des FFP-Programms Elite und Elite Plus (Silber, Gold, Platin) kostenlos"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "notAvailable"
             },
@@ -999,14 +995,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation",
-                    "de": "Einen Sitzplatz in der Kabine buchen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется только после оформления авиабилета путем выбора мест через сервис онлайн-услуг (проверить бронирование)",
-                    "en": "Advance basic seat reservation in the aircraft cabin is provided free of charge only for members of the FFP program Elite and Elite Plus (Silver, Gold, Platinum)",
-                    "de": "Die Vorwahl der Standardsitze in der Flugzeugkabine erfolgt nur für Teilnehmer des FFP-Programms Elite und Elite Plus (Silber, Gold, Platin) kostenlos"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -1226,14 +1220,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation",
-                    "de": "Einen Sitzplatz in der Kabine buchen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС предоставляется только после оформления авиабилета путем выбора мест через сервис онлайн-услуг (проверить бронирование)",
-                    "en": "Advance basic seat reservation in the aircraft cabin is provided free of charge only for participants of the FFP program Elite and Elite Plus (Silver, Gold, Platinum)",
-                    "de": "Die Vorwahl der Standardsitze in der Flugzeugkabine erfolgt nur für Teilnehmer des FFP-Programms Elite und Elite Plus (Silber, Gold, Platin) kostenlos"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -1413,13 +1405,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation",
-                    "de": "Einen Sitzplatz in der Kabine buchen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "Advance basic seat reservation — available"
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -1556,13 +1547,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation",
-                    "de": "Einen Sitzplatz in der Kabine buchen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "Advance basic seat reservation — available"
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -1767,13 +1757,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation",
-                    "de": "Einen Sitzplatz in der Kabine buchen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "Advance basic seat reservation — available"
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -1952,13 +1941,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation",
-                    "de": "Einen Sitzplatz in der Kabine buchen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "Advance basic seat reservation — available"
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -2081,13 +2069,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation",
-                    "de": "Einen Sitzplatz in der Kabine buchen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "Advance basic seat reservation — available"
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -2275,13 +2262,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор стандартных мест в салоне ВС",
-                    "en": "Advance Basic Seat Reservation",
-                    "de": "Einen Sitzplatz in der Kabine buchen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "Advance basic seat reservation — available"
+                    "en": ""
                 },
                 "needToPay": "free"
             },

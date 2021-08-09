@@ -116,14 +116,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Premium Seat Selection",
-                    "ro": "Este posibilă alegerea oricărui loc"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Доступен выбор любого места",
-                    "en": "Any seat",
-                    "ro": "Este posibilă alegerea oricărui loc cu excepția rîndurilor din față și celor de lîngă ieșirile de urgență"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -178,14 +176,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Standard Seat Selection",
-                    "ro": "Este posibilă alegerea oricărui loc"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Доступен выбор любого места кроме первых и аварийных рядов",
-                    "en": "Any seat excluding first/exit rows",
-                    "ro": "Este posibilă alegerea oricărui loc cu excepția rîndurilor din față și celor de lîngă ieșirile de urgență"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             },

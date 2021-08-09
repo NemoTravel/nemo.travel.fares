@@ -44,24 +44,24 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительное бронирование места",
-                    "en": "Seat Reservation"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное резервирование мест",
-                    "en": "Seat reservation — available"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Свободное место рядом",
-                    "en": "Empty Middle Seat"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное резервирование мест со свободными местами рядом",
-                    "en": "Seat reservation with empty middle seat — available"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -128,12 +128,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места при регистрации на рейс",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "Seat selection permitted during the check-in"
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -220,12 +220,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительное бронирование места",
-                    "en": "Seat Reservation"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное резервирование мест",
-                    "en": "Seat reservation — available"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -268,12 +268,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места при регистрации на рейс",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "Seat selection permitted during the check-in"
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -336,12 +336,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительное бронирование места",
-                    "en": "Seat Reservation"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное резервирование мест",
-                    "en": "Seat reservation — available"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -420,12 +420,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места при регистрации на рейс",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "Seat selection permitted during the check-in"
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -571,24 +571,24 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места при регистрации на рейс",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "Seat selection permitted during the check-in"
+                    "en": ""
                 },
                 "needToPay": "free"
             },
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительное бронирование места",
-                    "en": "Seat Reservation"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Платное резервирование обычных мест",
-                    "en": "Seat reservation — available at extra charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             },
@@ -627,12 +627,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительное бронирование места",
-                    "en": "Seat Reservation"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное резервирование мест",
-                    "en": "Seat reservation — available"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -689,12 +689,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Свободное место рядом",
-                    "en": "Empty Middle Seat"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное резервирование мест со свободными местами рядом",
-                    "en": "Seat reservation with empty middle seat — available"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -737,8 +737,8 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места при регистрации на рейс",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",

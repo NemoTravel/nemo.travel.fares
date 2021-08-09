@@ -103,12 +103,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор мест доступен бесплатно",
-                    "en": "Seat selection — available for free"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -183,12 +183,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор мест доступен бесплатно",
-                    "en": "Seat selection — available for free"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -263,12 +263,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор мест доступен бесплатно",
-                    "en": "Seat selection — available for free"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -343,12 +343,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор мест доступен бесплатно",
-                    "en": "Seat selection — available for free"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -423,12 +423,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор мест доступен бесплатно",
-                    "en": "Seat selection — available for free"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -503,12 +503,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор мест доступен за дополнительную плату",
-                    "en": "Seat selection — available at extra charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             }
@@ -583,12 +583,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор мест доступен бесплатно",
-                    "en": "Seat selection — available for free"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -675,12 +675,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор мест доступен бесплатно",
-                    "en": "Seat selection — available for free"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },

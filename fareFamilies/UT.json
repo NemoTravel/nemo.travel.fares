@@ -114,10 +114,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места"
+                    "ru": "кресло эконом класса",
+                    "en": "economy class seat"
                 },
                 "fullDescription": {
-                    "ru": "Выбор места"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -317,10 +319,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор места"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             }
@@ -416,10 +420,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор места"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             }
@@ -508,6 +514,18 @@
                     "ru": "Обмен билета разрешен со сборами",
                     "en": "Ticket exchange is allowed with additional charges",
                     "de": "Nicht austauschbar"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             }
@@ -629,10 +647,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор места"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }

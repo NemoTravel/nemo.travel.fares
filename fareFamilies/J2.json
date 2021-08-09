@@ -1060,12 +1060,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Регистрация на рейс в аэропорту и выбор места в самолете",
-                    "en": "Check-in at the airport and seat selection on the plane"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Будучи низкобюджетной авиакомпанией, Buta Airways предлагает ряд услуг только за дополнительную плату, включая регистрацию на рейс в аэропорту и выбор места в самолете. Вы можете бесплатно зарегистрироваться на сайте авиакомпании, а также на стойках самостоятельной регистрации (доступно в Международном аэропорту Гейдар Алиев, Баку)",
-                    "en": "Being a low-cost airline, Buta Airways offers a range of services only for an additional fee, including check-in at the airport and seat selection on the plane. You can check-in on the airline's website free of charge, as well as at the self check-in kiosks (available at Baku Heydar Aliyev International Airport)"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             },

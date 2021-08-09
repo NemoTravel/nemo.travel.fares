@@ -44,12 +44,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор места",
-                    "en": "Advance Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор места доступен за дополнительную плату",
-                    "en": "Advance seat selection — available at extra charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             },
@@ -148,12 +148,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор места",
-                    "en": "Advance Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор места типа «Standard» доступен бесплатно",
-                    "en": "Advance «Standard» seat selection — available free of charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -252,12 +252,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор места",
-                    "en": "Advance Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор места типа «Forward Zone» и «Standard» доступен бесплатно",
-                    "en": "Advance «Forward Zone» and «Standard» seat selection — available free of charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -356,12 +356,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор места",
-                    "en": "Advance Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор места доступен бесплатно",
-                    "en": "Advance seat selection — available free of charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -460,12 +460,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор места",
-                    "en": "Advance Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор места доступен бесплатно",
-                    "en": "Advance seat selection — available free of charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -564,12 +564,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор места",
-                    "en": "Advance Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор места доступен бесплатно",
-                    "en": "Advance seat selection — available free of charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -668,12 +668,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор места",
-                    "en": "Advance Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор места доступен бесплатно",
-                    "en": "Advance seat selection — available free of charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -772,12 +772,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор места",
-                    "en": "Advance Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор места доступен бесплатно",
-                    "en": "Advance seat selection — available free of charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -876,12 +876,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Предварительный выбор места",
-                    "en": "Advance Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор места доступен бесплатно",
-                    "en": "Advance seat selection — available free of charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },

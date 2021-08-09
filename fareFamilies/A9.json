@@ -80,12 +80,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Seat selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор места доступен за дополнительную плату",
-                    "en": "Seat selection — available at extra charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             }
@@ -172,12 +172,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Seat selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор места доступен за дополнительную плату",
-                    "en": "Seat selection — available at extra charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             }
@@ -264,12 +264,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Seat selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор места доступен за дополнительную плату",
-                    "en": "Seat selection — available at extra charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             }
@@ -368,12 +368,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Seat selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор места доступен за дополнительную плату",
-                    "en": "Seat selection — available at extra charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             }

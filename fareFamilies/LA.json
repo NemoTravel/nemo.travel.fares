@@ -68,12 +68,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор мест разрешен",
-                    "en": "Seat selection — permitted"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -148,12 +148,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор мест разрешен",
-                    "en": "Seat selection — permitted"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -228,12 +228,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор места доступен за дополнительную плату",
-                    "en": "Seat selection — available at extra charge"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             }
@@ -308,12 +308,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор мест",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор мест не включен",
-                    "en": "Seat selection — not included"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "notAvailable"
             }

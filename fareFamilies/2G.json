@@ -80,12 +80,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Доступен выбор места при регистрации",
-                    "en": "Seat selection is available during check-in"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -172,12 +172,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор места доступен при регистрации",
-                    "en": "Seat selection is available during check-in"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -264,12 +264,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор места доступен при регистрации",
-                    "en": "Seat selection is available during check-in"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }
@@ -356,12 +356,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Seat Selection"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Выбор места доступен при регистрации",
-                    "en": "Seat selection is available during check-in"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             }

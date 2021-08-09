@@ -74,14 +74,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Бесплатное резервирование мест",
-                    "en": "Seat Reservation",
-                    "de": "Freie Sitzplatzreservierung"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "К бесплатному резервированию обычные и XL места",
-                    "en": "Standard and XL seat reservation — available",
-                    "de": "Neben der kostenlosen Reservierung — normale und XL Sitze"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -175,14 +173,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Резервирование мест",
-                    "en": "Seat Reservation",
-                    "de": "Sitzreservierung"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Бесплатное резервирование мест",
-                    "en": "Seat reservation — available",
-                    "de": "Freie Sitzplatzreservierung"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },

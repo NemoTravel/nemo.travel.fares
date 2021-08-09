@@ -75,14 +75,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Рассадка на первых рядах",
-                    "en": "First row seats",
-                    "de": "Erste Reihe Sitze"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Рассадка на первых рядах — недоступно",
-                    "en": "First row seats — not available",
-                    "de": "Erste Reihe Sitze — nicht verfügbar"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "notAvailable"
             },
@@ -204,14 +202,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Рассадка на первых рядах",
-                    "en": "First row seats",
-                    "de": "Erste Reihe Sitze"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Рассадка на первых рядах — недоступно",
-                    "en": "First row seats — not available",
-                    "de": "Erste Reihe Sitze — nicht verfügbar"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "notAvailable"
             },
@@ -333,14 +329,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Рассадка на первых рядах",
-                    "en": "First row seats",
-                    "de": "Erste Reihe Sitze"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Рассадка на первых рядах — недоступно",
-                    "en": "First row seats — not available",
-                    "de": "Erste Reihe Sitze — nicht verfügbar"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "notAvailable"
             },
@@ -464,9 +458,8 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Рассадка на первых рядах",
-                    "en": "First row seats",
-                    "de": "Erste Reihe Sitze"
+                    "ru": "тестовое уточнение",
+                    "en": "test clarification"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -594,14 +587,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Рассадка на первых рядах",
-                    "en": "First row seats",
-                    "de": "Erste Reihe Sitze"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Рассадка на первых рядах — недоступно",
-                    "en": "First row seats — not available",
-                    "de": "Erste Reihe Sitze — nicht verfügbar"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "notAvailable"
             },
@@ -711,14 +702,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Рассадка на первых рядах",
-                    "en": "First row seats",
-                    "de": "Erste Reihe Sitze"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Рассадка на первых рядах — недоступно",
-                    "en": "First row seats — not available",
-                    "de": "Erste Reihe Sitze — nicht verfügbar"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "notAvailable"
             },

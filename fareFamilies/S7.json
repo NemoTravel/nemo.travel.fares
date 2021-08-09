@@ -75,14 +75,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места при регистрации",
-                    "en": "Seat Selection",
-                    "de": "Sitz bei der Anmeldung auswählen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный выбор места в салоне при регистрации на рейс.  Выбор места при покупке за дополнительную плату. Выбор места повышенной комфортности за дополнительную плату",
-                    "en": "Seat selection permitted during the check-in. Upon purchase — seat selection is available with an additional fee. Selection of high comfort seat is available for an additional fee",
-                    "de": "Die Sitzplatzwahl ist während des Check-ins kostenlos gestattet. Nach dem Kauf — Sitzplatzwahl ist gegen Aufpreis möglich.  Die Auswahl des hohen Komfortsitzes steht gegen Aufpreis zur Verfügung"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -218,13 +216,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места при регистрации - платно",
-                    "en": "Seat Selection",
-                    "de": "Sitz bei der Anmeldung auswählen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
-                    "en": "Seat selection permitted during the check-in at extra charge"
+                    "en": ""
                 },
                 "needToPay": "charge"
             }
@@ -306,9 +303,8 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места при регистрации",
-                    "en": "Seat Selection",
-                    "de": "Sitz bei der Anmeldung auswählen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
@@ -460,14 +456,12 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места при регистрации",
-                    "en": "Seat Selection",
-                    "de": "Sitz bei der Anmeldung auswählen"
+                    "ru": "",
+                    "en": ""
                 },
                 "fullDescription": {
-                    "ru": "Бесплатный выбор места в салоне при регистрации на рейс",
-                    "en": "Seat selection permitted during the check-in",
-                    "de": "Die Sitzplatzwahl ist während des Check-ins kostenlos gestattet"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },

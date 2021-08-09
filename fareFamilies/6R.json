@@ -44,32 +44,8 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места на регистрации (за 2 часа до вылета)",
-                    "en": "Choosing a place at check-in (2 hours before departure)"
-                },
-                "fullDescription": {
                     "ru": "",
                     "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места на сайте (онлайн)",
-                    "en": "Choosing a place online"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор комфортностого места",
-                    "en": "Choice of comfort seat"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -268,34 +244,9 @@
             },
             {
                 "code": "seatsRegistration",
-
                 "shortDescription": {
-                    "ru": "Выбор места на регистрации (за 2 часа до вылета)",
-                    "en": "Choosing a place at check-in (2 hours before departure)"
-                },
-                "fullDescription": {
                     "ru": "",
                     "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места на сайте (онлайн)",
-                    "en": "Choosing a place online"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор комфортностого места",
-                    "en": "Choice of comfort seat"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -495,32 +446,8 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места на регистрации (за 2 часа до вылета)",
-                    "en": "Choosing a place at check-in (2 hours before departure)"
-                },
-                "fullDescription": {
                     "ru": "",
                     "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места на сайте (онлайн)",
-                    "en": "Choosing a place online"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор комфортностого места",
-                    "en": "Choice of comfort seat"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -719,32 +646,8 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места на регистрации (за 2 часа до вылета)",
-                    "en": "Choosing a place at check-in (2 hours before departure)"
-                },
-                "fullDescription": {
                     "ru": "",
                     "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места на сайте (онлайн)",
-                    "en": "Choosing a place online"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор комфортностого места",
-                    "en": "Choice of comfort seat"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -944,32 +847,8 @@
             {
                 "code": "seatsRegistration",
                 "shortDescription": {
-                    "ru": "Выбор места на регистрации (за 2 часа до вылета)",
-                    "en": "Choosing a place at check-in (2 hours before departure)"
-                },
-                "fullDescription": {
                     "ru": "",
                     "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места на сайте (онлайн)",
-                    "en": "Choosing a place online"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор комфортностого места",
-                    "en": "Choice of comfort seat"
                 },
                 "fullDescription": {
                     "ru": "",
