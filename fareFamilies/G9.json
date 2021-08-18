@@ -3,7 +3,7 @@
         "owner": "G9",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "",
+        "tariffCodePattern": "^([_])$",
         "parameters": [
             {
                 "code": "description",
@@ -47,7 +47,7 @@
         "owner": "G9",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "",
+        "tariffCodePattern": "^([_])$",
         "parameters": [
             {
                 "code": "description",
@@ -91,7 +91,7 @@
         "owner": "G9",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "",
+        "tariffCodePattern": "^([_])$",
         "parameters": [
             {
                 "code": "description",
@@ -135,7 +135,7 @@
         "owner": "G9",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "",
+        "tariffCodePattern": "^([_])$",
         "parameters": [
             {
                 "code": "description",

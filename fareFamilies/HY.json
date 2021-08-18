@@ -71,7 +71,7 @@
         "owner": "HY",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^(Y|YOW|YRT)$|^([BMKTVOSUL](E|PR)(12M|12MOW|12MRT)((?!NB).)*)$",
+        "tariffCodePattern": "^(Y|YOW|YRT)$|^([BMKTVOSUL](E|PR)(12M|12MOW|12MRT|3MOW|3MRT|6MOW|6MRT)((?!NB).)*)$",
         "parameters": [
             {
                 "code": "description",

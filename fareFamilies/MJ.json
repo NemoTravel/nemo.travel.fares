@@ -3,7 +3,7 @@
         "owner": "MJ",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([YSBHKLMNVXOQTU](CT))\\w*$",
+        "tariffCodePattern": "^([YSBHKLMNVXOQTUR](CT))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -71,7 +71,7 @@
         "owner": "MJ",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([YSBHKLMNVXOQTU](LT))\\w*$",
+        "tariffCodePattern": "^([YSBHKLMNVXOQTUR](LT))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -139,7 +139,7 @@
         "owner": "MJ",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^([YSBHKLMNVXOQTU](FL))\\w*$",
+        "tariffCodePattern": "^([YSBHKLMNVXOQTUR](FL))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -236,12 +236,12 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 места до 30 кг каждое",
-                    "en": "2 items up to 30 kg each"
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
-                    "ru": "Норма бесплатного провоза багажа: 2 места до 30 кг каждое, сумма 3 измерений — не более 158 см каждое",
-                    "en": "Checked baggage: 2 items up to 30 kg each, with dimensions not exceeding 158 cm each"
+                    "ru": "Норма бесплатного провоза багажа: 2 места до 32 кг каждое, сумма 3 измерений — не более 158 см каждое",
+                    "en": "Checked baggage: 2 items up to 32 kg each, with dimensions not exceeding 158 cm each"
                 },
                 "needToPay": "free"
             },
