@@ -571,7 +571,7 @@
         "owner": "LO",
         "baseClass": "business",
         "priority": 26,
-        "tariffCodePattern": "^([Z])\\w*\\d*$",
+        "tariffCodePattern": "^[Z]((?!FEY).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -699,7 +699,7 @@
         "owner": "LO",
         "baseClass": "business",
         "priority": 27,
-        "tariffCodePattern": "^([DC])\\w*\\d*$",
+        "tariffCodePattern": "^[DC]((?!FEY).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -827,7 +827,7 @@
         "owner": "LO",
         "baseClass": "economy",
         "priority": 21,
-        "tariffCodePattern": "^\\w*(HAD|LAD|LA6|LA3)\\w*(NB)$",
+        "tariffCodePattern": "^[YBMEHKQTSVWLUO]\\w*(HAD|LAD|LA6|LA3)\\w*(NB)$",
         "parameters": [
             {
                 "code": "description",
@@ -895,7 +895,7 @@
         "owner": "LO",
         "baseClass": "economy",
         "priority": 22,
-        "tariffCodePattern": "^\\w*(LAN)\\w*$",
+        "tariffCodePattern": "^[YBMEHKQTSVWLUO]\\w*(LAN)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -963,7 +963,7 @@
         "owner": "LO",
         "baseClass": "economy",
         "priority": 23,
-        "tariffCodePattern": "^\\w*(LAS|ASE)\\w*$",
+        "tariffCodePattern": "^[YBMEHKQTSVWLUO]\\w*(LAS|ASE|LAF)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -1029,9 +1029,9 @@
     },
     {
         "owner": "LO",
-        "baseClass": "economy",
+        "baseClass": "premiumEconomy",
         "priority": 24,
-        "tariffCodePattern": "^[A-BE-Y]\\w*(LAF)\\w*$",
+        "tariffCodePattern": "^[APR]\\w*(LAF|AFE)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -1097,7 +1097,7 @@
     },
     {
         "owner": "LO",
-        "baseClass": "economy",
+        "baseClass": "business",
         "priority": 25,
         "tariffCodePattern": "^[CDZ]\\w*(AF)\\w*$",
         "parameters": [

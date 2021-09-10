@@ -2,8 +2,8 @@
     {
         "owner": "HY",
         "baseClass": "business",
-        "priority": 5,
-        "tariffCodePattern": "^[CD]((?!NB).)*$",
+        "priority": 6,
+        "tariffCodePattern": "^(C|DE)((?!NB|LC).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -70,8 +70,8 @@
     {
         "owner": "HY",
         "baseClass": "economy",
-        "priority": 4,
-        "tariffCodePattern": "^(Y|YOW|YRT)$|^([BMKTVOSUL](E|PR)(12M|12MOW|12MRT|3MOW|3MRT|6MOW|6MRT)((?!NB).)*)$",
+        "priority": 5,
+        "tariffCodePattern": "^(Y|BE|ME)((?!NB|LC).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -138,8 +138,8 @@
     {
         "owner": "HY",
         "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^\\w*(NB)$",
+        "priority": 3,
+        "tariffCodePattern": "^((?!LCNB).)*(NB)$",
         "parameters": [
             {
                 "code": "description",
@@ -152,18 +152,6 @@
                     "en": ""
                 },
                 "needToPay": null
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
             },
             {
                 "code": "carryOn",
@@ -200,14 +188,26 @@
                     "en": "Rebooking is available before departure with a fee. Rebooking is not available after departure"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     },
     {
         "owner": "HY",
         "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^[KTVOSULNE](12MLT|12MOWLT|12MRTLT|12M1P)((?!NB).)*$",
+        "priority": 4,
+        "tariffCodePattern": "^(KE|TE|VE|OPR|SPR|UPR|LPR)((?!NB|LC).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -228,10 +228,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Тариф невозвратный",
-                    "en": "Non-refundable"
+                    "ru": "Возврат билета разрешен с взиманием сбора",
+                    "en": "Refundable with a fee"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -268,6 +268,142 @@
                     "en": "1 baggage item up to 23 kg, total linear dimensions up to 158 cm"
                 },
                 "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "HY",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^\\w*(LC)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Стандарт LowCost",
+                    "en": "Standart LowCost"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен с взиманием сбора",
+                    "en": "Refundable with a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено с взиманием сбора",
+                    "en": "Rebooking is available with a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "Размер ручной клади не должен превышать 115 см по сумме трех измерений",
+                    "en": "1 item up to 5 kg, total linear dimensions up to 115 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 15 кг",
+                    "en": "1 item up to 15 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место багажа весом не более 15 кг и габаритом не более 158 см по сумме трех измерений",
+                    "en": "1 baggage item up to 15 kg, total linear dimensions up to 158 cm"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "HY",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^\\w*(LCNB)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Легкий LowCost",
+                    "en": "Light LowCost"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "Размер ручной клади не должен превышать 115 см по сумме трех измерений",
+                    "en": "1 item up to 5 kg, total linear dimensions up to 115 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета разрешено с взиманием сбора. Перебронирование после вылета запрещено",
+                    "en": "Rebooking is available before departure with a fee. Rebooking is not available after departure"
+                },
+                "needToPay": "charge"
             }
         ]
     }
