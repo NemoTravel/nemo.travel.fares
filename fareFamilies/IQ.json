@@ -70,6 +70,98 @@
     {
         "owner": "IQ",
         "baseClass": "economy",
+        "priority": 5,
+        "tariffCodePattern": "^[OIQETSMLKHBY](OW|RT)((.*S)?.)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфортный",
+                    "en": "Comfort"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг, габаритами не более 40 x 25 x 20 см",
+                    "en": "1 item up to 5 kg, size 40 x 25 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат авиабилета до вылета разрешается без удержания. В случае неявки на рейс возврат разрешен со штрафом",
+                    "en": "Refundable before departure with no fee. In case of no-show refund is permitted with a fee"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refundable after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со сбором",
+                    "en": "Refundable after departure. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты, времени, номера рейса до вылета разрешено без удержания.  В случае неявки на рейс изменения разрешены со штрафом",
+                    "en": "Exchangeable before departure with no fee. In case of no-show exchange is permitted with a fee"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Exchange after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменения после вылета разрешены со штрафом",
+                    "en": "Exchangeable after departure. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "IQ",
+        "baseClass": "economy",
         "priority": 1,
         "tariffCodePattern": "^([B])\\w*$",
         "parameters": [
