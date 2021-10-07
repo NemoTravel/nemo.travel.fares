@@ -425,9 +425,9 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Специальный безбагажный",
-                    "en": "Special",
-                    "de": "Speziell"
+                    "ru": "Специальный 1",
+                    "en": "Special 1",
+                    "de": "Speziell 1"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -461,32 +461,6 @@
                 "needToPay": "charge"
             },
             {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения до вылета производятся за дополнительную плату",
-                    "en": "Changes before departure are available at additional charge",
-                    "de": "Änderungen vor dem Abflug sind kostenpflichtig"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения за 40 минут до вылета и после вылета в данном тарифе недоступны",
-                    "en": "Changes within 40 minutes before departure and after departure is not available in this fare",
-                    "de": "Änderungen nach dem Abflug sind in diesem Tarif nicht verfügbar"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "notAvailable"
-            },
-            {
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат до вылета производится за дополнительную плату",
@@ -511,6 +485,32 @@
                     "en": ""
                 },
                 "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета производятся за дополнительную плату",
+                    "en": "Changes before departure are available at additional charge",
+                    "de": "Änderungen vor dem Abflug sind kostenpflichtig"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения за 40 минут до вылета и после вылета в данном тарифе недоступны",
+                    "en": "Changes within 40 minutes before departure and after departure is not available in this fare",
+                    "de": "Änderungen nach dem Abflug sind in diesem Tarif nicht verfügbar"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
             }
         ]
     },
@@ -523,9 +523,9 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Специальный багажный",
-                    "en": "Special",
-                    "de": "Speziell"
+                    "ru": "Специальный 2",
+                    "en": "Special 2",
+                    "de": "Speziell 2"
                 },
                 "fullDescription": {
                     "ru": "",
