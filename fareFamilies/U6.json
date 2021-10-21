@@ -852,28 +852,52 @@
                 "needToPay": "free"
             },
             {
-                "code": "exchangeable",
+                "code": "exchangeWithCondition",
                 "shortDescription": {
-                    "ru": "Изменения до вылета",
-                    "en": "Exchange before departure"
+                  "ru": "Обмен билета",
+                  "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Изменения за 48 часов и более до вылета: со сбором, изменения менее чем за 48 часов до вылета: запрещены",
-                    "en": "Changes 48 hours or more before departure: with collection, changes less than 48 hours before departure: not allowed"
+                  "ru": "за 48 часов и более до вылета",
+                  "en": "more than 48 hours before the check-in for the flight"
                 },
                 "needToPay": "charge"
             },
             {
-                "code": "refundable",
+                "code": "exchangeWithCondition",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
+                  "ru": "Обмен билета",
+                  "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Возврат за 48 часов и более до вылета: со сбором, возврат менее чем за 48 часов до вылета: запрещён",
-                    "en": "Refunds 48 hours or more before departure: with collection, refunds less than 48 hours before departure: not allowed"
+                  "ru": "менее чем за 48 часов до вылета",
+                  "en": "less than 48 hours before the check-in for the flight"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundWithCondition",
+                "shortDescription": {
+                  "ru": "Возврат билета",
+                  "en": "Refund"
+                },
+                "fullDescription": {
+                  "ru": "за 48 часов и более до вылета",
+                  "en": "more than 48 hours before the check-in for the flight"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "refundWithCondition",
+                "shortDescription": {
+                  "ru": "Возврат билета",
+                  "en": "Refund"
+                },
+                "fullDescription": {
+                  "ru": "менее чем за 48 часов до вылета",
+                  "en": "less than 48 hours before the check-in for the flight"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     }
