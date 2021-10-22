@@ -1,0 +1,322 @@
+[
+    {
+        "owner": "AH",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[S]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Гибкий",
+                    "en": "Economy Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 30 кг",
+                    "en": "1 item up to 30 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен билета до вылета разрешен без штрафа",
+                  "en": "Exchangeable before departure"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен билета после вылета разрешен со штрафом",
+                  "en": "A fee applies after departure"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без штрафа",
+                    "en": "Refundable. No fee applies"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "AH",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[HYKBV]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом",
+                    "en": "Economy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен до вылета разрешён со сбором",
+                  "en": "Exchange before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+              },
+              {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен после вылета не разрешён",
+                  "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+              },
+              {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до вылета разрешён со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+              },
+              {
+                "code": "refundable",
+                "shortDescription": {
+                  "ru": "Возврат билета после вылета",
+                  "en": "Refund after departure"
+                },
+                "fullDescription": {
+                  "ru": "Возврат после вылета не разрешён",
+                  "en": "Refund after departure is not allowed"
+                },
+                "needToPay": "notAvailable"
+              }
+        ]
+    },
+    {
+        "owner": "AH",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[QN]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Лайт",
+                    "en": "Economy Light"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Без багажа",
+                    "en": "No baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен до вылета разрешён со сбором",
+                  "en": "Exchange before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+              },
+              {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен после вылета не разрешён",
+                  "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+              },
+              {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "AH",
+        "baseClass": "business",
+        "priority": 4,
+        "tariffCodePattern": "^[FC]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 40 кг",
+                    "en": "1 item up to 40 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Обмен билета",
+                  "en": "Exchange"
+                },
+                "fullDescription": {
+                  "ru": "Обмен билета разрешен без штрафа",
+                  "en": "Exchangeable. No fee applies"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без штрафа",
+                    "en": "Refundable. No fee applies"
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]
