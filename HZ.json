@@ -1,0 +1,450 @@
+[
+    {
+        "owner": "HZ",
+        "baseClass": "business",
+        "priority": 1,
+        "tariffCodePattern": "^[C]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес",
+                    "en": "Business"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },            
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места по 23 кг",
+                    "en": "2 items of 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Business Lounge"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доставка от/до воздушного судна",
+                    "en": "Delivery from / to aircraft"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Места повышенной комфортности в салоне воздушного судна",
+                    "en": "Enhanced comfort seats in the aircraft cabin"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Питание и напитки",
+                    "en": "Meals & Drinks"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
+                },
+                "fullDescription": {
+                  "ru": "Изменения до вылета разрешены со сбором",
+                  "en": "A fee applies before departure"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Изменения после вылета разрешены со сбором",
+                  "en": "A fee applies after departure"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до вылета разрешён со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                  "ru": "Возврат билета после вылета",
+                  "en": "Refund after departure"
+                },
+                "fullDescription": {
+                  "ru": "Возврат после вылета разрешён со сбором",
+                  "en": "Refund after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },    
+    {
+        "owner": "HZ",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[Y]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Стандарт",
+                    "en": "Standart"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг (для рейсов выполняемых на судах ДХЦ-6 и Л-410 10КГ, на вертолётах МИ8 - 20КГ)",
+                    "en": "1 item up to 23 kg (for flights operated on ships DHTs-6 and L-410 10KG, on helicopters MI8 - 20KG)"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
+                },
+                "fullDescription": {
+                  "ru": "Изменения до вылета разрешены со сбором",
+                  "en": "A fee applies before departure"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Изменения после вылета не разрешены",
+                  "en": "Refund after departure is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до вылета разрешён со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                  "ru": "Возврат билета после вылета",
+                  "en": "Refund after departure"
+                },
+                "fullDescription": {
+                  "ru": "Возврат после вылета разрешён со сбором",
+                  "en": "Refund after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "HZ",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[SBMP]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бюджет",
+                    "en": "Budget"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
+                },
+                "fullDescription": {
+                  "ru": "Изменения до вылета разрешены со сбором",
+                  "en": "A fee applies before departure"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Изменения после вылета не разрешены",
+                  "en": "Refund after departure is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до вылета разрешён со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                  "ru": "Возврат билета после вылета",
+                  "en": "Refund after departure"
+                },
+                "fullDescription": {
+                  "ru": "Возврат после вылета разрешён со сбором",
+                  "en": "Refund after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "HZ",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^[VO]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Промо",
+                    "en": "Promo"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
+                },
+                "fullDescription": {
+                  "ru": "Изменения до вылета разрешены со сбором",
+                  "en": "A fee applies before departure"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Изменения после вылета не разрешены",
+                  "en": "Refund after departure is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до вылета не разрешён",
+                    "en": "Refund before departure is not allowed"
+                },
+                "needToPay": "notAvailable"
+              },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                  "ru": "Возврат билета после вылета",
+                  "en": "Refund after departure"
+                },
+                "fullDescription": {
+                  "ru": "Возврат после вылета не разрешён",
+                  "en": "Refund after departure is not allowed"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "HZ",
+        "baseClass": "economy",
+        "priority": 5,
+        "tariffCodePattern": "^[U]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Без багажа",
+                    "en": "No baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Без багажа",
+                    "en": "No baggage"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
+                },
+                "fullDescription": {
+                  "ru": "Изменения до вылета разрешены со сбором",
+                  "en": "A fee applies before departure"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Изменения после вылета не разрешены",
+                  "en": "Exchange after departure is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до вылета не разрешён",
+                    "en": "Refund before departure is not allowed"
+                },
+                "needToPay": "notAvailable"
+              },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                  "ru": "Возврат билета после вылета",
+                  "en": "Refund after departure"
+                },
+                "fullDescription": {
+                  "ru": "Возврат после вылета не разрешён",
+                  "en": "Refund after departure is not allowed"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    }    
+]
