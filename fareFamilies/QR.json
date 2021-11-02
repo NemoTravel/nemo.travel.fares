@@ -1,0 +1,578 @@
+[
+    {
+        "owner": "QR",
+        "baseClass": "business",
+        "priority": 4,
+        "tariffCodePattern": "^[R]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Business Classic",
+                    "en": "Business Classic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "15 кг",
+                    "en": "up to 15 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со сбором",
+                    "en": "Refund after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета разрешен со сбором",
+                    "en": "Exchange before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Exchange after departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен после вылета разрешен со сбором",
+                    "en": "Exchange after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "QR",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "^[ID]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Business Comfort",
+                    "en": "Business Comfort"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "15 кг",
+                    "en": "up to 15 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со сбором",
+                    "en": "Refund after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета разрешен со сбором",
+                    "en": "Exchange before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Exchange after departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен после вылета разрешен со сбором",
+                    "en": "Exchange after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "QR",
+        "baseClass": "business",
+        "priority": 6,
+        "tariffCodePattern": "^[CJ]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Business Elite",
+                    "en": "Business Elite"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "15 кг",
+                    "en": "up to 15 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен без сборов",
+                    "en": "Refund before departure is allowed without penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со сбором",
+                    "en": "Refund after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета разрешен без сборов",
+                    "en": "Exchange before departure is allowed without penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Exchange after departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен после вылета разрешен со сбором",
+                    "en": "Exchange after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "QR",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[OTQN]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Classic",
+                    "en": "Classic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 25 кг",
+                    "en": "Up to 25 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со сбором",
+                    "en": "Refund after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета разрешен со сбором",
+                    "en": "Exchange before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Exchange after departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен после вылета разрешен со сбором",
+                    "en": "Exchange after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "QR",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[HBY]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Comfort",
+                    "en": "Comfort"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 35 кг",
+                    "en": "Up to 35 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен без сборов",
+                    "en": "Refund before departure is allowed without penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со сбором",
+                    "en": "Refund after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета разрешен без сборов",
+                    "en": "Exchange before departure is allowed without penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Exchange after departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен после вылета разрешен со сбором",
+                    "en": "Exchange after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "QR",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[SVLMK]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Convenience",
+                    "en": "Convenience"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 30 кг",
+                    "en": "Up to 30 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета разрешен со сбором",
+                    "en": "Refund after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета разрешен со сбором",
+                    "en": "Exchange before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Exchange after departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен после вылета разрешен со сбором",
+                    "en": "Exchange after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    }
+]
