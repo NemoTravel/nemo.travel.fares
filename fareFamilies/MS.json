@@ -1,0 +1,222 @@
+[
+    {
+        "owner": "MS",
+        "baseClass": "economy",
+        "priority": 0,
+        "tariffCodePattern": "^[T]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "RT",
+                    "en": "RT"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета разрешен со сбором",
+                    "en": "Exchange before departure is allowed with a charge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "MS",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[SLV]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Best Offer",
+                    "en": "Best Offer"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета разрешен со сбором",
+                    "en": "Exchange before departure is allowed with a charge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "MS",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[KQHM]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Good Deal",
+                    "en": "Good Deal"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сбором",
+                    "en": "Refund before departure is allowed with a charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета разрешен со сбором",
+                    "en": "Exchange before departure is allowed with a charge"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "MS",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[BY]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Full Flex",
+                    "en": "Full Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен без сборов",
+                    "en": "Refund is allowed without penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета разрешен без сборов",
+                    "en": "Exchange before departure is allowed without penalty"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "MS",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^[A]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Comfort",
+                    "en": "Comfort"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен без сборов",
+                    "en": "Refund is allowed without penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета разрешен без сборов",
+                    "en": "Exchange before departure is allowed without penalty"
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]
