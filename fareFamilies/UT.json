@@ -329,7 +329,7 @@
                 "needToPay": "charge"
             }
         ]
-    },
+    }, 
     {
         "owner": "UT",
         "baseClass": "economy",
