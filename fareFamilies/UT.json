@@ -334,7 +334,7 @@
         "owner": "UT",
         "baseClass": "economy",
         "priority": 7,
-        "tariffCodePattern": "^(\\w*(STR))\\w*$",
+        "tariffCodePattern": "^(\\w*(STD))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -378,24 +378,14 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund before departure"
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат до вылета разрешён со сбором",
-                    "en": "Refund before departure is allowed with penalty"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                  "ru": "Возврат билета после вылета",
-                  "en": "Refund after departure"
-                },
-                "fullDescription": {
-                  "ru": "Возврат после вылета не разрешён",
-                  "en": "Refund after departure is not allowed"
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable",
+                    "de": "Fare ist völlig nicht rückzahlbar"
                 },
                 "needToPay": "notAvailable"
             },
@@ -463,14 +453,24 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
-                    "de": "Ticketrückerstattung"
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "Возврат до вылета разрешён со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                  "ru": "Возврат билета после вылета",
+                  "en": "Refund after departure"
+                },
+                "fullDescription": {
+                  "ru": "Возврат после вылета не разрешён",
+                  "en": "Refund after departure is not allowed"
                 },
                 "needToPay": "notAvailable"
             },
