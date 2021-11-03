@@ -334,7 +334,7 @@
         "owner": "UT",
         "baseClass": "economy",
         "priority": 7,
-        "tariffCodePattern": "^(\\w*(STD))\\w*$",
+        "tariffCodePattern": "^(\\w*(STR))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -378,14 +378,24 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
-                    "de": "Ticketrückerstattung"
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "Возврат до вылета разрешён со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                  "ru": "Возврат билета после вылета",
+                  "en": "Refund after departure"
+                },
+                "fullDescription": {
+                  "ru": "Возврат после вылета не разрешён",
+                  "en": "Refund after departure is not allowed"
                 },
                 "needToPay": "notAvailable"
             },
