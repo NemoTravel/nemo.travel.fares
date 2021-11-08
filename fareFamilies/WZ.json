@@ -3,8 +3,6 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 1,
-        "flightTimeSince": "2020-11-09T00:00:00",
-        "flightTimeUntil": "2021-11-11T00:00:00",
         "tariffCodePattern": "^[PJOZUEVFTQNMLKBWR](LT)\\w*$",
         "parameters": [
             {
@@ -58,14 +56,26 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
+                  "ru": "Обмен до вылета разрешён со сбором",
+                  "en": "Exchange before departure is allowed with penalty"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен после вылета не разрешён",
+                  "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
             },
             {
                 "code": "meal",
@@ -85,8 +95,6 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 2,
-        "flightTimeSince": "2020-11-09T00:00:00",
-        "flightTimeUntil": "2021-11-11T00:00:00",
         "tariffCodePattern": "^[PJOZUEVFTQNMLKBWR](ST)\\w*$",
         "parameters": [
             {
@@ -128,24 +136,48 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "ru": "Возврат до вылета разрешён со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                  "ru": "Возврат билета после вылета",
+                  "en": "Refund after departure"
+                },
+                "fullDescription": {
+                  "ru": "Возврат после вылета не разрешён",
+                  "en": "Refund after departure is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен до вылета разрешён со сбором",
+                  "en": "Exchange before departure is allowed with penalty"
                 },
                 "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
+                  "ru": "Обмен после вылета разрешён со сбором",
+                  "en": "Exchange after departure is allowed with penalty"
                 },
                 "needToPay": "charge"
             },
@@ -167,13 +199,13 @@
         "owner": "WZ",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[PJOZUEVFTQNMLKBWR](BS)\\w*$",
+        "tariffCodePattern": "^\\w*(EC)(OW|RT|PRO)$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Базовый",
-                    "en": "Basic"
+                    "ru": "Эконом",
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
@@ -182,76 +214,76 @@
                 "needToPay": null
             },
             {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг, габариты — 55 x 40 x 20 см",
-                    "en": "1 item up to 10 kg, up to 55 x 40 x 20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 места до 23 кг каждое",
-                    "en": "2 items up to 23 kg each"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
-                    "ru": "2 места до 23 кг каждое — сумма трех измерений каждого места до 158 см",
-                    "en": "2 items up to 23 kg each, total linear dimension — up to 158 cm each"
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 5 кг, габариты — 40 x 30 x 20 см",
+                    "en": "1 item up to 5 kg, up to 40 x 30 x 20 cm"
                 },
                 "needToPay": "free"
             },
             {
-                "code": "refundable",
+                "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Возврат билета за 24 часа до вылета",
-                    "en": "Refund for 24 Hours or Upwards Before Departure"
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета за 24 часа до вылета разрешен без сборов",
-                    "en": "Refundable for 24 hours or upwards before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета менее чем за 24 часа до вылета",
-                    "en": "Refund up to 24 Hours Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета менее чем за 24 часа до вылета разрешен со сбором",
-                    "en": "Refundable less than 24 hours before departure. A fee applies"
+                  "ru": "Обмен до вылета разрешён со сбором",
+                  "en": "Exchange before departure is allowed with penalty"
                 },
                 "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета разрешен со сборами",
-                    "en": "Exchangeable. A fee applies"
+                  "ru": "Обмен после вылета разрешён со сбором",
+                  "en": "Exchange after departure is allowed with penalty"
                 },
                 "needToPay": "charge"
             },
             {
-                "code": "meal",
+                "code": "refundable",
                 "shortDescription": {
-                    "ru": "Питание на борту",
-                    "en": "Complimentary Meals"
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат до вылета разрешён со сбором",
+                    "en": "Refund before departure is allowed with penalty"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                  "ru": "Возврат билета после вылета",
+                  "en": "Refund after departure"
+                },
+                "fullDescription": {
+                  "ru": "Возврат после вылета не разрешён",
+                  "en": "Refund after departure is not allowed"
+                },
+                "needToPay": "notAvailable"
             }
         ]
     },
@@ -322,7 +354,7 @@
                 "needToPay": "charge"
             },
             {
-                "code": "exchangeable", 
+                "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета",
                     "en": "Exchange"
@@ -332,6 +364,258 @@
                     "en": "Exchangeable for 40 minutes or upwards before departure. No fee applies"
                 },
                 "needToPay": "free"
+            }
+        ]
+    },    
+    {
+        "owner": "WZ",
+        "baseClass": "economy",
+        "priority": 5,
+        "tariffCodePattern": "^[A-Z](STOWCS)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Смарт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 23 кг — сумма трех измерений до 203 см",
+                    "en": "1 item up to 23 kg, total linear dimension — up to 203 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, габариты — 40 x 30 x 20 см",
+                    "en": "1 item up to 10 kg, up to 40 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен до вылета разрешён со сбором",
+                  "en": "Exchange before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен после вылета разрешён со сбором",
+                  "en": "Exchange after departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "WZ",
+        "baseClass": "economy",
+        "priority": 6,
+        "tariffCodePattern": "^[A-Z](LTOWCS)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Смарт Лайт",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, габариты — 40 x 30 x 20 см",
+                    "en": "1 item up to 10 kg, up to 40 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен до вылета разрешён со сбором",
+                  "en": "Exchange before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен после вылета не разрешён",
+                  "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "WZ",
+        "baseClass": "economy",
+        "priority": 7,
+        "tariffCodePattern": "^[A-Z](BSOWCS)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Смарт Про",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг, габариты — 40 x 30 x 20 см",
+                    "en": "1 item up to 10 kg, up to 40 x 30 x 20 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 23 кг — сумма трех измерений до 203 см",
+                    "en": "1 item up to 23 kg, total linear dimension — up to 203 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен билета до вылета разрешен без штрафа",
+                  "en": "Exchangeable before departure"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен билета после вылета разрешен со штрафом",
+                  "en": "A fee applies after departure"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundWithCondition",
+                "shortDescription": {
+                  "ru": "Возврат билета",
+                  "en": "Refund"
+                },
+                "fullDescription": {
+                  "ru": "за 24 часа и более до вылета",
+                  "en": "more than 24 hours before the check-in for the flight"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundWithCondition",
+                "shortDescription": {
+                  "ru": "Возврат билета",
+                  "en": "Refund"
+                },
+                "fullDescription": {
+                  "ru": "менее чем за 24 часа до вылета",
+                  "en": "less than 24 hours before the check-in for the flight"
+                },
+                "needToPay": "charge"
             }
         ]
     }
