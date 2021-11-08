@@ -450,24 +450,48 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
+                  "ru": "Изменения до вылета",
+                  "en": "Changes before departure"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета запрещен",
-                    "en": "Non-exchangeable"
+                  "ru": "Обмен до вылета разрешён со сбором",
+                  "en": "Exchange before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Changes after departure"
+                },
+                "fullDescription": {
+                  "ru": "Обмен после вылета не разрешён",
+                  "en": "Non-exchangeable"
                 },
                 "needToPay": "notAvailable"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета запрещен",
-                    "en": "Non-refundable"
+                    "ru": "Возврат до вылета разрешён со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                  "ru": "Возврат билета после вылета",
+                  "en": "Refund after departure"
+                },
+                "fullDescription": {
+                  "ru": "Возврат после вылета не разрешён",
+                  "en": "Refund after departure is not allowed"
                 },
                 "needToPay": "notAvailable"
             }
