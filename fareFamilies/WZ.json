@@ -322,7 +322,7 @@
                 "needToPay": "charge"
             },
             {
-                "code": "exchangeable",
+                "code": "exchangeable", 
                 "shortDescription": {
                     "ru": "Обмен билета",
                     "en": "Exchange"
