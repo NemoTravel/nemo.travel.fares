@@ -1169,11 +1169,11 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без штрафа авиакомпании",
-                    "en": "Ticket refund is allowed without an airline penalty",
-                    "de": "Ticketrückerstattungen sind ohne eine Strafe der Fluggesellschaft möglich"
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Ticket refund is allowed free of charge",
+                    "de": "Ticketrückerstattung ist kostenlos"
                 },
-                "needToPay": "notPenalty"
+                "needToPay": "free"
             },
             {
                 "code": "refundable",
@@ -1183,11 +1183,11 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без штрафа авиакомпании",
-                    "en": "Ticket refund is allowed without an airline penalty",
-                    "de": "Ticketrückerstattungen sind ohne eine Strafe der Fluggesellschaft möglich"
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Ticket refund is allowed free of charge",
+                    "de": "Ticketrückerstattung ist kostenlos"
                 },
-                "needToPay": "notPenalty"
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",
@@ -1721,11 +1721,11 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без штрафа авиакомпании",
-                    "en": "Ticket refund is allowed without an airline penalty",
-                    "de": "Ticketrückerstattungen sind ohne eine Strafe der Fluggesellschaft möglich"
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Ticket refund is allowed free of charge",
+                    "de": "Ticketrückerstattung ist kostenlos"
                 },
-                "needToPay": "notPenalty"
+                "needToPay": "free"
             },
             {
                 "code": "refundable",
@@ -1735,11 +1735,11 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без штрафа авиакомпании",
-                    "en": "Ticket refund is allowed without an airline penalty",
-                    "de": "Ticketrückerstattungen sind ohne eine Strafe der Fluggesellschaft möglich"
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Ticket refund is allowed free of charge",
+                    "de": "Ticketrückerstattung ist kostenlos"
                 },
-                "needToPay": "notPenalty"
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",
@@ -2239,11 +2239,11 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без штрафа авиакомпании",
-                    "en": "Ticket refund is allowed without an airline penalty",
-                    "de": "Ticketrückerstattungen sind ohne eine Strafe der Fluggesellschaft möglich"
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Ticket refund is allowed free of charge",
+                    "de": "Ticketrückerstattung ist kostenlos"
                 },
-                "needToPay": "notPenalty"
+                "needToPay": "free"
             },
             {
                 "code": "refundable",
@@ -2253,11 +2253,11 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без штрафа авиакомпании",
-                    "en": "Ticket refund is allowed without an airline penalty",
-                    "de": "Ticketrückerstattungen sind ohne eine Strafe der Fluggesellschaft möglich"
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Ticket refund is allowed free of charge",
+                    "de": "Ticketrückerstattung ist kostenlos"
                 },
-                "needToPay": "notPenalty"
+                "needToPay": "free"
             },
             {
                 "code": "seatsRegistration",
