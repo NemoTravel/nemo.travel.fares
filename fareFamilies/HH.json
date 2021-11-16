@@ -1,0 +1,462 @@
+[
+    {
+        "owner": "HH",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^[YIH]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "L",
+                    "en": "L"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место багажа весом не более 23 кг не должно превышать 208 см в сумме трех измерений",
+                    "en": "1 baggage item up to 23 kg, total linear dimensions up to 208 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение билета до вылета",
+                    "en": "Changes before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение полностью неиспользованного билета разрешено со сбором. Изменение маршрута не разрешено",
+                    "en": "Changes before departure are permitted with a fee. Changes of route are not available"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение билета после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение частично неиспользованного билета разрешено со сбором. Изменение маршрута не разрешено",
+                    "en": "Changes after departure are permitted with a fee. Changes of route are not available"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат полностью неиспользованного билета разрешен со сбором",
+                    "en": "Refund before departure is permitted with a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат частично неиспользованного билета разрешен со сбором",
+                    "en": "Refund after departure is permitted with a fee"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "HH",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[LQMBK]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "M",
+                    "en": "M"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место багажа весом не более 23 кг не должно превышать 203 см в сумме трех измерений",
+                    "en": "1 baggage item up to 23 kg, total linear dimensions up to 203 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение билета до вылета",
+                    "en": "Changes before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение полностью неиспользованного билета разрешено со сбором. Изменение маршрута не разрешено",
+                    "en": "Changes before departure are permitted with a fee. Changes of route are not available"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение билета после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение частично неиспользованного билета разрешено со сбором. Изменение маршрута не разрешено",
+                    "en": "Changes after departure are permitted with a fee. Changes of route are not available"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат полностью неиспользованного билета разрешен со сбором",
+                    "en": "Refund before departure is permitted with a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат частично неиспользованного билета разрешен со сбором",
+                    "en": "Refund after departure is permitted with a fee"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "HH",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[RTUES]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "S",
+                    "en": "S"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место багажа весом не более 23 кг не должно превышать 158 см в сумме трех измерений",
+                    "en": "1 baggage item up to 23 kg, total linear dimensions up to 158 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение билета до вылета",
+                    "en": "Changes before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение полностью неиспользованного билета разрешено со сбором. Изменение маршрута не разрешено",
+                    "en": "Changes before departure are permitted with a fee. Changes of route are not available"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение билета после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение частично неиспользованного билета разрешено со сбором. Изменение маршрута не разрешено",
+                    "en": "Changes after departure are permitted with a fee. Changes of route are not available"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат полностью неиспользованного билета разрешен со сбором",
+                    "en": "Refund before departure is permitted with a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат частично неиспользованного билета не разрешен",
+                    "en": "Refund after departure is not available"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "HH",
+        "baseClass": "economy",
+        "priority": 5,
+        "tariffCodePattern": "^[NPZ]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "XL",
+                    "en": "XL"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место багажа весом не более 23 кг не должно превышать 215 см в сумме трех измерений",
+                    "en": "1 baggage item up to 23 kg, total linear dimensions up to 215 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение билета до вылета",
+                    "en": "Changes before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение полностью неиспользованного билета разрешено со сбором. Изменение маршрута не разрешено",
+                    "en": "Changes before departure are permitted with a fee. Changes of route are not available"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение билета после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение частично неиспользованного билета разрешено со сбором. Изменение маршрута не разрешено",
+                    "en": "Changes after departure are permitted with a fee. Changes of route are not available"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат полностью неиспользованного билета разрешен со сбором",
+                    "en": "Refund before departure is permitted with a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат частично неиспользованного билета разрешен со сбором",
+                    "en": "Refund after departure is permitted with a fee"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "HH",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[VOWX]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "XS",
+                    "en": "XS"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 5 кг",
+                    "en": "1 item up to 5 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место багажа весом не более 23 кг не должно превышать 140 см в сумме трех измерений",
+                    "en": "1 baggage item up to 23 kg, total linear dimensions up to 140 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение билета до вылета",
+                    "en": "Changes before departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение полностью неиспользованного билета не разрешено. Изменение маршрута не разрешено",
+                    "en": "Changes before departure are not available. Changes of route are not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение билета после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Изменение частично неиспользованного билета не разрешено. Изменение маршрута не разрешено",
+                    "en": "Changes after departure are not available. Changes of route are not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат полностью неиспользованного билета не разрешен",
+                    "en": "Refund before departure is not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат частично неиспользованного билета не разрешен",
+                    "en": "Refund after departure is not available"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    }
+]

@@ -3,7 +3,7 @@
         "owner": "MJ",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([YSBHKLMNVXOQTUR](CT))\\w*$",
+        "tariffCodePattern": "^([A-Z](CT))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -71,7 +71,7 @@
         "owner": "MJ",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([YSBHKLMNVXOQTUR](LT))\\w*$",
+        "tariffCodePattern": "^([A-Z](LT))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -139,7 +139,7 @@
         "owner": "MJ",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^([YSBHKLMNVXOQTUR](FL))\\w*$",
+        "tariffCodePattern": "^([A-Z](FL))\\w*$",
         "parameters": [
             {
                 "code": "description",

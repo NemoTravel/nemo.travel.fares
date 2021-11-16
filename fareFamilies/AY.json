@@ -243,10 +243,10 @@
                     "de": "Umbuchung"
                 },
                 "fullDescription": {
-                    "ru": "Изменения разрешены со сбором",
-                    "en": "Changes are permitted with a penalty"
+                    "ru": "Изменения дат путешествия или рейсов разрешены. Изменения имени не разрешены",
+                    "en": "Change of travel dates or flights is permitted. Name change is not permitted"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "refundable",
@@ -256,10 +256,10 @@
                     "de": "Erstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат разрешен со штрафом",
-                    "en": "Refundable with cancellation penalty"
+                    "ru": "Возврат не разрешен",
+                    "en": "Non-refundable"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             }
         ]
     },
@@ -315,8 +315,8 @@
                     "de": "Umbuchung"
                 },
                 "fullDescription": {
-                    "ru": "Изменения разрешены",
-                    "en": "Changes are permitted"
+                    "ru": "Изменения дат путешествия или рейсов разрешены. Изменения имени не разрешены",
+                    "en": "Change of travel dates or flights is permitted. Name change is not permitted"
                 },
                 "needToPay": "free"
             },
