@@ -315,8 +315,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 32 кг",
-                    "en": "1 piece up to 32 kg",
+                    "ru": "1 место до 32 кг, в сумме 3-х измерений не более 203см",
+                    "en": "1 piece up to 32 kg and 203 cm",
                     "de": "1 Beutel bis 32 kg"
                 },
                 "fullDescription": {
@@ -341,8 +341,22 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф по неиспользованным участкам подлежит возврату со сбором",
+                    "en": "Refundable. A fee applies",
+                    "de": "Fahrpreise auf unbenutzten Beinen der Strecke unterliegen der Rückgabe. Die YR-Rate, Flughafen Steuern und Gebühren für nicht genutzte Portionen sind zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Eine Gebühr wird für eine Rückerstattung für jedes zurückgegebene Land gesammelt, auf dem es keine Anwesenheit gab, und eine Gebühr für die Rückerstattung für jede zurückgegebene Website, auf der es keine Nicht-Aussehen gab. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
@@ -355,8 +369,22 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения в билете",
-                    "en": "Exchange",
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange before departure",
+                    "de": "Änderungen der Fahrkarte vor Abfahrt"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены без сборов",
+                    "en": "Ticket exchange before departure is allowed free of charge",
+                    "de": "Vor Abreise — Änderungen sind kostenfrei. Nach jedem Abflug mit Aufpreis für jedes Segment zugelassen. Der Austausch zu einem höheren Fahrpreis ist innerhalb der Economy Base und Business Base Gruppen erlaubt. Es ist erlaubt, Ihnen die aktuelle Tarifniveau auf die höhere avalible Klasse, mit einer zusätzlichen Gebühr zu upgragen"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете после вылета",
+                    "en": "Exchange after departure",
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
                 "fullDescription": {
@@ -594,8 +622,22 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения в билете",
-                    "en": "Exchange",
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange before departure",
+                    "de": "Änderungen der Fahrkarte vor Abfahrt"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены без сборов",
+                    "en": "Ticket exchange before departure is allowed free of charge",
+                    "de": "Ticketbörse vor Abreise ist kostenlos"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете после вылета",
+                    "en": "Exchange after departure",
                     "de": "Änderungen der Fahrkarte vor Abfahrt"
                 },
                 "fullDescription": {
@@ -608,8 +650,21 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф по неиспользованным участкам подлежит возврату со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
