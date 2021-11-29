@@ -8,7 +8,7 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Классический",
+                    "ru": "Classic",
                     "en": "Classic"
                 },
                 "fullDescription": {
@@ -76,7 +76,7 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Гибкий",
+                    "ru": "Flex",
                     "en": "Flex"
                 },
                 "fullDescription": {
@@ -144,7 +144,7 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Легкий",
+                    "ru": "Light",
                     "en": "Light"
                 },
                 "fullDescription": {
@@ -212,8 +212,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Базовый",
-                    "en": "Regular"
+                    "ru": "Base",
+                    "en": "Base"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -274,13 +274,13 @@
     {
         "owner": "LH",
         "baseClass": "business",
-        "priority": 4,
-        "tariffCodePattern": "^(\\w*\\d*(BXX))\\w*\\d*$",
+        "priority": 5,
+        "tariffCodePattern": "^[JСDZ]\\w*(NC)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Бизнес Легкий",
+                    "ru": "Business Saver",
                     "en": "Business Saver"
                 },
                 "fullDescription": {
@@ -290,23 +290,10 @@
                 "needToPay": null
             },
             {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 места до 8 кг каждое",
-                    "en": "2 pieces up to 8 kg each",
-                    "de": "2 Beutel bis 8 kg"
+                    "ru": "2 сумки по 8 кг",
+                    "en": "2 items up to 8 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -317,21 +304,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each",
-                    "de": "2 Beutel bis 32 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в зал ожидания",
-                    "en": "Lounge Access"
+                    "ru": "2 сумки по 32 кг",
+                    "en": "2 items up to 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -354,7 +328,7 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до вылета",
+                    "ru": "Возврат билета",
                     "en": "Refund"
                 },
                 "fullDescription": {
@@ -362,43 +336,19 @@
                     "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "Мили HON Circle",
-                    "en": "HON Circle Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритет в аэропорту",
-                    "en": "Priority Check-in, Baggage Handling and Boarding"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
             }
         ]
     },
     {
         "owner": "LH",
         "baseClass": "business",
-        "priority": 5,
-        "tariffCodePattern": "^(\\w*\\d*(BUZ))\\w*\\d*$",
+        "priority": 6,
+        "tariffCodePattern": "^[JСDZ]\\w*(FF)\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Бизнес Гибкий",
+                    "ru": "Business Flex",
                     "en": "Business Flex"
                 },
                 "fullDescription": {
@@ -410,9 +360,8 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "2 места до 8 кг каждое",
-                    "en": "2 pieces up to 8 kg each",
-                    "de": "2 Beutel bis 8 kg"
+                    "ru": "2 сумки по 8 кг",
+                    "en": "2 items up to 8 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -423,33 +372,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each",
-                    "de": "2 Beutel bis 32 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в зал ожидания",
-                    "en": "Lounge Access"
+                    "ru": "2 сумки по 32 кг",
+                    "en": "2 items up to 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -472,7 +396,87 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до вылета",
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сборов",
+                    "en": "Refundable. No fee applies"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "LH",
+        "baseClass": "business",
+        "priority": 7,
+        "tariffCodePattern": "^[JСDZ]\\w*(RC)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Business Base",
+                    "en": "Business Base"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 сумки по 8 кг",
+                    "en": "2 items up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки по 32 кг",
+                    "en": "2 items up to 32 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения до вылета",
+                  "en": "Exchange Before Departure"
+                },
+                "fullDescription": {
+                  "ru": "Изменения до вылета разрешены без сборов",
+                  "en": "Exchange before departure. No fee applies"
+                },
+                "needToPay": "free"
+              },
+              {
+                "code": "exchangeable",
+                "shortDescription": {
+                  "ru": "Изменения после вылета",
+                  "en": "Exchange After Departure"
+                },
+                "fullDescription": {
+                  "ru": "Изменения после вылета разрешены без сборов",
+                  "en": "Exchange after departure. No fee applies"
+                },
+                "needToPay": "free"
+              },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
                     "en": "Refund"
                 },
                 "fullDescription": {
@@ -480,30 +484,6 @@
                     "en": "Refundable. A fee applies"
                 },
                 "needToPay": "charge"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "Мили HON Circle",
-                    "en": "HON Circle Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритет в аэропорту",
-                    "en": "Priority Check-in, Baggage Handling and Boarding"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
             }
         ]
     }
