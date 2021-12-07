@@ -3,7 +3,7 @@
         "owner": "A9",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([YMLB])\\w*$",
+        "tariffCodePattern": "^([AENOPQUYSI])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -95,7 +95,7 @@
         "owner": "A9",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([QNOVKH])\\w*$",
+        "tariffCodePattern": "^([HKLMTBVW])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -187,7 +187,7 @@
         "owner": "A9",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([IRSWTX])\\w*$",
+        "tariffCodePattern": "^([RX])\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -279,7 +279,7 @@
         "owner": "A9",
         "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^([JCDZ])\\w*$",
+        "tariffCodePattern": "^([CD])\\w*$",
         "parameters": [
             {
                 "code": "description",
