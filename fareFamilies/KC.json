@@ -32,8 +32,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "До 30 кг",
-                    "en": "Up to 30 kg"
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -88,8 +88,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Бизнес",
-                    "en": "Business"
+                    "ru": "Гибкий Бизнес",
+                    "en": "Business Flex"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -100,11 +100,11 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "До 12 кг",
-                    "en": "Up to 12 kg"
+                    "ru": "2 места до 8 кг каждое",
+                    "en": "2 items up to 8 kg each"
                 },
                 "fullDescription": {
-                    "ru": "Разрешено перевозить 1 сумку размером не больше 56 x 45 x 25 см",
+                    "ru": "Разрешено перевозить 2 сумки размером не больше 56 x 45 x 25 см",
                     "en": "Cabin baggage dimensions are limited and must not be larger than 56 x 45 x 25 cm"
                 },
                 "needToPay": "free"
@@ -112,8 +112,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "До 30 кг",
-                    "en": "Up to 30 kg"
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -204,8 +204,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "До 20 кг",
-                    "en": "Up to 20 kg"
+                    "ru": "До 23 кг",
+                    "en": "Up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -260,11 +260,11 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "До 12 кг",
-                    "en": "Up to 12 kg"
+                    "ru": "2 места до 8 кг каждое",
+                    "en": "2 items up to 8 kg each"
                 },
                 "fullDescription": {
-                    "ru": "Разрешено перевозить 1 сумку размером не больше 56 x 45 x 25 см",
+                    "ru": "Разрешено перевозить 2 сумки размером не больше 56 x 45 x 25 см",
                     "en": "Cabin baggage dimensions are limited and must not be larger than 56 x 45 x 25 cm"
                 },
                 "needToPay": "free"
@@ -272,8 +272,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "До 30 кг",
-                    "en": "Up to 30 kg"
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
                     "ru": "",
