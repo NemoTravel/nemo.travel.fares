@@ -1,169 +1,9 @@
 [
     {
         "owner": "OS",
-        "baseClass": "business",
-        "priority": 5,
-        "saleTimeSince": "2015-09-28T00:00:00",
-        "saleTimeUntil": "2021-06-01T00:00:00",
-        "flightTimeSince": "2015-05-27T00:00:00",
-        "flightTimeUntil": "2021-12-30T00:00:00",
-        "tariffCodePattern": "^(\\w*\\d*(BUZ))\\w*\\d*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Бизнес",
-                    "en": "Business"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "2 места до 8 кг каждое",
-                    "en": "2 pieces up to 8 kg each"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 сумки до 32 кг каждая",
-                    "en": "2 items up to 32 kg each"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Предварительное бронирование места",
-                    "en": "Seat Reservation"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатное резервирование мест",
-                    "en": "Seat reservation — available"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Свободное место рядом",
-                    "en": "Empty Middle Seat"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатное резервирование мест со свободными местами рядом",
-                    "en": "Seat reservation with empty middle seat — available"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в зал ожидания",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуски и напитки",
-                    "en": "Snacks & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Перебронирование",
-                    "en": "Rebooking"
-                },
-                "fullDescription": {
-                    "ru": "Перебронирование разрешено без сборов",
-                    "en": "Rebooking — available. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "Мили HON Circle",
-                    "en": "HON Circle Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации на рейс",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": "Seat selection permitted during the check-in"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритет в аэропорту",
-                    "en": "Priority Check-in, Baggage Handling and Boarding"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "OS",
         "baseClass": "economy",
         "priority": 2,
-        "saleTimeSince": "2015-09-28T00:00:00",
-        "saleTimeUntil": "2021-06-01T00:00:00",
-        "flightTimeSince": "2015-05-27T00:00:00",
-        "flightTimeUntil": "2021-12-30T00:00:00",
-        "tariffCodePattern": "^(\\w*\\d*(CLS))\\w*\\d*$",
+        "tariffCodePattern": "^\\w*(CLS)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -176,160 +16,6 @@
                     "en": ""
                 },
                 "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "До 8 кг",
-                    "en": "Up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуски и напитки",
-                    "en": "Snacks & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "100% миль",
-                    "en": "100% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Предварительное бронирование места",
-                    "en": "Seat Reservation"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатное резервирование мест",
-                    "en": "Seat reservation — available"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Перебронирование",
-                    "en": "Rebooking"
-                },
-                "fullDescription": {
-                    "ru": "Перебронирование разрешено со сборами",
-                    "en": "Rebooking — available. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Повышение класса обслуживания до бизнес-класса",
-                    "en": "Upgrading to Business Class"
-                },
-                "fullDescription": {
-                    "ru": "Возможна доплата для повышение класса обслуживания до бизнес-класса",
-                    "en": "Upgrading to business class — available at extra charge"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации на рейс",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": "Seat selection permitted during the check-in"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в зал ожидания",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "Без доступа в зал ожидания",
-                    "en": "No free lounge access"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "OS",
-        "baseClass": "economy",
-        "priority": 2,
-        "flightTimeSince": "2021-12-31T00:00:00",
-        "flightTimeUntil": "2022-04-27T00:00:00",
-        "tariffCodePattern": "^(\\w*(NC)\\w*)$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Классический",
-                    "en": "Classic"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
             },
             {
                 "code": "refundable",
@@ -362,10 +48,22 @@
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено со сборами",
-                    "en": "Rebooking — available. A fee applies"
+                    "ru": "Перебронирование разрешено без сбора",
+                    "en": "Rebooking is available without a fee"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -373,11 +71,7 @@
         "owner": "OS",
         "baseClass": "economy",
         "priority": 3,
-        "saleTimeSince": "2015-09-28T00:00:00",
-        "saleTimeUntil": "2021-06-01T00:00:00",
-        "flightTimeSince": "2015-05-27T00:00:00",
-        "flightTimeUntil": "2021-12-30T00:00:00",
-        "tariffCodePattern": "^(\\w*\\d*(FLX))\\w*\\d*$",
+        "tariffCodePattern": "^\\w*(FLX)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -392,18 +86,6 @@
                 "needToPay": null
             },
             {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "До 8 кг",
-                    "en": "Up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 сумка до 23 кг",
@@ -416,40 +98,16 @@
                 "needToPay": "free"
             },
             {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Предварительное бронирование места",
-                    "en": "Seat Reservation"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатное резервирование мест",
-                    "en": "Seat reservation — available"
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование",
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено без сборов",
-                    "en": "Rebooking — available. No fee applies"
+                    "ru": "Перебронирование разрешено без сбора",
+                    "en": "Rebooking is available without a fee"
                 },
                 "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Повышение класса обслуживания до бизнес-класса",
-                    "en": "Upgrading to Business Class"
-                },
-                "fullDescription": {
-                    "ru": "Возможна доплата для повышение класса обслуживания до бизнес-класса",
-                    "en": "Upgrading to business class — available at extra charge"
-                },
-                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -458,161 +116,28 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable with a fee"
                 },
                 "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуски и напитки",
-                    "en": "Snacks & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "150% миль",
-                    "en": "150% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
             },
             {
                 "code": "vipService",
                 "shortDescription": {
-                    "ru": "Доступ в зал ожидания",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "Без доступа в зал ожидания",
-                    "en": "No free lounge access"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации на рейс",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": "Seat selection permitted during the check-in"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "OS",
-        "baseClass": "economy",
-        "priority": 4,
-        "flightTimeSince": "2021-12-31T00:00:00",
-        "flightTimeUntil": "2022-04-27T00:00:00",
-        "tariffCodePattern": "^(\\w*(FF)\\w*)$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Гибкий",
-                    "en": "Flex"
+                    "ru": "Приоритет при посадке на борт",
+                    "en": "Priority Boarding"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
                 },
-                "needToPay": null
+                "needToPay": "free"
             },
             {
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "До 8 кг",
                     "en": "Up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен без сбора",
-                    "en": "Refundable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Перебронирование",
-                    "en": "Rebooking"
-                },
-                "fullDescription": {
-                    "ru": "Перебронирование разрешено без сборов",
-                    "en": "Rebooking — available. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "OS",
-        "baseClass": "economy",
-        "priority": 9,
-        "saleTimeSince": "2015-09-28T00:00:00",
-        "saleTimeUntil": "2021-06-01T00:00:00",
-        "flightTimeSince": "2015-05-27T00:00:00",
-        "flightTimeUntil": "2021-12-30T00:00:00",
-        "tariffCodePattern": "^([YC](IF))$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "IATA",
-                    "en": "IATA",
-                    "de": "IATA"
-                },
-                "fullDescription": {
-                    "ru": "Тариф является базовым для данного направления и не привязан к авиакомпании. Подробности о предоставляемых услугах уточняйте в условиях применения тарифа",
-                    "en": "This tariff has no connection to the airline and works only on this route. Please check the fare rules for more details",
-                    "de": "Dieser Fahrpreis hat keine Verbindung zur Fluggesellschaft und funktioniert nur auf dieser Strecke. Bitte überprüfen Sie die Tarifregeln für weitere Details"
-                },
-                "needToPay": null
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Информация по провозу ручной клади и багажа уточняется в условиях применения тарифа",
-                    "en": "Check the fare rules to specify the baggage allowance",
-                    "de": "Überprüfen Sie die Tarifbestimmungen, um die Freigepäckmenge festzulegen"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -626,11 +151,7 @@
         "owner": "OS",
         "baseClass": "economy",
         "priority": 1,
-        "saleTimeSince": "2015-09-28T00:00:00",
-        "saleTimeUntil": "2021-06-01T00:00:00",
-        "flightTimeSince": "2015-05-27T00:00:00",
-        "flightTimeUntil": "2021-12-30T00:00:00",
-        "tariffCodePattern": "^(\\w*\\d*(LGT))\\w*\\d*$",
+        "tariffCodePattern": "^\\w*(LGT)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -645,26 +166,14 @@
                 "needToPay": null
             },
             {
-                "code": "carryOn",
+                "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "До 8 кг",
-                    "en": "Up to 8 kg"
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Перебронирование разрешено со сбором",
+                    "en": "Rebooking is available with a fee"
                 },
                 "needToPay": "charge"
             },
@@ -681,136 +190,6 @@
                 "needToPay": "notAvailable"
             },
             {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "100% миль",
-                    "en": "100% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Перебронирование",
-                    "en": "Rebooking"
-                },
-                "fullDescription": {
-                    "ru": "Перебронирование не разрешено",
-                    "en": "Rebooking — not available"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Повышение класса обслуживания до бизнес-класса",
-                    "en": "Upgrading to Business Class"
-                },
-                "fullDescription": {
-                    "ru": "Возможна доплата для повышение класса обслуживания до бизнес-класса",
-                    "en": "Upgrading to business class — available at extra charge"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Закуски и напитки",
-                    "en": "Snacks & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации на рейс",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": "Seat selection permitted during the check-in"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Предварительное бронирование места",
-                    "en": "Seat Reservation"
-                },
-                "fullDescription": {
-                    "ru": "Платное резервирование обычных мест",
-                    "en": "Seat reservation — available at extra charge"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в зал ожидания",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "Без доступа в зал ожидания",
-                    "en": "No free lounge access"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "OS",
-        "baseClass": "economy",
-        "priority": 1,
-        "flightTimeSince": "2021-12-31T00:00:00",
-        "flightTimeUntil": "2022-04-27T00:00:00",
-        "tariffCodePattern": "^(\\w*(LGT|BV|LQ)\\w*)$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Легкий",
-                    "en": "Light"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "До 8 кг",
-                    "en": "Up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "Платный",
@@ -823,16 +202,16 @@
                 "needToPay": "charge"
             },
             {
-                "code": "exchangeable",
+                "code": "carryOn",
                 "shortDescription": {
-                    "ru": "Перебронирование",
-                    "en": "Rebooking"
+                    "ru": "До 8 кг",
+                    "en": "Up to 8 kg"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование не разрешено",
-                    "en": "Rebooking — not available"
+                    "ru": "",
+                    "en": ""
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
             }
         ]
     },
@@ -840,11 +219,7 @@
         "owner": "OS",
         "baseClass": "business",
         "priority": 4,
-        "saleTimeSince": "2015-09-28T00:00:00",
-        "saleTimeUntil": "2021-06-01T00:00:00",
-        "flightTimeSince": "2015-05-27T00:00:00",
-        "flightTimeUntil": "2021-12-30T00:00:00",
-        "tariffCodePattern": "^(\\w*\\d*(BXX))\\w*\\d*$",
+        "tariffCodePattern": "^\\w*(BXX)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -857,18 +232,6 @@
                     "en": ""
                 },
                 "needToPay": null
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Предварительное бронирование места",
-                    "en": "Seat Reservation"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатное резервирование мест",
-                    "en": "Seat reservation — available"
-                },
-                "needToPay": "free"
             },
             {
                 "code": "carryOn",
@@ -921,28 +284,16 @@
                 "needToPay": "free"
             },
             {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Свободное место рядом",
-                    "en": "Empty Middle Seat"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатное резервирование мест со свободными местами рядом",
-                    "en": "Seat reservation with empty middle seat — available"
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Перебронирование",
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование не разрешено",
-                    "en": "Rebooking — not available"
+                    "ru": "Перебронирование разрешено со сбором",
+                    "en": "Rebooking is available with a fee"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -957,34 +308,10 @@
                 "needToPay": "notAvailable"
             },
             {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "Мили HON Circle",
-                    "en": "HON Circle Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места при регистрации на рейс",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
                 "code": "vipService",
                 "shortDescription": {
-                    "ru": "Приоритет в аэропорту",
-                    "en": "Priority Check-in, Baggage Handling and Boarding"
+                    "ru": "Приоритет при посадке на борт",
+                    "en": "Priority Boarding"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -997,16 +324,82 @@
     {
         "owner": "OS",
         "baseClass": "economy",
-        "priority": 3,
-        "flightTimeSince": "2021-12-31T00:00:00",
-        "flightTimeUntil": "2022-04-27T00:00:00",
+        "priority": 14,
+        "tariffCodePattern": "^(\\w*(FF)\\w*)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Unrestricted",
+                    "en": "Unrestricted"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 8 кг",
+                    "en": "Up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сбора",
+                    "en": "Refundable without a fee"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено без сбора",
+                    "en": "Rebooking is available without a fee"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "OS",
+        "baseClass": "economy",
+        "priority": 13,
         "tariffCodePattern": "^(\\w*(RC)\\w*)$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Базовый",
-                    "en": "Regular"
+                    "ru": "Restricted",
+                    "en": "Restricted"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1045,8 +438,132 @@
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено со сборами",
-                    "en": "Rebooking — available. A fee applies"
+                    "ru": "Перебронирование разрешено без сбора",
+                    "en": "Rebooking is available without a fee"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable with a fee"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "OS",
+        "baseClass": "economy",
+        "priority": 12,
+        "tariffCodePattern": "^(\\w*(NC)\\w*)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Best Buy",
+                    "en": "Best Buy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено без сбора",
+                    "en": "Rebooking is available without a fee"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 8 кг",
+                    "en": "Up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "OS",
+        "baseClass": "economy",
+        "priority": 11,
+        "tariffCodePattern": "^(\\w*(NN|LQ)\\w*)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Light",
+                    "en": "Light"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 8 кг",
+                    "en": "Up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             },
@@ -1057,10 +574,128 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено со сбором",
+                    "en": "Rebooking is available with a fee"
                 },
                 "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "OS",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "^\\w*(BUZ)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Гибкий",
+                    "en": "Business Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 8 кг каждое",
+                    "en": "2 pieces up to 8 kg each",
+                    "de": "2 Beutel bis 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 сумки до 32 кг каждая",
+                    "en": "2 items up to 32 kg each",
+                    "de": "2 Beutel bis 32 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Полное меню",
+                    "en": "Meal & Beverages"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено без сбора",
+                    "en": "Rebooking is available without a fee"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без сбора",
+                    "en": "Refundable without a fee"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритет при посадке на борт",
+                    "en": "Priority Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     }
