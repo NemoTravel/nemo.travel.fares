@@ -321,7 +321,7 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "1 место",
-                    "en": ""
+                    "en": "1 item"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -392,7 +392,7 @@
                     "en": "1 item up to 12 kg"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатно доступно одно место багажа (один чемодан) и одна сумка общим весом не более 12 кг",
+                    "ru": "Одно место багажа (один чемодан) и одна сумка общим весом не более 12 кг",
                     "en": "Two pieces of luggage (one suitcase and one bag) are available free of charge with total weight not exceeding 12 kg"
                 },
                 "needToPay": "free"
@@ -400,8 +400,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "Бесплатно доступна провозка одного чемодана весом до 23 кг",
-                    "en": ""
+                    "ru": "Один чемодан весом до 23 кг",
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
