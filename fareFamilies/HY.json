@@ -207,7 +207,7 @@
         "owner": "HY",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^(KE|TE|VE|OPR|SPR|UPR|LPR)((?!NB|LC).)*$",
+        "tariffCodePattern": "^(KE|TE|VE|OPR|SPR|UPR|LPR|PPR)((?!NB|LC).)*$",
         "parameters": [
             {
                 "code": "description",

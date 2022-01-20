@@ -3,7 +3,7 @@
         "owner": "MI",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[QNVK]\\w*$",
+        "tariffCodePattern": "^[VK]\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -32,12 +32,12 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "До 30 кг",
-                    "en": "Up to 30 kg"
+                    "ru": "До 25 кг",
+                    "en": "Up to 25 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для рейсов всех направлений, кроме США: 30 кг. Для рейсов в США и обратно: 2 места до 23 кг каждое",
-                    "en": "For flights to and from all destinations, except the USA: up to 30 kg. For flights to and from the USA only: 2 pieces up to 23 kg each"
+                    "ru": "Для рейсов всех направлений, кроме США: 25 кг. Для рейсов в США и обратно: 2 места до 23 кг каждое",
+                    "en": "For flights to and from all destinations, except the USA: up to 25 kg. For flights to and from the USA only: 2 pieces up to 23 kg each"
                 },
                 "needToPay": "free"
             },
@@ -84,20 +84,8 @@
                     "en": "Itinerary Сhange"
                 },
                 "fullDescription": {
-                    "ru": "Изменение маршрута разрешено со сбором",
-                    "en": "Itinerary change is allowed. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles"
-                },
-                "fullDescription": {
-                    "ru": "Повышение класса обслуживания с использованием миль KrisFlyer не разрешено",
-                    "en": "Upgrade with KrisFlyer miles is not allowed"
+                    "ru": "Изменение маршрута не разрешено",
+                    "en": "Itinerary change is not allowed"
                 },
                 "needToPay": "notAvailable"
             }
@@ -106,7 +94,7 @@
     {
         "owner": "MI",
         "baseClass": "economy",
-        "priority": 2,
+        "priority": 3,
         "tariffCodePattern": "^[MHW]\\w*$",
         "parameters": [
             {
@@ -176,7 +164,7 @@
                     "en": "Cancellation"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен. Взимается плата",
+                    "ru": "Возврат билета разрешен со сбором",
                     "en": "Ticket cancellation is allowed. A fee applies"
                 },
                 "needToPay": "charge"
@@ -188,29 +176,17 @@
                     "en": "Itinerary Сhange"
                 },
                 "fullDescription": {
-                    "ru": "Изменение маршрута разрешено. Взимается плата",
+                    "ru": "Изменение маршрута разрешено со сбором",
                     "en": "Itinerary change is allowed. A fee applies"
                 },
                 "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles"
-                },
-                "fullDescription": {
-                    "ru": "Возможно повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles is allowed"
-                },
-                "needToPay": "free"
             }
         ]
     },
     {
         "owner": "MI",
         "baseClass": "economy",
-        "priority": 3,
+        "priority": 4,
         "tariffCodePattern": "^[YBE]\\w*$",
         "parameters": [
             {
@@ -240,12 +216,12 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "До 35 кг",
-                    "en": "Up to 35 kg"
+                    "ru": "До 30 кг",
+                    "en": "Up to 30 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для рейсов всех направлений, кроме США: 35 кг. Для рейсов в США и обратно: 2 места до 23 кг каждое",
-                    "en": "For flights to and from all destinations, except the USA: up to 35 kg. For flights to and from the USA only: 2 pieces up to 23 kg each"
+                    "ru": "Для рейсов всех направлений, кроме США: 30 кг. Для рейсов в США и обратно: 2 места до 23 кг каждое",
+                    "en": "For flights to and from all destinations, except the USA: up to 30 kg. For flights to and from the USA only: 2 pieces up to 23 kg each"
                 },
                 "needToPay": "free"
             },
@@ -256,8 +232,8 @@
                     "en": "Advance Seat Selection"
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор места типа «Forward Zone» и «Standard» доступен бесплатно",
-                    "en": "Advance «Forward Zone» and «Standard» seat selection — available free of charge"
+                    "ru": "Предварительный выбор места типа «Standard» доступен бесплатно",
+                    "en": "Advance «Standard» seat selection — available free of charge"
                 },
                 "needToPay": "free"
             },
@@ -280,7 +256,7 @@
                     "en": "Cancellation"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен. Взимается плата",
+                    "ru": "Возврат билета разрешен со сбором",
                     "en": "Ticket cancellation is allowed. A fee applies"
                 },
                 "needToPay": "charge"
@@ -292,20 +268,8 @@
                     "en": "Itinerary Сhange"
                 },
                 "fullDescription": {
-                    "ru": "Изменение маршрута разрешено. Плата не взимается",
+                    "ru": "Изменение маршрута разрешено без сбора",
                     "en": "Itinerary change is allowed. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles"
-                },
-                "fullDescription": {
-                    "ru": "Возможно повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles is allowed"
                 },
                 "needToPay": "free"
             }
@@ -314,8 +278,8 @@
     {
         "owner": "MI",
         "baseClass": "premiumEconomy",
-        "priority": 4,
-        "tariffCodePattern": "^[P]\\w*$",
+        "priority": 6,
+        "tariffCodePattern": "^[LP]\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -348,8 +312,8 @@
                     "en": "Up to 35 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для рейсов всех направлений, кроме США: 35 кг. Для рейсов в США и обратно: 2 места до 23 кг каждое",
-                    "en": "For flights to and from all destinations, except the USA: up to 35 kg. For flights to and from the USA only: 2 pieces up to 23 kg each"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -360,8 +324,8 @@
                     "en": "Advance Seat Selection"
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор места доступен бесплатно",
-                    "en": "Advance seat selection — available free of charge"
+                    "ru": "Предварительный выбор места типа «Standard» доступен бесплатно",
+                    "en": "Advance «Standard» seat selection — available free of charge"
                 },
                 "needToPay": "free"
             },
@@ -384,7 +348,7 @@
                     "en": "Cancellation"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен. Взимается плата",
+                    "ru": "Возврат билета разрешен со сбором",
                     "en": "Ticket cancellation is allowed. A fee applies"
                 },
                 "needToPay": "charge"
@@ -396,29 +360,17 @@
                     "en": "Itinerary Сhange"
                 },
                 "fullDescription": {
-                    "ru": "Изменение маршрута разрешено. Взимается плата",
+                    "ru": "Изменение маршрута разрешено со сбором",
                     "en": "Itinerary change is allowed. A fee applies"
                 },
                 "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles"
-                },
-                "fullDescription": {
-                    "ru": "Повышение класса обслуживания с использованием миль KrisFlyer не разрешено",
-                    "en": "Upgrade with KrisFlyer miles is not allowed"
-                },
-                "needToPay": "notAvailable"
             }
         ]
     },
     {
         "owner": "MI",
         "baseClass": "premiumEconomy",
-        "priority": 5,
+        "priority": 7,
         "tariffCodePattern": "^[ST]\\w*$",
         "parameters": [
             {
@@ -452,8 +404,8 @@
                     "en": "Up to 35 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для рейсов всех направлений, кроме США: 35 кг. Для рейсов в США и обратно: 2 места до 23 кг каждое",
-                    "en": "For flights to and from all destinations, except the USA: up to 35 kg. For flights to and from the USA only: 2 pieces up to 23 kg each"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -464,8 +416,8 @@
                     "en": "Advance Seat Selection"
                 },
                 "fullDescription": {
-                    "ru": "Предварительный выбор места доступен бесплатно",
-                    "en": "Advance seat selection — available free of charge"
+                    "ru": "Предварительный выбор места типа «Standard» доступен бесплатно",
+                    "en": "Advance «Standard» seat selection — available free of charge"
                 },
                 "needToPay": "free"
             },
@@ -488,7 +440,7 @@
                     "en": "Cancellation"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен. Взимается плата",
+                    "ru": "Возврат билета разрешен со сбором",
                     "en": "Ticket cancellation is allowed. A fee applies"
                 },
                 "needToPay": "charge"
@@ -500,20 +452,8 @@
                     "en": "Itinerary Сhange"
                 },
                 "fullDescription": {
-                    "ru": "Изменение маршрута разрешено. Плата не взимается",
+                    "ru": "Изменение маршрута разрешено без сбора",
                     "en": "Itinerary change is allowed. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles"
-                },
-                "fullDescription": {
-                    "ru": "Возможно повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles is allowed"
                 },
                 "needToPay": "free"
             }
@@ -522,7 +462,7 @@
     {
         "owner": "MI",
         "baseClass": "business",
-        "priority": 6,
+        "priority": 8,
         "tariffCodePattern": "^[D]\\w*$",
         "parameters": [
             {
@@ -556,8 +496,8 @@
                     "en": "Up to 40 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для рейсов всех направлений, кроме США: 40 кг. Для рейсов в США и обратно: 2 места до 32 кг каждое",
-                    "en": "For flights to and from all destinations, except the USA: up to 40 kg. For flights to and from the USA only: 2 pieces up to 32 kg each"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -608,25 +548,13 @@
                     "en": "Itinerary change is allowed. A fee applies"
                 },
                 "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles"
-                },
-                "fullDescription": {
-                    "ru": "Повышение класса обслуживания с использованием миль KrisFlyer не разрешено",
-                    "en": "Upgrade with KrisFlyer miles is not allowed"
-                },
-                "needToPay": "notAvailable"
             }
         ]
     },
     {
         "owner": "MI",
         "baseClass": "business",
-        "priority": 7,
+        "priority": 9,
         "tariffCodePattern": "^[U]\\w*$",
         "parameters": [
             {
@@ -660,8 +588,8 @@
                     "en": "Up to 40 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для рейсов всех направлений, кроме США: 40 кг. Для рейсов в США и обратно: 2 места до 32 кг каждое",
-                    "en": "For flights to and from all destinations, except the USA: up to 40 kg. For flights to and from the USA only: 2 pieces up to 32 kg each"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -696,7 +624,7 @@
                     "en": "Cancellation"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен. Взимается плата",
+                    "ru": "Возврат билета разрешен со сбором",
                     "en": "Ticket cancellation is allowed. A fee applies"
                 },
                 "needToPay": "charge"
@@ -712,25 +640,13 @@
                     "en": "Itinerary change is allowed. A fee applies"
                 },
                 "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles"
-                },
-                "fullDescription": {
-                    "ru": "Возможно повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles is allowed"
-                },
-                "needToPay": "free"
             }
         ]
     },
     {
         "owner": "MI",
         "baseClass": "business",
-        "priority": 8,
+        "priority": 10,
         "tariffCodePattern": "^[ZCJ]\\w*$",
         "parameters": [
             {
@@ -764,8 +680,8 @@
                     "en": "Up to 40 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для рейсов всех направлений, кроме США: 40 кг. Для рейсов в США и обратно: 2 места до 32 кг каждое",
-                    "en": "For flights to and from all destinations, except the USA: up to 40 kg. For flights to and from the USA only: 2 pieces up to 32 kg each"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -800,7 +716,7 @@
                     "en": "Cancellation"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен. Взимается плата",
+                    "ru": "Возврат билета разрешен со сбором",
                     "en": "Ticket cancellation is allowed. A fee applies"
                 },
                 "needToPay": "charge"
@@ -812,20 +728,8 @@
                     "en": "Itinerary Сhange"
                 },
                 "fullDescription": {
-                    "ru": "Изменение маршрута разрешено. Плата не взимается",
+                    "ru": "Изменение маршрута разрешено без сбора",
                     "en": "Itinerary change is allowed. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles"
-                },
-                "fullDescription": {
-                    "ru": "Возможно повышение класса обслуживания с использованием миль KrisFlyer",
-                    "en": "Upgrade with KrisFlyer miles is allowed"
                 },
                 "needToPay": "free"
             }
@@ -834,7 +738,7 @@
     {
         "owner": "MI",
         "baseClass": "first",
-        "priority": 9,
+        "priority": 11,
         "tariffCodePattern": "^[FA]\\w*$",
         "parameters": [
             {
@@ -868,8 +772,8 @@
                     "en": "Up to 50 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для рейсов всех направлений, кроме США: 50 кг. Для рейсов в США и обратно: 2 места до 32 кг каждое",
-                    "en": "For flights to and from all destinations, except the USA: up to 50 kg. For flights to and from the USA only: 2 pieces up to 32 kg each"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
@@ -904,7 +808,7 @@
                     "en": "Cancellation"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен. Взимается плата",
+                    "ru": "Возврат билета разрешен со сбором",
                     "en": "Ticket cancellation is allowed. A fee applies"
                 },
                 "needToPay": "charge"
@@ -916,10 +820,194 @@
                     "en": "Itinerary Сhange"
                 },
                 "fullDescription": {
-                    "ru": "Изменение маршрута разрешено. Плата не взимается",
+                    "ru": "Изменение маршрута разрешено без сбора",
                     "en": "Itinerary change is allowed. No fee applies"
                 },
                 "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "MI",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[QN]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Бюджет",
+                    "en": "Economy Value"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 7 кг; сумма длины, ширины и высоты места не должна превышать 115 см",
+                    "en": "1 item up to 7 kg, total linear dimension — up to 115 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 25 кг",
+                    "en": "Up to 25 kg"
+                },
+                "fullDescription": {
+                    "ru": "Для рейсов всех направлений, кроме США: 25 кг. Для рейсов в США и обратно: 2 места до 23 кг каждое",
+                    "en": "For flights to and from all destinations, except the USA: up to 25 kg. For flights to and from the USA only: 2 pieces up to 23 kg each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellation"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Ticket cancellation is allowed. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор места",
+                    "en": "Advance Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор места доступен за дополнительную плату",
+                    "en": "Advance seat selection — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение",
+                    "en": "Itinerary Сhange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение маршрута разрешено со сбором",
+                    "en": "Itinerary change is allowed. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "50% миль KrisFlyer",
+                    "en": "50% KrisFlyer miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "MI",
+        "baseClass": "premiumEconomy",
+        "priority": 5,
+        "tariffCodePattern": "^[R]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум Эконом Легкий",
+                    "en": "Premium Economy Lite"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Cancellation"
+                },
+                "fullDescription": {
+                    "ru": "Билет невозвратный",
+                    "en": "Ticket cancellation is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 35 кг",
+                    "en": "Up to 35 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 7 кг; сумма длины, ширины и высоты места не должна превышать 115 см",
+                    "en": "1 item up to 7 kg, total linear dimension — up to 115 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор места",
+                    "en": "Advance Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор места типа «Standard» доступен бесплатно",
+                    "en": "Advance «Standard» seat selection — available free of charge"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "100% миль KrisFlyer",
+                    "en": "100% KrisFlyer miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение",
+                    "en": "Itinerary Сhange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение маршрута разрешено со сбором",
+                    "en": "Itinerary change is allowed. A fee applies"
+                },
+                "needToPay": "charge"
             }
         ]
     }

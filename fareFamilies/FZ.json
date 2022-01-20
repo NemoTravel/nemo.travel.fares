@@ -3,7 +3,7 @@
         "owner": "FZ",
         "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^(\\w*[9])\\w{3}$",
+        "tariffCodePattern": "^((\\w*[9]\\w{3})|(\\w*[9]\\w{4}))$",
         "parameters": [
             {
                 "code": "description",
@@ -71,7 +71,7 @@
         "owner": "FZ",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^(\\w*[8])\\w{3}$",
+        "tariffCodePattern": "^((\\w*[8]\\w{3})|(\\w*[8]\\w{4}))$",
         "parameters": [
             {
                 "code": "description",
@@ -139,7 +139,7 @@
         "owner": "FZ",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^(\\w*[6])\\w{3}$",
+        "tariffCodePattern": "^((\\w*[6]\\w{3})|(\\w*[6]\\w{4}))$",
         "parameters": [
             {
                 "code": "description",
@@ -207,7 +207,7 @@
         "owner": "FZ",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^(\\w*[7])\\w{3}$",
+        "tariffCodePattern": "^((\\w*[7]\\w{3})|(\\w*[7]\\w{4}))$",
         "parameters": [
             {
                 "code": "description",

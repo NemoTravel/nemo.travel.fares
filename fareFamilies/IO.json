@@ -24,22 +24,22 @@
                     "en": "1 item up to 5 kg"
                 },
                 "fullDescription": {
-                    "ru": "На воздушных судах Ан-24, Ан-26: 1 место ручной клади до 5 кг. На воздушных судах Superjet 100, СRJ: 1 место ручной клади до 10 кг",
-                    "en": "For all flights provided with An-24, An-26 aircrafts: 1 item up to 5 kg of carry-on. For all flights provided with Superjet 100, СRJ aircrafts: 1 item up to 10 kg of carry-on"
+                    "ru": "На воздушных судах Ан-24, Ан-26: 1 место ручной клади до 5 кг. На воздушных судах Superjet 100, СRJ, A-319: 1 место ручной клади до 10 кг",
+                    "en": "For all flights provided with An-24, An-26 aircrafts: 1 item up to 5 kg of carry-on. For all flights provided with Superjet 100, СRJ, A-319 aircrafts: 1 item up to 10 kg of carry-on"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 15 кг",
-                    "en": "1 item up to 15 kg"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
-                    "ru": "На воздушных судах Ан-24, Ан-26: 1 место до 15 кг багажа. На воздушных судах Superjet 100, СRJ бесплатный провоз зарегистрированного багажа не предоставляется",
-                    "en": "For all flights provided with An-24, An-26 aircrafts: 1 item up to 15 kg of checked baggage. For all flights provided with Superjet 100, СRJ aircrafts: no free baggage allowance"
+                    "ru": "На воздушных судах Ан-24, Ан-26: 1 место до 15 кг багажа. На воздушных судах Superjet 100, СRJ, A-319 бесплатный провоз зарегистрированного багажа не предоставляется",
+                    "en": "For all flights provided with An-24, An-26 aircrafts: 1 item up to 15 kg of checked baggage. For all flights provided with Superjet 100, СRJ, A-319 aircrafts: no free baggage allowance"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -104,8 +104,8 @@
                     "en": "1 item up to 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "На воздушных судах СRJ, Ан-24, Ан-26: 1 место до 15 кг багажа. На воздушных судах Superjet 100: 1 место до 20 кг багажа",
-                    "en": "For all flights provided with СRJ, An-24, An-26 aircrafts: 1 item up to 15 kg of checked baggage. For all flights provided with Superjet 100 aircrafts: 1 item up to 20 kg of checked baggage"
+                    "ru": "На воздушных судах Ан-24, Ан-26: 1 место до 15 кг багажа. На воздушных судах SSJ-100, CRJ-200, A-319: 1 место до 20 кг багажа",
+                    "en": "For all flights provided with An-24, An-26 aircrafts: 1 item up to 15 kg of checked baggage. For all flights provided with SSJ-100, CRJ-200, A-319 aircrafts: 1 item up to 20 kg of checked baggage"
                 },
                 "needToPay": "free"
             },
@@ -172,8 +172,8 @@
                     "en": "1 item up to 15 kg"
                 },
                 "fullDescription": {
-                    "ru": "На воздушных судах СRJ, Ан-24, Ан-26: 1 место до 15 кг багажа. На воздушных судах Superjet 100: 1 место до 20 кг багажа",
-                    "en": "For all flights provided with СRJ, An-24, An-26 aircrafts: 1 item up to 15 kg of checked baggage. For all flights provided with Superjet 100 aircrafts: 1 item up to 20 kg of checked baggage"
+                    "ru": "На воздушных судах Ан-24, Ан-26: 1 место до 15 кг багажа. На воздушных судах SSJ-100, CRJ-200, A-319: 1 место до 20 кг багажа",
+                    "en": "For all flights provided with An-24, An-26 aircrafts: 1 item up to 15 kg of checked baggage. For all flights provided with SSJ-100, CRJ-200, A-319 aircrafts: 1 item up to 20 kg of checked baggage"
                 },
                 "needToPay": "free"
             },
