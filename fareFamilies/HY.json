@@ -71,7 +71,7 @@
         "owner": "HY",
         "baseClass": "economy",
         "priority": 5,
-        "tariffCodePattern": "^(Y|BE|ME)((?!NB|LC).)*$",
+        "tariffCodePattern": "^(Y|BE|ME)((?!NB|LC|XY|TK|TG|SQ|S7|QR|OZ|OK|OD|NH|MH|AF|IB|J2|KE|KL|LH|GA|LO|CT|B2|BT|2A).)*$",
         "parameters": [
             {
                 "code": "description",
