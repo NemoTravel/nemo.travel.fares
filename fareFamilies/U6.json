@@ -533,9 +533,9 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "5 кг",
-                    "en": "Up to 5 kg",
-                    "de": "Bis zu 5 kg"
+                    "ru": "10 кг",
+                    "en": "Up to 10 kg",
+                    "de": "Bis zu 10 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -546,15 +546,14 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "Один чемодан 10 кг",
-                    "en": "1 item up to 10 kg",
-                    "de": "Eine Tasche bis zu 10 kg"
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
