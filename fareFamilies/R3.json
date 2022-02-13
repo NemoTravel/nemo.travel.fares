@@ -380,12 +380,12 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "3 места с общим весом до 20 кг",
-                    "en": "3 items up to 20 kg in total"
+                    "ru": "3 места с общим весом до 20 кг или 1 место до 23 кг",
+                    "en": "3 items up to 20 kg in total or 1 item up to 23 kg"
                 },
                 "fullDescription": {
-                    "ru": "3 места с общим весом до 20 кг для направлений между Якутском и: Москва, Сочи, Симферополь, Минеральные Воды и Санкт-Петербург",
-                    "en": "3 items up to 20 kg in total on routes between Yakutsk and Moscow, Sochi, Simferopol, Mineralnye Vody, Saint Petersburg"
+                    "ru": "3 места с общим весом до 20 кг для направлений между Якутском и: Москва, Сочи, Симферополь, Минеральные Воды и Санкт-Петербург. 1 место до 23 кг для направлений: Якутск — Мирный, Новосибирск — Москва, Санкт-Петербург — Москва, Краснодар — Москва",
+                    "en": "3 items up to 20 kg in total on routes between Yakutsk and Moscow, Sochi, Simferopol, Mineralnye Vody, Saint Petersburg. 1 item up to 23 kg on routs: Yakutsk — Mirnyj, Novosibirsk — Moscow, St Petersburg — Moscow, Krasnodar — Moscow"
                 },
                 "needToPay": "free"
             },
@@ -728,12 +728,12 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "3 места с общим весом до 20 кг",
+                    "ru": "3 места с общим весом до 20 кг или 1 место до 23 кг",
                     "en": "3 items up to 20 kg in total"
                 },
                 "fullDescription": {
-                    "ru": "3 места с общим весом до 20 кг для направлений между Якутском и: Москва, Сочи, Симферополь, Минеральные Воды и Санкт-Петербург",
-                    "en": "3 items up to 20 kg in total on routes between Yakutsk and Moscow, Sochi, Simferopol, Mineralnye Vody, Saint Petersburg"
+                    "ru": "3 места с общим весом до 20 кг для направлений между Якутском и: Москва, Сочи, Симферополь, Минеральные Воды и Санкт-Петербург. 1 место до 23 кг для направлений: Якутск — Мирный, Новосибирск — Москва, Санкт-Петербург — Москва, Краснодар — Москва",
+                    "en": "3 items up to 20 kg in total on routes between Yakutsk and Moscow, Sochi, Simferopol, Mineralnye Vody, Saint Petersburg. 1 item up to 23 kg on routs: Yakutsk — Mirnyj, Novosibirsk — Moscow, St Petersburg — Moscow, Krasnodar — Moscow"
                 },
                 "needToPay": "free"
             },
