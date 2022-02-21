@@ -3,7 +3,7 @@
         "owner": "LH",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^(\\w*(NC)\\w*)$",
+        "tariffCodePattern": "^\\w*(CLS)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -48,10 +48,10 @@
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено со сборами",
-                    "en": "Rebooking — available. A fee applies"
+                    "ru": "Перебронирование разрешено без сбора",
+                    "en": "Rebooking is available without a fee"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "refundable",
@@ -71,7 +71,7 @@
         "owner": "LH",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^(\\w*(FF)\\w*)$",
+        "tariffCodePattern": "^\\w*(FLX)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -116,10 +116,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сбора",
-                    "en": "Refundable. No fee applies"
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable with a fee"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -139,7 +139,7 @@
         "owner": "LH",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^(\\w*(LGT|BV|LQ)\\w*)$",
+        "tariffCodePattern": "^\\w*(LGT)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -192,14 +192,14 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения до вылета",
+                    "ru": "Перебронирование",
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование не разрешено",
-                    "en": "Rebooking — not available"
+                    "ru": "Перебронирование разрешено со сбором",
+                    "en": "Rebooking is available with a fee"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             }
         ]
     },
@@ -275,7 +275,7 @@
         "owner": "LH",
         "baseClass": "business",
         "priority": 5,
-        "tariffCodePattern": "^[JСDZ]\\w*(NC)\\w*$",
+        "tariffCodePattern": "^\\w*(BXX)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -320,10 +320,10 @@
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование не разрешено",
-                    "en": "Rebooking — not available"
+                    "ru": "Перебронирование разрешено со сбором",
+                    "en": "Rebooking is available with a fee"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -343,7 +343,7 @@
         "owner": "LH",
         "baseClass": "business",
         "priority": 6,
-        "tariffCodePattern": "^[JСDZ]\\w*(FF)\\w*$",
+        "tariffCodePattern": "^\\w*(BUZ)\\w*$",
         "parameters": [
             {
                 "code": "description",
