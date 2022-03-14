@@ -1,274 +1,274 @@
 [
-    {
-        "owner": "DV",
-        "baseClass": "economy",
-        "priority": 4,
-        "tariffCodePattern": "^(\\w*)(FO|TFO)(\\S(DM\\d*))?$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Гибкий",
-                    "en": "Flexible"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 места до 23 кг каждое",
-                    "en": "2 items up to 23 kg each"
-                },
-                "fullDescription": {
-                    "ru": "2 места багажа до 23 кг и габаритами в сумме трех измерений не более 158 см каждое",
-                    "en": "1 item up to 23 kg each, total linear dimension — up to 158 cm each"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг, габаритами не более 55 x 40 x 20 см",
-                    "en": "1 item up to 10 kg, 55x40x20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменения разрешены в любое время без сборов",
-                    "en": "Exchangeable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат разрешен в любое время без сборов",
-                    "en": "Refundable. No fee applies"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "DV",
-        "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "^(\\w*)(SO|TSO)(\\S(DM\\d*))?$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Лайт",
-                    "en": "Light"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 5 кг, габаритами не более 55 x 40 x 20 см",
-                    "en": "1 item up to 5 kg, 55x40x20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменения разрешены в любое время с применением сборов за обмен",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            }
-        ]
-    },
-    {
-        "owner": "DV",
-        "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^(\\w*)(VO|TVO)(\\S(DM\\d*))?$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Оптимум",
-                    "en": "Optimum"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место багажа до 23 кг и габаритами в сумме трех измерений не более 158 см",
-                    "en": "1 item up to 23 kg, total linear dimension — up to 158 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 10 кг, габаритами не более 55 x 40 x 20 см",
-                    "en": "1 item up to 10 kg, 55x40x20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменения разрешены в любое время с применением сборов за обмен",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат разрешен с применением сборов за возврат",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "DV",
-        "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^([YBHK](OW|RT|OWS|RTS|OWT|RTT))$|^(KEE6MT)$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Эконом",
-                    "en": "Economy"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 20 кг",
-                    "en": "1 item up to 20 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место багажа до 20 кг и габаритами в сумме трех измерений не более 158 см",
-                    "en": "1 item up to 20 kg, total linear dimension — up to 158 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 5 кг, габаритами не более 55 x 40 x 20 см",
-                    "en": "1 item up to 5 kg, 55x40x20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменения разрешены в любое время без сборов",
-                    "en": "Exchangeable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат разрешен в любое время без сборов",
-                    "en": "Refundable. No fee applies"
-                },
-                "needToPay": "free"
-            }
-        ]
-    }
+  {
+    "owner": "DV",
+    "baseClass": "economy",
+    "priority": 4,
+    "tariffCodePattern": "^(\\w*)(FO|TFO)(\\S(DM\\d*))?$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "FLEX",
+          "en": "FLEX"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "2 места до 23 кг каждое",
+          "en": "2 items up to 23 kg each"
+        },
+        "fullDescription": {
+          "ru": "2 места багажа до 23 кг и габаритами в сумме трех измерений не более 158 см каждое",
+          "en": "2 items up to 23 kg each, total linear dimension — up to 158 cm each"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 место до 10 кг",
+          "en": "1 item up to 10 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 10 кг, габаритами не более 55 x 40 x 20 см",
+          "en": "1 item up to 10 kg, 55x40x20 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения",
+          "en": "Exchange"
+        },
+        "fullDescription": {
+          "ru": "Изменения разрешены со сборами",
+          "en": "Exchangeable. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета до вылета",
+          "en": "Refund before departure"
+        },
+        "fullDescription": {
+          "ru": "Возврат до вылета разрешён со сбором",
+          "en": "Refund before departure is allowed with penalty"
+        },
+        "needToPay": "charge"
+      }
+    ]
+  },
+  {
+    "owner": "DV",
+    "baseClass": "economy",
+    "priority": 2,
+    "tariffCodePattern": "^(\\w*)(SO|TSO)(\\S(DM\\d*))?$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "LIGHT",
+          "en": "LIGHT"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "Платный",
+          "en": "No free baggage allowance"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 место до 5 кг",
+          "en": "1 item up to 5 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 5 кг, габаритами не более 55 x 40 x 20 см",
+          "en": "1 item up to 5 kg, 55x40x20 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения",
+          "en": "Exchange"
+        },
+        "fullDescription": {
+          "ru": "Изменения разрешены в любое время с применением сборов за обмен",
+          "en": "Exchangeable. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Тариф полностью невозвратный",
+          "en": "Non-refundable"
+        },
+        "needToPay": "notAvailable"
+      }
+    ]
+  },
+  {
+    "owner": "DV",
+    "baseClass": "economy",
+    "priority": 3,
+    "tariffCodePattern": "^(\\w*)(VO|TVO)(\\S(DM\\d*))?$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "OPTIMUM",
+          "en": "OPTIMUM"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "1 место до 23 кг",
+          "en": "1 item up to 23 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место багажа до 23 кг и габаритами в сумме трех измерений не более 158 см",
+          "en": "1 item up to 23 kg, total linear dimension — up to 158 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 место до 10 кг",
+          "en": "1 item up to 10 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 10 кг, габаритами не более 55 x 40 x 20 см",
+          "en": "1 item up to 10 kg, 55x40x20 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения",
+          "en": "Exchange"
+        },
+        "fullDescription": {
+          "ru": "Изменения разрешены в любое время с применением сборов за обмен",
+          "en": "Exchangeable. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат разрешен с применением сборов за возврат",
+          "en": "Refundable. A fee applies"
+        },
+        "needToPay": "charge"
+      }
+    ]
+  },
+  {
+    "owner": "DV",
+    "baseClass": "economy",
+    "priority": 1,
+    "tariffCodePattern": "^([YBHK](OW|RT|OWS|RTS|OWT|RTT))$|^(KEE6MT)$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Эконом",
+          "en": "Economy"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "1 место до 20 кг",
+          "en": "1 item up to 20 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место багажа до 20 кг и габаритами в сумме трех измерений не более 158 см",
+          "en": "1 item up to 20 kg, total linear dimension — up to 158 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 место до 5 кг",
+          "en": "1 item up to 5 kg"
+        },
+        "fullDescription": {
+          "ru": "1 место до 5 кг, габаритами не более 55 x 40 x 20 см",
+          "en": "1 item up to 5 kg, 55x40x20 cm"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения",
+          "en": "Exchange"
+        },
+        "fullDescription": {
+          "ru": "Изменения разрешены в любое время без сборов",
+          "en": "Exchangeable. No fee applies"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат разрешен в любое время без сборов",
+          "en": "Refundable. No fee applies"
+        },
+        "needToPay": "free"
+      }
+    ]
+  }
 ]
