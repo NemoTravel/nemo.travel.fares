@@ -400,6 +400,18 @@
                     "en": "Lounge access is not included"
                 },
                 "needToPay": "notAvailable"
+            },
+            {
+              "code": "refundWithCondition",
+              "shortDescription": {
+                "ru": "Возврат билета",
+                "en": "Refund"
+              },
+              "fullDescription": {
+                "ru": "до вылета для внутренних рейсов со сбором, для международных запрещён.",
+                "en": "before flight for domestic flights with taxes, not available for international flights"
+              },
+              "needToPay": "free"
             }
         ]
     },
@@ -474,18 +486,6 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund before departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат до вылета разрешён со сбором",
-                    "en": "Refund before departure is allowed with penalty"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
                   "ru": "Возврат билета после вылета",
                   "en": "Refund after departure"
                 },
@@ -494,6 +494,18 @@
                   "en": "Refund after departure is not allowed"
                 },
                 "needToPay": "notAvailable"
+            },
+            {
+              "code": "refundWithCondition",
+              "shortDescription": {
+                "ru": "Возврат билета",
+                "en": "Refund"
+              },
+              "fullDescription": {
+                "ru": "до вылета для внутренних рейсов со сбором, для международных запрещён.",
+                "en": "before flight for domestic flights with taxes, not available for international flights"
+              },
+              "needToPay": "free"
             }
         ]
     },
