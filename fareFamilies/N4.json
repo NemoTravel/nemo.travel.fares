@@ -408,10 +408,10 @@
                 "en": "Refund"
               },
               "fullDescription": {
-                "ru": "до вылета для внутренних рейсов со сбором, для международных запрещён",
-                "en": "before flight for domestic flights with taxes, not available for international flights"
+                "ru": "до вылета для внутренних рейсов: со сбором, для международных",
+                "en": "before flight for domestic flights: with taxes, for international flights: "
               },
-              "needToPay": "free"
+              "needToPay": "notAvailable"
             }
         ]
     },
@@ -502,10 +502,10 @@
                 "en": "Refund"
               },
               "fullDescription": {
-                "ru": "до вылета для внутренних рейсов со сбором, для международных запрещён",
-                "en": "before flight for domestic flights with taxes, not available for international flights"
+                "ru": "до вылета для внутренних рейсов: со сбором, для международных",
+                "en": "before flight for domestic flights: with taxes, for international flights:"
               },
-              "needToPay": "free"
+              "needToPay": "notAvailable"
             }
         ]
     },
