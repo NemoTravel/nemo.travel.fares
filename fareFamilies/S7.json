@@ -439,7 +439,7 @@
         "owner": "S7",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[YPBHKMLVTRSNQOWAZ]\\w*(ST)\\w*$",
+        "tariffCodePattern": "^[YPBHKMLVTRSNQOWAZ]\\w*(ST|SO)\\w*$",
         "parameters": [
             {
                 "code": "description",

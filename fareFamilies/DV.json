@@ -139,7 +139,7 @@
         "owner": "DV",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^(\\w*)(VO|TVO)(\\S(DM\\d*))?$",
+        "tariffCodePattern": "^(\\w*)(VO|TVO)(\\S(DM\\d*))?$|^(ART)$",
         "parameters": [
             {
                 "code": "description",
