@@ -366,18 +366,6 @@
                 "needToPay": "charge"
             },
             {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета запрещен",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
                 "code": "vipService",
                 "shortDescription": {
                     "ru": "Отдельная стойка регистрации",
@@ -480,18 +468,6 @@
                 "fullDescription": {
                   "ru": "Обмен после вылета не разрешён",
                   "en": "Non-exchangeable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                  "ru": "Возврат билета после вылета",
-                  "en": "Refund after departure"
-                },
-                "fullDescription": {
-                  "ru": "Возврат после вылета не разрешён",
-                  "en": "Refund after departure is not allowed"
                 },
                 "needToPay": "notAvailable"
             },
