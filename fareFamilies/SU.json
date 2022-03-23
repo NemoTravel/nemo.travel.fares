@@ -8,9 +8,9 @@
         {
 	        "code": "description",
 	        "shortDescription": {
-	          "ru": "ПЛОСКИЙ ЭКОНОМ",
-	          "en": "ECONOMY FLAT",
-	          "de": "ECONOMY FLAT"
+	          "ru": "Плоский Эконом",
+	          "en": "Economy Flat",
+	          "de": "Economy Flat"
 	        },
 	        "fullDescription": {
 	          "ru": "",
@@ -193,9 +193,9 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "ЭКОНОМ ПРОМО",
-                    "en": "ECONOMY PROMO",
-                    "de": "PROMO-Economy"
+                    "ru": "Эконом Промо",
+                    "en": "Economy Promo",
+                    "de": "Promo-Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -633,9 +633,9 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "ЭКОНОМ БЮДЖЕТ",
-                    "en": "ECONOMY SAVER",
-                    "de": "SAVER-Economy"
+                    "ru": "Эконом Бюджет",
+                    "en": "Economy Saver",
+                    "de": "Saver-Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -859,9 +859,9 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "ЭКОНОМ ОПТИМУМ",
-                    "en": "ECONOMY CLASSIC",
-                    "de": "CLASSIC-Economy"
+                    "ru": "Эконом Оптимум",
+                    "en": "Economy Classic",
+                    "de": "Classic-Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1085,9 +1085,9 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "ЭКОНОМ МАКСИМУМ",
-                    "en": "ECONOMY FLEX",
-                    "de": "FLEX-Economy"
+                    "ru": "Эконом Максимум",
+                    "en": "Economy Flex",
+                    "de": "Flex-Economy"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1310,9 +1310,9 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "КОМФОРТ БАЗОВЫЙ",
-                    "en": "COMFORT BASE",
-                    "de": "BASE-Comfort"
+                    "ru": "Комфорт Базовый",
+                    "en": "Comfort Base",
+                    "de": "Base-Comfort"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1425,9 +1425,9 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "КОМФОРТ ОПТИМУМ",
-                    "en": "COMFORT CLASSIC",
-                    "de": "CLASSIC-Comfort"
+                    "ru": "Комфорт Оптимум",
+                    "en": "Comfort Classic",
+                    "de": "Classic-Comfort"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1637,9 +1637,9 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "КОМФОРТ МАКСИМУМ",
-                    "en": "COMFORT FLEX",
-                    "de": "FLEX-Comfort"
+                    "ru": "Комфорт Максимум",
+                    "en": "Comfort Flex",
+                    "de": "Flex-Comfort"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1846,9 +1846,9 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "БИЗНЕС БАЗОВЫЙ",
-                    "en": "BUSINESS BASE",
-                    "de": "BASE-Business"
+                    "ru": "Бизнес Базовый",
+                    "en": "Business Base",
+                    "de": "Base-Business"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -1961,9 +1961,9 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "БИЗНЕС ОПТИМУМ",
-                    "en": "BUSINESS CLASSIC",
-                    "de": "CLASSIC-Business"
+                    "ru": "Бизнес Оптимум",
+                    "en": "Business Classic",
+                    "de": "Classic-Business"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -2155,9 +2155,9 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "БИЗНЕС МАКСИМУМ",
-                    "en": "BUSINESS FLEX",
-                    "de": "FLEX-Business"
+                    "ru": "Бизнес Максимум",
+                    "en": "Business Flex",
+                    "de": "Flex-Business"
                 },
                 "fullDescription": {
                     "ru": "",
