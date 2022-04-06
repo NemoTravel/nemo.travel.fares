@@ -66,11 +66,11 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью не возвратный",
-                    "en": "Fare is completely non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "Тариф на неиспользованных участках подлежит возврату. Такса YR, аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Такса YQ возврату не подлежит. Взимается сбор за возврат за каждый возвращаемый участок, на котором была неявка, и сбор за возврат за каждый возвращаемый участок, на котором не было неявки. Сбор за оформление авиабилета возврату не подлежит",
+                    "en": "Fares on unused legs of the route is subject to return. The YR rate, airport taxes and fees for unused portions are refundable. YQ fee is not refundable. A charge is collected for a refund for each returned land on which there was no attendance, and a fee for refunding for each returned site on which there was no non-appearance. The fee for issuing the ticket is non-refundable",
+                    "de": "Fahrpreise auf unbenutzten Beinen der Strecke unterliegen der Rückgabe. Die YR-Rate, Flughafen Steuern und Gebühren für nicht genutzte Portionen sind zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Eine Gebühr wird für eine Rückerstattung für jedes zurückgegebene Land gesammelt, auf dem es keine Anwesenheit gab, und eine Gebühr für die Rückerstattung für jede zurückgegebene Website, auf der es keine Nicht-Aussehen gab. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -258,11 +258,11 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью не возвратный",
-                    "en": "Fare is completely non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "Тариф по неиспользованным участкам подлежит возврату. Взимается сбор. Тариф после вылета (менее 40 минут до вылета) не подлежит возврату",
+                    "en": "Fares on unused legs of the route is subject to return. A fee applies. In case of NO-SHOW fares are non-refundable",
+                    "de": "Fahrpreise auf unbenutzten Beinen der Strecke unterliegen der Rückgabe. Die YR-Rate, Flughafen Steuern und Gebühren für nicht genutzte Portionen sind zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Eine Gebühr wird für eine Rückerstattung für jedes zurückgegebene Land gesammelt, auf dem es keine Anwesenheit gab, und eine Gebühr für die Rückerstattung für jede zurückgegebene Website, auf der es keine Nicht-Aussehen gab. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "miles",
@@ -341,16 +341,30 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью не возвратный",
-                    "en": "Fare is completely non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "Возврат билета разрешен без штрафа авиакомпании",
+                    "en": "Ticket refund is allowed without an airline penalty",
+                    "de": "Ticketrückerstattungen sind ohne eine Strafe der Fluggesellschaft möglich"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "notPenalty"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без штрафа авиакомпании",
+                    "en": "Ticket refund is allowed without an airline penalty",
+                    "de": "Ticketrückerstattungen sind ohne eine Strafe der Fluggesellschaft möglich"
+                },
+                "needToPay": "notPenalty"
             },
             {
                 "code": "exchangeable",
@@ -418,16 +432,15 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
+                    "ru": "Возврат билета до вылета",
                     "en": "Refund",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью не возвратный",
-                    "en": "Fare is completely non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "Тариф на неиспользованных участках подлежит возврату. Такса YR, аэропортовые таксы и сборы по неиспользованным участкам подлежат возврату. Такса YQ возврату не подлежит. Сбор за оформление авиабилета возврату не подлежит",
+                    "en": "Refundable. No fee applies"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
             },
             {
                 "code": "carryOn",
@@ -637,16 +650,30 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund",
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure",
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью не возвратный",
-                    "en": "Fare is completely non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "Возврат билета разрешен без штрафа авиакомпании",
+                    "en": "Ticket refund is allowed without an airline penalty",
+                    "de": "Ticketrückerstattungen sind ohne eine Strafe der Fluggesellschaft möglich"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "notPenalty"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен без штрафа авиакомпании",
+                    "en": "Ticket refund is allowed without an airline penalty",
+                    "de": "Ticketrückerstattungen sind ohne eine Strafe der Fluggesellschaft möglich"
+                },
+                "needToPay": "notPenalty"
             },
             {
                 "code": "carryOn",
@@ -758,11 +785,11 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью не возвратный",
-                    "en": "Fare is completely non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "Тариф по неиспользованным участкам подлежит возврату. Взимается сбор. Тариф после вылета (менее 40 минут до вылета) не подлежит возврату",
+                    "en": "Fares on unused legs of the route is subject to return. A fee applies. In case of NO-SHOW fares are non-refundable",
+                    "de": "Fahrpreis ist nicht erstattungsfähig. Die YR-Steuer wird nicht zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Flughafengebühren und Gebühren für nicht genutzte Portionen sind rückzahlbar. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
