@@ -104,7 +104,7 @@
     {
         "owner": "S7",
         "baseClass": "business",
-        "priority": 5,
+        "priority": 6,
         "tariffCodePattern": "^[JCID]\\w*(PL)\\w*$",
         "parameters": [
             {
@@ -219,7 +219,7 @@
     {
         "owner": "S7",
         "baseClass": "business",
-        "priority": 4,
+        "priority": 5,
         "tariffCodePattern": "^[JCID]\\w*(ST)\\w*$",
         "parameters": [
             {
@@ -324,11 +324,11 @@
                     "de": "Business Class Lounge"
                 },
                 "fullDescription": {
-                    "ru": "Доступ в зал ожидания бизнес-класса за дополнительную плату",
-                    "en": "Access to the Business Class lounge available at extra charge",
-                    "de": "Ohne Zugang zur Business Class Lounge"
+                    "ru": "Доступ в зал ожидания бизнес-класса",
+                    "en": "Access to the Business Class lounge included",
+                    "de": "Zugang zur Business Class Lounge"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             }
         ]
     },
@@ -430,6 +430,20 @@
                     "ru": "Изменения в билете разрешены без сборов",
                     "en": "Ticket exchange before departure is allowed free of charge",
                     "de": "Vor Abreise — Änderungen sind kostenfrei. Nach jedem Abflug mit Aufpreis für jedes Segment zugelassen. Der Austausch zu einem höheren Fahrpreis ist innerhalb der Economy Base und Business Base Gruppen erlaubt. Es ist erlaubt, Ihnen die aktuelle Tarifniveau auf die höhere avalible Klasse, mit einer zusätzlichen Gebühr zu upgragen"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access",
+                    "de": "Business Class Lounge"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания бизнес-класса",
+                    "en": "Access to the Business Class lounge included",
+                    "de": "Zugang zur Business Class Lounge"
                 },
                 "needToPay": "free"
             }
@@ -535,6 +549,121 @@
                     "de": "1 Beutel bis 10 kg, Größe 55 * 40 * 23"
                 },
                 "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "S7",
+        "baseClass": "business",
+        "priority": 4,
+        "tariffCodePattern": "^[JCID]\\w*(BS)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Базовый",
+                    "en": "Business Basic",
+                    "de": "Business Basic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "Общим весом до 15 кг",
+                    "en": "Up to 15 kg in total",
+                    "de": "Bis zu 15 kg"
+                },
+                "fullDescription": {
+                    "ru": "Ручная кладь общим весом не более 15 кг, размер 55*40*23",
+                    "en": "Hand luggage up to 15 kg in total, size 55*40*23",
+                    "de": "2 Stück bis 15 kg alle, Größe 55 * 40 * 23"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место 32 кг",
+                    "en": "1 piece up to 32 kg",
+                    "de": "1 Beutel bis 32 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable",
+                    "de": "Fahrpreis ist nicht erstattungsfähig. Die YR-Steuer wird nicht zurückerstattet. YQ-Gebühr ist nicht rückzahlbar. Flughafengebühren und Gebühren für nicht genutzte Portionen sind rückzahlbar. Die Gebühr für die Ausstellung des Tickets ist nicht erstattungsfähig"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения в билете до вылета",
+                    "en": "Exchange Before Departure",
+                    "de": "Änderungen der Fahrkarte vor Abfahrt"
+                },
+                "fullDescription": {
+                    "ru": "Изменения рейса/даты за более 40 минут до вылета разрешены со сбором. Менее, чем за 40 минут до вылета рейса или после вылета рейса — не разрешены",
+                    "en": "Before departure — changes are allowed with a fee. After departure — changes are not allowed"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "100% миль S7 Priority",
+                    "en": "100% S7 Priority Miles",
+                    "de": "100% S7 Priority Meilen"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места при регистрации",
+                    "en": "Seat Selection",
+                    "de": "Sitz bei der Anmeldung auswählen"
+                },
+                "fullDescription": {
+                    "ru": "Бесплатный выбор места в салоне при регистрации на рейс",
+                    "en": "Seat selection permitted during the check-in",
+                    "de": "Die Sitzplatzwahl ist während des Check-ins kostenlos gestattet"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес зал",
+                    "en": "Lounge Access",
+                    "de": "Business Class Lounge"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания бизнес-класса за дополнительную плату",
+                    "en": "Access to the Business Class lounge available at extra charge"
+                },
+                "needToPay": "charge"
             }
         ]
     }

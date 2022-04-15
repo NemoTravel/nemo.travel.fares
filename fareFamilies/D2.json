@@ -71,7 +71,7 @@
         "owner": "D2",
         "baseClass": "economy",
         "priority": 6,
-        "tariffCodePattern": "^((YO)|(YH))$",
+        "tariffCodePattern": "^((YO)|(YH)|(YH1))$",
         "parameters": [
             {
                 "code": "description",
@@ -139,7 +139,7 @@
         "owner": "D2",
         "baseClass": "economy",
         "priority": 7,
-        "tariffCodePattern": "^(YX|YE|TR|TRS|TRM)$",
+        "tariffCodePattern": "^(YX|YE|TR|TRS|TRM|YE1)$",
         "parameters": [
             {
                 "code": "description",
