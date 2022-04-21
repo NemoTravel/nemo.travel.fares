@@ -193,11 +193,11 @@
                     "de": "Ticketrückmeldung vor Abreise"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью не возвратный",
-                    "en": "Fare is completely non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "Возврат билета до вылета разрешен без сборов",
+                    "en": "Ticket refund before departure is allowed free of charge",
+                    "de": "Ticketrückmeldung vor Abreise ist kostenlos erlaubt"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
             },
             {
                 "code": "seatsRegistration",
@@ -320,11 +320,11 @@
                     "de": "Ticketrückmeldung vor Abreise"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью не возвратный",
-                    "en": "Fare is completely non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "Возврат билета до вылета разрешен со сборами",
+                    "en": "Ticket refund before departure is allowed with an additional charge",
+                    "de": "Ticketrückmeldung vor Abreise ist gegen Aufpreis erlaubt"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "seatsRegistration",
@@ -449,11 +449,11 @@
                     "de": "Ticketrückmeldung vor Abreise"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью не возвратный",
-                    "en": "Fare is completely non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "Возврат билета до вылета разрешен со сборами",
+                    "en": "Ticket refund before departure is allowed with an additional charge",
+                    "de": "Ticketrückmeldung vor Abreise ist gegen Aufpreis erlaubt"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "seatsRegistration",
@@ -875,14 +875,26 @@
                 "needToPay": "notAvailable"
             },
             {
-                "code": "refundable",
+                "code": "refundWithCondition",
                 "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
+                  "ru": "Возврат билета",
+                  "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Fare is completely non-refundable"
+                  "ru": "за 48 часов и более до вылета",
+                  "en": "more than 48 hours before the check-in for the flight"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundWithCondition",
+                "shortDescription": {
+                  "ru": "Возврат билета",
+                  "en": "Refund"
+                },
+                "fullDescription": {
+                  "ru": "менее чем за 48 часов до вылета",
+                  "en": "less than 48 hours before the check-in for the flight"
                 },
                 "needToPay": "notAvailable"
             }
