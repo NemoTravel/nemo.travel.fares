@@ -3,6 +3,8 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 1,
+        "saleTimeSince": "2020-04-19T00:00:00",
+        "saleTimeUntil": "2022-05-11T00:00:00",
         "tariffCodePattern": "^(EcoFly)$",
         "parameters": [
             {
@@ -71,6 +73,8 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 2,
+        "saleTimeSince": "2020-04-19T00:00:00",
+        "saleTimeUntil": "2022-05-11T00:00:00",
         "tariffCodePattern": "^(ExtraFly)$",
         "parameters": [
             {
@@ -139,6 +143,8 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 3,
+        "saleTimeSince": "2020-04-19T00:00:00",
+        "saleTimeUntil": "2022-05-11T00:00:00",
         "tariffCodePattern": "^(PrimeFly)$",
         "parameters": [
             {
