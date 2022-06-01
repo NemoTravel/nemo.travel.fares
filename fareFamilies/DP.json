@@ -8,8 +8,8 @@
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Премиум",
-                    "en": "Premium"
+                    "ru": "Базовый",
+                    "en": "Basic"
                 },
                 "fullDescription": {
                     "ru": "",
