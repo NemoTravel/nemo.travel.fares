@@ -181,11 +181,13 @@
                 "code": "baggage",
                 "shortDescription": {
                     "ru": "До 30 кг",
-                    "en": "Up to 30 kg"
+                    "en": "Up to 30 kg",
+                    "ua": "До 30 кілограмів"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "На рейсы внутри Турции норма багажа до 25 кг",
+                    "en": "Domestic flights up to 25 kg",
+                    "ua": "Рейси по Туреччині до 25 кілограмів"
                 },
                 "needToPay": "free"
             },
