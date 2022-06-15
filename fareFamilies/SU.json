@@ -3,7 +3,7 @@
 	    "owner": "SU",
 	    "baseClass": "economy",
 	    "priority": 0,
-	    "tariffCodePattern": "^(BPX(OW|RT)(FV|RF))$",
+	    "tariffCodePattern": "^((B|H)PX(OW|RT)(FV|RF))$",
 	    "parameters": [
         {
 	        "code": "description",
