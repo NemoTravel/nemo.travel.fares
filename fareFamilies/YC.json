@@ -207,7 +207,7 @@
         "owner": "YC",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^([A-Z](BD|WBD))\\w*$",
+        "tariffCodePattern": "^([A-Z](?!BD3|BD2|BD1)(BD|WBD))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -411,7 +411,7 @@
         "owner": "YC",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([A-Z](ST|WST|BD3))\\w*$",
+        "tariffCodePattern": "^([A-Z](ST|WST|BD3|TJST))\\w*$",
         "parameters": [
             {
                 "code": "description",

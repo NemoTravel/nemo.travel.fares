@@ -48,10 +48,10 @@
                     "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) разрешены",
-                    "en": "Exchangeable for 40 minutes or upwards before departure"
+                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) разрешены со сборами",
+                    "en": "Exchangeable for 40 minutes or upwards before departure. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -72,10 +72,10 @@
                     "en": "Refund Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат до отправления рейса (более 40 минут до вылета) разрешен со сборами",
-                    "en": "Refundable for 40 minutes or upwards before departure. A fee applies"
+                    "ru": "Возврат до отправления рейса (более 40 минут до вылета) не разрешен",
+                    "en": "Non-refundable for 40 minutes or upwards before departure"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "refundable",
@@ -200,10 +200,10 @@
                     "en": "Refund After Departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат менее, чем за 40 минут до вылета рейса или после вылета разрешен без сборов",
-                    "en": "Refundable within 40 minutes before departure and after departure. No fee applies"
+                    "ru": "Возврат менее, чем за 40 минут до вылета рейса или после вылета не разрешен",
+                    "en": "Non-refundable within 40 minutes before departure and after departure"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "miles",
@@ -271,7 +271,7 @@
                     "ru": "",
                     "en": ""
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -280,10 +280,10 @@
                     "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) не разрешены",
-                    "en": "Non-exchangeable for 40 minutes or upwards before departure"
+                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) разрешены со сборами",
+                    "en": "Exchangeable for 40 minutes or upwards before departure. A fee applies"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -384,10 +384,10 @@
                     "en": "Exchange Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) разрешены",
-                    "en": "Exchangeable for 40 minutes or upwards before departure"
+                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) разрешены со сборами",
+                    "en": "Exchangeable for 40 minutes or upwards before departure. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -416,7 +416,7 @@
             {
                 "code": "miles",
                 "shortDescription": {
-                    "ru": "50% миль",
+                    "ru": "100% миль",
                     "en": "50% Miles"
                 },
                 "fullDescription": {
@@ -436,122 +436,6 @@
                     "en": "Non-refundable within 40 minutes before departure and after departure"
                 },
                 "needToPay": "notAvailable"
-            }
-        ]
-    },
-    {
-        "owner": "Y7",
-        "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^([F]).*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Эконом Комфорт",
-                    "en": "Economy Comfort"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 сумка до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "Одно место ручной клади весом до 10 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см)",
-                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 23 кг",
-                    "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "Одно место багажа весом до 23 кг, габаритами — до 203 см в сумме трех измерений. При выполнении перелета в/из г. Санья (Китай), норма бесплатного провоза багажа составляет 15 кг",
-                    "en": "1 item up to 23 kg, total linear dimension — up to 203 cm. In case of flight to/from Sanya (China) — up to 15 kg"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения до отправления рейса",
-                    "en": "Exchange Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменения до отправления рейса (более 40 минут до вылета) разрешены",
-                    "en": "Exchangeable for 40 minutes or upwards before departure"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения после отправления рейса",
-                    "en": "Exchange After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменения менее, чем за 40 минут до вылета или после вылета не разрешены",
-                    "en": "Non-exchangeable within 40 minutes before departure and after departure"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат до отправления рейса",
-                    "en": "Refund Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат до отправления рейса (более 40 минут до вылета) разрешен со сборами",
-                    "en": "Refundable for 40 minutes or upwards before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат после отправления рейса",
-                    "en": "Refund After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат менее, чем за 40 минут до вылета рейса или после вылета не разрешен",
-                    "en": "Non-refundable within 40 minutes before departure and after departure"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "miles",
-                "shortDescription": {
-                    "ru": "100% миль",
-                    "en": "100% Miles"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места повышенной комфортности",
-                    "en": "Comfort Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
             }
         ]
     }

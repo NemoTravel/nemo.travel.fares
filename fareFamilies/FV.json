@@ -1,0 +1,2314 @@
+[
+    {
+        "owner": "FV",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^((BPX)(OW|RT)(RF|FV))*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "ЭКОНОМ ПЛОСКИЙ",
+                    "en": "ECONOMY FLAT"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место не более 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "25% миль",
+                    "en": "25% Miles"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место не более 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Rebooking Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
+                    "en": "Making changes to the issued ticket before the time of the flight is allowed with fees"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус»",
+                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members"
+                },
+                "fullDescription": {
+                    "ru": "Возможно повышение класса обслуживания за мили «Аэрофлот Бонус»",
+                    "en": "Cabin award upgrade for Aeroflot Bonus members — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возможность возврата",
+                    "en": "Refund Before Check-in Closure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат стоимости билета до окончания регистрации разрешен со сборами",
+                    "en": "Ticket refund before the end of registration is allowed with additional fees"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "FV",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^([R](SX|SO))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Промо",
+                    "en": "Economy Promo"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class"
+                },
+                "fullDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания не разрешено",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили",
+                    "en": "Award service for cabin upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили не разрешено",
+                    "en": "Award service for cabin upgrade is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор мест",
+                    "en": "Seat reservation"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор мест разрешен за дополнительную плату",
+                    "en": "Seat reservation is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Комфорт на стойке регистрации",
+                    "en": "Upgrade to Comfort at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Комфорт на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Comfort at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации",
+                    "en": "Upgrade to Business at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Business at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1x23 кг",
+                    "en": "1x23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Внесение изменений в билет",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в билет разрешено не позднее 30 минут после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, с взиманием платы. Внесение изменений позднее 30 минут после времени отправления рейса, указанного в оформленном билете — не разрешено",
+                    "en": "Changes within 30 minutes after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed with a fee. Changes after 30 minutes from the flight departure time specified in the confirmed ticket are not allowed"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1x10 кг",
+                    "en": "1x10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили «Аэрофлот Бонус» — 25%",
+                    "en": "«Aeroflot Bonus» miles — 25%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного билета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного билета недоступна",
+                    "en": "Open return date is not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат стоимости билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы не разрешен. Для некоторых направлений могут действовать особые правила применения тарифов",
+                    "en": "Confirmed ticket may not be refunded. Special fare rules may apply for some destinations"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации SkyPriority",
+                    "en": "SkyPriority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация и оформление багажа пассажиров класса Эконом производится на стойке регистрации в зоне класса Эконом",
+                    "en": "Passengers with Economy class tickets can check in with their baggage at a check-in desk in the Economy class zone"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности не предоставляется",
+                    "en": "Lounge access is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка SkyPriority не включена в тариф",
+                    "en": "SkyPriority boarding is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority",
+                    "en": "SkyPriority baggage claim"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority не включена в тариф",
+                    "en": "SkyPriority baggage claim is not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "FV",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^([YBMUKHLQTENR](NB|NO))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Лайт",
+                    "en": "Economy Lite"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Внесение изменений в билет",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в билет разрешено не позднее 30 минут после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, с взиманием платы. Внесение изменений позднее 30 минут после времени отправления рейса, указанного в оформленном билете — не разрешено",
+                    "en": "Changes within 30 minutes after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed with a fee. Changes after 30 minutes from the flight departure time specified in the confirmed ticket are not allowed"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1x10 кг",
+                    "en": "1x10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили «Аэрофлот Бонус» — 75-125%",
+                    "en": "«Aeroflot Bonus» miles — 75-125%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Комфорт на стойке регистрации",
+                    "en": "Upgrade to Comfort at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Комфорт на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Comfort at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации",
+                    "en": "Upgrade to Business at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Business at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор мест",
+                    "en": "Seat reservation"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор мест разрешен за дополнительную плату",
+                    "en": "Seat reservation is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class"
+                },
+                "fullDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания не разрешено",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили",
+                    "en": "Award service for cabin upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили не разрешено",
+                    "en": "Award service for cabin upgrade is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат стоимости билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы не разрешен. Для некоторых направлений могут действовать особые правила применения тарифов",
+                    "en": "Confirmed ticket may not be refunded. Special fare rules may apply for some destinations"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного билета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного билета недоступна",
+                    "en": "Open return date is not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации SkyPriority",
+                    "en": "SkyPriority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация и оформление багажа пассажиров класса Эконом производится на стойке регистрации в зоне класса Эконом",
+                    "en": "Passengers with Economy class tickets can check in with their baggage at a check-in desk in the Economy class zone"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности не предоставляется",
+                    "en": "Lounge access is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка SkyPriority не включена в тариф",
+                    "en": "SkyPriority boarding is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority",
+                    "en": "SkyPriority baggage claim"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority не включена в тариф",
+                    "en": "SkyPriority baggage claim is not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "FV",
+        "baseClass": "economy",
+        "priority": 6,
+        "tariffCodePattern": "^([YBMUKHLQTENR](VU|VO))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Бюджет",
+                    "en": "Economy Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Комфорт на стойке регистрации",
+                    "en": "Upgrade to Comfort at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Комфорт на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Comfort at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации",
+                    "en": "Upgrade to Business at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Business at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор мест",
+                    "en": "Seat reservation"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор мест разрешен за дополнительную плату",
+                    "en": "Seat reservation is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Внесение изменений в билет",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в билет разрешено не позднее 30 минут после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, с взиманием платы. Внесение изменений позднее 30 минут после времени отправления рейса, указанного в оформленном билете — не разрешено",
+                    "en": "Changes within 30 minutes after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed with a fee. Changes after 30 minutes from the flight departure time specified in the confirmed ticket are not allowed"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class"
+                },
+                "fullDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания не разрешено",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1x23 кг",
+                    "en": "1x23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного билета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного билета недоступна",
+                    "en": "Changes within 30 minutes after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed with a fee. Changes after 30 minutes from the flight departure time specified in the confirmed ticket are not allowed.Open return date is not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1x10 кг",
+                    "en": "1x10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили «Аэрофлот Бонус» — 75-125%",
+                    "en": "«Aeroflot Bonus» miles — 75-125%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат стоимости билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы не разрешен. Для некоторых направлений могут действовать особые правила применения тарифов",
+                    "en": "Confirmed ticket may not be refunded. Special fare rules may apply for some destinations"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили",
+                    "en": "Award service for cabin upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили не разрешено",
+                    "en": "Award service for cabin upgrade is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации SkyPriority",
+                    "en": "SkyPriority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация и оформление багажа пассажиров класса Эконом производится на стойке регистрации в зоне класса Эконом",
+                    "en": "Passengers with Economy class tickets can check in with their baggage at a check-in desk in the Economy class zone"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности не предоставляется",
+                    "en": "Lounge access is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка SkyPriority не включена в тариф",
+                    "en": "SkyPriority boarding is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority",
+                    "en": "SkyPriority baggage claim"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority не включена в тариф",
+                    "en": "SkyPriority baggage claim is not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "FV",
+        "baseClass": "economy",
+        "priority": 8,
+        "tariffCodePattern": "^([YBMUKHLQTENR](CL|CO|FL|FX))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Оптимум",
+                    "en": "Economy Classic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Комфорт на стойке регистрации",
+                    "en": "Upgrade to Comfort at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Комфорт на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Comfort at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации",
+                    "en": "Upgrade to Business at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Business at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Внесение изменений в билет",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в билет разрешено не позднее 30 минут после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, с взиманием платы. Внесение изменений позднее 30 минут после времени отправления рейса, указанного в оформленном билете — не разрешено",
+                    "en": "Changes within 30 minutes after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed with a fee. Changes after 30 minutes from the flight departure time specified in the confirmed ticket are not allowed"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class"
+                },
+                "fullDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания разрешено за дополнительную плату",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор мест",
+                    "en": "Seat reservation"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор мест разрешен без дополнительной оплаты",
+                    "en": "Seat reservation is allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного билета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного билета недоступна",
+                    "en": "Open return date is not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1x23 кг",
+                    "en": "1x23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1x10 кг",
+                    "en": "1x10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили",
+                    "en": "Award service for cabin upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили не разрешено",
+                    "en": "Award service for cabin upgrade is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили «Аэрофлот Бонус» — 100-150%",
+                    "en": "«Aeroflot Bonus» miles — 100-150%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат стоимости билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы разрешен при уведомлении об отказе от перевозки до окончания установленного времени регистрации пассажиров на указанный в билете рейс, с удержанием платы",
+                    "en": "Confirmed ticket may be refunded before the flight check-in is closed, subject to fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации SkyPriority",
+                    "en": "SkyPriority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация и оформление багажа пассажиров класса Эконом производится на стойке регистрации в зоне класса Эконом",
+                    "en": "Passengers with Economy class tickets can check in with their baggage at a check-in desk in the Economy class zone"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности не предоставляется",
+                    "en": "Lounge access is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка SkyPriority не включена в тариф",
+                    "en": "SkyPriority boarding is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority",
+                    "en": "SkyPriority baggage claim"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority не включена в тариф",
+                    "en": "SkyPriority baggage claim is not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "FV",
+        "baseClass": "economy",
+        "priority": 10,
+        "tariffCodePattern": "^([YBMUKHLQTENR](FM|FO))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Максимум",
+                    "en": "Economy Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Комфорт на стойке регистрации",
+                    "en": "Upgrade to Comfort at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Комфорт на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Comfort at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации",
+                    "en": "Upgrade to Business at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Business at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат стоимости билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы разрешен при уведомлении об отказе от перевозки до окончания установленного времени регистрации пассажиров на указанный в билете рейс, без удержания платы",
+                    "en": "Confirmed ticket may be refunded before the flight check-in is closed, at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Внесение изменений в билет",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в билет разрешено не позднее 30 минут после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, без дополнительной оплаты",
+                    "en": "Changes within 30 minutes after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class"
+                },
+                "fullDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания разрешено за дополнительную плату",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор мест",
+                    "en": "Seat reservation"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор мест разрешен без дополнительной оплаты",
+                    "en": "Seat reservation is allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного билета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Open return date is available",
+                    "en": "Upgrade to Comfort at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2x23 кг",
+                    "en": "2x23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили",
+                    "en": "Award service for cabin upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили разрешено без дополнительной оплаты",
+                    "en": "Award service for cabin upgrade is allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1x10 кг",
+                    "en": "1x10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили «Аэрофлот Бонус» — 150-200%",
+                    "en": "«Aeroflot Bonus» miles — 150-200%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации SkyPriority",
+                    "en": "SkyPriority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация и оформление багажа пассажиров класса Эконом производится на стойке регистрации в зоне класса Эконом",
+                    "en": "Passengers with Economy class tickets can check in with their baggage at a check-in desk in the Economy class zone"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности не предоставляется",
+                    "en": "Lounge access is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка SkyPriority не включена в тариф",
+                    "en": "SkyPriority boarding is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority",
+                    "en": "SkyPriority baggage claim"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority не включена в тариф",
+                    "en": "SkyPriority baggage claim is not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "FV",
+        "baseClass": "premiumEconomy",
+        "priority": 12,
+        "tariffCodePattern": "^([WSA](CL|CO))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфорт Оптимум",
+                    "en": "Comfort Classic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2x23 кг",
+                    "en": "2x23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации",
+                    "en": "Upgrade to Business at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Business at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации SkyPriority",
+                    "en": "SkyPriority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация и оформление багажа пассажиров класса Комфорт производится на специально обозначенной стойке регистрации в зоне класса Эконом, либо в зоне SkyPriority",
+                    "en": "Passengers with Comfort class tickets can check in with their baggage at a dedicated check-in desk in the Economy class zone or at a desk in the SkyPriority zone"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1x10 кг",
+                    "en": "1x10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Внесение изменений в билет",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в билет разрешено не позднее 30 минут после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, с взиманием платы. Внесение изменений позднее 30 минут после времени отправления рейса, указанного в оформленном билете — не разрешено",
+                    "en": "Changes within 30 minutes after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed with a fee. Changes after 30 minutes from the flight departure time specified in the confirmed ticket are not allowed"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор мест",
+                    "en": "Seat reservation"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор мест разрешен без дополнительной оплаты",
+                    "en": "Seat reservation is allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class"
+                },
+                "fullDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания разрешено за дополнительную плату",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат стоимости билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы разрешен при уведомлении об отказе от перевозки до окончания установленного времени регистрации пассажиров на указанный в билете рейс, с удержанием платы",
+                    "en": "Confirmed ticket may be refunded before the flight check-in is closed, subject to fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили «Аэрофлот Бонус» — 150%",
+                    "en": "«Aeroflot Bonus» miles — 150%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного билета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного билета недоступна",
+                    "en": "Open return date is not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили",
+                    "en": "Award service for cabin upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили не разрешено",
+                    "en": "Award service for cabin upgrade is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности не предоставляется",
+                    "en": "Lounge access is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка SkyPriority не включена в тариф",
+                    "en": "SkyPriority boarding is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority baggage claim"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка SkyPriority не включена в тариф",
+                    "en": "SkyPriority boarding is not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "FV",
+        "baseClass": "premiumEconomy",
+        "priority": 13,
+        "tariffCodePattern": "^([WSA](FM|FO))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфорт Максимум",
+                    "en": "Comfort Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации",
+                    "en": "Upgrade to Business at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили разрешено без дополнительной оплаты.Повышение в класс Бизнес на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Business at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Внесение изменений в билет",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в билет разрешено не позднее 30 минут после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, без дополнительной оплаты",
+                    "en": "Changes within 30 minutes after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат стоимости билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы разрешен при уведомлении об отказе от перевозки до окончания установленного времени регистрации пассажиров на указанный в билете рейс, без удержания платы",
+                    "en": "Confirmed ticket may be refunded before the flight check-in is closed, at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class"
+                },
+                "fullDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания разрешено за дополнительную плату",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного билета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного билета доступна",
+                    "en": "Open return date is available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор мест",
+                    "en": "Seat reservation"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор мест разрешен без дополнительной оплаты",
+                    "en": "Seat reservation is allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации SkyPriority",
+                    "en": "SkyPriority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация и оформление багажа пассажиров класса Комфорт производится на специально обозначенной стойке регистрации в зоне класса Эконом, либо в зоне SkyPriority",
+                    "en": "Passengers with Comfort class tickets can check in with their baggage at a dedicated check-in desk in the Economy class zone or at a desk in the SkyPriority zone"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2x23 кг",
+                    "en": "2x23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили",
+                    "en": "Award service for cabin upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили разрешено без дополнительной оплаты",
+                    "en": "Award service for cabin upgrade is allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1x10 кг",
+                    "en": "1x10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили «Аэрофлот Бонус» — 200%",
+                    "en": "«Aeroflot Bonus» miles — 200%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности не предоставляется",
+                    "en": "Lounge access is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка SkyPriority не включена в тариф",
+                    "en": "SkyPriority boarding is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority",
+                    "en": "SkyPriority baggage claim"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority не включена в тариф",
+                    "en": "SkyPriority baggage claim is not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "FV",
+        "baseClass": "business",
+        "priority": 15,
+        "tariffCodePattern": "^([JCDIZ](CL|CO))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Оптимум",
+                    "en": "Business Classic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2x32 кг",
+                    "en": "2x32 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Внесение изменений в билет",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в билет разрешено до и после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, с взиманием платы",
+                    "en": "Changes before and after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed with a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор мест",
+                    "en": "Seat reservation"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор мест разрешен без дополнительной оплаты",
+                    "en": "Seat reservation is allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1x15 кг",
+                    "en": "1x15 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации SkyPriority",
+                    "en": "SkyPriority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация и оформление багажа пассажиров класса Бизнес производится на специально обозначенной стойке регистрации, либо в зоне SkyPriority",
+                    "en": "Passengers with Business class tickets can check in with their baggage at a dedicated check-in desk or at a desk in the SkyPriority zone"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат стоимости билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы разрешен при уведомлении об отказе от перевозки до и после окончания установленного времени регистрации пассажиров на указанный в билете рейс, с удержанием платы",
+                    "en": "Confirmed ticket may be refunded before and after the flight check-in is closed, subject to fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили «Аэрофлот Бонус» — 150-200%",
+                    "en": "«Aeroflot Bonus» miles — 150-200%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority",
+                    "en": "SkyPriority baggage claim"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного билета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного билета недоступна",
+                    "en": "Open return date is not available"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "FV",
+        "baseClass": "business",
+        "priority": 16,
+        "tariffCodePattern": "^([JCDIZ](FM|FO))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Максимум",
+                    "en": "Business Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Внесение изменений в билет",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в билет разрешено до и после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, без дополнительной оплаты",
+                    "en": "Changes within before and after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат стоимости билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы разрешен при уведомлении об отказе от перевозки до окончания установленного времени регистрации пассажиров на указанный в билете рейс, без удержания платы",
+                    "en": "Confirmed ticket may be refunded before the flight check-in is closed, at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор мест",
+                    "en": "Seat reservation"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор мест разрешен без дополнительной оплаты",
+                    "en": "Seat reservation is allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации SkyPriority",
+                    "en": "SkyPriority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация и оформление багажа пассажиров класса Бизнес производится на специально обозначенной стойке регистрации, либо в зоне SkyPriority",
+                    "en": "Passengers with Business class tickets can check in with their baggage at a dedicated check-in desk in the Economy class zone or at a desk in the SkyPriority zone"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2x32 кг",
+                    "en": "2x32 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного билета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного билета доступна",
+                    "en": "Open return date is not available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1x15 кг",
+                    "en": "1x15 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили «Аэрофлот Бонус» — 200%",
+                    "en": "«Aeroflot Bonus» miles — 200%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority",
+                    "en": "SkyPriority baggage claim"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "FV",
+        "baseClass": "premiumEconomy",
+        "priority": 11,
+        "tariffCodePattern": "^([WSA](BS|BO))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Комфорт Базовый",
+                    "en": "Comfort Base"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1x23 кг",
+                    "en": "1x23 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации",
+                    "en": "Upgrade to Business at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Business at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации SkyPriority",
+                    "en": "SkyPriority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация и оформление багажа пассажиров класса Комфорт производится на специально обозначенной стойке регистрации в зоне класса Эконом, либо в зоне SkyPriority",
+                    "en": "Passengers with Comfort class tickets can check in with their baggage at a dedicated check-in desk in the Economy class zone or at a desk in the SkyPriority zone"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1x10 кг",
+                    "en": "1x10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Внесение изменений в билет",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в билет разрешено не позднее 30 минут после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, с взиманием платы. Внесение изменений позднее 30 минут после времени отправления рейса, указанного в оформленном билете — не разрешено",
+                    "en": "Changes within 30 minutes after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed with a fee. Changes after 30 minutes from the flight departure time specified in the confirmed ticket are not allowed"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор мест",
+                    "en": "Seat reservation"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор мест разрешен без дополнительной оплаты",
+                    "en": "Seat reservation is allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class"
+                },
+                "fullDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания разрешено за дополнительную плату",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат стоимости билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы не разрешен. Для некоторых направлений могут действовать особые правила применения тарифов",
+                    "en": "Confirmed ticket may not be refunded. Special fare rules may apply for some destinations"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили «Аэрофлот Бонус» — 125%",
+                    "en": "«Aeroflot Bonus» miles — 125%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного билета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного билета недоступна",
+                    "en": "Open return date is not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили",
+                    "en": "Award service for cabin upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили не разрешено",
+                    "en": "Award service for cabin upgrade is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности не предоставляется",
+                    "en": "Lounge access is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка SkyPriority не включена в тариф",
+                    "en": "SkyPriority boarding is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority baggage claim"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка SkyPriority не включена в тариф",
+                    "en": "SkyPriority boarding is not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "FV",
+        "baseClass": "business",
+        "priority": 14,
+        "tariffCodePattern": "^([JCDIZ](BS|BO))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Бизнес Базовый",
+                    "en": "Business Base"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1x32 кг",
+                    "en": "1x32 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Внесение изменений в билет",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в билет разрешено до и после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, с взиманием платы",
+                    "en": "Changes before and after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed with a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор мест",
+                    "en": "Seat reservation"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор мест разрешен без дополнительной оплаты",
+                    "en": "Seat reservation is allowed at no additional charges"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1x15 кг",
+                    "en": "1x15 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации SkyPriority",
+                    "en": "SkyPriority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация и оформление багажа пассажиров класса Бизнес производится на специально обозначенной стойке регистрации, либо в зоне SkyPriority",
+                    "en": "Passengers with Business class tickets can check in with their baggage at a dedicated check-in desk or at a desk in the SkyPriority zone"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат стоимости билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы не разрешен. Для некоторых направлений могут действовать особые правила применения тарифов",
+                    "en": "Confirmed ticket may not be refunded. Special fare rules may apply for some destinations"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили «Аэрофлот Бонус» — 150%",
+                    "en": "«Aeroflot Bonus» miles — 150%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority",
+                    "en": "SkyPriority baggage claim"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного билета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного билета недоступна",
+                    "en": "Open return date is not available"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "FV",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([R](PL|PO))\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Промо Лайт",
+                    "en": "Economy Promo Lite"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Внесение изменений в билет",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в билет разрешено не позднее 30 минут после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, с взиманием платы. Внесение изменений позднее 30 минут после времени отправления рейса, указанного в оформленном билете — не разрешено",
+                    "en": "Changes within 30 minutes after the flight departure time specified in the confirmed ticket (in case of available seats as per the fare paid) allowed with a fee. Changes after 30 minutes from the flight departure time specified in the confirmed ticket are not allowed"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1x10 кг",
+                    "en": "1x10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "miles",
+                "shortDescription": {
+                    "ru": "Мили «Аэрофлот Бонус» — 25%",
+                    "en": "«Aeroflot Bonus» miles — 25%"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Комфорт на стойке регистрации",
+                    "en": "Upgrade to Comfort at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Комфорт на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Comfort at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации",
+                    "en": "Upgrade to Business at the check-in desk"
+                },
+                "fullDescription": {
+                    "ru": "Повышение в класс Бизнес на стойке регистрации разрешено за дополнительную плату",
+                    "en": "Upgrade to Business at the check-in desk is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Предварительный выбор мест",
+                    "en": "Seat reservation"
+                },
+                "fullDescription": {
+                    "ru": "Предварительный выбор мест разрешен за дополнительную плату",
+                    "en": "Seat reservation is allowed with additional charges"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class"
+                },
+                "fullDescription": {
+                    "ru": "Предварительное платное повышение класса обслуживания не разрешено",
+                    "en": "Advanced paid service for cabin upgrade to the Business Class is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили",
+                    "en": "Award service for cabin upgrade"
+                },
+                "fullDescription": {
+                    "ru": "Премиальное повышение класса обслуживания за мили не разрешено",
+                    "en": "Award service for cabin upgrade is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат стоимости билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат провозной платы не разрешен. Для некоторых направлений могут действовать особые правила применения тарифов",
+                    "en": "Confirmed ticket may not be refunded. Special fare rules may apply for some destinations"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного билета",
+                    "en": "Open return date"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного билета недоступна",
+                    "en": "Open return date is not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации SkyPriority",
+                    "en": "SkyPriority check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация и оформление багажа пассажиров класса Эконом производится на стойке регистрации в зоне класса Эконом",
+                    "en": "Passengers with Economy class tickets can check in with their baggage at a check-in desk in the Economy class zone"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности",
+                    "en": "Lounge access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в зал ожидания повышенной комфортности не предоставляется",
+                    "en": "Lounge access is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка SkyPriority",
+                    "en": "SkyPriority boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка SkyPriority не включена в тариф",
+                    "en": "SkyPriority boarding is not included"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority",
+                    "en": "SkyPriority baggage claim"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная выдача багажа SkyPriority не включена в тариф",
+                    "en": "SkyPriority baggage claim is not included"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    }
+]
