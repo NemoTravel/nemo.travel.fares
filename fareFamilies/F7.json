@@ -1,0 +1,242 @@
+[
+  {
+    "owner": "F7",
+    "baseClass": "economy",
+    "priority": 0,
+    "tariffCodePattern": "^.*PR.*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Промо",
+          "en": "Promo"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 место не более 10 кг, габариты до 55 х 40 х 20 см",
+          "en": "1 item up to 10 kg, up to 55 x 40 x 20 cm"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "Платный",
+          "en": "No free baggage allowance"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения до вылета",
+          "en": "Rebooking before departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен до вылета разрешён со сбором",
+          "en": "Exchange before departure is allowed with penalty"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения после вылета",
+          "en": "Rebooking after departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен после вылета запрещён",
+          "en": "Exchange after departure is prohibited"
+        },
+        "needToPay": "notAvailable"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета запрещён",
+          "en": "Ticket refund is prohibited"
+        },
+        "needToPay": "notAvailable"
+      }
+    ]
+  },
+  {
+    "owner": "F7",
+    "baseClass": "economy",
+    "priority": 0,
+    "tariffCodePattern": "^.*PL.*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Плюс",
+          "en": "Plus"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 место не более 10 кг, габариты до 55 х 40 х 20 см",
+          "en": "1 item up to 10 kg, up to 55 x 40 x 20 cm"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "1 место до 23 кг, гарабариты до 203 см",
+          "en": "1 item up to 23 kg, up to 203 cm"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения до вылета",
+          "en": "Rebooking before departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен до вылета разрешён со сбором",
+          "en": "Exchange before departure is allowed with penalty"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения после вылета",
+          "en": "Rebooking after departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен после вылета разрешён со сбором",
+          "en": "Exchange after departure is allowed with penalty"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета запрещён",
+          "en": "Ticket refund is prohibited"
+        },
+        "needToPay": "charge"
+      }
+    ]
+  },
+  {
+    "owner": "F7",
+    "baseClass": "economy",
+    "priority": 0,
+    "tariffCodePattern": "^.*PM.*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Премиум",
+          "en": "Premium"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 место не более 10 кг, габариты до 55 х 40 х 20 см",
+          "en": "1 item up to 10 kg, up to 55 x 40 x 20 cm"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "2 места до 23 кг, гарабариты до 203 см",
+          "en": "2 item up to 23 kg, up to 203 cm"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения до вылета",
+          "en": "Rebooking before departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен до вылета разрешён со сбором",
+          "en": "Exchange before departure is allowed with penalty"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения после вылета",
+          "en": "Rebooking after departure"
+        },
+        "fullDescription": {
+          "ru": "Обмен после вылета разрешён со сбором",
+          "en": "Exchange after departure is allowed with penalty"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешён без сборов",
+          "en": "Ticket refund is allowed without penalty"
+        },
+        "needToPay": "free"
+      }
+    ]
+  }
+]

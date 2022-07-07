@@ -829,7 +829,7 @@
                     "en": "Access to the Business Class lounge available at extra charge",
                     "de": "Ohne Zugang zur Business Class Lounge"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             }
         ]
     }
