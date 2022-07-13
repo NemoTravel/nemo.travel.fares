@@ -51,7 +51,7 @@
                     "ru": "Изменения до отправления рейса (более 40 минут до вылета) разрешены со сбором",
                     "en": "Exchangeable for 40 minutes or upwards before departure. A fee applies"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
@@ -75,7 +75,7 @@
                     "ru": "Возврат до отправления рейса (более 40 минут до вылета) разрешен со сборами",
                     "en": "Refundable for 40 minutes or upwards before departure. A fee applies"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "refundable",
