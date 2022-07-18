@@ -1,251 +1,11 @@
 [
-    {
-        "owner": "N4",
-        "baseClass": "business",
-        "priority": 6,
-        "tariffCodePattern": "^([CDZ](EX))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Экскурсионный Бизнес",
-                    "en": "Excursion Business"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 8 кг",
-                    "en": "1 item up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 8 кг, до 115 см по сумме трех измерений",
-                    "en": "1 item up to 8 kg, total linear dimension — up to 115 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 30 кг",
-                    "en": "1 item up to 30 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 30 кг, до 203 см по сумме трех измерений",
-                    "en": "1 item up to 30 kg, total linear dimension — up to 203 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен со штрафом",
-                    "en": "Refundable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменение до вылета рейса разрешено со сбором",
-                    "en": "Exchangeable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
+	    {
         "owner": "N4",
         "baseClass": "economy",
-        "priority": 4,
-        "tariffCodePattern": "^([SW](EX))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Экскурсионный Комфорт",
-                    "en": "Excursion Comfort"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 8 кг",
-                    "en": "1 item up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 8 кг, до 115 см по сумме трех измерений",
-                    "en": "1 item up to 8 kg, total linear dimension — up to 115 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 20 кг",
-                    "en": "1 item up to 20 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 20 кг, до 203 см по сумме трех измерений",
-                    "en": "1 item up to 20 kg, total linear dimension — up to 203 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен со штрафом",
-                    "en": "Refundable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменение до вылета рейса разрешено со сбором",
-                    "en": "Exchangeable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "N4",
-        "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "^([YKLMNBHQTVXOPRIE](EX))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Экскурсионный Эконом",
-                    "en": "Excursion Economy"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 8 кг",
-                    "en": "1 item up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 8 кг, до 115 см по сумме трех измерений",
-                    "en": "1 item up to 8 kg, total linear dimension — up to 115 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 15 кг",
-                    "en": "1 item up to 15 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 15 кг, до 203 см по сумме трех измерений",
-                    "en": "1 item up to 15 kg, total linear dimension — up to 203 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен со штрафом",
-                    "en": "Refundable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменение до вылета рейса разрешено со сбором",
-                    "en": "Exchangeable before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "N4",
-        "baseClass": "economy",
-        "priority": 11,
+        "priority": 13,
         "flightTimeSince": "2019-05-20T00:00:00",
         "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([YKLMNBHQTVXOPREFSZ]\\w*(LT|PR))\\w*$",
+        "tariffCodePattern": "^\\w*(LT)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -267,7 +27,7 @@
                 },
                 "fullDescription": {
                     "ru": "1 место весом не более 10 кг, до 40*30*20 см",
-                    "en": "1 item up to 10 kg, up to 40x30x20 cm"
+                    "en": "1 item up to 10 kg, up to 40*30*20 cm"
                 },
                 "needToPay": "free"
             },
@@ -284,14 +44,26 @@
                 "needToPay": "charge"
             },
             {
-                "code": "exchangeable",
+                "code": "exchangeWithCondition",
                 "shortDescription": {
                     "ru": "Обмен билета",
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета запрещен",
-                    "en": "Non-exchangeable"
+                    "ru": "За 24 часа и более до вылета",
+                    "en": "More than 24 hours before the check-in for the flight"
+                },
+                "needToPay": "charge"
+            },
+			            {
+                "code": "exchangeWithCondition",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Менее чем за 24 часов до вылета",
+                    "en": "Less than 24 hours before the check-in for the flight"
                 },
                 "needToPay": "notAvailable"
             },
@@ -309,107 +81,13 @@
             }
         ]
     },
-    {
-        "owner": "N4",
-        "baseClass": "economy",
-        "priority": 14,
-        "flightTimeSince": "2019-05-20T00:00:00",
-        "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([D]\\w*(OM))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Оптимум Комфорт",
-                    "en": "Comfort Optimum"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место весом не более 10 кг, до 55*40*20 см",
-                    "en": "1 item up to 10 kg, up to 55x40x20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 30 кг",
-                    "en": "1 item up to 30 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен со сбором",
-                    "en": "Exchangeable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Отдельная стойка регистрации",
-                    "en": "Priority Check-In"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Бизнес зал",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "Доступ в бизнес зал не предоставляется",
-                    "en": "Lounge access is not included"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-              "code": "refundWithCondition",
-              "shortDescription": {
-                "ru": "Возврат билета",
-                "en": "Refund"
-              },
-              "fullDescription": {
-                "ru": "до вылета для внутренних рейсов: со сбором, для международных",
-                "en": "before flight for domestic flights: with taxes, for international flights: "
-              },
-              "needToPay": "notAvailable"
-            }
-        ]
-    },
-    {
+	{
         "owner": "N4",
         "baseClass": "economy",
         "priority": 12,
         "flightTimeSince": "2019-05-20T00:00:00",
         "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([YKLMNBHQTVXOPREFSZ]\\w*(OM|OP))\\w*$",
+        "tariffCodePattern": "^\\w*(OM)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -472,110 +150,16 @@
                 "needToPay": "notAvailable"
             },
             {
-              "code": "refundWithCondition",
+              "code": "refundable",
               "shortDescription": {
                 "ru": "Возврат билета",
                 "en": "Refund"
               },
               "fullDescription": {
-                "ru": "до вылета для внутренних рейсов: со сбором, для международных",
-                "en": "before flight for domestic flights: with taxes, for international flights:"
+                "ru": "Возврат билета разрешен со сбором",
+                "en": "Refundable. A fee applies"
               },
-              "needToPay": "notAvailable"
-            }
-        ]
-    },
-    {
-        "owner": "N4",
-        "baseClass": "economy",
-        "priority": 15,
-        "flightTimeSince": "2019-05-20T00:00:00",
-        "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([D]\\w*(PM))\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Премиум Комфорт",
-                    "en": "Comfort Premium"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 10 кг",
-                    "en": "1 item up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место весом не более 10 кг, до 55*40*20 см",
-                    "en": "1 item up to 10 kg, up to 55x40x20 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 места до 30 кг каждое",
-                    "en": "2 items up to 30 kg each"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета до вылета разрешен без сбора",
-                    "en": "Exchangeable before departure. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен без сбора",
-                    "en": "Refundable. No fee applies"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Отдельная стойка регистрации",
-                    "en": "Priority Check-In"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Бизнес зал",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
+              "needToPay": "charge"
             }
         ]
     },
@@ -585,7 +169,7 @@
         "priority": 13,
         "flightTimeSince": "2019-05-20T00:00:00",
         "flightTimeUntil": "2022-05-30T00:00:00",
-        "tariffCodePattern": "^([YKLMNBHQTVXOPREFSZ]\\w*(PM))\\w*$",
+        "tariffCodePattern": "^\\w*(PM)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -635,15 +219,15 @@
                 },
                 "needToPay": "free"
             },
-            {
+			            {
                 "code": "exchangeable",
                 "shortDescription": {
                     "ru": "Обмен билета после вылета",
-                    "en": "Exchange After Departure"
+                    "en": "Exchange after departure"
                 },
                 "fullDescription": {
                     "ru": "Обмен билета после вылета разрешен со сбором",
-                    "en": "Exchangeable after departure. A fee applies"
+                    "en": "Exchangeable after departure is allowed with penalty"
                 },
                 "needToPay": "charge"
             },
@@ -660,5 +244,5 @@
                 "needToPay": "charge"
             }
         ]
-    }
+    }	
 ]
