@@ -139,7 +139,7 @@
         "owner": "DP",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^\\w*(ECONALL)$",
+        "tariffCodePattern": "^\\w*(ECONALL|ALL)$",
         "parameters": [
             {
                 "code": "description",
