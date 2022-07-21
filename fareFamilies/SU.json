@@ -1,4 +1,230 @@
 [
+    {
+        "owner": "SU",
+        "baseClass": "economy",
+        "priority": 0,
+        "tariffCodePattern": "^([RGV](PL|PO))\\w*\\d*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Промо Лайт",
+                    "en": "Promo Lite",
+                    "de": "Promo-Lite"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место не более 10 кг",
+                    "en": "1 item up to 10 kg",
+                    "de": "1 Gepäckstück bis 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+			{
+				"code": "miles",
+				"shortDescription": {
+				  "ru": "25% миль",
+				  "en": "25% Miles",
+				  "de": "25% Meilen"
+				},
+				"fullDescription": {
+				  "ru": "",
+				  "en": ""
+				},
+				"needToPay": "free"
+			},
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Багаж не предоставляется",
+                    "en": "Without baggage",
+                    "de": "Ohne Gepäckstück"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Открытая дата обратного вылета",
+                    "en": "Open Return Date",
+                    "de": "Offenes Rückflugdatum"
+                },
+                "fullDescription": {
+                    "ru": "Открытая дата обратного вылета — недоступно",
+                    "en": "Open return date — not available",
+                    "de": "Offenes Rückflugdatum — nicht verfügbar"
+                },
+                "needToPay": "notAvailable"
+            },
+			{
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Rebooking Before Departure",
+                    "de": "Änderungen vor Abfahrt"
+                },
+                "fullDescription": {
+                    "ru": "Внесение изменений в оформленный билет до времени отправки рейса разрешено со сборами",
+                    "en": "Making changes to the issued ticket before the time of the flight is allowed with fees",
+                    "de": "Kostenpflichtige Änderungen für den gewählten Tarif sind vor der Abflugzeit möglich"
+                },
+                "needToPay": "charge"
+            },
+			{
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение класса обслуживания в Комфорт класс",
+                    "en": "Cabin Upgrade for Purchase to Comfort",
+                    "de": "Upgrade der Serviceklasse"
+                },
+                "fullDescription": {
+                    "ru": "Возможно платное повышение класса обслуживания в Комфорт класс. На отдельных направлениях могут действовать исключения",
+                    "en": "Cabin upgrade for purchase to Comfort — available at extra charge (exceptions may apply for some destinations)",
+                    "de": "Es ist möglich, die Klasse der Dienste auf die Comfort-Klasse zu aktualisieren. Ausnahmen können für bestimmte Bereiche gelten"
+                },
+                "needToPay": "charge"
+            },
+			{
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус»",
+                    "en": "Cabin Award Upgrade for Aeroflot Bonus Members",
+                    "de": "Upgrade der Serviceklasse für Aeroflot Bonusmeilen"
+                },
+                "fullDescription": {
+                    "ru": "Повышение класса обслуживания за мили «Аэрофлот Бонус» — недоступно",
+                    "en": "Cabin award upgrade for Aeroflot Bonus members — not available",
+                    "de": "Upgrade der Serviceklasse für Aeroflot Bonusmeilen — nicht verfügbar"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable",
+                    "de": "Fahrpreis ist nicht erstattungsfähig"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable",
+                    "de": "Fahrpreis ist nicht erstattungsfähig"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": "Priority Boarding",
+                    "de": "Vorrangiges Einsteigen"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка — недоступно",
+                    "en": "Priority boarding — not available",
+                    "de": "Vorrangiges Einsteigen — nicht verfügbar"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная выдача багажа",
+                    "en": "Priority Luggage Claim",
+                    "de": "Vorrangige Gepäckausgabe"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная выдача багажа — недоступно",
+                    "en": "Priority luggage claim — not available",
+                    "de": "Vorrangige Gepäckausgabe — nicht verfügbar"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Выделенная стойка регистрации",
+                    "en": "Priority Check-in",
+                    "de": "Abgetrennter Check-in-Schalter"
+                },
+                "fullDescription": {
+                    "ru": "Выделенная стойка регистрации — недоступно",
+                    "en": "Priority check-in — not available",
+                    "de": "Abgetrennter Check-in-Schalter — nicht verfügbar"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания Бизнес класса",
+                    "en": "Lounge Access",
+                    "de": "Zugang zur Business Class Lounge"
+                },
+                "fullDescription": {
+                    "ru": "Без доступа в зал ожидания Бизнес класса",
+                    "en": "No free lounge access",
+                    "de": "Kein Zugang zur freien Lounge"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Стоповер",
+                    "en": "Stopover",
+                    "de": "Zwischenstopp"
+                },
+                "fullDescription": {
+                    "ru": "Стоповеры запрещены",
+                    "en": "Stopovers are prohibited",
+                    "de": "Zwischenstopps sind verboten"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
 	{
 	    "owner": "SU",
 	    "baseClass": "economy",
