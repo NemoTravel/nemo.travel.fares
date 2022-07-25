@@ -744,10 +744,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сборов",
-                    "en": "Refundable"
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
