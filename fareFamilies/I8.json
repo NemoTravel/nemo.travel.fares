@@ -220,10 +220,10 @@
                     "en": "Refund before departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до окончания регистрации разрешен со сбором",
-                    "en": "Refundable before departure. A fee applies"
+                    "ru": "Возврат билета до окончания регистрации запрещен",
+                    "en": "Not refundable before departure."
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "refundable",
