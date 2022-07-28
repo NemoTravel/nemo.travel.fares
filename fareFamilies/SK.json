@@ -51,7 +51,7 @@
         "owner": "SK",
         "baseClass": "economy",
         "priority": 6,
-        "tariffCodePattern": "^\\w*(SM)",
+        "tariffCodePattern": "^\\w*(SM)$",
         "parameters": [
             {
                 "code": "description",
@@ -106,8 +106,64 @@
     {
         "owner": "SK",
         "baseClass": "economy",
+        "priority": 6,
+        "tariffCodePattern": "^\\w*(SMA)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "SAS PLUS SMART",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 x 8 кг",
+                    "en": "1 x 8 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 x 23 кг",
+                    "en": "1 x 23 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен со сбором",
+                    "en": "Refund available. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование",
+                    "en": "Rebooking"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование разрешено со сборами",
+                    "en": "Rebooking — available. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "SK",
+        "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^\\w*(SK)",
+        "tariffCodePattern": "^\\w*(SK|PR)",
         "parameters": [
             {
                 "code": "description",
@@ -152,10 +208,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
+                    "ru": "Возврат билета разрешен",
+                    "en": "Refundable."
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",
@@ -164,10 +220,10 @@
                     "en": "Rebooking"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование разрешено со сборами",
-                    "en": "Rebooking — available. A fee applies"
+                    "ru": "Изменения разрешены",
+                    "en": "Rebooking — available."
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "vipService",
@@ -194,99 +250,7 @@
                 "needToPay": "free"
             }
         ]
-    },
-    {
-        "owner": "SK",
-        "baseClass": "economy",
-        "priority": 4,
-        "tariffCodePattern": "^[CJYSBPA]+((SAVER)\\w)*",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "SAS PLUS SMART",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 x 8 кг",
-                    "en": "1 x 8 kg"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 x 23 кг",
-                    "en": "2 x 23 kg"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Перебронирование",
-                    "en": "Rebooking"
-                },
-                "fullDescription": {
-                    "ru": "Перебронирование разрешено со сборами",
-                    "en": "Rebooking — available. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Зал ожидания",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "Доступ в зал ожидания",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритетная выдача багажа",
-                    "en": "Priority Baggage"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание и напитки",
-                    "en": "Food & Beverages"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
+    },    
     {
         "owner": "SK",
         "baseClass": "business",
