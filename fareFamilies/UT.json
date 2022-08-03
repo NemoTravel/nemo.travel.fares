@@ -2,7 +2,7 @@
     {
         "owner": "UT",
         "baseClass": "business",
-        "priority": 9,
+        "priority": 8,
         "tariffCodePattern": "^([ADCJ](FL))\\w*$",
         "parameters": [
             {
@@ -249,17 +249,16 @@
                 "needToPay": null
             },
             {
-                "code": "baggage",
+                "code": "baggageWithCondition",
                 "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance",
-                    "de": "Kein Freigepäck"
+                    "ru": "Возврат билета",
+                    "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "на направлениях Тюмень — Ханты-Мансийск — Тюмень, Тюмень — Березово — Тюмень, Тюмень — Белоярский — Тюмень, Тюмень — Игрим — Тюмень, Тюмень — Советский — Тюмень, Тюмень — Урай — Тюмень - 1 место до 10 кг с габаритами 55х40х25 см",
+                    "en": "on the directions Tyumen - Khanty-Mansiysk - Tyumen, Tyumen - Berezovo - Tyumen, Tyumen - Beloyarsky - Tyumen, Tyumen - Igrim - Tyumen, Tyumen - Soviet - Tyumen, Tyumen - Uray - Tyumen - 1 piece up to 10 kg with dimensions 55x40x25 cm"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "carryOn",
@@ -275,18 +274,16 @@
                 "needToPay": "free"
             },
             {
-                "code": "refundable",
+                "code": "refundWithCondition",
                 "shortDescription": {
                     "ru": "Возврат билета",
-                    "en": "Refund",
-                    "de": "Ticketrückerstattung"
+                    "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable",
-                    "de": "Fare ist völlig nicht rückzahlbar"
+                    "ru": "на направлениях: Тюмень — Ханты-Мансийск — Тюмень, Тюмень — Березово — Тюмень, Тюмень — Белоярский — Тюмень, Тюмень — Игрим — Тюмень, Тюмень — Советский — Тюмень, Тюмень — Урай — Тюмень",
+                    "en": "Return is available on the following routes: Tyumen - Khanty-Mansiysk - Tyumen, Tyumen - Berezovo - Tyumen, Tyumen - Beloyarsky - Tyumen, Tyumen - Igrim - Tyumen, Tyumen - Soviet - Tyumen, Tyumen - Uray - Tyumen"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",
@@ -329,7 +326,7 @@
                 "needToPay": "charge"
             }
         ]
-    }, 
+    },
     {
         "owner": "UT",
         "baseClass": "economy",
@@ -465,12 +462,12 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                  "ru": "Возврат билета после вылета",
-                  "en": "Refund after departure"
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
                 },
                 "fullDescription": {
-                  "ru": "Возврат после вылета не разрешён",
-                  "en": "Refund after departure is not allowed"
+                    "ru": "Возврат после вылета не разрешён",
+                    "en": "Refund after departure is not allowed"
                 },
                 "needToPay": "notAvailable"
             },
