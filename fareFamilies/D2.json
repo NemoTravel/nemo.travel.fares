@@ -3,7 +3,7 @@
         "owner": "D2",
         "baseClass": "economy",
         "priority": 5,
-        "tariffCodePattern": "^((YW)|(YV))$",
+        "tariffCodePattern": "^((YW)|(YV)|(YV1))$",
         "parameters": [
             {
                 "code": "description",

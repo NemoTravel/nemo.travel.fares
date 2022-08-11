@@ -1423,7 +1423,7 @@
         "owner": "SU",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^([YBMUKHLQTENR](NB|NO))\\w*$",
+        "tariffCodePattern": "^([YBMUKHLQTENRG](NB|NO))\\w*$",
         "parameters": [
             {
                 "code": "description",
