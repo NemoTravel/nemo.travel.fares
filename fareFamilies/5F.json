@@ -19,19 +19,6 @@
                 "needToPay": null
             },
             {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Дополнительное питание за 1 EUR",
-                    "en": "Additional meal for 1 EUR",
-                    "ro": "Mâncare suplimentară pentru 1 EURO"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
                 "code": "carryOn",
                 "shortDescription": {
                     "ru": "2 места: 1 место до 90 см и 1 место до 10 кг",
@@ -81,11 +68,11 @@
                     "ro": "Modificare de dată"
                 },
                 "fullDescription": {
-                    "ru": "Изменение даты вылета разрешено со сборами",
+                    "ru": "Изменение даты вылета разрешено",
                     "en": "Date changes — available. A fee applies",
                     "ro": "Modificarea de dată/oră este posibilă cu aplicarea penalităților"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "vipService",
@@ -442,8 +429,7 @@
                 "code": "meal",
                 "shortDescription": {
                     "ru": "Напитки и сэндвичи",
-                    "en": "Catering",
-                    "ro": "Catering"
+                    "en": ""
                 },
                 "fullDescription": {
                     "ru": "",
