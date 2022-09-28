@@ -138,7 +138,7 @@
     {
         "owner": "J2",
         "baseClass": "business",
-        "priority": 11,
+        "priority": 12,
         "tariffCodePattern": "^[WQ]\\w*(CC)((?!BA|BB|BS).)*$",
         "parameters": [
             {
@@ -230,7 +230,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "priority": 7,
+        "priority": 8,
         "tariffCodePattern": "^[U]((?!BA|BB|BS).)*$",
         "parameters": [
             {
@@ -322,7 +322,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "priority": 6,
+        "priority": 7,
         "tariffCodePattern": "^[V]((?!BA|BB|BS).)*$",
         "parameters": [
             {
@@ -414,7 +414,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "priority": 5,
+        "priority": 6,
         "tariffCodePattern": "^[Х]((?!BA|BB|BS).)*$",
         "parameters": [
             {
@@ -482,7 +482,7 @@
     {
         "owner": "J2",
         "baseClass": "business",
-        "priority": 12,
+        "priority": 13,
         "tariffCodePattern": "^[JZ]\\w*(VC)((?!BA|BB|BS).)*$",
         "parameters": [
             {
@@ -574,7 +574,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "priority": 9,
+        "priority": 10,
         "tariffCodePattern": "^[OTLBNY]\\w*(FX)((?!BA|BB|BS).)*$",
         "parameters": [
             {
@@ -666,7 +666,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "priority": 8,
+        "priority": 9,
         "tariffCodePattern": "^[OTLBNY]\\w*(CL)((?!BA|BB|BS).)*$",
         "parameters": [
             {
@@ -758,7 +758,7 @@
     {
         "owner": "J2",
         "baseClass": "economy",
-        "priority": 10,
+        "priority": 11,
         "tariffCodePattern": "^[СD]\\w*(CP)((?!BA|BB|BS).)*$",
         "parameters": [
             {
@@ -967,7 +967,7 @@
         "owner": "J2",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^[OTLBNY]\\w*(NB)((?!BA|BB).)*$",
+        "tariffCodePattern": "^[OTLBNY]\\w*(NB)((?!BA|BB|BS).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -1016,6 +1016,98 @@
                     "en": ""
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование после вылета",
+                    "en": "Rebooking After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование после вылета не разрешено",
+                    "en": "Rebooking after departure — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета не разрешен",
+                    "en": "Non-refundable after departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Дополнительно в салон самолёта можно взять: дамскую сумочку, мужской портфель, портативный компьютер, фотоаппарат или видеокамеру, не входящие в норму провоза ручной клади (1 сумка до 10 кг)",
+                    "en": "1 item up to 10 kg. Additionally the following items may be carried in a cabin: hand-bags, brief case, and portable computer"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "J2",
+        "baseClass": "economy",
+        "priority": 5,
+        "tariffCodePattern": "^[P]\\w*(PR)((?!BA|BB|BS).)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Промо",
+                    "en": "Promo"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета не разрешен",
+                    "en": "Non-refundable before departure"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Перебронирование до вылета",
+                    "en": "Rebooking Before Departure"
+                },
+                "fullDescription": {
+                    "ru": "Перебронирование до вылета не разрешено",
+                    "en": "Rebooking before departure — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 сумка до 23 кг",
+                    "en": "1 item up to 23 kg"
+                },
+                "fullDescription": {
+                    "ru": "Для рейсов AZAL — 1 сумка до 23 кг. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
+                    "en": "In case of AZAL flight — 1 item up to 23 kg. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
+                },
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",

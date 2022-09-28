@@ -444,10 +444,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "ru": "Возврат билета до окончания регистрации разрешен со сбором. Возврат после окончания регистрации не разрешен",
+                    "en": "Refundable before departure with a fee. Non-refundable after departure"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "baggage",
@@ -468,10 +468,10 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Изменения в билете недоступны",
+                    "ru": "Изменения в билете до окончания регистрации разрешены со сбором. Изменения после окончания регистрации не разрешены",
                     "en": "Non-exchangeable"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             }
         ]
     },

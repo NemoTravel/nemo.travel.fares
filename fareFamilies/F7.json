@@ -128,8 +128,8 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен со сбором",
-                    "en": "Refund is permitted with a fee"
+                    "ru": "Возврат билета до вылета разрешен со сбором. Возврат билета после вылета не разрешен",
+                    "en": "Refund before departure is permitted with a fee. Non-refundable after departure"
                 },
                 "needToPay": "charge"
             }
@@ -196,8 +196,8 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сбора",
-                    "en": "Refund is permitted with no fee"
+                    "ru": "Возврат билета до вылета разрешен без сбора. Возврат билета после вылета разрешен со сбором",
+                    "en": "Refund before departure is permitted with no fee. Refund after departure is permitted with a fee"
                 },
                 "needToPay": "free"
             }
