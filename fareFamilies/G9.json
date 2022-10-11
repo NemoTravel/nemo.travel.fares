@@ -178,50 +178,6 @@
     {
         "owner": "G9",
         "baseClass": "economy",
-        "priority": 5,
-        "tariffCodePattern": "^(Basic)$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Базовый",
-                    "en": "Basic"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "До 10 кг",
-                    "en": "Up to 10 kg"
-                },
-                "fullDescription": {
-                    "ru": "Вес ручной клади не должен превышать 10 кг, а габариты не должны превышать 55 x 40 x 20 см вместе с ручкой, карманами и колесами",
-                    "en": "Hand baggage allowance per passenger must not exceed 10 kg weight and dimensions should not exceed 55 x 40 x 20 cm (22 x 16 x 8 in), including the handle, pockets and wheels"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "G9",
-        "baseClass": "economy",
         "priority": 6,
         "tariffCodePattern": "^(Basic)$",
         "parameters": [
@@ -336,6 +292,50 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "До 10 кг",
+                    "en": "Up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Вес ручной клади не должен превышать 10 кг, а габариты не должны превышать 55 x 40 x 20 см вместе с ручкой, карманами и колесами",
+                    "en": "Hand baggage allowance per passenger must not exceed 10 kg weight and dimensions should not exceed 55 x 40 x 20 cm (22 x 16 x 8 in), including the handle, pockets and wheels"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "G9",
+        "baseClass": "economy",
+        "priority": 5,
+        "tariffCodePattern": "^(Basic)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Базовый",
+                    "en": "Basic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
             },
             {
                 "code": "carryOn",

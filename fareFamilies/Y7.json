@@ -3,7 +3,7 @@
         "owner": "Y7",
         "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^(([CDI])\\w*(LT)\\w*)$",
+        "tariffCodePattern": "^(([DI])\\w*(LT)\\w*)$",
         "parameters": [
             {
                 "code": "description",
@@ -434,6 +434,142 @@
                 "fullDescription": {
                     "ru": "Возврат менее, чем за 40 минут до вылета рейса или после вылета не разрешен",
                     "en": "Non-refundable within 40 minutes before departure and after departure"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "Y7",
+        "baseClass": "economy",
+        "priority": 7,
+        "tariffCodePattern": "^(([C])\\w*(LT)\\w*)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Мильный Лайт",
+                    "en": "Lite"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место ручной клади весом до 10 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см)",
+                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Не предоставляется бесплатная норма провоза багажа",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после отправления рейса",
+                    "en": "Exchange After Departure"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после отправления рейса",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "Y7",
+        "baseClass": "economy",
+        "priority": 6,
+        "tariffCodePattern": "^(([U])\\w*(LT)\\w*)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Мильный Лайт",
+                    "en": "Lite"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 сумка до 10 кг",
+                    "en": "1 item up to 10 kg"
+                },
+                "fullDescription": {
+                    "ru": "Одно место ручной клади весом до 10 кг, габаритами — до 115 см в сумме трех измерений (55 x 40 x 20 см)",
+                    "en": "1 item up to 10 kg, total linear dimension — up to 115 cm (55 x 40 x 20 cm)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Не предоставляется бесплатная норма провоза багажа",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после отправления рейса",
+                    "en": "Exchange After Departure"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат после отправления рейса",
+                    "en": "Refund After Departure"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "notAvailable"
             }

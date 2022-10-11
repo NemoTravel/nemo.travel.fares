@@ -1270,98 +1270,6 @@
     {
         "owner": "LO",
         "baseClass": "premiumEconomy",
-        "priority": 9,
-        "tariffCodePattern": "^([_])$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Премиум Полугибкий",
-                    "en": "Premium Semi Flex"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Обмен билета разрешен",
-                    "en": "Exchangeable"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "2 места до 12 кг в сумме",
-                    "en": "2 items up to 12 kg in total"
-                },
-                "fullDescription": {
-                    "ru": "Ручная кладь не должна превышать норму — 2 места до 12 кг в сумме (одно место до 8 кг). На рейсах в/из США — 1 место до 10 кг",
-                    "en": "The limit of carry-on baggage is 2 pieces up to 12 kg in total (1 pc cannot exceed 8 kg). In case of flights to/from US the limit of carry-on baggage is 1 piece up to 10 kg"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "2 места до 23 кг каждое",
-                    "en": "2 items up to 23 kg each"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен с доплатой",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места",
-                    "en": "Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "Выбор места разрешен",
-                    "en": "Seat selection — available"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритетная посадка",
-                    "en": "Priority Boarding"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "LO",
-        "baseClass": "premiumEconomy",
         "priority": 8,
         "tariffCodePattern": "^(\\w*(SFX))\\w*$",
         "parameters": [
@@ -1424,6 +1332,98 @@
                     "en": "Exchangeable"
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места",
+                    "en": "Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Выбор места разрешен",
+                    "en": "Seat selection — available"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": "Priority Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "LO",
+        "baseClass": "premiumEconomy",
+        "priority": 9,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Премиум Полугибкий",
+                    "en": "Premium Semi Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен",
+                    "en": "Exchangeable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 12 кг в сумме",
+                    "en": "2 items up to 12 kg in total"
+                },
+                "fullDescription": {
+                    "ru": "Ручная кладь не должна превышать норму — 2 места до 12 кг в сумме (одно место до 8 кг). На рейсах в/из США — 1 место до 10 кг",
+                    "en": "The limit of carry-on baggage is 2 pieces up to 12 kg in total (1 pc cannot exceed 8 kg). In case of flights to/from US the limit of carry-on baggage is 1 piece up to 10 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен с доплатой",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
             },
             {
                 "code": "seatsRegistration",
