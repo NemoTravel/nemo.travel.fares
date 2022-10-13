@@ -468,10 +468,10 @@
           "en": "Refund"
         },
         "fullDescription": {
-          "ru": "Возврат стоимости при отмене; предусматривается возмещение, если пассажир пропустил свой рейс. На межконтинентальных рейсах условия возврата могут отличаться",
-          "en": "Refund if you decide to cancel; refund if you missed your flight. The rule might work differently for intercontinental flights"
+          "ru": "Не возвратный",
+          "en": "Non-refundable"
         },
-        "needToPay": "free"
+        "needToPay": "notAvailable"
       },
       {
         "code": "exchangeable",
