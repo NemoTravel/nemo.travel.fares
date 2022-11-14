@@ -2131,11 +2131,11 @@
           "de": "Änderungen nach Abfahrt"
         },
         "fullDescription": {
-          "ru": "Внесение изменений в оформленную перевозку после времени отправки рейса не разрешено",
-          "en": "Making changes to the issued ticket after the time of the flight is not allowed",
-          "de": "Änderungen am ausgestellten ticket nach der Zeit des Fluges sind nicht erlaubt"
+          "ru": "Внесение изменений в оформленную перевозку после времени отправки рейса разрешено со сборами",
+          "en": "Making changes to the issued ticket after the time of the flight is allowed with fees",
+          "de": "Änderungen am ausgestellten ticket nach der Zeit des Fluges sind vor der Abflugzeit möglich"
         },
-        "needToPay": "notAvailable"
+        "needToPay": "charge"
       },
       {
         "code": "refundable",
