@@ -3,7 +3,7 @@
         "owner": "IQ",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^[OIUQETSMLKHBY](EE)(OW|3M)\\w*$",
+        "tariffCodePattern": "^[WOIUQETSMLKHBY](EE)(OW|3M|RT)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -71,7 +71,7 @@
         "owner": "IQ",
         "baseClass": "economy",
         "priority": 5,
-        "tariffCodePattern": "^[OIUQETSMLKHBY](OW|RT)((?!S).)*$",
+        "tariffCodePattern": "^[WOIUQETSMLKHBY](OW|RT)((?!S).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -139,7 +139,7 @@
         "owner": "IQ",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[OUIQETSMLKHBY](PR)(OW|1M)\\w*$",
+        "tariffCodePattern": "^[WOUIQETSMLKHBY](PR)(OW|1M|RT)\\w*$",
         "parameters": [
             {
                 "code": "description",

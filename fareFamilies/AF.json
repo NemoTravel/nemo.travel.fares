@@ -388,13 +388,13 @@
         "owner": "AF",
         "baseClass": "business",
         "priority": 6,
-        "tariffCodePattern": "^[JCDIZO]\\w*$",
+        "tariffCodePattern": "^[ZIDC]\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Бизнес",
-                    "en": "Business"
+                    "ru": "Бизнес Стандарт",
+                    "en": "Business Standard"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -445,10 +445,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат стоимости при отмене; предусматривается возмещение, если пассажир пропустил свой рейс. На межконтинентальных рейсах условия возврата могут отличаться",
-                    "en": "Refund if you decide to cancel; refund if you missed your flight. The rule might work differently for intercontinental flights"
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "vipService",

@@ -3,7 +3,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^(EcoFly)$|^\\w*(CL)\\w*$",
+        "tariffCodePattern": "^(EcoFly)$|^[BMAHSOEQTL]\\w*(CL)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -71,7 +71,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^(ExtraFly)$|^\\w*(LG)\\w*$",
+        "tariffCodePattern": "^(ExtraFly)$|^[BMAHSOEQTL]\\w*(LG)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -139,7 +139,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^\\w*(JS)\\w*$",
+        "tariffCodePattern": "^[BMAHSOEQTL]\\w*(JS)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -207,7 +207,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^(PrimeFly)$|^\\w*(FL)\\w*$",
+        "tariffCodePattern": "^(PrimeFly)$|^[BMAHSOEQTL]\\w*(FL)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -277,7 +277,7 @@
         "owner": "TK",
         "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^(BusinessFly)$|^\\w*(BF)\\w*$",
+        "tariffCodePattern": "^(BusinessFly)$|^[CDJK]\\w*(BF)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -381,7 +381,7 @@
         "owner": "TK",
         "baseClass": "business",
         "priority": 5,
-        "tariffCodePattern": "^(BusinessPrime)$|^\\w*(BL)\\w*$",
+        "tariffCodePattern": "^(BusinessPrime)$|^[CDJK]\\w*(BL)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -485,7 +485,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^\\w*(JR)\\w*$",
+        "tariffCodePattern": "^[BMAHSOEQTL]\\w*(JR)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -553,7 +553,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^\\w*(JF)\\w*$",
+        "tariffCodePattern": "^[BMAHSOEQTL]\\w*(JF)\\w*$",
         "parameters": [
             {
                 "code": "description",
