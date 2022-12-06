@@ -3,7 +3,7 @@
         "owner": "9U",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^([ARGSW])\\w*$",
+        "tariffCodePattern": "^([ARGSWNOUKQHMYB]\\w*(BSC))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -36,8 +36,8 @@
                     "en": "No free baggage allowance"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатная норма провоза зарегистрированного багажа не предоставляется. Для перелетов в/из Стамбула — 3 места до 23 кг каждое",
-                    "en": "No checked baggage allowance included. In case of to/from Istanbul routes — 3 items up to 23 kg each"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "charge"
             },
@@ -48,10 +48,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable with a fee"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
@@ -60,22 +60,10 @@
                     "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Обмен билета не разрешен. На направлениях в/из Москвы и Стамбула; из Кишинева/Бельцов в Санкт-Петербург обмен билета разрешен со сборами",
-                    "en": "Non-exchangeable. In case of to/from Moscow or Istanbul routes or Chisinau/Balti to Saint Petersburg routes — exchangeable, a fee applies"
+                    "ru": "Обмен билета разрешен со сбором",
+                    "en": "Exchangeable with a fee"
                 },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание и напитки",
-                    "en": "Meals & Drinks"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
+                "needToPay": "charge"
             }
         ]
     },
@@ -83,7 +71,7 @@
         "owner": "9U",
         "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^([DC])\\w*$",
+        "tariffCodePattern": "^([DC]\\w*(DD))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -112,96 +100,36 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 места до 23 кг каждое",
-                    "en": "2 items up to 23 kg each"
+                    "ru": "2 места до 32 кг каждое",
+                    "en": "2 items up to 32 kg each"
                 },
                 "fullDescription": {
-                    "ru": "Бесплатная норма провоза зарегистрированного багажа — 2 места до 23 кг каждое. Для перелетов в/из Стамбула — 3 места до 23 кг каждое",
-                    "en": "The free checked baggage allowance — 1 item up to 23 kg. In case of to/from Istanbul routes — 3 items up to 23 kg each"
+                    "ru": "",
+                    "en": ""
                 },
                 "needToPay": "free"
             },
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund Before Departure"
+                    "ru": "Возврат билета",
+                    "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до даты вылета разрешен без штрафов",
-                    "en": "Refundable before travel date"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета после вылета",
-                    "en": "Refund After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета в дату вылета / после даты вылета разрешен со штрафами",
-                    "en": "Refundable during/after travel date. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета до вылета",
-                    "en": "Exchange Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты/времени вылета до даты вылета разрешено без сборов",
-                    "en": "Date changes before travel date are available"
+                    "ru": "Возврат билета до вылета разрешен без сбора. Возврат билета после вылета разрешен со сбором",
+                    "en": "Refundable before departure with no fee. Refundable after departure with a fee"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета после вылета",
-                    "en": "Exchange After Departure"
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Изменение даты/времени вылета в дату вылета / после даты вылета разрешено без сборов",
-                    "en": "Date changes during/after travel date are available"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритетная регистрация",
-                    "en": "Priority Check-in"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Бизнес зал",
-                    "en": "Business Lounge"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание и напитки",
-                    "en": "Meals & Drinks"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Обмен билета разрешен без сбора",
+                    "en": "Exchangeable with no fee"
                 },
                 "needToPay": "free"
             }
@@ -246,13 +174,13 @@
         "owner": "9U",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([YB])\\w*$",
+        "tariffCodePattern": "^([ARGSWNOUKQHMYB]\\w*(COM))\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Эконом Премиум",
-                    "en": "Economy Premium"
+                    "ru": "Эконом Комфорт",
+                    "en": "Economy Comfort"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -275,68 +203,8 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "2 места до 23 кг каждое",
-                    "en": "2 items up to 23 kg each"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатная норма провоза зарегистрированного багажа — 2 места до 23 кг каждое. Для перелетов в/из Стамбула — 3 места до 23 кг каждое",
-                    "en": "The free checked baggage allowance — 1 item up to 23 kg. In case of to/from Istanbul routes — 3 items up to 23 kg each"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета до даты вылета разрешен без штрафов",
-                    "en": "Refundable before travel date"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета после вылета",
-                    "en": "Refund After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета в дату вылета / после даты вылета разрешен со штрафами",
-                    "en": "Refundable during/after travel date. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета до вылета",
-                    "en": "Exchange Before Departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты/времени вылета до даты вылета / в дату вылета разрешено без сборов",
-                    "en": "Date changes before/during travel date are available"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета после вылета",
-                    "en": "Exchange After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты/времени вылета после даты вылета разрешено со сборами",
-                    "en": "Date changes after travel date are available. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритетная регистрация",
-                    "en": "Priority Check-in"
+                    "ru": "1 место до 32 кг",
+                    "en": "1 item up to 32 kg"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -345,14 +213,26 @@
                 "needToPay": "free"
             },
             {
-                "code": "meal",
+                "code": "refundable",
                 "shortDescription": {
-                    "ru": "Питание и напитки",
-                    "en": "Meals & Drinks"
+                    "ru": "Возврат билета",
+                    "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable with a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета до вылета разрешен без сбора. Обмен билета после вылета разрешен со сбором",
+                    "en": "Exchangeable before departure with no fee. Exchangeable after departure with a fee"
                 },
                 "needToPay": "free"
             }
@@ -362,13 +242,13 @@
         "owner": "9U",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([NOUKQHM])\\w*$",
+        "tariffCodePattern": "^([ARGSWNOUKQHMYB]\\w*(OPT))\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Эконом Регулярный",
-                    "en": "Economy Regular"
+                    "ru": "Эконом Оптимум",
+                    "en": "Economy Optimum"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -379,36 +259,24 @@
             {
                 "code": "refundable",
                 "shortDescription": {
-                    "ru": "Возврат билета до вылета",
-                    "en": "Refund Before Departure"
+                    "ru": "Возврат билета",
+                    "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до даты вылета разрешен со штрафами",
-                    "en": "Refundable before travel date. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета после вылета",
-                    "en": "Refund After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета в дату вылета / после даты вылета разрешен со штрафами",
-                    "en": "Refundable during/after travel date. A fee applies"
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable with a fee"
                 },
                 "needToPay": "charge"
             },
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Обмен билета до вылета",
-                    "en": "Exchange Before Departure"
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Изменение даты/времени вылета до даты вылета разрешено со сборами",
-                    "en": "Date changes before travel date are available. A fee applies"
+                    "ru": "Обмен билета разрешен со сбором",
+                    "en": "Exchangeable with a fee"
                 },
                 "needToPay": "charge"
             },
@@ -429,30 +297,6 @@
                 "shortDescription": {
                     "ru": "1 место до 23 кг",
                     "en": "1 item up to 23 kg"
-                },
-                "fullDescription": {
-                    "ru": "Бесплатная норма провоза зарегистрированного багажа — 1 место до 23 кг. Для перелетов в/из Стамбула — 3 места до 23 кг каждое",
-                    "en": "The free checked baggage allowance — 1 item up to 23 kg. In case of to/from Istanbul routes — 3 items up to 23 kg each"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Обмен билета после вылета",
-                    "en": "Exchange After Departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты/времени вылета в дату вылета / после даты вылета разрешено со сборами",
-                    "en": "Date changes during/after travel date are available. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Питание и напитки",
-                    "en": "Meals & Drinks"
                 },
                 "fullDescription": {
                     "ru": "",

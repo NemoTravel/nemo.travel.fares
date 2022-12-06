@@ -3,7 +3,7 @@
         "owner": "Y7",
         "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^(([DI])\\w*(LT)\\w*)$",
+        "tariffCodePattern": "^(([CDI])\\w*(LT)\\w*)$",
         "parameters": [
             {
                 "code": "description",
@@ -443,7 +443,7 @@
         "owner": "Y7",
         "baseClass": "economy",
         "priority": 7,
-        "tariffCodePattern": "^(([C])\\w*(LT)\\w*)$",
+        "tariffCodePattern": "^((JFF)\\w*)$",
         "parameters": [
             {
                 "code": "description",
@@ -511,7 +511,7 @@
         "owner": "Y7",
         "baseClass": "economy",
         "priority": 6,
-        "tariffCodePattern": "^(([U])\\w*(LT)\\w*)$",
+        "tariffCodePattern": "^((UFF)\\w*)$",
         "parameters": [
             {
                 "code": "description",

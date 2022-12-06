@@ -3,7 +3,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^(EcoFly)$|^[BMAHSOEQTL]\\w*(CL)\\w*$",
+        "tariffCodePattern": "^(EcoFly)$|^[BMAHSOEQTLVW]\\w*(CL)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -71,7 +71,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^(ExtraFly)$|^[BMAHSOEQTL]\\w*(LG)\\w*$",
+        "tariffCodePattern": "^(ExtraFly)$|^[BMAHSOEQTLVW]\\w*(LG)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -207,7 +207,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^(PrimeFly)$|^[BMAHSOEQTL]\\w*(FL)\\w*$",
+        "tariffCodePattern": "^(PrimeFly)$|^[BMAHSOEQTLVW]\\w*(FL)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -574,10 +574,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат разрешен без штрафов",
-                    "en": "A deduction is not made on cancelations or refunds"
+                    "ru": "Возврат разрешен со штрафом. Условия могут отличаться, обратите внимание на условия тарифа",
+                    "en": "A deduction is made on cancelations or refunds. Please take note of fare rules"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "carryOn",

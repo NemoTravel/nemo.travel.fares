@@ -529,7 +529,7 @@
         "owner": "OS",
         "baseClass": "economy",
         "priority": 11,
-        "tariffCodePattern": "^(\\w*(NN|LQ)\\w*)$",
+        "tariffCodePattern": "^(\\w*(NN|LQ|MP)\\w*)$",
         "parameters": [
             {
                 "code": "description",
