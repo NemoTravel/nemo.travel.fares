@@ -3,7 +3,7 @@
     "owner": "AF",
     "baseClass": "business",
     "priority": 7,
-    "tariffCodePattern": "^([ZIDC])\\w*$",
+    "tariffCodePattern": "^([JCDIZO])\\w*$",
     "parameters": [
       {
         "code": "description",
