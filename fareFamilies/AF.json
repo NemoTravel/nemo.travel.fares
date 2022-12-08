@@ -3,13 +3,13 @@
     "owner": "AF",
     "baseClass": "business",
     "priority": 7,
-    "tariffCodePattern": "^([JСDIZO])\\w*\\d*$",
+    "tariffCodePattern": "^([ZIDC])\\w*$",
     "parameters": [
       {
         "code": "description",
         "shortDescription": {
-          "ru": "Бизнес",
-          "en": "Business"
+          "ru": "Бизнес Стандарт",
+          "en": "Business Standard"
         },
         "fullDescription": {
           "ru": "",
@@ -48,23 +48,23 @@
           "en": "Refund"
         },
         "fullDescription": {
-          "ru": "Возврат билета разрешен со сборами. На межконтинентальных рейсах условия возврата могут отличаться",
-          "en": "Refundable. A fee applies. The rule might work differently for intercontinental flights"
+          "ru": "Тариф полностью невозвратный",
+          "en": "Non-refundable"
         },
-        "needToPay": "charge"
+        "needToPay": "notAvailable"
       },
       {
         "code": "exchangeable",
         "shortDescription": {
-          "ru": "Обмен билета",
-          "en": "Exchange"
+            "ru": "Обмен билета",
+            "en": "Exchange"
         },
         "fullDescription": {
-          "ru": "Обмен билета разрешен со сборами. На межконтинентальных рейсах условия обмена могут отличаться",
-          "en": "Exchangeable. A fee applies. The rule might work differently for intercontinental flights"
+            "ru": "Обмен билета разрешен. На межконтинентальных рейсах условия обмена могут отличаться",
+            "en": "Exchangeable. The rule might work differently for intercontinental flights"
         },
-        "needToPay": "charge"
-      },
+        "needToPay": "free"
+    },
       {
         "code": "meal",
         "shortDescription": {
@@ -219,7 +219,7 @@
     "owner": "AF",
     "baseClass": "economy",
     "priority": 3,
-    "tariffCodePattern": "^[EFGHKLMNPQRTUVX]\\w*(F)\\w$",
+    "tariffCodePattern": "^[EFGHKLMNPQRTUVXYWB]\\w*(F)\\w$",
     "parameters": [
       {
         "code": "description",
@@ -287,7 +287,7 @@
     "owner": "AF",
     "baseClass": "economy",
     "priority": 2,
-    "tariffCodePattern": "^[EFGHKLMNPQRTUVX]\\w*(S)\\w$",
+    "tariffCodePattern": "^[EFGHKLMNPQRTUVXYWB]\\w*(S|Q)\\w$",
     "parameters": [
       {
         "code": "description",
@@ -344,10 +344,10 @@
           "en": "Exchange"
         },
         "fullDescription": {
-          "ru": "Обмен билета разрешен со сборами. На межконтинентальных рейсах условия обмена могут отличаться",
-          "en": "Exchangeable. A fee applies. The rule might work differently for intercontinental flights"
+          "ru": "Обмен билета разрешен без сборов. На межконтинентальных рейсах условия обмена могут отличаться",
+          "en": "Exchangeable. No fee applies. The rule might work differently for intercontinental flights"
         },
-        "needToPay": "charge"
+        "needToPay": "free"
       }
     ]
   },
@@ -355,7 +355,7 @@
     "owner": "AF",
     "baseClass": "economy",
     "priority": 1,
-    "tariffCodePattern": "^[EFGHKLMNPQRTUVX]\\w*(L)\\w$",
+    "tariffCodePattern": "^[EFGHKLMNPQRTUVXYWB]\\w*(L)\\w$",
     "parameters": [
       {
         "code": "description",
@@ -412,10 +412,10 @@
           "en": "Exchange"
         },
         "fullDescription": {
-          "ru": "Обмен билета не разрешен. На межконтинентальных рейсах условия обмена могут отличаться",
-          "en": "Non-exchangeable. The rule might work differently for intercontinental flights"
+          "ru": "Обмен билета разрешен со сборами. На межконтинентальных рейсах условия обмена могут отличаться",
+          "en": "Exchangeable. A fee applies. The rule might work differently for intercontinental flights"
         },
-        "needToPay": "notAvailable"
+        "needToPay": "charge"
       }
     ]
   },
@@ -423,13 +423,13 @@
     "owner": "AF",
     "baseClass": "economy",
     "priority": 4,
-    "tariffCodePattern": "^[YBM]\\w*$",
+    "tariffCodePattern": "^[Y]\\w*(N)\\w$",
     "parameters": [
       {
         "code": "description",
         "shortDescription": {
-          "ru": "Гибкий Плюс",
-          "en": "Full Flex"
+          "ru": "Премиум",
+          "en": "Premium"
         },
         "fullDescription": {
           "ru": "",
@@ -440,24 +440,24 @@
       {
         "code": "carryOn",
         "shortDescription": {
-          "ru": "1 место до 12 кг",
-          "en": "1 item up to 12 kg"
+          "ru": "2 места общим весом до 18 кг",
+          "en": "2 items up to 18 kg in total"
         },
         "fullDescription": {
-          "ru": "1 место ручной клади, до 55 x 35 x 25 см + 1 аксессуар, например, легкий чемодан, портфель или ноутбук, до 40 x 30 x 15 см. Общий вес не должен превышать 12 кг",
-          "en": "1 cabin bag (55x35x25 cm) + 1 accessory, e.g. a handbag, briefcase or laptop (40x30x15 cm) — up to 12 kg in total"
+          "ru": "2 места ручной клади, каждое до 55 x 35 x 25 см + 1 аксессуар, например, легкий чемодан, портфель или ноутбук, до 40 x 30 x 15 см. Общий вес не должен превышать 18 кг",
+          "en": "2 cabin bags (55x35x25 cm each) + 1 accessory, e.g. a handbag, briefcase or laptop (40x30x15 cm) — up to 18 kg in total"
         },
         "needToPay": "free"
       },
       {
         "code": "baggage",
         "shortDescription": {
-          "ru": "1 место до 23 кг",
-          "en": "1 item up to 23 kg"
+          "ru": "2 места до 23 кг каждое",
+          "en": "2 items up to 23 kg each"
         },
         "fullDescription": {
-          "ru": "1 место до 23 кг — сумма измерений по длине, ширине и высоте места не должна превышать 158 см. На межконтинентальных рейсах условия провозки багажа могут отличаться",
-          "en": "1 item up to 23 kg, total linear dimension — up to 158 cm each. There might be different baggage allowance in case of intercontinental flights, please check the fare rules"
+          "ru": "2 места регистрируемого багажа: сумма измерений по длине, ширине и высоте каждого места не должна превышать 158 см, а вес каждого места багажа не должен превышать 23 кг",
+          "en": "2 items up to 23 kg each, total linear dimension — up to 158 cm each"
         },
         "needToPay": "free"
       },
@@ -468,8 +468,8 @@
           "en": "Refund"
         },
         "fullDescription": {
-          "ru": "Не возвратный",
-          "en": "Non-refundable"
+          "ru": "Возврат билета не разрешен. На межконтинентальных рейсах условия возврата могут отличаться",
+          "en": "Non-refundable. The rule might work differently for intercontinental flights"
         },
         "needToPay": "notAvailable"
       },
@@ -480,8 +480,8 @@
           "en": "Exchange"
         },
         "fullDescription": {
-          "ru": "Обмен билета разрешен. На межконтинентальных рейсах условия обмена могут отличаться",
-          "en": "Exchangeable. The rule might work differently for intercontinental flights"
+          "ru": "Обмен билета разрешен без сборов. На межконтинентальных рейсах условия обмена могут отличаться",
+          "en": "Exchangeable. No fee applies. The rule might work differently for intercontinental flights"
         },
         "needToPay": "free"
       }
