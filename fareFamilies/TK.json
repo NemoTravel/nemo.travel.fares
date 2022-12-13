@@ -139,7 +139,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[BMAHSOEQTL]\\w*(JS)\\w*$",
+        "tariffCodePattern": "^[BMAHSOEQTLW]\\w*(JS)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -485,7 +485,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[BMAHSOEQTL]\\w*(JR)\\w*$",
+        "tariffCodePattern": "^[BMAHSOEQTLW]\\w*(JR)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -553,7 +553,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[BMAHSOEQTL]\\w*(JF)\\w*$",
+        "tariffCodePattern": "^[BMAHSOEQTLW]\\w*(JF)\\w*$",
         "parameters": [
             {
                 "code": "description",

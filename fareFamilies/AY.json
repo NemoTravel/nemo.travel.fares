@@ -3,7 +3,7 @@
         "owner": "AY",
         "baseClass": "business",
         "priority": 5,
-        "tariffCodePattern": "^([IR]\\w*(C))\\w{1}$",
+        "tariffCodePattern": "^([JCDIR]\\w*(C))\\w{1}$",
         "parameters": [
             {
                 "code": "description",
@@ -64,10 +64,10 @@
                     "de": "Erstattung"
                 },
                 "fullDescription": {
-                    "ru": "Возврат разрешен со штрафом",
-                    "en": "Refundable with cancellation penalty"
+                    "ru": "Возврат не разрешен",
+                    "en": "Non-refundable"
                 },
-                "needToPay": "charge"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "vipService",
@@ -84,7 +84,7 @@
             {
                 "code": "vipService",
                 "shortDescription": {
-                    "ru": "Пользование бизнес-залом",
+                    "ru": "Доступ в бизнес-салон",
                     "en": "Lounge access"
                 },
                 "fullDescription": {
@@ -99,7 +99,7 @@
         "owner": "AY",
         "baseClass": "business",
         "priority": 6,
-        "tariffCodePattern": "^([JCD]\\w*(F))\\w{1}$",
+        "tariffCodePattern": "^([JCDIR]\\w*(F))\\w{1}$",
         "parameters": [
             {
                 "code": "description",
@@ -180,7 +180,7 @@
             {
                 "code": "vipService",
                 "shortDescription": {
-                    "ru": "Пользование бизнес-залом",
+                    "ru": "Доступ в бизнес-салон",
                     "en": "Lounge access"
                 },
                 "fullDescription": {
@@ -243,8 +243,8 @@
                     "de": "Umbuchung"
                 },
                 "fullDescription": {
-                    "ru": "Изменения дат путешествия или рейсов разрешены. Изменения имени не разрешены",
-                    "en": "Change of travel dates or flights is permitted. Name change is not permitted"
+                    "ru": "Изменения дат путешествия или рейсов разрешены",
+                    "en": "Change of travel dates or flights is permitted"
                 },
                 "needToPay": "free"
             },
@@ -267,7 +267,7 @@
         "owner": "AY",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([YBH]\\w*(F))\\w{1}$",
+        "tariffCodePattern": "^([KMLVSNQOZYBH]\\w*(F))\\w{1}$",
         "parameters": [
             {
                 "code": "description",
@@ -315,8 +315,8 @@
                     "de": "Umbuchung"
                 },
                 "fullDescription": {
-                    "ru": "Изменения дат путешествия или рейсов разрешены. Изменения имени не разрешены",
-                    "en": "Change of travel dates or flights is permitted. Name change is not permitted"
+                    "ru": "Изменения дат путешествия или рейсов разрешены",
+                    "en": "Change of travel dates or flights is permitted"
                 },
                 "needToPay": "free"
             },
@@ -330,18 +330,6 @@
                 "fullDescription": {
                     "ru": "Возврат разрешен",
                     "en": "Refundable"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритетное обслуживание",
-                    "en": "Priority Service"
-                },
-                "fullDescription": {
-                    "ru": "Приоритетные регистрация, прохождение контроля (если доступно), посадка",
-                    "en": "Priority check-in, security check (where available) and boarding"
                 },
                 "needToPay": "free"
             }
@@ -423,7 +411,7 @@
         "owner": "AY",
         "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^([I]\\w*(B))\\w{1}$",
+        "tariffCodePattern": "^([JCDIR]\\w*(B))\\w{1}$",
         "parameters": [
             {
                 "code": "description",
@@ -488,30 +476,6 @@
                     "en": "Non-refundable"
                 },
                 "needToPay": "notAvailable"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Приоритетное обслуживание",
-                    "en": "Priority Service"
-                },
-                "fullDescription": {
-                    "ru": "Приоритетные регистрация, прохождение контроля (если доступно), посадка",
-                    "en": "Priority check-in, security check (where available) and boarding"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Пользование бизнес-залом",
-                    "en": "Lounge access"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
             }
         ]
     }
