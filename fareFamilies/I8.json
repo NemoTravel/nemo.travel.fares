@@ -217,13 +217,13 @@
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета до вылета",
-                    "en": "Refund before departure"
+                    "en": "Refund before departure.  A fee applies"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до окончания регистрации запрещен",
-                    "en": "Not refundable before departure."
+                    "ru": "Возврат билета до окончания регистрации с доплатой",
+                    "en": "Refund before departure.  A fee applies"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -245,7 +245,7 @@
                 },
                 "fullDescription": {
                     "ru": "Изменения в билете до окончания регистрации разрешены без сбора",
-                    "en": "Exchangeable before departure. No fee applies"
+                    "en": "Exchangeable before departure. A fee applies"
                 },
                 "needToPay": "charge"
             },
