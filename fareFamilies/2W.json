@@ -1,0 +1,227 @@
+[
+    {
+        "owner": "2W",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Basic",
+                    "en": "Basic",
+                    "ua": "Basic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg",
+                    "ua": "1 місце до 10 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance",
+                    "ua": "За додаткову плату"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены за 30 дней до вылета. Изменения не разрешены после вылета",
+                    "en": "Changes are allowed without penalty up to 30 days before departure. Changes are not allowed in case of no-show",
+                    "ua": "Можливість обміну: дозволено за 30 днів до вильоту"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "ua": "Повернення"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен за 45 дней до вылета. Возврат билета не разрешен после вылета",
+                    "en": "Refund is allowed without penalty up to 45 days before departure. Refund is not allowed in case of no-show",
+                    "ua": "Можливість повернення: дозволено за 45 днів до вильоту"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "2W",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Flex",
+                    "en": "Flex",
+                    "ua": "Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg",
+                    "ua": "1 місце до 10 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each",
+                    "ua": "2 місця по 23 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены за один день до вылета. Изменения не разрешены после вылета",
+                    "en": "Changes are allowed without penalty up to 1 day before departure. Changes are not allowed in case of no-show",
+                    "ua": "Можливість обміну: дозволено за 1 день до вильоту"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "ua": "Повернення"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен за один день до вылета. Возврат билета не разрешен после вылета",
+                    "en": "Refund is allowed without penalty up to 1 day before departure. Refund is not allowed in case of no-show",
+                    "ua": "Можливість повернення: дозволено за 16 днів до вильоту"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "2W",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Plus",
+                    "en": "Plus",
+                    "ua": "Plus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg",
+                    "ua": "1 місце до 10 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg",
+                    "ua": "1 місце до 23 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены за 16 дней до вылета. Изменения не разрешены после вылета",
+                    "en": "Changes are allowed without penalty up to 16 days before departure. Changes are not allowed in case of no-show",
+                    "ua": "Можливість обміну: дозволено за 16 днів до вильоту"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "ua": "Повернення"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен за 16 дней до вылета. Возврат билета не разрешен после вылета",
+                    "en": "Refund is allowed without penalty up to 16 days before departure. Refund is not allowed in case of no-show",
+                    "ua": "Можливість повернення: дозволено за 16 днів до вильоту"
+                },
+                "needToPay": "free"
+            }
+        ]
+    }
+]

@@ -339,7 +339,7 @@
         "owner": "Y7",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^(([YSKMTXQLBVNWOHA])\\w*(ST)\\w*)$",
+        "tariffCodePattern": "^(([YSKMTXQLBVNWOHA])\\w*(ST|FAMILY)\\w*)$",
         "parameters": [
             {
                 "code": "description",

@@ -1,0 +1,230 @@
+[
+    {
+        "owner": "8M",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[H]\\w*(OW|RT)\\w*$|^(ECO SAVER)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Eco Saver",
+                    "en": "Eco Saver",
+                    "ua": "Eco Saver"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg",
+                    "ua": "1 місце до 7 кг"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 7 кг, до 58x34x23 см",
+                    "en": "1 item up to 7 kg, up to 58x34x23 cm",
+                    "ua": "1 місце ручної поклажі до 7 кг, до 58x34x23 см"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg",
+                    "ua": "1 місце до 20 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со штрафом",
+                    "en": "Changes are permitted with a fee",
+                    "ua": "Можливість обміну: зі штрафом"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "ua": "Повернення квитка"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со штрафом",
+                    "en": "Refundable with a fee",
+                    "ua": "Можливість повернення: зі штрафом"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "8M",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^(ECO FLEXI)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Eco Flexi",
+                    "en": "Eco Flexi",
+                    "ua": "Eco Flexi"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg",
+                    "ua": "1 місце до 7 кг"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 7 кг, до 58x34x23 см",
+                    "en": "1 item up to 7 kg, up to 58x34x23 cm",
+                    "ua": "1 місце ручної поклажі до 7 кг, до 58x34x23 см"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 30 кг",
+                    "en": "1 item up to 30 kg",
+                    "ua": "1 місце до 30 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со штрафом",
+                    "en": "Changes are permitted with a fee",
+                    "ua": "Можливість обміну: зі штрафом"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "ua": "Повернення квитка"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со штрафом",
+                    "en": "Refundable with a fee",
+                    "ua": "Можливість повернення: зі штрафом"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "8M",
+        "baseClass": "business",
+        "priority": 3,
+        "tariffCodePattern": "^[J]\\w*(OW|RT)\\w*$|^(BIZ FLEXI)$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Biz Flexi",
+                    "en": "Biz Flexi",
+                    "ua": "Biz Flexi"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg",
+                    "ua": "1 місце до 7 кг"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 7 кг, до 58x34x23 см",
+                    "en": "1 item up to 7 kg, up to 58x34x23 cm",
+                    "ua": "1 місце ручної поклажі до 7 кг, до 58x34x23 см"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 30 кг",
+                    "en": "1 item up to 30 kg",
+                    "ua": "1 місце до 30 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения разрешены со штрафом",
+                    "en": "Changes are permitted with a fee",
+                    "ua": "Можливість обміну: зі штрафом"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "ua": "Повернення квитка"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со штрафом",
+                    "en": "Refundable with a fee",
+                    "ua": "Можливість повернення: зі штрафом"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    }
+]

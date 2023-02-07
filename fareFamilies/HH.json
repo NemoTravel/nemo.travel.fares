@@ -371,7 +371,7 @@
         "owner": "HH",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[VOWXJFA]\\w*$",
+        "tariffCodePattern": "^[CDFJAVOWX]\\w*$",
         "parameters": [
             {
                 "code": "description",

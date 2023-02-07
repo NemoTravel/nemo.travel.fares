@@ -1,0 +1,304 @@
+[
+    {
+        "owner": "AU",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "JetFlex",
+                    "en": "JetFlex",
+                    "ua": "JetFlex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg",
+                    "ua": "1 місце до 10 кг"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 10 кг, до 52x23x38 см",
+                    "en": "1 item up to 10 kg, up to 52x23x38 cm",
+                    "ua": "1 місце ручної поклажі до 52x23x38 см, до 10 кг"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg",
+                    "ua": "1 місце до 23 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены со сбором",
+                    "en": "Changes are permitted with a fee",
+                    "ua": "Можливість обміну: зі штрафом"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund",
+                    "ua": "Повернення"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable with a fee",
+                    "ua": "Можливість повернення: зі штрафом"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "AU",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "JetLines",
+                    "en": "JetLines",
+                    "ua": "JetLines"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg",
+                    "ua": "1 місце до 10 кг"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 10 кг, до 52x23x38 см",
+                    "en": "1 item up to 10 kg, up to 52x23x38 cm",
+                    "ua": "1 місце ручної поклажі до 52x23x38 см, до 10 кг"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "2 места до 23 кг каждое",
+                    "en": "2 items up to 23 kg each",
+                    "ua": "2 місця до 23 кг"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены без сбора",
+                    "en": "Changes are permitted without a fee",
+                    "ua": "Можливість обміну: без штрафу"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund",
+                    "ua": "Повернення"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сбором",
+                    "en": "Refundable with a fee",
+                    "ua": "Можливість повернення: зі штрафом"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "AU",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "JetLite",
+                    "en": "JetLite",
+                    "ua": "JetLite"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg",
+                    "ua": "1 місце до 10 кг"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 10 кг, до 52x23x38 см",
+                    "en": "1 item up to 10 kg, up to 52x23x38 cm",
+                    "ua": "1 місце ручної поклажі до 52x23x38 см, до 10 кг"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете не разрешены",
+                    "en": "Changes are not permitted",
+                    "ua": "Не підлягає обміну"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund",
+                    "ua": "Повернення"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable",
+                    "ua": "Повернення не підлягає"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "AU",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "JetPlus",
+                    "en": "JetPlus",
+                    "ua": "JetPlus"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg",
+                    "ua": "1 місце до 10 кг"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 10 кг, до 52x23x38 см",
+                    "en": "1 item up to 10 kg, up to 52x23x38 cm",
+                    "ua": "1 місце ручної поклажі до 52x23x38 см, до 10 кг"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете разрешены со сбором",
+                    "en": "Changes are permitted with a fee",
+                    "ua": "Можливість обміну: зі штрафом"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund",
+                    "ua": "Повернення"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable",
+                    "ua": "Повернення не підлягає"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    }
+]
