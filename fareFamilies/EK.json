@@ -498,16 +498,28 @@
                 "needToPay": "free"
             },
             {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
+              "code": "refundable",
+              "shortDescription": {
+                "ru": "Возврат билета до вылета",
+                "en": "Refund before departure"
+              },
+              "fullDescription": {
+                "ru": "Возврат билета до вылета разрешен со сбором",
+                "en": "Ticket refund before departure is allowed with a fee"
+              },
+              "needToPay": "charge"
+            },
+            {
+              "code": "refundable",
+              "shortDescription": {
+                "ru": "Возврат билета после вылета",
+                "en": "Refund after departure"
+              },
+              "fullDescription": {
+                "ru": "Возврат билета после вылета запрещен",
+                "en": "Ticket refund after departure is prohibited"
+              },
+              "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
