@@ -275,7 +275,7 @@
         "owner": "EK",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([KUBMW]\\w*(SA|SR|STR))\\w*$",
+        "tariffCodePattern": "^([KUBMW]\\w*(SA|SR|STR|SCN))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -367,7 +367,7 @@
         "owner": "EK",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^([REY]\\w*(FA|FR|FTR))\\w*$",
+        "tariffCodePattern": "^([REY]\\w*(FA|FR|FTR|FCN))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -459,7 +459,7 @@
         "owner": "EK",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([TLQN]\\w*(PA|PR))\\w*$",
+        "tariffCodePattern": "^([TLQN]\\w*(PA|PR|PCN))\\w*$",
         "parameters": [
             {
                 "code": "description",
