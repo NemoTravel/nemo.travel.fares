@@ -1,0 +1,212 @@
+[
+    {
+        "owner": "KV",
+        "baseClass": "economy",
+        "priority": 0,
+        "flightTimeSince": "2019-06-01T00:00:00",
+        "flightTimeUntil": "2022-06-01T00:00:00",
+        "tariffCodePattern": "^[JSQHBLMKTVO]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Лайт",
+                    "en": "Light Economy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета недоступен",
+                    "en": "Refund after departure not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Changes before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета со штрафом",
+                    "en": "Exchangeable. A fee applies."
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Тариф не подлежит обмену",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "KV",
+        "baseClass": "economy",
+        "priority": 1,
+        "flightTimeSince": "2019-06-01T00:00:00",
+        "flightTimeUntil": "2022-06-01T00:00:00",
+        "tariffCodePattern": "^[JSQHBLMKTVO]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом",
+                    "en": "Economy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },            
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат до вылета разрешён со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат после вылета не разрешён",
+                    "en": "Refund after departure is not allowed"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения до вылета",
+                    "en": "Exchange before departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен до вылета разрешён со сбором",
+                    "en": "Exchange before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения после вылета",
+                    "en": "Changes after departure"
+                },
+                "fullDescription": {
+                    "ru": "Обмен после вылета не разрешён",
+                    "en": "Non-exchangeable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "KV",
+        "baseClass": "economy",
+        "priority": 2,
+        "flightTimeSince": "2019-06-01T00:00:00",
+        "flightTimeUntil": "2022-06-01T00:00:00",
+        "tariffCodePattern": "^[Y]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Эконом Возвратный",
+                    "en": "Returnable Economy"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },            
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета до вылета",
+                    "en": "Refund before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сбором",
+                    "en": "Refund before departure is allowed with penalty"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета после вылета",
+                    "en": "Refund after departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета после вылета не разрешен",
+                    "en": "Refund after departure not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeWithCondition",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "За 24 часа и более до вылета",
+                    "en": "More than 24 hours before the check-in for the flight"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeWithCondition",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Менее чем за 24 часов до вылета",
+                    "en": "Less than 24 hours before the check-in for the flight"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    }
+]
