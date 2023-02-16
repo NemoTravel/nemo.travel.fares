@@ -2443,7 +2443,7 @@
           "en": "Making changes to the issued ticket is allowed free of charge",
           "de": "Änderungen am ausgegebenen Ticket sind kostenfrei möglich"
         },
-        "needToPay": "free"
+        "needToPay": "notPenalty"
       },
       {
         "code": "exchangeable",
