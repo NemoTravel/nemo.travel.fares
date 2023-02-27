@@ -204,14 +204,14 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "Без багажа",
-                    "en": "No baggage"
+                    "ru": "1 место до 30 кг",
+                    "en": "1 item up to 30 kg"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",
