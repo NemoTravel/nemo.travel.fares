@@ -184,10 +184,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен",
-                    "en": "Refundable"
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
