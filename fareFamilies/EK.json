@@ -412,10 +412,10 @@
                     "en": "Refund before departure"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета до вылета разрешен без сборов",
-                    "en": "Refund before departure is allowed without penalty"
+                    "ru": "Возврат билета до вылета разрешен со сбором",
+                    "en": "Refund before departure is allowed with penalty"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
