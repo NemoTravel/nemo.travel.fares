@@ -273,18 +273,6 @@
                 },
                 "needToPay": "free"
             },
-            {
-                "code": "refundWithCondition",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "на направлениях: Тюмень — Ханты-Мансийск — Тюмень, Тюмень — Березово — Тюмень, Тюмень — Белоярский — Тюмень, Тюмень — Игрим — Тюмень, Тюмень — Советский — Тюмень, Тюмень — Урай — Тюмень",
-                    "en": "Return is available on the following routes: Tyumen - Khanty-Mansiysk - Tyumen, Tyumen - Berezovo - Tyumen, Tyumen - Beloyarsky - Tyumen, Tyumen - Igrim - Tyumen, Tyumen - Soviet - Tyumen, Tyumen - Uray - Tyumen"
-                },
-                "needToPay": "charge"
-            },
 			{
                 "code": "refundable",
                 "shortDescription": {
@@ -293,7 +281,7 @@
                     "de": "Ticketrückerstattung"
                 },
                 "fullDescription": {
-                    "ru": "Тест",
+                    "ru": "Возврат запрещён",
                     "en": "Non-refundable",
                     "de": "Fare ist völlig nicht rückzahlbar"
                 },
