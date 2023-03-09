@@ -285,6 +285,20 @@
                 },
                 "needToPay": "charge"
             },
+			{
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "de": "Ticketrückerstattung"
+                },
+                "fullDescription": {
+                    "ru": "Тест",
+                    "en": "Non-refundable",
+                    "de": "Fare ist völlig nicht rückzahlbar"
+                },
+                "needToPay": "notAvailable"
+            },
             {
                 "code": "exchangeable",
                 "shortDescription": {
