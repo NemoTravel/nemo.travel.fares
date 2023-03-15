@@ -508,12 +508,12 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменение даты вылета — более 24 часов до вылета",
-                    "en": "Date Changes — 24 hours or upwards before departure"
+                    "ru": "Изменение до вылета разрешено со сбором",
+                    "en": "Date changes are available with charge"
                 },
                 "fullDescription": {
-                    "ru": "Изменение даты вылета за более чем 24 часа до вылета разрешено со сбором",
-                    "en": "Date changes are available for 24 hours or upwards before departure. A fee applies"
+                    "ru": "Изменение до вылета разрешено со сбором",
+                    "en": "Exchange before departure is available with charge"
                 },
                 "needToPay": "charge"
             },
@@ -524,58 +524,22 @@
                     "en": "Date Changes — less than 24 hours before departure"
                 },
                 "fullDescription": {
-                    "ru": "Изменение даты вылета за менее чем 24 часа до вылета разрешено со сбором",
-                    "en": "Date changes are available for less than 24 hours before departure. A fee applies"
+                    "ru": "Изменение после вылета запрещены",
+                    "en": "Exchange before departure is unavailable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат - со сбором, не позднее, чем за 24 часов до вылета",
+                    "en": "Refund - with a fee, no later than 24 hours before departure"
+                },
+                "fullDescription": {
+                    "ru": "Возврат - со сбором, не позднее, чем за 24 часов до вылета",
+                    "en": "Refund - with a fee, no later than 24 hours before departure"
                 },
                 "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты вылета — после вылета",
-                    "en": "Date Changes — after departure"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты вылета после вылета запрещено",
-                    "en": "Date changes are not available after departure"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат — более 24 часов до вылета",
-                    "en": "Refund — 24 hours or upwards before departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета за более чем 24 часа до вылета разрешен со сбором",
-                    "en": "Refundable for 24 hours or upwards before departure. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат — менее 24 часов до вылета",
-                    "en": "Refund — less than 24 hours before departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета за менее чем 24 часа до вылета запрещен",
-                    "en": "Non-refundable for less than 24 hours before departure"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат — после вылета",
-                    "en": "Refund — after departure"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета после вылета запрещен",
-                    "en": "Non-refundable after departure"
-                },
-                "needToPay": "notAvailable"
             }
         ]
     },
