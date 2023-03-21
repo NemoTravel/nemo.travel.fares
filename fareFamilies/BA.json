@@ -63,7 +63,7 @@
                     "ru": "Обмен билета разрешен со сбором",
                     "en": "Non-exchangeable"
                 },
-                "needToPay": "notAvailable"
+                "needToPay": "charge"
             }
         ]
     },

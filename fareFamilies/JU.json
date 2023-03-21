@@ -3,7 +3,7 @@
         "owner": "JU",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[PRZTEUVLQHMY]\\w*(CS)\\w*$",
+        "tariffCodePattern": "^[BPRZTEUVLQHMY]\\w*(CS)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -95,7 +95,7 @@
         "owner": "JU",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[PRZTEUVLQHMY]\\w*(NB)\\w*$",
+        "tariffCodePattern": "^[BPRZTEUVLQHMY]\\w*(NB)\\w*$",
         "parameters": [
             {
                 "code": "description",

@@ -115,7 +115,7 @@
         "owner": "A4",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^[BEGHKLMNOQ](FL)\\w*$",
+        "tariffCodePattern": "^[BEGHKLMNOQXV](FL)\\w*$",
         "parameters": [
             {
                 "code": "description",

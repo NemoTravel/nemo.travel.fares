@@ -84,6 +84,34 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете за 8 часа до отправления разрешены со штрафом",
+                    "en": "Changes are available with a fee for up to 8 hours prior to departure",
+                    "ua": "Можливість обміну: за 8 години до вильоту зі штрафом"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "ua": "Повернення"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета за 8 часа до отправления разрешен со штрафом",
+                    "en": "Refund is available with a fee for up to 8 hours prior to departure",
+                    "ua": "Можливість повернення: за 8 години до вильоту зі штрафом"
+                },
+                "needToPay": "charge"
             }
         ]
     },
@@ -172,6 +200,34 @@
                     "en": ""
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете за 8 часа до отправления разрешены со штрафом",
+                    "en": "Changes are available with a fee for up to 8 hours prior to departure",
+                    "ua": "Можливість обміну: за 8 години до вильоту зі штрафом"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "ua": "Повернення"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета за 8 часа до отправления разрешен со штрафом",
+                    "en": "Refund is available with a fee for up to 8 hours prior to departure",
+                    "ua": "Можливість повернення: за 8 години до вильоту зі штрафом"
+                },
+                "needToPay": "charge"
             }
         ]
     },
@@ -214,6 +270,34 @@
                 "fullDescription": {
                     "ru": "",
                     "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes",
+                    "ua": "Обмін"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете за 24 часа до отправления разрешены со штрафом",
+                    "en": "Changes are available with a fee for up to 24 hours prior to departure",
+                    "ua": "Можливість обміну: за 24 години до вильоту зі штрафом"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund",
+                    "ua": "Повернення"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета за 24 часа до отправления разрешен со штрафом",
+                    "en": "Refund is available with a fee for up to 24 hours prior to departure",
+                    "ua": "Можливість повернення: за 24 години до вильоту зі штрафом"
                 },
                 "needToPay": "charge"
             }

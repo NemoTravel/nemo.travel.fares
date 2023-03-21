@@ -428,20 +428,20 @@
             {
                 "code": "carryOn",
                 "shortDescription": {
-                    "ru": "1 место до 5 кг",
-                    "en": "1 item up to 5 kg"
+                    "ru": "1 место до 10 кг",
+                    "en": "1 item up to 10 kg"
                 },
                 "fullDescription": {
-                    "ru": "1 место ручной клади весом до 5 кг и размером до 55х40х20 см",
-                    "en": "1 item up to 5 kg, up to 55х40х20 cm"
+                    "ru": "1 место ручной клади весом до 10 кг и размером до 55х40х25 см",
+                    "en": "1 item up to 10 kg, up to 55х40х25 cm"
                 },
                 "needToPay": "free"
             },
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 место до 20 кг",
-                    "en": "1 item up to 20 kg"
+                    "ru": "1 место до 23 кг",
+                    "en": "1 item up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",

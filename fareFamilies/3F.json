@@ -2,13 +2,305 @@
     {
         "owner": "3F",
         "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[P]((?!ST|LO|AD).)*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Промо",
+                    "en": "Promo"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 90 см (40 x 30 x 20)",
+                    "en": "1 item up to 90 cm (40 x 30 x 20)"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 90 см по сумме трех измерений (40 x 30 x 20 см)",
+                    "en": "1 item up to 90 cm in total linear dimensions (40 x 30 x 20)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Напитки и сэндвичи",
+                    "en": "Catering"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Регистрация на стойке",
+                    "en": "Desk check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация на стойке в аэропорту доступна за дополнительную плату",
+                    "en": "Desk check-in at the airport — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета не разрешено",
+                    "en": "Date changes — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "3F",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^(\\w*(LO)).*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "LOYAL",
+                    "en": "LOYAL"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Регистрация на стойке",
+                    "en": "Desk check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация на стойке в аэропорту доступна за дополнительную плату",
+                    "en": "Desk check-in at the airport — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Напитки и сэндвичи",
+                    "en": "Catering"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "seatsRegistration",
+                "shortDescription": {
+                    "ru": "Выбор места (стандартный)",
+                    "en": "Standard Seat Selection"
+                },
+                "fullDescription": {
+                    "ru": "Доступен выбор любого места кроме первых и аварийных рядов",
+                    "en": "Any seat excluding first/exit rows"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 90 см (40 x 30 x 20)",
+                    "en": "1 item up to 90 cm (40 x 30 x 20)"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 90 см по сумме трех измерений (40 x 30 x 20 см)",
+                    "en": "1 item up to 90 cm in total linear dimensions (40 x 30 x 20)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg",
+                    "ua": "20кг"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg",
+                    "ua": "20кг"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен со сборами",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета разрешено со сборами",
+                    "en": "Date changes — available. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "3F",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^(\\w*(ST)).*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "STANDARD",
+                    "en": "STANDARD"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 90 см (40 x 30 x 20)",
+                    "en": "1 item up to 90 cm (40 x 30 x 20)"
+                },
+                "fullDescription": {
+                    "ru": "1 место до 90 см по сумме трех измерений (40 x 30 x 20 см)",
+                    "en": "1 item up to 90 cm in total linear dimensions (40 x 30 x 20)"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance",
+                    "ua": "Ні"
+                },
+                "fullDescription": {
+                    "ru": "Нет",
+                    "en": "No free baggage allowance",
+                    "ua": "Ні"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты вылета",
+                    "en": "Exchange"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты вылета не разрешено",
+                    "en": "Date changes — not available"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Регистрация на стойке",
+                    "en": "Desk check-in"
+                },
+                "fullDescription": {
+                    "ru": "Регистрация на стойке в аэропорту доступна за дополнительную плату",
+                    "en": "Desk check-in at the airport — available at extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "meal",
+                "shortDescription": {
+                    "ru": "Напитки и сэндвичи",
+                    "en": "Catering"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "3F",
+        "baseClass": "economy",
         "priority": 4,
         "tariffCodePattern": "^(\\w*(AD)).*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Премиум",
+                    "ru": "ADVANTAGE",
                     "en": "Advantage"
                 },
                 "fullDescription": {
@@ -112,298 +404,6 @@
                 "fullDescription": {
                     "ru": "Доступен выбор любого места",
                     "en": "Any seat"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "3F",
-        "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^(\\w*(LO)).*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Гибкий",
-                    "en": "Loyal"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Регистрация на стойке",
-                    "en": "Desk check-in"
-                },
-                "fullDescription": {
-                    "ru": "Регистрация на стойке в аэропорту доступна за дополнительную плату",
-                    "en": "Desk check-in at the airport — available at extra charge"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Напитки и сэндвичи",
-                    "en": "Catering"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "seatsRegistration",
-                "shortDescription": {
-                    "ru": "Выбор места (стандартный)",
-                    "en": "Standard Seat Selection"
-                },
-                "fullDescription": {
-                    "ru": "Доступен выбор любого места кроме первых и аварийных рядов",
-                    "en": "Any seat excluding first/exit rows"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 90 см (40 x 30 x 20)",
-                    "en": "1 item up to 90 cm (40 x 30 x 20)"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 90 см по сумме трех измерений (40 x 30 x 20 см)",
-                    "en": "1 item up to 90 cm in total linear dimensions (40 x 30 x 20)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "1 место до 20 кг",
-                    "en": "1 item up to 20 kg",
-                    "ua": "20кг"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 20 кг",
-                    "en": "1 item up to 20 kg",
-                    "ua": "20кг"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат билета разрешен со сборами",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты вылета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты вылета разрешено со сборами",
-                    "en": "Date changes — available. A fee applies"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "3F",
-        "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^[P]((?!ST|LO|AD).)*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Промо",
-                    "en": "Promo"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 90 см (40 x 30 x 20)",
-                    "en": "1 item up to 90 cm (40 x 30 x 20)"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 90 см по сумме трех измерений (40 x 30 x 20 см)",
-                    "en": "1 item up to 90 cm in total linear dimensions (40 x 30 x 20)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Напитки и сэндвичи",
-                    "en": "Catering"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Регистрация на стойке",
-                    "en": "Desk check-in"
-                },
-                "fullDescription": {
-                    "ru": "Регистрация на стойке в аэропорту доступна за дополнительную плату",
-                    "en": "Desk check-in at the airport — available at extra charge"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты вылета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты вылета не разрешено",
-                    "en": "Date changes — not available"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "3F",
-        "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "^(\\w*(ST)).*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Стандартный",
-                    "en": "Standard"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 90 см (40 x 30 x 20)",
-                    "en": "1 item up to 90 cm (40 x 30 x 20)"
-                },
-                "fullDescription": {
-                    "ru": "1 место до 90 см по сумме трех измерений (40 x 30 x 20 см)",
-                    "en": "1 item up to 90 cm in total linear dimensions (40 x 30 x 20)"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "Платный",
-                    "en": "No free baggage allowance",
-                    "ua": "Ні"
-                },
-                "fullDescription": {
-                    "ru": "Нет",
-                    "en": "No free baggage allowance",
-                    "ua": "Ні"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный",
-                    "en": "Non-refundable"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты вылета",
-                    "en": "Exchange"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты вылета не разрешено",
-                    "en": "Date changes — not available"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Регистрация на стойке",
-                    "en": "Desk check-in"
-                },
-                "fullDescription": {
-                    "ru": "Регистрация на стойке в аэропорту доступна за дополнительную плату",
-                    "en": "Desk check-in at the airport — available at extra charge"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "meal",
-                "shortDescription": {
-                    "ru": "Напитки и сэндвичи",
-                    "en": "Catering"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
                 },
                 "needToPay": "free"
             }

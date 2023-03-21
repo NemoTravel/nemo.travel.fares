@@ -1,0 +1,206 @@
+[
+    {
+        "owner": "2S",
+        "baseClass": "economy",
+        "priority": 1,
+        "tariffCodePattern": "^[YSNMDBKLHQXTPEROVZAW]\\w*(EC)(OW|RT)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Eco",
+                    "en": "Eco"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 8 кг, до 56x45x25 см",
+                    "en": "1 item up to 8 kg, up to 56x45x25 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Платный",
+                    "en": "No free baggage allowance"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете не разрешены",
+                    "en": "Changes are not permitted"
+                },
+                "needToPay": "notAvailable"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "2S",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[YSNMDBKLHQXTPEROVZAW]\\w*(PM)(OW|RT)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Premium",
+                    "en": "Premium"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 8 кг, до 56x45x25 см",
+                    "en": "1 item up to 8 kg, up to 56x45x25 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете до вылета разрешены без сбора. Изменения в случае неявки разрешены со сбором",
+                    "en": "Changes before departure are permitted without a fee. Changes in case of no-show are permitted with a fee"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен без сбора. Возврат билета в случае неявки не разрешен",
+                    "en": "Refund before departure is permitted without a fee. Refund in case of no-show is not permitted"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "2S",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[YSNMDBKLHQXTPEROVZAW]\\w*(SD)(OW|RT)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Standard",
+                    "en": "Standard"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место весом не более 8 кг, до 56x45x25 см",
+                    "en": "1 item up to 8 kg, up to 56x45x25 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "1 место до 20 кг",
+                    "en": "1 item up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменения",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Изменения в билете до вылета разрешены со сбором. Изменения в случае неявки не разрешены",
+                    "en": "Changes before departure are permitted with a fee. Changes in case of no-show are not permitted"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    }
+]

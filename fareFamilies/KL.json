@@ -362,11 +362,11 @@
                     "ua": "Повернення квитка"
                 },
                 "fullDescription": {
-                    "ru": "Возврат стоимости при отмене; предусматривается возмещение, если пассажир пропустил свой рейс. На межконтинентальных рейсах условия возврата могут отличаться",
-                    "en": "Refund if you decide to cancel; refund if you missed your flight. The rule might work differently for intercontinental flights",
+                    "ru": "Тариф полностью невозвратный. На внутриконтинентальных рейсах условия возврата могут отличаться",
+                    "en": "Non-refundable. The rule might work differently for inland flights",
                     "ua": "Повернення вартості при відміні; передбачено відшкодування, якщо пасажир пропустив свій рейс. На міжконтинентальних рейсах правила повернення можуть відрізнятися"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             },
             {
                 "code": "exchangeable",
