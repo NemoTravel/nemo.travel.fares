@@ -7,8 +7,8 @@
     {
       "code": "description",
       "shortDescription": {
-        "ru": "FLEXI",
-        "en": "FLEXI"
+        "ru": "Flexible",
+        "en": "Flexible"
       },
       "fullDescription": {
         "ru": "",
@@ -67,21 +67,8 @@
     {
       "code": "refundable",
       "shortDescription": {
-        "ru": "Возврат до вылета",
-        "en": "Refund before departure"
-      },
-      "fullDescription": {
-        "ru": "Возврат билета разрешен со сборами",
-        "en": "Ticket refund is allowed with additional charges",
-        "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
-      },
-      "needToPay": "charge"
-    },
-    {
-      "code": "refundable",
-      "shortDescription": {
-        "ru": "Возврат после вылета",
-        "en": "Refund after departure"
+        "ru": "Возврат билета",
+        "en": "Ticker refund"
       },
       "fullDescription": {
         "ru": "Возврат билета разрешен со сборами",
