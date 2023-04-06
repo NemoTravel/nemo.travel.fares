@@ -178,6 +178,30 @@
                 "needToPay": "free"
             },
             {
+                "code": "baggageWithConditions",
+                "shortDescription": {
+                  "ru": "",
+                  "en": ""
+                },
+                "fullDescription": {
+                    "ru": "1 место до 10 кг на рейсах 135/136 Магадан-Кепервеем-Магадан, 137/138 Магадан-Певек-Магадан",
+                    "en": "1 item up to 10 kg for flights 135/136 Magadan-Keperveem-Magadan, 137/138 Magadan-Pevek-Magadan"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggageWithConditions",
+                "shortDescription": {
+                  "ru": "",
+                  "en": ""
+                },
+                "fullDescription": {
+                    "ru": "1 место до 15 кг на рейсах 133/134 Магадан-Кепервеем-Магадан, 131/132 Магадан-Северо-Эвенск",
+                    "en": "1 item up to 15 kg for flights 133/134 Magadan-Keperveem-Magadan, 131/132 Magadan-Severo-Evensk"
+                },
+                "needToPay": "free"
+            },
+            {
                 "code": "refundable",
                 "shortDescription": {
                     "ru": "Возврат билета",
