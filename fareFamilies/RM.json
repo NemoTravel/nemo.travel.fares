@@ -1,0 +1,94 @@
+{
+  "owner": "RM",
+  "baseClass": "economy",
+  "priority": 3,
+  "tariffCodePattern": "^([SINOQYAU](OW|RT))\\w*$",
+  "parameters": [
+    {
+      "code": "description",
+      "shortDescription": {
+        "ru": "FLEXI",
+        "en": "FLEXI"
+      },
+      "fullDescription": {
+        "ru": "",
+        "en": ""
+      },
+      "needToPay": null
+    },
+    {
+      "code": "carryOn",
+      "shortDescription": {
+        "ru": "8 кг",
+        "en": "8 kg"
+      },
+      "fullDescription": {
+        "ru": "Допускается провезти 1 место ручной клади не более 8 кг. с габаритами не превышающими размеры 55*40*25 см",
+        "en": "It is allowed to carry 1 additional hand luggage piece up to 8 kg and with dimensions not exceeding 55x40x25 cm"
+      },
+      "needToPay": "free"
+    },
+    {
+      "code": "baggage",
+      "shortDescription": {
+        "ru": "23 кг",
+        "en": "23 kg"
+      },
+      "fullDescription": {
+        "ru": "1 место весом до 23 кг. Габариты 1 места багажа не должны превышать 203 см по сумме 3-х измерений",
+        "en": "1 baggage piece up to 23 kg and with dimensions not exceeding 203 cm (LxWxH)"
+      },
+      "needToPay": "free"
+    },
+    {
+      "code": "exchangeable",
+      "shortDescription": {
+        "ru": "Изменения до вылета",
+        "en": "Changes before departure"
+      },
+      "fullDescription": {
+        "ru": "",
+        "en": ""
+      },
+      "needToPay": "charge"
+    },
+    {
+      "code": "exchangeable",
+      "shortDescription": {
+        "ru": "Изменения после вылета",
+        "en": "Changes after departure"
+      },
+      "fullDescription": {
+        "ru": "",
+        "en": ""
+      },
+      "needToPay": "charge"
+    },
+    {
+      "code": "refundable",
+      "shortDescription": {
+        "ru": "Возврат до вылета",
+        "en": "Refund before departure"
+      },
+      "fullDescription": {
+        "ru": "Возврат билета разрешен со сборами",
+        "en": "Ticket refund is allowed with additional charges",
+        "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
+      },
+      "needToPay": "charge"
+    },
+    {
+      "code": "refundable",
+      "shortDescription": {
+        "ru": "Возврат после вылета",
+        "en": "Refund after departure"
+      },
+      "fullDescription": {
+        "ru": "Возврат билета разрешен со сборами",
+        "en": "Ticket refund is allowed with additional charges",
+        "de": "Ticketrückerstattung ist gegen Aufpreis erlaubt"
+      },
+      "needToPay": "charge"
+    }
+  ]
+}
