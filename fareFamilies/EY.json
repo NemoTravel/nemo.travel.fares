@@ -112,14 +112,14 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "Платно",
-                    "en": "No free baggage allowance"
+                    "ru": "До 23 кг",
+                    "en": "Up to 23 kg"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",
