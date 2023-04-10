@@ -1,0 +1,70 @@
+[
+  {
+    "owner": "ET",
+    "baseClass": "economy",
+    "priority": 1,
+    "tariffCodePattern": "^HLW(OW|RT)\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Эконом",
+          "en": "Economy"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "до 8 кг",
+          "en": "up to 8 kg"
+        },
+        "fullDescription": {
+          "ru": "до 8 кг (55 x 40 x 23 см)",
+          "en": "up to 8 kg (55 x 40 x 23 cm)"
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "2 места до 23 кг каждое",
+          "en": "2 items up to 23 kg each"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен со сборами",
+          "en": "Refundable. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения",
+          "en": "Changes"
+        },
+        "fullDescription": {
+          "ru": "Изменения разрешены со сборами",
+          "en": "Changes are available. A fee applies"
+        },
+        "needToPay": "charge"
+      }
+    ]
+  }
+]
