@@ -275,7 +275,7 @@
         "owner": "EK",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[KUBMW]\\w*([SF]([AR]|TR|CN|IN))\\w*$",
+        "tariffCodePattern": "^[KUBMWR]\w*([SF]([AR]|TR|CN|IN|BR))\w*$",
         "parameters": [
             {
                 "code": "description",
