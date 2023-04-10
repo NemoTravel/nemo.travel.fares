@@ -141,24 +141,12 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения даты или маршрута до отправления рейса",
-                    "en": "Changes to date or route prior to departure"
+                    "ru": "Изменения даты",
+                    "en": "Date Changes"
                 },
                 "fullDescription": {
-                    "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса)",
-                    "en": "Changes in the date or route before departure (more than 40 minutes before departure)"
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
-                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
-                },
-                "fullDescription": {
-                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
-                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                    "ru": "Изменения даты запрещены",
+                    "en": "Date changes are not available"
                 },
                 "needToPay": "notAvailable"
             },
@@ -169,20 +157,8 @@
                     "en": "Refund possibility"
                 },
                 "fullDescription": {
-                    "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Fee for ticket issuance is non-refundable."
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возможность возврата",
-                    "en": "Refund possibility"
-                },
-                "fullDescription": {
-                    "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Fee for ticket issuance is non-refundable."
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable."
                 },
                 "needToPay": "notAvailable"
             },
@@ -342,24 +318,12 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения даты или маршрута до отправления рейса",
-                    "en": "Changes to date or route prior to departure"
+                    "ru": "Изменение даты вылета",
+                    "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса)",
-                    "en": "Changes in the date or route before departure (more than 40 minutes before departure)"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
-                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
-                },
-                "fullDescription": {
-                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
-                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
+                    "ru": "Изменение даты вылета разрешено со сборами",
+                    "en": "Date changes — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
@@ -370,20 +334,8 @@
                     "en": "Refund possibility"
                 },
                 "fullDescription": {
-                    "ru": "Возврат по билету до отправления рейса (более 40 минут до вылета рейса). Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Return on the ticket to the departure of the flight (more than 40 minutes before the departure of the flight). Fee for ticket issuance is non-refundable."
-                },
-                "needToPay": "notAvailable"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возможность возврата",
-                    "en": "Refund possibility"
-                },
-                "fullDescription": {
-                    "ru": "Возврат по билету менее, чем за 40 минут до вылета рейса или после вылета рейса в случае NO-SHOW (не явка на рейс). Сбор за оформление авиабилета возврату не подлежит",
-                    "en": "Return on the ticket less than 40 minutes before the departure of the flight or after the departure of the flight in case of NO-SHOW (no appearance at the flight). Fee for ticket issuance is non-refundable."
+                    "ru": "Тариф полностью невозвратный",
+                    "en": "Non-refundable."
                 },
                 "needToPay": "notAvailable"
             },
@@ -542,24 +494,12 @@
             {
                 "code": "exchangeable",
                 "shortDescription": {
-                    "ru": "Изменения даты или маршрута до отправления рейса",
-                    "en": "Changes to date or route prior to departure"
+                    "ru": "Изменение даты вылета",
+                    "en": "Exchange"
                 },
                 "fullDescription": {
-                    "ru": "Изменения даты или маршрута до отправления рейса (более 40 минут до вылета рейса). Разрешены,без сборов, возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
-                    "en": "Changes in the date or route before departure (more than 40 minutes before departure). Allowed, without fees, it is possible to supplement the difference to the available fare level at the time of ticket exchange."
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс)",
-                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight)"
-                },
-                "fullDescription": {
-                    "ru": "Изменения в билете менее, чем за 40 минут до вылета рейса или после вылета рейса, в случае NO-SHOW (не явка на рейс). Возможна доплата разницы до доступного уровня тарифа на момент обмена билета.",
-                    "en": "Changes in the ticket less than 40 minutes before the flight departure or after the flight departure, in the case of NO-SHOW (no appearance at the flight). Surcharge possible difference to the available fare level at the time of ticket exchange."
+                    "ru": "Изменение даты вылета разрешено со сборами",
+                    "en": "Date changes — available. A fee applies"
                 },
                 "needToPay": "charge"
             },
