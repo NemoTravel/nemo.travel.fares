@@ -1,0 +1,70 @@
+[
+  {
+    "owner": "G3",
+    "baseClass": "economy",
+    "priority": 1,
+    "tariffCodePattern": "^[TB]NACAB[23]R\\w*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Эконом",
+          "en": "Economy"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "carryOn",
+        "shortDescription": {
+          "ru": "1 место",
+          "en": "1 item"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "1 место",
+          "en": "1 item"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": "free"
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен со сборами",
+          "en": "Refundable. A fee applies"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "exchangeable",
+        "shortDescription": {
+          "ru": "Изменения",
+          "en": "Changes"
+        },
+        "fullDescription": {
+          "ru": "Изменения разрешены со сборами",
+          "en": "Changes are available. A fee applies"
+        },
+        "needToPay": "charge"
+      }
+    ]
+  }
+]
