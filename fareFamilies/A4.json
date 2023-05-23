@@ -104,10 +104,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат билета разрешен без сбора",
+                    "ru": "Тариф полностью невозвратный",
                     "en": "Refundable. No fee applies"
                 },
-                "needToPay": "free"
+                "needToPay": "notAvailable"
             }
         ]
     },

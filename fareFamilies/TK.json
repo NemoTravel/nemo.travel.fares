@@ -2,8 +2,8 @@
     {
         "owner": "TK",
         "baseClass": "economy",
-        "priority": 1,
-        "tariffCodePattern": "^(EcoFly)$|^[BMAHSOEQTLVWP]\\w*(CL)\\w*$",
+        "priority": 4,
+        "tariffCodePattern": "^(EcoFly)$|^[BMAHSOEQTLVWPU]\\w*(CL)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -70,8 +70,8 @@
     {
         "owner": "TK",
         "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "^(ExtraFly)$|^[BMAHSOEQTLVWP]\\w*(LG)\\w*$",
+        "priority": 5,
+        "tariffCodePattern": "^(ExtraFly)$|^[BMAHSOEQTLVWPU]\\w*(LG)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -138,76 +138,8 @@
     {
         "owner": "TK",
         "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "^[BMAHSOEQTLWP]\\w*(JS|SR)\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "ExtraFly",
-                    "en": "ExtraFly"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 8 кг",
-                    "en": "1 item up to 8 kg"
-                },
-                "fullDescription": {
-                    "ru": "1 место ручной клади до 8 кг, 55 x 40 x 23 см",
-                    "en": "1 handbag up to 8 kg, up to 55x40x23 cm"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "До 20 кг",
-                    "en": "Up to 20 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Переоформление",
-                    "en": "Reissue"
-                },
-                "fullDescription": {
-                    "ru": "В связи с пандемией, ExtraJet билеты, приобретённые до 31 мая 2022 г., могут быть переоформлены без штрафов. В ином случае переоформление разрешено с доплатой",
-                    "en": "Due to pandemic, all ExtraJet tickets issued or to be issued before May 31, 2022 are available for changes without any charge. In other cases, changes are permitted with extra charge"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат билета",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Тариф полностью невозвратный. Для перелетов в/из Ирана и Израиля возврат возможен со штрафом",
-                    "en": "Non-refundable. Refund is permitted with extra charge on routes to/from Israel and Iran"
-                },
-                "needToPay": "notAvailable"
-            }
-        ]
-    },
-    {
-        "owner": "TK",
-        "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^(PrimeFly)$|^[BMAHSOEQTLVWP]\\w*(FL)\\w*$",
+        "priority": 6,
+        "tariffCodePattern": "^(PrimeFly)$|^[BMAHSOEQTLVWPU]\\w*(FL)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -276,7 +208,7 @@
     {
         "owner": "TK",
         "baseClass": "business",
-        "priority": 4,
+        "priority": 7,
         "tariffCodePattern": "^(BusinessFly)$|^[CDJKZ]\\w*(BF)\\w*$",
         "parameters": [
             {
@@ -380,7 +312,7 @@
     {
         "owner": "TK",
         "baseClass": "business",
-        "priority": 5,
+        "priority": 8,
         "tariffCodePattern": "^(BusinessPrime)$|^[CDJKZ]\\w*(BL)\\w*$",
         "parameters": [
             {
@@ -485,7 +417,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[BMAHSOEQTLWP]\\w*(JR|RR)\\w*$",
+        "tariffCodePattern": "^[BMAHSOEQTLWPFUV]\\w*(JR|RR)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -553,7 +485,7 @@
         "owner": "TK",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^[BMAHSOEQTLWP]\\w*(JF|FR)\\w*$",
+        "tariffCodePattern": "^[BMAHSOEQTLWPFUV]\\w*(JF|FR)\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -612,10 +544,423 @@
                     "en": "Reissue"
                 },
                 "fullDescription": {
-                    "ru": "Переоформление разрешено без сбора",
-                    "en": "A change fee is not applied"
+                    "ru": "Переоформление разрешено без сбора. В случае неявки — со сбором",
+                    "en": "A change fee is not applied. A fee applies in case of no-show"
                 },
                 "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "TK",
+        "baseClass": "business",
+        "priority": 13,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Business Flex",
+                    "en": "Business Flex"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 8 кг каждое",
+                    "en": "2 items up to 8 kg each"
+                },
+                "fullDescription": {
+                    "ru": "2 места ручной клади до 8 кг, 55 x 40 x 23 см каждое",
+                    "en": "2 handbags up to 8 kg, up to 55x40x23 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен",
+                    "en": "Changes are permitted"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес-зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в бизнес-зал предоставляется в тех аэропортах, где данная услуга доступна",
+                    "en": "Lounge access is provided at selected airports"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority Check-In"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": "Priority Boarding"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "TK",
+        "baseClass": "business",
+        "priority": 12,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Business Restricted",
+                    "en": "Business Restricted"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сбором. Условия обмена могут отличаться в зависимости от рейса, для подробностей можно ознакомиться с условиями применения тарифа",
+                    "en": "Changes are permitted with a fee. Exchangeability varies based on flight, please read the fare rules"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 8 кг каждое",
+                    "en": "2 items up to 8 kg each"
+                },
+                "fullDescription": {
+                    "ru": "2 места ручной клади до 8 кг, 55 x 40 x 23 см каждое",
+                    "en": "2 handbags up to 8 kg, up to 55x40x23 cm each"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сбором. Условия возврата могут отличаться в зависимости от рейса, для подробностей можно ознакомиться с условиями применения тарифа",
+                    "en": "Refundable before departure with a fee. Refundability varies based on flight, please read the fare rules"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Бизнес-зал",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
+                    "ru": "Доступ в бизнес-зал предоставляется в тех аэропортах, где данная услуга доступна",
+                    "en": "Lounge access is provided at selected airports"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная регистрация",
+                    "en": "Priority Check-In"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная регистрация предлагается в тех аэропортах, где данные услуги доступны",
+                    "en": "Priority check-in is available at selected airports"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Приоритетная посадка",
+                    "en": "Priority Boarding"
+                },
+                "fullDescription": {
+                    "ru": "Приоритетная посадка предлагается в тех аэропортах, где данные услуги доступны",
+                    "en": "Priority boarding is available at selected airports"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "TK",
+        "baseClass": "economy",
+        "priority": 11,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Flexible",
+                    "en": "Flexible"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место ручной клади до 8 кг, 55 x 40 x 23 см",
+                    "en": "1 handbag up to 8 kg, up to 55x40x23 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 30 кг",
+                    "en": "Up to 30 kg",
+                    "ua": "До 30 кілограмів"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен",
+                    "en": "Changes are permitted"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "TK",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[BMAHSOEQTLWPFUV]\\w*(JS|SR)\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "ExtraJet",
+                    "en": "ExtraJet"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место ручной клади до 8 кг, 55 x 40 x 23 см",
+                    "en": "1 handbag up to 8 kg, up to 55x40x23 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 20 кг",
+                    "en": "Up to 20 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Переоформление",
+                    "en": "Reissue"
+                },
+                "fullDescription": {
+                    "ru": "В связи с пандемией, ExtraJet билеты, приобретённые до 31 мая 2022 г., могут быть переоформлены без штрафов. В ином случае переоформление разрешено с доплатой",
+                    "en": "Due to pandemic, all ExtraJet tickets issued or to be issued before May 31, 2022 are available for changes without any charge. In other cases, changes are permitted with extra charge"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Тариф полностью невозвратный. Для перелетов в/из Ирана и Израиля возврат возможен со штрафом",
+                    "en": "Non-refundable. Refund is permitted with extra charge on routes to/from Israel and Iran"
+                },
+                "needToPay": "notAvailable"
+            }
+        ]
+    },
+    {
+        "owner": "TK",
+        "baseClass": "economy",
+        "priority": 10,
+        "tariffCodePattern": "^([_])$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Restricted",
+                    "en": "Restricted"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 8 кг",
+                    "en": "1 item up to 8 kg"
+                },
+                "fullDescription": {
+                    "ru": "1 место ручной клади до 8 кг, 55 x 40 x 23 см",
+                    "en": "1 handbag up to 8 kg, up to 55x40x23 cm"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 30 кг",
+                    "en": "Up to 30 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Обмен билета",
+                    "en": "Changes"
+                },
+                "fullDescription": {
+                    "ru": "Обмен билета разрешен со сбором. Условия обмена могут отличаться в зависимости от рейса, для подробностей можно ознакомиться с условиями применения тарифа",
+                    "en": "Changes are permitted with a fee. Exchangeability varies based on flight, please read the fare rules"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат билета",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат билета до вылета разрешен со сбором. Условия возврата могут отличаться в зависимости от рейса, для подробностей можно ознакомиться с условиями применения тарифа",
+                    "en": "Refundable before departure with a fee. Refundability varies based on flight, please read the fare rules"
+                },
+                "needToPay": "charge"
             }
         ]
     }

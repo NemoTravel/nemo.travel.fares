@@ -3,7 +3,7 @@
         "owner": "Y7",
         "baseClass": "business",
         "priority": 4,
-        "tariffCodePattern": "^(([CDI])\\w*(LT)\\w*)$",
+        "tariffCodePattern": "^(([CDIZ])\\w*(LT)\\w*)$",
         "parameters": [
             {
                 "code": "description",
@@ -119,7 +119,7 @@
         "owner": "Y7",
         "baseClass": "business",
         "priority": 5,
-        "tariffCodePattern": "^(([CDI])\\w*(ST)\\w*)$",
+        "tariffCodePattern": "^(([CDIZ])\\w*(ST)\\w*)$",
         "parameters": [
             {
                 "code": "description",

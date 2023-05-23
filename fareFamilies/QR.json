@@ -2,7 +2,7 @@
     {
         "owner": "QR",
         "baseClass": "business",
-        "priority": 4,
+        "priority": 6,
         "tariffCodePattern": "^[R]\\w*$",
         "parameters": [
             {
@@ -36,8 +36,8 @@
                     "en": "Up to 40 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "На перелетах в/из Африки или Америки допустим провоз багажа в двух сумках (до 32 кг каждая). На остальных направления багаж не должен превышать 40 кг",
+                    "en": "Flights to/from Africa or Americas: 2 baggage pieces up to 32 kg each. Otherwise: baggage should not exceed 40 kg"
                 },
                 "needToPay": "free"
             },
@@ -70,7 +70,7 @@
     {
         "owner": "QR",
         "baseClass": "business",
-        "priority": 5,
+        "priority": 7,
         "tariffCodePattern": "^[ID]\\w*$",
         "parameters": [
             {
@@ -104,8 +104,8 @@
                     "en": "Up to 40 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "На перелетах в/из Африки или Америки допустим провоз багажа в двух сумках (до 32 кг каждая). На остальных направления багаж не должен превышать 40 кг",
+                    "en": "Flights to/from Africa or Americas: 2 baggage pieces up to 32 kg each. Otherwise: baggage should not exceed 40 kg"
                 },
                 "needToPay": "free"
             },
@@ -150,7 +150,7 @@
     {
         "owner": "QR",
         "baseClass": "business",
-        "priority": 6,
+        "priority": 8,
         "tariffCodePattern": "^[CJ]\\w*$",
         "parameters": [
             {
@@ -184,8 +184,292 @@
                     "en": "Up to 40 kg"
                 },
                 "fullDescription": {
+                    "ru": "На перелетах в/из Африки или Америки допустим провоз багажа в двух сумках (до 32 кг каждая). На остальных направления багаж не должен превышать 40 кг",
+                    "en": "Flights to/from Africa or Americas: 2 baggage pieces up to 32 kg each. Otherwise: baggage should not exceed 40 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты",
+                    "en": "Date Change"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты разрешено",
+                    "en": "Date change is permitted"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "vipService",
+                "shortDescription": {
+                    "ru": "Доступ в зал ожидания",
+                    "en": "Lounge Access"
+                },
+                "fullDescription": {
                     "ru": "",
                     "en": ""
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "QR",
+        "baseClass": "economy",
+        "priority": 2,
+        "tariffCodePattern": "^[OTQN]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Classic",
+                    "en": "Classic"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 25 кг",
+                    "en": "Up to 25 kg"
+                },
+                "fullDescription": {
+                    "ru": "На перелетах в/из Африки или Америки допустим провоз багажа в двух сумках (до 23 кг каждая). На перелетах из Дохи (Катар) багаж не должен превышать 30 кг. На остальных направления багаж не должен превышать 25 кг",
+                    "en": "Flights to/from Africa or Americas: 2 baggage pieces up to 23 kg each. Flights from Doha: baggage should not exceed 30 kg. Otherwise: baggage should not exceed 25 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты",
+                    "en": "Date Change"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты разрешено со сбором",
+                    "en": "Date change is permitted with a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "QR",
+        "baseClass": "economy",
+        "priority": 4,
+        "tariffCodePattern": "^[HBY]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Comfort",
+                    "en": "Comfort"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 35 кг",
+                    "en": "Up to 35 kg"
+                },
+                "fullDescription": {
+                    "ru": "На перелетах в/из Африки или Америки допустим провоз багажа в двух сумках (до 23 кг каждая). На остальных направления багаж не должен превышать 35 кг",
+                    "en": "Flights to/from Africa or Americas: 2 baggage pieces up to 23 kg each. Otherwise: baggage should not exceed 35 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты",
+                    "en": "Date Change"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты разрешено",
+                    "en": "Date change is permitted"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен",
+                    "en": "Refundable"
+                },
+                "needToPay": "free"
+            }
+        ]
+    },
+    {
+        "owner": "QR",
+        "baseClass": "economy",
+        "priority": 3,
+        "tariffCodePattern": "^[SVLMK]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "Convenience",
+                    "en": "Convenience"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "1 место до 7 кг",
+                    "en": "1 item up to 7 kg"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 30 кг",
+                    "en": "Up to 30 kg"
+                },
+                "fullDescription": {
+                    "ru": "На перелетах в/из Африки или Америки допустим провоз багажа в двух сумках (до 23 кг каждая). На остальных направления багаж не должен превышать 30 кг",
+                    "en": "Flights to/from Africa or Americas: 2 baggage pieces up to 23 kg each. Otherwise: baggage should not exceed 30 kg"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты",
+                    "en": "Date Change"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты разрешено со сбором",
+                    "en": "Date change is permitted with a fee"
+                },
+                "needToPay": "charge"
+            },
+            {
+                "code": "refundable",
+                "shortDescription": {
+                    "ru": "Возврат",
+                    "en": "Refund"
+                },
+                "fullDescription": {
+                    "ru": "Возврат разрешен со сбором",
+                    "en": "Refundable. A fee applies"
+                },
+                "needToPay": "charge"
+            }
+        ]
+    },
+    {
+        "owner": "QR",
+        "baseClass": "first",
+        "priority": 9,
+        "tariffCodePattern": "^[AF]\\w*$",
+        "parameters": [
+            {
+                "code": "description",
+                "shortDescription": {
+                    "ru": "First Class Elite",
+                    "en": "First Class Elite"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": null
+            },
+            {
+                "code": "carryOn",
+                "shortDescription": {
+                    "ru": "2 места до 15 кг в сумме",
+                    "en": "2 items up to 15 kg in total"
+                },
+                "fullDescription": {
+                    "ru": "",
+                    "en": ""
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "До 50 кг",
+                    "en": "Up to 50 kg"
+                },
+                "fullDescription": {
+                    "ru": "На перелетах в/из Африки или Америки допустим провоз багажа в двух сумках (до 32 кг каждая). На остальных направления багаж не должен превышать 50 кг",
+                    "en": "Flights to/from Africa or Americas: 2 baggage pieces up to 32 kg each. Otherwise: baggage should not exceed 50 kg"
                 },
                 "needToPay": "free"
             },
@@ -231,19 +515,31 @@
         "owner": "QR",
         "baseClass": "economy",
         "priority": 1,
-        "tariffCodePattern": "^[OTQN]\\w*$",
+        "tariffCodePattern": "^[W]\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Classic",
-                    "en": "Classic"
+                    "ru": "Lite",
+                    "en": "Lite"
                 },
                 "fullDescription": {
                     "ru": "",
                     "en": ""
                 },
                 "needToPay": null
+            },
+            {
+                "code": "exchangeable",
+                "shortDescription": {
+                    "ru": "Изменение даты",
+                    "en": "Date Change"
+                },
+                "fullDescription": {
+                    "ru": "Изменение даты разрешено со сбором",
+                    "en": "Date change is permitted with a fee"
+                },
+                "needToPay": "charge"
             },
             {
                 "code": "carryOn",
@@ -260,26 +556,14 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "До 25 кг",
-                    "en": "Up to 25 kg"
+                    "ru": "До 20 кг",
+                    "en": "Up to 20 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "На перелетах в/из Африки или Америки допустим провоз багажа в одной сумке (до 23 кг). На остальных направления багаж не должен превышать 20 кг",
+                    "en": "Flights to/from Africa or Americas: 1 baggage piece up to 23 kg. Otherwise: baggage should not exceed 20 kg"
                 },
                 "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Change"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты разрешено со сбором",
-                    "en": "Date change is permitted with a fee"
-                },
-                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -297,151 +581,15 @@
     },
     {
         "owner": "QR",
-        "baseClass": "economy",
-        "priority": 3,
-        "tariffCodePattern": "^[HBY]\\w*$",
+        "baseClass": "business",
+        "priority": 5,
+        "tariffCodePattern": "^[P]\\w*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Comfort",
-                    "en": "Comfort"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 7 кг",
-                    "en": "1 item up to 7 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "До 35 кг",
-                    "en": "Up to 35 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Change"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты разрешено",
-                    "en": "Date change is permitted"
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат разрешен",
-                    "en": "Refundable"
-                },
-                "needToPay": "free"
-            }
-        ]
-    },
-    {
-        "owner": "QR",
-        "baseClass": "economy",
-        "priority": 2,
-        "tariffCodePattern": "^[SVLMK]\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "Convenience",
-                    "en": "Convenience"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": null
-            },
-            {
-                "code": "carryOn",
-                "shortDescription": {
-                    "ru": "1 место до 7 кг",
-                    "en": "1 item up to 7 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "baggage",
-                "shortDescription": {
-                    "ru": "До 30 кг",
-                    "en": "Up to 30 kg"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
-            },
-            {
-                "code": "exchangeable",
-                "shortDescription": {
-                    "ru": "Изменение даты",
-                    "en": "Date Change"
-                },
-                "fullDescription": {
-                    "ru": "Изменение даты разрешено со сбором",
-                    "en": "Date change is permitted with a fee"
-                },
-                "needToPay": "charge"
-            },
-            {
-                "code": "refundable",
-                "shortDescription": {
-                    "ru": "Возврат",
-                    "en": "Refund"
-                },
-                "fullDescription": {
-                    "ru": "Возврат разрешен со сбором",
-                    "en": "Refundable. A fee applies"
-                },
-                "needToPay": "charge"
-            }
-        ]
-    },
-    {
-        "owner": "QR",
-        "baseClass": "first",
-        "priority": 7,
-        "tariffCodePattern": "^[APF]\\w*$",
-        "parameters": [
-            {
-                "code": "description",
-                "shortDescription": {
-                    "ru": "First Class Elite",
-                    "en": "First Class Elite"
+                    "ru": "Business Lite",
+                    "en": "Business Lite"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -464,12 +612,12 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "До 50 кг",
-                    "en": "Up to 50 kg"
+                    "ru": "До 40 кг",
+                    "en": "Up to 40 kg"
                 },
                 "fullDescription": {
-                    "ru": "",
-                    "en": ""
+                    "ru": "На перелетах в/из Африки или Америки допустим провоз багажа в двух сумках (до 32 кг каждая). На остальных направления багаж не должен превышать 40 кг",
+                    "en": "Flights to/from Africa or Americas: 2 baggage pieces up to 32 kg each. Otherwise: baggage should not exceed 40 kg"
                 },
                 "needToPay": "free"
             },
@@ -480,10 +628,10 @@
                     "en": "Date Change"
                 },
                 "fullDescription": {
-                    "ru": "Изменение даты разрешено",
-                    "en": "Date change is permitted"
+                    "ru": "Изменение даты разрешено со сбором",
+                    "en": "Date change is permitted with a fee"
                 },
-                "needToPay": "free"
+                "needToPay": "charge"
             },
             {
                 "code": "refundable",
@@ -492,22 +640,10 @@
                     "en": "Refund"
                 },
                 "fullDescription": {
-                    "ru": "Возврат разрешен",
-                    "en": "Refundable"
+                    "ru": "Возврат разрешен со сбором",
+                    "en": "Refundable. A fee applies"
                 },
-                "needToPay": "free"
-            },
-            {
-                "code": "vipService",
-                "shortDescription": {
-                    "ru": "Доступ в зал ожидания",
-                    "en": "Lounge Access"
-                },
-                "fullDescription": {
-                    "ru": "",
-                    "en": ""
-                },
-                "needToPay": "free"
+                "needToPay": "charge"
             }
         ]
     }

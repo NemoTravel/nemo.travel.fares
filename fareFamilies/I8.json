@@ -3,7 +3,7 @@
         "owner": "I8",
         "baseClass": "economy",
         "priority": 3,
-        "tariffCodePattern": "^([KGQL])\\w*$",
+        "tariffCodePattern": "^([EQGKLXVTMHWNSJ](LT))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -71,7 +71,7 @@
         "owner": "I8",
         "baseClass": "economy",
         "priority": 4,
-        "tariffCodePattern": "^([XTVM])\\w*$",
+        "tariffCodePattern": "^([EQGKLXVTMHWNSJ](ST))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -207,7 +207,7 @@
         "owner": "I8",
         "baseClass": "economy",
         "priority": 5,
-        "tariffCodePattern": "^([HWNS])\\w*$",
+        "tariffCodePattern": "^([EQGKLXVTMHWNSJ](PL))\\w*$",
         "parameters": [
             {
                 "code": "description",
@@ -411,7 +411,7 @@
         "owner": "I8",
         "baseClass": "economy",
         "priority": 2,
-        "tariffCodePattern": "^([OE])\\w*$",
+        "tariffCodePattern": "^([O])\\w*$",
         "parameters": [
             {
                 "code": "description",

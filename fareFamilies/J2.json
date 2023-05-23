@@ -413,9 +413,9 @@
     },
     {
         "owner": "J2",
-        "baseClass": "economy",
+        "baseClass": "business",
         "priority": 11,
-        "tariffCodePattern": "^[СD]\\w*(CP)((?!BA|BB|BS).)*$",
+        "tariffCodePattern": "^[CD]\\w*(CP)((?!BA|BB|BS).)*$",
         "parameters": [
             {
                 "code": "description",
@@ -807,13 +807,13 @@
         "owner": "J2",
         "baseClass": "economy",
         "priority": 10,
-        "tariffCodePattern": "^[PXVUHOTLBNSY]\\w*(FX)((?!BA|BB|BS).)*$",
+        "tariffCodePattern": "^[MKPXVUHOTLBNY]\\w*(PU)((?!BA|BB|BS).)*$",
         "parameters": [
             {
                 "code": "description",
                 "shortDescription": {
-                    "ru": "Надёжный",
-                    "en": "Safe"
+                    "ru": "Плюс",
+                    "en": "Plus"
                 },
                 "fullDescription": {
                     "ru": "",
@@ -836,12 +836,12 @@
             {
                 "code": "baggage",
                 "shortDescription": {
-                    "ru": "1 сумка до 23 кг",
-                    "en": "1 item up to 23 kg"
+                    "ru": "1 сумка до 32 кг",
+                    "en": "1 item up to 32 kg"
                 },
                 "fullDescription": {
-                    "ru": "Для рейсов AZAL — 1 сумка до 23 кг. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
-                    "en": "In case of AZAL flight — 1 item up to 23 kg. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
+                    "ru": "Для рейсов AZAL — 1 сумка до 32 кг. Для рейсов AZALJet (J2 8XXX) не разрешается бесплатная норма провоза багажа",
+                    "en": "In case of AZAL flight — 1 item up to 32 kg. In case of AZALJet flight (J2 8XXX) — no free baggage allowance"
                 },
                 "needToPay": "free"
             },
@@ -876,10 +876,10 @@
                     "en": "Rebooking Before Departure"
                 },
                 "fullDescription": {
-                    "ru": "Перебронирование до вылета разрешено со штрафом",
-                    "en": "Rebooking before departure — available. A fee applies"
+                    "ru": "Перебронирование до вылета разрешено без штрафа",
+                    "en": "Rebooking before departure — available. No fee applies"
                 },
-                "needToPay": "charge"
+                "needToPay": "free"
             },
             {
                 "code": "exchangeable",
